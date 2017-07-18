@@ -1,17 +1,26 @@
-title: catch-the-dots
+---
 hero_image: images/banner.png
-description: catch-the-dots description
-original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
-theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
-duration: 1 # possible values: 1, 2 or 3
+theme: red
+duration: 1
 listed: false
 ingredient: false
 copyedit: false
 curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
-interests: "games, robots, jokes/pranks, space, photography, music/sound, physical computing"
-technologies: "html/css, scratch, electronics, physical computing, python"
-site_areas:
+title: Catch the Dots
+description: Learn how to make a dot-catching game.
+original_url: https://codeclubprojects.org/en-GB/scratch/catch-the-dots
+interests: ''
+technologies: scratch
+site_areas: codeclub, scratch
 steps:
-  - title: Introduction
-  - title: What you will need
-  - title: Step title
+- title: Introduction
+- title: Creating a controller
+- title: 'Challenge: Spinning left'
+- title: Collecting dots
+- title: 'Challenge: More dots'
+- title: Increasing the difficulty
+- title: 'Challenge: Faster moving dots'
+- title: High score
+- title: 'Challenge: Improve your game!'
+- title: 'Challenge: Game menu'
+
