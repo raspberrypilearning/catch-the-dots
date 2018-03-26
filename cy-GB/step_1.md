@@ -41,5 +41,5 @@ Mae'r prosiect yma yn trin elfennau sydd yn rhan o'r adran ganlynol o [Faes Llaf
 + "Troi i'r chwith" - creu côd i symud y rheolwr;
 + "Mwy o ddotiau" - creu mwy o ddotiau lliw sydd angen cyd-fynd â rhannau o'r rheolwr; 
 + "Dotiau yn symud yn gynt" - defnyddio newidyn i gynyddu cyflymder y dotiau trwy gydol y gêm; 
-+ "Gwella dy gêm!" - ychwanegu dotiau newydd sydd yn effeithio'r newidyn 'sgôr {.blockdata}, 'oedi' {.blockdata} a 'cyflymder' {.blockdata}; 
++ "Gwella dy gêm!" - ychwanegu dotiau newydd sydd yn effeithio'r newidyn `sgôr`{:class="blockdata"}, `oedi`{:class="blockdata"} a `cyflymder`{:class="blockdata"}; 
 + "Dewislen gêm" - creu dewislen gyda chefndiroedd amrywiol a botymau i symud rhyngddynt. 
