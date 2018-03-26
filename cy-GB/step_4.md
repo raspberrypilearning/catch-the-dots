@@ -22,7 +22,7 @@ Fe wnawn ni ychwanegu dotiau i'r chwareuwr eu casglu gyda'r rheolwr.
 
 	![screenshot](images/dots-start.png)
 
-	I wneud hyn, bydd angen yn gyntaf creu __rhestr__ o'r enw 'safle cychwyn' {.blockdata} a chlicio'r `(+)` i ychwanegu `-180` a `180`.
+	I wneud hyn, bydd angen yn gyntaf creu __rhestr__ o'r enw `safle cychwyn`{:class="blockdata"} a chlicio'r `(+)` i ychwanegu `-180` a `180`.
 
 	![screenshot](images/dots-list.png)
 
@@ -44,11 +44,11 @@ Fe wnawn ni ychwanegu dotiau i'r chwareuwr eu casglu gyda'r rheolwr.
 
 	![screenshot](images/dots-red-test.png)
 
-+ Bydd angen creu 2 newidyn newydd o'r enw 'bywydau' {.blockdata} a 'sgôr' {.blockdata}.
++ Bydd angen creu 2 newidyn newydd o'r enw `bywydau`{:class="blockdata"} a `sgôr`{:class="blockdata"}.
 
-+ Ychwanega côd i dy lwyfan i osod 'bywydau' {.blockdata} i 3 a'r 'sgôr' {.blockdata} i 0 ar ddechrau'r gêm.
++ Ychwanega côd i dy lwyfan i osod `bywydau`{:class="blockdata"} i 3 a'r `sgôr`{:class="blockdata"} i 0 ar ddechrau'r gêm.
 
-+ Bydd angen i ti ychwanegu côd i ddeiwedd côd dy ddot coch 'pan dechreuaf fel clôn' {.blockcontrol}, fel bod unai 1 yn cael ei ychwanegu i 'sgôr' {.blockdata} y chwareuwr os yw'r lliwiau'n cyd-fynd, neu 1 yn cael ei gymryd i ffwrdd o 'fywydau' {.blockdata} y chwareuwr os nad yw'r lliwiau yn cyd-fynd.
++ Bydd angen i ti ychwanegu côd i ddeiwedd côd dy ddot coch `pan dechreuaf fel clôn`{:class="blockcontrol"}, fel bod unai 1 yn cael ei ychwanegu i `sgôr`{:class="blockdata"} y chwareuwr os yw'r lliwiau'n cyd-fynd, neu 1 yn cael ei gymryd i ffwrdd o `fywydau`{:class="blockdata"} y chwareuwr os nad yw'r lliwiau yn cyd-fynd.
 
 	```blocks
 		symud (5) cam
