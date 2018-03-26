@@ -2,9 +2,9 @@
 
 Nesaf, rydym am arbed y sgôr uchel fel bod y chwareuwyr yn gwybod pa mor dda maent yn ei wneud.
 
-+ Bydd angen creu newidyn newydd o'r enw 'sgôr uchel' {.blockdata}.
++ Bydd angen creu newidyn newydd o'r enw `sgôr uchel`{:class="blockdata"}.
 
-+ Clicia ar dy lwyfan, a chreu bloc newydd o'r enw 'gwirio sgôr uchel' {.blockmoreblocks}.
++ Clicia ar dy lwyfan, a chreu bloc newydd o'r enw `gwirio sgôr uchel`{:class="blockmoreblocks"}.
 
 	![screenshot](images/dots-custom-1.png)
 
@@ -12,7 +12,7 @@ Nesaf, rydym am arbed y sgôr uchel fel bod y chwareuwyr yn gwybod pa mor dda ma
 
 	![screenshot](images/dots-custom-2.png)
 
-+ Ychwanega côd i dy floc newydd i arbed y 'sgôr' {.blockdata} cyfredol fel 'sgôr uchel' {.blockdata} 'os' {.blockcontrol} mai dyma'r sgôr uchaf hyd yn hyn:
++ Ychwanega côd i dy floc newydd i arbed y `sgôr`{:class="blockdata"} cyfredol fel `sgôr uchel`{:class="blockdata"} `os`{:class="blockcontrol"} mai dyma'r sgôr uchaf hyd yn hyn:
 
 	```blocks
 		diffinio [gwirio sgôr uchel]
@@ -21,7 +21,7 @@ Nesaf, rydym am arbed y sgôr uchel fel bod y chwareuwyr yn gwybod pa mor dda ma
 		end
 	```
 
-+ Profa'r côd rwyt ti wedi ei ychwanegu.  Chwarae dy gêm i weld os yw dy 'sgôr uchel' {.blockdata} wedi ei ddiweddaru'n gywir.
++ Profa'r côd rwyt ti wedi ei ychwanegu.  Chwarae dy gêm i weld os yw dy `sgôr uchel`{:class="blockdata"} wedi ei ddiweddaru'n gywir.
 
 
 
