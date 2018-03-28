@@ -7,6 +7,11 @@ Yn y prosiect yma fe fyddi di'n dysgu sut i greu gêm, lle mae angen i ti sicrha
   <img src="images/dots-final.png">
 </div>
 
+--- collapse ---
+---
+title: Nodiadau i Wirfoddolwyr
+---
+
 ## Adnoddau
 Ar gyfer y prosiect yma, dylid defnyddio Scratch 2.  Mae modd defnyddio Scratch 2 arlein yma [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) neu mae modd ei lawrlwytho yma [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) a'i ddefnyddio heb gysylltiad gwe.
 
@@ -43,3 +48,5 @@ Mae'r prosiect yma yn trin elfennau sydd yn rhan o'r adran ganlynol o [Faes Llaf
 + "Dotiau yn symud yn gynt" - defnyddio newidyn i gynyddu cyflymder y dotiau trwy gydol y gêm; 
 + "Gwella dy gêm!" - ychwanegu dotiau newydd sydd yn effeithio'r newidyn `sgôr`{:class="blockdata"}, `oedi`{:class="blockdata"} a `cyflymder`{:class="blockdata"}; 
 + "Dewislen gêm" - creu dewislen gyda chefndiroedd amrywiol a botymau i symud rhyngddynt. 
+
+--- collapse ---
