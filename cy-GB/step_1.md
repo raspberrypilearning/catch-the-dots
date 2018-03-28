@@ -49,4 +49,4 @@ Mae'r prosiect yma yn trin elfennau sydd yn rhan o'r adran ganlynol o [Faes Llaf
 + "Gwella dy gêm!" - ychwanegu dotiau newydd sydd yn effeithio'r newidyn `sgôr`{:class="blockdata"}, `oedi`{:class="blockdata"} a `cyflymder`{:class="blockdata"}; 
 + "Dewislen gêm" - creu dewislen gyda chefndiroedd amrywiol a botymau i symud rhyngddynt. 
 
---- collapse ---
+--- /collapse ---
