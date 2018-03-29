@@ -21,7 +21,7 @@ Vamos a añadir algunos puntos que el jugador tendrá que recoger con el control
 
 	![screenshot](images/dots-start.png)
 
-	Para hacer esto, primero tendrás que crear una nueva lista llamada `posiciones de inicio` {.blockdata} y hacer clic en `(+)` para añadir los valores `-180` y `180`.
+	Para hacer esto, primero tendrás que crear una nueva lista llamada `posiciones de inicio`{:class="blockdata"} y hacer clic en `(+)` para añadir los valores `-180` y `180`.
 
 	![screenshot](images/dots-list.png)
 
@@ -45,7 +45,7 @@ Vamos a añadir algunos puntos que el jugador tendrá que recoger con el control
 
 + Crea 2 nuevas variables con los nombres `vidas`{:class="blockdata"} y `puntuación`{:class="blockdata"}.
 
-+ Añade código al escenario para fijar las `vidas` {.blockdata} a 3 y la `puntuación`{:class="blockdata"} a 0 cuando empieza el juego.
++ Añade código al escenario para fijar las `vidas`{:class="blockdata"} a 3 y la `puntuación`{:class="blockdata"} a 0 cuando empieza el juego.
 
 + Tendrás que añadir instrucciones al final del código del punto rojo `al comenzar como clon`{:class="blockcontrol"}, para que o se sume 1 a la `puntuación`{:class="blockdata"} del jugador si los colores coinciden, o se reste 1 de las `vidas`{:class="blockdata"} del jugador si los colores no coinciden.
 
