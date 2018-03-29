@@ -22,7 +22,7 @@ Ajoutons des points au jeu, que le joueur rassemblera avec son contrôleur.
 
 	![screenshot](images/dots-start.png)
 
-	Pour ce faire, créez d'abord une nouvelle liste appelée ` position début `{.blockdata} et cliquez sur ` (+) ` pour ajouter les valeurs '-180' et '180'.
+	Pour ce faire, créez d'abord une nouvelle liste appelée ` position début`{:class="blockdata"} et cliquez sur ` (+) ` pour ajouter les valeurs '-180' et '180'.
 
 	![screenshot](images/dots-list.png)
 
