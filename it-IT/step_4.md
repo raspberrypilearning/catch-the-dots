@@ -22,7 +22,7 @@ Aggiungiamo dei puntini che il giocatore dovrà raccogliere con il suo controlle
 
 	![screenshot](images/dots-start.png)
 
-	Per fare ciò, crea prima una nuova __lista__ chiamata `posizioni iniziali` {.blockdata} e clicca il `(+)` per aggiungere i valori `-180` e `180`.
+	Per fare ciò, crea prima una nuova __lista__ chiamata `posizioni iniziali`{:class="blockdata"} e clicca il `(+)` per aggiungere i valori `-180` e `180`.
 
 	![screenshot](images/dots-list.png)
 
