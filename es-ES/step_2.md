@@ -16,7 +16,7 @@ Empezaremos por crear un controlador, que usaremos para recoger los puntos.
 		al presionar bandera verde
 		por siempre
    			si <¿tecla [flecha derecha v] presionada?> entonces
-      			girar ↻ (3) grados
+      			girar a la izquierda (3) grados
    			fin
 		fin
 	```

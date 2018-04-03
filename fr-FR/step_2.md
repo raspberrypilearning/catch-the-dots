@@ -41,8 +41,8 @@ Commençons par créer un contrôleur qui sera utilisé pour rassembler des poin
 	```blocks
 		quand le drapeau vert pressé
 		répéter indéfiniment
-			si <touche [Flèche droite v] pressé?> alors
-				ajouter [Vitesse de contrôleur v] par (0.2)
+			si <touche [Flèche droite v] pressée?> alors
+				ajouter à [Vitesse de contrôleur v] (0.2)
 				sinon
 			end
 		end
@@ -54,7 +54,7 @@ Commençons par créer un contrôleur qui sera utilisé pour rassembler des poin
 
 	```blocks
 	si <(Vitesse de contrôleur) > [0.1]> alors
-		ajouter [Vitesse de contrôleur v] par (-0.2)
+		ajouter à [Vitesse de contrôleur v] (0.2)
 	end
 	```
 

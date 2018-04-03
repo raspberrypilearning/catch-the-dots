@@ -8,7 +8,7 @@ Créons un jeu qui devient de plus en plus difficile quand joueur survit plus lo
 
 	```blocks
 		quand le drapeau vert pressé
-		[delay v] prend la valeur (8)
+		mettre [delay v] à (8)
 		répéter jusqu’à <(delay) = (2)>
    			attendre (10) secondes
    			ajouter à [delay v] (-0.5)
