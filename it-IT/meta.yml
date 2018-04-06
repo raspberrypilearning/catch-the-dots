@@ -1,18 +1,22 @@
 ---
 hero_image: images/banner.png
-theme:  turquoise
+theme: turquoise
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Acchiappa Puntini
 description: Impara a creare un gioco acchiappa-puntini.
 original_url: https://codeclubprojects.org/en-GB/scratch/catch-the-dots
-interests: ''
+interests: games
 technologies: scratch
-site_areas: codeclub, scratch
-steps:
+site_areas: projects
+hardware: ''
+software: scratch
+version: 3
+last_tested: 2017-01-01
+steps: 
 - title: Introduzione
 - title: Creare un controller
 - title: 'Sfida: Ruotare a sinistra'
@@ -23,4 +27,3 @@ steps:
 - title: Punteggio alto
 - title: 'Sfida: Migliora il tuo gioco!'
 - title: 'Sfida: Menu partita'
-
