@@ -17,11 +17,10 @@
 + 向你的自定义模块添加代码， `如果`{:class="blockcontrol"} 当前分数是到目前为止为最高分，则将该 `分数`{:class="blockdata"} 储存为 `高分`{:class="blockdata"}： 
 
 	```blocks
-		定义 [object Object]
-		如果 <(score) > (high score)> 那么
-结束
-			将变量 [high score v] 的值设定为 (score)
-		结束
+		定义 (check high score)
+    如果 <(score) > (high score)> 那么 
+      变量 [high score v] 设为 (score)
+    end
 	```
 
 + 测试你所添加的代码。玩你的游戏来检查 `高分`{:class="blockdata"} 是否已正确更新。
