@@ -14,10 +14,10 @@
 
 	![screenshot](images/dots-custom-2.png)
 
-+ मौजूदा `स्कोर`{:class="blockdata"} को `उच्च स्कोर` के रूप में स्टोर करने के लिए अपने कस्टम ब्लाक में कोड जोड़ें {:class="blockdata"} `अगर `{:class="blockcontrol"} यह अभी तक का उचतम स्कोर है:
++ मौजूदा `स्कोर`{:class="blockdata"} को `उच्च स्कोर`{:class="blockdata"} के रूप में स्टोर करने के लिए अपने कस्टम ब्लाक में कोड जोड़ें `अगर `{:class="blockcontrol"} यह अभी तक का उचतम स्कोर है:
 
 	```blocks
-		स्पष्ट अर्थ बताइए [check high score]
+		स्पष्ट अर्थ बताइए (check high score)
 		अगर <(score) > (high score)> हो तो
 end
 			[high score v] पर (score) सेट करे
