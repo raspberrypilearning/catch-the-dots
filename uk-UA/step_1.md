@@ -1,79 +1,79 @@
-## Introduction
+## Вступ
 
-In this project you'll learn how to create a game, in which you have to match up coloured dots with the correct part of the controller.
+У цьому проекті діти навчаться створювати гру, в якій гравець повинен з'єднати кольорові крапки з відповідними частинами.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/44942820/?autostart=false" frameborder="0"></iframe>
   <img src="images/dots-final.png">
 </div>
 
-### Additional information for club leaders
+### Додаткова інформація для керівників
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print).
+Якщо вам потрібно надрукувати цей проект, будь ласка, використовуйте [Printer friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: Нотатки керівника клубу
 
-## Introduction:
+## Вступ:
 
-In this project children will learn how to make a game, in which the player has to match up coloured dots with the corresponding part of the controller.
+У цьому проекті діти навчаться створювати гру, в якій гравець повинен з'єднати кольорові крапки з відповідними частинами датчиків.
 
-## Resources
+## Ресурси
 
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+Для цього проекту використовуйте Scratch 2. Можна користуватись Scratch 2 онлайн на [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on)або завантажити на[jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) і використовувати офлайн.
 
-The 'Project Materials' link for this project contains the following resources:
+Посилання "Матеріали Проекту" містить такі ресурси:
 
-##### Club leader Resources
+##### Ресурси керівника проекту
 
-You can find a completed version of this project [online](http://scratch.mit.edu/projects/44942820/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+Повну версію цього проекту ви можете знайти [онлайн](http://scratch.mit.edu/projects/44942820/#editor), або завантажити за посиланням "Матеріали проекту", яке містить:
 
 * CatchTheDots.sb2
 
-##### Project Resources
+##### Ресурси проекту
 
-For this project, club members can make use of external resources that aren't available in the Scratch library:
+Для цього проекту, члени клубу можуть використовувати зовнішні ресурси, які не доступні у бібліотеці Scratch:
 
 * controller.svg.
 
-Make sure that each child has access to a copy of these resources.
+Переконайтеся, що кожна дитина має доступ до копії цих ресурсів.
 
-For club members that aren't able to access these project resources, there is a Scratch project with the external resources pre-loaded. This is available online at [jumpto.cc/dots-resources](http://jumpto.cc/dots-resources), or in the downloadable project materials, which contains:
+Для членів клубу, які не мають доступу до ресурсів цього проекту, ось проект у Scratch з уже завантаженими зовнішніми ресурсами. Він доступний на [jumpto.cc/dodge-resources](http://jumpto.cc/dots-resources), або у завантажуваних матеріалах проекту, які містять:
 
 * CatchTheDotsResources.sb2 
 
-## Learning Objectives
+## Мета навчання
 
-* This project consolidates learning of previous programming skills learnt.
+* Цей проект покращує навички, здобуті раніше.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Цей проект охоплює елементи з наступними стандартами оформлення навчального плану [Raspberry Pi](http://rpf.io/curriculum):
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Для вирішення проблеми об'єднайте конструкції програмування.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## Завдання
 
-* "Spinning left" - creating code to move the controller;
-* "More dots" - creating more coloured dots that need to match the correct part of the controller';
-* "Faster moving dots" - using a variable to increase the speed of the dots throughout the game;
-* "Improve your game!" - adding new dots that manipulate the `score`{:class="blockdata"}, `delay`{:class="blockdata"} and `speed`{:class="blockdata"} variables;
-* "Game menu" - creating a menu, with various stage backgrounds and buttons for moving between them.
+* "Поверніть ліворуч" - створення коду для переміщення індикатора;
+* "Збільшення кількості крапок "- створення кольорових крапок, які відповідають правильній частині індикатора ';
+* "Зміна швидкості крапок" - використання змінної для збільшення швидкості точок протягом всієї гри;
+* "Вдосконалюйте свою гру!" - додавання нових точок, за допомогою змінної `score`{:class="blockdata"}, `delay`{:class="blockdata"} and `speed`{:class="blockdata"};
+* "Меню гри" - створення меню з різними фоновими сценами та кнопками для переміщення між ними.
 
-\--- /collapse \---
+\---collapse\---
 
-## \--- collapse \---
+## \---collapse\---
 
-## title: Project materials
+## title: Матеріали проекту
 
-## Project resources
+## Ресурси проекту
 
-* [Online Scratch 2 project containing external resources](http://jumpto.cc/dots-resources)
-* [Downloadable Scratch 2 project containing external resources](resources/CatchTheDotsResources.sb2)
+* [Проект Scratch 2 із зовнішніми онлайн ресурсами](http://jumpto.cc/dots-resources)
+* [Проект Scratch 2 із зовнішніми онлайн ресурсами](resources/CatchTheDotsResources.sb2)
 * [controller.svg](resources/controller.svg)
 
-## Club leader resources
+## Ресурси керівника клубу
 
-* [Downloadable completed Scratch 2 project](resources/CatchTheDots.sb2)
-* [Online completed Scratch 2 project](http://scratch.mit.edu/projects/44942820/#editor)
+* [Повний проект Scratch 2 для завантаження](resources/CatchTheDots.sb2)
+* [Повний проект Scratch 2 онлайн](http://scratch.mit.edu/projects/44942820/#editor)
 
 \--- /collapse \---
