@@ -11,12 +11,12 @@ Let's start by creating a controller, that will be used to collect dots.
 + Turn your controller to the right when the right arrow key is pressed:
     
     ```blocks
-    when flag clicked
-    forever
-        if <key [right arrow v] pressed?> then
-            turn right (3) degrees
+        when flag clicked
+        forever
+            if <key [right arrow v] pressed?> then
+                turn right (3) degrees
+            end
         end
-    end
-```
+    ```
 
 + Test out your controller -- it should spin to the right.
