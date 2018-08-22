@@ -1,22 +1,22 @@
-## Creating a controller
+## Створення індикатора
 
-Let's start by creating a controller, that will be used to collect dots.
+Почнемо з створення функції, яка буде використовуватися для збору точок.
 
-+ Open the 'Catch the Dots' Scratch project online at <a href="http://jumpto.cc/dots-go" target="_blank">jumpto.cc/dots-go</a> or download from <a href="http://jumpto.cc/dots-get" target="_blank">jumpto.cc/dots-get</a> and then open if you are using the offline editor.
++ Відкрийте проект Scratch "Dodgeball" онлайн на <a href="http://jumpto.cc/dots-go" target="_blank">jumpto.cc/dots-go</a> або завантажте з <a href="http://jumpto.cc/dots-get" target="_blank">jumpto.cc/dots-get</a> і відкрийте його, якщо ви користуєтесь редактором офлайн.
     
-    You should see a controller sprite:
+    Ви маєте побачити контроль спрайт:
     
-    ![screenshot](images/dots-controller.png)
+    ![скріншот](images/dots-controller.png)
 
-+ Turn your controller to the right when the right arrow key is pressed:
++ Натисніть клавішу зі стрілкою ліворуч, щоб повернути курсор вліво:
     
     ```blocks
-    when flag clicked
-    forever
-        if <key [right arrow v] pressed?> then
-            turn right (3) degrees
-        end
+        коли натиснуто ⚑
+    завжди 
+      якщо <key [right arrow v] pressed?> то 
+        змінити x на (-3)
+      end
     end
-```
+    ```
 
-+ Test out your controller -- it should spin to the right.
++ Перевірте свій контролер - він повинен повертати праворуч.
