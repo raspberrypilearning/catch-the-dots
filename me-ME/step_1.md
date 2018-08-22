@@ -9,7 +9,7 @@ U ovom projektu naučićeš kako da napraviš igru u kojoj treba da spojiš oboj
 
 ### Dodatne informacije za vođe kluba
 
-Ukoliko je potrebno da odštampate ovaj projekat, koristite [Verziju za štampu](https://projects.raspberrypi.org/en/projects/catch-the-dots/print).
+Ukoliko je potrebno da odštampate ovaj projekat, koristite [Verziju za štampu](https://projects.raspberrypi.org/me-ME/projects/catch-the-dots/print).
 
 --- collapse ---
 ---
