@@ -1,24 +1,22 @@
-## High score
+## Рекорд
 
-Let's save the high score, so that players can see how well they're doing.
+Збережемо високий бал, щоб гравці могли бачити, наскільки добре вони виконують роботу.
 
-+ Create a new variable called `high score`{:class="blockdata"}.
++ Створіть список, який називається `рахунок`{:class="blockdata"}.
 
-+ Click on your stage, and create a new custom block called `check high score`{:class="blockmoreblocks"}.
-    
-    ![screenshot](images/dots-custom-1.png)
++ Нажміть на своїй сцені та створіть новий спеціальний блок під назвою ` перевірити високий бал </ 0> (: class = "blockmoreblocks").</p>
 
-+ Just before the end of the game, add in your new custom block.
-    
-    ![screenshot](images/dots-custom-2.png)
+<p><img src="images/dots-custom-1.png" alt="скріншот" /></p></li>
+<li><p>Незадовго до закінчення гри додайте в новий спеціальний блок.</p>
 
-+ Add code to your custom block to store the current `score`{:class="blockdata"} as the `high score`{:class="blockdata"} `if`{:class="blockcontrol"} it's the highest score so far:
+<p><img src="images/dots-custom-2.png" alt="скріншот" /></p></li>
+<li><p>Додайте код до свого спеціального блоку, щоб зберегти поточні дані <code>score`{:class="blockdata"} as the `high score`{:class="blockdata"} `if`{:class="blockcontrol"}- це найвищий результат:
     
     ```blocks
-    define [check high score]
-    if <(score) > (high score)> then
-        set [high score v] to (score)
-    end
-```
+        визначити [перевірити високий бал]
+         якщо &lt <(оцінка)> (висока оцінка) &gt;&gt; потім
+             встановити [високий бал v] (оцінка)
+         кінець                &lt;
+    ```
 
-+ Test the code you've added. Play your game to check whether the `high score`{:class="blockdata"} is updated correctly.
++ Перевірте доданий код. Відкрийте свою гру, щоб перевірити, чи правильно оновлено код `high score`{:class="blockdata"}.
