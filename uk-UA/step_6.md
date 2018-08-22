@@ -1,26 +1,26 @@
-## Increasing the difficulty
+## Підвищення складності
 
-Let's make the game get more difficult the longer the player survives, by slowly reducing the delay between dots appearing.
+Давайте зробимо гру більш складною, зменшуючи затримку між точками, які з'являються.
 
-+ Create a new variable called `delay`{:class="blockdata"}.
++ Створіть список, який називається `рахунок`{:class="blockdata"}.
 
-+ On your stage, create a new script that sets the delay to a high number, and then slowly reduces the delay time.
++ На сцені створіть новий скрипт, який встановлює час затримки, який згодом почне зменшуватись.
     
     ```blocks
-    when flag clicked
-    set [delay v] to (8)
-    repeat until < (delay) = (2)>
-        wait (10) secs
-        change [delay v] by (-0.5)
-    end
-```
+        коли натиснуто прапорець
+         встановити [затримати v] до (8)
+         повторити до <(затримка) = (2)>
+             чекати (10) секунд
+             змінити [затримати v] на (-0,5)
+         кінець
+    ```
+    
+    Зверніть увагу, що це дуже схоже на те, як працює таймер гри!
 
-Notice that this is very similar to how a game timer works!
-
-+ Finally, you can use this `delay`{:class="blockdata"} variable in your red, yellow and blue dots' scripts. Remove the code that waits a random number of seconds between creating clones, and replace it with your new `delay`{:class="blockdata"} variable:
++ Зрештою, ви можете використовувати це `delay`{:class="blockdata"}, змінна в скриптах червоних, жовтих та синіх точок. Видаліть код, який встановлює випадкове число секунд між створенням клонів і замінить його новою змінною `delay`{:class="blockdata"}:
     
     ```blocks
-    wait (delay) secs
-```
+        чекати (затримка) секунда
+    ```
 
-+ Test your new `delay`{:class="blockdata"} variable, and see whether the delay between dots reduces slowly. Does this work for all 3 coloured dots? Can you see the value of the `delay`{:class="blockdata"} variable reducing?
++ Перевірте нову змінну `delay`{:class="blockdata"} та переконайтесь, що затримка між точками повільно зменшується. Чи працює ця функція для всіх 3 кольорових крапок? Чи можете ви побачити значення зменшення змінної `delay`{:class="blockdata"}?
