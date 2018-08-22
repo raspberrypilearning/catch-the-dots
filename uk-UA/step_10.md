@@ -1,7 +1,7 @@
 \--- challenge \---
 
-## Challenge: Game menu
+## Завдання: Ігрове меню
 
-Can you add a menu (with buttons) to your game? You could add an instructions screen, or a separate screen for showing the high score. If you need help with this, the 'Brain Game' project will help you.
+Чи можете ви добавити меню (із кнопками) до своєї гри? Ви можете додати екран інструкцій або окремий екран для показу високої оцінки. Якщо вам потрібна допомога у даному питанні, вам допоможе проект 'Brain Game'.
 
 \--- /challenge \---
