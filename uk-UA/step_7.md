@@ -1,7 +1,7 @@
 \--- challenge \---
 
-## Challenge: Faster moving dots
+## Завдання: Зміна швидкості крапок
 
-Can you improve your game by adding a `speed`{:class="blockdata"} variable, so that the dots start off moving 1 step at a time, and steadily get faster and faster? This will work in a very similar way to the `delay`{:class="blockdata"} variable used above, and you can use this code to help you.
+Ви можете покращити свою гру, додавши змінну так `speed`{:class="blockdata"},що швидкість точки буде один крок за один раз, збільшуючи стабільну швидкість. Це буде працювати таким чином `delay`{:class="blockdata"}, змінна,яка використовується вище стане вам у пригоді.
 
 \--- /challenge \---
