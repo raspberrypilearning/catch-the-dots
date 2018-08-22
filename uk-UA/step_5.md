@@ -1,13 +1,13 @@
 \--- challenge \---
 
-## Challenge: More dots
+## Завдання: Збільшення кількості крапок
 
-Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
+Дублюємо двічі точку спрайт «червоний» та називаємо два нових спрайти «жовтий» і «синій».
 
-![screenshot](images/dots-more-dots.png)
+![скріншот](images/dots-more-dots.png)
 
-Edit these sprites (including their code), so that each coloured dot has to match the correct colour on the controller. Remember to test your project, making sure you gain points and lose lives at the right times, and that your game isn't too easy or too hard!
+Редагуємо ці спрайти (включаючи їх код), так що кожна кольорова точка повинна відповідати правильному кольору на датчику. Не забудьте протестувати свій проект, переконавшись, що ви отримуєте очки та втрачаєте життя в потрібний час, і що ваша гра не надто проста або занадто складна!
 
-![screenshot](images/dots-all-test.png)
+![скріншот](images/dots-all-test.png)
 
 \--- /challenge \---
