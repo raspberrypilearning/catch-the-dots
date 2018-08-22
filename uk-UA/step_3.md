@@ -1,7 +1,7 @@
 \--- challenge \---
 
-## Challenge: Spinning left
+## Завдання: Поверніть ліворуч
 
-Can you make your controller spin to the left when the left arrow key is pressed?
+Чи можете ви натискати клавішу зі стрілкою ліворуч, щоб повернути курсор вліво?
 
 \--- /challenge \---
