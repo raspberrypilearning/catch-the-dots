@@ -1,72 +1,69 @@
-## Collecting dots
+## Збирай очки
 
-Let's add some dots for the player to collect with their controller.
+Давайте додамо деякі крапки для гравця, щоб зібрати їх з датчика.
 
-+ Create a new sprite called 'red'. This sprite should be a small red dot.
++ Створіть нову змінну з назвою "червоний". Цей спрайт повинен виглядати, як червона маленька крапка.
     
-    ![screenshot](images/dots-red.png)
+    ![скріншот](images/dots-red.png)
 
-+ Add this script to your 'red' dot sprite, to create a new dot clone every few seconds:
-    
-    ```blocks
-    when flag clicked
-    hide
-    wait (2) secs
-    forever
-        create clone of [myself v]
-        wait (pick random (5) to (10)) secs
-    end
-```
-
-+ When each clone is created, you want it to appear in one of the 4 corners of the stage.
-    
-    ![screenshot](images/dots-start.png)
-    
-    To do this, first create a new **list** called `start positions`{:class="blockdata"} and click the `(+)` to add in the values `-180` and `180`.
-    
-    ![screenshot](images/dots-list.png)
-
-+ You can use these 2 list items to pick a random corner of the stage. Add this code to the 'dot' sprite, so that each new clone moves to a random corner and then slowly moves towards the controller.
++ Додайте цей скрипт до "червоного" спрайту, щоб створювати новий крапковий клон кожні декілька секунд:
     
     ```blocks
-    when I start as a clone
-    go to x: (item (random v) of [start positions v]) y: (item (random v) of [start positions v])
-    point towards [controller v]
-    show
-    repeat until <touching [controller v]?>
-        move (1) steps
-    end
-```
+        коли натиснуто на прапорець
+         приховати
+         чекати (2) с
+         назавжди
+             створити клон [себе V]
+             чекати (вибрати випадкові (5) - (10)) сек
+         кінець
+    ```
 
-The code above chooses either `-180` or `180` for the x *and* y positions, meaning that each clone starts in one corner of the stage.
-
-+ Test your project. You should see lots of red dots appear in each corner of the screen, and move slowly towards the controller.
++ Якщо під час створення клону, ви бажаєте, щоб він з'явився в одному з 4-х кутів сцени, вам необхідно:
     
-    ![screenshot](images/dots-red-test.png)
-
-+ Create 2 new variables called `lives`{:class="blockdata"} and `score`{:class="blockdata"}.
-
-+ Add code to your stage to set the `lives`{:class="blockdata"} to 3 and the `score`{:class="blockdata"} to 0 at the start of the game.
-
-+ You need to add code to the end of your red dot's `when I start as a clone`{:class="blockcontrol"} code, so that either 1 is added to the player's `score`{:class="blockdata"} if the colours match, or 1 is taken from the player's `lives`{:class="blockdata"} if the colours don't match.
+    ![скріншот](images/dots-start.png)
     
-    ```blocks
-    move (5) steps
-    if <touching color [#FF0000]?> then
-        change [score v] by (1)
-        play sound [pop v]
-    else
-        change [lives v] by (-1)
-        play sound [laser1 v]
-    end
-    delete this clone
-```
+    Спершу, створити новий ** список </code>назва` початкова позиція `**(: class = "blockdata") і натиснути `(+)`, щоб додати значення`-180` і `180</1>.</p>
 
-+ Add this code to the end of your stage's script, so that the game ends when the player loses all of their lives:
+<p><img src="images/dots-list.png" alt="скріншот" /></p></li>
+<li><p>Ви можете використати список елементів, щоб вибрати рандомний кут сцени. Додайте цей код до "точка", щоб кожен новий клон переходив у рандомний кут, а потім повільно рухався до датчику.</p>
+
+<pre><code class="blocks">    коли я починаю  клон
+     перейдіть до x: (елемент (рандомний v) з [початковими позиціями v]) y: (елемент (рандомний v) з [початковими позиціями v])
+     точка напрямку [датчик v]
+     показати
+     повторити до <touching [controller v]?>
+         перемістити (1) кроки
+     кінець
+`</pre> 
     
-    ```blocks
-    wait until <(lives) < [1]>
-    stop [all v]
-```
+    Наведений вище код дає змогу обирати позиції `-180` або `180` для x *and*, що означає, що кожен клон починається в одному куті сцени.</li> 
+    
+    + Перевірте ваш проект. Ви повинні побачити, що в кожному кутку екрана з'являється багато червоних точок, які повільно переміщаються до датчику.
+        
+        ![скріншот](images/dots-red-test.png)
+    
+    + Додайте дві нові змінні, які називаються `рекорд`{:class="blockdata"} та `ім'я`{:class="blockdata"} до вашого проекту.
+    
+    + Додайте код у свою сцену, щоб встановити життя {: class = "blockdata"} до 3 та очки {: class = "blockdata"} до 0 на початку гри.
+    
+    + Потрібно додати код до кінця червоної крапки `, коли я починаю клон ` {: class = "blockcontrol"}, так що будь-яка одиниця додається до`очка` {: class = "blockdata"}, якщо кольори співпадають, або 1 приймається з ` життів <0> (: class = "blockdata") гравця, якщо кольори не збігаються.</p>
 
-+ Test your game to make sure this code works as expected.
+<pre><code class="blocks">    перемістити на (5) кроків
+     якщо <touching color [#FF0000]?> тоді
+         змінити [очки  v] на (1)
+         відтворити звук [pop v]
+     інакше
+         змінити [життя v] на (-1)
+         відтворити звук [laser1 v]
+     кінець
+     видалити цей клон
+`</pre></li> 
+        
+        + Додайте цей код до кінця сценарію вашого етапу, щоб гра закінчувалася, коли гравець втрачає всі свої життя:
+            
+            ```blocks
+                зачекайте, доки  < (життя) < [1]>
+                 зупинити [все v]
+            ```
+        
+        + Перевірте свою гру, щоб переконатися, що цей код працює належним чином.</ul>
