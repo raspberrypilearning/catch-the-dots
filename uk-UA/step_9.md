@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: Improve your game!
+## Завдання: вдосконалюйте свою гру!
 
-Can you think of ways to improve your game? For example, you could create special dots that:
+Ви думаєте, як покращити гру? Наприклад, ви можете створити спеціальні точки, які:
 
-+ double your score;
-+ slow down the dots;
-+ hide all the other dots on the screen!
++ подвоїти свій рахунок;
++ уповільнити точки;
++ заховати всі інші точки на екрані!
 
 \--- /challenge \---
