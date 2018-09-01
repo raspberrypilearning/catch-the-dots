@@ -1,33 +1,33 @@
-## Introduction
+## Wprowadzenie
 
-In this project you'll learn how to create a game, in which you have to match up coloured dots with the correct part of the controller.
+W tym projekcie nauczysz się jak stworzyć grę, w które musisz dopasować kolorowe kropki do właściwych części kontrolera.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/44942820/?autostart=false" frameborder="0"></iframe>
   <img src="images/dots-final.png">
 </div>
 
-### Additional information for club leaders
+### Dodatkowe informacje dla prowadzących klub
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print).
+Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.raspberrypi.org/en/projects/catch-the-dots/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## tytuł: Notatki prowadzących klub
 
-## Introduction:
+## Wprowadzenie:
 
-In this project children will learn how to make a game, in which the player has to match up coloured dots with the corresponding part of the controller.
+W tym projekcie nauczysz się jak stworzyć grę, w które gracz musi dopasować kolorowe kropki do odpowiadających części kontrolera.
 
-## Resources
+## Zasoby
 
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+Do tego projektu należy użyć Scratch 2. Scratch 2 można używać online pod [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) albo pobrać z [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) do użycia w trybie offline.
 
-The 'Project Materials' link for this project contains the following resources:
+Link do materiałów dla tego projektu zawiera następujące zasoby":
 
-##### Club leader Resources
+##### Materiały dla prowadzących klub
 
-You can find a completed version of this project [online](http://scratch.mit.edu/projects/44942820/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+Ukończoną wersję tego projektu można znaleźć [online](http://scratch.mit.edu/projects/44942820/#editor) lub też można ją pobrać klikając w link 'Materiały Projektu' w tym projekcie, który zawiera:
 
 * CatchTheDots.sb2
 
