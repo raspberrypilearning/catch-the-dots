@@ -1,12 +1,12 @@
 ---
 hero_image: images/banner.png
-theme: turquoise
+theme: turkusowy
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Łapanie kropek
+title: Złap kropki
 description: Naucz się, jak stworzyć grę, w której musisz dopasować kolorowe kulki do odpowiedniej części pokrętła.
 original_url: https://codeclubprojects.org/en-GB/scratch/catch-the-dots
 interests: gry
@@ -22,18 +22,18 @@ steps:
   - 
     title: Tworzenie kontrolera
   - 
-    title: 'Challenge: Spinning left'
+    title: 'Zakręć w lewo'
   - 
-    title: Collecting dots
+    title: Zbieraj kropki
   - 
-    title: 'Challenge: More dots'
+    title: 'Wyzwanie: Więcej kropek'
   - 
-    title: Increasing the difficulty
+    title: Zwiększenie trudności
   - 
-    title: 'Challenge: Faster moving dots'
+    title: 'Wyzwanie: Szybciej poruszające się kropki'
   - 
-    title: High score
+    title: Tabela wyników
   - 
-    title: 'Challenge: Improve your game!'
+    title: 'Wyzwanie: udoskonal swoją grę!'
   - 
-    title: 'Challenge: Game menu'
+    title: 'Wyzwanie: Menu gry'
