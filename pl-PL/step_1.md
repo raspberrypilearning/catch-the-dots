@@ -31,27 +31,27 @@ Ukończoną wersję tego projektu można znaleźć [online](http://scratch.mit.e
 
 * CatchTheDots.sb2
 
-##### Project Resources
+##### Zasoby projektu
 
-For this project, club members can make use of external resources that aren't available in the Scratch library:
+W tym projekcie, członkowie klubu mogą użyć zasobów zewnętrznych, które nie są dostępne w bibliotece Scratch'a:
 
 * controller.svg.
 
-Make sure that each child has access to a copy of these resources.
+Upewnij się, że każde dziecko ma dostęp do tych zasobów.
 
-For club members that aren't able to access these project resources, there is a Scratch project with the external resources pre-loaded. This is available online at [jumpto.cc/dots-resources](http://jumpto.cc/dots-resources), or in the downloadable project materials, which contains:
+Dla członków klubu którzy nie mają dostępu do tych zasobów projektu, dostępny jest projekt Scratch'a z już dołączonymi zasobami zewnętrznymi. Jest on dostępny online [jumpto.cc/dots-resources](http://jumpto.cc/dots-resources), lub w materiałach projektu do pobrania, zawierające:
 
 * CatchTheDotsResources.sb2 
 
-## Learning Objectives
+## Cele dydaktyczne
 
-* This project consolidates learning of previous programming skills learnt.
+* Ten projekt utrwala naukę poprzednio nabytych umiejętności programowania.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ten projekt obejmuje elementy z następujących wątków z [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Połącz konstrukty programistyczne, aby rozwiązać problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## Wyzwania
 
 * "Spinning left" - creating code to move the controller;
 * "More dots" - creating more coloured dots that need to match the correct part of the controller';
