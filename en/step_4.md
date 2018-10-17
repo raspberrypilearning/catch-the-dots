@@ -30,17 +30,19 @@ This is the code you will need to find and alter in each sprite:
 ```
 --- /hint ---
 --- hint ---
-Here is the code for the yellow sprite
+This is how you will need to change the code for the yellow sprite
 ```blocks
-	if <touching color [#FFFF00]?> then
-        ...
+	if <+ touching color [#FFFF00]?> then
+        change [score v] by (1)
+        play sound [pop v]
 	end
 ```
 
-Here is the code for the blue sprite
+This is how you will need to change the code for the blue sprite
 ```blocks
-	if <touching color [#0000FF]?> then
-        ...
+	if <+ touching color [#0000FF]?> then
+        change [score v] by (1)
+        play sound [pop v]
 	end
 ```
 --- /hint ---
@@ -58,6 +60,5 @@ Change the yellow dot to wait 4 seconds after the flag is clicked before appeari
 	when flag clicked
 	hide
 	+ wait (4) secs
-    ...
 ```
 --- /task ---
