@@ -2,31 +2,41 @@
 
 Let's add some dots for the player to collect with their controller.
 
+--- task ---
+Create a new sprite called 'red'. This sprite should be a small red dot.
+
+![Red dot sprite](images/dots-red.png)
+
+[[[generic-scratch-draw-sprite]]]
+
+--- /task ---
+
+--- task ---
+Add this script to your 'red' dot sprite, to create a new dot clone every few seconds:
+
+![Red dot sprite](images/red-sprite.png)
+
+```blocks
+	when flag clicked
+	hide
+	wait (2) secs
+	forever
+		create clone of [myself v]
+		wait (pick random (5) to (10)) secs
+	end
+```
+--- /task ---
 
 
-+ Create a new sprite called 'red'. This sprite should be a small red dot.
+When each clone is created, you want it to appear in one of the 4 corners of the stage.
 
-	![screenshot](images/dots-red.png)
+![screenshot](images/dots-start.png)
 
-+ Add this script to your 'red' dot sprite, to create a new dot clone every few seconds:
+--- task ---
+To do this, first create a new __list__ called `start positions`{:class="blockdata"} and click the `(+)` to add in the values `-180` and `180`.
 
-	```blocks
-		when flag clicked
-		hide
-		wait (2) secs
-		forever
-			create clone of [myself v]
-			wait (pick random (5) to (10)) secs
-		end
-	```
-
-+ When each clone is created, you want it to appear in one of the 4 corners of the stage.
-
-	![screenshot](images/dots-start.png)
-
-	To do this, first create a new __list__ called `start positions`{:class="blockdata"} and click the `(+)` to add in the values `-180` and `180`.
-
-	![screenshot](images/dots-list.png)
+![screenshot](images/dots-list.png)
+--- /task ---
 
 + You can use these 2 list items to pick a random corner of the stage. Add this code to the 'dot' sprite, so that each new clone moves to a random corner and then slowly moves towards the controller.
 
@@ -72,6 +82,3 @@ Let's add some dots for the player to collect with their controller.
 	```
 
 + Test your game to make sure this code works as expected.
-
-
-
