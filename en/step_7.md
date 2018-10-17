@@ -4,6 +4,7 @@ Let's save the high score, so that players can see how well they're doing.
 
 --- task ---
 Create a new variable called `high score`{:class="blockdata"}.
+
 ![Stage sprite](images/stage-sprite.png)
 
 --- /task ---

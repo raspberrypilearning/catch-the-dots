@@ -1,12 +1,8 @@
---- challenge ---
-## Challenge: Improve your game!
+## Challenge: Improve your game
 Can you think of ways to improve your game? For example, you could create special dots that:
 
-+ double your score;
-+ slow down the dots;
-+ hide all the other dots on the screen!
++ Double your score?
++ Slow down the dots?
++ Hide all the other dots on the screen?
 
-
-
-
---- /challenge ---
+Could you add a menu with buttons to your game? You could add an instructions screen or a separate screen for showing the high score. 
