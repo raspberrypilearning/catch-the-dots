@@ -102,6 +102,8 @@ Add this code to the end of your stage's script, so that the game ends when the 
 --- task ---
 Go back to your red dot sprite. Add some code to the end of your red dot's `when I start as a clone`{:class="blockcontrol"} code, so that either 1 is added to the player's `score`{:class="blockdata"} if the colours match, or 1 is taken away from the player's `lives`{:class="blockdata"} if the colours don't match.
 
+The dot `moves 5 steps`{:class="blockmotion"} first so that we can be sure it is overlapping the controller.
+
 ![Red dot sprite](images/red-sprite.png)
 ```blocks
 	move (5) steps
