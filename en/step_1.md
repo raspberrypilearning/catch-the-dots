@@ -32,7 +32,7 @@ title: What you will need
 + Computer capable of running Scratch 2.0
 
 ### Software
-+ Scratch 2.0 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline]http://rpf.io/scratchoff){:target="_blank"}
++ Scratch 2.0 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"}
 
 ### Downloads
 + [Offline Scratch 2 project](resources/catch-the-dots-resources.sb)
