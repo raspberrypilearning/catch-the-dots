@@ -5,7 +5,7 @@ Let's start by creating a controller, that will be used to collect dots.
 --- task ---
 Open the 'Catch the Dots' starter project.
 
-**Online:** Open Scratch starter project at [rpf.io/dots-on](http://rpf.io/dots-on). If you have a Scratch account, you can click on Remix in the top right-hand corner to save a copy of the project to your account.
+**Online:** Open Scratch starter project at [rpf.io/dots-on](http://rpf.io/dots-on). You can click on Remix in the top right-hand corner to save a copy of the project if you have a Scratch account.
 
 **Offline:** Download the starter project from [rpf.io/dots-off](http://rpf.io/dots-off) and then open it using the offline editor.
 
