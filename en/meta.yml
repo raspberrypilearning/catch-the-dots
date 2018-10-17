@@ -9,7 +9,6 @@ last_tested: 2018-10-16
 steps:
 - title: Introduction
 - title: Creating a controller
-- title: 'Challenge: Spinning left'
 - title: Collecting dots
 - title: 'Challenge: More dots'
 - title: Increasing the difficulty
