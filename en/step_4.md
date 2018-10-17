@@ -43,3 +43,15 @@ Here is the code for the blue sprite
 --- /hint ---
 --- /hints ---
 --- /task ---
+
+You will find that if you play the game now, the dots will sometimes get created one on top of another.
+--- task ---
+Change the yellow dot to wait 4 seconds after the flag is clicked before appearing, and change the blue dot to wait 6 seconds.
+
+```blocks
+	when flag clicked
+	hide
+	+ wait (4) secs
+    ...
+```
+--- /task ---
