@@ -2,28 +2,48 @@
 
 Let's save the high score, so that players can see how well they're doing.
 
+--- task ---
+Create a new variable called `high score`{:class="blockdata"}.
+![Stage sprite](images/stage-sprite.png)
 
+--- /task ---
 
-+ Create a new variable called `high score`{:class="blockdata"}.
+--- task ---
+Click on the stage and create a new custom block called `check high score`{:class="blockmoreblocks"}.
 
-+ Click on your stage, and create a new custom block called `check high score`{:class="blockmoreblocks"}.
+![Stage sprite](images/stage-sprite.png)
+![screenshot](images/dots-custom-1.png)
 
-	![screenshot](images/dots-custom-1.png)
+--- /task ---
 
-+ Just before the end of the game, add in your new custom block.
+--- task ---
+Add code to your custom block to store the current `score`{:class="blockdata"} as the `high score`{:class="blockdata"} `if`{:class="blockcontrol"} it's the highest score so far:
 
-	![screenshot](images/dots-custom-2.png)
+![Stage sprite](images/stage-sprite.png)
 
-+ Add code to your custom block to store the current `score`{:class="blockdata"} as the `high score`{:class="blockdata"} `if`{:class="blockcontrol"} it's the highest score so far:
+```blocks
+	define [check high score]
+	if <(score) > (high score)> then
+		set [high score v] to (score)
+	end
+```
+--- /task ---
 
-	```blocks
-		define [check high score]
-		if <(score) > (high score)> then
-			set [high score v] to (score)
-		end
-	```
+--- task ---
+Just before the end of the game, add in your new custom block.
 
-+ Test the code you've added. Play your game to check whether the `high score`{:class="blockdata"} is updated correctly.
+![Stage sprite](images/stage-sprite.png)
+```blocks
+when flag clicked
+set [lives v] to (3)
+set [score v] to (0)
+wait until <(lives) < (1)>
++ check high score
+stop [all v]
+```
 
+--- /task ---
 
-
+--- task ---
+Test the code you've added. Play your game to check whether your score gets saved as the `high score`{:class="blockdata"} if it is larger.
+--- /task ---
