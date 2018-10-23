@@ -32,7 +32,7 @@ When each clone is created, you want it to appear in one of the 4 corners of the
 ![screenshot](images/dots-start.png)
 
 --- task ---
-Create a new list called `start positions`{:class="blockdata"} and click the `(+)` to add in the values `-180` and `180`.
+Create a new list called `start positions`{:class="blockdata"} and click the `(+)` to add in the values `-180`{:class="blockdata"}  and `180`{:class="blockdata"}.
 
 ![Red dot sprite](images/red-sprite.png)
 

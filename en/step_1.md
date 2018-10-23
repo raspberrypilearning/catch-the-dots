@@ -19,8 +19,8 @@ Use the arrow keys on your keyboard to rotate the controller and catch the flyin
 ---
 title: What you will learn
 ---
-+ Learning...
-+ outcomes ...
++ How to choose random items from a list
++ How to use variables to track speed, lives and score in a game
 
 --- /collapse ---
 
@@ -35,9 +35,8 @@ title: What you will need
 + Scratch 2.0 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"}
 
 ### Downloads
-+ [Offline Scratch 2 project](resources/catch-the-dots-resources.sb)
-+ [Controller sprite](resources/catch-the-dots-controller.svg)
-+ [Online completed Scratch 2 project](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
++ [Offline Scratch 2 project](resources/catch-the-dots-resources.sb2){:target="_blank"}
++ [Controller sprite](resources/catch-the-dots-controller.svg){:target="_blank"}
 --- /collapse ---
 
 --- collapse ---
@@ -49,4 +48,6 @@ If you need to print this project, please use the [printer friendly version](htt
 --- /no-print ---
 
 [Here is a link to the resources for this project](http://rpf.io/p/catch-the-dots-go){:target="_blank"}.
+
++ [Online completed Scratch 2 project](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
 --- /collapse ---
