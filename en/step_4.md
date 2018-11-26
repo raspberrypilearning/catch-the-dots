@@ -7,17 +7,17 @@ Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and
 --- /task ---
 
 --- task ---
-Change the costume of each sprite so it is the correct colour - the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue.
+Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue.
 --- /task ---
 
 --- task ---
-Edit code for each sprite so that each coloured dot has to match the correct colour on the controller.
+Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
 
 ![screenshot](images/dots-all-test.png)
 
 --- hints ---
 --- hint ---
-This is the code you will need to find and alter in each sprite:
+This is the code you need to find and alter for both new sprites:
 
 ![screenshot](images/dots-more-dots.png)
 
@@ -30,7 +30,7 @@ This is the code you will need to find and alter in each sprite:
 ```
 --- /hint ---
 --- hint ---
-This is how you will need to change the code for the yellow sprite
+This is how you need to change the code for the yellow sprite:
 ```blocks
 	if <+ touching color [#FFFF00]?> then
         change [score v] by (1)
@@ -38,7 +38,7 @@ This is how you will need to change the code for the yellow sprite
 	end
 ```
 
-This is how you will need to change the code for the blue sprite
+This is how you need to change the code for the blue sprite:
 ```blocks
 	if <+ touching color [#0000FF]?> then
         change [score v] by (1)
@@ -49,10 +49,10 @@ This is how you will need to change the code for the blue sprite
 --- /hints ---
 --- /task ---
 
-You will find that if you play the game now, the dots will sometimes get created one on top of another.
+If you play the game now, you can see that the dots sometimes get created one top of each other.
 
 --- task ---
-Change the yellow dot to wait 4 seconds after the flag is clicked before appearing, and change the blue dot to wait 6 seconds.
+Add code to the 'yellow' dot sprite so that it waits 4 seconds after the flag is clicked before appearing.
 
 ![screenshot](images/dots-more-dots.png)
 
@@ -61,4 +61,7 @@ Change the yellow dot to wait 4 seconds after the flag is clicked before appeari
 	hide
 	+ wait (4) secs
 ```
+
+Then add code to the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
+
 --- /task ---
