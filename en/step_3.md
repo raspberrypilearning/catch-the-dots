@@ -1,6 +1,6 @@
-## Collecting dots
+## Gain points or lose lives
 
-Let's add some dots for the player to collect with their controller.
+Now you're going to add some dots that the player needs to collect.
 
 --- task ---
 Create a new sprite called 'red'. This sprite should be a small red dot.
@@ -10,7 +10,7 @@ Create a new sprite called 'red'. This sprite should be a small red dot.
 --- /task ---
 
 --- task ---
-Add this script to your 'red' dot sprite, to create a new dot clone every few seconds:
+Add this script to your 'red' sprite to create a new clone of the sprite every few seconds:
 
 ![Red dot sprite](images/red-sprite.png)
 
@@ -25,14 +25,14 @@ Add this script to your 'red' dot sprite, to create a new dot clone every few se
 ```
 --- /task ---
 
-If you click the green flag now you will not see anything happening because all of the cloned sprites are hidden and appear in the same place.
+If you click the green flag now, it looks like nothing is happening. This is because all of the cloned sprites are hidden, and they appear in the same place.
 
-When each clone is created, you want it to appear in one of the 4 corners of the stage.
+You are going to add code to make each new clone appear in one of the four corners of the Stage.
 
 ![screenshot](images/dots-start.png)
 
 --- task ---
-Create a new list called `start positions`{:class="blockdata"} and click the `(+)` to add in the values `-180`{:class="blockdata"}  and `180`{:class="blockdata"}.
+Create a new list called `start positions`{:class="blockdata"}, click the list's `(+)` icon to add the values `-180`{:class="blockdata"}  and `180`{:class="blockdata"}.
 
 ![Red dot sprite](images/red-sprite.png)
 
@@ -40,15 +40,15 @@ Create a new list called `start positions`{:class="blockdata"} and click the `(+
 
 [[[generic-scratch-make-list]]]
 
-When you have added the values, you can hide the list by unticking the box:
+Then you can hide the list by unselecting this box:
 
 ![Hide the list](images/hide-list.png)
 --- /task ---
 
-Notice that the coordinate for each corner is some combination of 180 and -180. You can use your list to pick a random corner of the stage.
+Notice that the coordinate for each corner of the Stage is a combination of `180` and `-180`. This means you can use the list to pick a corner of the Stage at random.
 
 --- task ---
-Add this code to the 'dot' sprite, so that each new dot clone moves to a random corner and then slowly moves towards the controller.
+Add this code to the 'dot' sprite to make each new sprite clone appear in a random corner and then slowly move towards the controller sprite.
 
 ![Red dot sprite](images/red-sprite.png)
 
@@ -63,11 +63,10 @@ Add this code to the 'dot' sprite, so that each new dot clone moves to a random 
 ```
 
 --- /task ---
-
-The code you just wrote chooses either `-180` or `180` for the x and y positions, meaning that each clone starts in one corner of the stage.
+This new code chooses either `-180` or `180` for the x and y positions, meaning that each 'dot' sprite clone starts in a corner of the Stage.
 
 --- task ---
-Test your project. You should see lots of red dots appear in each corner of the screen, and move slowly towards the controller.
+Test your project. You should see red dots appear in the corners of the Stage and move slowly towards the controller.
 
 ![screenshot](images/dots-red-test.png)
 --- /task ---
@@ -79,7 +78,7 @@ Create two new variables called `lives`{:class="blockdata"} and `score`{:class="
 --- /task ---
 
 --- task ---
-Add code to your stage to set the `lives`{:class="blockdata"} to 3 and the `score`{:class="blockdata"} to 0 at the start of the game.
+Add code to your Stage to set the `lives`{:class="blockdata"} variable to `3` and the `score`{:class="blockdata"} to `0` at the start of the game.
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks
@@ -90,7 +89,7 @@ set [score v] to (0)
 --- /task ---
 
 --- task ---
-Add this code to the end of your stage's script, so that the game ends when the player loses all of their lives:
+Add this code to the end of the Stage's script to make the game end when the player loses the last of the lives:
 
 ![Stage sprite](images/stage-sprite.png)
 ```blocks
@@ -99,10 +98,14 @@ Add this code to the end of your stage's script, so that the game ends when the 
 ```
 --- /task ---
 
---- task ---
-Go back to your red dot sprite. Add some code to the end of your red dot's `when I start as a clone`{:class="blockcontrol"} code, so that either 1 is added to the player's `score`{:class="blockdata"} if the colours match, or 1 is taken away from the player's `lives`{:class="blockdata"} if the colours don't match.
+The player should win points for catching dots, and should lose lives for failing to catch dots. A dot can only be caught by matching the colour of the controller to the colour of the dot.
 
-The dot `moves 5 steps`{:class="blockmotion"} first so that we can be sure it is overlapping the controller.
+--- task ---
+Go back to the 'red' dot sprite's Scripts area to add some code blocks to the end of the sprite's `when I start as a clone`{:class="blockcontrol"} script.
+
+First, make the dot clone `move 5 steps`{:class="blockmotion"} so that it overlaps the controller.
+
+Then add code to either add `1` to `score`{:class="blockdata"} if the colour of the dot clone matches the colour of the controller when they touch, or to take `1` away from `lives`{:class="blockdata"} if their colours don't match.
 
 ![Red dot sprite](images/red-sprite.png)
 ```blocks
@@ -119,5 +122,7 @@ The dot `moves 5 steps`{:class="blockmotion"} first so that we can be sure it is
 --- /task ---
 
 --- task ---
-Test your game to make sure that you lose a life if you hit the wrong colour, or gain a point if you hit the right colour.
+
+Test your game to make sure that you lose a life if you don't match a dot with the correct colour, and that you score a point if you match a dot correctly.
+
 --- /task ---
