@@ -1,9 +1,9 @@
 ## Introduction
 
-In this project you'll learn how to create a game, in which you have to match up coloured dots with the correct part of the controller.
+In this project you'll learn how to create a game in which the player has to match up coloured dots with the correct colour of the controller wheel.
 
 --- no-print ---
-Use the arrow keys on your keyboard to rotate the controller and catch the flying dots as they reach the centre. Miss three dots and the game is over.
+Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0"></iframe>
@@ -20,7 +20,7 @@ Use the arrow keys on your keyboard to rotate the controller and catch the flyin
 title: What you will learn
 ---
 + How to choose random items from a list
-+ How to use variables to track speed, lives and score in a game
++ How to use variables to track speed, lives, and the player's score
 
 --- /collapse ---
 
@@ -29,7 +29,7 @@ title: What you will learn
 title: What you will need
 ---
 ### Hardware
-+ Computer capable of running Scratch 2.0
++ A computer capable of running Scratch 2.0
 
 ### Software
 + Scratch 2.0 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"}
@@ -44,10 +44,10 @@ title: What you will need
 title: Additional notes for educators
 ---
 --- no-print ---
-If you need to print this project, please use the [printer friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print).
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print).
 --- /no-print ---
 
-[Here is a link to the resources for this project](http://rpf.io/p/catch-the-dots-go){:target="_blank"}.
+You can find [the resources for this project here](http://rpf.io/p/catch-the-dots-go){:target="_blank"}.
 
-+ [Online completed Scratch 2 project](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
++ [Completed online Scratch 2 project](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
 --- /collapse ---
