@@ -1,15 +1,15 @@
-## Increasing the difficulty
+## Increase the difficulty
 
-Let's make the game get more difficult the longer the player survives, by slowly reducing the delay between dots appearing.
+Now you're going to make the game more difficult the longer the player plays it. You will do this by making the dots appear faster and faster over time.
 
 --- task ---
-Create a new variable called `delay`{:class="blockdata"}.
+Create a new `variable`{:class="blockdata"} called 'delay'.
 
 ![Stage sprite](images/stage-sprite.png)
 --- /task ---
 
 --- task ---
-On your stage, create a new script that sets the delay to eight seconds, and then slowly reduces the delay time the longer the game goes on.
+Go to the Stage's Scripts area and create a new script that sets the `delay`{:class="blockdata"} variable to `8` and then slowly reduces the value of `delay`{:class="blockdata"} while the game runs.
 
 ![Stage sprite](images/stage-sprite.png)
 
@@ -23,12 +23,12 @@ On your stage, create a new script that sets the delay to eight seconds, and the
 ```
 --- /task ---
 
-Notice that this is very similar to how a game timer works!
+Notice that this code is very similar to the code you would use to create a countdown timer!
 
-You need to use this `delay`{:class="blockdata"} variable in your red, yellow and blue dots' scripts.
+Next, use the `delay`{:class="blockdata"} variable in the code scripts of the 'red', 'yellow', and 'blue' sprites.
 
 --- task ---
-Remove the code that waits a random number of seconds between creating clones, and replace it with your new `delay`{:class="blockdata"} variable:
+Remove the code block that makes the game wait a random number of seconds between making the dot sprite clones. Replace the block you've removed with your new `delay`{:class="blockdata"} variable:
 
 ![screenshot](images/all-dots.png)
 
@@ -42,8 +42,8 @@ Do this for all three dot sprites.
 --- /task ---
 
 --- task ---
-Test the game and see whether the dots begin to appear more quickly as the game goes on.
+Test the game, and check whether the dots begin to appear more quickly as the game goes on.
 
-+ Does this work for all 3 coloured dots?
-+ Can you see the value of the `delay`{:class="blockdata"} variable reducing?
++ Does this work for all three coloured dots?
++ Can you see that the value of the `delay`{:class="blockdata"} variable decreases?
 --- /task ---
