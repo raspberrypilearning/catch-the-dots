@@ -1,13 +1,15 @@
-## Creating a controller
+## Create a controller
 
-Let's start by creating a controller, that will be used to collect dots.
+Start by creating a controller that the player will use to collect dots.
 
 --- task ---
-Open the 'Catch the Dots' starter project.
+Open the 'Catch the dots' Scratch starter project.
 
-**Online:** Open Scratch starter project at [rpf.io/dots-on](http://rpf.io/dots-on). You can click on Remix in the top right-hand corner to save a copy of the project if you have a Scratch account.
+**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on). If you have a Scratch account, you can click on **Remix** in the top right-hand corner to save a copy of the project.
 
-**Offline:** Download the starter project from [rpf.io/dots-off](http://rpf.io/dots-off) and then open it using the offline editor.
+**Offline:** download the starter project from [rpf.io/dots-off](http://rpf.io/dots-off), and then open it in the Scratch offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
 --- /task ---
 
@@ -17,7 +19,7 @@ You should see a controller sprite:
 
 
 --- task ---
-Add some code to turn your controller to the right when the right arrow key is pressed:
+Add some code tothe controller sprite to make the sprite turn right if the player presses the right arrow key:
 
 ![Controller sprite](images/controller-sprite.png)
 
@@ -32,20 +34,22 @@ Add some code to turn your controller to the right when the right arrow key is p
 --- /task ---
 
 --- task ---
-Test out your controller -- it should spin to the right when you press the right arrow key on the keyboard.
+Test your code. The controller should spin to the right when you press the right arrow key.
 --- /task ---
 
 --- task ---
-Add some more code to turn your controller to the left when the left arrow key is pressed.
+Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
 
 ![Controller sprite](images/controller-sprite.png)
 
 --- hints ---
 --- hint ---
-Find the code that checks whether the right arrow key is pressed and turns right. Can you add a copy of this code, but change it to check whether the left arrow key is pressed instead?
+
+Find the code that checks whether the right arrow key is pressed and makes the sprite turn right. Can you add a copy of this code, and change the copy so it checks whether the left arrow key is pressed and makes the sprite turn left?
+
 --- /hint ---
 --- hint ---
-Here are the blocks you will need:
+Here are the blocks you need:
 ```blocks
 <key [space v] pressed?>
 
@@ -57,7 +61,7 @@ end
 ```
 --- /hint ---
 --- hint ---
-Here is the code you will need to add:
+Here is what your code should look like:
 ```blocks
 	when flag clicked
 	forever
