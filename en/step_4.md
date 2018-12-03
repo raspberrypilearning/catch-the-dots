@@ -21,7 +21,7 @@ This is the code you need to find and alter for both new sprites:
 
 ![screenshot](images/dots-more-dots.png)
 
-```blocks
+```blocks3
 	if <touching color [#FF0000]?> then
 		change [score v] by (1)
 		play sound [pop v]
@@ -31,7 +31,7 @@ This is the code you need to find and alter for both new sprites:
 --- /hint ---
 --- hint ---
 This is how you need to change the code for the yellow sprite:
-```blocks
+```blocks3
 	if <+ touching color [#FFFF00]?> then
         change [score v] by (1)
         play sound [pop v]
@@ -39,7 +39,7 @@ This is how you need to change the code for the yellow sprite:
 ```
 
 This is how you need to change the code for the blue sprite:
-```blocks
+```blocks3
 	if <+ touching color [#0000FF]?> then
         change [score v] by (1)
         play sound [pop v]
@@ -56,7 +56,7 @@ Add code to the 'yellow' dot sprite so that it waits 4 seconds after the flag is
 
 ![screenshot](images/dots-more-dots.png)
 
-```blocks
+```blocks3
 	when flag clicked
 	hide
 	+ wait (4) secs

@@ -14,7 +14,7 @@ Add this script to your 'red' sprite to create a new clone of the sprite every f
 
 ![Red dot sprite](images/red-sprite.png)
 
-```blocks
+```blocks3
 	when flag clicked
 	hide
 	wait (2) secs
@@ -32,13 +32,13 @@ You are going to add code to make each new clone appear in one of the four corne
 ![screenshot](images/dots-start.png)
 
 --- task ---
-Create a new list called `start positions`{:class="blockdata"}, click the list's `(+)` icon to add the values `-180`{:class="blockdata"}  and `180`{:class="blockdata"}.
+Create a new list called `start positions`{:class="block3variables"}, click the list's `(+)` icon to add the values `-180`{:class="block3variables"}  and `180`{:class="block3variables"}.
 
 ![Red dot sprite](images/red-sprite.png)
 
 ![List of 180 and -180](images/dots-list.png)
 
-[[[generic-scratch-make-list]]]
+[[[generic-scratch3-make-list]]]
 
 Then you can hide the list by unselecting this box:
 
@@ -52,7 +52,7 @@ Add this code to the 'dot' sprite to make each new sprite clone appear in a rand
 
 ![Red dot sprite](images/red-sprite.png)
 
-```blocks
+```blocks3
 	when I start as a clone
 	go to x: (item (random v) of [start positions v]) y: (item (random v) of [start positions v])
 	point towards [controller v]
@@ -72,16 +72,16 @@ Test your project. You should see red dots appear in the corners of the Stage an
 --- /task ---
 
 --- task ---
-Create two new variables called `lives`{:class="blockdata"} and `score`{:class="blockdata"}.
+Create two new variables called `lives`{:class="block3variables"} and `score`{:class="block3variables"}.
 
 ![Red dot sprite](images/red-sprite.png)
 --- /task ---
 
 --- task ---
-Add code to your Stage to set the `lives`{:class="blockdata"} variable to `3` and the `score`{:class="blockdata"} to `0` at the start of the game.
+Add code to your Stage to set the `lives`{:class="block3variables"} variable to `3` and the `score`{:class="block3variables"} to `0` at the start of the game.
 ![Stage sprite](images/stage-sprite.png)
 
-```blocks
+```blocks3
 when flag clicked
 set [lives v] to (3)
 set [score v] to (0)
@@ -92,7 +92,7 @@ set [score v] to (0)
 Add this code to the end of the Stage's script to make the game end when the player loses the last of the lives:
 
 ![Stage sprite](images/stage-sprite.png)
-```blocks
+```blocks3
 	wait until <(lives) < [1]>
 	stop [all v]
 ```
@@ -101,14 +101,14 @@ Add this code to the end of the Stage's script to make the game end when the pla
 The player should win points for catching dots, and should lose lives for failing to catch dots. A dot can only be caught by matching the colour of the controller to the colour of the dot.
 
 --- task ---
-Go back to the 'red' dot sprite's Scripts area to add some code blocks to the end of the sprite's `when I start as a clone`{:class="blockcontrol"} script.
+Go back to the 'red' dot sprite's Scripts area to add some code blocks to the end of the sprite's `when I start as a clone`{:class="block3control"} script.
 
-First, make the dot clone `move 5 steps`{:class="blockmotion"} so that it overlaps the controller.
+First, make the dot clone `move 5 steps`{:class="block3motion"} so that it overlaps the controller.
 
-Then add code to either add `1` to `score`{:class="blockdata"} if the colour of the dot clone matches the colour of the controller when they touch, or to take `1` away from `lives`{:class="blockdata"} if their colours don't match.
+Then add code to either add `1` to `score`{:class="block3variables"} if the colour of the dot clone matches the colour of the controller when they touch, or to take `1` away from `lives`{:class="block3variables"} if their colours don't match.
 
 ![Red dot sprite](images/red-sprite.png)
-```blocks
+```blocks3
 	move (5) steps
 	if <touching color [#FF0000]?> then
 		change [score v] by (1)

@@ -23,7 +23,7 @@ Add some code tothe controller sprite to make the sprite turn right if the playe
 
 ![Controller sprite](images/controller-sprite.png)
 
-```blocks
+```blocks3
 	when flag clicked
 	forever
 		if <key [right arrow v] pressed?> then
@@ -50,7 +50,7 @@ Find the code that checks whether the right arrow key is pressed and makes the s
 --- /hint ---
 --- hint ---
 Here are the blocks you need:
-```blocks
+```blocks3
 <key [space v] pressed?>
 
 turn left(15) degrees
@@ -62,7 +62,7 @@ end
 --- /hint ---
 --- hint ---
 Here is what your code should look like:
-```blocks
+```blocks3
 	when flag clicked
 	forever
 		if <key [right arrow v] pressed?> then

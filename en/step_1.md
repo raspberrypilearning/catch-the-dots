@@ -1,3 +1,9 @@
+--- no-print ---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
+
+--- /no-print ---
+
 ## Introduction
 
 In this project you'll learn how to create a game in which the player has to match up coloured dots with the correct colour of the controller wheel.
@@ -29,10 +35,10 @@ title: What you will learn
 title: What you will need
 ---
 ### Hardware
-+ A computer capable of running Scratch 2.0
++ A computer capable of running Scratch 3
 
 ### Software
-+ Scratch 2.0 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"}
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"}
 
 ### Downloads
 + [Offline Scratch 2 project](resources/catch-the-dots-resources.sb2){:target="_blank"}
