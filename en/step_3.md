@@ -54,7 +54,7 @@ Add this code to the 'dot' sprite to make each new sprite clone appear in a rand
 
 ```blocks3
 	when I start as a clone
-	go to x: (item (random v) of [start positions v]) y: (item (random v) of [start positions v])
+	go to x: (item (pick random (1) to (2)) of [start positions v]) y: (item (pick random (1) to (2)) of [start positions v])
 	point towards [controller v]
 	show
 	repeat until <touching [controller v]?>
