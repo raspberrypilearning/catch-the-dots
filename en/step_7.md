@@ -10,7 +10,7 @@ Create a new variable called `high score`{:class="block3variables"}.
 --- /task ---
 
 --- task ---
-Select the Stage, and create a new custom block called `check high score`{:class="block3myblocks"}.
+Select the Stage, and under 'My blocks', create a new custom block called `check high score`{:class="block3myblocks"}.
 
 ![Stage sprite](images/stage-sprite.png)
 ![screenshot](images/dots-custom-1.png)

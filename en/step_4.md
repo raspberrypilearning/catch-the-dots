@@ -54,13 +54,15 @@ If you play the game now, you can see that the dots sometimes get created one to
 --- task ---
 Change the code in the 'yellow' dot sprite so that it waits 4 seconds after the flag is clicked before appearing.
 
-![screenshot](images/dots-more-dots.png)
+![Yellow dot](images/sprite-yellow.png)
 
 ```blocks3
 	when flag clicked
 	hide
 	+ wait (4) secs
 ```
+
+![Blue dot](images/sprite-blue.png)
 
 Then change the code in the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
 
