@@ -52,7 +52,7 @@ This is how you need to change the code for the blue sprite:
 If you play the game now, you can see that the dots sometimes get created one top of each other.
 
 --- task ---
-Change the code in the 'yellow' dot sprite so that it waits 4 seconds after the flag is clicked before appearing.
+Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
 
 ![Yellow dot](images/yellow-sprite.png)
 
@@ -64,6 +64,6 @@ Change the code in the 'yellow' dot sprite so that it waits 4 seconds after the 
 
 ![Blue dot](images/blue-yellow.png)
 
-Then change the code in the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
+Then change the code for the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
 
 --- /task ---
