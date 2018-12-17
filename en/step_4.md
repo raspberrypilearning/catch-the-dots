@@ -62,7 +62,7 @@ Change the code for the 'yellow' dot sprite so that it waits four seconds after 
 	+ wait (4) secs
 ```
 
-![Blue dot](images/blue-yellow.png)
+![Blue dot](images/blue-sprite.png)
 
 Then change the code for the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
 
