@@ -34,7 +34,7 @@ Remove the code block that makes the game wait a random number of seconds betwee
 
 ```blocks3
 	- wait (pick random (5) to (10)) secs
-	wait (delay) secs
+	wait (delay :: variables) secs
 ```
 
 Do this for all three dot sprites.

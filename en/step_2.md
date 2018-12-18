@@ -26,7 +26,7 @@ Add some code to the controller sprite to make the sprite turn right if the play
 ```blocks3
 	when flag clicked
 	forever
-		if <key [right arrow v] pressed?> then
+		if <key (right arrow v) pressed?> then
 			turn right (3) degrees
 		end
 	end
@@ -51,7 +51,7 @@ Find the code that checks whether the right arrow key is pressed and makes the s
 --- hint ---
 Here are the blocks you need:
 ```blocks3
-<key [space v] pressed?>
+<key (space v) pressed?>
 
 turn left(15) degrees
 
@@ -65,12 +65,12 @@ Here is what your code should look like:
 ```blocks3
 	when flag clicked
 	forever
-		if <key [right arrow v] pressed?> then
+		if <key (right arrow v) pressed?> then
 			turn right (3) degrees
 		end
-        + if <key [left arrow v] pressed?> then
-			+ turn left(3) degrees
-		+ end
++ 		if <key (left arrow v) pressed?> then
+			turn left(3) degrees
+		end
 	end
 ```
 --- /hint ---

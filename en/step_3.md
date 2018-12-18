@@ -19,7 +19,7 @@ Add this script to your 'red' sprite to create a new clone of the sprite every f
 	hide
 	wait (2) secs
 	forever
-		create clone of [myself v]
+		create clone of (myself v)
 		wait (pick random (5) to (10)) secs
 	end
 ```
@@ -55,9 +55,9 @@ Add this code to the 'dot' sprite to make each new sprite clone appear in a rand
 ```blocks3
 	when I start as a clone
 	go to x: (item (pick random (1) to (2)) of [start positions v]) y: (item (pick random (1) to (2)) of [start positions v])
-	point towards [controller v]
+	point towards (controller v)
 	show
-	repeat until <touching [controller v]?>
+	repeat until <touching (controller v)?>
 		move (1) steps
 	end
 ```
@@ -93,7 +93,7 @@ Add this code to the end of the Stage's script to make the game end when the pla
 
 ![Stage sprite](images/stage-sprite.png)
 ```blocks3
-	wait until <(lives) < [1]>
+	wait until <(lives :: variables) < [1]>
 	stop [all v]
 ```
 --- /task ---
@@ -114,10 +114,10 @@ Then add code to either add `1` to `score`{:class="block3variables"} if the colo
 	move (5) steps
 	if <touching color [#FF0000]?> then
 		change [score v] by (1)
-		play sound [pop until done v]
+		play sound (pop v) until done
 	else
 		change [lives v] by (-1)
-		play sound [Laser1 v] until done
+		play sound (Laser1 v) until done
 	end
 	delete this clone
 ```

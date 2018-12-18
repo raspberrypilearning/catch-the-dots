@@ -24,7 +24,7 @@ This is the code you need to find and alter for both new sprites:
 ```blocks3
 	if <touching color [#FF0000]?> then
 		change [score v] by (1)
-		play sound [pop v]
+		play sound (pop v)
         ...
 	end
 ```
@@ -32,17 +32,17 @@ This is the code you need to find and alter for both new sprites:
 --- hint ---
 This is how you need to change the code for the yellow sprite:
 ```blocks3
-	if <+ touching color [#FFFF00]?> then
+	if <touching color [#FFFF00]? :: +> then
         change [score v] by (1)
-        play sound [pop v]
+        play sound (pop v)
 	end
 ```
 
 This is how you need to change the code for the blue sprite:
 ```blocks3
-	if <+ touching color [#0000FF]?> then
+	if <touching color [#0000FF]? :: +> then
         change [score v] by (1)
-        play sound [pop v]
+        play sound (pop v)
 	end
 ```
 --- /hint ---
@@ -59,7 +59,7 @@ Change the code for the 'yellow' dot sprite so that it waits four seconds after 
 ```blocks3
 	when flag clicked
 	hide
-	+ wait (4) secs
++	wait (4) secs
 ```
 
 ![Blue dot](images/blue-sprite.png)
