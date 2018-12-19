@@ -23,7 +23,7 @@ Add code to your custom block so that the block checks if the current value of `
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-	define [check high score]
+	define check high score
 	if <(score :: variables) > (high score)> then
 		set [high score v] to (score :: variables)
 	end
