@@ -59,7 +59,7 @@ Change the code for the 'yellow' dot sprite so that it waits four seconds after 
 ```blocks3
 	when flag clicked
 	hide
-+	wait (4) secs
++	wait (4) seconds
 ```
 
 ![Blue dot](images/blue-sprite.png)

@@ -17,7 +17,7 @@ Add this script to your 'red' sprite to create a new clone of the sprite every f
 ```blocks3
 	when flag clicked
 	hide
-	wait (2) secs
+	wait (2) seconds
 	forever
 		create clone of (myself v)
 		wait (pick random (5) to (10)) secs

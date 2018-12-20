@@ -17,7 +17,7 @@ Go to the Stage's Scripts area and create a new script that sets the `delay`{:cl
 	when flag clicked
 	set [delay v] to (8)
 	repeat until < (delay) = (2)>
-		wait (10) secs
+		wait (10) seconds
 		change [delay v] by (-0.5)
 	end
 ```
