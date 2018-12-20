@@ -13,7 +13,7 @@ Go to the Stage's Scripts area and create a new script that sets the `delay`{:cl
 
 ![Stage sprite](images/stage-sprite.png)
 
-![blocks_1545306143_5659916](images/blocks_1545306143_5659916.png)
+![blocks_1545307343_9295163](images/blocks_1545307343_9295163.png)
 --- /task ---
 
 Notice that this code is very similar to the code you would use to create a countdown timer!
@@ -25,7 +25,7 @@ Remove the code block that makes the game wait a random number of seconds betwee
 
 ![screenshot](images/all-dots.png)
 
-![blocks_1545306144_7503872](images/blocks_1545306144_7503872.png)
+![blocks_1545307345_014316](images/blocks_1545307345_014316.png)
 
 Do this for all three dot sprites.
 

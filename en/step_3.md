@@ -14,7 +14,7 @@ Add this script to your 'red' sprite to create a new clone of the sprite every f
 
 ![Red dot sprite](images/red-sprite.png)
 
-![blocks_1545306133_3329973](images/blocks_1545306133_3329973.png)
+![blocks_1545307333_8254716](images/blocks_1545307333_8254716.png)
 --- /task ---
 
 If you click the green flag now, it looks like nothing is happening. This is because all of the cloned sprites are hidden, and they appear in the same place.
@@ -44,7 +44,7 @@ Add this code to the 'dot' sprite to make each new sprite clone appear in a rand
 
 ![Red dot sprite](images/red-sprite.png)
 
-![blocks_1545306134_4784465](images/blocks_1545306134_4784465.png)
+![blocks_1545307334_9223058](images/blocks_1545307334_9223058.png)
 
 --- /task ---
 This new code chooses either `-180` or `180` for the x and y positions, meaning that each 'dot' sprite clone starts in a corner of the Stage.
@@ -65,14 +65,14 @@ Create two new variables called `lives`{:class="block3variables"} and `score`{:c
 Add code to your Stage to set the `lives`{:class="block3variables"} variable to `3` and the `score`{:class="block3variables"} to `0` at the start of the game.
 ![Stage sprite](images/stage-sprite.png)
 
-![blocks_1545306135_6927953](images/blocks_1545306135_6927953.png)
+![blocks_1545307336_1506236](images/blocks_1545307336_1506236.png)
 --- /task ---
 
 --- task ---
 Add this code to the end of the Stage's script to make the game end when the player loses the last of the lives:
 
 ![Stage sprite](images/stage-sprite.png)
-![blocks_1545306136_7956197](images/blocks_1545306136_7956197.png)
+![blocks_1545307337_273676](images/blocks_1545307337_273676.png)
 --- /task ---
 
 The player should win points for catching dots, and should lose lives for failing to catch dots. A dot can only be caught by matching the colour of the controller to the colour of the dot.
@@ -87,7 +87,7 @@ Then add code to either add `1` to `score`{:class="block3variables"} if the colo
 [[[generic-scratch3-sound-from-library]]]
 
 ![Red dot sprite](images/red-sprite.png)
-![blocks_1545306137_9109836](images/blocks_1545306137_9109836.png)
+![blocks_1545307338_378739](images/blocks_1545307338_378739.png)
 --- /task ---
 
 --- task ---

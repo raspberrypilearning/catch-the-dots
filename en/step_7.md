@@ -22,14 +22,14 @@ Add code to your custom block so that the block checks if the current value of `
 
 ![Stage sprite](images/stage-sprite.png)
 
-![blocks_1545306145_865461](images/blocks_1545306145_865461.png)
+![blocks_1545307346_124901](images/blocks_1545307346_124901.png)
 --- /task ---
 
 --- task ---
 Add your new custom block to the Stage script before the end of the script.
 
 ![Stage sprite](images/stage-sprite.png)
-![blocks_1545306147_015888](images/blocks_1545306147_015888.png)
+![blocks_1545307347_2390068](images/blocks_1545307347_2390068.png)
 
 --- /task ---
 
