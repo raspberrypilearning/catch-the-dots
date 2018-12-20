@@ -14,15 +14,7 @@ Add this script to your 'red' sprite to create a new clone of the sprite every f
 
 ![Red dot sprite](images/red-sprite.png)
 
-```blocks3
-	when flag clicked
-	hide
-	wait (2) seconds
-	forever
-		create clone of (myself v)
-		wait (pick random (5) to (10)) secs
-	end
-```
+![blocks_1545306133_3329973](images/blocks_1545306133_3329973.png)
 --- /task ---
 
 If you click the green flag now, it looks like nothing is happening. This is because all of the cloned sprites are hidden, and they appear in the same place.
@@ -52,15 +44,7 @@ Add this code to the 'dot' sprite to make each new sprite clone appear in a rand
 
 ![Red dot sprite](images/red-sprite.png)
 
-```blocks3
-	when I start as a clone
-	go to x: (item (pick random (1) to (2)) of [start positions v]) y: (item (pick random (1) to (2)) of [start positions v])
-	point towards (controller v)
-	show
-	repeat until <touching (controller v)?>
-		move (1) steps
-	end
-```
+![blocks_1545306134_4784465](images/blocks_1545306134_4784465.png)
 
 --- /task ---
 This new code chooses either `-180` or `180` for the x and y positions, meaning that each 'dot' sprite clone starts in a corner of the Stage.
@@ -81,21 +65,14 @@ Create two new variables called `lives`{:class="block3variables"} and `score`{:c
 Add code to your Stage to set the `lives`{:class="block3variables"} variable to `3` and the `score`{:class="block3variables"} to `0` at the start of the game.
 ![Stage sprite](images/stage-sprite.png)
 
-```blocks3
-when flag clicked
-set [lives v] to (3)
-set [score v] to (0)
-```
+![blocks_1545306135_6927953](images/blocks_1545306135_6927953.png)
 --- /task ---
 
 --- task ---
 Add this code to the end of the Stage's script to make the game end when the player loses the last of the lives:
 
 ![Stage sprite](images/stage-sprite.png)
-```blocks3
-	wait until <(lives :: variables) < [1]>
-	stop [all v]
-```
+![blocks_1545306136_7956197](images/blocks_1545306136_7956197.png)
 --- /task ---
 
 The player should win points for catching dots, and should lose lives for failing to catch dots. A dot can only be caught by matching the colour of the controller to the colour of the dot.
@@ -110,17 +87,7 @@ Then add code to either add `1` to `score`{:class="block3variables"} if the colo
 [[[generic-scratch3-sound-from-library]]]
 
 ![Red dot sprite](images/red-sprite.png)
-```blocks3
-	move (5) steps
-	if <touching color [#FF0000]?> then
-		change [score v] by (1)
-		play sound (pop v) until done
-	else
-		change [lives v] by (-1)
-		play sound (Laser1 v) until done
-	end
-	delete this clone
-```
+![blocks_1545306137_9109836](images/blocks_1545306137_9109836.png)
 --- /task ---
 
 --- task ---
