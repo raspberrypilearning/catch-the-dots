@@ -1,29 +1,18 @@
 ---
 hero_image: images/banner.png
-theme: turquoise
-duration: 2
 listed: true
-ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Catch the Dots
-description: Learn how to make a dot-catching game.
-original_url: https://codeclubprojects.org/en-GB/scratch/catch-the-dots
-interests: games
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
-version: 3
-last_tested: 2017-01-01
-steps: 
+title: Catch the dots
+description: Make a dot-catching game
+version: 4.0.0
+last_tested: 2018-10-16
+steps:
 - title: Introduction
-- title: Creating a controller
-- title: 'Challenge: Spinning left'
-- title: Collecting dots
-- title: 'Challenge: More dots'
-- title: Increasing the difficulty
-- title: 'Challenge: Faster moving dots'
+- title: Create a controller
+- title: Gain points or lose lives
+- title: More dots
+- title: Increase the difficulty
+- title: 'Challenge: faster dots'
 - title: High score
-- title: 'Challenge: Improve your game!'
-- title: 'Challenge: Game menu'
+- title: 'Challenge: improve your game!'
+- title: What next?

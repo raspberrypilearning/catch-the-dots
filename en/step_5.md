@@ -1,14 +1,39 @@
---- challenge ---
-## Challenge: More dots
-Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
+## Increase the difficulty
 
-![screenshot](images/dots-more-dots.png)
+Now you're going to make the game more difficult the longer the player plays it. You will do this by making the dots appear faster and faster over time.
 
-Edit these sprites (including their code), so that each coloured dot has to match the correct colour on the controller. Remember to test your project, making sure you gain points and lose lives at the right times, and that your game isn't too easy or too hard!
+--- task ---
+Create a new `variable`{:class="block3variables"} called 'delay'.
 
-![screenshot](images/dots-all-test.png)
+![Stage sprite](images/stage-sprite.png)
+--- /task ---
 
+--- task ---
+Go to the Stage's Scripts area and create a new script that sets the `delay`{:class="block3variables"} variable to `8` and then slowly reduces the value of `delay`{:class="block3variables"} while the game runs.
 
+![Stage sprite](images/stage-sprite.png)
 
+![blocks_1545307343_9295163](images/blocks_1545307343_9295163.png)
+--- /task ---
 
---- /challenge ---
+Notice that this code is very similar to the code you would use to create a countdown timer!
+
+Next, use the `delay`{:class="block3variables"} variable in the code scripts of the 'red', 'yellow', and 'blue' sprites.
+
+--- task ---
+Remove the code block that makes the game wait a random number of seconds between making the dot sprite clones. Replace the block you've removed with your new `delay`{:class="block3variables"} variable:
+
+![screenshot](images/all-dots.png)
+
+![blocks_1545307345_014316](images/blocks_1545307345_014316.png)
+
+Do this for all three dot sprites.
+
+--- /task ---
+
+--- task ---
+Test the game, and check whether the dots begin to appear more quickly as the game goes on.
+
++ Does this work for all three coloured dots?
++ Can you see that the value of the `delay`{:class="block3variables"} variable decreases?
+--- /task ---
