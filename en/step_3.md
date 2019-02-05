@@ -52,15 +52,7 @@ Add this code to the 'dot' sprite to make each new sprite clone appear in a rand
 
 ![Red dot sprite](images/red-sprite.png)
 
-```blocks3
-	when I start as a clone
-	go to x: (item (pick random (1) to (2)) of [start positions v]) y: (item (pick random (1) to (2)) of [start positions v])
-	point towards (controller v)
-	show
-	repeat until <touching (controller v)?>
-		move (1) steps
-	end
-```
+![blocks code](images/blocks_code.png)
 
 --- /task ---
 This new code chooses either `-180` or `180` for the x and y positions, meaning that each 'dot' sprite clone starts in a corner of the Stage.
