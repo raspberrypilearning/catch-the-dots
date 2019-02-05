@@ -23,7 +23,14 @@ Add some code to the controller sprite to make the sprite turn right if the play
 
 ![Controller sprite](images/controller-sprite.png)
 
-![blocks_1545307329_5085964](images/blocks_1545307329_5085964.png)
+```blocks3
+	when flag clicked
+	forever
+		if <key (right arrow v) pressed?> then
+			turn right (3) degrees
+		end
+	end
+```
 --- /task ---
 
 --- task ---
@@ -43,11 +50,29 @@ Find the code that checks whether the right arrow key is pressed and makes the s
 --- /hint ---
 --- hint ---
 Here are the blocks you need:
-![blocks_1545307331_5371742](images/blocks_1545307331_5371742.png)
+```blocks3
+<key (space v) pressed?>
+
+turn left(15) degrees
+
+if <> then
+
+end
+```
 --- /hint ---
 --- hint ---
 Here is what your code should look like:
-![blocks_1545307332_69831](images/blocks_1545307332_69831.png)
+```blocks3
+	when flag clicked
+	forever
+		if <key (right arrow v) pressed?> then
+			turn right (3) degrees
+		end
++ 		if <key (left arrow v) pressed?> then
+			turn left(3) degrees
+		end
+	end
+```
 --- /hint ---
 --- /hints ---
 --- /task ---
