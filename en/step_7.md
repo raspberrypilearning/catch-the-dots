@@ -22,14 +22,26 @@ Add code to your custom block so that the block checks if the current value of `
 
 ![Stage sprite](images/stage-sprite.png)
 
-![blocks_1545307346_124901](images/blocks_1545307346_124901.png)
+```blocks3
+	define check high score
+	if <(score :: variables) > (high score)> then
+		set [high score v] to (score :: variables)
+	end
+```
 --- /task ---
 
 --- task ---
 Add your new custom block to the Stage script before the end of the script.
 
 ![Stage sprite](images/stage-sprite.png)
-![blocks_1545307347_2390068](images/blocks_1545307347_2390068.png)
+```blocks3
+when flag clicked
+set [lives v] to (3)
+set [score v] to (0)
+wait until <(lives) < (1)>
++ check high score :: custom
+stop [all v]
+```
 
 --- /task ---
 
