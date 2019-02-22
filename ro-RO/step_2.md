@@ -1,24 +1,24 @@
-## Create a controller
+## Creați un controler
 
-Start by creating a controller that the player will use to collect dots.
+Începeți prin crearea unui controler pe care playerul îl va folosi pentru a colecta puncte.
 
-\--- task \--- Open the 'Catch the dots' Scratch starter project.
+\--- task \--- Deschideți proiectul de "Scratch starter" "Catch the dots".
 
-**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}. If you have a Scratch account, you can click on **Remix** in the top right-hand corner to save a copy of the project.
+**Online:** deschideți proiectul starter la [rpf.io/dots-on](http://rpf.io/dots-on){: target = "_ blank"}. Dacă aveți un cont Scratch, puteți face clic pe **Remix** în colțul din dreapta sus pentru a salva o copie a proiectului.
 
-**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
+**Offline:** descărcați proiectul starter din [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), apoi deschideți-l în editorul Scratch offline.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+Dacă trebuie să descărcați și să instalați editorul Scratch offline, îl puteți găsi la [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
 \--- /task \---
 
-You should see a controller sprite:
+Ar trebui să vedeți un controler pentru personaj:
 
-![screenshot](images/dots-controller.png)
+![captură de ecran](images/dots-controller.png)
 
-\--- task \--- Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
+\--- task \--- Adăugați un anumit cod la sprite-ul controlerului pentru a transforma Sprite-ul în dreapta dacă jucătorul apasă tasta săgeată dreapta:
 
-![Controller sprite](images/controller-sprite.png)
+![Controler sprite](images/controller-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -31,41 +31,41 @@ You should see a controller sprite:
 
 \--- /task \---
 
-\--- task \--- Test your code. The controller should spin to the right when you press the right arrow key. \--- /task \---
+\--- task \--- Testați-vă codul. Controlerul trebuie să se rotească spre dreapta atunci când apăsați tasta săgeată dreapta. \--- /task \---
 
-\--- task \--- Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
+\--- task \--- Adăugați codul la sprite-ul controlerului pentru a face sprite să se deplaseze stânga dacă jucătorul apasă tasta săgeată stânga.
 
-![Controller sprite](images/controller-sprite.png)
+![Controler sprite](images/controller-sprite.png)
 
-\--- hints \--- \--- hint \---
+\--- Sugestii \--- \--- Indicație \---
 
-Find the code that checks whether the right arrow key is pressed and makes the sprite turn right. Can you add a copy of this code, and change the copy so it checks whether the left arrow key is pressed and makes the sprite turn left?
+Găsiți codul care verifică dacă tasta săgeată dreapta este apăsată și face spriorul să meargă la dreapta. Puteți să adăugați o copie a acestui cod și să schimbați copia, astfel încât să verifice dacă tasta săgeată stânga este apăsată și face sprite să meargă la stânga?
 
-\--- /hint \--- \--- hint \--- Here are the blocks you need:
+\--- / hint \--- \--- indiciu \--- Aici sunt blocurile de care ai nevoie:
 
 ```blocks3
 <key (space v) pressed?>
 
-turn left(15) degrees
+viraj la stânga (15) grade
 
-if <> then
+dacă <> apoi
 
-end
+sfârșit
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- / hint \--- \--- sugestie \--- Aici este ceea ce ar trebui să arate codul dvs.:
 
 ```blocks3
-    when flag clicked
-    forever
-        if <key (right arrow v) pressed?> then
-            turn right (3) degrees
-        end
+    când steagul a dat clic
+    pentru totdeauna
+        dacă <key (right arrow v) pressed?> apoi
+            virați dreapta (3) grade
+        sfârșitul
 
-+       if <key (left arrow v) pressed?> then
-            turn left(3) degrees
-        end
-    end
++ dacă <key (left arrow v) pressed?> apoi
+            virați la stânga (3) grade
+        sfârșitul
+    sfârșitul
 ```
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
+\--- / indiciu \--- \--- / sugestii \--- \--- / sarcina \---
