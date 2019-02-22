@@ -5,23 +5,23 @@ copyedit: false
 title: Catch the Dots
 description: În acest proiect vei învăța cum să creezi un joc în care în care trebuie să potrivești punctele colorate cu partea corectă a controlerului.
 version: 3
-last_tested: 2017-01-01
+last_tested: 2018-10-16
 steps:
   - 
     title: Catch the Dots
   - 
-    title: Create a controller
+    title: Creați un controler
   - 
-    title: Gain points or lose lives
+    title: Obțineți puncte sau pierdeți vieți
   - 
-    title: More dots
+    title: Mai multe puncte
   - 
-    title: Increase the difficulty
+    title: Creșteți dificultatea
   - 
-    title: 'Challenge: faster dots'
+    title: 'Provocare: puncte mai rapide'
   - 
-    title: High score
+    title: Cel mai mare scor
   - 
-    title: 'Challenge: improve your game!'
+    title: 'Provocare: îmbunătățiți jocul!'
   - 
-    title: What next?
+    title: Ce urmează?
