@@ -1,8 +1,8 @@
-## Gain points or lose lives
+## Uitdaging: naar links draaien
 
 Now you're going to add some dots that the player needs to collect.
 
-\--- task \--- Create a new sprite called 'red'. This sprite should be a small red dot.
+\--- task \--- Create a new sprite called 'red'. Deze sprite zou een kleine rode stip moeten zijn.
 
 ![Red dot sprite](images/dots-red.png)
 
