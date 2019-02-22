@@ -1,50 +1,50 @@
-## High score
+## Cel mai mare scor
 
-You're going to save the game's high score, so that players can see how well they are doing.
+Veți salva scorul mare al jocului, astfel încât jucătorii să poată vedea cât de bine se fac.
 
-\--- task \--- Create a new variable called `high score`{:class="block3variables"}.
+\--- task \--- Creați o nouă variabilă numită `scor mare`{: class = "block3variables"}.
 
-![Stage sprite](images/stage-sprite.png)
-
-\--- /task \---
-
-\--- task \--- Select the Stage. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
-
-![Stage sprite](images/stage-sprite.png) ![screenshot](images/dots-custom-1.png)
+![Scena sprite](images/stage-sprite.png)
 
 \--- /task \---
 
-\--- task \--- Add code to your custom block so that the block checks if the current value of `score`{:class="block3variables"} in larger than the value of the `high score`{:class="block3variables"} variable, and then stores the value of `score`{:class="block3variables"} as the new value of `high score`{:class="block3variables"}.
+\--- task \--- Selectați etapa. Faceți clic pe "Blocurile mele" și creați un nou bloc personalizat, numit `verificați un scor mare`{: class = "block3myblocks"}.
 
-![Stage sprite](images/stage-sprite.png)
+![Scena sprite](images/stage-sprite.png) ![captură de ecran](images/dots-custom-1.png)
+
+\--- /proba\---
+
+\--- sarcina \--- Adauga codul la blocul personalizat , astfel încât controalele bloc dacă valoarea curentă a `scor`{: class = „block3variables“} în mai mare decât valoarea `scor`{: class = variabila "block3variables"} și apoi stochează valoarea de `scoruri`{: class = "block3variables"} ca noua valoare de `scoruri mari`{: class = "block3variables"}.
+
+![Scena sprite](images/stage-sprite.png)
 
 ```blocks3
-    define check high score
-    if <(score :: variables) > (high score)> then
-        set [high score v] to (score :: variables)
-    end
+    definesc scorul mare de verificare
+    dacă <(scor :: variabile) > (scor mare)> apoi
+        set [scor mare v] la (scor :: variabile)
+    sfârșit
 ```
 
 \--- /task \---
 
-\--- task \--- Add your new custom block to the Stage script before the end of the script.
+\--- task \--- Adăugați noul bloc personalizat la scenariul Stage înainte de sfârșitul scriptului.
 
-![Stage sprite](images/stage-sprite.png)
+![Scena sprite](images/stage-sprite.png)
 
 ```blocks3
-when flag clicked
-set [lives v] to (3)
-set [score v] to (0)
-wait until <(lives) < (1)>
+când pavilion apasat
+set [trăiește v] până la (3)
+set [scor v] până la (0)
+așteptați până <(vieți) < (1)>
 
-+ check high score :: custom
-stop [all v]
++ verifica scor :: personalizat
+oprire [totul v]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Play your game twice to check whether your score gets correctly saved as the `high score`{:class="block3variables"}.
+Joaca jocul de două ori pentru a verifica dacă scorul dvs. devine salvat corect ca `mare scor`{: class = „block3variables“}.
 
 \--- /task \---
