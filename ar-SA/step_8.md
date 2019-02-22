@@ -1,24 +1,9 @@
-## أعلى نتيجة
+## Challenge: improve your game
 
-دعونا نحفظ أعلى نتيجة، بحيث يمكن للاعبين رؤية مدى حسن أدائهم.
+Can you think of ways to improve your game? For example, you could create special dots that:
 
-+ أولا ، إضافة متغيرًا جديدًا يُسمى `أعلى نتيجة`{:class="blockdata"}.
++ Double your score
++ Slow down the dots
++ Hide all the other dots on the screen
 
-+ انقر على المنصة الخاصة بك ، وأنشئ لبنة مخصصة تُسمى `ابحث عن أعلى نتيجة`{:class="blockmoreblocks"}.
-    
-    ![لقطة الشاشة](images/dots-custom-1.png)
-
-+ قبل نهاية اللعبة مباشرة، اللبنة المخصصة.
-    
-    ![لقطة الشاشة](images/dots-custom-2.png)
-
-+ قم بإضافة التعليمة البرمجية إلى اللبنة المخصصة الخاصة بك لتخزين قيمة `النتيجة`{:class="blockdata"} الحالية `كـأعلى نتيجة`{:class="blockdata"} `إذا`{:class="blockcontrol"} هي أعلى نتيجة حتى الآن:
-    
-    ```blocks
-        تعريف [check high score]
-    إذا <(score) > (high score)> 
-      اجعل [high score v] مساوياً (score)
-    end
-    ```
-
-+ اختبر التعليمة البرمجية التي أضفتها. شغّل اللعبة للتحقق ما إذا كان `أعلى نتيجة`{:class="blockdata"} تم تحديثها بشكل صحيح.
+Can you add a menu with buttons to your game? You could add an screen with instructions or a separate screen for showing the high score.
