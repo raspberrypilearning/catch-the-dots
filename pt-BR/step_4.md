@@ -1,72 +1,61 @@
-## Collecting dots
+## More dots
 
-Let's add some dots for the player to collect with their controller.
+\--- task \--- Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
 
-+ Create a new sprite called 'red'. This sprite should be a small red dot.
-    
-    ![screenshot](images/dots-red.png)
+![screenshot](images/dots-more-dots.png) \--- /task \---
 
-+ Add this script to your 'red' dot sprite, to create a new dot clone every few seconds:
-    
-    ```blocks
-        when flag clicked
-        hide
-        wait (2) secs
-        forever
-            create clone of [myself v]
-            wait (pick random (5) to (10)) secs
-        end
-    ```
+\--- task \--- Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue. \--- /task \---
 
-+ When each clone is created, you want it to appear in one of the 4 corners of the stage.
-    
-    ![screenshot](images/dots-start.png)
-    
-    To do this, first create a new **list** called `start positions`{:class="blockdata"} and click the `(+)` to add in the values `-180` and `180`.
-    
-    ![screenshot](images/dots-list.png)
+\--- task \--- Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
 
-+ You can use these 2 list items to pick a random corner of the stage. Add this code to the 'dot' sprite, so that each new clone moves to a random corner and then slowly moves towards the controller.
-    
-    ```blocks
-        when I start as a clone
-        go to x: (item (random v) of [start positions v]) y: (item (random v) of [start positions v])
-        point towards [controller v]
-        show
-        repeat until <touching [controller v]?>
-            move (1) steps
-        end
-    ```
-    
-    The code above chooses either `-180` or `180` for the x *and* y positions, meaning that each clone starts in one corner of the stage.
+![screenshot](images/dots-all-test.png)
 
-+ Test your project. You should see lots of red dots appear in each corner of the screen, and move slowly towards the controller.
-    
-    ![screenshot](images/dots-red-test.png)
+\--- hints \--- \--- hint \--- This is the code you need to find and alter for both new sprites:
 
-+ Create 2 new variables called `lives`{:class="blockdata"} and `score`{:class="blockdata"}.
+![screenshot](images/dots-more-dots.png)
 
-+ Add code to your stage to set the `lives`{:class="blockdata"} to 3 and the `score`{:class="blockdata"} to 0 at the start of the game.
+```blocks3
+    if <touching color [#FF0000]?> then
+        change [score v] by (1)
+        play sound (pop v)
+        ...
+    end
+```
 
-+ You need to add code to the end of your red dot's `when I start as a clone`{:class="blockcontrol"} code, so that either 1 is added to the player's `score`{:class="blockdata"} if the colours match, or 1 is taken from the player's `lives`{:class="blockdata"} if the colours don't match.
-    
-    ```blocks
-        move (5) steps
-        if <touching color [#FF0000]?> then
-            change [score v] by (1)
-            play sound [pop v]
-        else
-            change [lives v] by (-1)
-            play sound [laser1 v]
-        end
-        delete this clone
-    ```
+\--- /hint \--- \--- hint \--- This is how you need to change the code for the yellow sprite:
 
-+ Add this code to the end of your stage's script, so that the game ends when the player loses all of their lives:
-    
-    ```blocks
-        wait until <(lives) < [1]>
-        stop [all v]
-    ```
+```blocks3
+    if <touching color [#FFFF00]? :: +> then
+        change [score v] by (1)
+        play sound (pop v)
+    end
+```
 
-+ Test your game to make sure this code works as expected.
+This is how you need to change the code for the blue sprite:
+
+```blocks3
+    if <touching color [#0000FF]? :: +> then
+        change [score v] by (1)
+        play sound (pop v)
+    end
+```
+
+\--- /hint \--- \--- /hints \--- \--- /task \---
+
+If you play the game now, you can see that the dots sometimes get created one top of each other.
+
+\--- task \--- Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
+
+![Yellow dot](images/yellow-sprite.png)
+
+```blocks3
+    when flag clicked
+    hide
++   wait (4) seconds
+```
+
+![Blue dot](images/blue-sprite.png)
+
+Then change the code for the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
+
+\--- /task \---
