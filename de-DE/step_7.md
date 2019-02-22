@@ -1,50 +1,50 @@
-## High score
+## Highscore
 
-You're going to save the game's high score, so that players can see how well they are doing.
+Sie speichern den Highscore des Spiels, damit die Spieler sehen können, wie gut sie sind.
 
-\--- task \--- Create a new variable called `high score`{:class="block3variables"}.
+\--- task \--- Erstellen Sie eine neue Variable mit dem Namen `High Score`{: class = "block3variables"}.
 
-![Stage sprite](images/stage-sprite.png)
+![Stage Sprite](images/stage-sprite.png)
 
-\--- /task \---
+\--- / Aufgabe \---
 
-\--- task \--- Select the Stage. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
+\--- Aufgabe \--- Wählen Sie die Bühne aus. Klicken Sie auf ‚Meine Blöcke‘ und erstellen Sie einen neuen benutzerdefinierten Block genannt `Check hohe Punktzahl`{: class = „block3myblocks“}.
 
-![Stage sprite](images/stage-sprite.png) ![screenshot](images/dots-custom-1.png)
+![Stage Sprite](images/stage-sprite.png) ![Bildschirmfoto](images/dots-custom-1.png)
 
-\--- /task \---
+\--- / Aufgabe \---
 
-\--- task \--- Add code to your custom block so that the block checks if the current value of `score`{:class="block3variables"} in larger than the value of the `high score`{:class="block3variables"} variable, and then stores the value of `score`{:class="block3variables"} as the new value of `high score`{:class="block3variables"}.
+\--- task \--- Fügen Sie Ihrem benutzerdefinierten Block Code hinzu, damit der Block prüft, ob der aktuelle Wert von `Score`{: class = "block3variables"} größer als der Wert von `High Score`{: class = ist "block3variables"} Variable und speichert dann den Wert von `Score`{: class = "block3variables"} als neuen Wert von `High Score`{: class = "block3variables"}.
 
-![Stage sprite](images/stage-sprite.png)
+![Stage Sprite](images/stage-sprite.png)
 
 ```blocks3
-    define check high score
-    if <(score :: variables) > (high score)> then
-        set [high score v] to (score :: variables)
+    definiere check high score
+    wenn <(score :: variables) > (high score)> dann
+        setze [high score v] auf (score :: variables)
     end
 ```
 
-\--- /task \---
+\--- / Aufgabe \---
 
-\--- task \--- Add your new custom block to the Stage script before the end of the script.
+\--- task \--- Fügen Sie vor dem Ende des Skripts Ihren neuen benutzerdefinierten Block zum Stage-Skript hinzu.
 
-![Stage sprite](images/stage-sprite.png)
+![Stage Sprite](images/stage-sprite.png)
 
 ```blocks3
-when flag clicked
-set [lives v] to (3)
-set [score v] to (0)
-wait until <(lives) < (1)>
+wenn Flag geklickt
+Sets [lebt v] bis (3)
+Satz [score v] auf (0)
+Warten bis <(Leben) < (1)>
 
-+ check high score :: custom
-stop [all v]
++ prüft hohe Punktzahl :: Gewohnheit
+Stopp [all v]
 ```
 
-\--- /task \---
+\--- / Aufgabe \---
 
-\--- task \---
+\--- Aufgabe \---
 
-Play your game twice to check whether your score gets correctly saved as the `high score`{:class="block3variables"}.
+Spiele dein Spiel zweimal, um zu prüfen, ob deine Punktzahl als `Punktestand`{: class = "block3variables"} richtig gespeichert wird.
 
-\--- /task \---
+\--- / Aufgabe \---
