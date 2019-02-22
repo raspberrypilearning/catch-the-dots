@@ -1,73 +1,61 @@
-## Stippen verzamelen
+## More dots
 
-We gaan een paar stippen toevoegen die de speler met zijn controller kan verzamelen.
+\--- task \--- Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
 
-+ Maak een nieuwe sprite met de naam 'rood'. Deze sprite zou een kleine rode stip moeten zijn.
-    
-    ![screenshot](images/dots-red.png)
+![screenshot](images/dots-more-dots.png) \--- /task \---
 
-+ Voeg dit script toe aan de 'rode' stip-sprite, om elke paar seconden een nieuwe stipkloon te maken:
-    
-    ```blocks
-        wanneer groene vlag wordt aangeklikt
-    verdwijn
-    wacht (2) sec.
-    herhaal 
-      maak kloon van [mijzelf v]
-      wacht (willekeurig getal tussen (5) en (10)) sec.
+\--- task \--- Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue. \--- /task \---
+
+\--- task \--- Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
+
+![screenshot](images/dots-all-test.png)
+
+\--- hints \--- \--- hint \--- This is the code you need to find and alter for both new sprites:
+
+![screenshot](images/dots-more-dots.png)
+
+```blocks3
+    if <touching color [#FF0000]?> then
+        change [score v] by (1)
+        play sound (pop v)
+        ...
     end
-    ```
+```
 
-+ Als elke kloon is gemaakt, wil je dat die tevoorschijn komt in een van de vier hoeken van het speelveld.
-    
-    ![screenshot](images/dots-start.png)
-    
-    Maak hiervoor eerst een nieuwe **lijst** met de naam `startposities`{: class = "blockdata"} en klik op `(+)` om de waarden `-180` en `180` toe te voegen.
-    
-    ![screenshot](images/dots-list.png)
+\--- /hint \--- \--- hint \--- This is how you need to change the code for the yellow sprite:
 
-+ Je kunt deze 2 lijstitems gebruiken om een ​​willekeurige hoek van het speelveld te kiezen. Voeg deze code toe aan de 'stip' sprite, zodat elke nieuwe kloon naar een willekeurige hoek gaat en dan langzaam naar de controller toe beweegt.
-    
-    ```blocks
-        wanneer ik als kloon start
-    ga naar x: (item (willekeurig v) van [startposities v] :: list) y: (item (willekeurig v) van [startposities v] :: list)
-    richt naar [controller v]
-    verschijn
-    herhaal tot <touching [controller v]?> 
-      neem (1) stappen
+```blocks3
+    if <touching color [#FFFF00]? :: +> then
+        change [score v] by (1)
+        play sound (pop v)
     end
-    ```
-    
-    De code hierboven kiest `-180` of `180` voor de posities x *en* y, wat betekent dat elke kloon in een hoek van het speelveld begint.
+```
 
-+ Test je project. Je zou in elke hoek van het scherm veel rode stippen moeten zien verschijnen die langzaam naar de controller bewegen.
-    
-    ![screenshot](images/dots-red-test.png)
+This is how you need to change the code for the blue sprite:
 
-+ Maak 2 nieuwe variabelen met de naam `levens`{: class = "blockdata"} en `score`{: class = "blockdata"}.
-
-+ Voeg code toe aan speelveld om `levens`{: class = "blockdata"} op 3 en `score`{: class = "blockdata"} op 0 te zetten aan het begin van het spel.
-
-+ Er moet code worden toegevoegd aan het einde van blok `wanneer ik als kloon start
-`{: class = "blockcontrol"}, zodat 1 wordt toegevoegd aan de `score`{: class = "blockdata"} van de speler als de kleuren overeenkomen, of 1 van `levens`{: class = "blockdata"} eraf gaat als de kleuren niet overeenkomen.
-    
-    ```blocks
-        neem (5) stappen
-    als <touching color [#FF0000]?> dan 
-      verander [score v] met (1)
-      start geluid [pop v]
-    
-      verander [lives v] met (-1)
-      start geluid [laser1 v]
+```blocks3
+    if <touching color [#0000FF]? :: +> then
+        change [score v] by (1)
+        play sound (pop v)
     end
-    verwijder deze kloon
-    ```
+```
 
-+ Voeg deze code toe aan het einde van het script van het speelveld zodat het spel eindigt als de speler al zijn levens verloren heeft:
-    
-    ```blocks
-        wacht tot <(levens) < [1]>
-    stop [alle v]
-    ```
+\--- /hint \--- \--- /hints \--- \--- /task \---
 
-+ Test je spel om te controleren of deze code werkt zoals verwacht.
+If you play the game now, you can see that the dots sometimes get created one top of each other.
+
+\--- task \--- Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
+
+![Yellow dot](images/yellow-sprite.png)
+
+```blocks3
+    when flag clicked
+    hide
++   wait (4) seconds
+```
+
+![Blue dot](images/blue-sprite.png)
+
+Then change the code for the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
+
+\--- /task \---
