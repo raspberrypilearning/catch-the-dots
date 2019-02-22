@@ -1,22 +1,9 @@
-## Рекорд
+## Challenge: improve your game
 
-Збережемо високий бал, щоб гравці могли бачити, наскільки добре вони виконують роботу.
+Can you think of ways to improve your game? For example, you could create special dots that:
 
-+ Створіть список, який називається `рахунок`{:class="blockdata"}.
++ Double your score
++ Slow down the dots
++ Hide all the other dots on the screen
 
-+ Нажміть на своїй сцені та створіть новий спеціальний блок під назвою ` перевірити високий бал </ 0> (: class = "blockmoreblocks").</p>
-
-<p><img src="images/dots-custom-1.png" alt="скріншот" /></p></li>
-<li><p>Незадовго до закінчення гри додайте в новий спеціальний блок.</p>
-
-<p><img src="images/dots-custom-2.png" alt="скріншот" /></p></li>
-<li><p>Додайте код до свого спеціального блоку, щоб зберегти поточні дані <code>score`{:class="blockdata"} as the `high score`{:class="blockdata"} `if`{:class="blockcontrol"}- це найвищий результат:
-    
-    ```blocks
-        визначити [перевірити високий бал]
-         якщо &lt <(оцінка)> (висока оцінка) &gt;&gt; потім
-             встановити [високий бал v] (оцінка)
-         кінець                &lt;
-    ```
-
-+ Перевірте доданий код. Відкрийте свою гру, щоб перевірити, чи правильно оновлено код `high score`{:class="blockdata"}.
+Can you add a menu with buttons to your game? You could add an screen with instructions or a separate screen for showing the high score.
