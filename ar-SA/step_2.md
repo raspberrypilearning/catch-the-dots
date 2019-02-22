@@ -1,4 +1,4 @@
-## Create a controller
+## إنشاء قرص دوَّار
 
 Start by creating a controller that the player will use to collect dots.
 
@@ -12,21 +12,21 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 \--- /task \---
 
-You should see a controller sprite:
+يجب أن تشاهد نموذج المتحكم:
 
-![screenshot](images/dots-controller.png)
+![لقطة الشاشة](images/dots-controller.png)
 
 \--- task \--- Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
 
 ![Controller sprite](images/controller-sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        if <key (right arrow v) pressed?> then
-            turn right (3) degrees
-        end
-    end
+    عند نقر ⚑
+كرر باستمرار 
+  إذا <key (right arrow v) pressed?> 
+    استدر ↻ (3) درجات
+  end
+end
 ```
 
 \--- /task \---
@@ -53,7 +53,7 @@ if <> then
 end
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- /hint \--- \--- hint \--- يجب أن تكون التعليمة البرمجية كما يلي:
 
 ```blocks3
     when flag clicked
