@@ -4,8 +4,8 @@ listed: true
 copyedit: false
 title: Vang de stippen
 description: Leer hoe je een pakkend spel kunt maken.
-version: 3
-last_tested: 2017-01-01
+version: 4.0.0
+last_tested: 2018/10/16
 steps:
   - 
     title: Inleiding
@@ -20,8 +20,8 @@ steps:
   - 
     title: 'Moeilijker maken'
   - 
-    title: 'Uitdaging: sneller bewegende stippen'
+    title: Topscore
   - 
-    title: 'Topscore'
+    title: 'Challenge: verbeter je spel!'
   - 
-    title: 'Uitdaging: verbeter je spel!'
+    title: Wat kun je verder nog doen?
