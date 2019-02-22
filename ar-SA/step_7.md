@@ -1,4 +1,4 @@
-## High score
+## أعلى نتيجة
 
 You're going to save the game's high score, so that players can see how well they are doing.
 
@@ -6,11 +6,11 @@ You're going to save the game's high score, so that players can see how well the
 
 ![Stage sprite](images/stage-sprite.png)
 
-\--- /task \---
+\---/task--
 
 \--- task \--- Select the Stage. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
 
-![Stage sprite](images/stage-sprite.png) ![screenshot](images/dots-custom-1.png)
+![Stage sprite](images/stage-sprite.png) ![لقطة الشاشة](images/dots-custom-1.png)
 
 \--- /task \---
 
@@ -25,7 +25,7 @@ You're going to save the game's high score, so that players can see how well the
     end
 ```
 
-\--- /task \---
+\---/task\---
 
 \--- task \--- Add your new custom block to the Stage script before the end of the script.
 
