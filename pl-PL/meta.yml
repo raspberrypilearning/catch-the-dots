@@ -5,10 +5,10 @@ copyedit: false
 title: Łapanie kropek
 description: Naucz się, jak stworzyć grę, w której musisz dopasować kolorowe kulki do odpowiedniej części pokrętła.
 version: 3
-last_tested: 2017-01-01
+last_tested: 2018-10-16
 steps:
   - 
-    title: Wprowadzenie
+    title: Życzenia urodzinowe
   - 
     title: Create a controller
   - 
@@ -20,8 +20,8 @@ steps:
   - 
     title: 'Challenge: faster dots'
   - 
-    title: High score
+    title: Tabela wyników
   - 
-    title: 'Challenge: improve your game!'
+    title: 'Wyzwanie: udoskonal swoją grę!'
   - 
-    title: What next?
+    title: Co następne?
