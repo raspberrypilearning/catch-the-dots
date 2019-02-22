@@ -1,71 +1,71 @@
-## Create a controller
+## Erstellen Sie einen Controller
 
-Start by creating a controller that the player will use to collect dots.
+Erstellen Sie zunächst einen Controller, den der Spieler zum Sammeln von Punkten verwenden soll.
 
-\--- task \--- Open the 'Catch the dots' Scratch starter project.
+\--- task \--- Öffnen Sie das Scratch-Starterprojekt 'Catch the dots'.
 
-**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}. If you have a Scratch account, you can click on **Remix** in the top right-hand corner to save a copy of the project.
+**Online:** Öffnen Sie das Starterprojekt um [rpf.io/dots-on](http://rpf.io/dots-on){: target = "_ blank"}. Wenn Sie über ein Scratch-Konto verfügen, können Sie auf **Remix** oben rechts klicken, um eine Kopie des Projekts zu speichern.
 
-**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
+**Offline:** Laden Sie das Starterprojekt von [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go)herunter und öffnen Sie es im Scratch-Offline-Editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+Wenn Sie den Scratch-Offline-Editor herunterladen und installieren müssen, finden Sie ihn unter [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
-\--- /task \---
+\--- / Aufgabe \---
 
-You should see a controller sprite:
+Sie sollten ein Controller-Sprite sehen:
 
-![screenshot](images/dots-controller.png)
+![Bildschirmfoto](images/dots-controller.png)
 
-\--- task \--- Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
+\--- task \--- Fügen Sie dem Controller-Sprite Code hinzu, damit das Sprite nach rechts dreht, wenn der Spieler die rechte Pfeiltaste drückt:
 
-![Controller sprite](images/controller-sprite.png)
+![Controller-Sprite](images/controller-sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        if <key (right arrow v) pressed?> then
-            turn right (3) degrees
-        end
-    end
+    wenn die Fahne für immer auf
+    geklickt wurde
+        wenn <key (right arrow v) pressed?> dann
+            rechts (3) Grad
+        Ende
+    Ende
 ```
 
-\--- /task \---
+\--- / Aufgabe \---
 
-\--- task \--- Test your code. The controller should spin to the right when you press the right arrow key. \--- /task \---
+\--- Aufgabe \--- Testen Sie Ihren Code. Der Controller sollte sich nach rechts drehen, wenn Sie die rechte Pfeiltaste drücken. \--- / Aufgabe \---
 
-\--- task \--- Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
+\--- task \--- Fügen Sie dem Controller-Sprite Code hinzu, damit das Sprite nach links dreht, wenn der Spieler die linke Pfeiltaste drückt.
 
-![Controller sprite](images/controller-sprite.png)
+![Controller-Sprite](images/controller-sprite.png)
 
-\--- hints \--- \--- hint \---
+\--- Hinweise \--- \--- Hinweis \---
 
-Find the code that checks whether the right arrow key is pressed and makes the sprite turn right. Can you add a copy of this code, and change the copy so it checks whether the left arrow key is pressed and makes the sprite turn left?
+Suchen Sie den Code, der überprüft, ob die rechte Pfeiltaste gedrückt wird, und das Sprite nach rechts dreht. Kannst du eine Kopie dieses Codes hinzufügen und die Kopie so ändern, dass geprüft wird, ob die linke Pfeiltaste gedrückt wird und das Sprite nach links dreht?
 
-\--- /hint \--- \--- hint \--- Here are the blocks you need:
+\--- / Hinweis \--- \--- Hinweis \--- Hier sind die Blöcke, die Sie brauchen:
 
 ```blocks3
 <key (space v) pressed?>
 
-turn left(15) degrees
+links abbiegen (15) grad
 
-if <> then
+wenn <> dann
 
-end
+ende
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- / Hinweis \--- \--- Hinweis \--- So sollte Ihr Code aussehen:
 
 ```blocks3
-    when flag clicked
-    forever
-        if <key (right arrow v) pressed?> then
-            turn right (3) degrees
-        end
+    wenn die Fahne für immer auf
+    geklickt wurde
+        wenn <key (right arrow v) pressed?> dann
+            rechts abbiegen (3) Grad
+        Ende
 
-+       if <key (left arrow v) pressed?> then
-            turn left(3) degrees
-        end
-    end
++ Wenn <key (left arrow v) pressed?> dann
+            links abbiegen (3) Grad
+        Ende
+    Ende
 ```
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
+\--- / Hinweis \--- \--- / Hinweise \--- \--- / Aufgabe \---
