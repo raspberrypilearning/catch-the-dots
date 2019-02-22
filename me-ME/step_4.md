@@ -1,72 +1,61 @@
-## Sakupljanje tačaka
+## More dots
 
-Dodajmo nekoliko tačaka koje igrač treba da sakupi svojim kontrolerom.
+\--- task \--- Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
 
-+ Kreiraj novi lik (sprite) pod nazivom 'crvena'. Ovaj lik bi trebalo da bude mala crvena tačka.
-    
-    ![screenshot](images/dots-red.png)
+![screenshot](images/dots-more-dots.png) \--- /task \---
 
-+ Dodaj sljedeću skriptu svom liku 'crvene' tačke kako bi se kreirao novi klon tačke svakih nekoliko sekundi:
-    
-    ```blocks
-        when flag clicked
-        hide
-        wait (2) secs
-        forever
-            create clone of [myself v]
-            wait (pick random (5) to (10)) secs
-        end
-    ```
+\--- task \--- Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue. \--- /task \---
 
-+ Kada se kreira novi klon, želimo da se pojavi u jednom od 4 ugla pozornice.
-    
-    ![screenshot](images/dots-start.png)
-    
-    Da to uradiš, prvo napravi novu **listu** (list) i nazovi je `početne pozicije`, a zatim klikni na `+` da dodaš vrijednosti `-180` i `180`.
-    
-    ![screenshot](images/dots-list.png)
+\--- task \--- Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
 
-+ Ova 2 elementa liste možeš da koristiš za odabiranje nasumičnog ugla pozornice. Dodaj liku 'tačke' sljedeći kôd, tako da se svaki novi klon pojavi u nasumičnom uglu, a zatim da se polako kreće prema kontroleru.
-    
-    ```blocks
-        when I start as a clone
-        go to x: (item (random v) of [početne pozicije v]) y: (item (random v) of [početne pozicije v])
-        point towards [controller v]
-        show
-        repeat until <touching [controller v]?>
-            move (1) steps
-        end
-    ```
-    
-    Ovaj kôd bira `-180` ili `180` za x *i* y pozicije, što znači da će svaki klon krenuti iz jednog ugla pozornice.
+![screenshot](images/dots-all-test.png)
 
-+ Isprobaj svoj projekat. Trebalo bi da vidiš puno crvenih tačaka koje se pojavljuju u svim uglovima ekrana i polako se kreću prema kontroleru.
-    
-    ![screenshot](images/dots-red-test.png)
+\--- hints \--- \--- hint \--- This is the code you need to find and alter for both new sprites:
 
-+ Napravi 2 nove promjenljive (variables) i daj im nazive `životi`{:class="blockdata"} i `rezultat`{:class="blockdata"}.
+![screenshot](images/dots-more-dots.png)
 
-+ Svojoj pozornici dodaj kôd kojim ćeš na početku igre postaviti `živote`{:class="blockdata"} na 3 i `rezultat`{:class="blockdata"} na 0.
+```blocks3
+    if <touching color [#FF0000]?> then
+        change [score v] by (1)
+        play sound (pop v)
+        ...
+    end
+```
 
-+ Na kraj kôda crvene tačke `when I start as a clone`{:class="blockcontrol"} (kada krećem kao klon) treba da dodaš kôd kojim ćeš igračevom `rezultatu`{:class="blockdata"} dodati 1 ako se boje poklapaju ili od `života` igrača oduzeti 1 ako se boje ne poklapaju.
-    
-    ```blocks
-        move (5) steps
-        if <touching color [#FF0000]?> then
-            change [rezultat v] by (1)
-            play sound [pop v]
-        else
-            change [životi v] by (-1)
-            play sound [laser1 v]
-        end
-        delete this clone
-    ```
+\--- /hint \--- \--- hint \--- This is how you need to change the code for the yellow sprite:
 
-+ Na kraj skripte pozornice dodaj ovaj kôd, tako da se igra završi kada igrač izgubi sve živote:
-    
-    ```blocks
-        wait until <(životi) < [1]>
-        stop [all v]
-    ```
+```blocks3
+    if <touching color [#FFFF00]? :: +> then
+        change [score v] by (1)
+        play sound (pop v)
+    end
+```
 
-+ Isprobaj svoju igru da provjeriš da li ovaj kôd funkcioniše kako treba.
+This is how you need to change the code for the blue sprite:
+
+```blocks3
+    if <touching color [#0000FF]? :: +> then
+        change [score v] by (1)
+        play sound (pop v)
+    end
+```
+
+\--- /hint \--- \--- /hints \--- \--- /task \---
+
+If you play the game now, you can see that the dots sometimes get created one top of each other.
+
+\--- task \--- Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
+
+![Yellow dot](images/yellow-sprite.png)
+
+```blocks3
+    when flag clicked
+    hide
++   wait (4) seconds
+```
+
+![Blue dot](images/blue-sprite.png)
+
+Then change the code for the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
+
+\--- /task \---
