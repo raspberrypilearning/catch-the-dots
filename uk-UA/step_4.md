@@ -1,69 +1,61 @@
-## Збирай очки
+## More dots
 
-Давайте додамо деякі крапки для гравця, щоб зібрати їх з датчика.
+\--- task \--- Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
 
-+ Створіть нову змінну з назвою "червоний". Цей спрайт повинен виглядати, як червона маленька крапка.
-    
-    ![скріншот](images/dots-red.png)
+![screenshot](images/dots-more-dots.png) \--- /task \---
 
-+ Додайте цей скрипт до "червоного" спрайту, щоб створювати новий крапковий клон кожні декілька секунд:
-    
-    ```blocks
-        коли натиснуто на прапорець
-         приховати
-         чекати (2) с
-         назавжди
-             створити клон [себе V]
-             чекати (вибрати випадкові (5) - (10)) сек
-         кінець
-    ```
+\--- task \--- Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue. \--- /task \---
 
-+ Якщо під час створення клону, ви бажаєте, щоб він з'явився в одному з 4-х кутів сцени, вам необхідно:
-    
-    ![скріншот](images/dots-start.png)
-    
-    Спершу, створити новий ** список </code>назва` початкова позиція `**(: class = "blockdata") і натиснути `(+)`, щоб додати значення`-180` і `180</1>.</p>
+\--- task \--- Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
 
-<p><img src="images/dots-list.png" alt="скріншот" /></p></li>
-<li><p>Ви можете використати список елементів, щоб вибрати рандомний кут сцени. Додайте цей код до "точка", щоб кожен новий клон переходив у рандомний кут, а потім повільно рухався до датчику.</p>
+![screenshot](images/dots-all-test.png)
 
-<pre><code class="blocks">    коли я починаю  клон
-     перейдіть до x: (елемент (рандомний v) з [початковими позиціями v]) y: (елемент (рандомний v) з [початковими позиціями v])
-     точка напрямку [датчик v]
-     показати
-     повторити до <touching [controller v]?>
-         перемістити (1) кроки
-     кінець
-`</pre> 
-    
-    Наведений вище код дає змогу обирати позиції `-180` або `180` для x *and*, що означає, що кожен клон починається в одному куті сцени.</li> 
-    
-    + Перевірте ваш проект. Ви повинні побачити, що в кожному кутку екрана з'являється багато червоних точок, які повільно переміщаються до датчику.
-        
-        ![скріншот](images/dots-red-test.png)
-    
-    + Додайте дві нові змінні, які називаються `рекорд`{:class="blockdata"} та `ім'я`{:class="blockdata"} до вашого проекту.
-    
-    + Додайте код у свою сцену, щоб встановити життя {: class = "blockdata"} до 3 та очки {: class = "blockdata"} до 0 на початку гри.
-    
-    + Потрібно додати код до кінця червоної крапки `, коли я починаю клон ` {: class = "blockcontrol"}, так що будь-яка одиниця додається до`очка` {: class = "blockdata"}, якщо кольори співпадають, або 1 приймається з ` життів <0> (: class = "blockdata") гравця, якщо кольори не збігаються.</p>
+\--- hints \--- \--- hint \--- This is the code you need to find and alter for both new sprites:
 
-<pre><code class="blocks">    перемістити на (5) кроків
-     якщо <touching color [#FF0000]?> тоді
-         змінити [очки  v] на (1)
-         відтворити звук [pop v]
-     інакше
-         змінити [життя v] на (-1)
-         відтворити звук [laser1 v]
-     кінець
-     видалити цей клон
-`</pre></li> 
-        
-        + Додайте цей код до кінця сценарію вашого етапу, щоб гра закінчувалася, коли гравець втрачає всі свої життя:
-            
-            ```blocks
-                зачекайте, доки  < (життя) < [1]>
-                 зупинити [все v]
-            ```
-        
-        + Перевірте свою гру, щоб переконатися, що цей код працює належним чином.</ul>
+![screenshot](images/dots-more-dots.png)
+
+```blocks3
+    if <touching color [#FF0000]?> then
+        change [score v] by (1)
+        play sound (pop v)
+        ...
+    end
+```
+
+\--- /hint \--- \--- hint \--- This is how you need to change the code for the yellow sprite:
+
+```blocks3
+    if <touching color [#FFFF00]? :: +> then
+        change [score v] by (1)
+        play sound (pop v)
+    end
+```
+
+This is how you need to change the code for the blue sprite:
+
+```blocks3
+    if <touching color [#0000FF]? :: +> then
+        change [score v] by (1)
+        play sound (pop v)
+    end
+```
+
+\--- /hint \--- \--- /hints \--- \--- /task \---
+
+If you play the game now, you can see that the dots sometimes get created one top of each other.
+
+\--- task \--- Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
+
+![Yellow dot](images/yellow-sprite.png)
+
+```blocks3
+    when flag clicked
+    hide
++   wait (4) seconds
+```
+
+![Blue dot](images/blue-sprite.png)
+
+Then change the code for the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
+
+\--- /task \---
