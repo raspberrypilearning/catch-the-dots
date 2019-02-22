@@ -1,10 +1,10 @@
-## Increase the difficulty
+## Uitdaging: meer stippen
 
 Now you're going to make the game more difficult the longer the player plays it. You will do this by making the dots appear faster and faster over time.
 
 \--- task \--- Create a new `variable`{:class="block3variables"} called 'delay'.
 
-![Stage sprite](images/stage-sprite.png) \--- /task \---
+![Stage sprite](images/stage-sprite.png) \---/task\---
 
 \--- task \--- Go to the Stage's Scripts area and create a new script that sets the `delay`{:class="block3variables"} variable to `8` and then slowly reduces the value of `delay`{:class="block3variables"} while the game runs.
 
@@ -36,7 +36,7 @@ Next, use the `delay`{:class="block3variables"} variable in the code scripts of 
 
 Do this for all three dot sprites.
 
-\--- /task \---
+-- /task \---
 
 \--- task \--- Test the game, and check whether the dots begin to appear more quickly as the game goes on.
 
