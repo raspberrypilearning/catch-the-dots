@@ -1,71 +1,71 @@
-## Create a controller
+## Crear un controlador
 
-Start by creating a controller that the player will use to collect dots.
+Comience creando un controlador que el jugador utilizará para recoger puntos.
 
-\--- task \--- Open the 'Catch the dots' Scratch starter project.
+\--- tarea \--- Abra el proyecto de arranque de Scratch 'Catch the dots'.
 
-**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}. If you have a Scratch account, you can click on **Remix** in the top right-hand corner to save a copy of the project.
+**En línea:** abra el proyecto de inicio en [rpf.io/dots-on](http://rpf.io/dots-on){: target = "_ blank"}. Si tiene una cuenta de Scratch, puede hacer clic en **Remix** en la esquina superior derecha para guardar una copia del proyecto.
 
-**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
+**Desconectado:** de descargar el proyecto inicial de [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), y luego abrirlo en el editor de Scratch en línea.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+Si necesita descargar e instalar el editor de Scratch offline, puede encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
-\--- /task \---
+\--- / tarea \---
 
-You should see a controller sprite:
+Deberías ver un controlador sprite:
 
-![screenshot](images/dots-controller.png)
+![captura de pantalla](images/dots-controller.png)
 
-\--- task \--- Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
+\--- tarea \--- Agregue algo de código al controlador sprite para que gire a la derecha si el jugador presiona la tecla de flecha derecha:
 
-![Controller sprite](images/controller-sprite.png)
+![Controlador sprite](images/controller-sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        if <key (right arrow v) pressed?> then
-            turn right (3) degrees
-        end
-    end
+    cuando la bandera hace clic en
+    para siempre
+        si <key (right arrow v) pressed?> luego
+            gira a la derecha (3) grados
+        final
+    final
 ```
 
-\--- /task \---
+\--- / tarea \---
 
-\--- task \--- Test your code. The controller should spin to the right when you press the right arrow key. \--- /task \---
+\--- tarea \--- Pon a prueba tu código. El controlador debe girar hacia la derecha cuando presiona la tecla de flecha derecha. \--- / tarea \---
 
-\--- task \--- Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
+\--- tarea \--- Agregue código al sprite del controlador para hacer que el sprite gire a la izquierda si el jugador presiona la tecla de flecha izquierda.
 
-![Controller sprite](images/controller-sprite.png)
+![Controlador sprite](images/controller-sprite.png)
 
-\--- hints \--- \--- hint \---
+\--- consejos \--- \--- consejo \---
 
-Find the code that checks whether the right arrow key is pressed and makes the sprite turn right. Can you add a copy of this code, and change the copy so it checks whether the left arrow key is pressed and makes the sprite turn left?
+Encuentre el código que verifica si se presiona la tecla de flecha derecha y hace que el sprite gire a la derecha. ¿Puede agregar una copia de este código y cambiar la copia para que compruebe si se presiona la tecla de flecha izquierda y hace que el sprite gire a la izquierda?
 
-\--- /hint \--- \--- hint \--- Here are the blocks you need:
+\--- / hint \--- \--- hint \--- Aquí están los bloques que necesitas:
 
 ```blocks3
 <key (space v) pressed?>
 
-turn left(15) degrees
+gire a la izquierda (15) grados
 
-if <> then
+si <> luego
 
-end
+final
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- / hint \--- \--- hint \--- Aquí está el aspecto que debería tener tu código:
 
 ```blocks3
-    when flag clicked
-    forever
-        if <key (right arrow v) pressed?> then
-            turn right (3) degrees
-        end
+    cuando la bandera hace clic en
+    para siempre
+        si <key (right arrow v) pressed?> luego
+            gira a la derecha (3) grados
+        termina
 
-+       if <key (left arrow v) pressed?> then
-            turn left(3) degrees
-        end
-    end
++ si <key (left arrow v) pressed?> luego
+            gira a la izquierda (3) grados
+        final
+    final
 ```
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
+\--- / hint \--- \--- / hints \--- \--- / task \---
