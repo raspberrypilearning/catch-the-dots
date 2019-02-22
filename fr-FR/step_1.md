@@ -1,55 +1,55 @@
-\--- no-print \---
+\--- pas d'impression \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
+Ceci est la version **Scratch 3** du projet. Il existe également une version [Scratch 2 du projet](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
 
-\--- /no-print \---
+\--- / pas d'impression \---
 
-## Introduction
+## introduction
 
-In this project you'll learn how to create a game in which the player has to match up coloured dots with the correct colour of the controller wheel.
+Dans ce projet, vous apprendrez à créer un jeu dans lequel le joueur doit faire correspondre des points de couleur avec la couleur correcte de la molette du contrôleur.
 
-\--- no-print \--- Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
+\--- no-print \--- Utilisez les touches fléchées de votre clavier pour faire pivoter la molette du contrôleur et capturer les points volants lorsqu'ils atteignent le centre. Si vous manquez trois points, le jeu est terminé.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/dots-final.png">
 </div>
 
-\--- /no-print \---
+\--- / pas d'impression \---
 
-\--- print-only \--- ![Dots screenshot](images/dots-final.png) \--- /print-only \---
+\--- impression seule \--- ![Dots screenshot](images/dots-final.png) \--- / impression seule \---
 
-## \--- collapse \---
+## \--- effondrer \---
 
-## title: What you will learn
+## titre: ce que vous allez apprendre
 
-+ How to choose random items from a list
-+ How to use variables to track speed, lives, and the player's score
++ Comment choisir des objets au hasard dans une liste
++ Comment utiliser des variables pour suivre la vitesse, les vies et le score du joueur
 
-\--- /collapse \---
+\--- /effondrer \---
 
-## \--- collapse \---
+## \--- effondrer \---
 
-## title: What you will need
+## titre: ce dont vous aurez besoin
 
-### Hardware
+### Matériel
 
-+ A computer capable of running Scratch 3
++ Un ordinateur capable d'exécuter Scratch 3
 
-### Software
+### Logiciel
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ( [ligne](http://rpf.io/scratchon){: target = "_ blank"} ou [hors connexion](http://rpf.io/scratchoff){: target = "_ blank"})
 
-### Downloads
+### Téléchargements
 
-+ [Offline Scratch 2 project](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"} \--- /collapse \---
++ [Projet hors ligne Scratch 2](http://rpf.io/p/en/catch-the-dots-go){: target = "_ blank"} \--- / collapse \---
 
-## \--- collapse \---
+## \--- effondrer \---
 
-## title: Additional notes for educators
+## titre: Notes complémentaires pour les éducateurs
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print). \--- /no-print \---
+\--- no-print \--- Si vous devez imprimer ce projet, veuillez utiliser la [version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print)imprimable. \--- / pas d'impression \---
 
-You can find [the completed project here](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+Vous pouvez trouver [le projet terminé ici](http://rpf.io/p/en/catch-the-dots-get){: target = "_ blank"}.
 
-+ [Completed online Scratch 3 project](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse \---
++ [Projet Scratch 3 en ligne terminé](https://scratch.mit.edu/projects/252923761/#editor){: target = "_ blank"} \--- / collapse \---
