@@ -1,44 +1,44 @@
-## Increase the difficulty
+## Creșteți dificultatea
 
-Now you're going to make the game more difficult the longer the player plays it. You will do this by making the dots appear faster and faster over time.
+Acum vei face jocul mai dificil cu cât îl joacă mai mult. Veți face acest lucru făcând ca punctele să apară mai repede și mai repede în timp.
 
-\--- task \--- Create a new `variable`{:class="block3variables"} called 'delay'.
+\--- Sarcina \--- Creează un nou `variabila`{: class = "block3variables"} numit 'întârziere'.
 
-![Stage sprite](images/stage-sprite.png) \--- /task \---
+![Scena sprite](images/stage-sprite.png) \--- /task \---
 
-\--- task \--- Go to the Stage's Scripts area and create a new script that sets the `delay`{:class="block3variables"} variable to `8` and then slowly reduces the value of `delay`{:class="block3variables"} while the game runs.
+\--- task \--- Mergeți în zona Scenelor Stage și creați un script nou care stabilește variabila `întârziere`{: class = "block3variables"} la `8` și apoi reduce încet valoarea de `întârziere`{: class = "block3variables"} în timp ce jocul rulează.
 
-![Stage sprite](images/stage-sprite.png)
+![Scena sprite](images/stage-sprite.png)
 
 ```blocks3
-    when flag clicked
-    set [delay v] to (8)
-    repeat until < (delay) = (2)>
-        wait (10) seconds
-        change [delay v] by (-0.5)
-    end
+    când flag apasat
+    set [întârziere v] până la (8)
+    repetare până < (întârziere) = (2)>
+        wait (10) secunde
+        schimbare [întârziere v] de (-0.5)
+    final
 ```
 
 \--- /task \---
 
-Notice that this code is very similar to the code you would use to create a countdown timer!
+Observați că acest cod este foarte asemănător cu codul pe care l-ați folosi pentru a crea un cronometru de numărătoare inversă!
 
-Next, use the `delay`{:class="block3variables"} variable in the code scripts of the 'red', 'yellow', and 'blue' sprites.
+Apoi, utilizați variabila `întârziere`{: class = "block3variables"} în scripturile de cod ale spritelor "roșu", "galben" și "albastru".
 
-\--- task \--- Remove the code block that makes the game wait a random number of seconds between making the dot sprite clones. Replace the block you've removed with your new `delay`{:class="block3variables"} variable:
+\--- task \--- Eliminați blocul de cod care face jocul să aștepte un număr aleator de secunde între crearea clone-urilor sprite dot. Înlocuiți blocul pe care l-ați eliminat cu noua variabilă `întârziere`{: class = "block3variables"}:
 
-![screenshot](images/all-dots.png)
+![captură de ecran](images/all-dots.png)
 
 ```blocks3
-<br />-   wait (pick random (5) to (10)) secs
-    wait (delay :: variables) secs
+<br />- așteptați (alegeți aleatoriu (5) până la (10)) secunde
+    așteptați (întârziere :: variabile) secunde
 ```
 
-Do this for all three dot sprites.
+Faceți asta pentru toate cele trei sprite.
 
 \--- /task \---
 
-\--- task \--- Test the game, and check whether the dots begin to appear more quickly as the game goes on.
+\--- task \--- Testați jocul și verificați dacă punctele încep să apară mai repede pe măsură ce jocul continuă.
 
-+ Does this work for all three coloured dots?
-+ Can you see that the value of the `delay`{:class="block3variables"} variable decreases? \--- /task \---
++ Acest lucru funcționează pentru toate cele trei puncte colorate?
++ Puteți vedea că valoarea variabilei `întârziere`{: class = "block3variables"} scade? \--- /task \---
