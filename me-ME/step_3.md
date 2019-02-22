@@ -1,8 +1,8 @@
-## Gain points or lose lives
+## Izazov: Okretanje ulijevo
 
 Now you're going to add some dots that the player needs to collect.
 
-\--- task \--- Create a new sprite called 'red'. This sprite should be a small red dot.
+\--- task \--- Create a new sprite called 'red'. Ovaj lik bi trebalo da bude mala crvena tačka.
 
 ![Red dot sprite](images/dots-red.png)
 
