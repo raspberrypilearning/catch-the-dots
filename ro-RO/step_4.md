@@ -1,74 +1,61 @@
-## Colecteaza puncte
+## More dots
 
-Să adăugăm câteva puncte pe care jucătorul să le adune cu controlerul lui.
+\--- task \--- Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
 
-+ Creaza un personaj numit 'ŕosu'. Acest personaj trebuie sa fie un mic punct rosu.
-    
-    ![screenshot](images/dots-red.png)
+![screenshot](images/dots-more-dots.png) \--- /task \---
 
-+ Adăugați acest script la personajulul "roșu", pentru a crea o nouă clonă a punctului rosu la fiecare câteva secunde:
-    
-    ```blocks
-        when flag clicked
-        hide
-        wait (2) secs
-        forever
-            create clone of [myself v]
-            wait (pick random (5) to (10)) secs
-        end
-    ```
+\--- task \--- Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue. \--- /task \---
 
-+ Când fiecare clona este creată, doriți să apară într-unul din cele patru colțuri ale scenei.
-    
-    ![screenshot](images/dots-start.png)
-    
-    Pentru a face acest lucru, mai întâi creați o nouă **list** numita <`start positions`{:class="blockdata"} și faceți clic pe `(+)` pentru a adauga valorile `-180` si `180`.
-    
-    ![screenshot](images/dots-list.png)
+\--- task \--- Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
 
-+ Puteți utiliza aceste două elemente de listă pentru a alege un colț aleatoriu al scenei. Adăugați aceste linii de cod la personajul "punct", astfel încât fiecare clonă nouă să se deplaseze într-un colț aleatoriu și apoi să se mute încet spre controler.
-    
-    ```blocks
-        when I start as a clone
-        go to x: (item (random v) of [start positions v]) y: (item (random v) of [start positions v])
-        point towards [controller v]
-        show
-        repeat until <touching [controller v]?>
-            move (1) steps
-        end
-     
-    
-    ```
-    
-    Codul de mai sus alege `-180` sau `180` pentru pozițiile x * și * y, ceea ce înseamnă că fiecare clonă începe într-un colț al scenei.
+![screenshot](images/dots-all-test.png)
 
-+ Salvați proiectul. Ar trebui să vedeți multe puncte roșii în fiecare colț al ecranului care se mișca încet spre controler.
-    
-    ![screenshot](images/dots-red-test.png)
+\--- hints \--- \--- hint \--- This is the code you need to find and alter for both new sprites:
 
-+ Create 2 new variables called `lives`{:class="blockdata"} and `score`{:class="blockdata"}.
+![screenshot](images/dots-more-dots.png)
 
-+ Add code to your stage to set the `lives`{:class="blockdata"} to 3 and the `score`{:class="blockdata"} to 0 at the start of the game.
+```blocks3
+    if <touching color [#FF0000]?> then
+        change [score v] by (1)
+        play sound (pop v)
+        ...
+    end
+```
 
-+ You need to add code to the end of your red dot's `when I start as a clone`{:class="blockcontrol"} code, so that either 1 is added to the player's `score`{:class="blockdata"} if the colours match, or 1 is taken from the player's `lives`{:class="blockdata"} if the colours don't match.
-    
-    ```blocks
-        move (5) steps
-        if <touching color [#FF0000]?> then
-            change [score v] by (1)
-            play sound [pop v]
-        else
-            change [lives v] by (-1)
-            play sound [laser1 v]
-        end
-        delete this clone
-    ```
+\--- /hint \--- \--- hint \--- This is how you need to change the code for the yellow sprite:
 
-+ Add this code to the end of your stage's script, so that the game ends when the player loses all of their lives:
-    
-    ```blocks
-        wait until <(lives) < [1]>
-        stop [all v]
-    ```
+```blocks3
+    if <touching color [#FFFF00]? :: +> then
+        change [score v] by (1)
+        play sound (pop v)
+    end
+```
 
-+ Test your game to make sure this code works as expected.
+This is how you need to change the code for the blue sprite:
+
+```blocks3
+    if <touching color [#0000FF]? :: +> then
+        change [score v] by (1)
+        play sound (pop v)
+    end
+```
+
+\--- /hint \--- \--- /hints \--- \--- /task \---
+
+If you play the game now, you can see that the dots sometimes get created one top of each other.
+
+\--- task \--- Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
+
+![Yellow dot](images/yellow-sprite.png)
+
+```blocks3
+    when flag clicked
+    hide
++   wait (4) seconds
+```
+
+![Blue dot](images/blue-sprite.png)
+
+Then change the code for the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
+
+\--- /task \---
