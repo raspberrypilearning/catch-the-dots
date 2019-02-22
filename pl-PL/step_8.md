@@ -1,9 +1,9 @@
-## Challenge: improve your game
+## Wyzwanie: udoskonal swoją grę
 
-Can you think of ways to improve your game? For example, you could create special dots that:
+Czy możesz wymyślić kolejne sposoby na ulepszenie swojej gry? Na przykład, możesz utworzyć specjalne kropki które:
 
-+ Double your score
-+ Slow down the dots
-+ Hide all the other dots on the screen
++ Podwajają twój wynik
++ Spowalniają kropki
++ Ukrywają wszystkie inne kropki na ekranie
 
 Can you add a menu with buttons to your game? You could add an screen with instructions or a separate screen for showing the high score.
