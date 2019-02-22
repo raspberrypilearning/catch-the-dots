@@ -21,7 +21,7 @@ In this project you'll learn how to create a game in which the player has to mat
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: O que você vai aprender
 
 + How to choose random items from a list
 + How to use variables to track speed, lives, and the player's score
@@ -30,15 +30,15 @@ In this project you'll learn how to create a game in which the player has to mat
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: O que você vai precisar
 
 ### Hardware
 
-+ A computer capable of running Scratch 3
++ Um computador capaz de executar o Scratch 3
 
 ### Software
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([online](http://rpf.io/scratchon){:target="_blank"} ou [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
