@@ -1,3 +1,3 @@
-## What next?
+## Et ensuite?
 
-Try the [Clone wars](https://projects.raspberrypi.org/en/projects/clone-wars) project to make a game in which you have to save the Earth from space monsters. In that project, you will be able to use what you have learned about cloning sprites and adding a score!
+Essayez le projet [Clone wars](https://projects.raspberrypi.org/en/projects/clone-wars) pour créer un jeu dans lequel vous devez sauver la Terre des monstres de l’espace. Dans ce projet, vous pourrez utiliser ce que vous avez appris sur le clonage des sprites et l’ajout d’un score!
