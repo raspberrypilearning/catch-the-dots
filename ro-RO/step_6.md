@@ -1,5 +1,5 @@
-## Challenge: faster dots
+## Provocare: puncte mai rapide
 
-Can you improve your game by adding a `speed`{:class="block3variables"} variable and using this new variable to make the dot change their speed over time? The clones should start by moving one step at a time, and then steadily get faster and faster.
+Îți poți îmbunătăți jocul adăugând o variabilă `viteză`{: class = "block3variables"} și folosind această nouă variabilă pentru a face ca punctul să-și schimbe viteza în timp? Clonele ar trebui să înceapă prin mișcarea cu un pas la un moment dat, apoi să devină din ce în ce mai rapide și mai rapide.
 
-The code you need for this is very similar to the code in which you've used the `delay`{:class="block3variables"} variable.
+Codul de care aveți nevoie este foarte asemănător cu codul în care ați utilizat variabila `delay`{: class = "block3variables"}.
