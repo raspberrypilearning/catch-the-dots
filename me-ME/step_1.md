@@ -1,79 +1,55 @@
+\--- no-print \---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
+
+\--- /no-print \---
+
 ## Uvod
 
-U ovom projektu naučićeš kako da napraviš igru u kojoj treba da spojiš obojene tačke sa odgovarajućim dijelom kontrolera.
+In this project you'll learn how to create a game in which the player has to match up coloured dots with the correct colour of the controller wheel.
+
+\--- no-print \--- Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/44942820/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/dots-final.png">
 </div>
 
-### Dodatne informacije za vođe kluba
+\--- /no-print \---
 
-Ukoliko je potrebno da odštampate ovaj projekat, koristite [Verziju za štampu](https://projects.raspberrypi.org/en/projects/catch-the-dots/print).
+\--- print-only \--- ![Dots screenshot](images/dots-final.png) \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: Bilješke za vođe kluba
+## title: What you will learn
 
-## Uvod:
-
-U ovom projektu djeca će naučiti kako da naprave igru u kojoj igrač treba da spoji obojene tačke sa odgovarajućim dijelom kontrolera.
-
-## Izvori
-
-Za ovaj projekat koristite Scratch 2. Scratch 2 možete koristiti online na [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) ili ga preuzeti sa [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) i koristiti offline.
-
-Link 'Project Materials' za ovaj projekat sadrži sljedeće izvore:
-
-##### Izvori za vođe kluba
-
-Završenu verziju projekta možete naći [online](http://scratch.mit.edu/projects/44942820/#editor) ili preuzeti klikom na link 'Project Materials', koji sadrži:
-
-* CatchTheDots.sb2
-
-##### Izvori projekta
-
-Za ovaj projekat, članovi kluba mogu da koriste spoljašnje izvore koji nisu dostupni u Scratch biblioteci:
-
-* controller.svg.
-
-Obezbijedite da svako dijete ima pristup kopiji ovih izvora.
-
-Za članove kluba koji nisu u mogućnosti da pristupe ovim izvorima projekta, postoji Scratch projekat u kojem su spoljašnji izvori već učitani. Projekat je dostupan online na [jumpto.cc/dots-resources](http://jumpto.cc/dots-resources) ili u projektnim materijalima koji se mogu preuzeti. Materijali sadrže:
-
-* CatchTheDotsResources.sb2 
-
-## Ciljevi učenja
-
-* U ovom projektu utvrđuju se prethodno savladane vještine programiranja.
-
-Ovim projektom obuhvaćeni su elementi iz sljedećih dijelova [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
-
-* [Kombinujte programske konstrukcije za rješavanje problema.](https://www.raspberrypi.org/curriculum/programming/builder)
-
-## Izazovi
-
-* ''Okretanje ulijevo'' - kreiranje kôda za pomjeranje kontrolera;
-* ''Više tačaka'' - kreiranje više obojenih tačaka koje treba da se usklade sa odgovarajućim dijelom kontrolera;
-* ''Tačke koje se brže kreću'' - korišćenje promjenljive za povećanje brzine tačaka tokom igre;
-* ''Poboljšaj svoju igru!'' - dodavanje novih tačaka koristeći promjenljive `rezultat`{:class="blockdata"}, `razmak`{:class="blockdata"} i `brzina`{:class="blockdata"};
-* ''Meni igre'' - izrada menija sa različitim pozadinama pozornice i dugmadima za kretanje između njih.
++ How to choose random items from a list
++ How to use variables to track speed, lives, and the player's score
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Projektni materijali
+## title: What you will need
 
-## Izvori projekta
+### Hardware
 
-* [Online Scratch 2 projekat koji sadrži spoljašnje izvore](http://jumpto.cc/dots-resources)
-* [Scratch 2 projekat koji sadrži spoljašnje izvore i koji se može preuzeti](resources/CatchTheDotsResources.sb2)
-* [controller.svg](resources/controller.svg)
++ A computer capable of running Scratch 3
 
-## Izvori za vođe kluba
+### Software
 
-* [Završen Scratch 2 projekat koji se može preuzeti](resources/CatchTheDots.sb2)
-* [Završen Scratch 2 projekat online](http://scratch.mit.edu/projects/44942820/#editor)
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-\--- /collapse \---
+### Downloads
+
++ [Offline Scratch 2 project](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"} \--- /collapse \---
+
+## \--- collapse \---
+
+## title: Additional notes for educators
+
+\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print). \--- /no-print \---
+
+You can find [the completed project here](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+
++ [Completed online Scratch 3 project](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse \---
