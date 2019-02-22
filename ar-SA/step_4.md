@@ -1,72 +1,61 @@
-## جمع النقاط
+## More dots
 
-دعونا نضيف بعض النقاط للّاعب ليتم جمعها مع وحدة التحكم الخاصة به.
+\--- task \--- Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
 
-+ أنشئ كائن جديدًا يُسمى 'red'. يجب أن يكون هذا الكائن نقطة حمراء صغيرة.
-    
-    ![لقطة الشاشة](images/dots-red.png)
+![screenshot](images/dots-more-dots.png) \--- /task \---
 
-+ أضف هذا النص البرمجي إلى متغير النقطة "red"، لإنشاء نسخة نقطية جديدة كل بضع ثوانٍ:
-    
-    ```blocks
-        عند نقر ⚑
-    اختف
-    انتظر (2) ثانية
-    كرر باستمرار 
-      أنشئ نسخة من [نفسي v]
-      انتظر (اختر عدداً عشوائياً بين (5) و (10)) ثانية
+\--- task \--- Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue. \--- /task \---
+
+\--- task \--- Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
+
+![screenshot](images/dots-all-test.png)
+
+\--- hints \--- \--- hint \--- This is the code you need to find and alter for both new sprites:
+
+![screenshot](images/dots-more-dots.png)
+
+```blocks3
+    if <touching color [#FF0000]?> then
+        change [score v] by (1)
+        play sound (pop v)
+        ...
     end
-    ```
+```
 
-+ عندما يتم إنشاء كل نسخة، فإنك تريدها أن تظهر في إحدى زوايا المنصة الأربعة.
-    
-    ![لقطة الشاشة](images/dots-start.png)
-    
-    للقيام بذلك ، قم أولاً بإنشاء **قائمة** جديدة تسمى `مواضع البدء`{:class="blockdata"} وانقر فوق `(+)` لإضافة القيم `-180` و `180`.
-    
-    ![لقطة الشاشة](images/dots-list.png)
+\--- /hint \--- \--- hint \--- This is how you need to change the code for the yellow sprite:
 
-+ يمكنك استخدام عناصر القائمة 2 هذه لاختيار زاوية عشوائية من المنصة. أضف هذا الرمز إلى المتغير 'dot' ، بحيث تنتقل كل نسخة جديدة إلى زاوية عشوائية ثم تتحرك ببطء نحو وحدة التحكم.
-    
-    ```blocks
-        عندما تبدأ نسخة مني
-    اذهب إلى الموضع س: (العنصر (random v) من [start positions v]:: list) ص: (العنصر (random v) من [start positions v]:: list)
-    اتجه نحو [controller v]
-    اظهر
-    كرِّر حتى <touching [controller v]?> 
-    تحرك (1) خطوة
+```blocks3
+    if <touching color [#FFFF00]? :: +> then
+        change [score v] by (1)
+        play sound (pop v)
     end
-    ```
-    
-    الرمز أعلاه يختار إما `-180` أو `180` للمواقع x *و* y ، وهذا يعني أن كل نسخة يتم استنساخها في أحد أركان المرحلة.
+```
 
-+ اختبر مشروعك. يجب ان ترى الكثير من النقاط الحمراء تظهر في كل ركن من أركان الشاشة ، وتتحرك ببطء نحو وحدة التحكم.
-    
-    ![لقطة الشاشة](images/dots-red-test.png)
+This is how you need to change the code for the blue sprite:
 
-+ قم بإنشاء متغيرين جديدين يدعيان `المحاولات`{:class="blockdata"} و `النتيجة`{:class="blockdata"}.
-
-+ أضف الكود إلى مرحلتك لتعيين </code>المحاولات`{:class="blockdata"} إلى 3 و <code>درجة`{:class="blockdata"} إلى 0 في بداية اللعبة.
-
-+ تحتاج إلى إضافة تعليمة برمجية إلى نهاية النقطة الحمراء `عندما تبدأ نسخة مني`{:class="blockcontrol"}، بحيث يتم إضافة إما 1 إلى لاعب`النتيجة`{:class="blockdata"} إذا كانت الألوان مطابقة ، أو 1 مأخوذ من لاعب `إذا لم تطابق الألوان المحاولات`{:class="blockdata"}.
-    
-    ```blocks
-        تحرك (5) خطوات
-    إذا <touching color [#FF0000]?> 
-      غيِّر [score v] بمقدار (1)
-      شغل الصوت [pop v]
-    أو
-      غيِّر [lives v] بمقدار (-1)
-      شغل الصوت [laser1 v]
+```blocks3
+    if <touching color [#0000FF]? :: +> then
+        change [score v] by (1)
+        play sound (pop v)
     end
-    احذف هذه النسخة
-    ```
+```
 
-+ أضف هذه التعليمة البرمجية إلى نهاية برنامج منصتك، بحيث تنتهي اللعبة عندما يخسر اللاعب كل فرصه للحياة (المحاولات):
-    
-    ```blocks
-        انتظر حتى <(فرص) < [1]>
-    أوقف [الكل v]
-    ```
+\--- /hint \--- \--- /hints \--- \--- /task \---
 
-+ اختبر اللعبة للتأكد من عمل هذا الرمز بالشكل المتوقع.
+If you play the game now, you can see that the dots sometimes get created one top of each other.
+
+\--- task \--- Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
+
+![Yellow dot](images/yellow-sprite.png)
+
+```blocks3
+    when flag clicked
+    hide
++   wait (4) seconds
+```
+
+![Blue dot](images/blue-sprite.png)
+
+Then change the code for the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
+
+\--- /task \---
