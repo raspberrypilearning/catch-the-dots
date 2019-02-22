@@ -1,9 +1,9 @@
-## Challenge: improve your game
+## Izazov: poboljšaj svoju igru
 
-Can you think of ways to improve your game? For example, you could create special dots that:
+Da li možeš da smisliš načine za poboljšanje svoje igre? Na primjer, možeš da napraviš posebne tačke koje će:
 
-+ Double your score
-+ Slow down the dots
-+ Hide all the other dots on the screen
++ Udvostručiti tvoj rezultat
++ Usporavati tačke
++ Sakrivati sve ostale tačke na ekranu
 
 Can you add a menu with buttons to your game? You could add an screen with instructions or a separate screen for showing the high score.
