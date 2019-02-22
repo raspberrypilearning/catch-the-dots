@@ -1,4 +1,4 @@
-## Create a controller
+## Een controller maken
 
 Start by creating a controller that the player will use to collect dots.
 
@@ -12,7 +12,7 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 \--- /task \---
 
-You should see a controller sprite:
+Je zou een controllersprite moeten zien:
 
 ![screenshot](images/dots-controller.png)
 
@@ -21,12 +21,12 @@ You should see a controller sprite:
 ![Controller sprite](images/controller-sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        if <key (right arrow v) pressed?> then
-            turn right (3) degrees
-        end
-    end
+    wanneer groene vlag wordt aangeklikt
+herhaal 
+  als <key (right arrow v) pressed?> dan 
+    draai (3) graden naar rechts
+  end
+end
 ```
 
 \--- /task \---
@@ -53,7 +53,7 @@ if <> then
 end
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- / hint \--- \--- hint \--- Hier is hoe je blok eruit zou moeten zien:
 
 ```blocks3
     when flag clicked
