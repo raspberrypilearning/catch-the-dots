@@ -27,7 +27,7 @@ Next, use the `delay`{:class="block3variables"} variable in the code scripts of 
 
 \--- task \--- Remove the code block that makes the game wait a random number of seconds between making the dot sprite clones. Replace the block you've removed with your new `delay`{:class="block3variables"} variable:
 
-![screenshot](images/all-dots.png)
+![zrzut ekranu](images/all-dots.png)
 
 ```blocks3
 <br />-   wait (pick random (5) to (10)) secs
