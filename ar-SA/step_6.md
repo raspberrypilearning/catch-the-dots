@@ -1,26 +1,5 @@
-## زيادة مستوى الصعوبة
+## Challenge: faster dots
 
-لنجعل اللعبة أكثر صعوبة كلما استمر اللاعب في العمل، وذلك عن طريق تقليل التأخير بين النقاط التي تظهر.
+Can you improve your game by adding a `speed`{:class="block3variables"} variable and using this new variable to make the dot change their speed over time? The clones should start by moving one step at a time, and then steadily get faster and faster.
 
-+ أولا ، إضافة متغير جديد يسمى `التأخير`{:class="blockdata"}.
-
-+ على منصتك، قم بإنشاء برنامج نصي جديد يقوم بتعيين التأخير إلى عدد كبير ، ثم يقلل وقت التأخير ببطء.
-    
-    ```blocks
-        عند نقر ⚑
-    اجعل [delay v] مساوياً (8)
-    كرِّر حتى <(delay) = (2)> 
-      انتظر (10) ثانية
-      غيِّر [delay v] بمقدار (-0.5)
-    end
-    ```
-    
-    لاحظ أن هذا يشبه إلى حد كبير كيفية عمل مؤقِت اللعبة!
-
-+ أخيرا ، يمكنك استخدام متغير `التأخير`{:class="blockdata"} في نصوصك البرمجية بالنقاط الحمراء والصفراء والزرقاء. قم بإزالة التعليمة البرمجية التي تنتظر عددًا عشوائيًا من الثواني بين إنشاء نسخ متطابقة واستبدله بمتغير آخر جديد `التأخير`{:class="blockdata"}:
-    
-    ```blocks
-        انتظر (delay) ثواني
-    ```
-
-+ اختبر المتغير الجديد `التأخير`{:class="blockdata"}، وشاهد ما إذا كان التأخير بين النقاط ينخفض ببطء. هل هذا العمل لجميع النقاط الملونة الثلاثة؟ أيمكنك ان ترى قيمة متغير `التأخير`{:class="blockdata"} تتناقص؟
+The code you need for this is very similar to the code in which you've used the `delay`{:class="block3variables"} variable.
