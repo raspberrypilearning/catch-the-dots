@@ -12,21 +12,21 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 \--- /task \---
 
-You should see a controller sprite:
+Powinieneś widzieć duszka kontrolera:
 
-![screenshot](images/dots-controller.png)
+![zrzut ekranu](images/dots-controller.png)
 
 \--- task \--- Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
 
 ![Controller sprite](images/controller-sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        if <key (right arrow v) pressed?> then
-            turn right (3) degrees
-        end
-    end
+    kiedy kliknięto flagę
+      zawsze
+        jeżeli <key (right arrow v) pressed?> to
+          obróć w prawo o (3) stopni
+        koniec
+      koniec
 ```
 
 \--- /task \---
@@ -53,7 +53,7 @@ if <> then
 end
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- /hint \--- \--- hint \--- Tak powinien wyglądać twój kod:
 
 ```blocks3
     when flag clicked
