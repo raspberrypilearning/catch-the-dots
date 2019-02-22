@@ -1,14 +1,14 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
+Aceasta este versiunea **Scratch 3** a proiectului. Există, de asemenea, o versiune de [Scratch 2 a proiectului](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
 
 \--- /no-print \---
 
 ## Introducere
 
-In this project you'll learn how to create a game in which the player has to match up coloured dots with the correct colour of the controller wheel.
+În acest proiect veți învăța cum să creați un joc în care jucătorul trebuie să se potrivească cu puncte colorate cu culoarea corectă a roții de control.
 
-\--- no-print \--- Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
+\--- no-print \--- Utilizați tastele săgeți de pe tastatură pentru a roti roata controlerului și pentru a prinde punctele de zbor în timp ce ajung în centru. Dacă pierzi trei puncte, jocul sa terminat.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -17,39 +17,39 @@ In this project you'll learn how to create a game in which the player has to mat
 
 \--- /no-print \---
 
-\--- print-only \--- ![Dots screenshot](images/dots-final.png) \--- /print-only \---
+\--- numai printare \--- ![Dots screenshot](images/dots-final.png) \--- / numai prin print
 
 ## \--- collapse \---
 
-## title: What you will learn
+## titlu: Ce veți învăța
 
-+ How to choose random items from a list
-+ How to use variables to track speed, lives, and the player's score
++ Cum se aleg elemente aleatorii dintr-o listă
++ Cum se utilizează variabilele pentru a urmări viteza, viața și scorul jucătorului
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## titlu: Ce veți avea nevoie
 
-### Hardware
+### Dispozitive
 
-+ A computer capable of running Scratch 3
++ Un computer capabil de a rula Scratch 3
 
-### Software
+### Programe
 
 + Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### Descărcări
 
-+ [Offline Scratch 2 project](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"} \--- /collapse \---
++ [Offline Scratch 2 proiect](http://rpf.io/p/en/catch-the-dots-go){: target = "_ blank") \--- / colaps \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## titlu: note suplimentare pentru educatori
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print). \--- /no-print \---
+\--- fără imprimare \--- Dacă aveți nevoie pentru a imprima acest proiect, vă rugăm să folosiți [versiune pentru tipărire](https://projects.raspberrypi.org/en/projects/catch-the-dots/print). \--- /no-print \---
 
-You can find [the completed project here](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+Puteți găsi [proiectul finalizat aici](http://rpf.io/p/en/catch-the-dots-get){: target = "_ blank"}.
 
-+ [Completed online Scratch 3 project](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse \---
++ [Finalizat online Scratch 3 proiect](https://scratch.mit.edu/projects/252923761/#editor){: target = "_ blank") \--- / collapse \---
