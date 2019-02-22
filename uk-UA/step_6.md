@@ -1,26 +1,5 @@
-## Підвищення складності
+## Challenge: faster dots
 
-Давайте зробимо гру більш складною, зменшуючи затримку між точками, які з'являються.
+Can you improve your game by adding a `speed`{:class="block3variables"} variable and using this new variable to make the dot change their speed over time? The clones should start by moving one step at a time, and then steadily get faster and faster.
 
-+ Створіть список, який називається `рахунок`{:class="blockdata"}.
-
-+ На сцені створіть новий скрипт, який встановлює час затримки, який згодом почне зменшуватись.
-    
-    ```blocks
-        коли натиснуто прапорець
-         встановити [затримати v] до (8)
-         повторити до <(затримка) = (2)>
-             чекати (10) секунд
-             змінити [затримати v] на (-0,5)
-         кінець
-    ```
-    
-    Зверніть увагу, що це дуже схоже на те, як працює таймер гри!
-
-+ Зрештою, ви можете використовувати це `delay`{:class="blockdata"}, змінна в скриптах червоних, жовтих та синіх точок. Видаліть код, який встановлює випадкове число секунд між створенням клонів і замінить його новою змінною `delay`{:class="blockdata"}:
-    
-    ```blocks
-        чекати (затримка) секунда
-    ```
-
-+ Перевірте нову змінну `delay`{:class="blockdata"} та переконайтесь, що затримка між точками повільно зменшується. Чи працює ця функція для всіх 3 кольорових крапок? Чи можете ви побачити значення зменшення змінної `delay`{:class="blockdata"}?
+The code you need for this is very similar to the code in which you've used the `delay`{:class="block3variables"} variable.
