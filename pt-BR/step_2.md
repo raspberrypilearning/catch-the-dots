@@ -12,7 +12,7 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 \--- /task \---
 
-You should see a controller sprite:
+Você deveria ver uma imagem do controlador:
 
 ![screenshot](images/dots-controller.png)
 
@@ -21,12 +21,12 @@ You should see a controller sprite:
 ![Controller sprite](images/controller-sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        if <key (right arrow v) pressed?> then
-            turn right (3) degrees
-        end
+    quando clicar em ⚑
+  sempre 
+    se <key (right arrow v) pressed?> então 
+      gire ↻ (3) graus
     end
+  end
 ```
 
 \--- /task \---
