@@ -1,18 +1,18 @@
-## More dots
+## جمع النقاط
 
 \--- task \--- Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
 
-![screenshot](images/dots-more-dots.png) \--- /task \---
+![لقطة الشاشة](images/dots-more-dots.png) \--- /task \---
 
 \--- task \--- Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue. \--- /task \---
 
 \--- task \--- Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
 
-![screenshot](images/dots-all-test.png)
+![لقطة الشاشة](images/dots-all-test.png)
 
 \--- hints \--- \--- hint \--- This is the code you need to find and alter for both new sprites:
 
-![screenshot](images/dots-more-dots.png)
+![لقطة الشاشة](images/dots-more-dots.png)
 
 ```blocks3
     if <touching color [#FF0000]?> then
