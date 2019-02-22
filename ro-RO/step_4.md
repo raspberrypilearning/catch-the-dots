@@ -1,61 +1,61 @@
-## More dots
+## Mai multe puncte
 
-\--- task \--- Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
+\--- task \--- Duplicați sprite-ul dvs. de culoare roșie de două ori și numiți cei doi noi "spanioli" și "albastri".
 
-![screenshot](images/dots-more-dots.png) \--- /task \---
+![captură de ecran](images/dots-more-dots.png) \--- /task \---
 
-\--- task \--- Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue. \--- /task \---
+\--- task \--- Schimbați costumul fiecărui sprite nou, astfel că este culoarea corectă: Sprite-ul "galben" trebuie să fie galben, iar sprite-ul albastru ar trebui să fie albastru. \--- /task \---
 
-\--- task \--- Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
+\--- task \--- Schimbați codul fiecărui sprite astfel încât jucătorul trebuie să se potrivească cu clona dotată cu culoarea corectă a controlerului pentru a câștiga puncte.
 
-![screenshot](images/dots-all-test.png)
+![captură de ecran](images/dots-all-test.png)
 
-\--- hints \--- \--- hint \--- This is the code you need to find and alter for both new sprites:
+\--- sugestii \--- \--- indiciu \--- Acesta este codul de care aveți nevoie pentru a găsi și modifica pentru ambele noi sprite:
 
-![screenshot](images/dots-more-dots.png)
-
-```blocks3
-    if <touching color [#FF0000]?> then
-        change [score v] by (1)
-        play sound (pop v)
-        ...
-    end
-```
-
-\--- /hint \--- \--- hint \--- This is how you need to change the code for the yellow sprite:
+![captură de ecran](images/dots-more-dots.png)
 
 ```blocks3
-    if <touching color [#FFFF00]? :: +> then
-        change [score v] by (1)
-        play sound (pop v)
-    end
+    dacă <touching color [#FF0000]?> atunci
+        schimbă [scorul v] de (1)
+        joacă sunetul (pop v)
+...
+    Sfârșit
 ```
 
-This is how you need to change the code for the blue sprite:
+\--- / hint \--- \--- hint \--- Așa trebuie să schimbi codul pentru sprite galben:
 
 ```blocks3
-    if <touching color [#0000FF]? :: +> then
-        change [score v] by (1)
-        play sound (pop v)
-    end
+    dacă <atinge culoarea [# FFFF00]? :: +> apoi
+        schimbare [scor v] prin (1)
+        sunet de redare (pop v)
+    sfarsit
 ```
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
-
-If you play the game now, you can see that the dots sometimes get created one top of each other.
-
-\--- task \--- Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
-
-![Yellow dot](images/yellow-sprite.png)
+Acesta este modul în care trebuie să modificați codul pentru sprite albastru:
 
 ```blocks3
-    when flag clicked
-    hide
-+   wait (4) seconds
+    dacă <atinge culoarea [# 0000FF]? :: +> apoi
+        schimbare [scor v] prin (1)
+        sunet de redare (pop v)
+    sfarsit
 ```
 
-![Blue dot](images/blue-sprite.png)
+\--- / indiciu \--- \--- / sugestii \--- \--- / sarcina \---
 
-Then change the code for the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
+Dacă joci acum jocul, poți vedea că punctele sunt uneori create unul peste celălalt.
+
+\--- task \--- Schimbați codul pentru sprite-ul "galben", astfel încât să aștepte patru secunde după ce drapelul este apăsat înainte de a apărea.
+
+![Punct galben](images/yellow-sprite.png)
+
+```blocks3
+    atunci când pavilionul a făcut clic pe
+    ascundeți
++ așteptați (4) secunde
+```
+
+![Punct albastru](images/blue-sprite.png)
+
+Apoi schimbați codul pentru sprite-ul albastru "albastru", astfel încât să aștepte 6 secunde după ce se face clic pe pavilion înainte de a apărea.
 
 \--- /task \---
