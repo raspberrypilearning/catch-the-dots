@@ -1,9 +1,9 @@
-## Challenge: improve your game
+## Challenge: verbeter je spel
 
-Can you think of ways to improve your game? For example, you could create special dots that:
+Kun je manieren bedenken om je spel te verbeteren? Je kunt bijvoorbeeld speciale stippen maken die:
 
-+ Double your score
-+ Slow down the dots
-+ Hide all the other dots on the screen
++ De score verdubbelen
++ De stippen vertragen
++ Alle andere stippen op het scherm verbergt
 
 Can you add a menu with buttons to your game? You could add an screen with instructions or a separate screen for showing the high score.
