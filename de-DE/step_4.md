@@ -1,61 +1,61 @@
-## More dots
+## Weitere Punkte
 
-\--- task \--- Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
+\--- Aufgabe \--- Dupliziere dein 'rotes' Sprite zweimal und benenne die beiden neuen Sprites 'gelb' und 'blau'.
 
-![screenshot](images/dots-more-dots.png) \--- /task \---
+![Bildschirmfoto](images/dots-more-dots.png) \--- / Aufgabe \---
 
-\--- task \--- Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue. \--- /task \---
+\--- Aufgabe \--- Ändere das Kostüm jedes neuen Sprites so, dass es die richtige Farbe hat: Der gelbe Sprite sollte gelb sein und der blaue Sprite sollte blau sein. \--- / Aufgabe \---
 
-\--- task \--- Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
+\--- task \--- Ändere den Code jedes Sprites so, dass der Spieler die Punktfarbe auf dem Controller mit der richtigen Farbe vergleichen muss, um Punkte zu erzielen.
 
-![screenshot](images/dots-all-test.png)
+![Bildschirmfoto](images/dots-all-test.png)
 
-\--- hints \--- \--- hint \--- This is the code you need to find and alter for both new sprites:
+\--- Hinweise \--- \--- Hinweis \--- Dies ist der Code, den Sie für beide neuen Sprites finden und ändern müssen:
 
-![screenshot](images/dots-more-dots.png)
-
-```blocks3
-    if <touching color [#FF0000]?> then
-        change [score v] by (1)
-        play sound (pop v)
-        ...
-    end
-```
-
-\--- /hint \--- \--- hint \--- This is how you need to change the code for the yellow sprite:
+![Bildschirmfoto](images/dots-more-dots.png)
 
 ```blocks3
-    if <touching color [#FFFF00]? :: +> then
-        change [score v] by (1)
-        play sound (pop v)
-    end
+    Wenn <touching color [#FF0000]?> dann
+        [Score v] um (1)
+        ändern, Sound abspielen (Pop v)
+...
+    Ende
 ```
 
-This is how you need to change the code for the blue sprite:
+\--- / Hinweis \--- \--- Hinweis \--- So müssen Sie den Code für das gelbe Sprite ändern:
 
 ```blocks3
-    if <touching color [#0000FF]? :: +> then
-        change [score v] by (1)
-        play sound (pop v)
-    end
+    wenn <Farbe berührt [# FFFF00]? :: +> dann
+        [Score v] um (1)
+        ändern, um Sound (Pop v)
+    abzuspielen
 ```
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
-
-If you play the game now, you can see that the dots sometimes get created one top of each other.
-
-\--- task \--- Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
-
-![Yellow dot](images/yellow-sprite.png)
+So müssen Sie den Code für das blaue Sprite ändern:
 
 ```blocks3
-    when flag clicked
-    hide
-+   wait (4) seconds
+    wenn <Farbe berührt [# 0000FF]? :: +> dann
+        [Score v] um (1)
+        ändern, um Sound (Pop v)
+    abzuspielen
 ```
 
-![Blue dot](images/blue-sprite.png)
+\--- / Hinweis \--- \--- / Hinweise \--- \--- / Aufgabe \---
 
-Then change the code for the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
+Wenn Sie das Spiel jetzt spielen, können Sie sehen, dass die Punkte manchmal übereinander erstellt werden.
 
-\--- /task \---
+\--- task \--- Ändern Sie den Code für das 'gelbe' Punkt-Sprite so, dass es vier Sekunden nach dem Klicken auf die Flagge wartet, bevor es erscheint.
+
+![Gelber Punkt](images/yellow-sprite.png)
+
+```blocks3
+    Wenn die Flagge auf
+    geklickt wurde, verstecke
+und warte (4) Sekunden
+```
+
+![Blauer Punkt](images/blue-sprite.png)
+
+Ändern Sie dann den Code für das "blaue" Punktsprite so, dass es 6 Sekunden nach dem Klicken auf die Flagge wartet, bevor es erscheint.
+
+\--- / Aufgabe \---
