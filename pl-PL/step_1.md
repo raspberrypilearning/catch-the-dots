@@ -1,79 +1,55 @@
+\--- no-print \---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
+
+\--- /no-print \---
+
 ## Wprowadzenie
 
-W tym projekcie nauczysz się jak stworzyć grę, w które musisz dopasować kolorowe kropki do właściwych części kontrolera.
+In this project you'll learn how to create a game in which the player has to match up coloured dots with the correct colour of the controller wheel.
+
+\--- no-print \--- Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/44942820/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/dots-final.png">
 </div>
 
-### Dodatkowe informacje dla prowadzących klub
+\--- /no-print \---
 
-Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.raspberrypi.org/en/projects/catch-the-dots/print).
+\--- print-only \--- ![Dots screenshot](images/dots-final.png) \--- /print-only \---
 
 ## \--- collapse \---
 
-## tytuł: Notatki prowadzących klub
+## title: What you will learn
 
-## Wprowadzenie:
-
-W tym projekcie nauczysz się jak stworzyć grę, w które gracz musi dopasować kolorowe kropki do odpowiadających części kontrolera.
-
-## Zasoby
-
-Do tego projektu należy użyć Scratch 2. Scratch 2 można używać online pod [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) albo pobrać z [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) do użycia w trybie offline.
-
-Link do materiałów dla tego projektu zawiera następujące zasoby":
-
-##### Materiały dla prowadzących klub
-
-Ukończoną wersję tego projektu można znaleźć [online](http://scratch.mit.edu/projects/44942820/#editor) lub też można ją pobrać klikając w link 'Materiały Projektu' w tym projekcie, który zawiera:
-
-* CatchTheDots.sb2
-
-##### Zasoby projektu
-
-W tym projekcie, członkowie klubu mogą użyć zasobów zewnętrznych, które nie są dostępne w bibliotece Scratch'a:
-
-* controller.svg.
-
-Upewnij się, że każde dziecko ma dostęp do tych zasobów.
-
-Dla członków klubu którzy nie mają dostępu do tych zasobów projektu, dostępny jest projekt Scratch'a z już dołączonymi zasobami zewnętrznymi. Jest on dostępny online [jumpto.cc/dots-resources](http://jumpto.cc/dots-resources), lub w materiałach projektu do pobrania, zawierające:
-
-* CatchTheDotsResources.sb2 
-
-## Cele dydaktyczne
-
-* Ten projekt utrwala naukę poprzednio nabytych umiejętności programowania.
-
-Ten projekt obejmuje elementy z następujących wątków z [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
-
-* [Połącz konstrukty programistyczne, aby rozwiązać problem.](https://www.raspberrypi.org/curriculum/programming/builder)
-
-## Wyzwania
-
-* "Spinning left" - creating code to move the controller;
-* "More dots" - creating more coloured dots that need to match the correct part of the controller';
-* "Faster moving dots" - using a variable to increase the speed of the dots throughout the game;
-* "Improve your game!" - adding new dots that manipulate the `score`{:class="blockdata"}, `delay`{:class="blockdata"} and `speed`{:class="blockdata"} variables;
-* "Game menu" - creating a menu, with various stage backgrounds and buttons for moving between them.
++ How to choose random items from a list
++ How to use variables to track speed, lives, and the player's score
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: What you will need
 
-## Project resources
+### Hardware
 
-* [Online Scratch 2 project containing external resources](http://jumpto.cc/dots-resources)
-* [Downloadable Scratch 2 project containing external resources](resources/CatchTheDotsResources.sb2)
-* [controller.svg](resources/controller.svg)
++ A computer capable of running Scratch 3
 
-## Club leader resources
+### Software
 
-* [Downloadable completed Scratch 2 project](resources/CatchTheDots.sb2)
-* [Online completed Scratch 2 project](http://scratch.mit.edu/projects/44942820/#editor)
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-\--- /collapse \---
+### Downloads
+
++ [Offline Scratch 2 project](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"} \--- /collapse \---
+
+## \--- collapse \---
+
+## title: Additional notes for educators
+
+\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print). \--- /no-print \---
+
+You can find [the completed project here](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+
++ [Completed online Scratch 3 project](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse \---
