@@ -1,4 +1,4 @@
-## High score
+## Najbolji rezultat
 
 You're going to save the game's high score, so that players can see how well they are doing.
 
