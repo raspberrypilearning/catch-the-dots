@@ -1,122 +1,122 @@
-## Gain points or lose lives
+## Obțineți puncte sau pierdeți vieți
 
-Now you're going to add some dots that the player needs to collect.
+Acum veți adăuga câteva puncte pe care trebuie să le colecteze jucătorul.
 
-\--- task \--- Create a new sprite called 'red'. This sprite should be a small red dot.
+\--- task \--- Creați un nou sprite numit "roșu". Acest personaj trebuie sa fie un mic punct rosu.
 
-![Red dot sprite](images/dots-red.png)
+![Sprite de puncte roșii](images/dots-red.png)
 
 \--- /task \---
 
-\--- task \--- Add this script to your 'red' sprite to create a new clone of the sprite every few seconds:
+\--- task \--- Adăugați acest script la sprite "roșu" pentru a crea o nouă clona a sprite la fiecare câteva secunde:
 
-![Red dot sprite](images/red-sprite.png)
+![Sprite de puncte roșii](images/red-sprite.png)
 
 ```blocks3
-    when flag clicked
-    hide
-    wait (2) seconds
-    forever
-        create clone of (myself v)
-        wait (pick random (5) to (10)) secs
-    end
+    când pavilionul a făcut clic
+    ascunde
+    așteptați (2) secunde
+    pentru totdeauna
+        creați clona de (eu v)
+        așteptați (alegeți aleatoriu (5) la (10)) secunde
+    sfârșit
 ```
 
-\--- /task \---
+\--- /proba\---
 
-If you click the green flag now, it looks like nothing is happening. This is because all of the cloned sprites are hidden, and they appear in the same place.
+Dacă faceți clic pe steagul verde acum, se pare că nu se întâmplă nimic. Acest lucru se datorează faptului că toți spritele clonate sunt ascunse și apar în același loc.
 
-You are going to add code to make each new clone appear in one of the four corners of the Stage.
+Veți adăuga un cod pentru ca fiecare nouă clonă să apară într-unul din cele patru colțuri ale scenei.
 
-![screenshot](images/dots-start.png)
+![captură de ecran](images/dots-start.png)
 
-\--- task \--- Create a new list called `start positions`{:class="block3variables"}, click the list's `(+)` icon to add the values `-180`{:class="block3variables"} and `180`{:class="block3variables"}.
+\--- task \--- Creați o nouă listă numită `poziții de început`{: class = "block3variables"}, faceți clic pe pictograma `(+)` a listei pentru a adăuga valorile `-180`{: class = "block3variables" } și `180`{: class = "block3variables"}.
 
-![Red dot sprite](images/red-sprite.png)
+![Sprite de puncte roșii](images/red-sprite.png)
 
-![List of 180 and -180](images/dots-list.png)
+![Lista de 180 și -180](images/dots-list.png)
 
 [[[generic-scratch3-make-list]]]
 
-Then you can hide the list by unselecting this box:
+Apoi, puteți ascunde lista prin deselectarea acestei casete:
 
-![Hide the list](images/hide-list.png) \--- /task \---
+![Ascundeți lista](images/hide-list.png) \--- /task \---
 
-Notice that the coordinate for each corner of the Stage is a combination of `180` and `-180`. This means you can use the list to pick a corner of the Stage at random.
+Observați că coordonatele pentru fiecare colț al scenei reprezintă o combinație de `180` și `-180`. Aceasta înseamnă că puteți utiliza lista pentru a alege un colț al scenei la întâmplare.
 
-\--- task \--- Add this code to the 'dot' sprite to make each new sprite clone appear in a random corner and then slowly move towards the controller sprite.
+\--- task \--- Adăugați acest cod la sprite "dot" pentru a face fiecare clona nouă sprite să apară într-un colț aleatoriu și apoi să se deplaseze încet spre sprite-ul controlerului.
 
-![Red dot sprite](images/red-sprite.png)
+![Sprite de puncte roșii](images/red-sprite.png)
 
 ```blocks3
-    when I start as a clone
-    go to x: (item (pick random (1) to (2)) of [start positions v]) y: (item (pick random (1) to (2)) of [start positions v])
-    point towards (controller v)
-    show
-    repeat until <touching (controller v)?>
-        move (1) steps
-    end
+    atunci când pornesc ca o clonă
+    mergeți la x: (element (alegeți aleatoriu (1) până la (2)) din [pozițiile de început v]) y: v])
+    punct către (controler v)
+    arată
+    repetări până la <touching (controller v)?>
+        deplasare (1) pași
+    capăt
 ```
 
-\--- /task \--- This new code chooses either `-180` or `180` for the x and y positions, meaning that each 'dot' sprite clone starts in a corner of the Stage.
+\--- / task \--- Acest nou cod alege fie `-180` sau `180` pentru pozitiile x si y, ceea ce inseamna ca fiecare clona sprite "punct" incepe intr-un colt al Scenelor.
 
-\--- task \--- Test your project. You should see red dots appear in the corners of the Stage and move slowly towards the controller.
+\--- task \--- Testați-vă proiectul. Ar trebui să vedeți puncte roșii în colțurile scenei și să vă mișcați încet spre controler.
 
-![screenshot](images/dots-red-test.png) \--- /task \---
+![captură de ecran](images/dots-red-test.png) \--- /task \---
 
-\--- task \--- Create two new variables called `lives`{:class="block3variables"} and `score`{:class="block3variables"}.
+\--- sarcină \--- Creați două variabile noi numite `vieți`{: class = "block3variables"} și `scoruri`{: class = "block3variables"}.
 
-![Red dot sprite](images/red-sprite.png) \--- /task \---
+![Sprite de puncte roșii](images/red-sprite.png) \--- /task \---
 
-\--- task \--- Add code to your Stage to set the `lives`{:class="block3variables"} variable to `3` and the `score`{:class="block3variables"} to `0` at the start of the game. ![Stage sprite](images/stage-sprite.png)
-
-```blocks3
-when flag clicked
-set [lives v] to (3)
-set [score v] to (0)
-```
-
-\--- /task \---
-
-\--- task \--- Add this code to the end of the Stage's script to make the game end when the player loses the last of the lives:
-
-![Stage sprite](images/stage-sprite.png)
+\--- sarcină \--- Adăugați codul la etapa dvs. pentru a seta variabila `{`:: class = "block3variables"} la `3` și `scor`{: class = "block3variables"} la `0` la începutul jocului. ![Scena sprite](images/stage-sprite.png)
 
 ```blocks3
-    wait until <(lives :: variables) < [1]>
-    stop [all v]
+când pavilionul a dat clic pe
+set [trăiește v] la (3)
+set [scor v] la (0)
 ```
 
 \--- /task \---
 
-The player should win points for catching dots, and should lose lives for failing to catch dots. A dot can only be caught by matching the colour of the controller to the colour of the dot.
+\--- task \--- Adăugați acest cod la sfârșitul scriptului Stage pentru a face finalul jocului atunci când jucătorul își pierde ultima viață:
 
-\--- task \--- Go back to the 'red' dot sprite's Scripts area to add some code blocks to the end of the sprite's `when I start as a clone`{:class="block3control"} script.
+![Scena sprite](images/stage-sprite.png)
 
-First, make the dot clone `move 5 steps`{:class="block3motion"} so that it overlaps the controller.
+```blocks3
+    așteptați până la <(vieți :: variabile) < [1]>
+    stop [toate v]
+```
 
-Then add code to either add `1` to `score`{:class="block3variables"} if the colour of the dot clone matches the colour of the controller when they touch, or to take `1` away from `lives`{:class="block3variables"} if their colours don't match.
+\--- /task \---
+
+Jucătorul ar trebui să câștige puncte pentru a prinde puncte și ar trebui să piardă vieți pentru că nu a reușit să prindă puncte. Un punct poate fi prins doar prin potrivirea culorii controlerului cu culoarea punctului.
+
+\--- task \--- Întoarceți-vă la zona de scripturi "red" dot sprite pentru a adăuga câteva blocuri de coduri la sfârșitul sprite-ului `atunci când pornesc ca un script clone`{: class = "block3control"}.
+
+Mai întâi, faceți clona de puncte `mutați 5 pași`{: class = "block3motion"} astfel încât să se suprapună controlerului.
+
+Apoi adăugați codul pentru a adăuga `1` la `scor`clasa de culori a punctului corespunde culorii controlerului atunci când atinge sau pentru a lua `1` distanță de `vieți`{ : class = "block3variables"} dacă culorile lor nu se potrivesc.
 
 [[[generic-scratch3-sound-from-library]]]
 
-![Red dot sprite](images/red-sprite.png)
+![Sprite de puncte roșii](images/red-sprite.png)
 
 ```blocks3
-    move (5) steps
-    if <touching color [#FF0000]?> then
-        change [score v] by (1)
-        play sound (pop v) until done
-    else
-        change [lives v] by (-1)
-        play sound (Laser1 v) until done
-    end
-    delete this clone
+    mutare (5) Etapele
+    dacă <touching color [#FF0000]?> apoi
+        schimbare [scor v] de (1)
+        sunet redare (pop v) până la făcut
+    altceva
+        schimbare [trăiește v] de (-1)
+        sunet redare (Laser1 v) până la făcut
+    sfârșitul
+    ștergeți această clonă
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game to make sure that you lose a life if you don't match a dot with the correct colour, and that you score a point if you match a dot correctly.
+Testați-vă jocul pentru a vă asigura că pierdeți o viață dacă nu potriviți un punct cu culoarea corectă și că punctați un punct dacă potriviți corect un punct.
 
 \--- /task \---
