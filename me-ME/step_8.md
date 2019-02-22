@@ -1,24 +1,9 @@
-## Najbolji rezultat
+## Challenge: improve your game
 
-Sačuvajmo najbolji rezultat da bi igrači mogli da vide kako im ide.
+Can you think of ways to improve your game? For example, you could create special dots that:
 
-+ Kreiraj novu promjenljivu i nazovi je `najbolji rezultat`{:class="blockdata"}.
++ Double your score
++ Slow down the dots
++ Hide all the other dots on the screen
 
-+ Klikni na pozornicu i napravi sopstveni novi blok pod nazivom `provjeri najbolji rezultat`{:class="blockmoreblocks"}.
-    
-    ![screenshot](images/dots-custom-1.png)
-
-+ Dodaj svoj novi blok prije završetka igre.
-    
-    ![screenshot](images/dots-custom-2.png)
-
-+ Svom bloku dodaj kôd da trenutni `rezultat`{:class="blockdata"} bude sačuvan kao `najbolji rezultat`{:class="blockdata"} `ako je`{:class="blockcontrol"} to do tada najbolji rezultat:
-    
-    ```blocks
-        define [provjeri najbolji rezultat]
-        if <(rezultat) > (najbolji rezultat)> then
-            set [najbolji rezultat v] to (rezultat)
-        end
-    ```
-
-+ Isprobaj dodati kôd. Odigraj igru da provjeriš da li se `najbolji rezultat`{:class="blockdata"} mijenja kako bi trebalo.
+Can you add a menu with buttons to your game? You could add an screen with instructions or a separate screen for showing the high score.
