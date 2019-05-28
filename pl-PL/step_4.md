@@ -1,4 +1,4 @@
-## More dots
+## Więcej kropek
 
 \--- task \--- Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
 
