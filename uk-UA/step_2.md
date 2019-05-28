@@ -4,7 +4,9 @@ Start by creating a controller that the player will use to collect dots.
 
 \--- task \--- Open the 'Catch the dots' Scratch starter project.
 
-**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}. If you have a Scratch account, you can click on **Remix** in the top right-hand corner to save a copy of the project.
+**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
+
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
 **Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
 
@@ -21,12 +23,12 @@ You should see a controller sprite:
 ![Controller sprite](images/controller-sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        if <key (right arrow v) pressed?> then
-            turn right (3) degrees
-        end
-    end
+    коли натиснуто ⚑
+завжди 
+  якщо <key (right arrow v) pressed?> то 
+    змінити x на (-3)
+  end
+end
 ```
 
 \--- /task \---
