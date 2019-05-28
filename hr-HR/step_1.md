@@ -4,7 +4,7 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## Introduction
+## Uvod
 
 In this project you'll learn how to create a game in which the player has to match up coloured dots with the correct colour of the controller wheel.
 
@@ -21,7 +21,7 @@ In this project you'll learn how to create a game in which the player has to mat
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Naučit ćeš
 
 + How to choose random items from a list
 + How to use variables to track speed, lives, and the player's score
@@ -30,15 +30,15 @@ In this project you'll learn how to create a game in which the player has to mat
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Trebat ćeš
 
-### Hardware
+### Hardver
 
-+ A computer capable of running Scratch 3
++ Računalo koje može pokrenuti Scratch 3
 
-### Software
+### Softver
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([online](http://rpf.io/scratchon){:target="_blank"} ili [offline](http://rpf.io/scratchoff) verziju{:target="_blank"})
 
 ### Downloads
 
