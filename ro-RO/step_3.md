@@ -117,6 +117,9 @@ Apoi adăugați codul pentru a adăuga `1` la `scor`clasa de culori a punctului 
 
 \--- task \---
 
-Testați-vă jocul pentru a vă asigura că pierdeți o viață dacă nu potriviți un punct cu culoarea corectă și că punctați un punct dacă potriviți corect un punct.
+Test your game to make sure that:
+
+1. You lose a life if you don’t match a dot with the correct colour
+2. You score a point if you match a dot correctly
 
 \--- /task \---
