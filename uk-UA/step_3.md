@@ -2,7 +2,7 @@
 
 Now you're going to add some dots that the player needs to collect.
 
-\--- task \--- Create a new sprite called 'red'. This sprite should be a small red dot.
+\--- task \--- Create a new sprite called 'red'. Цей спрайт повинен виглядати, як червона маленька крапка.
 
 ![Red dot sprite](images/dots-red.png)
 
@@ -28,7 +28,7 @@ If you click the green flag now, it looks like nothing is happening. This is bec
 
 You are going to add code to make each new clone appear in one of the four corners of the Stage.
 
-![screenshot](images/dots-start.png)
+![знімок екрану](images/dots-start.png)
 
 \--- task \--- Create a new list called `start positions`{:class="block3variables"}, click the list's `(+)` icon to add the values `-180`{:class="block3variables"} and `180`{:class="block3variables"}.
 
@@ -62,7 +62,7 @@ Notice that the coordinate for each corner of the Stage is a combination of `180
 
 \--- task \--- Test your project. You should see red dots appear in the corners of the Stage and move slowly towards the controller.
 
-![screenshot](images/dots-red-test.png) \--- /task \---
+![скріншот](images/dots-red-test.png) \--- /task \---
 
 \--- task \--- Create two new variables called `lives`{:class="block3variables"} and `score`{:class="block3variables"}.
 
@@ -117,6 +117,9 @@ Then add code to either add `1` to `score`{:class="block3variables"} if the colo
 
 \--- task \---
 
-Test your game to make sure that you lose a life if you don't match a dot with the correct colour, and that you score a point if you match a dot correctly.
+Test your game to make sure that:
+
+1. You lose a life if you don’t match a dot with the correct colour
+2. You score a point if you match a dot correctly
 
 \--- /task \---
