@@ -4,7 +4,9 @@ Start by creating a controller that the player will use to collect dots.
 
 \--- task \--- Open the 'Catch the dots' Scratch starter project.
 
-**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}. If you have a Scratch account, you can click on **Remix** in the top right-hand corner to save a copy of the project.
+**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
+
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
 **Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
 
@@ -12,9 +14,9 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 \--- /task \---
 
-يجب أن تشاهد نموذج المتحكم:
+You should see a controller sprite:
 
-![لقطة الشاشة](images/dots-controller.png)
+![screenshot](images/dots-controller.png)
 
 \--- task \--- Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
 
@@ -53,7 +55,7 @@ if <> then
 end
 ```
 
-\--- /hint \--- \--- hint \--- يجب أن تكون التعليمة البرمجية كما يلي:
+\--- /hint \--- \--- hint \--- Here is what your code should look like:
 
 ```blocks3
     when flag clicked
