@@ -1,14 +1,14 @@
-## Más puntos
+## Recoger puntos
 
 \--- tarea \--- Duplica el sprite de puntos 'rojo' dos veces y nombra a los dos nuevos sprites 'amarillo' y 'azul'.
 
-![captura de pantalla](images/dots-more-dots.png) \--- / tarea \---
+![captura de pantalla](images/dots-more-dots.png) \--- /task \---
 
-\--- tarea \--- Cambia el traje de cada nuevo sprite para que tenga el color correcto: el sprite 'amarillo' debe ser amarillo, y el sprite 'azul' debe ser azul. \--- / tarea \---
+\--- tarea \--- Cambia el traje de cada nuevo sprite para que tenga el color correcto: el sprite 'amarillo' debe ser amarillo, y el sprite 'azul' debe ser azul. \--- /task \---
 
 \--- tarea \--- Cambia el código de cada sprite para que el jugador tenga que hacer coincidir el clon de puntos con el color correcto en el controlador para obtener puntos.
 
-![captura de pantalla](images/dots-all-test.png)
+![screenshot](images/dots-all-test.png)
 
 \--- consejos \--- \--- consejo \--- Este es el código que debes encontrar y modificar para los dos nuevos sprites:
 
@@ -40,7 +40,7 @@ Así es como necesitas cambiar el código para el sprite azul:
     final
 ```
 
-\--- / hint \--- \--- / hints \--- \--- / task \---
+\--- /hint \--- \--- /hints \--- \--- /task \---
 
 Si juegas ahora, puedes ver que los puntos a veces se crean uno encima del otro.
 
@@ -58,4 +58,4 @@ Si juegas ahora, puedes ver que los puntos a veces se crean uno encima del otro.
 
 Luego, cambie el código para el punto sprite 'azul' para que espere 6 segundos después de hacer clic en la bandera antes de aparecer.
 
-\--- / tarea \---
+\--- /task \---
