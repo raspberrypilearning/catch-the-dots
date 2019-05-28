@@ -1,9 +1,9 @@
-## Challenge: verbeter je spel
+## Uitdaging: verbeter je spel
 
 Kun je manieren bedenken om je spel te verbeteren? Je kunt bijvoorbeeld speciale stippen maken die:
 
 + De score verdubbelen
 + De stippen vertragen
-+ Alle andere stippen op het scherm verbergt
++ Alle andere stippen op het scherm verbergen
 
-Can you add a menu with buttons to your game? You could add an screen with instructions or a separate screen for showing the high score.
+Kun je een menu met knoppen aan je spel toevoegen? Je zou een scherm met instructies of een apart scherm om de topscores te tonen kunnen toevoegen.
