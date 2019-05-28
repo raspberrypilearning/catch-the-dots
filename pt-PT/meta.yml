@@ -1,0 +1,27 @@
+---
+hero_image: images/banner.png
+listed: true
+copyedit: false
+title: Apanha os pontos
+description: Neste projeto vais aprender a criar um jogo no qual terás que fazer coincidir pontos de cores com a parte correta do controlador.
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Apanha os pontos
+  - 
+    title: Create a controller
+  - 
+    title: Gain points or lose lives
+  - 
+    title: More dots
+  - 
+    title: Increase the difficulty
+  - 
+    title: 'Challenge: faster dots'
+  - 
+    title: High score
+  - 
+    title: 'Challenge: improve your game!'
+  - 
+    title: What next?
