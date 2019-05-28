@@ -1,14 +1,14 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
+Dit is de **Scratch 3** versie van het project. Er is ook een [Scratch 2 versie van dit project](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
 
 \--- /no-print \---
 
 ## Inleiding
 
-In this project you'll learn how to create a game in which the player has to match up coloured dots with the correct colour of the controller wheel.
+In dit project leer je hoe je een spel maakt waarbij je gekleurde stippen moet paren met de juiste kleur van het controllerwiel.
 
-\--- no-print \--- Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
+\--- no-print \--- Gebruik de pijltjestoetsen op je toetsenbord om het controllerwiel te draaien en vang de vliegende stippen als ze het middelpunt bereiken. Zodra je drie stippen gemist hebt is het game over.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,8 +23,8 @@ In this project you'll learn how to create a game in which the player has to mat
 
 ## title: Wat ga je leren
 
-+ How to choose random items from a list
-+ How to use variables to track speed, lives, and the player's score
++ Hoe je willekeurige items uit een lijst kiest
++ Hoe je variabelen gebruikt om snelheid, levens en de score van de speler te volgen
 
 \--- /collapse \---
 
@@ -46,10 +46,10 @@ In this project you'll learn how to create a game in which the player has to mat
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Aanvullende informatie voor docenten
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print). \--- /no-print \---
+\--- no-print \--- Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/en/projects/catch-the-dots/print). \--- /no-print \---
 
-You can find [the completed project here](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+Je kunt [de complete versie hier](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"} terugvinden.
 
-+ [Completed online Scratch 3 project](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse \---
++ [Voltooid online Scratch 3 project](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
