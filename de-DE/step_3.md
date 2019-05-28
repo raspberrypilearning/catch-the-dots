@@ -1,4 +1,4 @@
-## Punkte sammeln oder Leben verlieren
+## Aufgabe: Nach links drehen
 
 Jetzt fügen Sie einige Punkte hinzu, die der Spieler sammeln muss.
 
@@ -6,7 +6,7 @@ Jetzt fügen Sie einige Punkte hinzu, die der Spieler sammeln muss.
 
 ![Red-Punkt-Sprite](images/dots-red.png)
 
-\--- / Aufgabe \---
+\--- /task \---
 
 \--- task \--- Fügen Sie dieses Skript zu Ihrem 'roten' Sprite hinzu, um alle paar Sekunden einen neuen Klon des Sprites zu erstellen:
 
@@ -22,13 +22,13 @@ Jetzt fügen Sie einige Punkte hinzu, die der Spieler sammeln muss.
     Sekunden
 ```
 
-\--- / Aufgabe \---
+\--- /task \---
 
 Wenn Sie jetzt auf die grüne Flagge klicken, scheint nichts zu passieren. Dies liegt daran, dass alle geklonten Sprites versteckt sind und an derselben Stelle angezeigt werden.
 
 Sie werden Code hinzufügen, damit jeder neue Klon in einer der vier Ecken der Bühne angezeigt wird.
 
-![Bildschirmfoto](images/dots-start.png)
+![Screenshot](images/dots-start.png)
 
 Aufgabe Erstellen Sie eine neue Liste mit der Bezeichnung `Startpositionen`{: class = "block3variables"}. Klicken Sie auf das Symbol `(+)` der Liste, um die Werte `-180`{: class = "block3variables" hinzuzufügen } und `180`{: class = "block3variables"}.
 
@@ -40,7 +40,7 @@ Aufgabe Erstellen Sie eine neue Liste mit der Bezeichnung `Startpositionen`{: cl
 
 Dann können Sie die Liste ausblenden, indem Sie das Kontrollkästchen deaktivieren:
 
-![Verstecken Sie die Liste](images/hide-list.png) \--- / Aufgabe \---
+![Verstecken Sie die Liste](images/hide-list.png) \--- /task \---
 
 Beachten Sie, dass die Koordinate für jede Ecke der Bühne eine Kombination aus `180` und `-180`. Dies bedeutet, dass Sie die Liste verwenden können, um eine Ecke der Bühne zufällig auszuwählen.
 
@@ -62,11 +62,11 @@ Beachten Sie, dass die Koordinate für jede Ecke der Bühne eine Kombination aus
 
 \--- Aufgabe \--- Testen Sie Ihr Projekt. Sie sollten rote Punkte in den Ecken der Bühne sehen und sich langsam in Richtung Controller bewegen.
 
-![Bildschirmfoto](images/dots-red-test.png) \--- / Aufgabe \---
+![Screenshot](images/dots-red-test.png) \--- /task \---
 
 Aufgabe Erstellen Sie zwei neue Variablen mit dem Namen `Leben`{: class = "block3variables"} und `Punkte`{: class = "block3variables"}.
 
-![Red-Punkt-Sprite](images/red-sprite.png) \--- / Aufgabe \---
+![Red-Punkt-Sprite](images/red-sprite.png) \--- /task \---
 
 Aufgabe Füge der Bühne `Code hinzu, um die Variable <code> lives`{: class = "block3variables"} auf `3` und die `Punkte`{: class = "block3variables"} auf `0` um der Start des Spiels. ![Stage Sprite](images/stage-sprite.png)
 
@@ -76,7 +76,7 @@ geklickt wurde, setzen Sie [Leben v] auf (3).
 Setzen Sie [Punkte v] auf (0).
 ```
 
-\--- / Aufgabe \---
+\--- /task \---
 
 \--- task \--- Füge diesen Code am Ende des Stage-Skripts hinzu, damit das Spiel endet, wenn der Spieler das letzte Leben verliert:
 
@@ -87,7 +87,7 @@ Setzen Sie [Punkte v] auf (0).
     stop [all v]
 ```
 
-\--- / Aufgabe \---
+\--- /task \---
 
 Der Spieler sollte Punkte für das Fangen von Punkten gewinnen und sollte das Leben verlieren, weil er keine Punkte fangen konnte. Ein Punkt kann nur erfasst werden, indem die Farbe des Controllers an die Farbe des Punkts angepasst wird.
 
@@ -113,10 +113,13 @@ Fügen Sie dann Code hinzu, um entweder `1` bis `zu addieren. Punktzahl`{: class
     Diesen Klon löschen
 ```
 
-\--- / Aufgabe \---
+\--- /task \---
 
-\--- Aufgabe \---
+\--- task \---
 
-Testen Sie Ihr Spiel, um sicherzustellen, dass Sie ein Leben verlieren, wenn Sie einen Punkt nicht mit der richtigen Farbe abgleichen, und dass Sie einen Punkt erzielen, wenn Sie einen Punkt richtig zuordnen.
+Test your game to make sure that:
 
-\--- / Aufgabe \---
+1. You lose a life if you don’t match a dot with the correct colour
+2. You score a point if you match a dot correctly
+
+\--- /task \---
