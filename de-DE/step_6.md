@@ -1,4 +1,4 @@
-## Herausforderung: schnellere Punkte
+## Den Schwierigkeitsgrad steigern
 
 Können Sie Ihr Spiel verbessern, indem Sie die Variable ``{: class = "block3variables"} hinzufügen und diese neue Variable verwenden, um die Geschwindigkeit des Punkts im Laufe der Zeit zu verändern? Die Klone sollten mit einem Schritt nach dem anderen beginnen und dann immer schneller werden.
 
