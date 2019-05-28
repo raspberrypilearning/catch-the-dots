@@ -1,0 +1,27 @@
+---
+hero_image: images/banner.png
+listed: true
+copyedit: false
+title: Fang Prikkerne
+description: I dette projekt skal du lære, hvordan du laver et spil, hvor du skal matche farvede prikker med den tilsvarende farvede del af styreenheden.
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Fang Prikkerne
+  - 
+    title: Create a controller
+  - 
+    title: Gain points or lose lives
+  - 
+    title: More dots
+  - 
+    title: Increase the difficulty
+  - 
+    title: 'Challenge: faster dots'
+  - 
+    title: High score
+  - 
+    title: 'Challenge: improve your game!'
+  - 
+    title: What next?
