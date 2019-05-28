@@ -117,6 +117,9 @@ Quindi aggiungi il codice per aggiungere `1` o `punteggio`{: class = "block3vari
 
 \--- compito \---
 
-Metti alla prova il tuo gioco per assicurarti di perdere una vita se non trovi un punto con il colore corretto e di segnare un punto se abbini correttamente un punto.
+Test your game to make sure that:
+
+1. You lose a life if you don’t match a dot with the correct colour
+2. You score a point if you match a dot correctly
 
 \--- /compito \---
