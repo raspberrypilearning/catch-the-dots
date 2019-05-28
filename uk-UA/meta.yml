@@ -5,10 +5,10 @@ copyedit: false
 title: Спіймай крапки
 description: При реалізації цього проекту, ви навчитеся створювати гру, в якій потрібно буде ловити кольорові кульки стороною контролера-колеса такого ж кольору.
 version: 3
-last_tested: 2017-01-01
+last_tested: 2018-10-16
 steps:
   - 
-    title: Спіймай крапки
+    title: З днем народження
   - 
     title: Create a controller
   - 
@@ -20,8 +20,8 @@ steps:
   - 
     title: 'Challenge: faster dots'
   - 
-    title: High score
+    title: Рекорд
   - 
-    title: 'Challenge: improve your game!'
+    title: 'Завдання: вдоскональте свою гру!'
   - 
-    title: What next?
+    title: Що далі?
