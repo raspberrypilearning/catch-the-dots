@@ -3,7 +3,7 @@ hero_image: images/banner.png
 listed: true
 copyedit: false
 title: Vang de stippen
-description: Leer hoe je een pakkend spel kunt maken.
+description: Leer hoe je een stippen vang spel kunt maken
 version: 4.0.0
 last_tested: 2018/10/16
 steps:
@@ -12,16 +12,16 @@ steps:
   - 
     title: Een controller maken
   - 
-    title: 'Uitdaging: naar links draaien'
+    title: Verdien punten of verlies een leven
   - 
-    title: Stippen verzamelen
+    title: Meer stippen
   - 
-    title: 'Uitdaging: meer stippen'
+    title: Verhoog de moeilijkheid
   - 
-    title: 'Moeilijker maken'
+    title: 'Uitdaging: sneller bewegende stippen'
   - 
     title: Topscore
   - 
-    title: 'Challenge: verbeter je spel!'
+    title: 'Uitdsaging: verbeter je spel!'
   - 
     title: Wat kun je verder nog doen?
