@@ -1,10 +1,12 @@
-## Create a controller
+## Budowa pokrętła
 
-Start by creating a controller that the player will use to collect dots.
+Zacznij od stworzenia pokrętła-kontrolera, którego gracz będzie używał do zbierania kropek.
 
-\--- task \--- Open the 'Catch the dots' Scratch starter project.
+\---task\--- Otwórz projekt początkowy 'Łapanie kropek'.
 
-**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}. If you have a Scratch account, you can click on **Remix** in the top right-hand corner to save a copy of the project.
+**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
+
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
 **Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
 
@@ -12,9 +14,9 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 \--- /task \---
 
-Powinieneś widzieć duszka kontrolera:
+You should see a controller sprite:
 
-![zrzut ekranu](images/dots-controller.png)
+![screenshot](images/dots-controller.png)
 
 \--- task \--- Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
 
@@ -48,24 +50,23 @@ Find the code that checks whether the right arrow key is pressed and makes the s
 
 turn left(15) degrees
 
-if <> then
+Jeżeli <> to
 
-end
+koniec
 ```
 
-\--- /hint \--- \--- hint \--- Tak powinien wyglądać twój kod:
+\--- /hint \--- \--- hint \--- Here is what your code should look like:
 
 ```blocks3
-    when flag clicked
-    forever
-        if <key (right arrow v) pressed?> then
-            turn right (3) degrees
-        end
-
-+       if <key (left arrow v) pressed?> then
-            turn left(3) degrees
-        end
-    end
+    kiedy kliknięto zieloną flagę
+zawsze 
+  jeżeli <key (right arrow v) pressed?> to 
+    obróć w prawo o (3) stopni
+  koniec
+  + jeżeli <key (left arrow v) pressed?> to 
+      obróć w lewo o (3) stopni
+      koniec
+koniec
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
