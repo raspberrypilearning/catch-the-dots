@@ -1,14 +1,14 @@
 ---
-hero_image: images / banner.png
+hero_image: images/banner.png
 listed: true
 copyedit: false
 title: Fange die Punkte
 description: Lerne, wie man ein Fang-die-Punkte-Spiel herstellt.
 version: 3
-last_tested: 2017-01-01
+last_tested: 2018-10-16
 steps:
   - 
-    title: Einführung
+    title: Einleitung
   - 
     title: Einen Controller herstellen
   - 
@@ -20,8 +20,8 @@ steps:
   - 
     title: 'Den Schwierigkeitsgrad steigern'
   - 
-    title: 'Aufgabe: Sich schneller bewegende Punkte'
+    title: Hohe Punktzahl
   - 
-    title: 'Hohe Punktzahl'
+    title: 'Herausforderung: Erstelle mehr Blöcke!'
   - 
-    title: 'Aufgabe: Verbessere dein Spiel!'
+    title: 'Herausforderung: Ändere das Kostüm deiner Trommel'
