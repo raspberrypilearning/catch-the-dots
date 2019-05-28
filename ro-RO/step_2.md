@@ -4,21 +4,23 @@
 
 \--- task \--- Deschideți proiectul de "Scratch starter" "Catch the dots".
 
-**Online:** deschideți proiectul starter la [rpf.io/dots-on](http://rpf.io/dots-on){: target = "_ blank"}. Dacă aveți un cont Scratch, puteți face clic pe **Remix** în colțul din dreapta sus pentru a salva o copie a proiectului.
+**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
 
-**Offline:** descărcați proiectul starter din [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), apoi deschideți-l în editorul Scratch offline.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Dacă trebuie să descărcați și să instalați editorul Scratch offline, îl puteți găsi la [rpf.io/scratchoff](http://rpf.io/scratchoff).
+**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
 \--- /task \---
 
-Ar trebui să vedeți un controler pentru personaj:
+You should see a controller sprite:
 
-![captură de ecran](images/dots-controller.png)
+![screenshot](images/dots-controller.png)
 
-\--- task \--- Adăugați un anumit cod la sprite-ul controlerului pentru a transforma Sprite-ul în dreapta dacă jucătorul apasă tasta săgeată dreapta:
+\--- task \--- Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
 
-![Controler sprite](images/controller-sprite.png)
+![Controller sprite](images/controller-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -31,17 +33,17 @@ Ar trebui să vedeți un controler pentru personaj:
 
 \--- /task \---
 
-\--- task \--- Testați-vă codul. Controlerul trebuie să se rotească spre dreapta atunci când apăsați tasta săgeată dreapta. \--- /task \---
+\--- task \--- Test your code. The controller should spin to the right when you press the right arrow key. \--- /task \---
 
-\--- task \--- Adăugați codul la sprite-ul controlerului pentru a face sprite să se deplaseze stânga dacă jucătorul apasă tasta săgeată stânga.
+\--- task \--- Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
 
-![Controler sprite](images/controller-sprite.png)
+![Controller sprite](images/controller-sprite.png)
 
-\--- Sugestii \--- \--- Indicație \---
+\--- hints \--- \--- hint \---
 
-Găsiți codul care verifică dacă tasta săgeată dreapta este apăsată și face spriorul să meargă la dreapta. Puteți să adăugați o copie a acestui cod și să schimbați copia, astfel încât să verifice dacă tasta săgeată stânga este apăsată și face sprite să meargă la stânga?
+Find the code that checks whether the right arrow key is pressed and makes the sprite turn right. Can you add a copy of this code, and change the copy so it checks whether the left arrow key is pressed and makes the sprite turn left?
 
-\--- / hint \--- \--- indiciu \--- Aici sunt blocurile de care ai nevoie:
+\--- /hint \--- \--- hint \--- Here are the blocks you need:
 
 ```blocks3
 <key (space v) pressed?>
@@ -53,7 +55,7 @@ dacă <> apoi
 sfârșit
 ```
 
-\--- / hint \--- \--- sugestie \--- Aici este ceea ce ar trebui să arate codul dvs.:
+\--- /hint \--- \--- hint \--- Here is what your code should look like:
 
 ```blocks3
     când steagul a dat clic
@@ -68,4 +70,4 @@ sfârșit
     sfârșitul
 ```
 
-\--- / indiciu \--- \--- / sugestii \--- \--- / sarcina \---
+\--- /hint \--- \--- /hints \--- \--- /task \---
