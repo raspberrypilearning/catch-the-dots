@@ -1,4 +1,4 @@
-## Gana puntos o pierde vidas
+## Desafío: Girar hacia la izquierda
 
 Ahora vas a agregar algunos puntos que el jugador necesita recoger.
 
@@ -6,7 +6,7 @@ Ahora vas a agregar algunos puntos que el jugador necesita recoger.
 
 ![Sprite de punto rojo](images/dots-red.png)
 
-\--- / tarea \---
+\--- /task \---
 
 \--- tarea \--- Agregue este script a su sprite 'rojo' para crear un nuevo clon del sprite cada pocos segundos:
 
@@ -22,13 +22,13 @@ Ahora vas a agregar algunos puntos que el jugador necesita recoger.
     fin
 ```
 
-\--- / tarea \---
+\--- /task \---
 
 Si hace clic en la bandera verde ahora, parece que nada está sucediendo. Esto se debe a que todos los sprites clonados están ocultos y aparecen en el mismo lugar.
 
 Va a agregar código para hacer que cada nuevo clon aparezca en una de las cuatro esquinas del escenario.
 
-![captura de pantalla](images/dots-start.png)
+![screenshot](images/dots-start.png)
 
 \--- tarea \--- Crea una nueva lista llamada `posiciones de inicio`{: class = "block3variables"}, haz clic en el icono `(+)` la lista para agregar los valores `-180`{: class = "block3variables" } y `180`{: class = "block3variables"}.
 
@@ -40,7 +40,7 @@ Va a agregar código para hacer que cada nuevo clon aparezca en una de las cuatr
 
 Luego puede ocultar la lista deseleccionando este cuadro:
 
-![Ocultar la lista](images/hide-list.png) \--- / tarea \---
+![Ocultar la lista](images/hide-list.png) \--- /task \---
 
 Observe que la coordenada para cada esquina del escenario es una combinación de `180` y `-180`. Esto significa que puede usar la lista para elegir un rincón del escenario al azar.
 
@@ -60,13 +60,13 @@ Observe que la coordenada para cada esquina del escenario es una combinación de
 
 \--- / task \--- Este nuevo código elige `-180` o `180` para las posiciones x e y, lo que significa que cada clon de sprite 'punto' comienza en una esquina del escenario.
 
-\--- tarea \--- Pon a prueba tu proyecto. Debería ver aparecer puntos rojos en las esquinas del escenario y moverse lentamente hacia el controlador.
+\--- task \--- Evalúa tu proyecto. Debería ver aparecer puntos rojos en las esquinas del escenario y moverse lentamente hacia el controlador.
 
-![captura de pantalla](images/dots-red-test.png) \--- / tarea \---
+![captura de pantalla](images/dots-red-test.png) \--- /task \---
 
 \--- tarea \--- Crea dos nuevas variables llamadas `vidas`{: clase = "block3variables"} y `puntuación`{: clase = "block3variables"}.
 
-![Sprite de punto rojo](images/red-sprite.png) \--- / tarea \---
+![Sprite de punto rojo](images/red-sprite.png) \--- /task \---
 
 \--- tarea \--- Agregue código a su escenario para establecer la variable `vidas`{: clase = "block3variables"} en `3` y las `puntuaciones`{: clase = "block3variables"} en `0` at El inicio del juego. ![Sprite de escenario](images/stage-sprite.png)
 
@@ -76,7 +76,7 @@ establece [vidas v] en (3)
 establece [puntuación v] en (0)
 ```
 
-\--- / tarea \---
+\--- /task \---
 
 \--- tarea \--- Agrega este código al final de la secuencia de comandos del escenario para que el juego termine cuando el jugador pierda la última vida:
 
@@ -87,7 +87,7 @@ establece [puntuación v] en (0)
     detener [todos v]
 ```
 
-\--- / tarea \---
+\--- /task \---
 
 El jugador debe ganar puntos por atrapar puntos, y debe perder vidas por no poder atrapar puntos. Un punto solo puede capturarse haciendo coincidir el color del controlador con el color del punto.
 
@@ -113,10 +113,13 @@ Luego agregue el código para agregar `1` a `puntuación`{: clase = "block3varia
     borrar este clon
 ```
 
-\--- / tarea \---
+\--- /task \---
 
-\--- tarea \---
+\--- task \---
 
-Pruebe su juego para asegurarse de que pierde una vida si no hace coincidir un punto con el color correcto, y de que obtiene un punto si coincide con un punto correctamente.
+Test your game to make sure that:
 
-\--- / tarea \---
+1. You lose a life if you don’t match a dot with the correct colour
+2. You score a point if you match a dot correctly
+
+\--- /task \---
