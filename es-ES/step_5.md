@@ -1,10 +1,10 @@
-## Aumentar la dificultad
+## Desafío: Más puntos
 
 Ahora vas a hacer el juego más difícil cuanto más tiempo lo juegue el jugador. Hará esto haciendo que los puntos aparezcan más y más rápido con el tiempo.
 
 \--- tarea \--- Crea una nueva `variable`{: class = "block3variables"} llamada 'retraso'.
 
-![Sprite de escenario](images/stage-sprite.png) \--- / tarea \---
+![Sprite de escenario](images/stage-sprite.png) \--- /task \---
 
 \--- task \--- Vaya al área de Scripts del escenario y cree un nuevo script que establezca la variable `delay`{: class = "block3variables"} en `8` y luego reduzca lentamente el valor de `delay`{: class = "block3variables"} mientras se ejecuta el juego.
 
@@ -19,7 +19,7 @@ Ahora vas a hacer el juego más difícil cuanto más tiempo lo juegue el jugador
     fin
 ```
 
-\--- / tarea \---
+\--- /task \---
 
 ¡Observe que este código es muy similar al código que usaría para crear un temporizador de cuenta regresiva!
 
@@ -27,7 +27,7 @@ A continuación, utilice la variable `delay`{: class = "block3variables"} en los
 
 \--- tarea \--- Elimina el bloque de código que hace que el juego espere un número aleatorio de segundos entre los clones de sprite de puntos. Vuelva a colocar el bloque que ha sacado con su nuevo `retardo`{: class = "block3variables"} variables:
 
-![captura de pantalla](images/all-dots.png)
+![screenshot](images/all-dots.png)
 
 ```blocks3
 <br />- esperar (elegir aleatoriamente (5) a (10)) segundos
@@ -36,9 +36,9 @@ A continuación, utilice la variable `delay`{: class = "block3variables"} en los
 
 Haga esto para los tres sprites de puntos.
 
-\--- / tarea \---
+\--- /task \---
 
 \--- tarea \--- Prueba el juego y comprueba si los puntos comienzan a aparecer más rápidamente a medida que avanza el juego.
 
 + ¿Esto funciona para los tres puntos de colores?
-+ ¿Puedes ver que el valor del `retardo`{: class = "block3variables"} disminuye? \--- / tarea \---
++ ¿Puedes ver que el valor del `retardo`{: class = "block3variables"} disminuye? \--- /task \---
