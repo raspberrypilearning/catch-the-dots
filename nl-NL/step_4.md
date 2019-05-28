@@ -12,7 +12,7 @@
 
 \--- hints \--- \--- hint \--- Dit is de code die je moet vinden en wijzigen voor beide nieuwe sprites:
 
-![screenshot](images/dots-more-dots.png)
+![schermafdruk](images/dots-more-dots.png)
 
 ```blocks3
     als <touching color [#FF0000]?> dan 
