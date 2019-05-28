@@ -4,21 +4,23 @@ Commencez par créer un contrôleur que le joueur utilisera pour collecter des p
 
 \--- task \--- Ouvrez le projet de démarrage Scratch 'Catch the dots'.
 
-**En ligne:** ouvrez le projet de démarrage à [rpf.io/dots-on](http://rpf.io/dots-on){: target = "_ blank"}. Si vous avez un compte Scratch, vous pouvez cliquer sur **Remix** dans le coin supérieur droit pour enregistrer une copie du projet.
+**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
 
-**Hors ligne:** téléchargez le projet de démarrage à partir de [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), puis ouvrez-le dans l'éditeur hors ligne Scratch.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Si vous devez télécharger et installer l'éditeur hors ligne Scratch, vous pouvez le trouver à l'adresse [rpf.io/scratchoff](http://rpf.io/scratchoff).
+**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
 
-\--- /tâche \---
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
-Vous devriez voir un sprite de contrôleur:
+\--- /task \---
 
-![capture d'écran](images/dots-controller.png)
+You should see a controller sprite:
 
-\--- task \--- Ajoutez du code au sprite du contrôleur pour le faire tourner à droite si le joueur appuie sur la flèche droite:
+![screenshot](images/dots-controller.png)
 
-![Contrôleur sprite](images/controller-sprite.png)
+\--- task \--- Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
+
+![Controller sprite](images/controller-sprite.png)
 
 ```blocks3
     quand le drapeau a cliqué
@@ -29,19 +31,19 @@ Vous devriez voir un sprite de contrôleur:
     fin
 ```
 
-\--- /tâche \---
+\--- /task \---
 
-\--- tâche \--- Testez votre code. Le contrôleur doit tourner à droite lorsque vous appuyez sur la touche fléchée droite. \--- /tâche \---
+\--- task \--- Test your code. The controller should spin to the right when you press the right arrow key. \--- /task \---
 
-\--- task \--- Ajoutez du code à l'image-objet du contrôleur pour que celui-ci tourne à gauche si le joueur appuie sur la flèche gauche.
+\--- task \--- Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
 
-![Contrôleur sprite](images/controller-sprite.png)
+![Controller sprite](images/controller-sprite.png)
 
-\--- astuces \--- \--- astuces \---
+\--- hints \--- \--- hint \---
 
-Recherchez le code qui vérifie si la flèche droite est enfoncée et fait tourner le sprite à droite. Pouvez-vous ajouter une copie de ce code et modifier la copie afin qu'elle vérifie si la touche flèche gauche est enfoncée et fait tourner l'image-objet à gauche?
+Find the code that checks whether the right arrow key is pressed and makes the sprite turn right. Can you add a copy of this code, and change the copy so it checks whether the left arrow key is pressed and makes the sprite turn left?
 
-\--- / indice \--- \--- indice \--- Voici les blocs dont vous avez besoin:
+\--- /hint \--- \--- hint \--- Here are the blocks you need:
 
 ```blocks3
 <key (space v) pressed?>
@@ -53,7 +55,7 @@ si <> puis
 fin
 ```
 
-\--- / hint \--- \--- hint \--- Voici à quoi devrait ressembler votre code:
+\--- /hint \--- \--- hint \--- Here is what your code should look like:
 
 ```blocks3
     lorsque l' indicateur cliqué
@@ -68,4 +70,4 @@ fin
     extrémité
 ```
 
-\--- / astuce \--- \--- / astuces \--- \--- / tâche \---
+\--- /hint \--- \--- /hints \--- \--- /task \---
