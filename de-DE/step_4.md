@@ -1,18 +1,18 @@
-## Weitere Punkte
+## Punkte einsammeln
 
 \--- Aufgabe \--- Dupliziere dein 'rotes' Sprite zweimal und benenne die beiden neuen Sprites 'gelb' und 'blau'.
 
-![Bildschirmfoto](images/dots-more-dots.png) \--- / Aufgabe \---
+![Screenshot](images/dots-more-dots.png) \--- /task \---
 
-\--- Aufgabe \--- Ändere das Kostüm jedes neuen Sprites so, dass es die richtige Farbe hat: Der gelbe Sprite sollte gelb sein und der blaue Sprite sollte blau sein. \--- / Aufgabe \---
+\--- Aufgabe \--- Ändere das Kostüm jedes neuen Sprites so, dass es die richtige Farbe hat: Der gelbe Sprite sollte gelb sein und der blaue Sprite sollte blau sein. \--- /task \---
 
 \--- task \--- Ändere den Code jedes Sprites so, dass der Spieler die Punktfarbe auf dem Controller mit der richtigen Farbe vergleichen muss, um Punkte zu erzielen.
 
-![Bildschirmfoto](images/dots-all-test.png)
+![Screenshot](images/dots-all-test.png)
 
 \--- Hinweise \--- \--- Hinweis \--- Dies ist der Code, den Sie für beide neuen Sprites finden und ändern müssen:
 
-![Bildschirmfoto](images/dots-more-dots.png)
+![Screenshot](images/dots-more-dots.png)
 
 ```blocks3
     Wenn <touching color [#FF0000]?> dann
@@ -58,4 +58,4 @@ und warte (4) Sekunden
 
 Ändern Sie dann den Code für das "blaue" Punktsprite so, dass es 6 Sekunden nach dem Klicken auf die Flagge wartet, bevor es erscheint.
 
-\--- / Aufgabe \---
+\--- /task \---
