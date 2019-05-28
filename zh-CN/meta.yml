@@ -1,0 +1,27 @@
+---
+hero_image: images/banner.png
+listed: true
+copyedit: false
+title: 接住小点
+description: 学习如何制作一个接点游戏。
+version: 4.0.0
+last_tested: 2018-10-16
+steps:
+  - 
+    title: 介绍
+  - 
+    title: 创建一个控制器
+  - 
+    title: 挑战：向左旋转
+  - 
+    title: 收集小点
+  - 
+    title: 挑战：更多小点
+  - 
+    title: '增加难度'
+  - 
+    title: 挑战：移动更快的小点
+  - 
+    title: '高分'
+  - 
+    title: 挑战：完善你的游戏！
