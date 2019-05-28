@@ -1,50 +1,50 @@
 ## Topscore
 
-You're going to save the game's high score, so that players can see how well they are doing.
+Je gaat de hoogste score van het spel opslaan, zodat spelers kunnen zien hoe goed ze het doen.
 
-\--- task \--- Create a new variable called `high score`{:class="block3variables"}.
+\--- task \--- Maak een nieuwe variabele met de naam `topscore`{:class="block3variables"}.
 
-![Stage sprite](images/stage-sprite.png)
-
-\--- /task \---
-
-\--- task \--- Select the Stage. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
-
-![Stage sprite](images/stage-sprite.png) ![screenshot](images/dots-custom-1.png)
+![Speelveld sprite](images/stage-sprite.png)
 
 \--- /task \---
 
-\--- task \--- Add code to your custom block so that the block checks if the current value of `score`{:class="block3variables"} in larger than the value of the `high score`{:class="block3variables"} variable, and then stores the value of `score`{:class="block3variables"} as the new value of `high score`{:class="block3variables"}.
+\--- task \--- Selecteer het Speelveld. Klik op 'Mijn blokken' en maak een nieuw aangepast blok met de naam `controleer topscore `{:class="block3myblocks"}.
 
-![Stage sprite](images/stage-sprite.png)
+![Speelveld sprite](images/stage-sprite.png) ![screenshot](images/dots-custom-1.png)
+
+\--- /task \---
+
+\--- task \--- Voeg code toe aan je aangepaste blok, zodat het blok controleert of de huidige waarde van `score`{:class="block3variables"} groter is dan de waarde van de `topscore`{:class="block3variables"} variabele, en dan de waarde van `score`{:class="block3variables"} opslaat als de nieuwe waarde van `topscore `{:class="block3variables"}.
+
+![Speelveld sprite](images/stage-sprite.png)
 
 ```blocks3
-    define check high score
-    if <(score :: variables) > (high score)> then
-        set [high score v] to (score :: variables)
-    end
+    definieer controleer topscore
+als <(score) > (topscore)> dan 
+maak [topscore v] (score)
+end
 ```
 
 \--- /task \---
 
-\--- task \--- Add your new custom block to the Stage script before the end of the script.
+\--- task \--- Voeg je nieuwe aangepaste blok toe aan het speelveld-script vóór het einde van het script.
 
-![Stage sprite](images/stage-sprite.png)
+![Speelveld sprite](images/stage-sprite.png)
 
 ```blocks3
-when flag clicked
-set [lives v] to (3)
-set [score v] to (0)
-wait until <(lives) < (1)>
+wanneer groene vlag wordt aangeklikt
+maak [levens v] (3)
+maak [score v] (0)
+wacht tot <(levens) < (1)>
 
-+ check high score :: custom
-stop [all v]
++ controleer topscore
+stop [alle v]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Play your game twice to check whether your score gets correctly saved as the `high score`{:class="block3variables"}.
+Speel je game twee keer om te controleren of je score correct wordt opgeslagen als `topscore`{:class="block3variables"}.
 
 \--- /task \---
