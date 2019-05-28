@@ -1,10 +1,10 @@
-\--- kein Druck \---
+\--- no-print \---
 
 Dies ist die **Scratch 3** Version des Projekts. Es gibt auch eine [Scratch 2-Version des Projekts](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
 
-\--- / kein Druck \---
+\--- /no-print \---
 
-## Einführung
+## Einleitung
 
 In diesem Projekt lernen Sie, wie Sie ein Spiel erstellen, bei dem der Spieler farbige Punkte mit der korrekten Farbe des Controller-Rads abgleichen muss.
 
@@ -15,22 +15,22 @@ In diesem Projekt lernen Sie, wie Sie ein Spiel erstellen, bei dem der Spieler f
   <img src="images/dots-final.png">
 </div>
 
-\--- / kein Druck \---
+\--- /no-print \---
 
 \--- nur drucken \--- ![Dots screenshot](images/dots-final.png) \--- / nur drucken \---
 
-## \--- Zusammenbruch \---
+## \--- collapse \---
 
-## Titel: Was Sie lernen werden
+## title: Was du lernen wirst
 
 + So wählen Sie zufällige Elemente aus einer Liste aus
 + Wie man Variablen verwendet, um Geschwindigkeit, Leben und die Punktzahl des Spielers zu verfolgen
 
-\--- / zusammenbrechen \---
+\--- /collapse \---
 
-## \--- Zusammenbruch \---
+## \--- collapse \---
 
-## Titel: Was Sie brauchen werden
+## title: Was du brauchen wirst
 
 ### Hardware
 
@@ -38,17 +38,17 @@ In diesem Projekt lernen Sie, wie Sie ein Spiel erstellen, bei dem der Spieler f
 
 ### Software
 
-+ Scratch 3 (entweder [online](http://rpf.io/scratchon){: target = "_ blank"} oder [offline](http://rpf.io/scratchoff){: target = "_ blank"})
++ Scratch 3 (entweder [online](http://rpf.io/scratchon){:target="_blank"} oder [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
 + [Offline Scratch 2-Projekt](http://rpf.io/p/en/catch-the-dots-go){: target = "_ blank"} \--- / collapse \---
 
-## \--- Zusammenbruch \---
+## \--- collapse \---
 
-## Titel: Zusätzliche Hinweise für Pädagogen
+## title: Zusätzliche Hinweise für Pädagogen
 
-\--- no-print \--- Wenn Sie dieses Projekt drucken möchten, verwenden Sie bitte die [druckerfreundliche Version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print). \--- / kein Druck \---
+\--- no-print \--- Wenn Sie dieses Projekt drucken möchten, verwenden Sie bitte die [druckerfreundliche Version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print). \--- /no-print \---
 
 Sie finden [das abgeschlossene Projekt hier](http://rpf.io/p/en/catch-the-dots-get){: target = "_ blank"}.
 
