@@ -4,19 +4,21 @@ Inizia creando un controller che il giocatore utilizzerà per raccogliere punti.
 
 \--- task \--- Apri il progetto di avvio Scratch 'Catch the punti'.
 
-**Online:** apri il progetto di avvio su [rpf.io/dots-on](http://rpf.io/dots-on){: target = "_ blank"}. Se si dispone di un account Scratch, è possibile fare clic su **Remix** nell'angolo in alto a destra per salvare una copia del progetto.
+**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
 
-**Offline:** scarica il progetto di avvio da [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), quindi aprilo nell'editor offline di Scratch.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Se devi scaricare e installare l'editor offline di Scratch, puoi trovarlo su [rpf.io/scratchoff](http://rpf.io/scratchoff).
+**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
 
-\--- /compito \---
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
-Dovresti vedere uno sprite del controller:
+\--- /task \---
 
-![immagine dello schermo](images/dots-controller.png)
+You should see a controller sprite:
 
-\--- task \--- Aggiungi del codice allo sprite del controller per far girare lo sprite a destra se il giocatore preme il tasto freccia destra:
+![screenshot](images/dots-controller.png)
+
+\--- task \--- Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
 
 ![Controller sprite](images/controller-sprite.png)
 
@@ -29,19 +31,19 @@ Dovresti vedere uno sprite del controller:
     fine
 ```
 
-\--- /compito \---
+\--- /task \---
 
-\--- task \--- Verifica il tuo codice. Il controller dovrebbe ruotare a destra quando si preme il tasto freccia destra. \--- /compito \---
+\--- task \--- Test your code. The controller should spin to the right when you press the right arrow key. \--- /task \---
 
-\--- task \--- Aggiungi il codice allo sprite del controller per far girare lo sprite a sinistra se il giocatore preme il tasto freccia sinistra.
+\--- task \--- Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
 
 ![Controller sprite](images/controller-sprite.png)
 
-\--- suggerimenti \--- \--- suggerimento \---
+\--- hints \--- \--- hint \---
 
-Trova il codice che controlla se il tasto freccia destra è premuto e fa girare lo sprite a destra. Puoi aggiungere una copia di questo codice e cambiare la copia in modo che controlli se il tasto freccia sinistra è premuto e fa girare lo sprite a sinistra?
+Find the code that checks whether the right arrow key is pressed and makes the sprite turn right. Can you add a copy of this code, and change the copy so it checks whether the left arrow key is pressed and makes the sprite turn left?
 
-\--- / suggerimento \--- \--- suggerimento \--- Ecco i blocchi necessari:
+\--- /hint \--- \--- hint \--- Here are the blocks you need:
 
 ```blocks3
 <key (space v) pressed?>
@@ -53,7 +55,7 @@ se <> poi
 fine
 ```
 
-\--- / suggerimento \--- \--- suggerimento \--- Ecco come dovrebbe apparire il tuo codice:
+\--- /hint \--- \--- hint \--- Here is what your code should look like:
 
 ```blocks3
     quando la bandiera ha cliccato
@@ -68,4 +70,4 @@ fine
     fine
 ```
 
-\--- / suggerimento \--- \--- / suggerimenti \--- \--- / compito \---
+\--- /hint \--- \--- /hints \--- \--- /task \---
