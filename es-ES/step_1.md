@@ -1,8 +1,8 @@
 \--- no-print \---
 
-Esta es la versión **Scratch 3** del proyecto. También hay una versión [Scratch 2 del proyecto](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
+Esta es una versión de **Scratch 3** del proyecto. También hay una [versión del proyecto en Scratch 2](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
 
-\--- / no-print \---
+\--- /no-print \---
 
 ## Introducción
 
@@ -15,40 +15,40 @@ En este proyecto, aprenderá cómo crear un juego en el que el jugador tenga que
   <img src="images/dots-final.png">
 </div>
 
-\--- / no-print \---
+\--- /no-print \---
 
-\--- solo imprimir \--- ![Dots screenshot](images/dots-final.png) \--- / solo imprimir \---
+\--- print-only \--- ![Dots screenshot](images/dots-final.png) \--- /print-only \---
 
-## \--- colapso \---
+## \--- collapse \---
 
-## Título: Lo que aprenderás.
+## title: Lo que vas a aprender
 
 + Cómo elegir elementos aleatorios de una lista
 + Cómo usar variables para rastrear la velocidad, las vidas y la puntuación del jugador
 
-\--- /colapso \---
+\--- /collapse \---
 
-## \--- colapso \---
+## \--- collapse \---
 
-## Título: Lo que necesitarás.
+## title: Lo que vas a necesitar
 
 ### Hardware
 
-+ Una computadora capaz de ejecutar Scratch 3
++ Una computadora capaz de hacer correr Scratch 3
 
 ### Software
 
-+ Scratch 3 ( [online](http://rpf.io/scratchon){: target = "_ blank"} o [offline](http://rpf.io/scratchoff){: target = "_ blank"})
++ Scratch 3 (ya sea [online](http://rpf.io/scratchon){:target="_blank"} u [offline](http://rpf.io/scratchoff) {:target="_blank"})
 
 ### Descargas
 
 + [Proyecto Offline Scratch 2](http://rpf.io/p/en/catch-the-dots-go){: target = "_ blank"} \--- / collapse \---
 
-## \--- colapso \---
+## \--- collapse \---
 
 ## Título: Notas adicionales para educadores.
 
-\--- no impresión \--- Si necesita imprimir este proyecto, por favor utilice el [versión de impresión](https://projects.raspberrypi.org/en/projects/catch-the-dots/print). \--- / no-print \---
+\--- no impresión \--- Si necesita imprimir este proyecto, por favor utilice el [versión de impresión](https://projects.raspberrypi.org/en/projects/catch-the-dots/print). \--- /no-print \---
 
 Puede encontrar [el proyecto completado aquí](http://rpf.io/p/en/catch-the-dots-get){: target = "_ blank"}.
 
