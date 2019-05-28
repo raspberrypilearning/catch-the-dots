@@ -1,4 +1,4 @@
-## Highscore
+## Hohe Punktzahl
 
 Sie speichern den Highscore des Spiels, damit die Spieler sehen können, wie gut sie sind.
 
@@ -6,13 +6,13 @@ Sie speichern den Highscore des Spiels, damit die Spieler sehen können, wie gut
 
 ![Stage Sprite](images/stage-sprite.png)
 
-\--- / Aufgabe \---
+\--- /task \---
 
 \--- Aufgabe \--- Wählen Sie die Bühne aus. Klicken Sie auf ‚Meine Blöcke‘ und erstellen Sie einen neuen benutzerdefinierten Block genannt `Check hohe Punktzahl`{: class = „block3myblocks“}.
 
-![Stage Sprite](images/stage-sprite.png) ![Bildschirmfoto](images/dots-custom-1.png)
+![Stage Sprite](images/stage-sprite.png) ![Screenshot](images/dots-custom-1.png)
 
-\--- / Aufgabe \---
+\--- /task \---
 
 \--- task \--- Fügen Sie Ihrem benutzerdefinierten Block Code hinzu, damit der Block prüft, ob der aktuelle Wert von `Score`{: class = "block3variables"} größer als der Wert von `High Score`{: class = ist "block3variables"} Variable und speichert dann den Wert von `Score`{: class = "block3variables"} als neuen Wert von `High Score`{: class = "block3variables"}.
 
@@ -25,7 +25,7 @@ Sie speichern den Highscore des Spiels, damit die Spieler sehen können, wie gut
     end
 ```
 
-\--- / Aufgabe \---
+\--- /task \---
 
 \--- task \--- Fügen Sie vor dem Ende des Skripts Ihren neuen benutzerdefinierten Block zum Stage-Skript hinzu.
 
@@ -41,10 +41,10 @@ Warten bis <(Leben) < (1)>
 Stopp [all v]
 ```
 
-\--- / Aufgabe \---
+\--- /task \---
 
-\--- Aufgabe \---
+\--- task \---
 
 Spiele dein Spiel zweimal, um zu prüfen, ob deine Punktzahl als `Punktestand`{: class = "block3variables"} richtig gespeichert wird.
 
-\--- / Aufgabe \---
+\--- /task \---
