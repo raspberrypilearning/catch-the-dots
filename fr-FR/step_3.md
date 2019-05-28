@@ -117,6 +117,9 @@ Ajoutez ensuite du code pour ajouter `1` à `score`{: class = "block3variables"}
 
 \--- tâche \---
 
-Testez votre jeu pour vous assurer de perdre une vie si vous ne correspondez pas à un point avec la couleur correcte et que vous marquez un point si vous correspondez correctement à un point.
+Test your game to make sure that:
+
+1. You lose a life if you don’t match a dot with the correct colour
+2. You score a point if you match a dot correctly
 
 \--- /tâche \---
