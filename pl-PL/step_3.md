@@ -1,105 +1,105 @@
-## Gain points or lose lives
+## Zdobądź punkty, albo strać życia
 
-Now you're going to add some dots that the player needs to collect.
+Teraz dodasz trochę kropek, które gracz musi zebrać.
 
-\--- task \--- Create a new sprite called 'red'. Ten duszek powinien być małą czerwoną kropką.
+Utwórz nowego duszka i nazwij go "czerwony". Ten duszek powinien być małą czerwoną kropką.
 
-![Red dot sprite](images/dots-red.png)
+![Duszek czerwonej kropki](images/dots-red.png)
 
 \--- /task \---
 
-\--- task \--- Add this script to your 'red' sprite to create a new clone of the sprite every few seconds:
+\---task\--- Dodaj ten skrypt do duszka kropki - "czerwony", aby tworzyć jego nowe kopie co kilka sekund:
 
-![Red dot sprite](images/red-sprite.png)
+![Duszek czerwonej kropki](images/red-sprite.png)
 
 ```blocks3
-    when flag clicked
-    hide
-    wait (2) seconds
-    forever
-        create clone of (myself v)
-        wait (pick random (5) to (10)) secs
-    end
+    kiedy kliknięto zieloną flagę
+  ukryj
+  czekaj (2) s
+  zawsze 
+    sklonuj (siebie v)
+    czekaj (losuj od (5) do (10)) s
+  koniec
 ```
 
 \--- /task \---
 
-If you click the green flag now, it looks like nothing is happening. This is because all of the cloned sprites are hidden, and they appear in the same place.
+Jeżeli klikniesz teraz zieloną flagę, zobaczysz że nic się nie zdarzy. Dzieje się tak ponieważ wszystkie klony duszków są ukryte, i pojawiają się w tym samym miejscu.
 
-You are going to add code to make each new clone appear in one of the four corners of the Stage.
+Teraz dodasz kod sprawiający, że każdy nowy klon będzie się pojawiać w jednym z czterech rogów Sceny.
 
 ![zrzut ekranu](images/dots-start.png)
 
-\--- task \--- Create a new list called `start positions`{:class="block3variables"}, click the list's `(+)` icon to add the values `-180`{:class="block3variables"} and `180`{:class="block3variables"}.
+\--- task \--- Stwórz nową listę `pozycja początkowa`{:class="block3variables"}, kliknij na liście ikonę`(+)` aby dodać wartości `-180`{:class="block3variables"} oraz `180`{:class="block3variables"}.
 
-![Red dot sprite](images/red-sprite.png)
+![Duszek czerwonej kropki](images/red-sprite.png)
 
-![List of 180 and -180](images/dots-list.png)
+![Lista zawierająca -180 i 180](images/dots-list.png)
 
 [[[generic-scratch3-make-list]]]
 
-Then you can hide the list by unselecting this box:
+Później możesz ukryć listę odznaczając to okienko:
 
-![Hide the list](images/hide-list.png) \--- /task \---
+![Ukryj listę](images/hide-list.png) \--- /task \---
 
-Notice that the coordinate for each corner of the Stage is a combination of `180` and `-180`. This means you can use the list to pick a corner of the Stage at random.
+Zwróć uwagę że współrzędne każdego z rogów Sceny są kombinacją `180` oraz `-180`. Oznacza to, że możesz użyć listy do losowego wybrania narożnika Sceny.
 
-\--- task \--- Add this code to the 'dot' sprite to make each new sprite clone appear in a random corner and then slowly move towards the controller sprite.
+\---task\--- Dodaj ten kod do duszka 'kropki' aby każdy nowy duszek-klon pojawiał się w losowym narożniku i powoli poruszał się w kierunku duszka pokrętła.
 
-![Red dot sprite](images/red-sprite.png)
+![Duszek czerwonej kropki](images/red-sprite.png)
 
 ```blocks3
-    when I start as a clone
-    go to x: (item (pick random (1) to (2)) of [start positions v]) y: (item (pick random (1) to (2)) of [start positions v])
-    point towards (controller v)
-    show
-    repeat until <touching (controller v)?>
-        move (1) steps
-    end
+    kiedy zaczynam jako klon
+  idź do x: (element (losuj od (1) do (2)) z [pozycja początkowa v]) y: (element (losuj od (1) do (2)) z [pozycja początkowa v])
+  ustaw w stronę (pokrętło v)
+  pokaż
+  powtarzaj aż <touching (controller v)?> 
+    przesuń o (1) kroków
+  koniec
 ```
 
-\--- /task \--- This new code chooses either `-180` or `180` for the x and y positions, meaning that each 'dot' sprite clone starts in a corner of the Stage.
+\--- /task \--- kod powyżej pozwala wybrać `-180` albo `180` dla pozycji x i y, co oznacza, że każdy klon 'kropki' zaczyna w jednym z rogów Sceny.
 
-\--- task \--- Test your project. You should see red dots appear in the corners of the Stage and move slowly towards the controller.
+\---task\--- Wypróbuj swój kod. Powinieneś widzieć wiele czerwonych kropek pojawiających się w każdym rogu ekranu i poruszających się powoli w kierunku kontrolera.
 
 ![zrzut ekranu](images/dots-red-test.png) \--- /task \---
 
-\--- task \--- Create two new variables called `lives`{:class="block3variables"} and `score`{:class="block3variables"}.
+\--- task \--- Stwórz dwie nowe zmienne nazywające się `życia`{:class="block3variables"} oraz `wynik`{:class="block3variables"}.
 
-![Red dot sprite](images/red-sprite.png) \--- /task \---
+![Duszek czerwonej kropki](images/red-sprite.png) \--- /task \---
 
-\--- task \--- Add code to your Stage to set the `lives`{:class="block3variables"} variable to `3` and the `score`{:class="block3variables"} to `0` at the start of the game. ![Stage sprite](images/stage-sprite.png)
+\--- task \--- Dodaj kod do swojej planszy, aby ustawić `życia`:class="block3variables"} na `3` i `wynik`{:class="block3variables"} na `0` na rozpoczęcie każdej gry. ![Duszek sceny](images/stage-sprite.png)
 
 ```blocks3
-when flag clicked
-set [lives v] to (3)
-set [score v] to (0)
+kiedy kliknięto zieloną flagę
+ustaw [życia v] na (3)
+ustaw [wynik v] na (0)
 ```
 
 \--- /task \---
 
-\--- task \--- Add this code to the end of the Stage's script to make the game end when the player loses the last of the lives:
+\--- task \--- Dodaj ten kod na końcu skrypty Sceny, aby gra kończyła się kiedy grasz straci ostatnie z żyć:
 
-![Stage sprite](images/stage-sprite.png)
+![Duszek sceny](images/stage-sprite.png)
 
 ```blocks3
-    wait until <(lives :: variables) < [1]>
-    stop [all v]
+    czekaj aż <(życia) < [1]>
+  zatrzymaj [wszystko v]
 ```
 
 \--- /task \---
 
-The player should win points for catching dots, and should lose lives for failing to catch dots. A dot can only be caught by matching the colour of the controller to the colour of the dot.
+Gracz powinien wygrywać punkty za złapanie kropek, oraz powinien tracić życia za nie złapanie ich. Kropka może być złapana tylko przez kolor na kontrolerze pasujący do koloru kropki.
 
-\--- task \--- Go back to the 'red' dot sprite's Scripts area to add some code blocks to the end of the sprite's `when I start as a clone`{:class="block3control"} script.
+\--- task \--- Wróć do skryptu duszka kropki 'czerwony' i dodaj kilka bloczków na końcu skryptu `gdy zaczynam jako klon`{:class="block3control"}.
 
-First, make the dot clone `move 5 steps`{:class="block3motion"} so that it overlaps the controller.
+Najpierw spraw aby klon kropki `przesuń o 5 kroków`{:class="block3motion"}, tak by nachodził na kontroler.
 
 Then add code to either add `1` to `score`{:class="block3variables"} if the colour of the dot clone matches the colour of the controller when they touch, or to take `1` away from `lives`{:class="block3variables"} if their colours don't match.
 
 [[[generic-scratch3-sound-from-library]]]
 
-![Red dot sprite](images/red-sprite.png)
+![Duszek czerwonej kropki](images/red-sprite.png)
 
 ```blocks3
     move (5) steps
@@ -117,6 +117,9 @@ Then add code to either add `1` to `score`{:class="block3variables"} if the colo
 
 \--- task \---
 
-Test your game to make sure that you lose a life if you don't match a dot with the correct colour, and that you score a point if you match a dot correctly.
+Test your game to make sure that:
+
+1. You lose a life if you don’t match a dot with the correct colour
+2. You score a point if you match a dot correctly
 
 \--- /task \---
