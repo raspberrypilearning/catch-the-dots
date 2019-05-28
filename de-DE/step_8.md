@@ -1,4 +1,4 @@
-## Herausforderung: Verbessere dein Spiel
+## Herausforderung: Erstelle mehr Blöcke
 
 Können Sie sich überlegen, wie Sie Ihr Spiel verbessern können? Sie können zum Beispiel spezielle Punkte erstellen, die:
 
