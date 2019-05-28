@@ -1,5 +1,5 @@
-## Moeilijker maken
+## Uitdaging: sneller bewegende stippen
 
-Can you improve your game by adding a `speed`{:class="block3variables"} variable and using this new variable to make the dot change their speed over time? The clones should start by moving one step at a time, and then steadily get faster and faster.
+Kun je je spel verbeteren door een `snelheid`{:class="block3variables"} variabele toe te voegen en deze nieuwe variabele te gebruiken om de stip in de loop van de tijd van snelheid te laten veranderen? De klonen zouden moeten beginnen door stap voor stap te bewegen en dan gestaag sneller en sneller te worden.
 
-The code you need for this is very similar to the code in which you've used the `delay`{:class="block3variables"} variable.
+De code die je hiervoor nodig hebt, lijkt veel op de code waarin je de `vertraging`{:class="block3variables"} variabele hebt gebruikt.
