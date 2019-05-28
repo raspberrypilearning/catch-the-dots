@@ -32,11 +32,11 @@ In this project you'll learn how to create a game in which the player has to mat
 
 ## title: What you will need
 
-### Hardware
+### Обладнання
 
-+ A computer capable of running Scratch 3
++ Комп'ютер, що підтримує Scratch 3
 
-### Software
+### Програмне забезпечення
 
 + Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
