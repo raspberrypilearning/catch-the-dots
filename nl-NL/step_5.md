@@ -30,8 +30,8 @@ Gebruik vervolgens de `vertraging`{:class="block3variables"} variabele in het co
 ![screenshot](images/all-dots.png)
 
 ```blocks3
-<br />- wacht (willekeurig getal tussen (5) en (10)) sec.
-wacht (vertraging) sec.
+-   wacht (willekeurig getal tussen (5) en (10)) sec.
+    wacht (vertraging) sec.
 ```
 
 Doe dit voor alle drie de stip-sprites.

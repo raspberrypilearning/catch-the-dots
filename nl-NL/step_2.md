@@ -18,17 +18,18 @@ Je zou een controllersprite moeten zien:
 
 ![screenshot](images/dots-controller.png)
 
---- task --- Voeg wat code toe aan de controllersprite om de sprite naar rechts te draaien als de speler de rechter pijljestoets indrukt:
+--- task --- 
+Voeg wat code toe aan de controllersprite om de sprite naar rechts te draaien als de speler de rechter pijljestoets indrukt:
 
 ![Controller sprite](images/controller-sprite.png)
 
 ```blocks3
     wanneer groene vlag wordt aangeklikt
-herhaal 
-  als <key (right arrow v) pressed?> dan 
-    draai (3) graden naar rechts :: control
-  end :: control
-end
+    herhaal 
+        als <key (right arrow v) pressed?> dan 
+            draai (3) graden naar rechts :: control
+        end :: control
+    end
 ```
 
 --- /task ---
@@ -60,15 +61,15 @@ end
 
 ```blocks3
     wanneer groene vlag wordt aangeklikt
-herhaal 
-als <key (right arrow v) pressed?> dan 
-draai (3) graden naar rechts
-end
+    herhaal 
+        als <key (right arrow v) pressed?> dan 
+            draai (3) graden naar rechts
+        end
 
-+ als <key (left arrow v) pressed?> dan 
-draai (3) graden naar links
-end
-end
+        + als <key (left arrow v) pressed?> dan 
+              draai (3) graden naar links
+        end
+    end
 ```
 
 --- /hint --- --- /hints --- --- /task ---

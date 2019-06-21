@@ -8,16 +8,18 @@ Dit is de **Scratch 3** versie van het project. Er is ook een [Scratch 2 versie 
 
 In dit project leer je hoe je een spel maakt waarbij je gekleurde stippen moet paren met de juiste kleur van het controllerwiel.
 
---- no-print --- Gebruik de pijltjestoetsen op je toetsenbord om het controllerwiel te draaien en vang de vliegende stippen als ze het middelpunt bereiken. Zodra je drie stippen gemist hebt is het game over.
+--- no-print --- 
+Gebruik de pijltjestoetsen op je toetsenbord om het controllerwiel te draaien en vang de vliegende stippen als ze het middelpunt bereiken. Zodra je drie stippen gemist hebt is het game over.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/dots-final.png">
 </div>
-
 --- /no-print ---
 
---- print-only --- ![Dots screenshot](images/dots-final.png) --- /print-only ---
+--- print-only --- 
+![Dots screenshot](images/dots-final.png) 
+--- /print-only ---
 
 --- collapse ---
 ---
@@ -51,7 +53,9 @@ title: Wat heb je nodig
 title: Aanvullende informatie voor docenten
 ---
 
---- no-print --- Als je dit project wilt afdrukken, gebruik dan de [printvriendelijke versie](https://projects.raspberrypi.org/nl-NL/projects/catch-the-dots/print). --- /no-print ---
+--- no-print --- 
+Als je dit project wilt afdrukken, gebruik dan de [printvriendelijke versie](https://projects.raspberrypi.org/nl-NL/projects/catch-the-dots/print). 
+--- /no-print ---
 
 Je kunt [de complete versie hier](http://rpf.io/p/nl-NL/catch-the-dots-get){:target="_blank"} terugvinden.
 
