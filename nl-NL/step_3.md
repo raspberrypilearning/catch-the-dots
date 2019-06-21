@@ -58,7 +58,7 @@ neem (1) stappen
 end
 ```
 
---- task --- Deze nieuwe code kiest `-180` of `180` voor de x- en y-posities, wat betekent dat elke stip-kloon in een hoek van het werkgebied begint.
+--- /task --- Deze nieuwe code kiest `-180` of `180` voor de x- en y-posities, wat betekent dat elke stip-kloon in een hoek van het werkgebied begint.
 
 --- task --- Test je project. Je zou in elke hoek van het scherm rode stippen moeten zien verschijnen die langzaam naar de controller bewegen.
 
