@@ -52,4 +52,4 @@ In this project you'll learn how to create a game in which the player has to mat
 
 You can find [the completed project here](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
 
-+ [Completed online Scratch 3 project](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse \---
+You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse \---
