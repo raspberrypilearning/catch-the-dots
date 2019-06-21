@@ -52,4 +52,4 @@ Aceasta este versiunea **Scratch 3** a proiectului. Există, de asemenea, o vers
 
 Puteți găsi [proiectul finalizat aici](http://rpf.io/p/en/catch-the-dots-get){: target = "_ blank"}.
 
-+ [Finalizat online Scratch 3 proiect](https://scratch.mit.edu/projects/252923761/#editor){: target = "_ blank") \--- / collapse \---
+You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse \---
