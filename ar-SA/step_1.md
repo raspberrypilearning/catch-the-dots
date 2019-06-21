@@ -1,14 +1,14 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
+هذا هو إصدار ** Scratch 3 ** من المشروع. هناك أيضًا [ إصدار Scratch 2 للمشروع ](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
 
 \--- /no-print \---
 
 ## المقدمة
 
-In this project you'll learn how to create a game in which the player has to match up coloured dots with the correct colour of the controller wheel.
+في هذا المشروع ستتعلم كيفية إنشاء لعبة، حيث سيكون مطلوب من اللاعب مطابقة النقاط الملونة المتحركة مع اللون الصحيح المقابل على عجلة التحكم الدوارة.
 
-\--- no-print \--- Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
+\--- no-print \--- استخدم مفاتيح الأسهم على لوحة المفاتيح لتدوير عجلة التحكم و لإمساك النقاط الملونة الطائرة باتحاه عجلة التحكم. اذا اخطأت في توصيل ثلاث نقاط طائرة إلى اللون المقابل الصحيح، ستنتهي اللعبة.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,8 +23,8 @@ In this project you'll learn how to create a game in which the player has to mat
 
 ## title: ما الذي ستتعلمه
 
-+ How to choose random items from a list
-+ How to use variables to track speed, lives, and the player's score
++ كيفية اختيار عناصر عشوائية من قائمة
++ كيفية استخدام المتغيرات لتتبع السرعة، عدد مرات اللعب المتبقية،و درجة اللاعب
 
 \--- /collapse \---
 
@@ -40,16 +40,16 @@ In this project you'll learn how to create a game in which the player has to mat
 
 + برنامج Scratch 3 (سواء أكان [عبر الإنترنت](http://rpf.io/scratchon){:target="_blank"} أو [دون اتصال بالإنترنت](http://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### للتحميل
 
-+ [Offline Scratch 2 project](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"} \--- /collapse \---
++ [مشروع Scratch 3 للتحميل على جهاز الكومبيوتر ](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"} \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: معلومات اضافية للمعلمين
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print). \--- /no-print \---
+\--- no-print \--- إذا كنت بحاجة إلى طباعة هذا المشروع، فيُرجى استخدام [النسخة القابلة للطباعة](https://projects.raspberrypi.org/en/projects/catch-the-dots/print). \--- /no-print \---
 
-You can find [the completed project here](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+يمكنك [الحصول على المشروع كاملاً من هنا](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
 
-+ [Completed online Scratch 3 project](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse \---
+You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse \---
