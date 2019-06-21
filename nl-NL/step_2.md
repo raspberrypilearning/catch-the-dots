@@ -31,7 +31,7 @@ herhaal
 end
 ```
 
--- /task ---
+--- /task ---
 
 --- task --- Test your code. De controllersprite zou naar rechts moeten draaien wanneer je op de rechter pijltjestoets drukt. --- /task ---
 
