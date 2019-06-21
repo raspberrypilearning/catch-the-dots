@@ -3,25 +3,25 @@ hero_image: images/banner.png
 listed: true
 copyedit: false
 title: Dal dotiau
-description: Dysga sut i greu gêm i ddal dotiau.
-version: 3
-last_tested: 2017-01-01
+description: Creu gêm i ddal dotiau
+version: 4.0.0
+last_tested: 2018-10-16
 steps:
   - 
     title: Cyflwyniad
   - 
     title: Creu rheolwr
   - 
-    title: 'Her: Troi i''r chwith'
+    title: Ennill pwyntiau neu cholli bywydau
   - 
-    title: Casglu dotiau
+    title: Mwy o ddotiau
   - 
-    title: 'Her: Mwy o ddotiau'
+    title: Gwneud y gêm yn anoddach
   - 
-    title: 'Gwneud y gêm yn anoddach'
+    title: 'Her: dotiau cynt'
   - 
-    title: 'Her: Dotiau yn symud yn gynt'
+    title: Sgôr Uchel
   - 
-    title: 'Sgôr uchel'
+    title: 'Her: gwella dy gêm!'
   - 
-    title: 'Her: Gwella dy gêm!'
+    title: Beth nesaf?
