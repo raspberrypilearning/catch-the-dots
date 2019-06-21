@@ -52,4 +52,4 @@ użyj strzałek na klawiaturze do obracania pokrętłem i łapania lecących kro
 
 Możesz znaleźć [kompletną wersję projektu tutaj](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
 
-+ [Kompletna wersja online projektu dla Scratch 3](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse \---
+You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse \---
