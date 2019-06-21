@@ -36,7 +36,7 @@ wacht (vertraging) sec.
 
 Doe dit voor alle drie de stip-sprites.
 
--- /task ---
+--- /task ---
 
 --- task --- Test het spel en controleer of de stippen sneller verschijnen als je het spel langer speelt.
 
