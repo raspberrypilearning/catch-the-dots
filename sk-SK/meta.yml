@@ -1,0 +1,27 @@
+---
+hero_image: images/banner.png
+listed: true
+copyedit: false
+title: Pochytaj bodky
+description: V tomto projekte sa naučíš, ako vytvoriť hru, v ktorej musíš pospájať farebné bodky so správnou časťou ovládača.
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Pochytaj bodky
+  - 
+    title: Create a controller
+  - 
+    title: Gain points or lose lives
+  - 
+    title: More dots
+  - 
+    title: Increase the difficulty
+  - 
+    title: 'Challenge: faster dots'
+  - 
+    title: High score
+  - 
+    title: 'Challenge: improve your game!'
+  - 
+    title: What next?
