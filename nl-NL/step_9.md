@@ -1,6 +1,6 @@
 ## Wat nu?
 
-Try the [Clone wars](https://projects.raspberrypi.org/en/projects/clone-wars?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project to make a game in which you have to save the Earth from space monsters. In dat project kun je gebruiken wat je hebt geleerd over het klonen van sprites en het toevoegen van een score!
+Probeer in het [Clone Wars](https://projects.raspberrypi.org/en/projects/clone-wars?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project om een spel te maken waarin je de aarde moet redden van ruimte-monsters. In dat project kun je gebruiken wat je hebt geleerd over het klonen van sprites en het toevoegen van een score!
 
 \--- no-print \---
 
@@ -13,10 +13,10 @@ Klik op de groene vlag in het onderstaande voorbeeld om het spel te starten en d
 
 \--- /no-print \---
 
-Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
+Scoor zoveel mogelijk punten door op de vliegende ruimte-nijlpaarden te schieten. Je verliest een leven als je wordt geraakt door een nijlpaard of door de sinaasappels die door de vleermuizen worden gegooid.
 
 \--- print-only \---
 
-![desc](images/clone-showcase.png)
+![beschrijving](images/clone-showcase.png)
 
 \--- /print-only \---
