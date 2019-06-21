@@ -117,9 +117,9 @@ verwijder deze kloon
 
 \--- task \---
 
-Test your game to make sure that:
+Test je spel om zeker te weten dat:
 
-1. You lose a life if you don’t match a dot with the correct colour
-2. You score a point if you match a dot correctly
+1. Je een leven verliest als je een verkeerde kleur stip vangt
+2. Je een punt scoort als je de goede kleur stip vangt
 
 \--- /task \---
