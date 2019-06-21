@@ -52,4 +52,4 @@ In dit project leer je hoe je een spel maakt waarbij je gekleurde stippen moet p
 
 Je kunt [de complete versie hier](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"} terugvinden.
 
-You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse \---
+Je kunt [de complete versie hier](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} terugvinden. \--- /collapse \---
