@@ -52,4 +52,4 @@ In dit project leer je hoe je een spel maakt waarbij je gekleurde stippen moet p
 
 Je kunt [de complete versie hier](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"} terugvinden.
 
-+ [Voltooid online Scratch 3 project](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
+You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse \---
