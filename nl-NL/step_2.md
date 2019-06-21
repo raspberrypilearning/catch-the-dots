@@ -2,6 +2,7 @@
 
 Begin met het maken van een controller die de speler gebruikt om stippen te verzamelen.
 
+--- task ---
 Open het 'Vang de stippen' Scratch starter project.
 
 **Online**: open het online starter project op [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
