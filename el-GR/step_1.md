@@ -52,4 +52,4 @@
 
 Μπορείς να βρεις [το ολοκληρωμένο έργο εδώ](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
 
-+ [Ολοκληρωμένο online Scratch 3 έργο](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse \---
+You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse \---
