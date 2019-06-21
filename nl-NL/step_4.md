@@ -1,73 +1,62 @@
-## Stippen verzamelen
+## Meer stippen
 
-We gaan een paar stippen toevoegen die de speler met zijn controller kan verzamelen.
+--- task --- Dupliceer tweemaal je 'rode' stip sprite en noem de twee nieuwe sprites 'geel' en 'blauw'.
 
-+ Maak een nieuwe sprite met de naam 'rood'. Deze sprite zou een kleine rode stip moeten zijn.
-    
-    ![screenshot](images/dots-red.png)
+![screenshot](images/dots-more-dots.png) --- /task ---
 
-+ Voeg dit script toe aan de 'rode' stip-sprite, om elke paar seconden een nieuwe stipkloon te maken:
-    
-```blocks
-wanneer groene vlag wordt aangeklikt
+--- task --- Verander het uiterlijk van elke nieuwe sprite zodat het de juiste kleur heeft: de 'gele' sprite moet geel zijn en de 'blauwe' sprite moet blauw zijn. --- /task ---
+
+--- task --- Wijzig de code van elke sprite zodat de speler de stip clone moet paren met de juiste kleur op de controller om punten te scoren.
+
+![screenshot](images/dots-all-test.png)
+
+--- hints ---
+ --- hint --- Dit is de code die je moet vinden en wijzigen voor beide nieuwe sprites:
+
+![schermafdruk](images/dots-more-dots.png)
+
+```blocks3
+    als <touching color [#FF0000]?> dan 
+verander [score v] met (1)
+start geluid (pop v)
+...
+    end :: control
+```
+
+--- /hint --- --- hint --- Dit is hoe je de code voor de gele sprite moet veranderen:
+
+```blocks3
+    als <raak ik kleur [#FFFF00]? :: +> dan
+verander [score v] met (1)
+start geluid (pop v)
+end
+```
+
+Dit is hoe je de code voor de blauwe sprite moet veranderen:
+
+```blocks3
+    als <raak ik kleur [#0000FF]? :: +> dan
+verander [score v] met (1)
+start geluid (pop v)
+end
+```
+
+--- /hint --- --- /hints --- --- /task ---
+
+Als je het spel nu speelt, kun je zien dat de puntjes soms boven op elkaar worden gemaakt.
+
+--- task --- Wijzig de code voor de 'gele' stip-sprite zodat deze vier seconden wacht nadat op de groene vlag is geklikt voordat deze wordt weergegeven.
+
+![Gele stip](images/yellow-sprite.png)
+
+```blocks3
+    wanneer groene vlag wordt aangeklikt
 verdwijn
-wacht (2) sec.
-herhaal 
-  maak kloon van [mijzelf v]
-  wacht (willekeurig getal tussen (5) en (10)) sec.
-end
++ wacht (4) sec.
 ```
 
-+ Als elke kloon is gemaakt, wil je dat die tevoorschijn komt in een van de vier hoeken van het speelveld.
-    
-    ![screenshot](images/dots-start.png)
-    
-    Maak hiervoor eerst een nieuwe **lijst** met de naam `startposities`{:class="blockdata"} en klik op `(+)` om de waarden `-180` en `180` toe te voegen.
-    
-    ![screenshot](images/dots-list.png)
+![Blauwe stip](images/blue-sprite.png)
 
-+ Je kunt deze 2 lijstitems gebruiken om een ​​willekeurige hoek van het speelveld te kiezen. Voeg deze code toe aan de 'stip' sprite, zodat elke nieuwe kloon naar een willekeurige hoek gaat en dan langzaam naar de controller toe beweegt.
-    
-```blocks
-wanneer ik als kloon start
-ga naar x: (item (willekeurig v) van [startposities v] :: list) y: (item (willekeurig v) van [startposities v] :: list)
-richt naar [controller v]
-verschijn
-herhaal tot <touching [controller v]?> 
-  neem (1) stappen
-end
-```
+Wijzig vervolgens de code voor de 'blauwe' stip-sprite zodat deze 6 seconden wacht nadat op de groene vlag is geklikt voordat de sprite verschijnt.
 
-De code hierboven kiest `-180` of `180` voor de posities x *en* y, wat betekent dat elke kloon in een hoek van het speelveld begint.
-
-+ Test je project. Je zou in elke hoek van het scherm veel rode stippen moeten zien verschijnen die langzaam naar de controller bewegen.
-    
-    ![screenshot](images/dots-red-test.png)
-
-+ Maak 2 nieuwe variabelen met de naam `levens`{:class="blockdata"} en `score`{:class="blockdata"}.
-
-+ Voeg code toe aan speelveld om `levens`{:class="blockdata"} op 3 en `score`{:class="blockdata"} op 0 te zetten aan het begin van het spel.
-
-+ Er moet code worden toegevoegd aan het einde van blok `wanneer ik als kloon start
-`{:class="blockcontrol"}, zodat 1 wordt toegevoegd aan de `score`{:class="blockdata"} van de speler als de kleuren overeenkomen, of 1 van `levens`{:class="blockdata"} eraf gaat als de kleuren niet overeenkomen.
-    
-```blocks
-neem (5) stappen
-als <touching color [#FF0000]?> dan 
-  verander [score v] met (1)
-  start geluid [pop v]
-
-  verander [lives v] met (-1)
-  start geluid [laser1 v]
-end
-verwijder deze kloon
-```
-
-+ Voeg deze code toe aan het einde van het script van het speelveld zodat het spel eindigt als de speler al zijn levens verloren heeft:
-    
-```blocks
-wacht tot <(levens) < [1]>
-stop [alle v]
-```
-
-+ Test je spel om te controleren of deze code werkt zoals verwacht.
+--- /task ---
