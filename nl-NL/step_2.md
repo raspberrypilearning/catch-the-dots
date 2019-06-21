@@ -1,22 +1,75 @@
 ## Een controller maken
 
-We beginnen met het maken van een controller die wordt gebruikt om stippen te verzamelen.
+Begin met het maken van een controller die de speler gebruikt om stippen te verzamelen.
 
-+ Open het Scratch-project 'Vang de stippen' online op <a href="http://jumpto.cc/dots-go" target="_blank">jumpto.cc/dots-go</a> of download het vanaf <a href="http://jumpto.cc/dots-get" target="_blank">jumpto.cc/dots-get</a> en open het als je de offline-editor gebruikt.
-    
-    Je zou een controllersprite moeten zien:
-    
-    ![screenshot](images/dots-controller.png)
+Open het 'Vang de stippen' Scratch starter project.
 
-+ Draai de controller naar rechts als je op de rechterpijltoets drukt:
-    
-```blocks
-wanneer groene vlag wordt aangeklikt
-herhaal 
-  als <key [right arrow v] pressed?> dan 
-    draai (3) graden naar rechts
-  end
+**Online**: open het online starter project op [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
+
+Als je een Scratch-account hebt, kun je een kopie maken door op **Remix** te klikken.
+
+**Offline:** download het starter project op [rpf.io/p/nl-NL/catch-the-dots-go](http://rpf.io/p/nl-NL/catch-the-dots-go){:target="_blank"} en open het vervolgens met behulp van de Scratch offline editor.
+
+Als je de Scratch offline editor wilt downloaden en installeren dan kan je die vinden op [rpf.io/scratchoff](http://rpf.io/scratchoff).
+
+--- /task ---
+
+Je zou een controllersprite moeten zien:
+
+![screenshot](images/dots-controller.png)
+
+--- task --- 
+Voeg wat code toe aan de controllersprite om de sprite naar rechts te draaien als de speler de rechter pijljestoets indrukt:
+
+![Controller sprite](images/controller-sprite.png)
+
+```blocks3
+    wanneer groene vlag wordt aangeklikt
+    herhaal 
+        als <key (right arrow v) pressed?> dan 
+            draai (3) graden naar rechts :: control
+        end :: control
+    end
+```
+
+--- /task ---
+
+--- task --- Test your code. De controllersprite zou naar rechts moeten draaien wanneer je op de rechter pijltjestoets drukt. --- /task ---
+
+--- task --- Voeg code toe aan de controllersprite om de sprite naar links te draaien als de speler de linker pijljestoets indrukt.
+
+![Controller sprite](images/controller-sprite.png)
+
+--- hints ---
+ --- hint ---
+
+Vind de code die controleert of de rechter pijltjestoets is ingedrukt en de sprite naar rechts doet draaien. Kun je een kopie van deze code toevoegen en de kopie aanpassen zodat deze de controleert of de linker pijltjestoets is ingedrukt en de sprite naar links doet draaien?
+
+--- /hint --- --- hint --- Hier zijn de blokken die je nodig hebt:
+
+```blocks3
+<key (space v) pressed?>
+
+draai (15) graden naar links
+
+als <> dan
+
 end
 ```
 
-+ Test je controller - hij zou naar rechts moeten draaien.
+--- /hint --- --- hint --- Hier is hoe je blok eruit zou moeten zien:
+
+```blocks3
+    wanneer groene vlag wordt aangeklikt
+    herhaal 
+        als <key (right arrow v) pressed?> dan 
+            draai (3) graden naar rechts
+        end
+
+        + als <key (left arrow v) pressed?> dan 
+              draai (3) graden naar links
+        end
+    end
+```
+
+--- /hint --- --- /hints --- --- /task ---

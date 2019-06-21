@@ -1,81 +1,62 @@
+--- no-print ---
+
+Dit is de **Scratch 3** versie van het project. Er is ook een [Scratch 2 versie van dit project](https://projects.raspberrypi.org/nl-NL/projects/catch-the-dots-scratch2).
+
+--- /no-print ---
+
 ## Inleiding
 
-In dit project leer je hoe je een spel maakt waarbij je gekleurde stippen moet vangen met het goede deel van de controller.
+In dit project leer je hoe je een spel maakt waarbij je gekleurde stippen moet paren met de juiste kleur van het controllerwiel.
+
+--- no-print --- 
+Gebruik de pijltjestoetsen op je toetsenbord om het controllerwiel te draaien en vang de vliegende stippen als ze het middelpunt bereiken. Zodra je drie stippen gemist hebt is het game over.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/217359859/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/dots-final.png">
 </div>
+--- /no-print ---
 
-### Aanvullende informatie voor clubleiders
-
-Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/nl-NL/projects/catch-the-dots/print).
+--- print-only --- 
+![Dots screenshot](images/dots-final.png) 
+--- /print-only ---
 
 --- collapse ---
 ---
-title: Clubleider notities
+title: Wat ga je leren
 ---
 
-## Inleiding:
-
-In dit project leren kinderen een spel te maken waarbij de speler gekleurde stippen moet vangen met het overeenkomstige deel van de controller.
-
-## Bronnen
-
-Voor dit project moet Scratch 2 worden gebruikt. Scratch 2 kan online worden gebruikt op [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) of worden gedownload van [jumpto.cc/scratchoff](http://jumpto.cc/scratch-off) en offline worden gebruikt.
-
-De link 'Projectmaterialen' voor dit project bevat de volgende bronnen:
-
-##### Clubleider bronnen
-
-Je kunt een voltooide versie van dit project [online](https://scratch.mit.edu/projects/217359859/) vinden of het kan worden gedownload door op de link 'Projectmaterialen' te klikken voor dit project, dat het volgende bevat:
-
-* CatchTheDots.sb2
-
-##### Projectbronnen
-
-Voor dit project kunnen clubleden gebruik maken van externe bronnen die niet beschikbaar zijn in de Scratch-bibliotheek:
-
-* controller.svg.
-
-Zorg ervoor dat elk kind toegang heeft tot een kopie van deze bronnen.
-
-Voor clubleden die geen toegang hebben tot deze projectbronnen, is er een Scratch-project met de externe bronnen vooraf geladen. Dit is online beschikbaar op [jumpto.cc/dots-resources](http://jumpto.cc/dots-resources) of in het downloadbare projectmateriaal, dat het volgende bevat:
-
-* CatchTheDotsResources.sb2 
-
-## Leerdoelen
-
-* Dit project bestendigt het leren van eerdere geleerde programmeervaardigheden.
-
-Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
-
-* [Combineer programmeerconstructies om een ​​probleem op te lossen.](https://www.raspberrypi.org/curriculum/programming/builder)
-
-## Uitdagingen
-
-* "Naar links draaien" - code maken om de controller te verplaatsen;
-* "Meer stippen" - meer gekleurde stippen maken die overeenkomen met het juiste deel van de controller ';
-* "Sneller bewegende stippen" - gebruik een variabele om de snelheid van de stippen gedurende het spel te verhogen;
-* "Verbeter je spel!" - het toevoegen van nieuwe stippen die de `score`{:class="blockdata"}, `vertraging`{:class="blockdata"} en `snelheid`{:class="blockdata"} variabelen manipuleren;
-* "Spelmenu" - een menu maken met verschillende achtergronden en knoppen om daartussen te bewegen.
++ Hoe je willekeurige items uit een lijst kiest
++ Hoe je variabelen gebruikt om snelheid, levens en de score van de speler te volgen
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Projectmaterialen
+title: Wat heb je nodig
 ---
 
-## Projectbronnen
+### Hardware
 
-* [Online Scratch 2-project met externe bronnen](http://jumpto.cc/dots-resources)
-* [Downloadbaar Scratch 2-project met externe bronnen](resources/CatchTheDotsResources.sb2)
-* [controller.svg](resources/controller.svg)
++ Een computer die Scratch 3 kan uitvoeren
 
-## Clubleider middelen
+### Software
 
-* [Downloadbaar voltooid Scratch 2-project](resources/CatchTheDots.sb2)
-* [Online voltooid Scratch 2-project](https://scratch.mit.edu/projects/217359859/)
++ Scratch 3 (of [online](http://rpf.io/scratchon){:target="_blank"} of [offline](http://rpf.io/scratchoff){:target="_blank"})
 
---- /collapse ---
+### Downloads
+
++ [Offline Scratch 2 project](http://rpf.io/p/nl-NL/catch-the-dots-go){:target="_blank"} --- /collapse ---
+
+--- collapse ---
+---
+title: Aanvullende informatie voor docenten
+---
+
+--- no-print --- 
+Als je dit project wilt afdrukken, gebruik dan de [printvriendelijke versie](https://projects.raspberrypi.org/nl-NL/projects/catch-the-dots/print). 
+--- /no-print ---
+
+Je kunt [de complete versie hier](http://rpf.io/p/nl-NL/catch-the-dots-get){:target="_blank"} terugvinden.
+
+Je kunt [de complete versie hier](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} terugvinden. --- /collapse ---
