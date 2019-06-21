@@ -1,24 +1,24 @@
 ## إنشاء قرص دوَّار
 
-Start by creating a controller that the player will use to collect dots.
+ابدء بإنشاء قرص تحكم يستخدمه اللاعب لجمع النقاط.
 
-\--- task \--- Open the 'Catch the dots' Scratch starter project.
+\--- task \--- افتح مشروع Scratch المبدئي 'اجمع النقاط'.
 
-**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
+**بالاتصال بالانترنت**: افتح المشروع المبدئي من هنا [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+اذا كنت تملك حساب على منصة سكراتش (Scratch) فيمكنك عمل نسخة بالنقر على **Remix**.
 
-**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
+**بدون اتصال انترنت** حمّل المشروع المبدئي من [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"} ثم اقتحه باستخدام محرر Scratch بدون اتصال انترنت.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+لتنزيل و تركيب محرر Scratch على جهازك الشخصي, يمكنك الحصول عليه من هنا [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
 \--- /task \---
 
-You should see a controller sprite:
+يجب أن تشاهد كائن المتحكم:
 
 ![screenshot](images/dots-controller.png)
 
-\--- task \--- Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
+\--- task \--- أضف بعض التعليمات البرمجية لكائن قرص التحكم لجعله يدور باتجاه اليمين اذا قام اللاعب بالضغط على مفتاح السهم اليمين:
 
 ![Controller sprite](images/controller-sprite.png)
 
