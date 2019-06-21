@@ -52,4 +52,4 @@ In diesem Projekt lernen Sie, wie Sie ein Spiel erstellen, bei dem der Spieler f
 
 Sie finden [das abgeschlossene Projekt hier](http://rpf.io/p/en/catch-the-dots-get){: target = "_ blank"}.
 
-+ [Online-Projekt "Scratch 3" abgeschlossen](https://scratch.mit.edu/projects/252923761/#editor){: target = "_ blank"} \--- / collapse \---
+You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse \---
