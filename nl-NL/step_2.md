@@ -46,7 +46,7 @@ Vind de code die controleert of de rechter pijltjestoets is ingedrukt en de spri
 \--- /hint \--- \--- hint \--- Hier zijn de blokken die je nodig hebt:
 
 ```blocks3
-<key (space v) pressed?>
+<toets (spatiebalk v) ingedrukt?>
 
 draai (15) graden naar links
 
@@ -60,13 +60,13 @@ end
 ```blocks3
     wanneer groene vlag wordt aangeklikt
 herhaal 
-als <key (right arrow v) pressed?> dan 
-draai (3) graden naar rechts
-end
+	als <toets (pijltje rechts v) ingedrukt?> dan 
+		draai (3) graden naar rechts
+	end
 
-+ als <key (left arrow v) pressed?> dan 
-draai (3) graden naar links
-end
++	als <toets (pijltje links v) ingedrukt?> dan 
+		draai (3) graden naar links
+	end
 end
 ```
 
