@@ -30,7 +30,7 @@ Jij gaat code toevoegen om iedere nieuwe kloon in een van de vier hoeken van het
 
 ![screenshot](images/dots-start.png)
 
-\--- task \--- Maak een nieuwe lijst met de naam `startposities`{:class="block3variables"}, klik op het pictogram `(+)` van de lijst om de waarden `-180`{:class="block3variables"} en `180` {:class="block3variables"} toe te voegen.
+\--- task \--- Maak een nieuwe lijst met de naam `startposities`{:class="block3variables"}, klik op het pictogram `(+)` van de lijst om de waarden `-180`{:class="block3variables"} en `180`{:class="block3variables"} toe te voegen.
 
 ![Rode stip sprite](images/red-sprite.png)
 
@@ -53,7 +53,7 @@ Merk op dat de coördinaat voor elke hoek van het speelveld een combinatie is va
 ga naar x: (item (willekeurig getal tussen (1) en (2)) van [startposities v]) y: (item (willekeurig getal tussen (1) en (2)) van [startposities v])
 richt naar (controller v)
 verschijn
-herhaal tot <touching (controller v)?> 
+herhaal tot <raak ik (controller v)?>
 neem (1) stappen
 end
 ```
@@ -83,7 +83,7 @@ maak [score v] (0)
 ![Speelveld sprite](images/stage-sprite.png)
 
 ```blocks3
-    wacht tot <(lives) < [1]>
+    wacht tot <(levens) < [1]>
 stop [alle v]
 ```
 
@@ -103,7 +103,7 @@ Voeg vervolgens code toe om `1` toe te voegen aan `score`{:class="block3variable
 
 ```blocks3
     neem (5) stappen
-als <touching color [#FF0000]?> dan 
+als <raak ik kleur [#FF0000]?>dan 
 verander [score v] met (1)
 start geluid (pop v) en wacht
 anders
