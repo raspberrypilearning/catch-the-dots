@@ -15,7 +15,7 @@
 ![schermafdruk](images/dots-more-dots.png)
 
 ```blocks3
-    als <touching color [#FF0000]?> dan 
+    als <raak ik kleur [FF0000]? > dan 
 verander [score v] met (1)
 start geluid (pop v)
 ...
