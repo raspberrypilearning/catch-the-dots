@@ -52,4 +52,4 @@ Yn y prosiect yma, fe wnei di ddysgu sut i greu gêm lle mae rhaid i'r chwareuwr
 
 Gallwch chi ddod o hyd i'r ateb ar gyfer y prosiect hwn [yma ](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
 
-You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse \---
+Gallwch chi ddod o hyd i'r ateb ar gyfer y prosiect hwn [yma](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse \---
