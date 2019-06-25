@@ -4,23 +4,23 @@ Fe wnawn ni ddechrau trwy greu rheolwr, fydd yn cael ei ddefnyddio i gasglu’r 
 
 \--- task \--- Agora'r prosiect cychwynnol Scratch 'Dal dotiau'.
 
-**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
+**Arlein:** agora brosiect Scratch newydd yma [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Os oes ganddot ti gyfrif Scratch galli di wneud copi drwy glicio ar ** Remix **.
 
-**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
+** All-lein: ** lawrlwytha'r prosiect cychwynnol o [ rpf.io/p/en/catch-the-dots-go ](http://rpf.io/p/en/catch-the-dots-go) ac yna ei agor gan ddefnyddio'r golygydd all-lein.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+Os oes angen i ti lawrlwytho a gosod golygydd Scratch all-lein, mae modd dod o hyd iddo yma [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
 \--- /task \---
 
-You should see a controller sprite:
+Fe ddyle ti weld ciplun rheolwr:
 
-![screenshot](images/dots-controller.png)
+![sgrinlun](images/dots-controller.png)
 
-\--- task \--- Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
+Ychwanega gôd i dy reolwr fel fod y corlun yn troi i’r dde pan fyddi di’n gwasgu y bysell saeth dde:
 
-![Controller sprite](images/controller-sprite.png)
+![Corlun rheolwr](images/controller-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -33,17 +33,17 @@ You should see a controller sprite:
 
 \--- /task \---
 
-\--- task \--- Test your code. The controller should spin to the right when you press the right arrow key. \--- /task \---
+\--- task \--- Profa dy gôd. Fe ddylai dy reolwr droi i’r dde pan wyt ti'n gwasgu'r bysell saeth dde. \--- /task \---
 
-\--- task \--- Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
+\--- task \--- Ychwanega gôd i dy reolwr fel fod y corlun yn troi i’r chwith pan fyddi di’n gwasgu y bysell saeth chwith.
 
-![Controller sprite](images/controller-sprite.png)
+![Corlun rheolwr](images/controller-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-Find the code that checks whether the right arrow key is pressed and makes the sprite turn right. Can you add a copy of this code, and change the copy so it checks whether the left arrow key is pressed and makes the sprite turn left?
+Tyrd o hyd i'r côd sydd yn gwirio os yw'r botwm saeth dde wedi ei wasgu a gwneud i'r corlun droi i'r dde. Wyt ti'n gallu copio'r côd yma, a newid y copi fel ei fod yn gwirio os yw'r saeth chwith wedi ei wasgu i wneud i'r corlun droi i'r chwith?
 
-\--- /hint \--- \--- hint \--- Here are the blocks you need:
+\--- /hint \--- \--- hint \--- Dyma'r blociau rwyt ti eu hangen:
 
 ```blocks3
 <key (space v) pressed?>
@@ -55,7 +55,7 @@ if <> then
 end
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- /hint \--- \--- hint \--- Dyma sut ddylai dy gôd edrych:
 
 ```blocks3
     when flag clicked
