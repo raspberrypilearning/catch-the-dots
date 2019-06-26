@@ -23,12 +23,12 @@ Ychwanega gôd i dy reolwr fel fod y corlun yn troi i’r dde pan fyddi di’n g
 ![Corlun rheolwr](images/controller-sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        if <key (right arrow v) pressed?> then
-            turn right (3) degrees
-        end
-    end
+    pan fo'r flag werdd yn cael ei glicio
+am byth 
+  os <bysell (right arrow v) wedi ei phwyso?> yna 
+    troi (3) gradd i'r dde
+  end
+end
 ```
 
 \--- /task \---
@@ -46,28 +46,27 @@ Tyrd o hyd i'r côd sydd yn gwirio os yw'r botwm saeth dde wedi ei wasgu a gwneu
 \--- /hint \--- \--- hint \--- Dyma'r blociau rwyt ti eu hangen:
 
 ```blocks3
-<key (space v) pressed?>
+<bysell (space v) wedi ei phwyso?>
 
-turn left(15) degrees
+troi (15) gradd i'r chwith
 
-if <> then
-
+os <> yna
 end
 ```
 
 \--- /hint \--- \--- hint \--- Dyma sut ddylai dy gôd edrych:
 
 ```blocks3
-    when flag clicked
-    forever
-        if <key (right arrow v) pressed?> then
-            turn right (3) degrees
-        end
+    pan fo'r flag werdd yn cael ei glicio
+am byth 
+  os <bysell (right arrow v) wedi ei phwyso?> yna 
+    troi (3) gradd i'r dde
+  end
 
-+       if <key (left arrow v) pressed?> then
-            turn left(3) degrees
-        end
+  + os <bysell (left arrow v) wedi ei phwyso?> yna 
+      troi (3) gradd i'r chwith
     end
+end
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
