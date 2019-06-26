@@ -15,10 +15,10 @@
 ![sgrinlun](images/dots-more-dots.png)
 
 ```blocks3
-    if <touching color [#FF0000]?> then
-        change [score v] by (1)
-        play sound (pop v)
-        ...
+    os <cyffwrdd lliw [#FF0000] ?> yna 
+  newid [sgôr v] gan (1)
+  cychwyn sain (pop v)
+  . . .
     end
 ```
 
