@@ -13,13 +13,13 @@ Fe wnawn ni ychwanegu dotiau i’r chwareuwr eu casglu gyda’r rheolwr.
 ![Corlun dot coch](images/red-sprite.png)
 
 ```blocks3
-    when flag clicked
-    hide
-    wait (2) seconds
-    forever
-        create clone of (myself v)
-        wait (pick random (5) to (10)) secs
-    end
+    pan fo'r flag werdd yn cael ei glicio
+cuddio
+aros (2) eiliad
+am byth 
+  creu clôn o (myself v)
+  aros (dewis ar hap (5) i (10)) eiliad
+end
 ```
 
 \--- /task \---
@@ -49,13 +49,13 @@ Sylwa fod y cyfesur ar gyfer pob cornel o'r llwyfan yn gyfuniad o `180` a `-180`
 ![Corlun dot coch](images/red-sprite.png)
 
 ```blocks3
-    when I start as a clone
-    go to x: (item (pick random (1) to (2)) of [start positions v]) y: (item (pick random (1) to (2)) of [start positions v])
-    point towards (controller v)
-    show
-    repeat until <touching (controller v)?>
-        move (1) steps
-    end
+    pan rwy'n dechrau fel clôn
+mynd i x: (eitem (dewis ar hap (1) i (2)) o [safle cychwyn v]) y: (eitem (dewis ar hap (1) i (2)) o [safle cychwyn v])
+pwyntio tuag at (controller v)
+dangos
+ailadrodd hyd at <cyffwrdd (controller v) ?> 
+  symud (1) cam
+end
 ```
 
 Mae’r côd uchod unai yn dewis `-180` neu `180` ar gyfer safle yr x a y, sy’n golygu bod pob clôn yn cychwyn yn un cornel o’r llwyfan.
@@ -71,9 +71,9 @@ Bydd angen creu 2 newidyn newydd o’r enw `bywydau`{:class="block3variables"} a
 Ychwanega côd i dy lwyfan i osod y newidyn `bywydau`{:class="block3variables"} i `3` a’r `sgôr`{:class="block3variables"} i `0` ar ddechrau’r gêm. ![Corlun llwyfan](images/stage-sprite.png)
 
 ```blocks3
-when flag clicked
-set [lives v] to (3)
-set [score v] to (0)
+pan fo'r flag werdd yn cael ei glicio
+gosod [bywydau v] i (3)
+gosod [sgôr v] i (0)
 ```
 
 \--- /task \---
@@ -83,8 +83,8 @@ Ychwanega'r côd yma i ddiwedd sgript y Llwyfan i wneud i'r gêm orffen pan mae'
 ![Corlun llwyfan](images/stage-sprite.png)
 
 ```blocks3
-    wait until <(lives :: variables) < [1]>
-    stop [all v]
+    aros hyd at <(bywydau :: variables) < [1]>
+aros [all v]
 ```
 
 \--- /task \---
@@ -102,15 +102,15 @@ Yna ychwanega gôd i unai ychwanegu `1` i'r `sgôr`{:class="block3variables"} os
 ![Corlun dot coch](images/red-sprite.png)
 
 ```blocks3
-    move (5) steps
-    if <touching color [#FF0000]?> then
-        change [score v] by (1)
-        play sound (pop v) until done
-    else
-        change [lives v] by (-1)
-        play sound (Laser1 v) until done
-    end
-    delete this clone
+    symud (5) cam
+os <cyffwrdd lliw [#FF0000] ?> yna 
+  newid [sgôr v] gan (1)
+  chwarae sain (pop v) tan y diwedd
+fel arall 
+  newid [bywydau v] gan (-1)
+  chwarae sain (Laser1 v) tan y diwedd
+end
+dileu y clôn hwn
 ```
 
 \--- /task \---
