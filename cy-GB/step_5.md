@@ -11,12 +11,12 @@ Fe wnawn ni wneud y gêm i fynd yn anoddach yr hirach mae’r chwareuwr yn ei ch
 ![Corlun llwyfan](images/stage-sprite.png)
 
 ```blocks3
-    when flag clicked
-    set [delay v] to (8)
-    repeat until < (delay) = (2)>
-        wait (10) seconds
-        change [delay v] by (-0.5)
-    end
+    pan fo'r flag werdd yn cael ei glicio
+gosod [oedi v] i (8)
+ailadrodd hyd at <(oedi) = (2)> 
+  aros (10) eiliad
+  newid [oedi v] gan (-0.5)
+end
 ```
 
 \--- /task \---
@@ -30,8 +30,8 @@ Fe alli di ddefnyddio’r newidyn `oedi`{:class="block3variables"} ar gyfer sgri
 ![sgrinlun](images/all-dots.png)
 
 ```blocks3
-<br />-   wait (pick random (5) to (10)) secs
-    wait (delay :: variables) secs
+<br />aros (dewis ar hap (5) i (10)) eiliad
+aros (oedi :: variables) eiliad
 ```
 
 Gwna hyn ar gyfer y tri corlun dot.
