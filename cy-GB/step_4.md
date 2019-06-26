@@ -25,19 +25,19 @@
 \--- /hint \--- \--- hint \--- Dyma sut wyt ti'n newid y côd ar gyfer y corlun melyn:
 
 ```blocks3
-    if <touching color [#FFFF00]? :: +> then
-        change [score v] by (1)
-        play sound (pop v)
-    end
+    os <cyffwrdd lliw [#FFFF00] ? :: +> yna 
+  newid [sgôr v] gan (1)
+  cychwyn sain (pop v)
+end
 ```
 
 Dyma sut wyt ti'n newid y côd ar gyfer y corlun glas:
 
 ```blocks3
-    if <touching color [#0000FF]? :: +> then
-        change [score v] by (1)
-        play sound (pop v)
-    end
+    os <cyffwrdd lliw [#0000FF] ? :: +> yna 
+  newid [sgôr v] gan (1)
+  cychwyn sain (pop v)
+end
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
@@ -49,9 +49,9 @@ Os wyt ti'n chwarae'r gêm nawr, fe weli di fod y dotiau weithiau yn cael eu cre
 ![Dot melyn](images/yellow-sprite.png)
 
 ```blocks3
-    when flag clicked
-    hide
-+   wait (4) seconds
+    pan fo'r flag werdd yn cael ei glicio
+cuddio
++ aros (4) eiliad
 ```
 
 ![Dot glas](images/blue-sprite.png)
