@@ -19,10 +19,10 @@ Ychwanega côd i dy floc newydd i wirio os yw'r `sgôr`{:class="block3variables"
 ![Corlun llwyfan](images/stage-sprite.png)
 
 ```blocks3
-    define check high score
-    if <(score :: variables) > (high score)> then
-        set [high score v] to (score :: variables)
-    end
+    diffinio gwirio sgôr uchel
+os <(sgôr :: variables) > (sgôr uchel)> yna 
+  gosod [sgôr uchel v] i (sgôr :: variables)
+end
 ```
 
 \--- /task \---
@@ -32,13 +32,13 @@ Ychwanega bloc newydd i sgript y Llwyfan cyn ddiwedd y sgript.
 ![Corlun llwyfan](images/stage-sprite.png)
 
 ```blocks3
-when flag clicked
-set [lives v] to (3)
-set [score v] to (0)
-wait until <(lives) < (1)>
+pan fo'r flag werdd yn cael ei glicio
+gosod [bywydau v] i (3)
+gosod [sgôr v] i (0)
+aros hyd at <(bywydau) < (1)>
 
-+ check high score :: custom
-stop [all v]
++ gwirio sgôr uchel :: custom
+aros [all v]
 ```
 
 \--- /task \---
