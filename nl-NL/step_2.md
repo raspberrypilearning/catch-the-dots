@@ -25,7 +25,7 @@ Je zou een controllersprite moeten zien:
 ```blocks3
     wanneer groene vlag wordt aangeklikt
 herhaal 
-  als <key (right arrow v) pressed?> dan 
+  als <toets (pijltje rechts v) ingedrukt?> dan 
     draai (3) graden naar rechts :: control
   end :: control
 end
