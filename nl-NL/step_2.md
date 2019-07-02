@@ -31,9 +31,9 @@ herhaal
 end
 ```
 
--- /task \---
+\--- /task \---
 
-\--- task \--- Test your code. De controllersprite zou naar rechts moeten draaien wanneer je op de rechter pijltjestoets drukt. \--- /task \---
+\--- task \--- Test je code. De controllersprite zou naar rechts moeten draaien wanneer je op de rechter pijltjestoets drukt. \--- /task \---
 
 \--- task \--- Voeg code toe aan de controllersprite om de sprite naar links te draaien als de speler de linker pijljestoets indrukt.
 
