@@ -4,7 +4,7 @@ Nu ga je het spel moeilijker maken naarmate de speler het langer speelt. Je doet
 
 \--- task \--- Maak een nieuwe `variabele`{:class="block3variables"} genaamd 'vertraging'.
 
-![Speelveld sprite](images/stage-sprite.png) \---/task\---
+![Speelveld sprite](images/stage-sprite.png) \--- /task \---
 
 \--- task \--- Ga naar het scripts-gebied van het speelveld en maak een nieuw script aan dat de `vertraging`{:class="block3variables"} variabele instelt op `8` en verlaag vervolgens langzaam de waarde van `vertraging`{:class="block3variables"} terwijl het spel wordt gespeeld.
 
@@ -36,7 +36,7 @@ wacht (vertraging) sec.
 
 Doe dit voor alle drie de stip-sprites.
 
--- /task \---
+\--- /task \---
 
 \--- task \--- Test het spel en controleer of de stippen sneller verschijnen als je het spel langer speelt.
 
