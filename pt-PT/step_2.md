@@ -1,8 +1,8 @@
 ## Criar um controlador
 
-Start by creating a controller that the player will use to collect dots.
+Começa por criar o controlador que o jogador vai usar para apanhar os pontos.
 
-\--- task \--- Open the 'Catch the dots' Scratch starter project.
+Abre o projeto Scratch para iniciantes 'Apanha os pontos'.
 
 **Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
 
