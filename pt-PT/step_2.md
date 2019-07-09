@@ -1,6 +1,6 @@
 ## Criar um controlador
 
-Começa por criar o controlador que o jogador vai usar para apanhar os pontos.
+Começa por criar um controlador que o jogador vai usar para apanhar os pontos.
 
 Abre o projeto Scratch para iniciantes 'Apanha os pontos'.
 
