@@ -23,12 +23,12 @@ Deves ver um actor 'controlador':
 ![Controller sprite](images/controller-sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        if <key (right arrow v) pressed?> then
-            turn right (3) degrees
-        end
-    end
+    quando alguem clicar na bandeira
+    para sempre
+        se <key (right arrow v) pressed?> entāo
+            roda para a direita (3) graus
+        termina
+    termina
 ```
 
 \--- /task \---
