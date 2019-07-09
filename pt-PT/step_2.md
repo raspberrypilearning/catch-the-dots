@@ -33,9 +33,9 @@ Deves ver um actor 'controlador':
 
 \--- /task \---
 
-\--- task \--- Test your code. The controller should spin to the right when you press the right arrow key. \--- /task \---
+\--- task \--- Testa o teu código. O controlador deve rodar para a direita quando primes a 'seta para a direita'. \--- /task \---
 
-\--- task \--- Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
+\--- task \--- Adiciona código ao actor controlador para o fazer rodar para a esquerda se o jogador premir a tecla 'seta para a esquerda'.
 
 ![Controller sprite](images/controller-sprite.png)
 
