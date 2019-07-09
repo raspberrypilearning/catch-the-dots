@@ -48,14 +48,14 @@ Encontra o código que verifica se a a 'seta para a direita' ė premida e faz o 
 ```blocks3
 <key (space v) pressed?>
 
-turn left(15) degrees
+roda para a esquerda (15) degrees
 
-if <> then
+se <> entāo
 
-end
+termina
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- /hint \--- \--- hint \--- Aqui está como o teu código deve parecer:
 
 ```blocks3
     when flag clicked
