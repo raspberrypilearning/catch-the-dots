@@ -41,9 +41,9 @@ Deves ver um actor 'controlador':
 
 \--- hints \--- \--- hint \---
 
-Find the code that checks whether the right arrow key is pressed and makes the sprite turn right. Can you add a copy of this code, and change the copy so it checks whether the left arrow key is pressed and makes the sprite turn left?
+Encontra o código que verifica se a a 'seta para a direita' ė premida e faz o actor rodar para a direita. Podes adicionar uma cópia deste código, e mudar a cópia de maneira a que verifique se a tecla 'seta para a esquerda' está premida e fazer o actor rodar para a esquerda?
 
-\--- /hint \--- \--- hint \--- Here are the blocks you need:
+\--- /hint \--- \--- hint \--- Aqui estão os blocos que precisas:
 
 ```blocks3
 <key (space v) pressed?>
