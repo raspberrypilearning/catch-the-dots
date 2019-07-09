@@ -6,7 +6,7 @@ Abre o projeto Scratch para iniciantes 'Apanha os pontos'.
 
 **Online:** abre um novo projeto online Scratch em [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Se tiveres uma 'conta Scratch podes fazer uma cópia ao clicares **Remix**.
 
 **Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
 
