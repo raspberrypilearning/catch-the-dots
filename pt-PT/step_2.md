@@ -10,15 +10,15 @@ Se tiveres uma 'conta Scratch podes fazer uma cópia ao clicares **Remix**.
 
 **Offline:** descarrega o projeto inicial de [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), e abre-o no editor Scratch offline.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+Se precisares de descarregar e instalar o editor offline do Scratch, podes encontrá-lo em [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
 \--- /task \---
 
-You should see a controller sprite:
+Deves ver um actor 'controlador':
 
 ![screenshot](images/dots-controller.png)
 
-\--- task \--- Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
+\--- task \--- Adiciona código ao actor controlador para o fazer rodar para a direita se o jogador premir a tecla 'seta para a direita':
 
 ![Controller sprite](images/controller-sprite.png)
 
