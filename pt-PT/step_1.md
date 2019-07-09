@@ -24,21 +24,21 @@ Neste projecto vais aprender a criar um jogo no qual o jogador tem que acertar p
 ## title: O que vais aprender
 
 + Como escolher de uma lista itens ao acaso
-+ How to use variables to track speed, lives, and the player's score
++ Como usar variavéis para rastrear velocidade, vidas, e a pontuaçāo do jogador
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: O que vais precisar
 
 ### Hardware
 
-+ A computer capable of running Scratch 3
++ Um computador capaz de executar o Scratch 3
 
 ### Software
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (ou [online](http://rpf.io/scratchon){:target="_ blank"} ou [offline](http://rpf.io/scratchoff){:target="_ blank"})
 
 ### Downloads
 
@@ -46,10 +46,10 @@ Neste projecto vais aprender a criar um jogo no qual o jogador tem que acertar p
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Notas adicionais para educadores
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print). \--- /no-print \---
+\--- no-print \--- Se precisar imprimir este projeto, por favor, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/catch-the-dots/print). \--- /no-print \---
 
-You can find [the completed project here](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+Pode encontrar o [projeto concluído aqui](http://rpf.io/p/en/catch-the-dots-get){:target="_ blank"}.
 
-You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse \---
+Pode encontrar o [projeto concluído aqui](https://scratch.mit.edu/projects/252923761/#editor){:target="_ blank"} \--- /collapse \---
