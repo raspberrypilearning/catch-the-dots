@@ -1,4 +1,4 @@
-## Create a controller
+## Criar um controlador
 
 Start by creating a controller that the player will use to collect dots.
 
