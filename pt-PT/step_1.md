@@ -1,14 +1,14 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
+Esta é a versão **Scratch 3** do projeto. Há também uma versão [Scratch 2 do projeto](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Introdução
 
-In this project you'll learn how to create a game in which the player has to match up coloured dots with the correct colour of the controller wheel.
+Neste projecto vais aprender a criar um jogo no qual o jogador tem que acertar pontos coloridos com a cor certa da roda controladora.
 
-\--- no-print \--- Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
+\--- no-print \--- Usa as setas do teclado para girar a roda controladora e pega os pontos voadores quando eles chegarem ao centro. Se perderes três pontos, o jogo acaba.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,9 +21,9 @@ In this project you'll learn how to create a game in which the player has to mat
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: O que vais aprender
 
-+ How to choose random items from a list
++ Como escolher de uma lista itens ao acaso
 + How to use variables to track speed, lives, and the player's score
 
 \--- /collapse \---
