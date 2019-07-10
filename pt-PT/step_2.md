@@ -16,11 +16,11 @@ Se precisares de descarregar e instalar o editor offline do Scratch, podes encon
 
 Deves ver um actor 'controlador':
 
-![screenshot](images/dots-controller.png)
+![captura de ecrã](images/dots-controller.png)
 
 \--- task \--- Adiciona código ao actor controlador para o fazer rodar para a direita se o jogador premir a tecla 'seta para a direita':
 
-![Controller sprite](images/controller-sprite.png)
+![Actor controlador](images/controller-sprite.png)
 
 ```blocks3
     quando alguem clicar na bandeira
@@ -37,7 +37,7 @@ Deves ver um actor 'controlador':
 
 \--- task \--- Adiciona código ao actor controlador para o fazer rodar para a esquerda se o jogador premir a tecla 'seta para a esquerda'.
 
-![Controller sprite](images/controller-sprite.png)
+![Actor controlador](images/controller-sprite.png)
 
 \--- hints \--- \--- hint \---
 
@@ -58,16 +58,16 @@ termina
 \--- /hint \--- \--- hint \--- Aqui está como o teu código deve parecer:
 
 ```blocks3
-    when flag clicked
-    forever
-        if <key (right arrow v) pressed?> then
-            turn right (3) degrees
-        end
+    quando alguém clicar na bandeira
+    repete para sempre
+        se <key (right arrow v) pressed?> entāo
+            roda para a direita (3) graus
+        terminar
 
-+       if <key (left arrow v) pressed?> then
-            turn left(3) degrees
-        end
-    end
++       se <key (left arrow v) pressed?> entāo
+            roda para a esquerda (3) graus
+        terminar
+    terminar
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
