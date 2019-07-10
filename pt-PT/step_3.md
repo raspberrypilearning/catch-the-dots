@@ -49,18 +49,18 @@ Nota que as coordenadas para cada canto do Palco sāo uma combinaçāo de `180` 
 ![Red dot sprite](images/red-sprite.png)
 
 ```blocks3
-    when I start as a clone
-    go to x: (item (pick random (1) to (2)) of [start positions v]) y: (item (pick random (1) to (2)) of [start positions v])
-    point towards (controller v)
-    show
-    repeat until <touching (controller v)?>
-        move (1) steps
-    end
+    quando fores criado como um clone
+    vai para a posiçāo x: (item (escolher ao acaso entre (1) e (2)) de  [posições iniciais v]) y: (item (pick random (1) e (2)) de [posições iniciais v])
+    aponta em direçāo a (roda controladora v)
+    motra-te
+    repete até <touching (controller v)?>
+        avança (1) passo
+    terminar
 ```
 
-\--- /task \--- This new code chooses either `-180` or `180` for the x and y positions, meaning that each 'dot' sprite clone starts in a corner of the Stage.
+\--- /task \--- Este novo código escolhe ou `-180` ou `180`o para as posições x e y, o que significa que cada actor 'ponto' começa num canto do Palco.
 
-\--- task \--- Test your project. You should see red dots appear in the corners of the Stage and move slowly towards the controller.
+\--- task \--- Testa o teu projeto. You should see red dots appear in the corners of the Stage and move slowly towards the controller.
 
 ![screenshot](images/dots-red-test.png) \--- /task \---
 
