@@ -71,9 +71,9 @@ Nota que as coordenadas para cada canto do Palco sāo uma combinaçāo de `180` 
 \--- task \--- Adiciona código ao teu Palco para alterar a variável `vidas`{:class="block3variables"} para `3` e `pontuaçāo`{:class="block3variables"} para `0` no inicio do jogo. ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-when flag clicked
-set [lives v] to (3)
-set [score v] to (0)
+quando alguém clicar na bandeira
+altera [vidas v] para (3)
+altera [pontuaçāo v] to (0)
 ```
 
 \--- /task \---
