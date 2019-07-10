@@ -44,7 +44,7 @@ Depois podes esconder a lista se deselecionares esta opçāo:
 
 Nota que as coordenadas para cada canto do Palco sāo uma combinaçāo de `180` e `-180`. Isso significa que podes usar a lista para escolher um canto do Palco ao acaso.
 
-\--- task \--- Add this code to the 'dot' sprite to make each new sprite clone appear in a random corner and then slowly move towards the controller sprite.
+\--- task \--- Adiciona este código ao actor 'ponto' para que cada novo clone do actor apareça num canto ao acaso e depois lentamente se mova na direçāo do actor controlador.
 
 ![Red dot sprite](images/red-sprite.png)
 
