@@ -30,7 +30,7 @@ Vais adicionar código para que cada novo clone apareça num dos quatro cantos d
 
 ![screenshot](images/dots-start.png)
 
-\--- task \--- Create a new list called `start positions`{:class="block3variables"}, click the list's `(+)` icon to add the values `-180`{:class="block3variables"} and `180`{:class="block3variables"}.
+\--- task \--- Cria uma nova lista chamada `posições iniciais`{:class="block3variables"}, clica o icone `(+)` da lista para adicionar os valores `--180`{:class="block3variables"} e `180`{:class="block3variables"}.
 
 ![Red dot sprite](images/red-sprite.png)
 
