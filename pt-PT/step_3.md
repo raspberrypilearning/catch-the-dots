@@ -1,14 +1,14 @@
-## Gain points or lose lives
+## Ganhar pontos ou perder vidas
 
-Now you're going to add some dots that the player needs to collect.
+Agora vais adicionar alguns pontos que o jogador precisa de apanhar.
 
-\--- task \--- Create a new sprite called 'red'. This sprite should be a small red dot.
+\--- task \--- Cria um novo actor chamado 'vermelho'. Este actor deve ser um pequeno ponto vermelho.
 
 ![Red dot sprite](images/dots-red.png)
 
 \--- /task \---
 
-\--- task \--- Add this script to your 'red' sprite to create a new clone of the sprite every few seconds:
+\--- task \--- Adiciona este guiāo ao teu actor 'vermelho' para criar um novo clone do actor a cada poucos segundos:
 
 ![Red dot sprite](images/red-sprite.png)
 
