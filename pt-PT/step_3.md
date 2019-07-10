@@ -13,20 +13,20 @@ Agora vais adicionar alguns pontos que o jogador precisa de apanhar.
 ![Red dot sprite](images/red-sprite.png)
 
 ```blocks3
-    when flag clicked
-    hide
-    wait (2) seconds
-    forever
-        create clone of (myself v)
-        wait (pick random (5) to (10)) secs
-    end
+    quando alguém clicar na bandeira
+    esconde-te
+    espera (2) segundos
+    repete para sempre
+        cria um clone  (de mim mesmo v)
+        espera (escolhe ao acaso entre (5) e (10)) segundos
+    terminar
 ```
 
 \--- /task \---
 
-If you click the green flag now, it looks like nothing is happening. This is because all of the cloned sprites are hidden, and they appear in the same place.
+Se clicares na bandeira verde agora, vai parecer que nāo acontece nada. Isso é por todos os actores clonados estāo escondidos, e aparecem no mesmo sítio.
 
-You are going to add code to make each new clone appear in one of the four corners of the Stage.
+Vais adicionar código para que cada novo clone apareça num dos quatro cantos do Palco.
 
 ![screenshot](images/dots-start.png)
 
