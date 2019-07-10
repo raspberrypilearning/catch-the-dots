@@ -60,15 +60,15 @@ Nota que as coordenadas para cada canto do Palco sāo uma combinaçāo de `180` 
 
 \--- /task \--- Este novo código escolhe ou `-180` ou `180`o para as posições x e y, o que significa que cada actor 'ponto' começa num canto do Palco.
 
-\--- task \--- Testa o teu projeto. You should see red dots appear in the corners of the Stage and move slowly towards the controller.
+\--- task \--- Testa o teu projeto. Deves ver pontos vermelhos a aparecer nos cantos do Palco e moverem-se na direçāo do controlador.
 
 ![screenshot](images/dots-red-test.png) \--- /task \---
 
-\--- task \--- Create two new variables called `lives`{:class="block3variables"} and `score`{:class="block3variables"}.
+\--- task \--- Cria duas novas variáveis chamadas `vidas`{:class="block3variables"} e `pontuaçāo`{:class="block3variables"}.
 
 ![Red dot sprite](images/red-sprite.png) \--- /task \---
 
-\--- task \--- Add code to your Stage to set the `lives`{:class="block3variables"} variable to `3` and the `score`{:class="block3variables"} to `0` at the start of the game. ![Stage sprite](images/stage-sprite.png)
+\--- task \--- Adiciona código ao teu Palco para alterar a variável `vidas`{:class="block3variables"} para `3` e `pontuaçāo`{:class="block3variables"} para `0` no inicio do jogo. ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
 when flag clicked
