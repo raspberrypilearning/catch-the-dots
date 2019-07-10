@@ -38,7 +38,7 @@ Vais adicionar código para que cada novo clone apareça num dos quatro cantos d
 
 [[[generic-scratch3-make-list]]]
 
-Then you can hide the list by unselecting this box:
+Depois podes esconder a lista se deselecionares esta opçāo:
 
 ![Hide the list](images/hide-list.png) \--- /task \---
 
