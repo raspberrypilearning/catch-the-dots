@@ -1,6 +1,6 @@
 ## Aumentar a dificuldade
 
-Now you're going to make the game more difficult the longer the player plays it. You will do this by making the dots appear faster and faster over time.
+Agora vais tornar o jogo mais difícil a medida que o jogador o for jogando. You will do this by making the dots appear faster and faster over time.
 
 \--- task \--- Create a new `variable`{:class="block3variables"} called 'delay'.
 
