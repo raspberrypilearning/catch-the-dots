@@ -6,11 +6,11 @@
 
 \--- task \--- Muda o traje de cada actor para a coe correta: o actor 'amarelo' deve ser amarelo, e o 'azul' azul. \--- /task \---
 
-\--- task \--- Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
+\--- task \--- Muda a cor de cada actor de maneira a que o jogador tenha que acertar o 'ponto' clone com a cor correta no controlador para marcar pontos.
 
 ![screenshot](images/dots-all-test.png)
 
-\--- hints \--- \--- hint \--- This is the code you need to find and alter for both new sprites:
+\--- hints \--- \--- hint \--- Este é o oódigo que precisas de encontrar e alterar para ambos os actores:
 
 ![screenshot](images/dots-more-dots.png)
 
