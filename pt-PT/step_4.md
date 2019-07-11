@@ -15,14 +15,14 @@
 ![screenshot](images/dots-more-dots.png)
 
 ```blocks3
-    if <touching color [#FF0000]?> then
-        change [score v] by (1)
-        play sound (pop v)
+    se <touching color [#FF0000]?> entāo
+        altera [pontuaçāo v] por (1)
+        toca o som (pop v)
         ...
-    end
+    terminar
 ```
 
-\--- /hint \--- \--- hint \--- This is how you need to change the code for the yellow sprite:
+\--- /hint \--- \--- hint \--- Aqui está como precisas de mudar o código para o actor amarelo:
 
 ```blocks3
     if <touching color [#FFFF00]? :: +> then
