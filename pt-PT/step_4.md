@@ -4,7 +4,7 @@
 
 ![screenshot](images/dots-more-dots.png) \--- /task \---
 
-\--- task \--- Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue. \--- /task \---
+\--- task \--- Muda o traje de cada actor para a coe correta: o actor 'amarelo' deve ser amarelo, e o 'azul' azul. \--- /task \---
 
 \--- task \--- Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
 
