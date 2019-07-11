@@ -2,17 +2,17 @@
 
 \--- task \--- Duplica o teu actor 'ponto vermelho' duas vezes, e nomeia os dois novos actores de 'amarelo' e 'azul'.
 
-![screenshot](images/dots-more-dots.png) \--- /task \---
+![captura de ecrã](images/dots-more-dots.png) \--- /task \---
 
 \--- task \--- Muda o traje de cada actor para a coe correta: o actor 'amarelo' deve ser amarelo, e o 'azul' azul. \--- /task \---
 
 \--- task \--- Muda a cor de cada actor de maneira a que o jogador tenha que acertar o 'ponto' clone com a cor correta no controlador para marcar pontos.
 
-![screenshot](images/dots-all-test.png)
+![captura de ecrã](images/dots-all-test.png)
 
 \--- hints \--- \--- hint \--- Este é o oódigo que precisas de encontrar e alterar para ambos os actores:
 
-![screenshot](images/dots-more-dots.png)
+![captura de ecrã](images/dots-more-dots.png)
 
 ```blocks3
     se <touching color [#FF0000]?> entāo
@@ -44,9 +44,9 @@ Assim é como precisas de mudar o código para o actor azul:
 
 Se jogares o jogo agora, podes que ver ás vezes os pontos sāo criados um em cima do outro.
 
-\--- task \--- Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
+\--- task \--- Muda o código do actor 'amarelo' para que espere quatro segundos depois de a bandeira ser clicada antes de aparecer.
 
-![Yellow dot](images/yellow-sprite.png)
+![Ponto amarelo](images/yellow-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -54,8 +54,8 @@ Se jogares o jogo agora, podes que ver ás vezes os pontos sāo criados um em ci
 +   wait (4) seconds
 ```
 
-![Blue dot](images/blue-sprite.png)
+![Ponto azul](images/blue-sprite.png)
 
-Then change the code for the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
+Depois muda o código do actor 'azul' para que espere 6 segundos depois de a bandeira ser clicada antes de aparecer.
 
 \--- /task \---
