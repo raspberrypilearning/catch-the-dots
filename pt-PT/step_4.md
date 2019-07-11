@@ -1,6 +1,6 @@
-## More dots
+## Mais 'pontos'
 
-\--- task \--- Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
+\--- task \--- Duplica o teu actor 'ponto vermelho' duas vezes, e nomeia os dois novos actores de 'amarelo' e 'azul'.
 
 ![screenshot](images/dots-more-dots.png) \--- /task \---
 
