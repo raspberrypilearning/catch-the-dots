@@ -83,8 +83,8 @@ altera [pontuaçāo v] to (0)
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    wait until <(lives :: variables) < [1]>
-    stop [all v]
+    espera até <(vidas :: variavéis) < [1]>
+    pára [tudo v]
 ```
 
 \--- /task \---
