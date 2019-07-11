@@ -89,9 +89,9 @@ altera [pontuaçāo v] to (0)
 
 \--- /task \---
 
-The player should win points for catching dots, and should lose lives for failing to catch dots. A dot can only be caught by matching the colour of the controller to the colour of the dot.
+O jogador deve ganhar pontos por apanhar pontos. e deve perder vidas por falhar. Um 'ponto' só pode ser apanhado se a cor do controlador for a mesma do 'ponto'.
 
-\--- task \--- Go back to the 'red' dot sprite's Scripts area to add some code blocks to the end of the sprite's `when I start as a clone`{:class="block3control"} script.
+\--- task \--- Volta à área do guiāo do actor 'vermelho' para adicionar alguns blocos ao fim do guiāo `Quando fores criado como um clone`{:class="block3control"} do actor.
 
 First, make the dot clone `move 5 steps`{:class="block3motion"} so that it overlaps the controller.
 
