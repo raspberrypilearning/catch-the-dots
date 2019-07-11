@@ -78,7 +78,7 @@ altera [pontuaçāo v] to (0)
 
 \--- /task \---
 
-\--- task \--- Add this code to the end of the Stage's script to make the game end when the player loses the last of the lives:
+\--- task \--- Adiciona este código ao fim do guiāo do Palco para acabar o jogo quando o jogador perder a última das vidas:
 
 ![Stage sprite](images/stage-sprite.png)
 
