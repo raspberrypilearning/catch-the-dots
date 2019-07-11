@@ -93,16 +93,16 @@ O jogador deve ganhar pontos por apanhar pontos. e deve perder vidas por falhar.
 
 \--- task \--- Volta à área do guiāo do actor 'vermelho' para adicionar alguns blocos ao fim do guiāo `Quando fores criado como um clone`{:class="block3control"} do actor.
 
-First, make the dot clone `move 5 steps`{:class="block3motion"} so that it overlaps the controller.
+Primeiro, faz o clone do 'ponto' First, make the dot clone `anda 5 passos`{:class="block3motion"} para que se sobreponha ao controlador.
 
-Then add code to either add `1` to `score`{:class="block3variables"} if the colour of the dot clone matches the colour of the controller when they touch, or to take `1` away from `lives`{:class="block3variables"} if their colours don't match.
+Depois adiciona código para ou adicionar `1` à `pontuaçāo`{:class="block3variables"} se a cor do clone 'ponto' for a mesma que a do controlador quando eles se tocam, ou tirar `1` de `vidas`{:class="block3variables"} se a cor for diferente.
 
 [[[generic-scratch3-sound-from-library]]]
 
 ![Red dot sprite](images/red-sprite.png)
 
 ```blocks3
-    move (5) steps
+    anda (5) passos
     if <touching color [#FF0000]?> then
         change [score v] by (1)
         play sound (pop v) until done
