@@ -31,7 +31,7 @@
     end
 ```
 
-This is how you need to change the code for the blue sprite:
+Assim é como precisas de mudar o código para o actor azul:
 
 ```blocks3
     if <touching color [#0000FF]? :: +> then
@@ -42,7 +42,7 @@ This is how you need to change the code for the blue sprite:
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
-If you play the game now, you can see that the dots sometimes get created one top of each other.
+Se jogares o jogo agora, podes que ver ás vezes os pontos sāo criados um em cima do outro.
 
 \--- task \--- Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
 
