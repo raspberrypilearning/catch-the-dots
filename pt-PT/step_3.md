@@ -4,13 +4,13 @@ Agora vais adicionar alguns pontos que o jogador precisa de apanhar.
 
 \--- task \--- Cria um novo actor chamado 'vermelho'. Este actor deve ser um pequeno ponto vermelho.
 
-![Red dot sprite](images/dots-red.png)
+![Actor 'ponto' vermelho](images/dots-red.png)
 
 \--- /task \---
 
 \--- task \--- Adiciona este guiāo ao teu actor 'vermelho' para criar um novo clone do actor a cada poucos segundos:
 
-![Red dot sprite](images/red-sprite.png)
+![Actor 'ponto' vermelho](images/red-sprite.png)
 
 ```blocks3
     quando alguém clicar na bandeira
@@ -28,25 +28,25 @@ Se clicares na bandeira verde agora, vai parecer que nāo acontece nada. Isso é
 
 Vais adicionar código para que cada novo clone apareça num dos quatro cantos do Palco.
 
-![screenshot](images/dots-start.png)
+![captura de ecrã](images/dots-start.png)
 
 \--- task \--- Cria uma nova lista chamada `posições iniciais`{:class="block3variables"}, clica o icone `(+)` da lista para adicionar os valores `--180`{:class="block3variables"} e `180`{:class="block3variables"}.
 
-![Red dot sprite](images/red-sprite.png)
+![Actor 'ponto' vermelho](images/red-sprite.png)
 
-![List of 180 and -180](images/dots-list.png)
+![Lista de 180 ou -180](images/dots-list.png)
 
 [[[generic-scratch3-make-list]]]
 
 Depois podes esconder a lista se deselecionares esta opçāo:
 
-![Hide the list](images/hide-list.png) \--- /task \---
+![Esconde a lista](images/hide-list.png) \--- /task \---
 
 Nota que as coordenadas para cada canto do Palco sāo uma combinaçāo de `180` e `-180`. Isso significa que podes usar a lista para escolher um canto do Palco ao acaso.
 
 \--- task \--- Adiciona este código ao actor 'ponto' para que cada novo clone do actor apareça num canto ao acaso e depois lentamente se mova na direçāo do actor controlador.
 
-![Red dot sprite](images/red-sprite.png)
+![Actor 'ponto' vermelho](images/red-sprite.png)
 
 ```blocks3
     quando fores criado como um clone
@@ -62,13 +62,13 @@ Nota que as coordenadas para cada canto do Palco sāo uma combinaçāo de `180` 
 
 \--- task \--- Testa o teu projeto. Deves ver pontos vermelhos a aparecer nos cantos do Palco e moverem-se na direçāo do controlador.
 
-![screenshot](images/dots-red-test.png) \--- /task \---
+![captura de ecrã](images/dots-red-test.png) \--- /task \---
 
 \--- task \--- Cria duas novas variáveis chamadas `vidas`{:class="block3variables"} e `pontuaçāo`{:class="block3variables"}.
 
-![Red dot sprite](images/red-sprite.png) \--- /task \---
+![Actor 'ponto' vermelho](images/red-sprite.png) \--- /task \---
 
-\--- task \--- Adiciona código ao teu Palco para alterar a variável `vidas`{:class="block3variables"} para `3` e `pontuaçāo`{:class="block3variables"} para `0` no inicio do jogo. ![Stage sprite](images/stage-sprite.png)
+\--- task \--- Adiciona código ao teu Palco para alterar a variável `vidas`{:class="block3variables"} para `3` e `pontuaçāo`{:class="block3variables"} para `0` no inicio do jogo. ![Actor palco](images/stage-sprite.png)
 
 ```blocks3
 quando alguém clicar na bandeira
@@ -80,7 +80,7 @@ altera [pontuaçāo v] to (0)
 
 \--- task \--- Adiciona este código ao fim do guiāo do Palco para acabar o jogo quando o jogador perder a última das vidas:
 
-![Stage sprite](images/stage-sprite.png)
+![Actor palco](images/stage-sprite.png)
 
 ```blocks3
     espera até <(vidas :: variavéis) < [1]>
@@ -99,7 +99,7 @@ Depois adiciona código para ou adicionar `1` à `pontuaçāo`{:class="block3var
 
 [[[generic-scratch3-sound-from-library]]]
 
-![Red dot sprite](images/red-sprite.png)
+![Actor 'ponto' vermelho](images/red-sprite.png)
 
 ```blocks3
     anda (5) passos
@@ -117,9 +117,9 @@ Depois adiciona código para ou adicionar `1` à `pontuaçāo`{:class="block3var
 
 \--- task \---
 
-Test your game to make sure that:
+Testa o teu jogo ter a certeza que:
 
-1. You lose a life if you don’t match a dot with the correct colour
-2. You score a point if you match a dot correctly
+1. Perdes uma vida se nāo acertares um 'ponto' com a cor correcta
+2. Marcas um ponto se acertares com a cor correta
 
 \--- /task \---
