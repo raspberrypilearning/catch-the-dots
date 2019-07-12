@@ -2,13 +2,13 @@
 
 Vais guardar a melhor pontuaçāo do jogo, de modo que os jogadores possam avaliar o seu desempenho.
 
-\--- task \--- Create a new variable called `high score`{:class="block3variables"}.
+\--- task \--- Cria uma nova variável chamada `melhor pontuaçāo`{:class="block3variables"}.
 
 ![Stage sprite](images/stage-sprite.png)
 
 \--- /task \---
 
-\--- task \--- Select the Stage. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
+\--- task \--- Seleciona o Palco. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
 
 ![Stage sprite](images/stage-sprite.png) ![screenshot](images/dots-custom-1.png)
 
