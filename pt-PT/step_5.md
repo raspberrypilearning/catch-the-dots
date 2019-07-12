@@ -23,7 +23,7 @@ Agora vais tornar o jogo mais difícil à medida que o jogador o for jogando. Fa
 
 Nota que este código é muito parecido com o código que usarias para fazer um temporizador de contagem regressiva!
 
-Next, use the `delay`{:class="block3variables"} variable in the code scripts of the 'red', 'yellow', and 'blue' sprites.
+Em seguida, usa a variável `atraso`{:class="block3variables"} nos guiões de código dos actores 'vermelho', 'amarelo' e 'azul'.
 
 \--- task \--- Remove the code block that makes the game wait a random number of seconds between making the dot sprite clones. Replace the block you've removed with your new `delay`{:class="block3variables"} variable:
 
