@@ -4,11 +4,11 @@ Agora vais tornar o jogo mais difícil à medida que o jogador o for jogando. Fa
 
 \--- task \--- Cria uma nova `variável`{:class="block3variables"} chamada 'atraso'.
 
-![Stage sprite](images/stage-sprite.png) \--- /task \---
+![Actor palco](images/stage-sprite.png) \--- /task \---
 
 \--- task \--- Vai para a área dos Guiões do Palco e cria um novo guiāo que altera a variável `atraso`{:class="block3variables"} para `8` e depois lentamente reduz o valor de `atraso`{:class="block3variables"} enquanto o jogo corre.
 
-![Stage sprite](images/stage-sprite.png)
+![Actor palco](images/stage-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -27,7 +27,7 @@ Em seguida, usa a variável `atraso`{:class="block3variables"} nos guiões de c�
 
 \--- task \--- Remove o Código que faz o jogo esperar um valor de segundos ao acaso entre criar os clones dos actores ponto. Repõe o bloco que removeste com a tua nova variável `atraso`{:class="block3variables"}:
 
-![screenshot](images/all-dots.png)
+![captura de ecrã](images/all-dots.png)
 
 ```blocks3
 <br />-   wait (pick random (5) to (10)) secs
@@ -40,5 +40,5 @@ Faz isto para os três actores ponto.
 
 \--- task \--- Testa o jogo, e verifica se os pontos começam a aparecer mais rapidamente à medida que o jogo avança.
 
-+ Does this work for all three coloured dots?
-+ Can you see that the value of the `delay`{:class="block3variables"} variable decreases? \--- /task \---
++ Isto funciona com todos os três pontos coloridos?
++ Podes verificar que o valor da variável `atraso`{:class="block3variables"} diminui? \--- /task \---
