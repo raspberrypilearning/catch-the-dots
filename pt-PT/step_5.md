@@ -25,7 +25,7 @@ Nota que este código é muito parecido com o código que usarias para fazer um 
 
 Em seguida, usa a variável `atraso`{:class="block3variables"} nos guiões de código dos actores 'vermelho', 'amarelo' e 'azul'.
 
-\--- task \--- Remove the code block that makes the game wait a random number of seconds between making the dot sprite clones. Replace the block you've removed with your new `delay`{:class="block3variables"} variable:
+\--- task \--- Remove o Código que faz o jogo esperar um valor de segundos ao acaso entre criar os clones dos actores ponto. Repõe o bloco que removeste com a tua nova variável `atraso`{:class="block3variables"}:
 
 ![screenshot](images/all-dots.png)
 
@@ -34,11 +34,11 @@ Em seguida, usa a variável `atraso`{:class="block3variables"} nos guiões de c�
     wait (delay :: variables) secs
 ```
 
-Do this for all three dot sprites.
+Faz isto para os três actores ponto.
 
 \--- /task \---
 
-\--- task \--- Test the game, and check whether the dots begin to appear more quickly as the game goes on.
+\--- task \--- Testa o jogo, e verifica se os pontos começam a aparecer mais rapidamente à medida que o jogo avança.
 
 + Does this work for all three coloured dots?
 + Can you see that the value of the `delay`{:class="block3variables"} variable decreases? \--- /task \---
