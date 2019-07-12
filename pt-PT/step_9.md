@@ -1,6 +1,6 @@
-## What next?
+## O que se segue?
 
-Try the [Clone wars](https://projects.raspberrypi.org/en/projects/clone-wars?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project to make a game in which you have to save the Earth from space monsters. In that project, you will be able to use what you have learned about cloning sprites and adding a score!
+Experimenta o projeto '[Guerra de clones'](https://projects.raspberrypi.org/en/projects/clone-wars?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) para criares um jogo no qual tens de salvar a Terra de monstros espaciais. Nesse projeto, podes usar o que aprendeste acera de clonar actores e ajuntar uma pontuaçāo!
 
 \--- no-print \---
 
