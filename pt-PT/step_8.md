@@ -6,4 +6,4 @@ Consegues pensar em maneiras de melhorar o teu jogo? Por exemplo, podias criar p
 + Tornam os pontos mais lentos
 + Esconde todos os outros pontos do ecrā
 
-Podes adicionar um menu com botões ao teu jogo? You could add an screen with instructions or a separate screen for showing the high score.
+Podes adicionar um menu com botões ao teu jogo? Podias adicionar um ecrā com instruções ou um ecrā á parte para mostrar a melhor pontuaçāo.
