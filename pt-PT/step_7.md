@@ -1,6 +1,6 @@
-## High score
+## Melhor pontuação
 
-You're going to save the game's high score, so that players can see how well they are doing.
+Vais guardar a melhor pontuaçāo do jogo, de modo que os jogadores possam avaliar o seu desempenho.
 
 \--- task \--- Create a new variable called `high score`{:class="block3variables"}.
 
