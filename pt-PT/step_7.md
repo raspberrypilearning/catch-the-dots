@@ -4,19 +4,19 @@ Vais guardar a melhor pontuaçāo do jogo, de modo que os jogadores possam avali
 
 \--- task \--- Cria uma nova variável chamada `melhor pontuaçāo`{:class="block3variables"}.
 
-![Stage sprite](images/stage-sprite.png)
+![Actor palco](images/stage-sprite.png)
 
 \--- /task \---
 
 \--- task \--- Seleciona o Palco. Clica em 'Os meus blocos' e cria um novo bloco personalizado chamado `cVerificar melhor pontuaçāo`{:class="block3myblocks"}.
 
-![Stage sprite](images/stage-sprite.png) ![screenshot](images/dots-custom-1.png)
+![Actor palco](images/stage-sprite.png) ![captura de ecrã](images/dots-custom-1.png)
 
 \--- /task \---
 
-\--- task \--- Add code to your custom block so that the block checks if the current value of `score`{:class="block3variables"} in larger than the value of the `high score`{:class="block3variables"} variable, and then stores the value of `score`{:class="block3variables"} as the new value of `high score`{:class="block3variables"}.
+\--- task \--- Adiciona código ao teu novo bloco personalizado para que ele verifique se o valor actual de `pontuaçāo`{:class="block3variables"} é maior que o valor da variável `melhor pontuaçāo`{:class="block3variables"}, e depois guarda o valor de `pontuaçāo`{:class="block3variables"} como novo valor de `melhor pontuaçāo`{:class="block3variables"}.
 
-![Stage sprite](images/stage-sprite.png)
+![Actor palco](images/stage-sprite.png)
 
 ```blocks3
     define check high score
@@ -29,7 +29,7 @@ Vais guardar a melhor pontuaçāo do jogo, de modo que os jogadores possam avali
 
 \--- task \--- Add your new custom block to the Stage script before the end of the script.
 
-![Stage sprite](images/stage-sprite.png)
+![Actor palco](images/stage-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -45,6 +45,6 @@ stop [all v]
 
 \--- task \---
 
-Play your game twice to check whether your score gets correctly saved as the `high score`{:class="block3variables"}.
+Joga o teu jogo duas vezes para verificar se a tua pontuaçāo é guardada corretamente como a `melhor pontuaçāo`{:class="block3variables"}.
 
 \--- /task \---
