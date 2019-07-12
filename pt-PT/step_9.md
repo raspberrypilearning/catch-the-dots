@@ -4,7 +4,7 @@ Experimenta o projeto '[Guerra de clones'](https://projects.raspberrypi.org/en/p
 
 \--- no-print \---
 
-Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
+Clica na bandeira verde do exemplo do jogo abaixo para começar, e depois pressiona as teclas <kbd>seta para a esquerda</kbd> e <kbd>seta para a direita</kbd> para mover a nave espacial, e a tecla <kbd>espaço</kbd> para disparar.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -13,10 +13,10 @@ Click the green flag in the example game below to start, and then press the <kbd
 
 \--- /no-print \---
 
-Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
+Pontua o máximo de pontos que puderes disparando sobre os hipo-espaciais voadores. Se fores atingido por um hipo ou por uma laranja largada pelos morcegos, perdes uma vida.
 
 \--- print-only \---
 
-![desc](images/clone-showcase.png)
+![descrição](images/clone-showcase.png)
 
 \--- /print-only \---
