@@ -8,7 +8,7 @@ Vais guardar a melhor pontuaçāo do jogo, de modo que os jogadores possam avali
 
 \--- /task \---
 
-\--- task \--- Seleciona o Palco. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
+\--- task \--- Seleciona o Palco. Clica em 'Os meus blocos' e cria um novo bloco personalizado chamado `cVerificar melhor pontuaçāo`{:class="block3myblocks"}.
 
 ![Stage sprite](images/stage-sprite.png) ![screenshot](images/dots-custom-1.png)
 
