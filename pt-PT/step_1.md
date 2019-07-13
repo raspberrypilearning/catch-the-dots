@@ -6,9 +6,9 @@ Esta é a versão **Scratch 3** do projeto. Há também uma versão [Scratch 2 d
 
 ## Introdução
 
-Neste projecto vais aprender a criar um jogo no qual o jogador tem que acertar pontos coloridos com a cor certa da roda controladora.
+Neste projecto vais aprender a criar um jogo em que o jogador tem que acertar pontos coloridos com a cor certa da roda controladora.
 
-\--- no-print \--- Usa as setas do teclado para girar a roda controladora e pega os pontos voadores quando eles chegarem ao centro. Se perderes três pontos, o jogo acaba.
+\--- no-print \--- Usa as setas do teclado para girar a roda controladora e pega os pontos voadores á medida que chegarem ao centro. Se perderes três pontos, o jogo acaba.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,7 +23,7 @@ Neste projecto vais aprender a criar um jogo no qual o jogador tem que acertar p
 
 ## title: O que vais aprender
 
-+ Como escolher de uma lista itens ao acaso
++ Como escolher itens ao acaso de uma lista
 + Como usar variavéis para rastrear velocidade, vidas, e a pontuaçāo do jogador
 
 \--- /collapse \---
