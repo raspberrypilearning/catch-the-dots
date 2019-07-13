@@ -48,7 +48,7 @@ Encontra o código que verifica se a a 'seta para a direita' ė premida e faz o 
 ```blocks3
 <key (space v) pressed?>
 
-roda para a esquerda (15) degrees
+gira para a esquerda (15) degrees
 
 se <> entāo
 
