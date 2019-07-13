@@ -61,11 +61,11 @@ termina
     quando alguém clicar na bandeira
     repete para sempre
         se <key (right arrow v) pressed?> entāo
-            roda para a direita (3) graus
+           gira para a direita (3) graus
         terminar
 
 +       se <key (left arrow v) pressed?> entāo
-            roda para a esquerda (3) graus
+           gira para a esquerda (3) graus
         terminar
     terminar
 ```
