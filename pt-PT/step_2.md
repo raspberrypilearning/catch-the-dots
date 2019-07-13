@@ -18,30 +18,30 @@ Deves ver um actor 'controlador':
 
 ![captura de ecrã](images/dots-controller.png)
 
-\--- task \--- Adiciona código ao actor controlador para o fazer rodar para a direita se o jogador premir a tecla 'seta para a direita':
+\--- task \--- Adiciona código ao actor 'controlador' para o fazer girar para a direita se o jogador premir a tecla 'seta para a direita':
 
 ![Actor controlador](images/controller-sprite.png)
 
 ```blocks3
-    quando alguem clicar na bandeira
+    quando alguém clicar na bandeira
     para sempre
         se <key (right arrow v) pressed?> entāo
-            roda para a direita (3) graus
-        termina
-    termina
+            gira para a direita (3) graus
+        terminar
+    terminar
 ```
 
 \--- /task \---
 
-\--- task \--- Testa o teu código. O controlador deve rodar para a direita quando primes a 'seta para a direita'. \--- /task \---
+\--- task \--- Testa o teu código. O 'controlador' deve girar para a direita quando primes a tecla 'seta para a direita'. \--- /task \---
 
-\--- task \--- Adiciona código ao actor controlador para o fazer rodar para a esquerda se o jogador premir a tecla 'seta para a esquerda'.
+\--- task \--- Adiciona código ao actor 'controlador' para o fazer rodar para a esquerda se o jogador premir a tecla 'seta para a esquerda'.
 
 ![Actor controlador](images/controller-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-Encontra o código que verifica se a a 'seta para a direita' ė premida e faz o actor rodar para a direita. Podes adicionar uma cópia deste código, e mudar a cópia de maneira a que verifique se a tecla 'seta para a esquerda' está premida e fazer o actor rodar para a esquerda?
+Encontra o código que verifica se a a 'seta para a direita' ė premida e faz o actor girar para a direita. Podes adicionar uma cópia deste código, e mudar a cópia de maneira a que verifique se a tecla 'seta para a esquerda' está premida e fazer o actor girar para a esquerda?
 
 \--- /hint \--- \--- hint \--- Aqui estão os blocos que precisas:
 
