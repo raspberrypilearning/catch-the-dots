@@ -6,17 +6,17 @@
 
 **Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Dacă ai un cont Scratch, poți să creezi o copie dând click pe **Remix**.
 
 **Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
 
 If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
-\--- /task \---
+\--- /proba\---
 
-You should see a controller sprite:
+Ar trebui să vedeți un controler pentru personaj:
 
-![screenshot](images/dots-controller.png)
+![captură de ecran](images/dots-controller.png)
 
 \--- task \--- Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
 
