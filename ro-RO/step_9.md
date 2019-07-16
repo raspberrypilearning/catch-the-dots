@@ -4,7 +4,7 @@ Try the [Clone wars](https://projects.raspberrypi.org/en/projects/clone-wars?utm
 
 \--- no-print \---
 
-Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
+Dă click pe steagul verde din exemplul de mai jos pentru a începe, apoi apasă tastele săgeată <kbd>stânga</kbd> și <kbd>dreapta </kbd> pentru a mișca nava spațială și tasta <kbd>spațiu</kbd> pentru a trage.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
