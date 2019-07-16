@@ -1,61 +1,61 @@
 ## Więcej kropek
 
-\--- task \--- Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
+\--- zadanie \--- Dwukrotnie powiel swój „czerwony” duszek i nazwij dwa nowe duszki „żółtym” i „niebieskim”.
 
 ![zrzut ekranu](images/dots-more-dots.png) \--- /task \---
 
-\--- task \--- Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue. \--- /task \---
+\--- zadanie \--- Zmień kostium każdego nowego duszka, tak aby był prawidłowego koloru: „żółty” duszek powinien być żółty, a „niebieski” duszek powinien być niebieski. \--- /task \---
 
-\--- task \--- Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
+\--- zadanie \--- Zmień kod każdego ikonki, aby gracz musiał dopasować kropkę do odpowiedniego koloru kontrolera, aby zdobyć punkty.
 
 ![zrzut ekranu](images/dots-all-test.png)
 
-\--- hints \--- \--- hint \--- This is the code you need to find and alter for both new sprites:
+\--- wskazówki \--- \--- wskazówka \--- Jest to kod, który musisz znaleźć i zmienić dla obu nowych ikonek:
 
 ![zrzut ekranu](images/dots-more-dots.png)
 
 ```blocks3
-    if <touching color [#FF0000]?> then
-        change [score v] by (1)
-        play sound (pop v)
-        ...
-    end
+    jeśli <touching color [#FF0000]?> to
+        zmienia [wynik v] przez (1)
+        odtwarzanie dźwięku (pop v)
+...
+    koniec
 ```
 
-\--- /hint \--- \--- hint \--- This is how you need to change the code for the yellow sprite:
+\--- / wskazówka \--- \--- wskazówka \--- W ten sposób należy zmienić kod żółtego ikonki:
 
 ```blocks3
-    if <touching color [#FFFF00]? :: +> then
-        change [score v] by (1)
-        play sound (pop v)
-    end
+    jeśli <dotyka koloru [# FFFF00]? :: +> a następnie
+        zmiana [wynik v] przez (1)
+        odtwarzanie dźwięku (pop v)
+    koniec
 ```
 
-This is how you need to change the code for the blue sprite:
+W ten sposób musisz zmienić kod niebieskiego duszka:
 
 ```blocks3
-    if <touching color [#0000FF]? :: +> then
-        change [score v] by (1)
-        play sound (pop v)
-    end
+    jeśli <dotyka koloru [# 0000FF]? :: +> a następnie
+        zmiana [wynik v] przez (1)
+        odtwarzanie dźwięku (pop v)
+    koniec
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
-If you play the game now, you can see that the dots sometimes get created one top of each other.
+Jeśli grasz teraz w tę grę, możesz zobaczyć, że czasami kropki są tworzone jedna na drugiej.
 
-\--- task \--- Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
+\--- zadanie \--- Zmień kod „żółtego” kropka kropki, tak aby poczekał cztery sekundy po kliknięciu flagi przed pojawieniem się.
 
-![Yellow dot](images/yellow-sprite.png)
+![Żółta kropka](images/yellow-sprite.png)
 
 ```blocks3
-    when flag clicked
-    hide
-+   wait (4) seconds
+    po kliknięciu flagi
+    ukryj
++ poczekaj (4) sekundy
 ```
 
-![Blue dot](images/blue-sprite.png)
+![Niebieska kropka](images/blue-sprite.png)
 
-Then change the code for the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
+Następnie zmień kod „niebieskiej” ikonki kropki, tak aby poczekał 6 sekund po kliknięciu flagi przed pojawieniem się.
 
 \--- /task \---
