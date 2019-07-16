@@ -6,11 +6,11 @@ Erstellen Sie zunächst einen Controller, den der Spieler zum Sammeln von dots v
 
 **Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Wenn du bereits einen Scratch-Account besitzt, kannst du dir eine Kopie anlegen.
 
 **Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+Wenn du den Scratch-Offline-Editor herunterladen und installieren möchtest, findest du diesen unter rpf.io/scratchoff.
 
 \--- /task \---
 
