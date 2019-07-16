@@ -52,4 +52,4 @@ użyj strzałek na klawiaturze do obracania pokrętłem i łapania lecących kro
 
 Możesz znaleźć [kompletną wersję projektu tutaj](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
 
-You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse \---
+Tutaj znajdziesz [zakończony projekt](https://scratch.mit.edu/projects/252923761/#editor){: target = "_ blank"} \--- / collapse \---
