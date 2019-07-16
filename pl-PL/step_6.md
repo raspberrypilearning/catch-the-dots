@@ -1,5 +1,5 @@
 ## Wyzwanie: Szybciej poruszające się kropki
 
-Can you improve your game by adding a `speed`{:class="block3variables"} variable and using this new variable to make the dot change their speed over time? The clones should start by moving one step at a time, and then steadily get faster and faster.
+Czy możesz poprawić swoją grę, dodając zmienną `prędkości`{: class = "block3variables"} i używając tej nowej zmiennej, aby kropka zmieniała prędkość w czasie? Klony powinny zaczynać się od przesunięcia o jeden krok na raz, a następnie stopniowo i szybciej.
 
-The code you need for this is very similar to the code in which you've used the `delay`{:class="block3variables"} variable.
+Kod potrzebny do tego jest bardzo podobny do kodu, w którym użyto zmiennej `delay`{: class = "block3variables"}.
