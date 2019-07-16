@@ -14,7 +14,7 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 \--- /task \---
 
-You should see a controller sprite:
+Trebalo bi da vidiš lik (sprite) kontrolera:
 
 ![screenshot](images/dots-controller.png)
 
@@ -55,7 +55,7 @@ if <> then
 end
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- /hint \--- \--- hint \--- Ovako treba da izgleda tvoj kôd:
 
 ```blocks3
     when flag clicked
