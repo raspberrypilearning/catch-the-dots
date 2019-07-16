@@ -1,8 +1,8 @@
 ## Einen Controller herstellen
 
-Erstellen Sie zunächst einen Controller, den der Spieler zum Sammeln von Punkten verwenden soll.
+Erstellen Sie zunächst einen Controller, den der Spieler zum Sammeln von dots verwenden soll.
 
-\--- task \--- Öffnen Sie das Scratch-Starterprojekt 'Catch the dots'.
+\--- task \--- Öffnen Sie das Scratch Projekt 'Catch the dots'.
 
 **Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
 
