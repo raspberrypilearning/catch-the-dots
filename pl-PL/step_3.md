@@ -95,31 +95,31 @@ Gracz powinien wygrywać punkty za złapanie kropek, oraz powinien tracić życi
 
 Najpierw spraw aby klon kropki `przesuń o 5 kroków`{:class="block3motion"}, tak by nachodził na kontroler.
 
-Then add code to either add `1` to `score`{:class="block3variables"} if the colour of the dot clone matches the colour of the controller when they touch, or to take `1` away from `lives`{:class="block3variables"} if their colours don't match.
+Następnie dodaj kod, aby dodać `1` do `wynik`{: class = "block3variables"}, jeśli kolor klonu kropki odpowiada kolorowi kontrolera po dotknięciu, lub zabrać `1` z `żyć`{ : class = "block3variables"}, jeśli ich kolory się nie zgadzają.
 
 [[[generic-scratch3-sound-from-library]]]
 
 ![Duszek czerwonej kropki](images/red-sprite.png)
 
 ```blocks3
-    move (5) steps
-    if <touching color [#FF0000]?> then
-        change [score v] by (1)
-        play sound (pop v) until done
-    else
-        change [lives v] by (-1)
-        play sound (Laser1 v) until done
-    end
-    delete this clone
+    Akcja (5) działania
+    if <touching color [#FF0000]?> następnie
+        zmiana [wynik v] o (1)
+        dźwięku odtwarzania (podręcznego V) tak wykonane
+    jeszcze
+        zmiany mieszka [V] w (1)
+        dźwięku odtwarzania (Laser1 V), aż gotowe
+    koniec
+    usuń ten klon
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game to make sure that:
+Przetestuj swoją grę, aby upewnić się, że:
 
-1. You lose a life if you don’t match a dot with the correct colour
-2. You score a point if you match a dot correctly
+1. Tracisz życie, jeśli nie dopasujesz kropki do odpowiedniego koloru
+2. Zdobędziesz punkt, jeśli poprawnie dopasujesz kropkę
 
 \--- /task \---
