@@ -10,13 +10,13 @@ If you have a Scratch account you can make a copy by clicking **Remix**.
 
 **Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+Si necesita descargar e instalar el editor de Scratch offline, puede encontrarlo en [ rpf.io/scratchoff ](http://rpf.io/scratchoff).
 
 \--- /task \---
 
 You should see a controller sprite:
 
-![screenshot](images/dots-controller.png)
+![captura de pantalla](images/dots-controller.png)
 
 \--- task \--- Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
 
@@ -33,7 +33,7 @@ You should see a controller sprite:
 
 \--- /task \---
 
-\--- task \--- Test your code. The controller should spin to the right when you press the right arrow key. \--- /task \---
+\--- task \--- Prueba tu código. The controller should spin to the right when you press the right arrow key. \--- /task \---
 
 \--- task \--- Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
 
@@ -55,7 +55,7 @@ si <> luego
 final
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- /hint \--- \--- hint \--- Aquí está el código que necesitarás:
 
 ```blocks3
     cuando la bandera hace clic en
