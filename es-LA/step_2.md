@@ -4,7 +4,7 @@ Start by creating a controller that the player will use to collect dots.
 
 \--- task \--- Open the 'Catch the dots' Scratch starter project.
 
-**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
+** Online **: abra un nuevo proyecto Scratch en línea en [ rpf.io/dots-on ](http://rpf.io/dots-on)"}.
 
 If you have a Scratch account you can make a copy by clicking **Remix**.
 
@@ -12,11 +12,11 @@ If you have a Scratch account you can make a copy by clicking **Remix**.
 
 If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
-\--- /task \---
+\--- función \---
 
 You should see a controller sprite:
 
-![screenshot](images/dots-controller.png)
+![captura de pantalla](images/dots-controller.png)
 
 \--- task \--- Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
 
@@ -31,9 +31,9 @@ You should see a controller sprite:
     end
 ```
 
-\--- /task \---
+\--- / tarea \---
 
-\--- task \--- Test your code. The controller should spin to the right when you press the right arrow key. \--- /task \---
+\--- task \--- Prueba tu código. The controller should spin to the right when you press the right arrow key. \--- / tarea \---
 
 \--- task \--- Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
 
