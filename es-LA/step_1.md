@@ -1,6 +1,6 @@
 \--- no imprimir \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
+Esta es la versión de **Scratch 3** del proyecto. También hay una [versión del proyecto en Scratch 2](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
 
 \--- /no imprimir \---
 
@@ -46,7 +46,7 @@ In this project you'll learn how to create a game in which the player has to mat
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## título: Notas adicionales para educadores
 
 \--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print). \--- no imprimir \---
 
