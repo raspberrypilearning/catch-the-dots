@@ -60,7 +60,7 @@ Notice that the coordinate for each corner of the Stage is a combination of `180
 
 \--- /task \--- This new code chooses either `-180` or `180` for the x and y positions, meaning that each 'dot' sprite clone starts in a corner of the Stage.
 
-\--- task \--- Test your project. You should see red dots appear in the corners of the Stage and move slowly towards the controller.
+\--- task \--- Prueba tu proyecto. You should see red dots appear in the corners of the Stage and move slowly towards the controller.
 
 ![captura de pantalla](images/dots-red-test.png) \--- función \---
 
