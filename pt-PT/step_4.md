@@ -1,6 +1,6 @@
 ## Mais 'pontos'
 
-\--- task \--- Duplica o teu actor 'ponto vermelho' duas vezes, e nomeia os dois novos actores de 'amarelo' e 'azul'.
+\--- task \--- Duplica o teu actor ponto 'vermelho' duas vezes, e nomeia os dois novos actores de 'amarelo' e 'azul'.
 
 ![captura de ecrã](images/dots-more-dots.png) \--- /task \---
 
