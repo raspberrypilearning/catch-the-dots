@@ -13,13 +13,13 @@ Agora vais adicionar alguns pontos que o jogador precisa de apanhar.
 ![Actor 'ponto' vermelho](images/red-sprite.png)
 
 ```blocks3
-    quando alguém clicar na bandeira
-    esconde-te
-    espera (2) segundos
-    repete para sempre
-        cria um clone  (de mim mesmo v)
-        espera (escolhe ao acaso entre (5) e (10)) segundos
-    terminar
+    quando alguém clicar na bandeira verde
+esconde-te
+espera (2) s
+repete para sempre 
+  cria um clone de (myself v)
+  espera (um valor ao acaso entre (5) e (10)) s
+end
 ```
 
 \--- /task \---
@@ -50,12 +50,12 @@ Nota que as coordenadas para cada canto do Palco sāo uma combinaçāo de `180` 
 
 ```blocks3
     quando fores criado como um clone
-    vai para a posiçāo x: (item (escolher ao acaso entre (1) e (2)) de  [posições iniciais v]) y: (item (pick random (1) e (2)) de [posições iniciais v])
-    aponta em direçāo a (roda controladora v)
-    motra-te
-    repete até <touching (controller v)?>
-        avança (1) passo
-    terminar
+vai para a posição x: ((um valor ao acaso entre (1) e (2)) de [start positions v]) y: ((um valor ao acaso entre (1) e (2)) de [start positions v])
+aponta em direcção a (controller v)
+mostra-te
+até que <estás a tocar em (controller v)>, repete 
+  anda (1) passos
+end
 ```
 
 \--- /task \--- Este novo código escolhe ou `-180` ou `180`o para as posições x e y, o que significa que cada actor 'ponto' começa num canto do Palco.
