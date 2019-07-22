@@ -23,12 +23,12 @@ Deves ver um actor 'controlador':
 ![Actor controlador](images/controller-sprite.png)
 
 ```blocks3
-    quando alguém clicar na bandeira
-    para sempre
-        se <key (right arrow v) pressed?> entāo
-            gira para a direita (3) graus
-        terminar
-    terminar
+    quando alguém clicar na bandeira verde
+repete para sempre 
+  se <key (right arrow v) pressed?>, então 
+    gira para a direita (3) º
+  end
+end
 ```
 
 \--- /task \---
@@ -46,28 +46,26 @@ Encontra o código que verifica se a a 'seta para a direita' ė premida e faz o 
 \--- /hint \--- \--- hint \--- Aqui estão os blocos que precisas:
 
 ```blocks3
-<key (space v) pressed?>
+<a tecla (space v) está a ser pressionada>
 
-gira para a esquerda (15) degrees
+gira para a esquerda (15) º
 
-se <> entāo
-
-termina
+se <>, então
+end
 ```
 
 \--- /hint \--- \--- hint \--- Aqui está como o teu código deve parecer:
 
 ```blocks3
-    quando alguém clicar na bandeira
-    repete para sempre
-        se <key (right arrow v) pressed?> entāo
-           gira para a direita (3) graus
-        terminar
-
-+       se <key (left arrow v) pressed?> entāo
-           gira para a esquerda (3) graus
-        terminar
-    terminar
+    quando alguém clicar na bandeira verde
+repete para sempre 
+  se <a tecla (right arrow v) está a ser pressionada>, então 
+    gira para a direita (3) º
+  end
+  + se <a tecla (left arrow v) está a ser pressionada>, então 
+  +   gira para a esquerda (3) º
+  + end
+end
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
