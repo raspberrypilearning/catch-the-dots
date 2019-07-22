@@ -71,9 +71,9 @@ end
 \--- task \--- Adiciona código ao teu Palco para alterar a variável `vidas`{:class="block3variables"} para `3` e `pontuaçāo`{:class="block3variables"} para `0` no inicio do jogo. ![Actor palco](images/stage-sprite.png)
 
 ```blocks3
-quando alguém clicar na bandeira
-altera [vidas v] para (3)
-altera [pontuaçāo v] to (0)
+quando alguém clicar na bandeira verde
+altera [lives v] para (3)
+altera [score v] para (0)
 ```
 
 \--- /task \---
