@@ -10,19 +10,20 @@
 
 ![لقطة الشاشة](images/dots-all-test.png)
 
-\--- hints \--- \--- hint \--- This is the code you need to find and alter for both new sprites:
+\--- hints \--- \--- hint \--- هذه هي التعليمات البرمجية التي ستحتاج إلى تعديلها للكائنين الجديدين 'أصفر' و 'أزرق':
 
 ![لقطة الشاشة](images/dots-more-dots.png)
 
 ```blocks3
-    if <touching color [#FF0000]?> then
-        change [score v] by (1)
-        play sound (pop v)
-        ...
-    end
+    إذا <touching color [#FF0000]?> 
+  غيِّر [score v] بمقدار (1)
+  ابدأ الصوت (pop v)
+  . . .
+end...
+    النهاية
 ```
 
-\--- /hint \--- \--- hint \--- This is how you need to change the code for the yellow sprite:
+\--- /hint \--- \--- hint \--- فيما يلي ما ستحتاجه لتغيير التعليمات البرمجية الخاصة بالكائن أصفر:
 
 ```blocks3
     if <touching color [#FFFF00]? :: +> then
@@ -31,7 +32,7 @@
     end
 ```
 
-This is how you need to change the code for the blue sprite:
+فيما يلي ما ستحتاجه لتغيير التعليمات البرمجية الخاصة بالكائن أزرق:
 
 ```blocks3
     if <touching color [#0000FF]? :: +> then
