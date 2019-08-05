@@ -18,10 +18,8 @@
     se <estás a tocar na cor [#FF0000]> , então 
   adiciona a [score v] o valor (1)
   toca o som (pop v)
-  . . .
-end
-        ...
-    terminar
+  . . ...
+    end
 ```
 
 \--- /hint \--- \--- hint \--- Aqui está como precisas de mudar o código para o actor amarelo:
