@@ -25,19 +25,19 @@
 \--- /hint \--- \--- hint \--- Aqui está como precisas de mudar o código para o actor amarelo:
 
 ```blocks3
-    if <touching color [#FFFF00]? :: +> entāo
-        altera [pontuaçāo v] por (1)
-        toca o som (pop v)
-    terminar
+    if &lt;touching color [#FFFF00]? se <estás a tocar na cor [#FFFF00]:: +>, então 
+  adiciona a [score v] o valor (1)
+  toca o som (pop v)
+end
 ```
 
 Assim é como precisas de mudar o código para o actor azul:
 
 ```blocks3
-    se <touching color [#0000FF]? :: +> entāo
-        altera [pontuaçāo v] por (1)
-        toca o som (pop v)
-    terminar
+    se <estás a tocar na cor [#0000FF]? :: +>, então 
+  adiciona a [score v] o valor (1)
+  toca o som (pop v)
+end
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
@@ -49,13 +49,13 @@ Se jogares o jogo agora, podes ver que ás vezes os pontos sāo criados um em ci
 ![Ponto amarelo](images/yellow-sprite.png)
 
 ```blocks3
-    when flag clicked
-    hide
-+   wait (4) seconds
+    Quando alguém clicar na bandeira verde
+    esconde-te
++    espera (4) s
 ```
 
 ![Ponto azul](images/blue-sprite.png)
 
-Depois muda o código do actor 'azul' para que espere 6 segundos depois de a bandeira ser clicada antes de aparecer.
+Depois muda o código do actor 'azul' para que espere 6 segundos, depois de a bandeira ser clicada, antes de aparecer.
 
 \--- /task \---
