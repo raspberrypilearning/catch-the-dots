@@ -1,12 +1,12 @@
 ## جمع النقاط
 
-\--- task \--- Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
+\--- task \--- قم بمضاعفة كائن النقطة 'أحمر' مرتين، و أطلق على الكائنات الجديدة المسميات 'أصفر' و 'أزرق'.
 
 ![لقطة الشاشة](images/dots-more-dots.png) \--- /task \---
 
-\--- task \--- Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue. \--- /task \---
+\--- task \--- غير مظهر الكائنات الجديدة بحيث يتناسب لون كلاً منهما مع اسمه: الكائن 'أصفر' لونه أصفر، و الكائن 'أزرق' لونه أزرق. \--- /task \---
 
-\--- task \--- Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
+\--- task \--- غيّر التعليمات البرمجية لكل كائن بحيث يصبح على اللاعب أن يطابق نسخ كائنات النقاط مع اللون المناسب على عجلة التحكم ليكسب نقاط.
 
 ![لقطة الشاشة](images/dots-all-test.png)
 
