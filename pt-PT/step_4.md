@@ -15,9 +15,11 @@
 ![captura de ecrã](images/dots-more-dots.png)
 
 ```blocks3
-    se <touching color [#FF0000]?> entāo
-        altera [pontuaçāo v] por (1)
-        toca o som (pop v)
+    se <estás a tocar na cor [#FF0000]> , então 
+  adiciona a [score v] o valor (1)
+  toca o som (pop v)
+  . . .
+end
         ...
     terminar
 ```
