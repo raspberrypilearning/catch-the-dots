@@ -11,12 +11,12 @@ Agora vais tornar o jogo mais difícil à medida que o jogador o for jogando. Fa
 ![Actor palco](images/stage-sprite.png)
 
 ```blocks3
-    when flag clicked
-    set [delay v] to (8)
-    repeat until < (delay) = (2)>
-        wait (10) seconds
-        change [delay v] by (-0.5)
-    end
+    Quando alguém clicar na bandeira verde
+altera [delay v] para (8)
+até que <(delay) = (2)>, repete 
+  espera (10) s
+  adiciona a [delay v] o valor (-0.5)
+end
 ```
 
 \--- /task \---
@@ -30,8 +30,8 @@ Em seguida, usa a variável `atraso`{:class="block3variables"} nos guiões de c�
 ![captura de ecrã](images/all-dots.png)
 
 ```blocks3
-<br />-   wait (pick random (5) to (10)) secs
-    wait (delay :: variables) secs
+<br />-   espera (um valor ao acaso entre (5) e (10)) s
+espera (delay :: variables) s
 ```
 
 Faz isto para os três actores ponto.
