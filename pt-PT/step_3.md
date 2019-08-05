@@ -83,8 +83,8 @@ altera [score v] para (0)
 ![Actor palco](images/stage-sprite.png)
 
 ```blocks3
-    wait until <(lives :: variables) < [1]>
-    stop [all v]
+    espera até que <(lives :: variables) < [1]>
+pára [all v]
 ```
 
 \--- /task \---
