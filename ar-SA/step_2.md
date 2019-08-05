@@ -1,6 +1,6 @@
 ## إنشاء قرص دوَّار
 
-ابدء بإنشاء قرص تحكم يستخدمه اللاعب لجمع النقاط.
+ابدء بإنشاء عجلة تحكم يستخدمها اللاعب لجمع النقاط.
 
 \--- task \--- افتح مشروع Scratch المبدئي 'اجمع النقاط'.
 
@@ -14,13 +14,13 @@
 
 \--- /task \---
 
-يجب أن تشاهد كائن المتحكم:
+ستشاهد كائن عجلة التحكم:
 
-![screenshot](images/dots-controller.png)
+![لقطة الشاشة](images/dots-controller.png)
 
-\--- task \--- أضف بعض التعليمات البرمجية لكائن قرص التحكم لجعله يدور باتجاه اليمين اذا قام اللاعب بالضغط على مفتاح السهم اليمين:
+\--- task \--- أضف بعض التعليمات البرمجية لكائن عجلة التحكم لجعلها تدور باتجاه اليمين اذا قام اللاعب بالضغط على مفتاح السهم الأيمن:
 
-![Controller sprite](images/controller-sprite.png)
+![كائن عجلة التحكم](images/controller-sprite.png)
 
 ```blocks3
     عند نقر ⚑
@@ -33,41 +33,39 @@ end
 
 \--- /task \---
 
-\--- task \--- Test your code. The controller should spin to the right when you press the right arrow key. \--- /task \---
+\--- task \--- اختبر تعليماتك البرمجية. يفترض أن تدور عجلة التحكم باتجاه اليمين في حال ضغطت على زر السهم الأيمن. \--- /task \---
 
-\--- task \--- Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
+\--- task \--- أضف بعض التعليمات البرمجية لكائن عجلة التحكم لجعلها تدور باتجاه اليسار اذا قام اللاعب بالضغط على مفتاح السهم اليسار.
 
-![Controller sprite](images/controller-sprite.png)
+![كائن عجلة التحكم](images/controller-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-Find the code that checks whether the right arrow key is pressed and makes the sprite turn right. Can you add a copy of this code, and change the copy so it checks whether the left arrow key is pressed and makes the sprite turn left?
+ابحث عن التعليمة البرمجية التي تتحقق مما إذا كان زر السهم الأيمن مضغوطاً و يجعل كائن عجلة التحكم يستدير لليمين. هل يمكنك إضافة نسخة من هذه التعليمة البرمجية، بعد اجراء بعض التعديلات عليها بحيث تتحقق مما إذا كان زر السهم الأيسر مضغوطاً و بالتالي تستدير عجلة التحكم نحو اليسار؟
 
-\--- /hint \--- \--- hint \--- Here are the blocks you need:
+\--- /hint \--- \--- hint \--- فيما يلي التعليمات البرمجية التي ستحتاج إليها:
 
 ```blocks3
-<key (space v) pressed?>
+&lt;key (space v) pressed?&gt;
 
-turn left(15) degrees
+استدر ↺ (15) درجة
 
-if <> then
-
+إذا <>
 end
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- /hint \--- \--- hint \--- هذا ما يجب أن تبدو عليه تعليماتك البرمجية:
 
 ```blocks3
-    when flag clicked
-    forever
-        if <key (right arrow v) pressed?> then
-            turn right (3) degrees
-        end
-
-+       if <key (left arrow v) pressed?> then
-            turn left(3) degrees
-        end
-    end
+    عند نقر ⚑
+كرِّر باستمرار 
+  إذا <key (right arrow v) pressed?> 
+    استدر ↻ (3) درجة
+  end
+  + إذا <key (left arrow v) pressed?> 
+  +   استدر ↺ (3) درجة
+  + end
+end
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
