@@ -43,11 +43,11 @@ end...
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
-If you play the game now, you can see that the dots sometimes get created one top of each other.
+إذا قمت بتشغيل اللعبة الآن، ستشاهد أن النقاط الملونة يتم انشائها بعض الأحيان فوق بعضها البعض.
 
-\--- task \--- Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
+\--- task \--- عدّل على التعليمات البرمجية الخاصة بكائن النقطة 'أصفر' بحيث ينتظر ٤ ثوان بعد النقر على العلم الأخضر قبل أن يظهر على مسرح العمل.
 
-![Yellow dot](images/yellow-sprite.png)
+![النقطة الصفراء](images/yellow-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -55,8 +55,8 @@ If you play the game now, you can see that the dots sometimes get created one to
 +   wait (4) seconds
 ```
 
-![Blue dot](images/blue-sprite.png)
+![النقطة الزرقاء](images/blue-sprite.png)
 
-Then change the code for the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
+بعد ذلك عدّل على التعليمات البرمجية الخاصة بكائن النقطة 'أزرق' بحيث ينتظر ٦ ثوان بعد النقر على العلم الأخضر قبل أن يظهر على مسرح العمل.
 
 \--- /task \---
