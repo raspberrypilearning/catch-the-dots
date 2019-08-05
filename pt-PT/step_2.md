@@ -23,9 +23,9 @@ Deves ver um actor 'controlador':
 ![Actor controlador](images/controller-sprite.png)
 
 ```blocks3
-    quando alguém clicar na bandeira verde
+    Quando alguém clicar na bandeira verde
 repete para sempre 
-  se <key (right arrow v) pressed?>, então 
+  se <a tecla (right arrow v) está a ser pressionada> , então 
     gira para a direita (3) º
   end
 end
