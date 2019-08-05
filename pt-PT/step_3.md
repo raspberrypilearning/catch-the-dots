@@ -93,7 +93,7 @@ O jogador deve ganhar pontos por apanhar pontos. e deve perder vidas por falhar.
 
 \--- task \--- Volta à área do guiāo do actor 'vermelho' para adicionar alguns blocos ao fim do guiāo `Quando fores criado como um clone`{:class="block3control"} do actor.
 
-Primeiro, faz o clone do 'ponto' First, make the dot clone `anda 5 passos`{:class="block3motion"} para que se sobreponha ao controlador.
+Primeiro, faz o clone do 'ponto' `anda 5 passos`{:class="block3motion"} para que se sobreponha ao controlador.
 
 Depois adiciona código para ou adicionar `1` à `pontuaçāo`{:class="block3variables"} se a cor do clone 'ponto' for a mesma que a do controlador quando eles se tocam, ou tirar `1` de `vidas`{:class="block3variables"} se a cor for diferente.
 
@@ -103,21 +103,21 @@ Depois adiciona código para ou adicionar `1` à `pontuaçāo`{:class="block3var
 
 ```blocks3
     anda (5) passos
-    if <touching color [#FF0000]?> then
-        change [score v] by (1)
-        play sound (pop v) until done
-    else
-        change [lives v] by (-1)
-        play sound (Laser1 v) until done
-    end
-    delete this clone
+se <estás a tocar na cor [#FF0000]>, então 
+  adiciona a [score v] o valor (1)
+  toca o som (pop v) até terminar
+senão, 
+  adiciona a [lives v] o valor (-1)
+  toca o som (Laser1 v) até terminar
+end
+remove-te como clone
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Testa o teu jogo ter a certeza que:
+Testa o teu jogo para ter a certeza que:
 
 1. Perdes uma vida se nāo acertares um 'ponto' com a cor correcta
 2. Marcas um ponto se acertares com a cor correta
