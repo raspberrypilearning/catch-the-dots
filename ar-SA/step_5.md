@@ -4,11 +4,11 @@
 
 \--- task \--- قم بإنشاء`متغير`{:class="block3variables"} باسم 'تأخير'.
 
-![Stage sprite](images/stage-sprite.png) \--- /task \---
+![كائن مسرح العمل](images/stage-sprite.png) \--- /task \---
 
 \--- task \--- اذهب إلى منطقة المقاطع البرمجية على مسرح العمل و أضف تعليمات برمجية جديدة تقوم بإعطاء المتغير `تأخير`{:class="block3variables"} القيمة `8` ثم بعد ذلك تقوم بخفض القيمة للمتغير `تأخير`{:class="block3variables"} خلال وقت استمرار اللعبة.
 
-![Stage sprite](images/stage-sprite.png)
+![كائن مسرح العمل](images/stage-sprite.png)
 
 ```blocks3
     عند نقر ⚑
@@ -25,20 +25,20 @@ end
 
 بعد ذلك, استخدم المتغير `تأخير`{:class="block3variables"} في التعليمات البرمجية الخاصة بالكائنات 'أحمر', 'أصفر', و 'أزرق'.
 
-\--- task \--- Remove the code block that makes the game wait a random number of seconds between making the dot sprite clones. Replace the block you've removed with your new `delay`{:class="block3variables"} variable:
+\--- task \--- قم بإزالة التعليمة البرمجية التي تجعل اللعبة تنتظر عددًا عشوائيًا من الثواني بين أوقات إنشاء نسخ من كائنات النقاط. استبدل التعليمة البرمجية التي حذفتها بالمتغير `تأخير`{:class="block3variables"} الجديد:
 
 ![لقطة الشاشة](images/all-dots.png)
 
 ```blocks3
-<br />-   wait (pick random (5) to (10)) secs
-    wait (delay :: variables) secs
+<br />انتظر (عدد عشوائي بين (5) و (10)) ثانية
+انتظر (تأخير :: variables) ثانية
 ```
 
-Do this for all three dot sprites.
+كرر السابق لجميع كائنات النقاط أحمر،أصفر و أزرق.
 
 \--- /task \---
 
-\--- task \--- Test the game, and check whether the dots begin to appear more quickly as the game goes on.
+\--- task \--- اختبر اللعبة ، وتحقق مما إذا كانت النقاط تبدأ في الظهور بسرعة أكبر مع استمرار اللعبة.
 
-+ Does this work for all three coloured dots?
-+ Can you see that the value of the `delay`{:class="block3variables"} variable decreases? \--- /task \---
++ هل هذا الشيء متحقق مع جميع النقاط الثلاثة الملونة؟
++ هل يمكنك أن ترى أن قيمة المتغير `تأخير`{:class="block3variables"} تتناقص؟ \--- /task \---
