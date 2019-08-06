@@ -6,24 +6,24 @@
 
 ![Stage sprite](images/stage-sprite.png) \--- /task \---
 
-\--- task \--- Go to the Stage's Scripts area and create a new script that sets the `delay`{:class="block3variables"} variable to `8` and then slowly reduces the value of `delay`{:class="block3variables"} while the game runs.
+\--- task \--- اذهب إلى منطقة المقاطع البرمجية على مسرح العمل و أضف تعليمات برمجية جديدة تقوم بإعطاء المتغير `تأخير`{:class="block3variables"} القيمة `8` ثم بعد ذلك تقوم بخفض القيمة للمتغير `تأخير`{:class="block3variables"} خلال وقت استمرار اللعبة.
 
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    when flag clicked
-    set [delay v] to (8)
-    repeat until < (delay) = (2)>
-        wait (10) seconds
-        change [delay v] by (-0.5)
-    end
+    عند نقر ⚑
+اجعل [delay v] مساويًا (8)
+كرِّر حتى <(delay) = (2)> 
+  انتظر (10) ثانية
+  غيِّر [delay v] بمقدار (-0.5)
+end
 ```
 
 \--- /task \---
 
-Notice that this code is very similar to the code you would use to create a countdown timer!
+لاحظ أن هذه التعليمات البرمجية تشبه بشكل كبير التعليمات البرمجية التي ستسخدمها في حال إنشائك لمؤقت عد تنازلي!
 
-Next, use the `delay`{:class="block3variables"} variable in the code scripts of the 'red', 'yellow', and 'blue' sprites.
+بعد ذلك, استخدم المتغير `تأخير`{:class="block3variables"} في التعليمات البرمجية الخاصة بالكائنات 'أحمر', 'أصفر', و 'أزرق'.
 
 \--- task \--- Remove the code block that makes the game wait a random number of seconds between making the dot sprite clones. Replace the block you've removed with your new `delay`{:class="block3variables"} variable:
 
