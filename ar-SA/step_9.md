@@ -1,10 +1,10 @@
 ## ما التالي؟
 
-جرب أن تطبق مشروع [حروب المستنسخين](https://projects.raspberrypi.org/en/projects/clone-wars?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)، حيث ستقوم بانشاء لعبة ستقوم من خلالها بحماية كوكب الأرض من وحوش الفضاء. In that project, you will be able to use what you have learned about cloning sprites and adding a score!
+جرب أن تطبق مشروع [حروب المستنسخين](https://projects.raspberrypi.org/en/projects/clone-wars?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)، حيث ستقوم بانشاء لعبة ستقوم من خلالها بحماية كوكب الأرض من وحوش الفضاء. في هذا المشروع، ستكون قادر على استخدام ما تعلمته مؤخراً عن إنشاء نسخ من الكائنات و إضافة نتيجة اللعب!
 
 \--- no-print \---
 
-Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
+انقر على العلم الأخضر في شاشة اللعبة أدناه للبدء, ثم اضغط على مفاتيح الأسهم <kbd>يسار</kbd> و <kbd>يمين</kbd> لتحريك المركبة الفضائية، و مفتاح<kbd>المسافة</kbd> لإطلاق النار.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
