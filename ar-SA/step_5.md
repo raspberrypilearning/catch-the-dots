@@ -1,8 +1,8 @@
 ## التحدي: المزيد من النقاط 
 
-Now you're going to make the game more difficult the longer the player plays it. You will do this by making the dots appear faster and faster over time.
+الآن ستقوم برفع مستوى صعوبة اللعبة كلما نجح اللاعب في اللعب لوقت أطول. ستقوم بعمل ذلك عن طريق جعل النقاط تظهر بشكل أسرع و أسرع مع مرور الوقت.
 
-\--- task \--- Create a new `variable`{:class="block3variables"} called 'delay'.
+\--- task \--- قم بإنشاء`متغير`{:class="block3variables"} باسم 'تأخير'.
 
 ![Stage sprite](images/stage-sprite.png) \--- /task \---
 
