@@ -8,26 +8,26 @@
 
 \---/task--
 
-\--- task \--- اختر مسرح العمل. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
+\--- task \--- اختر مسرح العمل. انقر على 'لبناتي' و أنشئ لبنة جديدة تسمى `التحقق من أعلى درجة`{:class="block3myblocks"}.
 
 ![Stage sprite](images/stage-sprite.png) ![لقطة الشاشة](images/dots-custom-1.png)
 
 \--- /task \---
 
-\--- task \--- Add code to your custom block so that the block checks if the current value of `score`{:class="block3variables"} in larger than the value of the `high score`{:class="block3variables"} variable, and then stores the value of `score`{:class="block3variables"} as the new value of `high score`{:class="block3variables"}.
+\--- task \--- أضف تعليمات برمجية إلى اللبنة الجديدة التي أنشئتها بحيث تقوم بالتحقق ما إذا كانت القيمة الحالية للمتغير`الدرجة`{:class="block3variables"} أكبر من قيمة المتغير `أعلى درجة`{:class="block3variables"}, ثم بعد ذلك تقوم بحفظ قيمة `الدرجة`{:class="block3variables"} كالقيمة الجديدة للمتغير `أعلى درجة`{:class="block3variables"}.
 
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    define check high score
-    if <(score :: variables) > (high score)> then
-        set [high score v] to (score :: variables)
-    end
+    عرِّف التحقق من أعلى درجة
+إذا <(الدرجة :: variables) > (أعلى درجة)> 
+  اجعل [أعلى درجة v] مساويًا (الدرجة :: variables)
+end
 ```
 
 \---/task\---
 
-\--- task \--- Add your new custom block to the Stage script before the end of the script.
+\--- task \--- أضف اللبنة الجديدة للمقاطع البرمجية على مسرح العمل قبل نهاية النص البرمجي.
 
 ![Stage sprite](images/stage-sprite.png)
 
