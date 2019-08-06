@@ -6,4 +6,4 @@
 + إبطاء حركة النقاط
 + إخفاء كل النقاط الأخرى على الشاشة
 
-Can you add a menu with buttons to your game? You could add an screen with instructions or a separate screen for showing the high score.
+هل يمكنك إضافة قائمة (مع أزرار) إلى لعبتك؟ يمكنك إضافة شاشة تعرض تعليمات، أو شاشة منفصلة تعرض أعلى نتيجة.
