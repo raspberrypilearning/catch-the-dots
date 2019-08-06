@@ -19,10 +19,10 @@ Vais guardar a melhor pontuaçāo do jogo, de modo que os jogadores possam avali
 ![Actor palco](images/stage-sprite.png)
 
 ```blocks3
-    define check high score
-    if <(score :: variables) > (high score)> then
-        set [high score v] to (score :: variables)
-    end
+    Define check high score
+se <(score :: variables) > (high score)> , então 
+  altera [high score v] para (score :: variables)
+end
 ```
 
 \--- /task \---
@@ -32,13 +32,13 @@ Vais guardar a melhor pontuaçāo do jogo, de modo que os jogadores possam avali
 ![Actor palco](images/stage-sprite.png)
 
 ```blocks3
-when flag clicked
-set [lives v] to (3)
-set [score v] to (0)
-wait until <(lives) < (1)>
+Quando alguém clicar na bandeira verde
+altera [lives v] para (3)
+altera [score v] para (0)
+espera até que <(lives) < (1)>
 
-+ check high score :: custom
-stop [all v]
+check high score :: custom
+pára [all v]
 ```
 
 \--- /task \---
