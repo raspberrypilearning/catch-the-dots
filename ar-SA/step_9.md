@@ -13,10 +13,10 @@
 
 \--- /no-print \---
 
-Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
+حقق أعلى عدد من النقاط عن طريق إطلاق النار على حيوانات فرس النهر الفضائية الطائرة. إذا تعرضت لإصابة من فرس نهر فضائي أو من برتقالة سقطت من الخفافيش، فستفقد فرصة لعب.
 
 \--- print-only \---
 
-![desc](images/clone-showcase.png)
+![تنازلي](images/clone-showcase.png)
 
 \--- /print-only \---
