@@ -1,14 +1,14 @@
 ## أعلى نتيجة
 
-You're going to save the game's high score, so that players can see how well they are doing.
+ستقوم بحفظ أعلى درجة تم تحقيقها، بحيث يمكن للاعب معرفة مدى تقدمه.
 
-\--- task \--- Create a new variable called `high score`{:class="block3variables"}.
+\--- task \--- قم بإنشاء متغير جديد يسمى `أعلى درجة`{:class="block3variables"}.
 
 ![Stage sprite](images/stage-sprite.png)
 
 \---/task--
 
-\--- task \--- Select the Stage. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
+\--- task \--- اختر مسرح العمل. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
 
 ![Stage sprite](images/stage-sprite.png) ![لقطة الشاشة](images/dots-custom-1.png)
 
