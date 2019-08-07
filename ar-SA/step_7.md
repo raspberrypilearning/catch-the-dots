@@ -4,19 +4,19 @@
 
 \--- task \--- قم بإنشاء متغير جديد يسمى `أعلى درجة`{:class="block3variables"}.
 
-![كائن مسرح العمل](images/stage-sprite.png)
+![كائن منصة العمل](images/stage-sprite.png)
 
 \---/task--
 
-\--- task \--- اختر مسرح العمل. انقر على 'لبناتي' و أنشئ لبنة جديدة تسمى `التحقق من أعلى درجة`{:class="block3myblocks"}.
+\--- task \--- اختر منصة العمل. انقر على 'لبناتي' و أنشئ لبنة جديدة تسمى `التحقق من أعلى درجة`{:class="block3myblocks"}.
 
-![كائن مسرح العمل](images/stage-sprite.png) ![لقطة الشاشة](images/dots-custom-1.png)
+![كائن منصة العمل](images/stage-sprite.png) ![لقطة الشاشة](images/dots-custom-1.png)
 
 \--- /task \---
 
 \--- task \--- أضف تعليمات برمجية إلى اللبنة الجديدة التي أنشئتها بحيث تقوم بالتحقق ما إذا كانت القيمة الحالية للمتغير`الدرجة`{:class="block3variables"} أكبر من قيمة المتغير `أعلى درجة`{:class="block3variables"}, ثم بعد ذلك تقوم بحفظ قيمة `الدرجة`{:class="block3variables"} كالقيمة الجديدة للمتغير `أعلى درجة`{:class="block3variables"}.
 
-![كائن مسرح العمل](images/stage-sprite.png)
+![كائن منصة العمل](images/stage-sprite.png)
 
 ```blocks3
     عرِّف التحقق من أعلى درجة
@@ -27,9 +27,9 @@ end
 
 \---/task\---
 
-\--- task \--- أضف اللبنة الجديدة للمقاطع البرمجية على مسرح العمل قبل نهاية النص البرمجي.
+\--- task \--- أضف اللبنة الجديدة للمقاطع البرمجية على منصة العمل قبل نهاية النص البرمجي.
 
-![كائن مسرح العمل](images/stage-sprite.png)
+![كائن منصة العمل](images/stage-sprite.png)
 
 ```blocks3
 عند نقر ⚑
