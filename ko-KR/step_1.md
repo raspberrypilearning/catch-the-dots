@@ -50,6 +50,6 @@
 
 \--- no-print \--- 이 프로젝트를 프린트 해야한다면 [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print)을 이용하시길 바랍니다. \--- /no-print \---
 
-You can find [the completed project here](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+완성된 프로젝트 확인은 여기서 [the completed project here](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
 
-You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse \---
+완성된 프로젝트를 확인할 수 있습니다 [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse \---
