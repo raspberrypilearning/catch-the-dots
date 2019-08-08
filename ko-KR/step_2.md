@@ -1,6 +1,6 @@
 ## 조종기를 만들어 보세요
 
-Start by creating a controller that the player will use to collect dots.
+플레이어가 점을 잡을 때 이용할 조종기를 만들는 것부터 시작해 봅시다.
 
 \--- task \--- Open the 'Catch the dots' Scratch starter project.
 
