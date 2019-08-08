@@ -1,6 +1,6 @@
 ## 더 나아가기
 
-Try the [Clone wars](https://projects.raspberrypi.org/en/projects/clone-wars?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project to make a game in which you have to save the Earth from space monsters. In that project, you will be able to use what you have learned about cloning sprites and adding a score!
+다음 프로젝트로 [클론 전쟁 clone wars](https://projects.raspberrypi.org/en/projects/clone-wars?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)를 해보세요. 이 프로젝트는 우주의 몬스터들로 부터 지구를 지키는 게임을 만드는 것입니다. In that project, you will be able to use what you have learned about cloning sprites and adding a score!
 
 \--- no-print \---
 
