@@ -8,7 +8,7 @@
 
 이번 프로젝트에서는 게임을 만드는 법을 배울 것입니다. 이 게임에서 플레이어는 점의 색깔과 조종기의 색깔을 알맞게 짝지어야합니다.
 
-\--- no-print \--- Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
+\--- no-print \--- 키보드의 방향키를 이용해 조종기를 조종하여 날아다니는 점들이 가운데 위치할 때 잡으세요. 점을 세개 놓치면 게임이 끝납니다.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,7 +21,7 @@
 
 ## \--- collapse \---
 
-## title: 배우게 될 것
+## title: 다음과 같은 내용을 배우게 됩니다
 
 + How to choose random items from a list
 + How to use variables to track speed, lives, and the player's score
