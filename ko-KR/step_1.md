@@ -1,6 +1,6 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
+이 프로젝트의 **스크래치3**버전입니다. [프로젝트의 스크래치2 버전](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2)도 있습니다.
 
 \--- /no-print \---
 
