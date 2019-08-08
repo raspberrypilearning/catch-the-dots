@@ -3,14 +3,14 @@ hero_image: images/banner.png
 listed: true
 copyedit: false
 title: Catch the dots
-description: Make a dot-catching game
+description: 점(도트)을 잡는 게임을 만들어 봅시다
 version: 4.0.0
 last_tested: 2018-10-16
 steps:
   - 
     title: 소개
   - 
-    title: Create a controller
+    title: 조종기를 만들어 보세요
   - 
     title: Gain points or lose lives
   - 
