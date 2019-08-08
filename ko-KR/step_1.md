@@ -23,8 +23,8 @@
 
 ## title: 다음과 같은 내용을 배우게 됩니다
 
-+ How to choose random items from a list
-+ How to use variables to track speed, lives, and the player's score
++ 목록에서 아이템을 랜덤으로 고르는 방법
++ 속도, 생명, 그리고 플레이어의 점수를 나타내기위한 변수 사용법
 
 \--- /collapse \---
 
@@ -40,15 +40,15 @@
 
 + 스크래치 3 ( [온라인](http://rpf.io/scratchon){:target="_ blank"} 또는 [offline](http://rpf.io/scratchoff){:target="_ blank"})
 
-### Downloads
+### 다운로드 목록
 
-+ [Offline Scratch 2 project](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"} \--- /collapse \---
++ [오프라인 스크래치2 project](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"} \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: 교육자를 위한 참고사항
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print). \--- /no-print \---
+\--- no-print \--- 이 프로젝트를 프린트 해야한다면 [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print)을 이용하시길 바랍니다. \--- /no-print \---
 
 You can find [the completed project here](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
 
