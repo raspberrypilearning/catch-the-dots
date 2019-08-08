@@ -2,7 +2,7 @@
 
 플레이어가 점을 잡을 때 이용할 조종기를 만들는 것부터 시작해 봅시다.
 
-\--- task \--- Open the 'Catch the dots' Scratch starter project.
+\--- 할 일 \--- ‘점을 잡아라Catch the dots’ 파이썬(스크래치) 스타터 프로젝트를 엽니다.
 
 **Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
 
