@@ -6,7 +6,7 @@
 
 ## 들어가며
 
-In this project you'll learn how to create a game in which the player has to match up coloured dots with the correct colour of the controller wheel.
+이번 프로젝트에서는 게임을 만드는 법을 배울 것입니다. 이 게임에서 플레이어는 점의 색깔과 조종기의 색깔을 알맞게 짝지어야합니다.
 
 \--- no-print \--- Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
 
