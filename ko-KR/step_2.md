@@ -1,4 +1,4 @@
-## Create a controller
+## 조종기를 만들어 보세요
 
 Start by creating a controller that the player will use to collect dots.
 
