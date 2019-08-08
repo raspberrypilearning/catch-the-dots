@@ -8,7 +8,7 @@
 
 스크래치 계정이 있는 경우 **Remix**을 클릭하여 사본을 만들 수 있습니다.
 
-**오프라인: ** [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go)에서 오프라인 시작 프로그램을 다운로드하고, 오프라인 에디터로 파일을 엽니다.
+**오프라인 : ** [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go)에서 오프라인 시작 프로그램을 다운로드하고, 오프라인 에디터로 파일을 엽니다.
 
 스크래치 오프라인 에디터를 설치해야 할 경우[rpf.io/scratchoff](http://rpf.io/scratchoff)에서 다운받을 수 있습니다.
 
