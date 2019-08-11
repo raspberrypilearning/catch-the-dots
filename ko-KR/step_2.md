@@ -23,17 +23,17 @@
 ![Controller sprite](images/controller-sprite.png)
 
 ```blocks3
-    when flag clicked
+    플래그를 클릭하면
     forever
         if <key (right arrow v) pressed?> then
-            turn right (3) degrees
+            turn right (3) ˚(degrees. 도)
         end
     end
 ```
 
 \--- /task \---
 
-\--- task \--- Test your code. The controller should spin to the right when you press the right arrow key. \--- /task \---
+\--- task \--- 코드를 테스트 해 보세요. The controller should spin to the right when you press the right arrow key. \--- /task \---
 
 \--- task \--- Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
 
