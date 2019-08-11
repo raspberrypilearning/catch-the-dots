@@ -14,11 +14,11 @@
 
 \--- /task \---
 
-You should see a controller sprite:
+스프라이트 컨트롤러(조종기)가 보일 것입니다 :
 
 ![screenshot](images/dots-controller.png)
 
-\--- task \--- Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
+스프라이트 컨트롤러(조종기)에 코드를 추가하여 오른쪽 방향키를 누르면 스프라이트가 오른쪽으로 회전하도록 만들어 보세요 :
 
 ![Controller sprite](images/controller-sprite.png)
 
