@@ -1,4 +1,4 @@
-## Gain points or lose lives
+## 挑战：向左旋转
 
 Now you're going to add some dots that the player needs to collect.
 
@@ -28,7 +28,7 @@ If you click the green flag now, it looks like nothing is happening. This is bec
 
 You are going to add code to make each new clone appear in one of the four corners of the Stage.
 
-![screenshot](images/dots-start.png)
+![截屏](images/dots-start.png)
 
 \--- task \--- Create a new list called `start positions`{:class="block3variables"}, click the list's `(+)` icon to add the values `-180`{:class="block3variables"} and `180`{:class="block3variables"}.
 
@@ -62,7 +62,7 @@ Notice that the coordinate for each corner of the Stage is a combination of `180
 
 \--- task \--- Test your project. You should see red dots appear in the corners of the Stage and move slowly towards the controller.
 
-![screenshot](images/dots-red-test.png) \--- /task \---
+![截屏](images/dots-red-test.png) \--- /task \---
 
 \--- task \--- Create two new variables called `lives`{:class="block3variables"} and `score`{:class="block3variables"}.
 
