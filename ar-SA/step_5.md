@@ -8,7 +8,7 @@
 
 \--- task \--- اذهب إلى منطقة المقاطع البرمجية على منصة العمل و أضف تعليمات برمجية جديدة تقوم بإعطاء المتغير `تأخير`{:class="block3variables"} القيمة `8` ثم بعد ذلك تقوم بخفض القيمة للمتغير `تأخير`{:class="block3variables"} خلال وقت استمرار اللعبة.
 
-![Stage sprite](images/stage-sprite.png)
+![كائن منصة العمل](images/stage-sprite.png)
 
 ```blocks3
     عند نقر ⚑
