@@ -1,4 +1,4 @@
-## Increase the difficulty
+## 挑战：更多小点
 
 Now you're going to make the game more difficult the longer the player plays it. You will do this by making the dots appear faster and faster over time.
 
@@ -27,7 +27,7 @@ Next, use the `delay`{:class="block3variables"} variable in the code scripts of 
 
 \--- task \--- Remove the code block that makes the game wait a random number of seconds between making the dot sprite clones. Replace the block you've removed with your new `delay`{:class="block3variables"} variable:
 
-![screenshot](images/all-dots.png)
+![截屏](images/all-dots.png)
 
 ```blocks3
 <br />-   wait (pick random (5) to (10)) secs
