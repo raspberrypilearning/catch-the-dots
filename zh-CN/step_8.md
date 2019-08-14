@@ -1,4 +1,4 @@
-## Challenge: improve your game
+## 高分
 
 Can you think of ways to improve your game? For example, you could create special dots that:
 
