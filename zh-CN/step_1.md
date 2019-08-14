@@ -1,10 +1,10 @@
-\--- no-print \---
+--无打印--
 
 This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## 介绍
 
 In this project you'll learn how to create a game in which the player has to match up coloured dots with the correct colour of the controller wheel.
 
@@ -15,13 +15,13 @@ In this project you'll learn how to create a game in which the player has to mat
   <img src="images/dots-final.png">
 </div>
 
-\--- /no-print \---
+\--- /no-prnt \---
 
 \--- print-only \--- ![Dots screenshot](images/dots-final.png) \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: 你将学习什么
 
 + How to choose random items from a list
 + How to use variables to track speed, lives, and the player's score
@@ -30,15 +30,15 @@ In this project you'll learn how to create a game in which the player has to mat
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: 你需要准备什么
 
-### Hardware
+### 硬件
 
-+ A computer capable of running Scratch 3
++ 一台能够运行Scratch 3的电脑
 
-### Software
+### 软件
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([在线版本](http://rpf.io/scratchon){:target="_blank"}或[离线版本](http://rpf.io/scratchoff){:target="_blank"}）
 
 ### Downloads
 
@@ -46,7 +46,7 @@ In this project you'll learn how to create a game in which the player has to mat
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## 题目: 教师附加说明
 
 \--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print). \--- /no-print \---
 
