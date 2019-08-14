@@ -1,4 +1,4 @@
-## Create a controller
+## 创建一个控制器
 
 Start by creating a controller that the player will use to collect dots.
 
@@ -10,13 +10,13 @@ If you have a Scratch account you can make a copy by clicking **Remix**.
 
 **Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+如果您需要下载并安装Scratch离线编辑器，可以在[ rpf.io/scratchoff ](http://rpf.io/scratchoff)中获取。
 
 \--- /task \---
 
 You should see a controller sprite:
 
-![screenshot](images/dots-controller.png)
+![截屏](images/dots-controller.png)
 
 \--- task \--- Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
 
