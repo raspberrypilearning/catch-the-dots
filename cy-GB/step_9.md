@@ -13,7 +13,7 @@ Clicia'r faner werdd yn esiampl y gêm isod i gychwyn, yna gwasga ar y bysellau 
 
 \--- /no-print \---
 
-Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
+Sgoriwch gymaint o bwyntiau ag ydych yn gallu trwy saethu hipos gofod hedfan. Os ydych yn cael eich taro gan hipo neu gan oren a ollyngwyd gan yr ystlumod, byddwch yn colli bywyd.
 
 \--- print-only \---
 
