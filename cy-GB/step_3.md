@@ -117,9 +117,9 @@ dileu y clôn hwn
 
 \--- task \---
 
-Test your game to make sure that:
+Profwch eich gêm i wneud yn siŵr bod:
 
-1. You lose a life if you don’t match a dot with the correct colour
-2. You score a point if you match a dot correctly
+1. Chi’n colli bywyd os nad ydych yn paru â dot gyda’r lliw cywir
+2. Chi’n sgorio pwynt os ydych yn paru â dot yn gywir
 
 \--- /task \---
