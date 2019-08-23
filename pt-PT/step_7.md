@@ -27,7 +27,7 @@ end
 
 \--- /task \---
 
-\--- task \--- Add your new custom block to the Stage script before the end of the script.
+\--- task \--- Adiciona o teu bloco personalizado ao guiāo Palco antes do fim do guiāo.
 
 ![Actor palco](images/stage-sprite.png)
 
