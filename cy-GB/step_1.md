@@ -42,7 +42,7 @@ Yn y prosiect yma, fe wnei di ddysgu sut i greu gêm lle mae rhaid i'r chwareuwr
 
 ### Lawrlwythiadau
 
-+ [Offline Scratch 2 project](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"} \--- /collapse \---
++ [Prosiect all-lein Scratch 2](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"} \--- /collapse \---
 
 ## \---collapse\---
 
