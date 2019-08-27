@@ -15,6 +15,7 @@ Creu newidyn newydd o'r enw `sgôr uchel`{:class="block3variables"}.
 
 --- /task ---
 
+--- task ---
 Ychwanega côd i dy floc newydd i wirio os yw'r `sgôr`{:class="block3variables"} cyfredol yn fwy na'r newidyn `sgôr uchel`{:class="block3variables"}, ac yna storio gwerth y `sgôr`{:class="block3variables"} fel gwerth newydd `sgôr uchel`{:class="block3variables"}.
 
 ![Corlun llwyfan](images/stage-sprite.png)
@@ -28,6 +29,7 @@ end
 
 --- /task ---
 
+--- task ---
 Ychwanega bloc newydd i sgript y Llwyfan cyn ddiwedd y sgript.
 
 ![Corlun llwyfan](images/stage-sprite.png)

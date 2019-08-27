@@ -18,6 +18,7 @@ Fe ddyle ti weld ciplun rheolwr:
 
 ![sgrinlun](images/dots-controller.png)
 
+--- task ---
 Ychwanega gôd i dy reolwr fel fod y corlun yn troi i’r dde pan fyddi di’n gwasgu y bysell saeth dde:
 
 ![Corlun rheolwr](images/controller-sprite.png)
