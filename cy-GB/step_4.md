@@ -1,72 +1,62 @@
-## Casglu dotiau
+## Mwy o ddotiau
 
-Fe wnawn ni ychwanegu dotiau i'r chwareuwr eu casglu gyda'r rheolwr.
+--- task --- Dyblyga’r ciplun dot ‘coch’ ddwywaith, a galwa’r cipluniau newydd yn ‘melyn’ a ‘glas’.
 
-+ Bydd angen creu ciplun newydd o'r enw 'coch'.  Fe ddylai'r ciplun yma fod yn ddot bach coch.
+![sgrinlun](images/dots-more-dots.png) --- /task ---
 
-	![screenshot](images/dots-red.png)
+--- task --- Newida gwisg pob corlun newydd fel eu bod y lliw cywir: fe ddylai'r corlun 'melyn' fod yn felyn, a'r corlun 'glas' fod yn las. --- /task ---
 
-+ Ychwanega'r sgript yma i dy giplun dot 'coch', i greu clôn bob ychydig o eiliadau:
+--- task --- Newida côd pob corlun fel bod y chwareuwr yn gorfod gweddu lliw y dot â’r lliw cywir ar y rheolwr.
 
-	```blocks
-		pan fo ⚑ wedi ei glicio
-			cuddio
-			aros (2) eiliad
-			am byth
-   		creu clôn o [fi fy hun v]
-   		aros (dewis ar hap (5) i (10)) eiliad
-			end
-	```
+![sgrinlun](images/dots-all-test.png)
 
-+ Pan mae pob clôn yn cael ei greu, rwyt ti eisiau iddo ymddangos yn un o 4 cornel y llwyfan.
+--- hints ---
+ --- hint --- Dyma'r côd sydd ei angen ar gyfer dod o hyd a golygu'r corluniau newydd:
 
-	![screenshot](images/dots-start.png)
+![sgrinlun](images/dots-more-dots.png)
 
-	I wneud hyn, bydd angen yn gyntaf creu __rhestr__ o'r enw `safle cychwyn`{:class="blockdata"} a chlicio'r `(+)` i ychwanegu `-180` a `180`.
+```blocks3
+    os <cyffwrdd lliw [#FF0000] ?> yna 
+  newid [sgôr v] gan (1)
+  cychwyn sain (pop v)
+  . . .
+    end
+```
 
-	![screenshot](images/dots-list.png)
+--- /hint --- --- hint --- Dyma sut wyt ti'n newid y côd ar gyfer y corlun melyn:
 
-+ Fe alli di ddefnyddio'r 2 eitem o'r rhestr yma i ddewis corneli ar hap o'r llwyfan. Ychwanega'r côd yma i'r ciplun 'dot', fel bod pob clôn newydd yn symud i gornel ar hap ac yna'n symud yn araf tuag at y rheolwr.
+```blocks3
+    os <cyffwrdd lliw [#FFFF00] ? :: +> yna 
+  newid [sgôr v] gan (1)
+  cychwyn sain (pop v)
+end
+```
 
-	```blocks
-		pan dechreuaf fel clôn
-			mynd i x:(eitem (ar hap v) o [safle cychwyn v]) y:(eitem (ar hap v) o [safle cychwyn v])
-			pwyntio tuag at [controller v]
-		dangos
-			ailwna hyd at <cyffwrdd [controller v]?>
-   		symud (1) cam
-		end
-	```
+Dyma sut wyt ti'n newid y côd ar gyfer y corlun glas:
 
-	Mae'r côd uchod unai yn dewis '-180' neu '180' ar gyfer safle yr x _a_ y, sy'n golygu bod pob clôn yn cychwyn yn un cornel o'r llwyfan.
+```blocks3
+    os <cyffwrdd lliw [#0000FF] ? :: +> yna 
+  newid [sgôr v] gan (1)
+  cychwyn sain (pop v)
+end
+```
 
-+ Profa dy gêm.  Fe ddyle ti weld llawer o ddotiau coch yn ymddangos ymhob cornel o'r sgrin, ac yn symud yn araf tuag at y rheolwr.
+--- /hint --- --- /hints --- --- /task ---
 
-	![screenshot](images/dots-red-test.png)
+Os wyt ti'n chwarae'r gêm nawr, fe weli di fod y dotiau weithiau yn cael eu creu un ar ben y llall.
 
-+ Bydd angen creu 2 newidyn newydd o'r enw `bywydau`{:class="blockdata"} a `sgôr`{:class="blockdata"}.
+--- task --- Newida'r côd ar gyfer y dot 'melyn' fel ei fod yn aros pedair eiliad ar ôl i'r faner gael ei glicio cyn ymddangos.
 
-+ Ychwanega côd i dy lwyfan i osod `bywydau`{:class="blockdata"} i 3 a'r `sgôr`{:class="blockdata"} i 0 ar ddechrau'r gêm.
+![Dot melyn](images/yellow-sprite.png)
 
-+ Bydd angen i ti ychwanegu côd i ddeiwedd côd dy ddot coch `pan dechreuaf fel clôn`{:class="blockcontrol"}, fel bod unai 1 yn cael ei ychwanegu i `sgôr`{:class="blockdata"} y chwareuwr os yw'r lliwiau'n cyd-fynd, neu 1 yn cael ei gymryd i ffwrdd o `fywydau`{:class="blockdata"} y chwareuwr os nad yw'r lliwiau yn cyd-fynd.
+```blocks3
+    pan fo'r flag werdd yn cael ei glicio
+cuddio
++ aros (4) eiliad
+```
 
-	```blocks
-		symud (5) cam
-			os <cyffwrdd lliw [#FF0000]?> wedyn
-   		newid [sgôr v] gan (1)
-   		chwarae sain [pop v]
-		fel arall
-  			 newid [bywydau v] gan (-1)
-  			chwarae sain [laser1 v]
-		end
-		dileu y clôn hwn
-	```
+![Dot glas](images/blue-sprite.png)
 
-+ Ychwanega'r côd yma i ddiwedd sgript dy lwyfan, fel bod y gêm yn dod i ben pan mae'r chwareuwr yn colli y bywydau i gyd:
+Yna newida côd y dot 'glas' fel ei fod yn aros 6 eiliad ar ôl i'r faner gael ei glicio cyn ymddangos.
 
-	```blocks
-		aros hyd at <(bywydau) < [1]>
-		stopiwch [y cyfan v]
-	```
-
-+ Profa dy gêm i wneud yn siwr fod y côd yn gweithio fel oeddet ti'n disgwyl.
+--- /task ---
