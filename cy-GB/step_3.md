@@ -30,6 +30,7 @@ Rwyt ti mynd i ychwanegu côd i wneud i bob clôn ymddangos ymhob un cornel o'r 
 
 ![sgrinlun](images/dots-start.png)
 
+--- task ---
 I wneud hyn, bydd angen yn gyntaf creu rhestr o’r enw `safle cychwyn`{:class="block3variables"} a chlicio'r eicon `(+)` yn y rhestr i ychwanegu `-180`{:class="block3variables"} a `180`{:class="block3variables"}.
 
 ![Corlun dot coch](images/red-sprite.png)
@@ -57,17 +58,19 @@ ailadrodd hyd at <cyffwrdd (controller v) ?>
   symud (1) cam
 end
 ```
-
+--- /task ---
 Mae’r côd uchod unai yn dewis `-180` neu `180` ar gyfer safle yr x a y, sy’n golygu bod pob clôn yn cychwyn yn un cornel o’r llwyfan.
 
 --- task --- Profa dy brosiect. Fe ddyle ti weld llawer o ddotiau coch yn ymddangos ymhob cornel o’r sgrin, ac yn symud yn araf tuag at y rheolwr.
 
 ![sgrinlun](images/dots-red-test.png) --- /task ---
 
+--- task ---
 Bydd angen creu 2 newidyn newydd o’r enw `bywydau`{:class="block3variables"} a `sgôr`{:class="block3variables"}.
 
 ![Corlun dot coch](images/red-sprite.png) --- /task ---
 
+--- task ---
 Ychwanega côd i dy lwyfan i osod y newidyn `bywydau`{:class="block3variables"} i `3` a’r `sgôr`{:class="block3variables"} i `0` ar ddechrau’r gêm. ![Corlun llwyfan](images/stage-sprite.png)
 
 ```blocks3
@@ -78,6 +81,7 @@ gosod [sgôr v] i (0)
 
 --- /task ---
 
+--- task ---
 Ychwanega'r côd yma i ddiwedd sgript y Llwyfan i wneud i'r gêm orffen pan mae'r chwareuwr yn colli'r bywydau olaf:
 
 ![Corlun llwyfan](images/stage-sprite.png)
@@ -91,6 +95,7 @@ aros [all v]
 
 Fe ddylai'r chwareuwr ennill pwyntiau ar gyfer dal dotiau, a cholli bywydau am fethu â dal dotiau. Yr unig ffordd i ddal dot yw ei fod yn gweddu'r un lliw â'r rheolwr.
 
+--- task ---
 Cer yn ôl i Sgriptiau'r corlun dot 'coch' i ychwanegu blociau côd i ddiwedd y sgript `pan dechreuaf fel clôn`{:class="block3control"}.
 
 Yn gyntaf, gwna i'r clôn `symud 5 cam`{:class="block3motion"} fel ei fod yn gorgyffwrdd y rheolwr.
