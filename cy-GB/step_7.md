@@ -39,9 +39,8 @@ pan fo'r flag werdd yn cael ei glicio
 gosod [bywydau v] i (3)
 gosod [sgôr v] i (0)
 aros hyd at <(bywydau) < (1)>
-
 + gwirio sgôr uchel :: custom
-aros [all v]
+aros [y cyfan v]
 ```
 
 --- /task ---

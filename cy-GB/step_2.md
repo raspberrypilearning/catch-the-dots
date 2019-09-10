@@ -26,7 +26,7 @@ Ychwanega gôd i dy reolwr fel fod y corlun yn troi i’r dde pan fyddi di’n g
 ```blocks3
     pan fo'r flag werdd yn cael ei glicio
 am byth 
-  os <bysell (right arrow v) wedi ei phwyso?> yna 
+  os <bysell (saeth de v) wedi ei phwyso?> yna 
     troi (3) gradd i'r dde
   end
 end
@@ -48,7 +48,7 @@ Tyrd o hyd i'r côd sydd yn gwirio os yw'r botwm saeth dde wedi ei wasgu a gwneu
 --- /hint --- --- hint --- Dyma'r blociau rwyt ti eu hangen:
 
 ```blocks3
-<bysell (space v) wedi ei phwyso?>
+<bysell (bwlch v) wedi ei phwyso?>
 
 troi (15) gradd i'r chwith
 
@@ -60,15 +60,14 @@ end
 
 ```blocks3
     pan fo'r flag werdd yn cael ei glicio
-am byth 
-  os <bysell (right arrow v) wedi ei phwyso?> yna 
-    troi (3) gradd i'r dde
-  end
-
-  + os <bysell (left arrow v) wedi ei phwyso?> yna 
-      troi (3) gradd i'r chwith
+    am byth 
+        os <bysell (saeth de v) wedi ei phwyso?> yna 
+          troi (3) gradd i'r dde
+        end
++       os <bysell (saeth chwith v) wedi ei phwyso?> yna 
+          troi (3) gradd i'r chwith
+        end
     end
-end
 ```
 
 --- /hint --- --- /hints --- --- /task ---

@@ -30,8 +30,8 @@ Fe alli di ddefnyddio’r newidyn `oedi`{:class="block3variables"} ar gyfer sgri
 ![sgrinlun](images/all-dots.png)
 
 ```blocks3
-<br />aros (dewis ar hap (5) i (10)) eiliad
-aros (oedi :: variables) eiliad
+-   aros (dewis ar hap (5) i (10)) eiliad
+    aros (oedi :: variables) eiliad
 ```
 
 Gwna hyn ar gyfer y tri corlun dot.

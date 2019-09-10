@@ -17,7 +17,7 @@ Fe wnawn ni ychwanegu dotiau i’r chwareuwr eu casglu gyda’r rheolwr.
 cuddio
 aros (2) eiliad
 am byth 
-  creu clôn o (myself v)
+  creu clôn o (fi fy hun v)
   aros (dewis ar hap (5) i (10)) eiliad
 end
 ```
@@ -52,9 +52,9 @@ Sylwa fod y cyfesur ar gyfer pob cornel o'r llwyfan yn gyfuniad o `180` a `-180`
 ```blocks3
     pan rwy'n dechrau fel clôn
 mynd i x: (eitem (dewis ar hap (1) i (2)) o [safle cychwyn v]) y: (eitem (dewis ar hap (1) i (2)) o [safle cychwyn v])
-pwyntio tuag at (controller v)
+pwyntio tuag at (rheolwr v)
 dangos
-ailadrodd hyd at <cyffwrdd (controller v) ?> 
+ailadrodd hyd at <cyffwrdd (rheolwr v) ?> 
   symud (1) cam
 end
 ```
@@ -88,7 +88,7 @@ Ychwanega'r côd yma i ddiwedd sgript y Llwyfan i wneud i'r gêm orffen pan mae'
 
 ```blocks3
     aros hyd at <(bywydau :: variables) < [1]>
-aros [all v]
+aros [y cyfan v]
 ```
 
 --- /task ---
