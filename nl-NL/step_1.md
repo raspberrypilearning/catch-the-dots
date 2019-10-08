@@ -12,7 +12,7 @@ In dit project leer je hoe je een spel maakt waarbij je gekleurde stippen moet p
 Gebruik de pijltjestoetsen op je toetsenbord om het controllerwiel te draaien en vang de vliegende stippen als ze het middelpunt bereiken. Zodra je drie stippen gemist hebt is het game over.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/334758329/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/dots-final.png">
 </div>
 --- /no-print ---
