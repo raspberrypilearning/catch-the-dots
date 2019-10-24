@@ -6,9 +6,9 @@ Dies ist die **Scratch 3** Version des Projekts. Es gibt auch eine [Scratch 2-Ve
 
 ## Einleitung
 
-In diesem Projekt lernen Sie, wie Sie ein Spiel erstellen, bei dem der Spieler farbige Punkte mit der korrekten Farbe des Controller-Rads abgleichen muss.
+In diesem Projekt lernst Du, wie Du ein Spiel erstellst, bei dem der Spieler farbige Punkte mit der korrekten Farbe des Controller-Rads abgleichen muss.
 
-\--- no-print \--- Verwenden Sie die Pfeiltasten auf Ihrer Tastatur, um das Controller-Rad zu drehen und die fliegenden Punkte einzufangen, wenn sie die Mitte erreichen. Wenn Sie drei Punkte verpassen, ist das Spiel vorbei.
+\--- no-print \--- Verwende die Pfeiltasten deiner Tastatur um das Steuerrad zu drehen und fange die fliegenden Punkte wenn diese die Mitte erreichen. Wenn Du drei Punkte verpasst, ist das Spiel vorbei.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -17,13 +17,13 @@ In diesem Projekt lernen Sie, wie Sie ein Spiel erstellen, bei dem der Spieler f
 
 \--- /no-print \---
 
-\--- nur drucken \--- ![Dots screenshot](images/dots-final.png) \--- / nur drucken \---
+\--- print-only \--- ![Dots screenshot](images/dots-final.png) \--- /print-only \---
 
 ## \--- collapse \---
 
 ## title: Was du lernen wirst
 
-+ So wählen Sie zufällige Elemente aus einer Liste aus
++ Zufällige Elemente aus einer Liste auswählen
 + Wie man Variablen verwendet, um Geschwindigkeit, Leben und die Punktzahl des Spielers zu verfolgen
 
 \--- /collapse \---
@@ -42,14 +42,14 @@ In diesem Projekt lernen Sie, wie Sie ein Spiel erstellen, bei dem der Spieler f
 
 ### Downloads
 
-+ [Offline Scratch 2-Projekt](http://rpf.io/p/en/catch-the-dots-go){: target = "_ blank"} \--- / collapse \---
++ [Offline Scratch 3-Projekt](http://rpf.io/p/en/catch-the-dots-go){:target="_ blank"} \--- / collapse \---
 
 ## \--- collapse \---
 
 ## title: Zusätzliche Hinweise für Pädagogen
 
-\--- no-print \--- Wenn Sie dieses Projekt drucken möchten, verwenden Sie bitte die [druckerfreundliche Version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print). \--- /no-print \---
+\--- no-print\--- Wenn du dieses Projekt ausdrucken möchtest, verwende die [druckfreundliche Version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print). \--- /no-print \---
 
-Sie finden [das abgeschlossene Projekt hier](http://rpf.io/p/en/catch-the-dots-get){: target = "_ blank"}.
+Du findest das [abgeschlossene Projekt hier](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
 
-You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse \---
+Du findest das [abgeschlossene Projekt hier](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse \---
