@@ -15,30 +15,29 @@
 ![لقطة الشاشة](images/dots-more-dots.png)
 
 ```blocks3
-    إذا <touching color [#FF0000]?> 
-  غيِّر [score v] بمقدار (1)
+    إذا <ملامس للون [#FF0000] ؟> 
+  غيِّر [الدرجة v] بمقدار (1)
   ابدأ الصوت (pop v)
-  . . .
-end...
+end
     النهاية
 ```
 
 \--- /hint \--- \--- hint \--- فيما يلي ما ستحتاجه لتغيير التعليمات البرمجية الخاصة بالكائن أصفر:
 
 ```blocks3
-    if <touching color [#FFFF00]? :: +> then
-        change [score v] by (1)
-        play sound (pop v)
-    end
+    إذا <ملامس للون [#FFFF00] ؟> 
+  غيِّر [الدرجة v] بمقدار (1)
+  ابدأ الصوت (pop v)
+end >
 ```
 
 فيما يلي ما ستحتاجه لتغيير التعليمات البرمجية الخاصة بالكائن أزرق:
 
 ```blocks3
-    if <touching color [#0000FF]? :: +> then
-        change [score v] by (1)
-        play sound (pop v)
-    end
+    إذا <ملامس للون [#0000FF] ؟ :: +> 
+  غيِّر [الدرجة v] بمقدار (1)
+  ابدأ الصوت (pop v)
+end >
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
@@ -50,9 +49,9 @@ end...
 ![النقطة الصفراء](images/yellow-sprite.png)
 
 ```blocks3
-    when flag clicked
-    hide
-+   wait (4) seconds
+    عند نقر ⚑
+اختفِ
+انتظر (4) ثانية
 ```
 
 ![النقطة الزرقاء](images/blue-sprite.png)
