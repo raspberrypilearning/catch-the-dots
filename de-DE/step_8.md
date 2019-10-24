@@ -1,9 +1,9 @@
-## Herausforderung: Erstelle mehr Blöcke
+## Herausforderung: Verbessere dein Spiel
 
-Können Sie sich überlegen, wie Sie Ihr Spiel verbessern können? Sie können zum Beispiel spezielle Punkte erstellen, die:
+Kannst du dir Wege überlegen, wie du dein Spiel verbessern kannst? Du könntest zum Beispiel spezielle Punkt-Figuren erstellen, die:
 
-+ Verdopple deine Punktzahl
-+ Verlangsamen Sie die Punkte
-+ Blenden Sie alle anderen Punkte auf dem Bildschirm aus
++ Deine Punktzahl verdoppeln
++ Die Punkte verlangsamen
++ Alle anderen Punkte auf dem Bildschirm ausblenden
 
-Können Sie Ihrem Spiel ein Menü mit Schaltflächen hinzufügen? Sie können einen Bildschirm mit Anweisungen oder einen separaten Bildschirm zum Anzeigen der höchsten Punktzahl hinzufügen.
+Kannst du deinem Spiel ein Menü mit Schaltflächen hinzufügen? Du könntest einen Bildschirm mit Anweisungen oder einen separaten Bildschirm zum Anzeigen der höchsten Punktzahl hinzufügen.
