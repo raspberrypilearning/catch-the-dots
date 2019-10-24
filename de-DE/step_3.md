@@ -1,125 +1,125 @@
-## Aufgabe: Nach links drehen
+## Punkte sammeln oder Leben verlieren
 
-Jetzt fügen Sie einige Punkte hinzu, die der Spieler sammeln muss.
+Jetzt fügst du einige Punkte hinzu, die der Spieler sammeln muss.
 
-\--- task \--- Erstellen Sie ein neues Sprite mit dem Namen 'red'. Dieses Sprite sollte ein kleiner roter Punkt sein.
+\--- task \--- Erstelle eine neue Figur mit dem Namen 'rot'. Diese Figur sollte ein kleiner roter Punkt sein.
 
-![Red-Punkt-Sprite](images/dots-red.png)
+![Punkt-Figur rot](images/dots-red.png)
 
 \--- /task \---
 
-\--- task \--- Fügen Sie dieses Skript zu Ihrem 'roten' Sprite hinzu, um alle paar Sekunden einen neuen Klon des Sprites zu erstellen:
+\--- task \--- Füge dieses Skript zu deiner 'roten' Figur hinzu, um alle paar Sekunden einen neuen Klon der Figur zu erstellen:
 
-![Red-Punkt-Sprite](images/red-sprite.png)
+![Punkt-Figur rot](images/red-sprite.png)
 
 ```blocks3
     Wenn die Flagge angeklickt wird
-    ausblenden
-    warten (2) Sekunden
-    für immer
-        Erstellen Sie einen Klon von (ich selbst)
-        warten Sie (wählen Sie zufällig (5) bis (10))
-    Sekunden
+    verstecke dich
+    warte (2) Sekunden
+    wiederhole fortlaufend
+        erzeuge einen Klon von (mir selbst v)
+        warte (Zufallszahl von (5) bis (10)) Sekunden
+    Ende
 ```
 
 \--- /task \---
 
-Wenn Sie jetzt auf die grüne Flagge klicken, scheint nichts zu passieren. Dies liegt daran, dass alle geklonten Sprites versteckt sind und an derselben Stelle angezeigt werden.
+Wenn du jetzt auf die grüne Flagge klickst, scheint nichts zu passieren. Das liegt daran, dass alle geklonten Figuren versteckt sind und an derselben Stelle erscheinen werden.
 
-Sie werden Code hinzufügen, damit jeder neue Klon in einer der vier Ecken der Bühne angezeigt wird.
+Du wirst Code hinzufügen, damit jeder neue Klon in einer der vier Ecken der Bühne erscheinen wird.
 
 ![Screenshot](images/dots-start.png)
 
-Aufgabe Erstellen Sie eine neue Liste mit der Bezeichnung `Startpositionen`{: class = "block3variables"}. Klicken Sie auf das Symbol `(+)` der Liste, um die Werte `-180`{: class = "block3variables" hinzuzufügen } und `180`{: class = "block3variables"}.
+\--- task \--- Erstelle eine neue Liste mit der Bezeichnung `Startpositionen`{:class="block3variables"}. Klicke auf das `(+)`-Symbol der Liste, um die Werte `-180`{:class="block3variables"} und `180`{:class="block3variables"} hinzuzufügen.
 
-![Red-Punkt-Sprite](images/red-sprite.png)
+![Punkt-Figur rot](images/red-sprite.png)
 
-![Liste von 180 und -180](images/dots-list.png)
+![Liste mit 180 und -180](images/dots-list.png)
 
 [[[generic-scratch3-make-list]]]
 
-Dann können Sie die Liste ausblenden, indem Sie das Kontrollkästchen deaktivieren:
+Dann kannst du die Liste ausblenden, indem du das Kontrollkästchen deaktivierst:
 
-![Verstecken Sie die Liste](images/hide-list.png) \--- /task \---
+![Verstecke die Liste](images/hide-list.png) \--- /task \---
 
-Beachten Sie, dass die Koordinate für jede Ecke der Bühne eine Kombination aus `180` und `-180`. Dies bedeutet, dass Sie die Liste verwenden können, um eine Ecke der Bühne zufällig auszuwählen.
+Beachte, dass die Koordinate für jede Ecke der Bühne eine Kombination aus `180` und `-180` ist. Dies bedeutet, dass du die Liste verwenden kannst, um eine Ecke der Bühne zufällig auszuwählen.
 
-\--- task \--- Fügen Sie diesen Code zum 'dot' Sprite hinzu, damit jeder neue Sprite-Klon in einer zufälligen Ecke erscheint und sich dann langsam in Richtung des Controller-Sprites bewegt.
+\--- task \--- Füge diesen Code zur 'rot'-Figur hinzu, damit jeder neue Figuren-Klon in einer zufälligen Ecke erscheint und sich dann langsam in Richtung der Controller-Figur bewegt.
 
-![Red-Punkt-Sprite](images/red-sprite.png)
+![Punkt-Figur rot](images/red-sprite.png)
 
 ```blocks3
-    Wenn ich als Klon
-    beginne, gehe zu x: (Punkt (wähle zufällig (1) bis (2)) von [Startpositionen v]) y: (Punkt (wähle Zufall (1) bis (2)) von [Startpositionen v])
-    Punkt in Richtung (Controller v)
-
-    Wiederholen, bis <touching (controller v)?>
-        Schritte (1) Schritte
-    enden
+    Wenn ich als Klon entstehe
+gehe zu x: (Element (Zufallszahl von (1) bis (2)) von [Startpositionen v]) y: (Element ( Zufallszahl von (1) bis (2)) von [Startpositionen v])
+    drehe dich zu (Controller v)
+    zeige dich
+    wiederhole bis <wird (Controller v) berührt?>
+        gehe (1) er Schritt
+    Ende
 ```
 
-\--- / task \--- Dieser neue Code wählt entweder `-180` oder `180` für die x- und y-Position, was bedeutet, dass jeder Punkt-Sprite-Klon in einer Ecke der Bühne beginnt.
+\--- /task \--- Dieser neue Code wählt entweder `-180` oder `180` für die x- und y-Position, was bedeutet, dass jeder Punkt-Figur-Klon in einer Ecke der Bühne beginnt.
 
-\--- Aufgabe \--- Testen Sie Ihr Projekt. Sie sollten rote Punkte in den Ecken der Bühne sehen und sich langsam in Richtung Controller bewegen.
+\--- task \--- Teste dein Projekt. Du solltest rote Punkte in den Ecken der Bühne entstehen sehen, die sich langsam in Richtung Controller bewegen.
 
 ![Screenshot](images/dots-red-test.png) \--- /task \---
 
-Aufgabe Erstellen Sie zwei neue Variablen mit dem Namen `Leben`{: class = "block3variables"} und `Punkte`{: class = "block3variables"}.
+\--- task \--- Erstelle zwei neue Variablen mit den Namen `Leben`{:class="block3variables"} und `Punkte`{:class="block3variables"}.
 
-![Red-Punkt-Sprite](images/red-sprite.png) \--- /task \---
+![Punkt-Figur rot](images/red-sprite.png) \--- /task \---
 
-Aufgabe Füge der Bühne `Code hinzu, um die Variable <code> lives`{: class = "block3variables"} auf `3` und die `Punkte`{: class = "block3variables"} auf `0` um der Start des Spiels. ![Stage Sprite](images/stage-sprite.png)
+\--- task \--- Füge der Bühne Code hinzu, um zu Beginn des Spiels die Variable `Leben`{:class="block3variables"} auf `3` und die Variable `Punkte`{:class="block3variables"} auf `0` zu setzen. ![Bühne](images/stage-sprite.png)
 
 ```blocks3
-Wenn das Flag auf
-geklickt wurde, setzen Sie [Leben v] auf (3).
-Setzen Sie [Punkte v] auf (0).
+Wenn die Flagge angeklickt wird
+setze [Leben v] auf (3)
+setze [Punkte v] auf (0)
 ```
 
 \--- /task \---
 
-\--- task \--- Füge diesen Code am Ende des Stage-Skripts hinzu, damit das Spiel endet, wenn der Spieler das letzte Leben verliert:
+\--- task \--- Füge diesen Code am Ende des Bühnen-Skripts hinzu, damit das Spiel endet, wenn der Spieler das letzte Leben verliert:
 
-![Stage Sprite](images/stage-sprite.png)
+![Bühne](images/stage-sprite.png)
 
 ```blocks3
-    warte bis <(lebt :: Variablen) < [1]>
-    stop [all v]
+    warte bis <(Leben :: Variablen) < [1]>
+    stoppe [alles v]
 ```
 
 \--- /task \---
 
-Der Spieler sollte Punkte für das Fangen von Punkten gewinnen und sollte das Leben verlieren, weil er keine Punkte fangen konnte. Ein Punkt kann nur erfasst werden, indem die Farbe des Controllers an die Farbe des Punkts angepasst wird.
+Der Spieler sollte Punkte für das Fangen von Punkt-Figuren gewinnen und er sollte ein Leben verlieren, wenn er einen Punkt nicht fangen konnte. Ein Punkt kann nur gefangen werden, wenn die Farbe des Controllers und die Farbe des Punkts gleich sind.
 
-\--- task \--- Kehren Sie zum Scripts-Bereich des 'roten' Punkt-Sprites zurück, um einige Codeblöcke am Ende von Sprites `hinzuzufügen, wenn ich als Klon`{: class = "block3control"} -Start beginne.
+\--- task \--- Kehre zum Script-Bereich der 'roten' Punkt-Figur zurück, um einige Codeblöcke am Ende des `wenn ich als Klon entstehe`{:class="block3control"}-Blocks anzufügen.
 
-Zuerst müssen Sie den Punktklon `in 5 Schritten`{: class = "block3motion"} bewegen, sodass er den Controller überlappt.
+Zuerst mußt du den Punktklon `5 Schritte`{:class="block3motion"} weiter bewegen, sodass er den Controller überlappt.
 
-Fügen Sie dann Code hinzu, um entweder `1` bis `zu addieren. Punktzahl`{: class = "block3variables"}, wenn die Farbe des Punktklons bei Berührung mit der Farbe des Controllers übereinstimmt, oder nehmen Sie `1` von `Leben.`{ : class = "block3variables"}, wenn ihre Farben nicht übereinstimmen.
+Füge dann Code hinzu, um entweder `1` zu `Punkte`{:class="block3variables"} zu addieren, wenn die Farbe des Punktklons bei Berührung mit der Farbe des Controllers übereinstimmt, oder ziehe `1` von `Leben.`{:class="block3variables"} ab, wenn ihre Farben nicht übereinstimmen.
 
 [[[generic-scratch3-sound-from-library]]]
 
-![Red-Punkt-Sprite](images/red-sprite.png)
+![Punkt-Figur rot](images/red-sprite.png)
 
 ```blocks3
-    Schritt (5) die Schritte
-    wenn <touching color [#FF0000]?> dann
-        Änderung [score v] durch (1)
-        Play Sound (pop v) bis getan
-    sonst
-        Änderung [lebt v] mit (-1)
-        Spiel Ton (Laser1 v) bis getan
-    Ende
-    Diesen Klon löschen
+    gehe (5) er Schritt
+falls <wird Farbe [#FF0000] berührt?> dann
+    ändere [Punkte v] um (1)
+    spiele Klang (Plopp v) ganz
+sonst
+    ändere [Leben v] um (-1)
+    spiele Klang (Laser1 v) ganz
+Ende
+lösche diesen Klon
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game to make sure that:
+Teste dein Spiel und kontrolliere ob:
 
-1. You lose a life if you don’t match a dot with the correct colour
-2. You score a point if you match a dot correctly
+1. Du ein Leben verlierst, wenn die Farbe des Punktes nicht mit der Farbe des Controllers übereinstimmt
+2. Du eine Punkt bekommst, wenn die Farben richtig sind
 
 \--- /task \---
