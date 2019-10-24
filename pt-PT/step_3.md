@@ -30,7 +30,7 @@ Vais adicionar código para que cada novo clone apareça num dos quatro cantos d
 
 ![captura de ecrã](images/dots-start.png)
 
-\--- task \--- Cria uma nova lista chamada `posições iniciais`{:class="block3variables"}, clica o icone `(+)` da lista para adicionar os valores `--180`{:class="block3variables"} e `180`{:class="block3variables"}.
+\--- task \--- Cria uma nova lista chamada `posições iniciais`{:class="block3variables"}, clica o ícone `(+)` da lista para adicionar os valores `--180`{:class="block3variables"} e `180`{:class="block3variables"}.
 
 ![Actor 'ponto' vermelho](images/red-sprite.png)
 
@@ -44,7 +44,7 @@ Depois podes esconder a lista se deselecionares esta opçāo:
 
 Nota que as coordenadas para cada canto do Palco sāo uma combinaçāo de `180` e `-180`. Isso significa que podes usar a lista para escolher um canto do Palco ao acaso.
 
-\--- task \--- Adiciona este código ao actor 'ponto' para que cada novo clone do actor apareça num canto ao acaso e depois lentamente se mova na direçāo do actor controlador.
+\--- task \--- Adiciona este código ao actor 'ponto' para que cada novo clone do actor apareça num canto ao acaso e depois lentamente se mova na direção do actor controlador.
 
 ![Actor 'ponto' vermelho](images/red-sprite.png)
 
@@ -60,15 +60,15 @@ end
 
 \--- /task \--- Este novo código escolhe ou `-180` ou `180`o para as posições x e y, o que significa que cada actor 'ponto' começa num canto do Palco.
 
-\--- task \--- Testa o teu projeto. Deves ver pontos vermelhos a aparecer nos cantos do Palco e moverem-se na direçāo do controlador.
+\--- task \--- Testa o teu projeto. Deves ver pontos vermelhos a aparecer nos cantos do Palco e moverem-se na direção do controlador.
 
 ![captura de ecrã](images/dots-red-test.png) \--- /task \---
 
-\--- task \--- Cria duas novas variáveis chamadas `vidas`{:class="block3variables"} e `pontuaçāo`{:class="block3variables"}.
+\--- task \--- Cria duas novas variáveis chamadas `vidas`{:class="block3variables"} e `pontuação`{:class="block3variables"}.
 
 ![Actor 'ponto' vermelho](images/red-sprite.png) \--- /task \---
 
-\--- task \--- Adiciona código ao teu Palco para alterar a variável `vidas`{:class="block3variables"} para `3` e `pontuaçāo`{:class="block3variables"} para `0` no inicio do jogo. ![Actor palco](images/stage-sprite.png)
+\--- task \--- Adiciona código ao teu Palco para alterar a variável `vidas`{:class="block3variables"} para `3` e `pontuação`{:class="block3variables"} para `0` no inicio do jogo. ![Actor palco](images/stage-sprite.png)
 
 ```blocks3
 quando alguém clicar na bandeira verde
@@ -91,7 +91,7 @@ pára [all v]
 
 O jogador deve ganhar pontos por apanhar pontos. e deve perder vidas por falhar. Um 'ponto' só pode ser apanhado se a cor do controlador for a mesma do 'ponto'.
 
-\--- task \--- Volta à área do guiāo do actor 'vermelho' para adicionar alguns blocos ao fim do guiāo `Quando fores criado como um clone`{:class="block3control"} do actor.
+\--- task \--- Volta à área do guião do actor 'vermelho' para adicionar alguns blocos ao fim do guiāo `Quando fores criado como um clone`{:class="block3control"} do actor.
 
 Primeiro, faz o clone do 'ponto' `anda 5 passos`{:class="block3motion"} para que se sobreponha ao controlador.
 
@@ -119,7 +119,7 @@ remove-te como clone
 
 Testa o teu jogo para ter a certeza que:
 
-1. Perdes uma vida se nāo acertares um 'ponto' com a cor correcta
+1. Perdes uma vida se não acertares um 'ponto' com a cor correcta
 2. Marcas um ponto se acertares com a cor correta
 
 \--- /task \---
