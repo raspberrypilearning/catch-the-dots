@@ -1,6 +1,6 @@
 ## O que se segue?
 
-Experimenta o projeto '[Guerra de clones'](https://projects.raspberrypi.org/en/projects/clone-wars?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) para criares um jogo no qual tens de salvar a Terra de monstros espaciais. Nesse projeto, podes usar o que aprendeste acera de clonar actores e ajuntar uma pontuaçāo!
+Experimenta o projeto '[Guerra de clones'](https://projects.raspberrypi.org/en/projects/clone-wars?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) para criares um jogo no qual tens de salvar a Terra de monstros espaciais. Nesse projeto, podes usar o que aprendeste acerca de clonar actores e ajuntar uma pontuaçāo!
 
 \--- no-print \---
 
