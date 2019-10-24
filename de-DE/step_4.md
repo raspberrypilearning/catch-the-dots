@@ -1,61 +1,59 @@
-## Punkte einsammeln
+## Noch mehr Punkte
 
-\--- Aufgabe \--- Dupliziere dein 'rotes' Sprite zweimal und benenne die beiden neuen Sprites 'gelb' und 'blau'.
+\--- task \--- Dupliziere deine 'rote' Figur zweimal und benenne die beiden neuen Figuren 'gelb' und 'blau'.
 
 ![Screenshot](images/dots-more-dots.png) \--- /task \---
 
-\--- Aufgabe \--- Ändere das Kostüm jedes neuen Sprites so, dass es die richtige Farbe hat: Der gelbe Sprite sollte gelb sein und der blaue Sprite sollte blau sein. \--- /task \---
+\--- task \--- Ändere das Kostüm jeder neuen Figur so, dass es die richtige Farbe hat: Die "gelb"-Figur sollte gelb sein und die "blau"-Figur sollte blau sein. \--- /task \---
 
-\--- task \--- Ändere den Code jedes Sprites so, dass der Spieler die Punktfarbe auf dem Controller mit der richtigen Farbe vergleichen muss, um Punkte zu erzielen.
+\--- task \--- Ändere den Code jeder Figur so, dass der Spieler den Controller so drehen muss, dass er den Punkt mit der entsprechenden Farbe fangen kann, um Punkte zu erzielen.
 
 ![Screenshot](images/dots-all-test.png)
 
-\--- Hinweise \--- \--- Hinweis \--- Dies ist der Code, den Sie für beide neuen Sprites finden und ändern müssen:
+\--- hints \--- \--- hint \--- Dies ist der Code, den du für beide neuen Figuren finden und ändern musst:
 
 ![Screenshot](images/dots-more-dots.png)
 
 ```blocks3
-    Wenn <touching color [#FF0000]?> dann
-        [Score v] um (1)
-        ändern, Sound abspielen (Pop v)
-...
+    falls <wird Farbe [#FF0000] berührt?> , dann
+    ändere [Punkte v] um (1)
+    spiele Klang (Plopp v) ganz
+    ...
     Ende
 ```
 
-\--- / Hinweis \--- \--- Hinweis \--- So müssen Sie den Code für das gelbe Sprite ändern:
+\--- /hint \--- \--- hint \--- So musst du den Code für das gelbe Sprite ändern:
 
 ```blocks3
-    wenn <Farbe berührt [# FFFF00]? :: +> dann
-        [Score v] um (1)
-        ändern, um Sound (Pop v)
-    abzuspielen
+    falls <wird Farbe [#FFFF00] berührt?>, dann     ändere [Punkte v] um (1)
+    spiele Klang (Plopp v) ganz
+Ende
 ```
 
-So müssen Sie den Code für das blaue Sprite ändern:
+So musst du den Code für die blaue Figur ändern:
 
 ```blocks3
-    wenn <Farbe berührt [# 0000FF]? :: +> dann
-        [Score v] um (1)
-        ändern, um Sound (Pop v)
-    abzuspielen
+    falls <wird Farbe [#0000FF] berührt?>, dann     ändere [Punkte v] um (1)
+    spiele Klang (Plopp v) ganz
+Ende
 ```
 
-\--- / Hinweis \--- \--- / Hinweise \--- \--- / Aufgabe \---
+\--- /hint \--- \--- /hints \--- \--- /task \---
 
-Wenn Sie das Spiel jetzt spielen, können Sie sehen, dass die Punkte manchmal übereinander erstellt werden.
+Wenn du das Spiel jetzt spielst, kannst du sehen, dass die Punkt-Figuren manchmal übereinander erstellt werden.
 
-\--- task \--- Ändern Sie den Code für das 'gelbe' Punkt-Sprite so, dass es vier Sekunden nach dem Klicken auf die Flagge wartet, bevor es erscheint.
+\--- task \--- Ändere den Code für die 'gelbe' Punkt-Figur so, dass sie nach dem Klicken auf die Flagge vier Sekunden wartet, bevor sie erscheint.
 
-![Gelber Punkt](images/yellow-sprite.png)
+![Punkt-Figur gelb](images/yellow-sprite.png)
 
 ```blocks3
-    Wenn die Flagge auf
-    geklickt wurde, verstecke
-und warte (4) Sekunden
+    Wenn die Flagge angeklickt wird
+    verstecke dich
++  warte (4) Sekunden
 ```
 
-![Blauer Punkt](images/blue-sprite.png)
+![Punkt-Figur blau](images/blue-sprite.png)
 
-Ändern Sie dann den Code für das "blaue" Punktsprite so, dass es 6 Sekunden nach dem Klicken auf die Flagge wartet, bevor es erscheint.
+Ändere dann den Code für die "blaue" Punkt-Figur so, dass sie nach dem Klicken auf die Flagge 6 Sekunden wartet, bevor sie erscheint.
 
 \--- /task \---
