@@ -1,7 +1,7 @@
 --- challenge ---
-## Aufgabe: Spielmenü 
-Kannst du ein Menü (mit Tasten) zu deinem Spiel hinzufügen? Du könntest einen Spielanleitungsbildschirm hinzufügen oder einen separaten Bildschirm, um dort die hohe Punktzahl anzuzeigen. Falls du hierbei Hilfestellung benötigst, dann wird dir das 'Brain Game' Projekt hierbei nützlich sein.
 
+## Challenge: Game menu
 
+Can you add a menu (with buttons) to your game? You could add an instructions screen, or a separate screen for showing the high score. If you need help with this, the 'Brain Game' project will help you.
 
 --- /challenge ---

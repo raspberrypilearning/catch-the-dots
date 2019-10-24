@@ -1,72 +1,60 @@
-## Punkte einsammeln
+## Noch mehr Punkte
 
-Lass uns ein paar Punkte hinzufügen, die der Spieler mit dem Controller einsammeln kann.
+--- task --- Dupliziere deine 'rote' Figur zweimal und benenne die beiden neuen Figuren 'gelb' und 'blau'.
 
-+ Erstelle ein neues Sprite namens 'red' (rot). Dieses Sprite sollte ein kleiner roter Punkt sein.
+![Screenshot](images/dots-more-dots.png) --- /task ---
 
-	![screenshot](images/dots-red.png)
+--- task --- Ändere das Kostüm jeder neuen Figur so, dass es die richtige Farbe hat: Die "gelb"-Figur sollte gelb sein und die "blau"-Figur sollte blau sein. --- /task ---
 
-+ Füge dieses Script zu deinem 'red' roten Punkt Sprite hinzu, um alle paar Sekunden einen neuen Punkt-Klon zu erstellen:
+--- task --- Ändere den Code jeder Figur so, dass der Spieler den Controller so drehen muss, dass er den Punkt mit der entsprechenden Farbe fangen kann, um Punkte zu erzielen.
 
-	```blocks
-		Wenn die grüne Flagge angeklickt
-		verstecke dich
-		warte (2) Sek.
-		wiederhole fortlaufend
-  			 erzeuge Klon von [mir selbst v]
-  			 warte (Zufallszahl von (5) bis (10)) Sek.
-		Ende
-	```
+![Screenshot](images/dots-all-test.png)
 
-+ Wenn jeder Klon erstellt wurde, willst du, dass er in einer der 4 Ecken des Stadiums erscheint.
+--- hints ---
+ --- hint --- Dies ist der Code, den du für beide neuen Figuren finden und ändern musst:
 
-	![screenshot](images/dots-start.png)
+![Screenshot](images/dots-more-dots.png)
 
-	Damit dies geschieht, musst du als erstes eine neue __Liste__ namens `start positions`{:class="blockdata"} (Startpositionen) erstellen und auf das `(+)` klicken, um die Werte `-180` und `180` hinzuzufügen.
+```blocks3
+    falls <wird Farbe [#FF0000] berührt?> , dann
+    ändere [Punkte v] um (1)
+    spiele Klang (Plopp v) ganz
+    ...
+    Ende
+```
 
-	![screenshot](images/dots-list.png)
+--- /hint --- --- hint --- So musst du den Code für das gelbe Sprite ändern:
 
-+ Du kannst diese 2 Listen-Artikel benutzen, um eine zufällige Ecke des Stadiums auszuwählen. Füge diesen Code zum 'dot' (Punkt) Sprite hinzu, sodass jeder neue Klon sich in eine zufällig ausgewählte Ecke bewegt und sich dann langsam auf den Controller zubewegt.
+```blocks3
+    falls <wird Farbe [#FFFF00] berührt?>, dann     ändere [Punkte v] um (1)
+    spiele Klang (Plopp v) ganz
+Ende
+```
 
-	```blocks
-		Wenn ich als Klon entstehe
-		gehe zu x:(Element (random v) von [start positions v]) y:(Element (random v) von [start positions v])
-		drehe dich zu [controller v]
-		zeige dich
-		wiederhole bis <wird [controller v] berührt?>
-   			gehe (1) er-Schritt
-		Ende
-	```
+So musst du den Code für die blaue Figur ändern:
 
-	Der o.g. Code wählt entweder `-180` oder `180` für die x _und_ y Positionen, was bedeutet, dass jeder Klon in einer Ecke des Stadiums beginnt.
+```blocks3
+    falls <wird Farbe [#0000FF] berührt?>, dann     ändere [Punkte v] um (1)
+    spiele Klang (Plopp v) ganz
+Ende
+```
 
-+ Teste dein Projekt. Du solltest jetzt sehen können, dass ganz viele rote Punkte in jeder Ecke des Bildschirms erscheinen und sich langsam auf den Controller hinzubewegen.
+--- /hint --- --- /hints --- --- /task ---
 
-	![screenshot](images/dots-red-test.png)
+Wenn du das Spiel jetzt spielst, kannst du sehen, dass die Punkt-Figuren manchmal übereinander erstellt werden.
 
-+ Erstelle 2 neue Variable namens `lives`{:class="blockdata"} (Leben) und `score`{:class="blockdata"} (Punktzahl).
+--- task --- Ändere den Code für die 'gelbe' Punkt-Figur so, dass sie nach dem Klicken auf die Flagge vier Sekunden wartet, bevor sie erscheint.
 
-+ Füge den Code zu deinem Stadium hinzu, um die `lives`{:class="blockdata"} Leben-Blockdaten auf 3 und die `score`{:class="blockdata"} Punktzahl-Blockdaten auf 0 zu Beginn des Spiels einzustellen.
+![Punkt-Figur gelb](images/yellow-sprite.png)
 
-+ Du musst den Code zum Ende deines roten `when I start as a clone`{:class="blockcontrol"} (wenn ich als Klon beginne) Punkt-Codes hinzufügen, damit entweder 1 zur `score`{:class="blockdata"} (Punktzahl) des Spielers hinzugefügt wird, wenn die Farben zueinander passen oder 1 vom `lives`{:class="blockdata"} Leben des Spielers abgezogen wird, wenn die Farben nicht zueinander passen.
+```blocks3
+    Wenn die Flagge angeklickt wird
+    verstecke dich
++  warte (4) Sekunden
+```
 
-	```blocks
-		gehe (5) er-Schritt
-		falls <wird Farbe [#FF0000] berührt?> dann
-   			ändere [score v] um (1)
-   			spiele Klang [pop v]
-		sonst
-  			ändere [lives v] um (-1)
-   			spiele Klang [laser1 v]
-		Ende
-		lösche diesen Klon
-	```
+![Punkt-Figur blau](images/blue-sprite.png)
 
-+ Füge diesen Code zum Ende deines Stadion-Scripts hinzu, damit das Spiel beendet wird, wenn der Spieler alle seine Leben verloren hat:
+Ändere dann den Code für die "blaue" Punkt-Figur so, dass sie nach dem Klicken auf die Flagge 6 Sekunden wartet, bevor sie erscheint.
 
-	```blocks
-		warte bis <(lives) < [1]>
-		stoppe [alles v]
-	```
-
-+ Teste dein Spiel, um zu gewährleisten, dass dieser Code wie erwartet funktioniert.
+--- /task ---

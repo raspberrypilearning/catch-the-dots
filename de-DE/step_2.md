@@ -1,24 +1,74 @@
-## Einen Controller herstellen
+## Erstelle einen Controller
 
-Lass uns damit beginnen, einen Controller herzustellen, der dazu benutzt wird, um die Punkte einzufangen.
+Erstelle zunächst einen Controller, den der Spieler zum Sammeln von Punkten verwenden soll.
 
-+ Öffne das 'Catch the Dots' (Fang die Punkte) Scratch Projekt online unter <a href="http://jumpto.cc/dots-go" target="_blank">jumpto.cc/dots-go</a> oder lade es von <a href="http://jumpto.cc/dots-get" target="_blank">jumpto.cc/dots-get</a> herunter udn öffnes es dann, wenn du den offline Editor benutzt.
+--- task --- Öffne das Scratch-Basisprojekt 'Fang die Punkte'.
 
-	Du solltest ein Controller Sprite sehen können:
+**Online:** öffne das Basisprojekt auf [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
 
-	![screenshot](images/dots-controller.png)
-	
-	
-+ Drehe deinen Controller nach rechts, wenn die rechte Pfeiltaste gedrückt wird:
+Wenn du bereits einen Scratch-Account besitzt, kannst du dir durch klicken auf **Remix** eine Kopie anlegen.
 
-	```blocks
-		Wenn die grüne Flagge angeklickt
-		wiederhole fortlaufend
-  			 falls <Taste [Pfeil nach rechts v] gedrückt?> dann
-      			drehe dich nach rechts um (3) Grad
-   			Ende
-		Ende
-	```
-+ Teste deinen Controller: Er sollte sich nach rechts drehen.
+**Offline:** Lade das Basisprojekt von [rpf.io/p/de-DE/catch-the-dots-go](http://rpf.io/p/de-DE/catch-the-dots-go) herunter und öffne es dann mit dem Scratch Offline-Editor.
 
+Wenn du den Scratch-Offline-Editor herunterladen und installieren möchtest, findest du diesen unter [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
+--- /task ---
+
+Du solltest einen Controller (Steuerungs-Figur) sehen:
+
+![Bildschirmfoto](images/dots-controller.png)
+
+--- task --- Füge Code zur Controller-Figur hinzu, damit sie sich rechts herum dreht, wenn die "Pfeil nach rechts" Taste gedrückt wird:
+
+![Controller-Figur](images/controller-sprite.png)
+
+```blocks3
+    wenn grüne Fahne angeklickt
+    wiederhole fortlaufend
+        falls <Taste ( Pfeil nach rechts v) gedrückt?> dann
+            drehe dich rechts um (3) Grad
+        Ende
+    Ende
+```
+
+--- /task ---
+
+--- task --- Teste deinen Code. Der Controller sollte sich nach rechts drehen, wenn du die Taste "Pfeil nach rechts" drückst. --- /task ---
+
+--- task --- Füge Code zur Controller-Figur hinzu, damit sie sich links herum dreht, wenn die "Pfeil nach links" Taste gedrückt wird.
+
+![Controller-Figur](images/controller-sprite.png)
+
+--- hints ---
+ --- hint ---
+
+Suche den Code, der prüft, ob die Taste "Pfeil nach rechts" gedrückt ist und der dafür sorgt, dass die Figur sich nach rechts dreht. Kannst du eine Kopie dieses Codes machen und ihn so abändern, dass er prüft, ob die Taste "Pfeil nach links" gedrückt wurde und der die Figur dann nach links drehen lässt?
+
+--- /hint --- --- hint --- Hier sind die Code Blöcke die du brauchst:
+
+```blocks3
+<Taste ( Leertaste v) gedrückt?>
+
+drehe dich links um (15) grad
+
+wenn <> dann
+
+Ende
+```
+
+--- /hint --- --- hint --- So sollte dein Code aussehen:
+
+```blocks3
+    wenn grüne Fahne angeklickt
+    wiederhole fortlaufend
+        falls <Taste ( Pfeil nach rechts v) gedrückt?> dann
+            drehe dich rechts um (3) Grad
+        Ende
+
+        falls <Taste ( Pfeil nach links v) gedrückt?> dann
+            drehe dich links um (3) grad
+        Ende
+    Ende
+```
+
+--- /hint --- --- /hints --- --- /task ---
