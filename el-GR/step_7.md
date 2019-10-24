@@ -19,10 +19,10 @@
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    ορισμός έλεγξε υψηλό σκορ
-    εάν <(σκορ :: variables) > (υψηλό σκορ)> τότε
-        όρισε [υψηλό σκορ v] σε (σκορ :: variables)
-    τέλος
+    ορισμός check high score
+εάν <(score :: variables) > (high score)> τότε 
+  όρισε [high score v] σε (score :: variables)
+end
 ```
 
 \--- /task \---
@@ -32,13 +32,13 @@
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-όταν γίνει κλικ στη σημαία
-όρισε [ζωές v] σε (3)
-όρισε [σκορ v] σε (0)
-περίμενε ώσπου <(ζωές) < (1)>
+Όταν στην πράσινη σημαία γίνει κλικ
+όρισε [lives v] σε (3)
+όρισε [score v] σε (0)
+περίμενε ώσπου <(lives) < (1)> < (1)>
 
-+ έλεγξε υψηλό σκορ :: custom
-σταμάτησε [όλα v]
++ check high score :: custom
+σταμάτησε [all v]
 ```
 
 \--- /task \---
