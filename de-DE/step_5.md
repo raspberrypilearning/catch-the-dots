@@ -11,7 +11,7 @@ Jetzt machen wir das Spiel schwieriger, je länger der Spieler es spielt. Das ma
 ![Figur Bühne](images/stage-sprite.png)
 
 ```blocks3
-    Wenn die Flagge angeklickt wird
+    Wenn die grüne Flagge angeklickt
 setze [Verzögerung v] auf (8)
 wiederhole bis < (Verzögerung) = (2)>
     warte (10) Sekunden
@@ -30,7 +30,7 @@ Als nächstes verwendest Du die Variable `Verzögerung`{:class="block3variables"
 ![Screenshot](images/all-dots.png)
 
 ```blocks3
-<br />-   warte (Zufallszahl von (5) bis (10)) Sekunden
+-   warte (Zufallszahl von (5) bis (10)) Sekunden
     warte (Verzögerung :: variables) Sekunden
 ```
 

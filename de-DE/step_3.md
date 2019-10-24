@@ -13,13 +13,13 @@ Jetzt fügst du einige Punkte hinzu, die der Spieler sammeln muss.
 ![Punkt-Figur rot](images/red-sprite.png)
 
 ```blocks3
-    Wenn die Flagge angeklickt wird
-    verstecke dich
-    warte (2) Sekunden
-    wiederhole fortlaufend
-        erzeuge einen Klon von (mir selbst v)
-        warte (Zufallszahl von (5) bis (10)) Sekunden
-    Ende
+    Wenn die grüne Flagge angeklickt
+        verstecke dich
+        warte (2) Sekunden
+        wiederhole fortlaufend 
+            erzeuge Klon von (mir selbst v)
+            warte (Zufallszahl von (5) bis (10)) Sekunden
+    end
 ```
 
 --- /task ---
@@ -71,7 +71,7 @@ gehe zu x: (Element (Zufallszahl von (1) bis (2)) von [Startpositionen v]) y: (E
 --- task --- Füge der Bühne Code hinzu, um zu Beginn des Spiels die Variable `Leben`{:class="block3variables"} auf `3` und die Variable `Punkte`{:class="block3variables"} auf `0` zu setzen. ![Bühne](images/stage-sprite.png)
 
 ```blocks3
-Wenn die Flagge angeklickt wird
+Wenn die grüne Flagge angeklickt
 setze [Leben v] auf (3)
 setze [Punkte v] auf (0)
 ```
@@ -83,7 +83,7 @@ setze [Punkte v] auf (0)
 ![Bühne](images/stage-sprite.png)
 
 ```blocks3
-    warte bis <(Leben :: Variablen) < [1]>
+    warte bis <(Leben :: variables) < [1]>
     stoppe [alles v]
 ```
 
@@ -103,14 +103,14 @@ Füge dann Code hinzu, um entweder `1` zu `Punkte`{:class="block3variables"} zu 
 
 ```blocks3
     gehe (5) er Schritt
-falls <wird Farbe [#FF0000] berührt?> dann
-    ändere [Punkte v] um (1)
-    spiele Klang (Plopp v) ganz
-sonst
-    ändere [Leben v] um (-1)
-    spiele Klang (Laser1 v) ganz
-Ende
-lösche diesen Klon
+    falls <wird Farbe [#FF0000] berührt?> , dann
+        ändere [Punkte v] um (1)
+        spiele Klang (ppp v) ganz
+    sonst
+        ändere [Leben v] um (-1)
+        spiele Klang (Laser1 v) ganz
+    end
+    lösche diesen Klon
 ```
 
 --- /task ---

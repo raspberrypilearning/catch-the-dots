@@ -51,7 +51,10 @@ title: Was du brauchen wirst
 title: Zusätzliche Hinweise für Pädagogen
 ---
 
---- no-print--- Wenn du dieses Projekt ausdrucken möchtest, verwende die [druckfreundliche Version](https://projects.raspberrypi.org/de-DE/projects/catch-the-dots/print). --- /no-print ---
+--- no-print--- 
+Wenn du dieses Projekt ausdrucken möchtest, verwende die [druckfreundliche Version](https://projects.raspberrypi.org/de-DE/projects/catch-the-dots/print). 
+
+--- /no-print ---
 
 Du findest das [abgeschlossene Projekt hier](http://rpf.io/p/de-DE/catch-the-dots-get){:target="_blank"}.
 

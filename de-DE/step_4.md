@@ -16,27 +16,29 @@
 ![Screenshot](images/dots-more-dots.png)
 
 ```blocks3
-    falls <wird Farbe [#FF0000] berührt?> , dann
-    ändere [Punkte v] um (1)
-    spiele Klang (Plopp v) ganz
-    ...
-    Ende
+    falls <wird Farbe [#FF0000] berührt?> , dann 
+        ändere [Punkte v] um (1)
+        spiele Klang (pop v)
+        . . .
+    end
 ```
 
 --- /hint --- --- hint --- So musst du den Code für das gelbe Sprite ändern:
 
 ```blocks3
-    falls <wird Farbe [#FFFF00] berührt?>, dann     ändere [Punkte v] um (1)
-    spiele Klang (Plopp v) ganz
-Ende
+    falls <wird Farbe [#FFFF00] berührt? :: +> , dann 
+        ändere [Punkte v] um (1)
+        spiele Klang (pop v)
+    end
 ```
 
 So musst du den Code für die blaue Figur ändern:
 
 ```blocks3
-    falls <wird Farbe [#0000FF] berührt?>, dann     ändere [Punkte v] um (1)
-    spiele Klang (Plopp v) ganz
-Ende
+    falls <wird Farbe [#0000FF] berührt? :: +> , dann 
+        ändere [Punkte v] um (1)
+        spiele Klang (pop v)
+    end
 ```
 
 --- /hint --- --- /hints --- --- /task ---
@@ -48,7 +50,7 @@ Wenn du das Spiel jetzt spielst, kannst du sehen, dass die Punkt-Figuren manchma
 ![Punkt-Figur gelb](images/yellow-sprite.png)
 
 ```blocks3
-    Wenn die Flagge angeklickt wird
+    Wenn die grüne Flagge angeklickt
     verstecke dich
 +  warte (4) Sekunden
 ```

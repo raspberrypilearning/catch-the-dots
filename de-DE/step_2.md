@@ -23,12 +23,12 @@ Du solltest einen Controller (Steuerungs-Figur) sehen:
 ![Controller-Figur](images/controller-sprite.png)
 
 ```blocks3
-    wenn grüne Fahne angeklickt
-    wiederhole fortlaufend
-        falls <Taste ( Pfeil nach rechts v) gedrückt?> dann
-            drehe dich rechts um (3) Grad
-        Ende
-    Ende
+    Wenn die grüne Flagge angeklickt
+    wiederhole fortlaufend 
+        falls <Taste (Pfeil nach rechts v) gedrückt?> , dann 
+            drehe dich nach rechts um (3) Grad
+        end
+    end
 ```
 
 --- /task ---
@@ -47,28 +47,26 @@ Suche den Code, der prüft, ob die Taste "Pfeil nach rechts" gedrückt ist und d
 --- /hint --- --- hint --- Hier sind die Code Blöcke die du brauchst:
 
 ```blocks3
-<Taste ( Leertaste v) gedrückt?>
+<key (Leertaste v) pressed?>
 
-drehe dich links um (15) grad
+drehe dich nach links um (15) Grad
 
-wenn <> dann
-
-Ende
+falls <> , dann
+end
 ```
 
 --- /hint --- --- hint --- So sollte dein Code aussehen:
 
 ```blocks3
-    wenn grüne Fahne angeklickt
-    wiederhole fortlaufend
-        falls <Taste ( Pfeil nach rechts v) gedrückt?> dann
-            drehe dich rechts um (3) Grad
-        Ende
-
-        falls <Taste ( Pfeil nach links v) gedrückt?> dann
-            drehe dich links um (3) grad
-        Ende
-    Ende
+    Wenn die grüne Flagge angeklickt
+    wiederhole fortlaufend 
+        falls <Taste (Pfeil nach rechts v) gedrückt?> , dann 
+            drehe dich nach rechts um (3) Grad
+        end
++       falls <Taste (Pfeil nach links v) gedrückt?> , dann 
+            drehe dich nach links um (3) Grad
+        end
+    end
 ```
 
 --- /hint --- --- /hints --- --- /task ---

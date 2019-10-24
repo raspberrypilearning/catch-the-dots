@@ -20,9 +20,9 @@ Du wirst den Höchstpunktestand des Spiels speichern, damit die Spieler sehen k�
 
 ```blocks3
     Definiere prüfe Höchstpunktestand
-wenn <(Punkte :: variables) > (Höchstpunktestand)>, dann
-    setze [Höchstpunktestand v] auf (Punkte :: variables)
-Ende
+    falls <(Punkte :: variables) > (Höchstpunktestand)> , dann 
+        setze [Höchstpunktestand v] auf (Punkte :: variables)
+    end
 ```
 
 --- /task ---
@@ -32,12 +32,11 @@ Ende
 ![Figur Bühne](images/stage-sprite.png)
 
 ```blocks3
-Wenn die Flagge angeklickt wird
+Wenn die grüne Flagge angeklickt
 setze [Leben v] auf (3)
 setze [Punkte v] auf (0)
 warte bis <(Leben) < (1)>
-
-+ prüfe Höchstpunktestand : : custom
++ prüfe Höchstpunktestand :: custom
 stoppe [alles v]
 ```
 
