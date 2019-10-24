@@ -1,10 +1,10 @@
-## Zusatzaufgabe: mehr Stifte
+## Wie geht es weiter?
 
-Try the [Clone wars](https://projects.raspberrypi.org/en/projects/clone-wars?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project to make a game in which you have to save the Earth from space monsters. In diesem Projekt können Sie das, was Sie über das Klonen von Sprites und das Hinzufügen von Punkten gelernt haben, verwenden!
+Versuche das Projekt [Krieg der Klone](https://projects.raspberrypi.org/en/projects/clone-wars?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) in dem du ein Spiel machst wo du die Erde vor Monstern aus dem Weltall retten musst. In diesem Projekt kannst du das, was du über das Klonen von Figuren und das Hinzufügen von Punkten gelernt hast, verwenden!
 
 \--- no-print \---
 
-Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
+Klicke zum Starten auf die grüne Flagge im Beispiel unten und drücke <kbd>Pfeil links</kbd> und <kbd>Pfeil rechts</kbd> um das Raumschiff zu steuern. Drücke die <kbd>Leertaste</kbd> um zu schießen.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -13,10 +13,10 @@ Click the green flag in the example game below to start, and then press the <kbd
 
 \--- /no-print \---
 
-Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
+Sammle durch, das Abschießen von fliegenden Weltraum-Flußpferden, so viele Punkte wie du kannst. Wenn du mit einem Flußpferd zusammenstößt, oder von einer Orange, die von den Fledermäusen fallen gelassen werden, getroffen wirst, verlierst du ein Leben.
 
 \--- print-only \---
 
-![desc](images/clone-showcase.png)
+![Beschreibung](images/clone-showcase.png)
 
 \--- /print-only \---
