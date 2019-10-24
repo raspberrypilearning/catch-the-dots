@@ -46,7 +46,7 @@ end
 \--- /hint \--- \--- hint \--- فيما يلي التعليمات البرمجية التي ستحتاج إليها:
 
 ```blocks3
-&lt;key (space v) pressed?&gt;
+<key (space v) pressed?>
 
 استدر ↺ (15) درجة
 
