@@ -1,71 +1,71 @@
-## Einen Controller herstellen
+## Erstelle einen Controller
 
-Erstellen Sie zunächst einen Controller, den der Spieler zum Sammeln von dots verwenden soll.
+Erstelle zunächst einen Controller, den der Spieler zum Sammeln von Punkten verwenden soll.
 
-\--- task \--- Öffnen Sie das Scratch Projekt 'Catch the dots'.
+\--- task \--- Öffne das Scratch-Basisprojekt 'Fang die Punkte'.
 
-**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
+**Online:** öffne das Basisprojekt auf [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
 
-Wenn du bereits einen Scratch-Account besitzt, kannst du dir eine Kopie anlegen.
+Wenn du bereits einen Scratch-Account besitzt, kannst du dir durch klicken auf **Remix** eine Kopie anlegen.
 
-**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
+**Offline:** Lade das Basisprojekt von [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go) herunter und öffne es dann mit dem Scratch Offline-Editor.
 
-Wenn du den Scratch-Offline-Editor herunterladen und installieren möchtest, findest du diesen unter rpf.io/scratchoff.
+Wenn du den Scratch-Offline-Editor herunterladen und installieren möchtest, findest du diesen unter [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
 \--- /task \---
 
-You should see a controller sprite:
+Du solltest einen Controller (Steuerungs-Figur) sehen:
 
-![screenshot](images/dots-controller.png)
+![Bildschirmfoto](images/dots-controller.png)
 
-\--- task \--- Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
+\--- task \--- Füge Code zur Controller-Figur hinzu, damit sie sich rechts herum dreht, wenn die "Pfeil nach rechts" Taste gedrückt wird:
 
-![Controller sprite](images/controller-sprite.png)
+![Controller-Figur](images/controller-sprite.png)
 
 ```blocks3
-    wenn die Fahne für immer auf
-    geklickt wurde
-        wenn <key (right arrow v) pressed?> dann
-            rechts (3) Grad
+    wenn grüne Fahne angeklickt
+    wiederhole fortlaufend
+        falls <Taste ( Pfeil nach rechts v) gedrückt?> dann
+            drehe dich rechts um (3) Grad
         Ende
     Ende
 ```
 
 \--- /task \---
 
-\--- task \--- Test your code. The controller should spin to the right when you press the right arrow key. \--- /task \---
+\--- task \--- Teste deinen Code. Der Controller sollte sich nach rechts drehen, wenn du die Taste "Pfeil nach rechts" drückst. \--- /task \---
 
-\--- task \--- Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
+\--- task \--- Füge Code zur Controller-Figur hinzu, damit sie sich links herum dreht, wenn die "Pfeil nach links" Taste gedrückt wird.
 
-![Controller sprite](images/controller-sprite.png)
+![Controller-Figur](images/controller-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-Find the code that checks whether the right arrow key is pressed and makes the sprite turn right. Can you add a copy of this code, and change the copy so it checks whether the left arrow key is pressed and makes the sprite turn left?
+Suche den Code, der prüft, ob die Taste "Pfeil nach rechts" gedrückt ist und der dafür sorgt, dass die Figur sich nach rechts dreht. Kannst du eine Kopie dieses Codes machen und ihn so abändern, dass er prüft, ob die Taste "Pfeil nach links" gedrückt wurde und der die Figur dann nach links drehen lässt?
 
-\--- /hint \--- \--- hint \--- Here are the blocks you need:
+\--- /hint \--- \--- hint \--- Hier sind die Code Blöcke die du brauchst:
 
 ```blocks3
-<key (space v) pressed?>
+<Taste ( Leertaste v) gedrückt?>
 
-links abbiegen (15) grad
+drehe dich links um (15) grad
 
 wenn <> dann
 
-ende
+Ende
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- /hint \--- \--- hint \--- So sollte dein Code aussehen:
 
 ```blocks3
-    wenn die Fahne für immer auf
-    geklickt wurde
-        wenn <key (right arrow v) pressed?> dann
-            rechts abbiegen (3) Grad
+    wenn grüne Fahne angeklickt
+    wiederhole fortlaufend
+        falls <Taste ( Pfeil nach rechts v) gedrückt?> dann
+            drehe dich rechts um (3) Grad
         Ende
 
-+ Wenn <key (left arrow v) pressed?> dann
-            links abbiegen (3) Grad
+        falls <Taste ( Pfeil nach links v) gedrückt?> dann
+            drehe dich links um (3) grad
         Ende
     Ende
 ```
