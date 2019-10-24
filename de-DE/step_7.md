@@ -1,8 +1,48 @@
---- challenge ---
-## Aufgabe: Sich schneller bewegende Punkte 
-Kannst du dein Spiel verbessern, indem du eine `speed`{:class="blockdata"} (Geschwindigkeit) Variable hinzufügst, sodass die Punkte damit beginnen, sich je einen Schritt zur Zeit zu bewegen und dann langsam aber sicher schneller und schneller werden? Das funktioniert sehr ähnlich wie die `delay`{:class="blockdata"} (Verzögrung) Variable, die du, wie o.g., benutzt hast und du kannst diesen Code benutzen, um dir hierbei zu helfen.
+## Höchstpunktestand
 
+Du wirst den Höchstpunktestand des Spiels speichern, damit die Spieler sehen können, wie gut sie sind.
 
+--- task --- Erstelle eine neue Variable mit dem Namen `Höchstpunktestand`{:class="block3variables"}.
 
+![Figur Bühne](images/stage-sprite.png)
 
---- /challenge ---
+--- /task ---
+
+--- task --- Wähle die Bühne aus. Klicke auf ‚Meine Blöcke‘ und erstelle einen neuen benutzerdefinierten Block namens `prüfe Höchstpunktestand`{:class="block3myblocks"}.
+
+![Figur Bühne](images/stage-sprite.png) ![Screenshot](images/dots-custom-1.png)
+
+--- /task ---
+
+--- task --- Füge deinem benutzerdefinierten Block Code hinzu, damit der Block prüft, ob der aktuelle Wert von `Punkte`{:class="block3variables"} größer als der Wert von `Höchstpunktestand`{:class="block3variables"} ist und speichere dann den Wert von `Punkte`{:class="block3variables"} als neuen Wert von `Höchstpunktestand`{:class="block3variables"}.
+
+![Figur Bühne](images/stage-sprite.png)
+
+```blocks3
+    Definiere prüfe Höchstpunktestand
+    falls <(Punkte :: variables) > (Höchstpunktestand)> , dann 
+        setze [Höchstpunktestand v] auf (Punkte :: variables)
+```
+
+--- /task ---
+
+--- task --- Füge deinen neuen benutzerdefinierten Block zum Bühnen-Skript vor dem Ende des Skripts hinzu.
+
+![Figur Bühne](images/stage-sprite.png)
+
+```blocks3
+Wenn die grüne Flagge angeklickt
+setze [Leben v] auf (3)
+setze [Punkte v] auf (0)
+warte bis <(Leben) < (1)>
++ prüfe Höchstpunktestand :: custom
+stoppe [alles v]
+```
+
+--- /task ---
+
+--- task ---
+
+Spiele dein Spiel zweimal, um zu prüfen, ob deine Punktzahl als `Höchstpunktestand`{:class="block3variables"} richtig gespeichert wird.
+
+--- /task ---

@@ -1,56 +1,61 @@
-## Einführung
+--- no-print ---
 
-In diesem Projekt lernst du, wie man ein Spiel herstellt, in welchem du die bunten Punkte dem dazu gehörigen, richtigen Teil des Controllers zuordnen musst.
+Dies ist die **Scratch 3** Version des Projekts. Es gibt auch eine [Scratch 2-Version des Projekts](https://projects.raspberrypi.org/de-DE/projects/catch-the-dots-scratch2).
+
+--- /no-print ---
+
+## Einleitung
+
+In diesem Projekt lernst Du, wie Du ein Spiel erstellst, bei dem der Spieler farbige Punkte mit der korrekten Farbe des Controller-Rads abgleichen muss.
+
+--- no-print --- Verwende die Pfeiltasten deiner Tastatur um das Steuerrad zu drehen und fange die fliegenden Punkte wenn diese die Mitte erreichen. Wenn Du drei Punkte verpasst, ist das Spiel vorbei.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/44942820/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/338958160/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/dots-final.png">
 </div>
 
+--- /no-print ---
+
+--- print-only --- ![Dots screenshot](images/dots-final.png) --- /print-only ---
+
 --- collapse ---
 ---
-title: Notizen für den Club-Leiter
+title: Was du lernen wirst
 ---
 
-
-## Einführung:
-In diesem Projekt lernen die Kinder, wie man ein Spiel erstellt, in welchem der Spieler farbige Punkt dem dazu gehörigen Teil des Controllers zuordnet.
-
-## Ressourcen
-Für dieses Projekt sollten Sie Scratch 2 benutzen. Scratch 2 kann entweder online unter [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) benutzt werden oder es kann von [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) heruntergeladen und offline benutzt werden.
-
-Der 'Project Materials' (Projektmaterialien) Link für dieses Projekt enthält die folgenden Ressourcen:
-
-## Helfer-Ressourcen
-
-Sie finden eine fertig gestellte Version dieses Projekt <a href="http://scratch.mit.edu/projects/44942820/#editor">online</a> oder es kann heruntergeladen werden, wenn Sie auf den 'Project Materials' (Projektmaterialien) Link für dieses Projekt klicken, welcher u.a. Folgendes enthält:
-
-+ CatchTheDots.sb2
-
-## Projekt-Ressourcen
-
-Für dieses Projekt können die Club Mitglieder von den externen Ressourcen Gebrauch machen, die nicht in der Scratch Bibliothek verfügbar sind:
-
-+ controller.svg.
-
-Achten Sie darauf, dass jedes Kind Zugang zu einer Kopie dieser Ressourcen hat.
-
-Für Club Mitglieder, die nicht in der Lage sind, Zugang zu diesen Projekt Ressourcen zu erhalten, gibt es ein Scratch Projekt bei dem die externen Ressourcen bereits hochgeladen wurden. Dies ist online verfübar unter [jumpto.cc/dots-resources](http://jumpto.cc/dots-resources) oder es kann in Projektmaterialien heruntergeladen werden, welches u.a. Folgendes enthält:
-
-+ CatchTheDotsResources.sb2 
-
-## Lernziele
-+ Dieses Projekt konsolidiert das Lernen der zuvor erlernten Programmierfertigkeiten.
-
-Dieses Projekt deckt Elemente aus den folgenden Bereichen des [Raspberry Pi Lehrplans zur digitalen Produktion](http://rpf.io/curriculum):
-
-+ [Kombiniere die Programmierkonstrukte, um ein Problem zu lösen.](https://www.raspberrypi.org/curriculum/programming/builder)
-
-## Aufgaben
-+ „Links herum drehen“: Erstellen eines Codes, um den Controller zu bewegen;
-+ „Noch mehr Punkte“: Erstellen von weiteren, bunten Punkten, die zum richtigen Teil des Controllers zugeordnet werden müssen;
-+ „Sich schneller bewegende Punkte“: Benutzen einer Variable, um die Geschwindigkeit der Punkte während des Spiels zu erhöhen;
-+ „Verbessere dein Spiel! “: Hinzufügen neuer Punkte, welche die `score`{:class="blockdata"} (Punktzahl), `delay`{:class="blockdata"} (Verzögerung) und `speed`{:class="blockdata"} (Geschwindigkeit) Variablen manipulieren;
-+ „Spielmenü“: Erstelle eine Menü mit verschiedenen Hintergrundstadien und Tasten, zwischen denen man sich hin- und her bewegen kann.
++ Zufällige Elemente aus einer Liste auswählen
++ Wie man Variablen verwendet, um Geschwindigkeit, Leben und die Punktzahl des Spielers zu verfolgen
 
 --- /collapse ---
+
+--- collapse ---
+---
+title: Was du brauchen wirst
+---
+
+### Hardware
+
++ Ein Computer, auf dem Scratch 3 ausgeführt werden kann
+
+### Software
+
++ Scratch 3 (entweder [online](http://rpf.io/scratchon){:target="_blank"} oder [offline](http://rpf.io/scratchoff){:target="_blank"})
+
+### Downloads
+
++ [Offline Scratch 3-Projekt](http://rpf.io/p/de-DE/catch-the-dots-go){:target="_ blank"} --- /collapse ---
+
+--- collapse ---
+---
+title: Zusätzliche Hinweise für Pädagogen
+---
+
+--- no-print--- 
+Wenn du dieses Projekt ausdrucken möchtest, verwende die [druckfreundliche Version](https://projects.raspberrypi.org/de-DE/projects/catch-the-dots/print). 
+
+--- /no-print ---
+
+Du findest das [abgeschlossene Projekt hier](http://rpf.io/p/de-DE/catch-the-dots-get){:target="_blank"}.
+
+Du findest das [abgeschlossene Projekt hier](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} --- /collapse ---
