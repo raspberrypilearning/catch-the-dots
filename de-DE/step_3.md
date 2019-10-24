@@ -19,7 +19,6 @@ Jetzt fügst du einige Punkte hinzu, die der Spieler sammeln muss.
         wiederhole fortlaufend 
             erzeuge Klon von (mir selbst v)
             warte (Zufallszahl von (5) bis (10)) Sekunden
-    end
 ```
 
 --- /task ---
@@ -105,11 +104,10 @@ Füge dann Code hinzu, um entweder `1` zu `Punkte`{:class="block3variables"} zu 
     gehe (5) er Schritt
     falls <wird Farbe [#FF0000] berührt?> , dann
         ändere [Punkte v] um (1)
-        spiele Klang (ppp v) ganz
+        spiele Klang (pop v) ganz
     sonst
         ändere [Leben v] um (-1)
         spiele Klang (Laser1 v) ganz
-    end
     lösche diesen Klon
 ```
 

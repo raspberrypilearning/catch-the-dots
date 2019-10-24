@@ -27,8 +27,6 @@ Du solltest einen Controller (Steuerungs-Figur) sehen:
     wiederhole fortlaufend 
         falls <Taste (Pfeil nach rechts v) gedrückt?> , dann 
             drehe dich nach rechts um (3) Grad
-        end
-    end
 ```
 
 --- /task ---
@@ -47,12 +45,11 @@ Suche den Code, der prüft, ob die Taste "Pfeil nach rechts" gedrückt ist und d
 --- /hint --- --- hint --- Hier sind die Code Blöcke die du brauchst:
 
 ```blocks3
-<key (Leertaste v) pressed?>
+<Taste (Leertaste v) gedrückt?>
 
 drehe dich nach links um (15) Grad
 
 falls <> , dann
-end
 ```
 
 --- /hint --- --- hint --- So sollte dein Code aussehen:
@@ -62,11 +59,8 @@ end
     wiederhole fortlaufend 
         falls <Taste (Pfeil nach rechts v) gedrückt?> , dann 
             drehe dich nach rechts um (3) Grad
-        end
 +       falls <Taste (Pfeil nach links v) gedrückt?> , dann 
             drehe dich nach links um (3) Grad
-        end
-    end
 ```
 
 --- /hint --- --- /hints --- --- /task ---

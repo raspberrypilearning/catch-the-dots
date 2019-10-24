@@ -8,7 +8,7 @@ Du wirst den Höchstpunktestand des Spiels speichern, damit die Spieler sehen k�
 
 --- /task ---
 
---- task --- Wähle die Bühne aus. Klicke auf ‚Meine Blöcke‘ und erstelle einen neuen benutzerdefinierten Block namens `prüfe Höchstpunktestand`{:class=„block3myblocks“}.
+--- task --- Wähle die Bühne aus. Klicke auf ‚Meine Blöcke‘ und erstelle einen neuen benutzerdefinierten Block namens `prüfe Höchstpunktestand`{:class="block3myblocks"}.
 
 ![Figur Bühne](images/stage-sprite.png) ![Screenshot](images/dots-custom-1.png)
 
@@ -22,7 +22,6 @@ Du wirst den Höchstpunktestand des Spiels speichern, damit die Spieler sehen k�
     Definiere prüfe Höchstpunktestand
     falls <(Punkte :: variables) > (Höchstpunktestand)> , dann 
         setze [Höchstpunktestand v] auf (Punkte :: variables)
-    end
 ```
 
 --- /task ---

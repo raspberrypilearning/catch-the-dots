@@ -19,8 +19,7 @@
     falls <wird Farbe [#FF0000] berührt?> , dann 
         ändere [Punkte v] um (1)
         spiele Klang (pop v)
-        . . .
-    end
+        ...
 ```
 
 --- /hint --- --- hint --- So musst du den Code für das gelbe Sprite ändern:
@@ -29,7 +28,6 @@
     falls <wird Farbe [#FFFF00] berührt? :: +> , dann 
         ändere [Punkte v] um (1)
         spiele Klang (pop v)
-    end
 ```
 
 So musst du den Code für die blaue Figur ändern:
@@ -38,7 +36,6 @@ So musst du den Code für die blaue Figur ändern:
     falls <wird Farbe [#0000FF] berührt? :: +> , dann 
         ändere [Punkte v] um (1)
         spiele Klang (pop v)
-    end
 ```
 
 --- /hint --- --- /hints --- --- /task ---
