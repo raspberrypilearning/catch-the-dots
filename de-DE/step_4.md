@@ -20,6 +20,7 @@
         ändere [Punkte v] um (1)
         spiele Klang (pop v)
         ...
+    end
 ```
 
 --- /hint --- --- hint --- So musst du den Code für das gelbe Sprite ändern:
