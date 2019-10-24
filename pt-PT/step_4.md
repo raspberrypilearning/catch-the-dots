@@ -25,7 +25,7 @@
 \--- /hint \--- \--- hint \--- Aqui está como precisas de mudar o código para o actor amarelo:
 
 ```blocks3
-    if &lt;touching color [#FFFF00]? se <estás a tocar na cor [#FFFF00]:: +>, então 
+    if <touching color [#FFFF00]? se <estás a tocar na cor [#FFFF00]:: +>, então 
   adiciona a [score v] o valor (1)
   toca o som (pop v)
 end
