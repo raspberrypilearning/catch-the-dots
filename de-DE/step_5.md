@@ -1,44 +1,44 @@
-## Aufgabe: Noch mehr Punkte
+## Den Schwierigkeitsgrad steigern
 
-Jetzt wird das Spiel schwieriger, je länger der Spieler es spielt. Sie tun dies, indem Sie die Punkte mit der Zeit schneller und schneller erscheinen lassen.
+Jetzt machen wir das Spiel schwieriger, je länger der Spieler es spielt. Das machst du, indem du die Punkte mit der Zeit schneller und schneller erscheinen lässt.
 
-\--- task \--- Erstellen Sie eine neue `Variable`{: class = "block3variables"} mit dem Namen 'delay'.
+\--- task \--- Erstelle eine neue `Variable`{:class="block3variables"} mit dem Namen 'Verzögerung'.
 
-![Stage Sprite](images/stage-sprite.png) \--- /task \---
+![Figur Bühne](images/stage-sprite.png) \--- /task \---
 
-Aufgabe Wechseln Sie zum Bereich Skripts der Bühne, und erstellen Sie ein neues Skript, das die Variable `delay`{: class = "block3variables"} auf `8` und dann den Wert von `delay`{langsam reduziert. class = "block3variables"} während das Spiel läuft.
+\--- task \--- Wechsle zum Skript-Bereich der Bühne, und erstelle ein neues Skript, das die Variable `Verzögerung`{:class="block3variables"} auf `8` setzt und dann den Wert von `Verzögerung`{:class="block3variables"} langsam reduziert, während das Spiel läuft.
 
-![Stage Sprite](images/stage-sprite.png)
+![Figur Bühne](images/stage-sprite.png)
 
 ```blocks3
-    Wenn das Flag auf
-    geklickt ist, setzen Sie [delay v] bis (8)
-    bis < (delay) = (2)>
-        warten Sie (10) Sekunden
-        ändern Sie [delay v] um (-0,5)
-    end
+    Wenn die Flagge angeklickt wird
+setze [Verzögerung v] auf (8)
+wiederhole bis < (Verzögerung) = (2)>
+    warte (10) Sekunden
+    ändere [Verzögerung v] um (-0.5)
+Ende
 ```
 
 \--- /task \---
 
-Beachten Sie, dass dieser Code dem Code sehr ähnlich ist, den Sie zum Erstellen eines Countdown-Timers verwenden würden!
+Beachte, dass dieser Code dem Code sehr ähnlich ist, den du zum Erstellen eines Countdown-Timers verwenden würdest!
 
-Als nächstes verwenden Sie die Variable `delay`{: class = "block3variables"} in den Codeskripten der Sprites 'red', 'yellow' und 'blue'.
+Als nächstes verwendest Du die Variable `Verzögerung`{:class="block3variables"} in den Codeskripten der Figuren 'rot', 'gelb' und 'blau'.
 
-\--- task \--- Entferne den Code-Block, durch den das Spiel zwischen den Dot-Sprite-Klonen eine zufällige Anzahl von Sekunden warten muss. Ersetzen Sie den Block, den Sie entfernt haben, durch Ihre neue Variable `delay`{: class = "block3variables"}:
+\--- task \--- Entferne den Code-Block, der das Spiel eine zufällige Anzahl von Sekunden warten lässt bevor es einen neuen Punktklon erzeugt. Ersetze den Block, den du entfernt hast, durch deine neue Variable `Verzögerung`{:class="block3variables"}:
 
 ![Screenshot](images/all-dots.png)
 
 ```blocks3
-<br />- warte (wähle zufällig (5) bis (10)) sek
-    warte (delay :: variables) sek
+<br />-   warte (Zufallszahl von (5) bis (10)) Sekunden
+    warte (Verzögerung :: variables) Sekunden
 ```
 
-Tun Sie dies für alle drei Punktsprites.
+Tu das für alle drei Punkt-Figuren.
 
 \--- /task \---
 
-Aufgabe Teste das Spiel und überprüfe, ob die Punkte im Laufe des Spiels schneller erscheinen.
+\--- task \--- Teste das Spiel und überprüfe, ob die Punkte im Laufe des Spiels schneller erscheinen.
 
-+ Funktioniert das für alle drei farbigen Punkte?
-+ Kannst du sehen, dass der Wert der `delay`{: class = "block3variables"} Variable abnimmt? \--- /task \---
++ Funktioniert das für die Punkte aller drei Farben?
++ Siehst du, dass der Wert der Variablen `Verzögerung`{:class="block3variables"} abnimmt? \--- /task \---
