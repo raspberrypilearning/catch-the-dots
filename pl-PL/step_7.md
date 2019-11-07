@@ -1,33 +1,33 @@
 ## Tabela wyników
 
-Zachowasz wysoki wynik gry, aby gracze mogli zobaczyć, jak dobrze sobie radzą.
+Zachowasz rekord wyniku gry, aby gracze mogli zobaczyć, jak dobrze sobie radzą.
 
-\--- zadanie \--- Utwórz nową zmienną o nazwie `wysoki wynik`{: class = "block3variables"}.
+\--- task \--- Utwórz nową zmienną o nazwie `Najwyższy wynik`{:class="block3variables"}.
 
 ![Duszek sceny](images/stage-sprite.png)
 
 \--- /task \---
 
-\--- zadanie \--- Wybierz scenę. Kliknij „Moje bloki” i utwórz nowy blok niestandardowy o nazwie `wysoki wynik`{: class = „block3myblocks”}.
+\--- task \--- Wybierz scenę. Kliknij „Moje bloki” i utwórz nowy blok niestandardowy o nazwie `sprawdź najwyższy wynik`{:class=„block3myblocks”}.
 
 ![Duszek sceny](images/stage-sprite.png) ![zrzut ekranu](images/dots-custom-1.png)
 
 \--- /task \---
 
-\--- zadanie \--- Dodaj kod do swojego bloku niestandardowego, aby blok sprawdzał, czy bieżąca wartość ``{: class = "block3variables"} większą niż wartość `najwyższego wyniku`{: class = zmienna "block3variables"}, a następnie przechowuje wartość `wyników`{: class = "block3variables"} jako nowa wartość `high score`{: class = "block3variables"}.
+\--- task \--- Dodaj kod do swojego bloku niestandardowego, aby blok sprawdzał, czy bieżąca wartość zmiennej `punkty`{:class="block3variables"} ma większą wartość niż `najwyższy wynik`{:class="block3variables"}, a następnie przechowuje wartość `wynik`{:class="block3variables"} jako nową wartość zmiennej `najwyższy wynik`{:class="block3variables"}.
 
 ![Duszek sceny](images/stage-sprite.png)
 
 ```blocks3
     zdefiniuj wynik wysoki wynik
-    jeśli <(wynik :: zmienne) > (wynik wysoki)> a następnie
-        ustaw [wynik wysoki v] na (wynik :: zmienne)
+    jeśli <(wynik :: zmienne) > (najwyższy wynik)> a następnie
+        ustaw [najwyższy wynik v] na (wynik :: zmienne)
     koniec
 ```
 
 \--- /task \---
 
-\--- zadanie \--- Dodaj nowy blok niestandardowy do skryptu Stage przed końcem skryptu.
+\--- task \--- Dodaj nowy blok niestandardowy do skryptu sceny przed końcem skryptu.
 
 ![Duszek sceny](images/stage-sprite.png)
 
@@ -45,6 +45,6 @@ stop [wszystkie v]
 
 \--- task \---
 
-Zagraj w swoją grę dwa razy, aby sprawdzić, czy Twój wynik zostanie poprawnie zapisany jako `wysoki wynik`{: class = "block3variables"}.
+Zagraj w swoją grę dwa razy, aby sprawdzić, czy Twój wynik zostanie poprawnie zapisany jako `najwyższy wynik`{:class="block3variables"}.
 
 \--- /task \---
