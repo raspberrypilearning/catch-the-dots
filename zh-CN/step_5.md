@@ -1,12 +1,12 @@
-## 挑战：更多小点
+## 增加难度
 
-Now you're going to make the game more difficult the longer the player plays it. You will do this by making the dots appear faster and faster over time.
+现在你要使这个游戏在玩家长时间玩后有更高的难度. 你可以使小点每次出现越来越快.
 
-\--- task \--- Create a new `variable`{:class="block3variables"} called 'delay'.
+\--- task \--- 创建一个新的`变量`{:class="block3variables"} 叫做 'delay'.
 
 ![Stage sprite](images/stage-sprite.png) \--- /task \---
 
-\--- task \--- Go to the Stage's Scripts area and create a new script that sets the `delay`{:class="block3variables"} variable to `8` and then slowly reduces the value of `delay`{:class="block3variables"} while the game runs.
+\--- task \--- 在舞台精灵区域并创建一个新的脚本设置`delay`{:class="block3variables"} 变量值为 `8` 并且 当游戏开始运行时缓慢减少 `delay`{:class="block3variables"} 变量的值.
 
 ![Stage sprite](images/stage-sprite.png)
 
@@ -21,24 +21,24 @@ Now you're going to make the game more difficult the longer the player plays it.
 
 \--- /task \---
 
-Notice that this code is very similar to the code you would use to create a countdown timer!
+注意这个代码与你曾经创建过的倒计时的代码非常相像!
 
-Next, use the `delay`{:class="block3variables"} variable in the code scripts of the 'red', 'yellow', and 'blue' sprites.
+接下来, 在红色,黄色,蓝色精灵代码中使用 `delay`{:class="block3variables"} 变量.
 
-\--- task \--- Remove the code block that makes the game wait a random number of seconds between making the dot sprite clones. Replace the block you've removed with your new `delay`{:class="block3variables"} variable:
+\--- task \--- 删除游戏中等待随机数秒克隆精灵的代码块. 用新的带有 `delay`{:class="block3variables"} 变量的代码块替换刚删除的代码部分:
 
-![截屏](images/all-dots.png)
+![screenshot](images/all-dots.png)
 
 ```blocks3
 <br />-   wait (pick random (5) to (10)) secs
     wait (delay :: variables) secs
 ```
 
-Do this for all three dot sprites.
+对三个精灵都执行相同的操作.
 
 \--- /task \---
 
-\--- task \--- Test the game, and check whether the dots begin to appear more quickly as the game goes on.
+\--- task \--- 测试游戏, 检查随着游戏的进行小点出现的频率是否越来越快.
 
-+ Does this work for all three coloured dots?
-+ Can you see that the value of the `delay`{:class="block3variables"} variable decreases? \--- /task \---
++ 对三种颜色的小点工作都正常吗?
++ 你能看到 `delay`{:class="block3variables"} 变量值在减少吗? \--- /task \---
