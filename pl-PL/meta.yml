@@ -4,13 +4,13 @@ listed: true
 copyedit: false
 title: Łapanie kropek
 description: Naucz się, jak stworzyć grę, w której musisz dopasować kolorowe kulki do odpowiedniej części pokrętła.
-version: 3
+version: 4.0.0
 last_tested: 2018-10-16
 steps:
   - 
     title: Życzenia urodzinowe
   - 
-    title: Budowa pokrętła
+    title: Stwórz kontroler
   - 
     title: Zdobądź punkty, albo strać życia
   - 
