@@ -1,10 +1,10 @@
 ## 接下来还有什么？
 
-Try the [Clone wars](https://projects.raspberrypi.org/en/projects/clone-wars?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project to make a game in which you have to save the Earth from space monsters. In that project, you will be able to use what you have learned about cloning sprites and adding a score!
+试试[克隆战争](https://projects.raspberrypi.org/en/projects/clone-wars?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) 项目, 制作一个从怪物手中拯救地球的游戏. 在那个项目中, 你可以使用你学到的克隆精灵能力并记分!
 
---无打印--
+\--- no-print \---
 
-Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
+点击下面的示例游戏中的绿色标志开始，然后按 <kbd>左</kbd>和<kbd>右</kbd> 箭头键移动飞船， <kbd>空格</kbd> 键来射击。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -13,7 +13,7 @@ Click the green flag in the example game below to start, and then press the <kbd
 
 \--- /no-print \---
 
-Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
+你可以通过射击飞行太空河马来得分. 如果你被河马击中或被蝙蝠投下的橘子砸中, 你就会失去一条生命.
 
 \--- print-only \---
 
