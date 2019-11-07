@@ -10,7 +10,7 @@ Jeśli posiadasz konto Scratch, możesz wykonać kopię klikając **Remix**.
 
 **Offline:** pobierz projekt początkowy z [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), i otwórz w programie Scratch Desktop.
 
-Jeśli musisz pobrać i zainstalować edytor Scratcha, znajdziesz go na stronie [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank.
+Jeśli musisz pobrać i zainstalować edytor Scratcha, znajdziesz go na stronie [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
 \--- /task \---
 
@@ -18,9 +18,9 @@ Powinieneś widzieć duszka kontrolera:
 
 ![zrzut ekranu](images/dots-controller.png)
 
-\---task\--- Dodaj fragment kody do duszka pokrętła aby sprawić że duszek obraca się w prawo, jeśli gracz naciśnie strzałkę w prawo:
+\---task\--- Dodaj fragment kodu do duszka pokrętła aby duszek obracał się w prawo, jeśli gracz naciśnie strzałkę w prawo:
 
-![Duszek Pokrętła](images/controller-sprite.png)
+![Duszek pokrętła](images/controller-sprite.png)
 
 ```blocks3
     kiedy kliknięto flagę
@@ -37,20 +37,20 @@ Powinieneś widzieć duszka kontrolera:
 
 \--- task \--- Dodaj kod do duszka pokrętła aby obracał się w lewo jeżeli gracz naciśnie strzałkę w lewo.
 
-![Duszek Pokrętła](images/controller-sprite.png)
+![Duszek pokrętła](images/controller-sprite.png)
 
-\--- wskazówki \--- \--- wskazówka \---
+\--- hints \--- \--- hint \---
 
 Poniżej znajdziesz kod, który sprawdza czy strzałka w prawo jest wciśnięta i wtedy obraca duszka w prawo. Czy możesz dodać kopię tego kodu i zmienić go tak, aby sprawdzał kiedy wciśnięto strzałkę w lewo i obracał wtedy duszka w lewo?
 
-\--- /hint \--- \--- hint \--- poniżej masz bloczki, które będziesz potrzebować:
+\--- /hint \--- \--- hint \--- Poniżej masz bloczki, które będziesz potrzebować:
 
 ```blocks3
 <key (space v) pressed?>
 
-turn left(15) degrees
+obróć w lewo o (15) stopni
 
-Jeżeli <> to
+jeżeli <> to
 
 koniec
 ```
