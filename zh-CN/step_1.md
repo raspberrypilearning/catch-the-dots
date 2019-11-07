@@ -1,14 +1,14 @@
---无打印--
+\--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
+这是项目的**Scratch 3** 版本。 该项目还有一个[ Scratch 2版本](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2) 。
 
 \--- /no-print \---
 
 ## 介绍
 
-In this project you'll learn how to create a game in which the player has to match up coloured dots with the correct colour of the controller wheel.
+在这个项目中, 你会学习如何创建一个游戏, 玩家使用控制轮捕捉相应颜色的彩色的小点
 
-\--- no-print \--- Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
+\--- no-print \--- 使用键盘上的方向键来旋转控制轮，并在它们到达中心时抓住飞点。 如果错过了三个彩色点没有接到, 游戏结束
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,16 +21,16 @@ In this project you'll learn how to create a game in which the player has to mat
 
 ## \--- collapse \---
 
-## title: 你将学习什么
+## title: 你将学到什么
 
-+ How to choose random items from a list
-+ How to use variables to track speed, lives, and the player's score
++ 如何从列表中选择随机项
++ 如何使用变量跟踪速度, 生命值和玩家分数
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: 你需要准备什么
+## 标题: 你需要准备什么
 
 ### 硬件
 
@@ -40,16 +40,16 @@ In this project you'll learn how to create a game in which the player has to mat
 
 + Scratch 3 ([在线版本](http://rpf.io/scratchon){:target="_blank"}或[离线版本](http://rpf.io/scratchoff){:target="_blank"}）
 
-### Downloads
+### 下载
 
-+ [Offline Scratch 2 project](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"} \--- /collapse \---
++ [离线Scratch 2项目](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"} \--- /collapse \---
 
 ## \--- collapse \---
 
-## 题目: 教师附加说明
+## 标题: 教师附加说明
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print). \--- /no-print \---
+\--- no-print \--- 如果你需要打印此项目，请使用[打印友好版](https://projects.raspberrypi.org/en/projects/catch-the-dots/print)。 \--- /no-print \---
 
-You can find [the completed project here](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+你可以在这里找到 [完成的项目](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}。
 
-You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse \---
+你可以在这里找到[完整的项目](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse --
