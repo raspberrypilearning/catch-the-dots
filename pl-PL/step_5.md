@@ -1,12 +1,12 @@
 ## Zwiększenie trudności
 
-Teraz utrudnisz grę, im dłużej gracz ją zagra. Zrobisz to, sprawiając, że kropki pojawią się szybciej i szybciej z upływem czasu.
+Teraz zrobisz grę tym trudniejszą, im dłużej gracz w nią gra. Osiągniesz to sprawiając, że kropki pojawią się coraz szybciej z upływem czasu.
 
-\--- zadanie \--- Utwórz nową `zmienną`{: class = "block3variables"} zwaną 'delay'.
+\--- task \--- Utwórz nową `zmienną`{:class="block3variables"} nazwaną 'opóźnienie'.
 
 ![Duszek sceny](images/stage-sprite.png) \--- /task \---
 
-\--- task \--- Przejdź do obszaru Scripts Stage i utwórz nowy skrypt, który ustawia zmienną `delay`{: class = "block3variables"} na `8` a następnie powoli zmniejsza wartość `delay`{: class = "block3variables"} podczas gry.
+\--- task \--- Przejdź do obszaru skryptu sceny i utwórz nowy skrypt, który ustawia zmienną `opóźnienie`{:class="block3variables"} na `8` a następnie powoli zmniejsza wartość zmiennej `opóźninie`{:class="block3variables"} podczas gry.
 
 ![Duszek sceny](images/stage-sprite.png)
 
@@ -23,9 +23,9 @@ Teraz utrudnisz grę, im dłużej gracz ją zagra. Zrobisz to, sprawiając, że 
 
 Zauważ, że ten kod jest bardzo podobny do kodu, którego użyłbyś do utworzenia minutnika!
 
-Następnie użyj zmiennej `delay`{: class = "block3variables"} w skryptach kodu „czerwonych”, „żółtych” i „niebieskich” ikonek.
+Następnie użyj zmiennej `opóźnienie`{: class = "block3variables"} w skryptach kodu „czerwonych”, „żółtych” i „niebieskich” ikonek.
 
-\--- zadanie \--- Usuń blok kodu, który sprawia, że gra czeka losową liczbę sekund między utworzeniem klonów kropek. Zastąp usunięty blok nowym `opóźnieniem`{: class = "block3variables"} zmienną:
+\--- task \--- Usuń blok kodu, który sprawia, że gra czeka losową liczbę sekund między utworzeniem klonów kropek. Zastąp usunięty blok nową zmienną `opóźnienie`{:class="block3variables"}:
 
 ![zrzut ekranu](images/all-dots.png)
 
@@ -34,11 +34,11 @@ Następnie użyj zmiennej `delay`{: class = "block3variables"} w skryptach kodu 
     czekanie (opóźnienie :: zmienne) sek
 ```
 
-Zrób to dla wszystkich trzech ikonek.
+Zrób to dla wszystkich trzech duszków kropek.
 
 \--- /task \---
 
-\--- zadanie \--- Przetestuj grę i sprawdź, czy kropki zaczynają pojawiać się szybciej, gdy gra toczy się dalej.
+\--- task \--- Przetestuj grę i sprawdź, czy kropki zaczynają pojawiać się szybciej, gdy gra toczy się dłużej.
 
-+ Czy to działa dla wszystkich trzech kolorowych kropek?
-+ Czy widzisz, że wartość `opóźnienia`{: class = "block3variables"} zmniejsza się? \--- /task \---
++ Czy to działa dla wszystkich trzech kolorów kropek?
++ Czy widzisz, że wartość zmiennej `opóźnienie`{:class="block3variables"} zmniejsza się? \--- /task \---
