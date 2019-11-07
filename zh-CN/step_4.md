@@ -1,18 +1,18 @@
-## 收集小点
+## 更多小点
 
-\--- task \--- Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
+\--- task \--- 复制'red'小点精灵两次, 起名为'yellow'和'blue'.
 
-![截屏](images/dots-more-dots.png) \--- /task \---
+![screenshot](images/dots-more-dots.png) \--- /task \---
 
-\--- task \--- Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue. \--- /task \---
+\--- task \--- 修改每个新精灵的造型, 以便可以匹配正确的颜色:'yellow'精灵应该是黄色, 'blue'精灵应该是蓝色. \--- /task \---
 
-\--- task \--- Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
+\--- task \--- 修改每个精灵的代码, 以便玩家匹配正确的颜色获取得分.
 
-![截图](images/dots-all-test.png)
+![screenshot](images/dots-all-test.png)
 
-\--- hints \--- \--- hint \--- This is the code you need to find and alter for both new sprites:
+\--- hints \--- \--- hint \--- 这是你需要在每个新精灵中找到和修改的代码:
 
-![截屏](images/dots-more-dots.png)
+![screenshot](images/dots-more-dots.png)
 
 ```blocks3
     if <touching color [#FF0000]?> then
@@ -22,7 +22,7 @@
     end
 ```
 
-\--- /hint \--- \--- hint \--- This is how you need to change the code for the yellow sprite:
+\--- /hint \--- \--- hint \--- 这是你需要为黄色小点精灵修改的代码:
 
 ```blocks3
     if <touching color [#FFFF00]? :: +> then
@@ -31,7 +31,7 @@
     end
 ```
 
-This is how you need to change the code for the blue sprite:
+这是你需要为蓝色精灵修改的代码:
 
 ```blocks3
     if <touching color [#0000FF]? :: +> then
@@ -42,9 +42,9 @@ This is how you need to change the code for the blue sprite:
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
-If you play the game now, you can see that the dots sometimes get created one top of each other.
+如果你现在玩游戏, 你可以看到小点有时会创建在其他小点身上, 同时创建多个小点.
 
-\--- task \--- Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
+\--- task \--- 修改'yellow'小点精灵的代码以便在点击绿色旗帜后等待四秒再出现.
 
 ![Yellow dot](images/yellow-sprite.png)
 
@@ -56,6 +56,6 @@ If you play the game now, you can see that the dots sometimes get created one to
 
 ![Blue dot](images/blue-sprite.png)
 
-Then change the code for the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
+然后修改'blue'小点精灵的代码以便在点击绿色旗帜后等待6秒才出现.
 
 \--- /task \---
