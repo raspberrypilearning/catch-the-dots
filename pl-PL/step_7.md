@@ -1,0 +1,50 @@
+## Tabela wyników
+
+Zachowasz rekord wyniku gry, aby gracze mogli zobaczyć, jak dobrze sobie radzą.
+
+--- task --- Utwórz nową zmienną o nazwie `Najwyższy wynik`{:class="block3variables"}.
+
+![Duszek sceny](images/stage-sprite.png)
+
+--- /task ---
+
+--- task --- Wybierz scenę. Kliknij „Moje bloki” i utwórz nowy blok niestandardowy o nazwie `sprawdź najwyższy wynik`{:class="block3myblocks"}.
+
+![Duszek sceny](images/stage-sprite.png) ![zrzut ekranu](images/dots-custom-1.png)
+
+--- /task ---
+
+--- task --- Dodaj kod do swojego bloku niestandardowego, aby blok sprawdzał, czy bieżąca wartość zmiennej `punkty`{:class="block3variables"} ma większą wartość niż `najwyższy wynik`{:class="block3variables"}, a następnie przechowuje wartość `wynik`{:class="block3variables"} jako nową wartość zmiennej `najwyższy wynik`{:class="block3variables"}.
+
+![Duszek sceny](images/stage-sprite.png)
+
+```blocks3
+    zdefiniuj wynik wysoki wynik
+    jeśli <(wynik :: zmienne) > (najwyższy wynik)> a następnie
+        ustaw [najwyższy wynik v] na (wynik :: zmienne)
+    koniec
+```
+
+--- /task ---
+
+--- task --- Dodaj nowy blok niestandardowy do skryptu sceny przed końcem skryptu.
+
+![Duszek sceny](images/stage-sprite.png)
+
+```blocks3
+po kliknięciu flagi
+ustaw [życia v] na (3)
+ustaw [wynik v] na (0)
+czekaj do <(życia) < (1)>
+
++ sprawdź wysoki wynik :: niestandardowy
+stop [wszystkie v]
+```
+
+--- /task ---
+
+--- task ---
+
+Zagraj w swoją grę dwa razy, aby sprawdzić, czy Twój wynik zostanie poprawnie zapisany jako `najwyższy wynik`{:class="block3variables"}.
+
+--- /task ---
