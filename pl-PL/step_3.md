@@ -93,9 +93,9 @@ Gracz powinien wygrywać punkty za złapanie kropek, oraz powinien tracić życi
 
 \--- task \--- Wróć do skryptu duszka kropki 'czerwony' i dodaj kilka bloczków na końcu skryptu `gdy zaczynam jako klon`{:class="block3control"}.
 
-Najpierw spraw aby klon kropki `przesuń o 5 kroków`{:class="block3motion"}, tak by nachodził na kontroler.
+Najpierw spraw aby klon kropki `przesunął się o 5 kroków`{:class="block3motion"}, tak by nachodził na kontroler.
 
-Następnie dodaj kod, aby dodać `1` do `wynik`{: class = "block3variables"}, jeśli kolor klonu kropki odpowiada kolorowi kontrolera po dotknięciu, lub zabrać `1` z `żyć`{ : class = "block3variables"}, jeśli ich kolory się nie zgadzają.
+Następnie dodaj kod, aby dodać `1` do `wynik`{:class="block3variables"}, jeśli kolor klonu kropki odpowiada kolorowi kontrolera po dotknięciu, lub zabrać `1` z `żyć`{:class="block3variables"}, jeśli ich kolory się nie zgadzają.
 
 [[[generic-scratch3-sound-from-library]]]
 
