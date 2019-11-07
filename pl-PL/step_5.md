@@ -30,8 +30,8 @@ Następnie użyj zmiennej `opóźnienie`{:class="block3variables"} w skryptach k
 ![zrzut ekranu](images/all-dots.png)
 
 ```blocks3
-    czekaj (losuj liczbę od (5) do (10)) sekund
--   czekaj (opóźnienie :: variables) sekund
+-   czekaj (losuj liczbę od (5) do (10)) sekund
+    czekaj (opóźnienie :: variables) sekund
 ```
 
 Zrób to dla wszystkich trzech duszków kropek.

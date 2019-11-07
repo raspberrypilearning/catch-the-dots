@@ -108,7 +108,7 @@ Wróć do skryptu duszka kropki 'czerwony' i dodaj kilka bloczków na końcu skr
 
 Najpierw spraw aby klon kropki `przesunął się o 5 kroków`{:class="block3motion"}, tak by nachodził na kontroler.
 
-Następnie dodaj kod, aby dodać `1` do `wynik`{:class="block3variables"}, jeśli kolor klonu kropki odpowiada kolorowi kontrolera po dotknięciu, lub zabrać `1` z `żyć`{:class="block3variables"}, jeśli ich kolory się nie zgadzają.
+Następnie dodaj kod, aby dodać `1` do `wynik`{:class="block3variables"}, jeśli kolor klonu kropki odpowiada kolorowi kontrolera po dotknięciu, lub zabrać `1` z `życia`{:class="block3variables"}, jeśli ich kolory się nie zgadzają.
 
 [[[generic-scratch3-sound-from-library]]]
 
@@ -120,7 +120,7 @@ Następnie dodaj kod, aby dodać `1` do `wynik`{:class="block3variables"}, jeśl
     zmień [wynik v] o (1)
     graj dźwięk (pop v) aż się skończy
   w przeciwnym razie 
-    zmień [żyć v] o (-1)
+    zmień [życia v] o (-1)
     graj dźwięk (Laser1 v) aż się skończy
   koniec
   usuń tego klona
