@@ -1,7 +1,7 @@
 ## Zdobądź punkty, albo strać życia
 
 Teraz dodasz trochę kropek, które gracz musi zebrać.
-
+--- task ---
 Utwórz nowego duszka i nazwij go "czerwony". Ten duszek powinien być małą czerwoną kropką.
 
 ![Duszek czerwonej kropki](images/dots-red.png)
@@ -14,12 +14,12 @@ Utwórz nowego duszka i nazwij go "czerwony". Ten duszek powinien być małą cz
 
 ```blocks3
     kiedy kliknięto zieloną flagę
-  ukryj
-  czekaj (2) s
-  zawsze 
-    sklonuj (siebie v)
-    czekaj (losuj od (5) do (10)) s
-  koniec
+    ukryj
+    czekaj (2) sekund
+    zawsze 
+      utwórz klona z (siebie v)
+      czekaj (losuj liczbę od (5) do (10)) sekund
+    koniec
 ```
 
 --- /task ---
@@ -49,11 +49,11 @@ Zwróć uwagę że współrzędne każdego z rogów Sceny są kombinacją `180` 
 ![Duszek czerwonej kropki](images/red-sprite.png)
 
 ```blocks3
-    kiedy zaczynam jako klon
-  idź do x: (element (losuj od (1) do (2)) z [pozycja początkowa v]) y: (element (losuj od (1) do (2)) z [pozycja początkowa v])
-  ustaw w stronę (pokrętło v)
+  gdy zaczynam jako klon
+  Idź do x: (element (losuj liczbę od (1) do (2)) z [pozycja początkowa v]) y: (element (losuj liczbę od (1) do (2)) z [pozycja początkowa v])
+  ustaw w kierunku duszka (kontroler v)
   pokaż
-  powtarzaj aż <touching (controller v)?> 
+  powtarzaj aż <dotyka (kontroler v)?> 
     przesuń o (1) kroków
   koniec
 ```
@@ -68,7 +68,7 @@ Zwróć uwagę że współrzędne każdego z rogów Sceny są kombinacją `180` 
 
 ![Duszek czerwonej kropki](images/red-sprite.png) --- /task ---
 
---- task --- Dodaj kod do swojej planszy, aby ustawić `życia`{}:class="block3variables"} na `3` i `wynik`{:class="block3variables"} na `0` na rozpoczęcie każdej gry. ![Duszek sceny](images/stage-sprite.png)
+--- task --- Dodaj kod do swojej planszy, aby ustawić `życia`{:class="block3variables"} na `3` i `wynik`{:class="block3variables"} na `0` na rozpoczęcie każdej gry. ![Duszek sceny](images/stage-sprite.png)
 
 ```blocks3
 kiedy kliknięto zieloną flagę
@@ -102,15 +102,15 @@ Następnie dodaj kod, aby dodać `1` do `wynik`{:class="block3variables"}, jeśl
 ![Duszek czerwonej kropki](images/red-sprite.png)
 
 ```blocks3
-    Akcja (5) działania
-    if <touching color [#FF0000]?> następnie
-        zmiana [wynik v] o (1)
-        dźwięku odtwarzania (podręcznego V) tak wykonane
-    jeszcze
-        zmiany mieszka [V] w (1)
-        dźwięku odtwarzania (Laser1 V), aż gotowe
-    koniec
-    usuń ten klon
+  przesuń o (5) kroków
+  jeżeli <dotyka koloru [#FF0000]?> to 
+    zmień [wynik v] o (1)
+    graj dźwięk (pop v) aż się skończy
+  w przeciwnym razie 
+    zmień [żyć v] o (-1)
+    graj dźwięk (Laser1 v) aż się skończy
+  koniec
+  usuń tego klona
 ```
 
 --- /task ---

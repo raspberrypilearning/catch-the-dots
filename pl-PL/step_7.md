@@ -19,10 +19,10 @@ Zachowasz rekord wyniku gry, aby gracze mogli zobaczyć, jak dobrze sobie radzą
 ![Duszek sceny](images/stage-sprite.png)
 
 ```blocks3
-    zdefiniuj wynik wysoki wynik
-    jeśli <(wynik :: zmienne) > (najwyższy wynik)> a następnie
-        ustaw [najwyższy wynik v] na (wynik :: zmienne)
-    koniec
+definiuj sprawdź najwyższy wynik
+jeżeli <(wynik :: variables) > (najwyższy wynik)> to 
+  ustaw [najwyższy wynik v] na (wynik :: variables)
+koniec
 ```
 
 --- /task ---
@@ -32,13 +32,12 @@ Zachowasz rekord wyniku gry, aby gracze mogli zobaczyć, jak dobrze sobie radzą
 ![Duszek sceny](images/stage-sprite.png)
 
 ```blocks3
-po kliknięciu flagi
+kiedy kliknięto zieloną flagę
 ustaw [życia v] na (3)
 ustaw [wynik v] na (0)
-czekaj do <(życia) < (1)>
-
-+ sprawdź wysoki wynik :: niestandardowy
-stop [wszystkie v]
+czekaj aż <(życia) < (1)>
++ sprawdź najwyższy wynik :: custom
+zatrzymaj [wszystko v]
 ```
 
 --- /task ---

@@ -16,9 +16,9 @@
 ![zrzut ekranu](images/dots-more-dots.png)
 
 ```blocks3
-    jeśli <touching color [#FF0000]?> to
-        zmienia [wynik v] przez (1)
-        odtwarzanie dźwięku (pop v)
+    jeżeli <dotyka koloru [#FF0000] ?> to 
+        zmień [wynik v] o (1)
+        zagraj dźwięk (pop v)
 ...
     koniec
 ```
@@ -26,18 +26,18 @@
 --- /hint --- --- hint --- W ten sposób należy zmienić kod żółtego ikonki:
 
 ```blocks3
-    jeśli <dotyka koloru [# FFFF00]? :: +> a następnie
-        zmiana [wynik v] przez (1)
-        odtwarzanie dźwięku (pop v)
+    jeżeli <dotyka koloru [#FFFF00] ? :: +> to 
+        zmień [wynik v] o (1)
+        zagraj dźwięk (pop v)
     koniec
 ```
 
 W ten sposób musisz zmienić kod niebieskiego duszka:
 
 ```blocks3
-    jeśli <dotyka koloru [# 0000FF]? :: +> a następnie
-        zmiana [wynik v] przez (1)
-        odtwarzanie dźwięku (pop v)
+    jeżeli <dotyka koloru [#0000FF] ? :: +> to 
+        zmień [wynik v] o (1)
+        zagraj dźwięk (pop v)
     koniec
 ```
 
@@ -50,9 +50,9 @@ Jeśli grasz teraz w tę grę, możesz zobaczyć, że czasami kropki są tworzon
 ![Żółta kropka](images/yellow-sprite.png)
 
 ```blocks3
-    po kliknięciu flagi
+    kiedy kliknięto zieloną flagę
     ukryj
-+ poczekaj (4) sekundy
++   czekaj (4) sekund
 ```
 
 ![Niebieska kropka](images/blue-sprite.png)

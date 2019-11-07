@@ -23,12 +23,12 @@ Powinieneś widzieć duszka kontrolera:
 ![Duszek pokrętła](images/controller-sprite.png)
 
 ```blocks3
-    kiedy kliknięto flagę
-      zawsze
-        jeżeli <key (right arrow v) pressed?> to
-          obróć w prawo o (3) stopni
-        koniec
-      koniec
+kiedy kliknięto zieloną flagę
+zawsze 
+  jeżeli <klawisz (strzałka w prawo v) naciśnięty ?> to 
+    obróć w prawo o (3) stopni
+  koniec
+koniec
 ```
 
 --- /task ---
@@ -47,7 +47,7 @@ Poniżej znajdziesz kod, który sprawdza czy strzałka w prawo jest wciśnięta 
 --- /hint --- --- hint --- Poniżej masz bloczki, które będziesz potrzebować:
 
 ```blocks3
-<key (space v) pressed?>
+<klawisz (spacja v) naciśnięty ?>
 
 obróć w lewo o (15) stopni
 
@@ -60,14 +60,14 @@ koniec
 
 ```blocks3
     kiedy kliknięto zieloną flagę
-zawsze 
-  jeżeli <key (right arrow v) pressed?> to 
-    obróć w prawo o (3) stopni
-  koniec
-  + jeżeli <key (left arrow v) pressed?> to 
-      obróć w lewo o (3) stopni
+    zawsze 
+      jeżeli <klawisz (strzałka w prawo v) naciśnięty?> to 
+        obróć w prawo o (3) stopni
       koniec
-koniec
++     jeżeli <klawisz (strzałka w lewo v) naciśnięty?> to 
+        obróć w lewo o (3) stopni
+      koniec
+    koniec
 ```
 
 --- /hint --- --- /hints --- --- /task ---

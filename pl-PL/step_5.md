@@ -11,11 +11,11 @@ Teraz zrobisz grę tym trudniejszą, im dłużej gracz w nią gra. Osiągniesz t
 ![Duszek sceny](images/stage-sprite.png)
 
 ```blocks3
-    po kliknięciu flagi
+    kiedy kliknięto zieloną flagę
     ustaw [opóźnienie v] na (8)
-    powtórz do < (opóźnienie) = (2)>
-        poczekaj (10) sekund
-        zmień [opóźnienie v] o (-0,5)
+    powtarzaj aż <(opóźnienie) = (2)> 
+        czekaj (10) sekund
+        zmień [opóźnienie v] o (-0.5)
     koniec
 ```
 
@@ -30,8 +30,8 @@ Następnie użyj zmiennej `opóźnienie`{:class="block3variables"} w skryptach k
 ![zrzut ekranu](images/all-dots.png)
 
 ```blocks3
-<br />- czekaj (wybierz losowe (5) do (10)) sek
-    czekanie (opóźnienie :: zmienne) sek
+    czekaj (losuj liczbę od (5) do (10)) sekund
+-   czekaj (opóźnienie :: variables) sekund
 ```
 
 Zrób to dla wszystkich trzech duszków kropek.

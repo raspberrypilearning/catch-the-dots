@@ -7,7 +7,7 @@ description: Naucz się, jak stworzyć grę, w której musisz dopasować kolorow
 version: 4.0.0
 last_tested: 2018-10-16
 steps:
-  - title: Życzenia urodzinowe
+  - title: Wprowadzenie
   - title: Stwórz kontroler
   - title: Zdobądź punkty, albo strać życia
   - title: Więcej kropek
