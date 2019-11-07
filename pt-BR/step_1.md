@@ -1,14 +1,14 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
+Esta é a versão **Scratch 3** do projeto. Há também uma versão [Scratch 2 do projeto](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
 
 \--- /no-print \---
 
 ## Introdução
 
-In this project you'll learn how to create a game in which the player has to match up coloured dots with the correct colour of the controller wheel.
+Neste projeto você aprenderá como criar um jogo, onde deverá combinar os pontos coloridos às partes correspondentes do controlador.
 
-\--- no-print \--- Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
+\--- no-print \--- Use as setas do teclado para girar a roda controladora e pega os pontos voadores quando eles chegarem ao centro. Se você perder três pontos, o jogo acaba.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,8 +23,8 @@ In this project you'll learn how to create a game in which the player has to mat
 
 ## title: O que você vai aprender
 
-+ How to choose random items from a list
-+ How to use variables to track speed, lives, and the player's score
++ Como escolher itens de uma lista ao acaso
++ Como usar variavéis para rastrear velocidade, vidas, e a pontuaçāo do jogador
 
 \--- /collapse \---
 
@@ -46,10 +46,10 @@ In this project you'll learn how to create a game in which the player has to mat
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Notas adicionais para educadores
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print). \--- /no-print \---
+\--- no-print \--- Se precisar imprimir este projeto, por favor, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/catch-the-dots/print). \--- /no-print \---
 
-You can find [the completed project here](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+Você pode encontrar o [projeto concluído aqui](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
 
 You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse \---
