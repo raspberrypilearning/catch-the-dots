@@ -1,6 +1,7 @@
 ## Zdobądź punkty, albo strać życia
 
 Teraz dodasz trochę kropek, które gracz musi zebrać.
+
 --- task ---
 Utwórz nowego duszka i nazwij go "czerwony". Ten duszek powinien być małą czerwoną kropką.
 
@@ -8,7 +9,8 @@ Utwórz nowego duszka i nazwij go "czerwony". Ten duszek powinien być małą cz
 
 --- /task ---
 
---- task --- Dodaj ten skrypt do duszka kropki - "czerwony", aby tworzyć jego nowe kopie co kilka sekund:
+--- task --- 
+Dodaj ten skrypt do duszka kropki - "czerwony", aby tworzyć jego nowe kopie co kilka sekund:
 
 ![Duszek czerwonej kropki](images/red-sprite.png)
 
@@ -30,7 +32,8 @@ Teraz dodasz kod sprawiający, że każdy nowy klon będzie się pojawiać w jed
 
 ![zrzut ekranu](images/dots-start.png)
 
---- task --- Stwórz nową listę `pozycja początkowa`{:class="block3variables"}, kliknij na liście ikonę `(+)` aby dodać wartości `-180`{:class="block3variables"} oraz `180`{:class="block3variables"}.
+--- task --- 
+Stwórz nową listę `pozycja początkowa`{:class="block3variables"}, kliknij na liście ikonę `(+)` aby dodać wartości `-180`{:class="block3variables"} oraz `180`{:class="block3variables"}.
 
 ![Duszek czerwonej kropki](images/red-sprite.png)
 
@@ -40,11 +43,13 @@ Teraz dodasz kod sprawiający, że każdy nowy klon będzie się pojawiać w jed
 
 Później możesz ukryć listę odznaczając to okienko:
 
-![Ukryj listę](images/hide-list.png) --- /task ---
+![Ukryj listę](images/hide-list.png) 
+--- /task ---
 
 Zwróć uwagę że współrzędne każdego z rogów Sceny są kombinacją `180` oraz `-180`. Oznacza to, że możesz użyć listy do losowego wybrania narożnika Sceny.
 
---- task --- Dodaj ten kod do duszka 'kropki' aby każdy nowy duszek-klon pojawiał się w losowym narożniku i powoli poruszał się w kierunku duszka pokrętła.
+--- task --- 
+Dodaj ten kod do duszka 'kropki' aby każdy nowy duszek-klon pojawiał się w losowym narożniku i powoli poruszał się w kierunku duszka pokrętła.
 
 ![Duszek czerwonej kropki](images/red-sprite.png)
 
@@ -58,17 +63,23 @@ Zwróć uwagę że współrzędne każdego z rogów Sceny są kombinacją `180` 
   koniec
 ```
 
---- /task --- kod powyżej pozwala wybrać `-180` albo `180` dla pozycji x i y, co oznacza, że każdy klon 'kropki' zaczyna w jednym z rogów Sceny.
+--- /task --- 
+kod powyżej pozwala wybrać `-180` albo `180` dla pozycji x i y, co oznacza, że każdy klon 'kropki' zaczyna w jednym z rogów Sceny.
 
---- task --- Wypróbuj swój kod. Powinieneś widzieć wiele czerwonych kropek pojawiających się w każdym rogu ekranu i poruszających się powoli w kierunku kontrolera.
+--- task --- 
+Wypróbuj swój kod. Powinieneś widzieć wiele czerwonych kropek pojawiających się w każdym rogu ekranu i poruszających się powoli w kierunku kontrolera.
 
-![zrzut ekranu](images/dots-red-test.png) --- /task ---
+![zrzut ekranu](images/dots-red-test.png) 
+--- /task ---
 
---- task --- Stwórz dwie nowe zmienne nazywające się `życia`{:class="block3variables"} oraz `wynik`{:class="block3variables"}.
+--- task --- 
+Stwórz dwie nowe zmienne nazywające się `życia`{:class="block3variables"} oraz `wynik`{:class="block3variables"}.
 
-![Duszek czerwonej kropki](images/red-sprite.png) --- /task ---
+![Duszek czerwonej kropki](images/red-sprite.png) 
+--- /task ---
 
---- task --- Dodaj kod do swojej planszy, aby ustawić `życia`{:class="block3variables"} na `3` i `wynik`{:class="block3variables"} na `0` na rozpoczęcie każdej gry. ![Duszek sceny](images/stage-sprite.png)
+--- task --- 
+Dodaj kod do swojej planszy, aby ustawić `życia`{:class="block3variables"} na `3` i `wynik`{:class="block3variables"} na `0` na rozpoczęcie każdej gry. ![Duszek sceny](images/stage-sprite.png)
 
 ```blocks3
 kiedy kliknięto zieloną flagę
@@ -78,7 +89,8 @@ ustaw [wynik v] na (0)
 
 --- /task ---
 
---- task --- Dodaj ten kod na końcu skrypty Sceny, aby gra kończyła się kiedy grasz straci ostatnie z żyć:
+--- task --- 
+Dodaj ten kod na końcu skrypty Sceny, aby gra kończyła się kiedy grasz straci ostatnie z żyć:
 
 ![Duszek sceny](images/stage-sprite.png)
 
@@ -91,7 +103,8 @@ ustaw [wynik v] na (0)
 
 Gracz powinien wygrywać punkty za złapanie kropek, oraz powinien tracić życia za nie złapanie ich. Kropka może być złapana tylko przez kolor na kontrolerze pasujący do koloru kropki.
 
---- task --- Wróć do skryptu duszka kropki 'czerwony' i dodaj kilka bloczków na końcu skryptu `gdy zaczynam jako klon`{:class="block3control"}.
+--- task --- 
+Wróć do skryptu duszka kropki 'czerwony' i dodaj kilka bloczków na końcu skryptu `gdy zaczynam jako klon`{:class="block3control"}.
 
 Najpierw spraw aby klon kropki `przesunął się o 5 kroków`{:class="block3motion"}, tak by nachodził na kontroler.
 
