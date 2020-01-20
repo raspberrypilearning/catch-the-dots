@@ -1,18 +1,32 @@
 ## Mwy o ddotiau
 
-\--- task \--- Dyblyga’r ciplun dot ‘coch’ ddwywaith, a galwa’r cipluniau newydd yn ‘melyn’ a ‘glas’.
+\--- task \---
 
-![sgrinlun](images/dots-more-dots.png) \--- /task \---
+Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
 
-\--- task \--- Newida gwisg pob corlun newydd fel eu bod y lliw cywir: fe ddylai'r corlun 'melyn' fod yn felyn, a'r corlun 'glas' fod yn las. \--- /task \---
+![screenshot](images/dots-more-dots.png)
 
-\--- task \--- Newida côd pob corlun fel bod y chwareuwr yn gorfod gweddu lliw y dot â’r lliw cywir ar y rheolwr.
+\--- /task \---
 
-![sgrinlun](images/dots-all-test.png)
+\--- task \---
 
-\--- hints \--- \--- hint \--- Dyma'r côd sydd ei angen ar gyfer dod o hyd a golygu'r corluniau newydd:
+Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue.
 
-![sgrinlun](images/dots-more-dots.png)
+\--- /task \---
+
+\--- task \---
+
+Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
+
+![screenshot](images/dots-all-test.png)
+
+\--- hints \---
+
+\--- hint \---
+
+This is the code you need to find and alter for both new sprites:
+
+![screenshot](images/dots-more-dots.png)
 
 ```blocks3
     os <cyffwrdd lliw [#FF0000] ?> yna 
@@ -22,7 +36,11 @@
     end
 ```
 
-\--- /hint \--- \--- hint \--- Dyma sut wyt ti'n newid y côd ar gyfer y corlun melyn:
+\--- /hint \---
+
+\--- hint \---
+
+This is how you need to change the code for the yellow sprite:
 
 ```blocks3
     os <cyffwrdd lliw [#FFFF00] ? :: +> yna 
@@ -31,7 +49,7 @@
 end
 ```
 
-Dyma sut wyt ti'n newid y côd ar gyfer y corlun glas:
+This is how you need to change the code for the blue sprite:
 
 ```blocks3
     os <cyffwrdd lliw [#0000FF] ? :: +> yna 
@@ -40,13 +58,19 @@ Dyma sut wyt ti'n newid y côd ar gyfer y corlun glas:
 end
 ```
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
+\--- /hint \---
 
-Os wyt ti'n chwarae'r gêm nawr, fe weli di fod y dotiau weithiau yn cael eu creu un ar ben y llall.
+\--- /hints \---
 
-\--- task \--- Newida'r côd ar gyfer y dot 'melyn' fel ei fod yn aros pedair eiliad ar ôl i'r faner gael ei glicio cyn ymddangos.
+\--- /task \---
 
-![Dot melyn](images/yellow-sprite.png)
+If you play the game now, you can see that the dots sometimes get created one top of each other.
+
+\--- task \---
+
+Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
+
+![Yellow dot](images/yellow-sprite.png)
 
 ```blocks3
     pan fo'r flag werdd yn cael ei glicio
@@ -54,8 +78,8 @@ cuddio
 + aros (4) eiliad
 ```
 
-![Dot glas](images/blue-sprite.png)
+![Blue dot](images/blue-sprite.png)
 
-Yna newida côd y dot 'glas' fel ei fod yn aros 6 eiliad ar ôl i'r faner gael ei glicio cyn ymddangos.
+Then change the code for the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
 
 \--- /task \---
