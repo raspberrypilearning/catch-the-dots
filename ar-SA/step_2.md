@@ -1,26 +1,30 @@
-## إنشاء قرص دوَّار
+## إنشاء عجلة تحكم دوَّارة
 
 ابدء بإنشاء عجلة تحكم يستخدمها اللاعب لجمع النقاط.
 
-\--- task \--- افتح مشروع Scratch المبدئي 'اجمع النقاط'.
+\--- task \---
 
-**بالاتصال بالانترنت**: افتح المشروع المبدئي من هنا [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
+Open the 'Catch the dots' Scratch starter project.
 
-اذا كنت تملك حساب على منصة سكراتش (Scratch) فيمكنك عمل نسخة بالنقر على **Remix**.
+**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
 
-**بدون اتصال انترنت** حمّل المشروع المبدئي من [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"} ثم اقتحه باستخدام محرر Scratch بدون اتصال انترنت.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-لتنزيل و تركيب محرر Scratch على جهازك الشخصي, يمكنك الحصول عليه من هنا [rpf.io/scratchoff](http://rpf.io/scratchoff).
+**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
 \--- /task \---
 
-ستشاهد كائن عجلة التحكم:
+You should see a controller sprite:
 
-![لقطة الشاشة](images/dots-controller.png)
+![screenshot](images/dots-controller.png)
 
-\--- task \--- أضف بعض التعليمات البرمجية لكائن عجلة التحكم لجعلها تدور باتجاه اليمين اذا قام اللاعب بالضغط على مفتاح السهم الأيمن:
+\--- task \---
 
-![كائن عجلة التحكم](images/controller-sprite.png)
+Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
+
+![Controller sprite](images/controller-sprite.png)
 
 ```blocks3
     عند نقر ⚑
@@ -33,17 +37,29 @@ end
 
 \--- /task \---
 
-\--- task \--- اختبر تعليماتك البرمجية. يفترض أن تدور عجلة التحكم باتجاه اليمين في حال ضغطت على زر السهم الأيمن. \--- /task \---
+\--- task \---
 
-\--- task \--- أضف بعض التعليمات البرمجية لكائن عجلة التحكم لجعلها تدور باتجاه اليسار اذا قام اللاعب بالضغط على مفتاح السهم الأيسر.
+Test your code. The controller should spin to the right when you press the right arrow key.
 
-![كائن عجلة التحكم](images/controller-sprite.png)
+\--- /task \---
 
-\--- hints \--- \--- hint \---
+\--- task \---
 
-ابحث عن التعليمة البرمجية التي تتحقق مما إذا كان زر السهم الأيمن مضغوطاً و يجعل كائن عجلة التحكم يستدير لليمين. هل يمكنك إضافة نسخة من هذه التعليمة البرمجية، بعد اجراء بعض التعديلات عليها بحيث تتحقق مما إذا كان زر السهم الأيسر مضغوطاً و بالتالي تستدير عجلة التحكم نحو اليسار؟
+Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
 
-\--- /hint \--- \--- hint \--- فيما يلي التعليمات البرمجية التي ستحتاج إليها:
+![Controller sprite](images/controller-sprite.png)
+
+\--- hints \---
+
+\--- hint \---
+
+Find the code that checks whether the right arrow key is pressed and makes the sprite turn right. Can you add a copy of this code, and change the copy so it checks whether the left arrow key is pressed and makes the sprite turn left?
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
 
 ```blocks3
 <key (space v) pressed?>
@@ -54,7 +70,11 @@ end
 end
 ```
 
-\--- /hint \--- \--- hint \--- هذا ما يجب أن تبدو عليه تعليماتك البرمجية:
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your code should look like:
 
 ```blocks3
     عند نقر ⚑
@@ -68,4 +88,8 @@ end
 end
 ```
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
+\--- /hint \---
+
+\--- /hints \---
+
+\--- /task \---
