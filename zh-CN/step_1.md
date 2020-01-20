@@ -8,16 +8,22 @@
 
 在这个项目中, 你会学习如何创建一个游戏, 玩家使用控制轮捕捉相应颜色的彩色的小点
 
-\--- no-print \--- 使用键盘上的方向键来旋转控制轮，并在它们到达中心时抓住飞点。 如果错过了三个彩色点没有接到, 游戏结束
+\--- no-print \---
+
+Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/dots-final.png">
 </div>
 
-\--- /no-prnt \---
+\--- /no-print \---
 
-\--- print-only \--- ![Dots screenshot](images/dots-final.png) \--- /print-only \---
+\--- print-only \---
+
+![Dots screenshot](images/dots-final.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -42,14 +48,22 @@
 
 ### 下载
 
-+ [离线Scratch 2项目](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"} \--- /collapse \---
++ [Offline Scratch 2 project](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
 ## 标题: 教师附加说明
 
-\--- no-print \--- 如果你需要打印此项目，请使用[打印友好版](https://projects.raspberrypi.org/en/projects/catch-the-dots/print)。 \--- /no-print \---
+\--- no-print \---
 
-你可以在这里找到 [完成的项目](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}。
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print).
 
-你可以在这里找到[完整的项目](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse --
+\--- /no-print \---
+
+You can find [the completed project here](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+
+You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
+
+\--- /collapse \---
