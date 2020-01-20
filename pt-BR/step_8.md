@@ -6,4 +6,4 @@ Você consegue pensar em alguma maneira de melhorar seu jogo? Por exemplo, você
 + Desacelerem as outras bolinhas
 + Removem todas as outras bolinhas da tela
 
-Can you add a menu with buttons to your game? You could add an screen with instructions or a separate screen for showing the high score.
+Podes adicionar um menu com botões ao teu jogo? Você poderia adicionar instruções na tela, ou em telas separadas para exibir o recorde.
