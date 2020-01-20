@@ -2,19 +2,27 @@
 
 Stai per salvare il punteggio più alto del gioco, in modo che i giocatori possano vedere quanto stanno facendo bene.
 
-\--- task \--- Crea una nuova variabile chiamata `high score`{: class = "block3variables"}.
+\--- task \---
+
+Create a new variable called `high score`{:class="block3variables"}.
 
 ![Stage sprite](images/stage-sprite.png)
 
+\--- /task \---
+
+\--- task \---
+
+Select the Stage. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
+
+![Stage sprite](images/stage-sprite.png)
+
+![screenshot](images/dots-custom-1.png)
+
 \--- /compito \---
 
-\--- task \--- Seleziona lo stage. Clicca su "I miei blocchi" e crea un nuovo blocco personalizzato chiamato `controlla il punteggio più alto`{: class = "block3myblocks"}.
+\--- task \---
 
-![Stage sprite](images/stage-sprite.png) ![immagine dello schermo](images/dots-custom-1.png)
-
-\--- /compito \---
-
-\--- task \--- Aggiungi il codice al tuo blocco personalizzato in modo che il blocco controlli se il valore corrente di `punteggio`{: class = "block3variables"} in più del valore del punteggio massimo ``{: class = variabile "block3variables"}, quindi memorizza il valore di `score`{: class = "block3variables"} come nuovo valore di `high score`{: class = "block3variables"}.
+Add code to your custom block so that the block checks if the current value of `score`{:class="block3variables"} in larger than the value of the `high score`{:class="block3variables"} variable, and then stores the value of `score`{:class="block3variables"} as the new value of `high score`{:class="block3variables"}.
 
 ![Stage sprite](images/stage-sprite.png)
 
@@ -25,9 +33,11 @@ Stai per salvare il punteggio più alto del gioco, in modo che i giocatori possa
     fine
 ```
 
-\--- /compito \---
+\--- /task \---
 
-\--- task \--- Aggiungi il tuo nuovo blocco personalizzato allo script Stage prima della fine dello script.
+\--- task \---
+
+Add your new custom block to the Stage script before the end of the script.
 
 ![Stage sprite](images/stage-sprite.png)
 
@@ -41,10 +51,10 @@ aspetta fino a <(lives) < (1)>
 stop [all v]
 ```
 
-\--- /compito \---
+\--- /task \---
 
-\--- compito \---
+\--- task \---
 
-Fate il vostro gioco due volte per verificare se il tuo punteggio viene correttamente salvato come `punteggio`{: class = "block3variables"}.
+Play your game twice to check whether your score gets correctly saved as the `high score`{:class="block3variables"}.
 
-\--- /compito \---
+\--- /task \---
