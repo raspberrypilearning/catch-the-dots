@@ -2,21 +2,29 @@
 
 Rwyt ti am arbed y sgôr uchel fel bod y chwareuwyr yn gwybod pa mor dda maent yn ei wneud.
 
-\--- Creu newidyn newydd o'r enw `sgôr uchel`{:class="block3variables"}.
+\--- task \---
 
-![Corlun llwyfan](images/stage-sprite.png)
+Create a new variable called `high score`{:class="block3variables"}.
 
-\--- /task \---
-
-\--- task \--- Dewisa'r Llwyfan. Clicia 'Mwy o flociau' a chreu bloc newydd o’r enw `gwirio sgôr uchel`{:class="block3myblocks"}.
-
-![Corlun llwyfan](images/stage-sprite.png) ![sgrinlun](images/dots-custom-1.png)
+![Stage sprite](images/stage-sprite.png)
 
 \--- /task \---
 
-Ychwanega côd i dy floc newydd i wirio os yw'r `sgôr`{:class="block3variables"} cyfredol yn fwy na'r newidyn `sgôr uchel`{:class="block3variables"}, ac yna storio gwerth y `sgôr`{:class="block3variables"} fel gwerth newydd `sgôr uchel`{:class="block3variables"}.
+\--- task \---
 
-![Corlun llwyfan](images/stage-sprite.png)
+Select the Stage. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
+
+![Stage sprite](images/stage-sprite.png)
+
+![screenshot](images/dots-custom-1.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your custom block so that the block checks if the current value of `score`{:class="block3variables"} in larger than the value of the `high score`{:class="block3variables"} variable, and then stores the value of `score`{:class="block3variables"} as the new value of `high score`{:class="block3variables"}.
+
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
     diffinio gwirio sgôr uchel
@@ -27,9 +35,11 @@ end
 
 \--- /task \---
 
-Ychwanega bloc newydd i sgript y Llwyfan cyn ddiwedd y sgript.
+\--- task \---
 
-![Corlun llwyfan](images/stage-sprite.png)
+Add your new custom block to the Stage script before the end of the script.
+
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
@@ -45,6 +55,6 @@ aros [all v]
 
 \--- task \---
 
-Chwarae dy gêm i weld os yw dy `sgôr uchel`{:class="block3variables"} wedi ei ddiweddaru’n gywir.
+Play your game twice to check whether your score gets correctly saved as the `high score`{:class="block3variables"}.
 
 \--- /task \---
