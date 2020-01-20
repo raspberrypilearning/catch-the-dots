@@ -1,22 +1,30 @@
-## Score élevé
+## Meilleur pointage
 
 Vous allez sauvegarder le meilleur score du jeu, afin que les joueurs puissent voir à quel point ils vont bien.
 
-\--- task \--- Créez une nouvelle variable appelée `high score`{: class = "block3variables"}.
+\--- task \---
 
-![Sprite de scène](images/stage-sprite.png)
+Create a new variable called `high score`{:class="block3variables"}.
 
-\--- /tâche \---
+![Stage sprite](images/stage-sprite.png)
 
-\--- task \--- Sélectionnez la scène. Cliquez sur 'Mes blocs' et créez un nouveau bloc personnalisé appelé `check high score`{: class = "block3myblocks"}.
+\--- /task \---
 
-![Sprite de scène](images/stage-sprite.png) ![capture d'écran](images/dots-custom-1.png)
+\--- task \---
 
-\--- /tâche \---
+Select the Stage. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
 
-\--- task \--- Ajoutez du code à votre bloc personnalisé afin que le bloc vérifie si la valeur actuelle de `score`{: class = "block3variables"} est supérieure à la valeur du `score le plus élevé`{: class = "block3variables"} variable, puis stocke la valeur de `score`{: class = "block3variables"} en tant que nouvelle valeur de `score élevé`{: class = "block3variables"}.
+![Stage sprite](images/stage-sprite.png)
 
-![Sprite de scène](images/stage-sprite.png)
+![screenshot](images/dots-custom-1.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your custom block so that the block checks if the current value of `score`{:class="block3variables"} in larger than the value of the `high score`{:class="block3variables"} variable, and then stores the value of `score`{:class="block3variables"} as the new value of `high score`{:class="block3variables"}.
+
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
     définir vérifier score élevé
@@ -25,11 +33,13 @@ Vous allez sauvegarder le meilleur score du jeu, afin que les joueurs puissent v
     fin
 ```
 
-\--- /tâche \---
+\--- /task \---
 
-\--- task \--- Ajoutez votre nouveau bloc personnalisé au script Stage avant la fin du script.
+\--- task \---
 
-![Sprite de scène](images/stage-sprite.png)
+Add your new custom block to the Stage script before the end of the script.
+
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
 lorsque le drapeau cliqué sur
@@ -41,10 +51,10 @@ attente jusqu'à <(vie) < (1)>
 arrêt [tout v]
 ```
 
-\--- /tâche \---
+\--- /task \---
 
-\--- tâche \---
+\--- task \---
 
-Jouez votre jeu deux fois pour vérifier si votre score est correctement enregistré en tant que `meilleur score`{: class = "block3variables"}.
+Play your game twice to check whether your score gets correctly saved as the `high score`{:class="block3variables"}.
 
-\--- /tâche \---
+\--- /task \---
