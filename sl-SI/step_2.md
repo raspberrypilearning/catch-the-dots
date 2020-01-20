@@ -2,25 +2,29 @@
 
 Začni z ustvarjanjem krmila, ki ga bo igralev uporabljal za zbiranje pik.
 
-\--- task \--- Odpri začetni Scratch projekt 'Ujemi pike'.
+\--- task \---
 
-**S povezavo:** odpri nov spletni Scratch projekt na [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
+Open the 'Catch the dots' Scratch starter project.
 
-Če imaš Scratch uporabniški račun, lahko ustvariš kopijo s klikom na **Predelaj**.
+**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
 
-** Brez povezave: ** prenesi začetni projekt iz [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go) {: target = "_ blank"} in ga nato odpri s pomočjo namiznega urejevalnika.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Če želiš prenesti in namestiti Namizni Scratch, ga lahko najdeš na [rpf.io/scratchoff](http://rpf.io/scratchoff).
+**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
 \--- /task \---
 
-Moral bi videti figuro krmila. Preimenuj jo v 'krmilo'.
+You should see a controller sprite:
 
-![posnetek zaslona](images/dots-controller.png)
+![screenshot](images/dots-controller.png)
 
-\--- task \--- Figuri krmila dodaj kodo, ki povzroči, da se krmilo obrača v desno, ko igralec pritisne desno smerno tipko:
+\--- task \---
 
-![Figura krmila](images/controller-sprite.png)
+Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
+
+![Controller sprite](images/controller-sprite.png)
 
 ```blocks3
     ko kliknemo na zastavico
@@ -33,17 +37,29 @@ Moral bi videti figuro krmila. Preimenuj jo v 'krmilo'.
 
 \--- /task \---
 
-\--- task \--- Preizkusi svojo kodo. Krmilo bi se morao obračati v desno, kadar pritisneš desno smerno tipko. \--- /task \---
+\--- task \---
 
-\--- task \--- Figuri krmila dodaj kodo, ki povzroči, da se krmilo obrača v levo, ko igralec pritisne levo smerno tipko.
+Test your code. The controller should spin to the right when you press the right arrow key.
+
+\--- /task \---
+
+\--- task \---
+
+Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
 
 ![Controller sprite](images/controller-sprite.png)
 
-\--- hints \--- \--- hint \---
+\--- hints \---
 
-Najdi kodo, ki preverja ali je pritisnjena desna smerna tipka in ki povzroči, da se figura obrača v desno. Ali lahko dodaš kopijo te kode in jo spremeniš na način, da bo preizkusila ali je pritisnjena leva smerna tipka in bo obračala obračanje figure v levo?
+\--- hint \---
 
-\--- /hint \--- \--- hint \--- To so bloki kode, ki jih potrebuješ:
+Find the code that checks whether the right arrow key is pressed and makes the sprite turn right. Can you add a copy of this code, and change the copy so it checks whether the left arrow key is pressed and makes the sprite turn left?
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
 
 ```blocks3
 <je pritisnjena tipka (puščica levo)?>
@@ -55,7 +71,11 @@ obrni se za (15) stopinj levo
 end
 ```
 
-\--- /hint \--- \--- hint \--- Tvoja koda bi morala izgledati tako:
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your code should look like:
 
 ```blocks3
     ko kliknemo na zastavico
@@ -70,4 +90,8 @@ end
 konec
 ```
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
+\--- /hint \---
+
+\--- /hints \---
+
+\--- /task \---
