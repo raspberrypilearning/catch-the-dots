@@ -2,15 +2,19 @@
 
 Τώρα θα προσθέσεις μερικές τελείες τις οποίες πρέπει να συλλέγει ο παίκτης.
 
-\--- task \--- Δημιούργησε ένα νέο αντικείμενο με όνομα 'κόκκινο'. Αυτό το αντικείμενο πρέπει να είναι μια μικρή κόκκινη τελεία.
+\--- task \---
 
-![Χαρακτήρας κόκκινης τελείας](images/dots-red.png)
+Create a new sprite called 'red'. This sprite should be a small red dot.
+
+![Red dot sprite](images/dots-red.png)
 
 \--- /task \---
 
-\--- task \--- Πρόσθεσε αυτόν τον κώδικα στο 'κόκκινο' αντικείμενο για να δημιουργείς ένα νέο κλώνο του αντικειμένου κάθε μερικά δευτερόλεπτα:
+\--- task \---
 
-![Χαρακτήρας κόκκινης τελείας](images/red-sprite.png)
+Add this script to your 'red' sprite to create a new clone of the sprite every few seconds:
+
+![Red dot sprite](images/red-sprite.png)
 
 ```blocks3
     Όταν στην πράσινη σημαία γίνει κλικ
@@ -24,29 +28,35 @@ end
 
 \--- /task \---
 
-Αν κάνεις κλικ στην πράσινη σημαία τώρα, δε φαίνεται να συμβαίνει κάτι. Αυτό εξηγείται επειδή όλα τα κλωνοποιημένα αντικείμενα είναι εξαφανισμένα και εμφανίζονται στο ίδιο σημείο.
+If you click the green flag now, it looks like nothing is happening. This is because all of the cloned sprites are hidden, and they appear in the same place.
 
-Θα προσθέσεις κώδικα ώστε κάθε κλώνος να παρουσιάζεται σε μία από τις τέσσερις γωνίες του Σκηνικού.
+You are going to add code to make each new clone appear in one of the four corners of the Stage.
 
-![στιγμιότυπο οθόνης](images/dots-start.png)
+![screenshot](images/dots-start.png)
 
-\--- task \--- Δημιούργησε μία νέα λίστα με όνομα `θέσεις εκκίνησης`{:class="block3variables"}, πάτησε το εικονίδιο `(+)` της λίστας για να προσθέσεις τις τιμές `-180`{:class="block3variables"} και `180`{:class="block3variables"}.
+\--- task \---
 
-![Χαρακτήρας κόκκινης τελείας](images/red-sprite.png)
+Create a new list called `start positions`{:class="block3variables"}, click the list's `(+)` icon to add the values `-180`{:class="block3variables"} and `180`{:class="block3variables"}.
+
+![Red dot sprite](images/red-sprite.png)
 
 ![List of 180 and -180](images/dots-list.png)
 
 [[[generic-scratch3-make-list]]]
 
-Στη συνέχεια μπορείς να εξαφανίσεις τη λίστα αποεπιλεγόντας αυτό το κουτί:
+Then you can hide the list by unselecting this box:
 
-![Κρύψε τη λίστα](images/hide-list.png) \--- /task \---
+![Hide the list](images/hide-list.png)
 
-Θυμήσου ότι οι συντεταγμένες κάθε γωνίας του Σκηνικού είναι συνδυασμός των `180` και `-180`. Αυτό σημαίνει ότι μπορείς να χρησιμοποιείς τη λίστα για να επιλέγεις τυχαία μια γωνία του Σκηνικού.
+\--- /task \---
 
-\--- task \--- Πρόσθεσε αυτόν τον κώδικα στο 'κόκκινο' αντικείμενο για να εμφανίζεις κάθε νέο κλώνο του αντικειμένου σε μια τυχαία γωνία που στη συνέχεια θα κινείται αργά προς το χειριστήριο.
+Notice that the coordinate for each corner of the Stage is a combination of `180` and `-180`. This means you can use the list to pick a corner of the Stage at random.
 
-![Χαρακτήρας κόκκινης τελείας](images/red-sprite.png)
+\--- task \---
+
+Add this code to the 'dot' sprite to make each new sprite clone appear in a random corner and then slowly move towards the controller sprite.
+
+![Red dot sprite](images/red-sprite.png)
 
 ```blocks3
     όταν ξεκινήσω ως κλώνος
@@ -58,17 +68,29 @@ end
 end
 ```
 
-\--- /task \--- Αυτός ο νέος κώδικας επιλέγει `-180` ή `180` για τις συντεταγμένες x και y, που σημαίνει ότι κάθε κλώνος της 'τελείας' ξεκινά από μία γωνία του Σκηνικού.
+\--- /task \---
 
-\--- task \--- Δοκίμασε τον κώδικα. Θα πρέπει να δεις κόκκινες τελείες να εμφανίζονται στις γωνίες του Σκηνικού και να κινούνται αργά προς το χειριστήριο.
+This new code chooses either `-180` or `180` for the x and y positions, meaning that each 'dot' sprite clone starts in a corner of the Stage.
 
-![στιγμιότυπο οθόνης](images/dots-red-test.png) \--- /task \---
+\--- task \---
 
-\--- task \--- Δημιούργησε δύο νέες μεταβλητές με ονόματα `ζωές`{:class="block3variables"} και `σκορ`{:class="block3variables"}.
+Test your project. You should see red dots appear in the corners of the Stage and move slowly towards the controller.
 
-![Χαρακτήρας κόκκινης τελείας](images/red-sprite.png) \--- /task \---
+![screenshot](images/dots-red-test.png)
 
-\--- task \--- Πρόσθεσε κώδικα στο Σκηνικό για να ορίσεις την αρχική τιμή της μεταβλητής `ζωές`{:class="block3variables"} σε `3` και της μεταβλητής `σκορ`{:class="block3variables"} σε `0` στην έναρξη του παιχνιδιού. ![Χαρακτήρας σκηνικού](images/stage-sprite.png)
+\--- /task \---
+
+\--- task \---
+
+Create two new variables called `lives`{:class="block3variables"} and `score`{:class="block3variables"}.
+
+![Red dot sprite](images/red-sprite.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your Stage to set the `lives`{:class="block3variables"} variable to `3` and the `score`{:class="block3variables"} to `0` at the start of the game. ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
 Όταν στην πράσινη σημαία γίνει κλικ
@@ -78,9 +100,11 @@ end
 
 \--- /task \---
 
-\--- task \--- Πρόσθεσε αυτό το τμήμα κώδικα στο τέλος του κώδικα για το Σκηνικό ώστε το παιχνίδι να τελειώνει όταν ο παίκτης χάσει και την τελευταία ζωή του:
+\--- task \---
 
-![Χαρακτήρας σκηνικού](images/stage-sprite.png)
+Add this code to the end of the Stage's script to make the game end when the player loses the last of the lives:
+
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
     περίμενε ώσπου <(lives :: variables) < [1]>
@@ -89,17 +113,19 @@ end
 
 \--- /task \---
 
-Ο παίκτης θα κερδίζει πόντους όταν πιάνει τελείες και θα χάνει ζωές όταν αποτυγχάνει να πιάσει τελείες. Μία τελεία μπορεί να πιαστεί ταιριάζοντας το χρώμα του χειριστηρίου με το χρώμα της.
+The player should win points for catching dots, and should lose lives for failing to catch dots. A dot can only be caught by matching the colour of the controller to the colour of the dot.
 
-\--- task \--- Πήγαινε στον κώδικα του 'κόκκινου' αντικειμένου για να προσθέσεις μερικά μπλοκ στο τέλος του τμήματος κώδικα `όταν ξεκινήσω ως κλώνος`{:class="block3control"}.
+\--- task \---
 
-Πρώτα, κάνε τον κλώνο της τελείας να `κινείται 5 βήματα`{:class="block3motion"} ώστε να πέφτει πάνω στο χειριστήριο.
+Go back to the 'red' dot sprite's Scripts area to add some code blocks to the end of the sprite's `when I start as a clone`{:class="block3control"} script.
 
-Στη συνέχεια πρόσθεσε κώδικα ώστε είτε να αυξάνεις κατά `1` το `σκορ`{:class="block3variables"} αν το χρώμα του κλώνου ταιριάζει με το χρώμα του χειριστηρίου όταν ακουμπήσουν, ή να μειώνεις κατά `1` τις `ζωές`{:class="block3variables"} αν τα χρώματα δεν ταιριάζουν.
+First, make the dot clone `move 5 steps`{:class="block3motion"} so that it overlaps the controller.
+
+Then add code to either add `1` to `score`{:class="block3variables"} if the colour of the dot clone matches the colour of the controller when they touch, or to take `1` away from `lives`{:class="block3variables"} if their colours don't match.
 
 [[[generic-scratch3-sound-from-library]]]
 
-![Χαρακτήρας κόκκινης τελείας](images/red-sprite.png)
+![Red dot sprite](images/red-sprite.png)
 
 ```blocks3
     κινήσου (5) βήματα
@@ -115,9 +141,9 @@ end
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
-Δοκίμασε το παιχνίδι σου για να βεβαιωθείς ότι:
+Test your game to make sure that:
 
 1. Χάνεις μια ζωή όταν δεν ταιριάζεις μια τελεία με το σωστό χρώμα
 2. Κερδίζεις ένα πόντο όταν ταιριάξεις μια τελεία σωστά
