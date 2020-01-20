@@ -2,21 +2,29 @@
 
 Veți salva scorul mare al jocului, astfel încât jucătorii să poată vedea cât de bine se fac.
 
-\--- task \--- Creați o nouă variabilă numită `scor mare`{: class = "block3variables"}.
+\--- task \---
 
-![Scena sprite](images/stage-sprite.png)
+Create a new variable called `high score`{:class="block3variables"}.
+
+![Stage sprite](images/stage-sprite.png)
 
 \--- /task \---
 
-\--- task \--- Selectați etapa. Faceți clic pe "Blocurile mele" și creați un nou bloc personalizat, numit `verificați un scor mare`{: class = "block3myblocks"}.
+\--- task \---
 
-![Scena sprite](images/stage-sprite.png) ![captură de ecran](images/dots-custom-1.png)
+Select the Stage. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
 
-\--- /proba\---
+![Stage sprite](images/stage-sprite.png)
 
-\--- sarcina \--- Adauga codul la blocul personalizat , astfel încât controalele bloc dacă valoarea curentă a `scor`{: class = „block3variables“} în mai mare decât valoarea `scor`{: class = variabila "block3variables"} și apoi stochează valoarea de `scoruri`{: class = "block3variables"} ca noua valoare de `scoruri mari`{: class = "block3variables"}.
+![screenshot](images/dots-custom-1.png)
 
-![Scena sprite](images/stage-sprite.png)
+\--- /task \---
+
+\--- task \---
+
+Add code to your custom block so that the block checks if the current value of `score`{:class="block3variables"} in larger than the value of the `high score`{:class="block3variables"} variable, and then stores the value of `score`{:class="block3variables"} as the new value of `high score`{:class="block3variables"}.
+
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
     definesc scorul mare de verificare
@@ -27,9 +35,11 @@ Veți salva scorul mare al jocului, astfel încât jucătorii să poată vedea c
 
 \--- /task \---
 
-\--- task \--- Adăugați noul bloc personalizat la scenariul Stage înainte de sfârșitul scriptului.
+\--- task \---
 
-![Scena sprite](images/stage-sprite.png)
+Add your new custom block to the Stage script before the end of the script.
+
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
 când pavilion apasat
@@ -45,6 +55,6 @@ oprire [totul v]
 
 \--- task \---
 
-Joaca jocul de două ori pentru a verifica dacă scorul dvs. devine salvat corect ca `mare scor`{: class = „block3variables“}.
+Play your game twice to check whether your score gets correctly saved as the `high score`{:class="block3variables"}.
 
 \--- /task \---
