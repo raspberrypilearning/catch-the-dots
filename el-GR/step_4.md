@@ -1,18 +1,32 @@
 ## Περισσότερες τελείες
 
-\--- task \--- Διπλασίασε δύο φορές την 'κόκκινη' τελεία και ονόμασε τα δύο νέα αντικείμενα 'κίτρινο' και 'μπλε'.
+\--- task \---
 
-![στιγμιότυπο οθόνης](images/dots-more-dots.png) \--- /task \---
+Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
 
-\--- task \--- Άλλαξε την ενδυμασία κάθε νέου αντικειμένου ώστε το 'κίτρινο' αντικείμενο να γίνει κίτρινο και το 'μπλε' αντικείμενο να γίνει μπλε. \--- /task \---
+![screenshot](images/dots-more-dots.png)
 
-\--- task \--- Άλλαξε τον κώδικα κάθε νέου αντικειμένου ώστε ο παίκτης να πρέπει να ταιριάξει κάθε κλώνο με το σωστό χρώμα του χειριστηρίου για να κερδίσει πόντους.
+\--- /task \---
 
-![στιγμιότυπο οθόνης](images/dots-all-test.png)
+\--- task \---
 
-\--- hints \--- \--- hint \--- Αυτός είναι ο κώδικας που πρέπει να βρεις και τροποποιήσεις και για τα δύο νέα αντικείμενα:
+Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue.
 
-![στιγμιότυπο οθόνης](images/dots-more-dots.png)
+\--- /task \---
+
+\--- task \---
+
+Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
+
+![screenshot](images/dots-all-test.png)
+
+\--- hints \---
+
+\--- hint \---
+
+This is the code you need to find and alter for both new sprites:
+
+![screenshot](images/dots-more-dots.png)
 
 ```blocks3
     εάν <touching color [#FF0000]?> τότε 
@@ -22,7 +36,11 @@
     τέλος
 ```
 
-\--- /hint \--- \--- hint \--- Έτσι πρέπει να τροποποιήσεις τον κώδικα για το κίτρινο αντικείμενο:
+\--- /hint \---
+
+\--- hint \---
+
+This is how you need to change the code for the yellow sprite:
 
 ```blocks3
     εάν <touching color [#FFFF00]? :: +> τότε
@@ -31,7 +49,7 @@
 end
 ```
 
-Έτσι πρέπει να τροποποιήσεις τον κώδικα για το μπλε αντικείμενο:
+This is how you need to change the code for the blue sprite:
 
 ```blocks3
     εάν <touching color [#0000FF]? :: +> τότε
@@ -40,11 +58,17 @@ end
     end
 ```
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
+\--- /hint \---
 
-Αν παίξεις τώρα το παιχνίδι, θα δεις ότι οι τελείες μερικές φορές δημιουργούνται η μία πάνω από την άλλη.
+\--- /hints \---
 
-\--- task \--- Άλλαξε τον κώδικα στο 'κίτρινο' αντικείμενο ώστε να περιμένει τέσσερα δευτερόλεπτα αφού έγινε κλικ στη σημαία για να εμφανιστεί.
+\--- /task \---
+
+If you play the game now, you can see that the dots sometimes get created one top of each other.
+
+\--- task \---
+
+Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
 
 ![Yellow dot](images/yellow-sprite.png)
 
@@ -56,6 +80,6 @@ end
 
 ![Blue dot](images/blue-sprite.png)
 
-Έπειτα άλλαξε τον κώδικα για το 'μπλε' αντικείμενο ώστε να περιμένει έξι δευτερόλεπτα αφού έγινε κλικ στη σημαία για να εμφανιστεί.
+Then change the code for the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
 
 \--- /task \---
