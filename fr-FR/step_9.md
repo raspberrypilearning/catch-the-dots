@@ -1,10 +1,10 @@
-## Et ensuite?
+## Quelle est l'étape suivante ?
 
-Try the [Clone wars](https://projects.raspberrypi.org/en/projects/clone-wars?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project to make a game in which you have to save the Earth from space monsters. Dans ce projet, vous pourrez utiliser ce que vous avez appris sur le clonage des sprites et l’ajout d’un score!
+Essayez le projet [Clone wars](https://projects.raspberrypi.org/en/projects/clone-wars?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) pour créer un jeu dans lequel vous devez sauver la Terre des monstres de l’espace. Dans ce projet, vous pourrez utiliser ce que vous avez appris sur le clonage des sprites et l’ajout d’un score!
 
 \--- no-print \---
 
-Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
+Cliquez sur le drapeau vert dans le jeu de l'exemple ci-dessous pour démarrer, puis appuyez sur les touches fléchées <kbd>gauche</kbd> et <kbd>droite</kbd> pour déplacer le vaisseau spatial et <kbd>la touche espace</kbd> pour tirer.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -13,7 +13,7 @@ Click the green flag in the example game below to start, and then press the <kbd
 
 \--- /no-print \---
 
-Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
+Marquez autant de points que vous pouvez en tirant des hippopotames volants. Si vous êtes touché par un hippopotame ou par une orange lâchée par les chauves-souris, vous perdez une vie.
 
 \--- print-only \---
 
