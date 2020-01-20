@@ -1,5 +1,5 @@
-## Challenge: faster dots
+## 課題：より速いカラーボール
 
-Can you improve your game by adding a `speed`{:class="block3variables"} variable and using this new variable to make the dot change their speed over time? The clones should start by moving one step at a time, and then steadily get faster and faster.
+変数「スピード」を追加し、この新しい変数を使用してカラーボールの速度を時間とともに変化させることで、ゲームを改善できますか？ クローンは、一度に1歩ずつ移動することから開始し、徐々に着実に速くなるようにします。
 
-The code you need for this is very similar to the code in which you've used the `delay`{:class="block3variables"} variable.
+これに必要なコードは、変数「おくれ」に使用したコードと非常に似ています。
