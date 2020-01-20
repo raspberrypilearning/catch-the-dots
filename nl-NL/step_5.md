@@ -2,13 +2,19 @@
 
 Nu ga je het spel moeilijker maken naarmate de speler het langer speelt. Je doet dit door de stippen steeds sneller en sneller te laten verschijnen.
 
-\--- task \--- Maak een nieuwe `variabele`{:class="block3variables"} genaamd 'vertraging'.
+\--- task \---
 
-![Speelveld sprite](images/stage-sprite.png) \--- /task \---
+Create a new `variable`{:class="block3variables"} called 'delay'.
 
-\--- task \--- Ga naar het scripts-gebied van het speelveld en maak een nieuw script aan dat de `vertraging`{:class="block3variables"} variabele instelt op `8` en verlaag vervolgens langzaam de waarde van `vertraging`{:class="block3variables"} terwijl het spel wordt gespeeld.
+![Stage sprite](images/stage-sprite.png)
 
-![Speelveld sprite](images/stage-sprite.png)
+\--- /task \---
+
+\--- task \---
+
+Go to the Stage's Scripts area and create a new script that sets the `delay`{:class="block3variables"} variable to `8` and then slowly reduces the value of `delay`{:class="block3variables"} while the game runs.
+
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
     wanneer groene vlag wordt aangeklikt
@@ -21,11 +27,13 @@ end
 
 \--- /task \---
 
-Merk op dat deze code erg lijkt op de code die je zou gebruiken om een aftellende klok te maken!
+Notice that this code is very similar to the code you would use to create a countdown timer!
 
-Gebruik vervolgens de `vertraging`{:class="block3variables"} variabele in het code script van de 'rode', 'gele' en 'blauwe' sprites.
+Next, use the `delay`{:class="block3variables"} variable in the code scripts of the 'red', 'yellow', and 'blue' sprites.
 
-\--- task \--- Verwijder het codeblok waardoor het spel een willekeurig aantal seconden wacht tussen het maken van de stip-sprite-klonen. Vervang het blok dat je hebt verwijderd met je nieuwe `vertraging`{:class="block3variables"} variabele:
+\--- task \---
+
+Remove the code block that makes the game wait a random number of seconds between making the dot sprite clones. Replace the block you've removed with your new `delay`{:class="block3variables"} variable:
 
 ![screenshot](images/all-dots.png)
 
@@ -34,11 +42,15 @@ Gebruik vervolgens de `vertraging`{:class="block3variables"} variabele in het co
 wacht (vertraging) sec.
 ```
 
-Doe dit voor alle drie de stip-sprites.
+Do this for all three dot sprites.
 
 \--- /task \---
 
-\--- task \--- Test het spel en controleer of de stippen sneller verschijnen als je het spel langer speelt.
+\--- task \---
+
+Test the game, and check whether the dots begin to appear more quickly as the game goes on.
 
 + Werkt dit voor alle drie gekleurde stippen?
-+ Zie je dat de waarde van de `vertraging`{:class="block3variables"} variabele afneemt? \--- /task \---
++ Can you see that the value of the `delay`{:class="block3variables"} variable decreases?
+
+\--- /task \---
