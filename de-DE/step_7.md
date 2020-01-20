@@ -2,21 +2,29 @@
 
 Du wirst den Höchstpunktestand des Spiels speichern, damit die Spieler sehen können, wie gut sie sind.
 
-\--- task \--- Erstelle eine neue Variable mit dem Namen `Höchstpunktestand`{:class="block3variables"}.
+\--- task \---
 
-![Figur Bühne](images/stage-sprite.png)
+Create a new variable called `high score`{:class="block3variables"}.
 
-\--- /task \---
-
-\--- task \--- Wähle die Bühne aus. Klicke auf ‚Meine Blöcke‘ und erstelle einen neuen benutzerdefinierten Block namens `prüfe Höchstpunktestand`{:class=„block3myblocks“}.
-
-![Figur Bühne](images/stage-sprite.png) ![Screenshot](images/dots-custom-1.png)
+![Stage sprite](images/stage-sprite.png)
 
 \--- /task \---
 
-\--- task \--- Füge deinem benutzerdefinierten Block Code hinzu, damit der Block prüft, ob der aktuelle Wert von `Punkte`{:class="block3variables"} größer als der Wert von `Höchstpunktestand`{:class="block3variables"} ist und speichere dann den Wert von `Punkte`{:class="block3variables"} als neuen Wert von `Höchstpunktestand`{:class="block3variables"}.
+\--- task \---
 
-![Figur Bühne](images/stage-sprite.png)
+Select the Stage. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
+
+![Stage sprite](images/stage-sprite.png)
+
+![screenshot](images/dots-custom-1.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your custom block so that the block checks if the current value of `score`{:class="block3variables"} in larger than the value of the `high score`{:class="block3variables"} variable, and then stores the value of `score`{:class="block3variables"} as the new value of `high score`{:class="block3variables"}.
+
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
     Definiere prüfe Höchstpunktestand
@@ -27,9 +35,11 @@ Ende
 
 \--- /task \---
 
-\--- task \--- Füge deinen neuen benutzerdefinierten Block zum Bühnen-Skript vor dem Ende des Skripts hinzu.
+\--- task \---
 
-![Figur Bühne](images/stage-sprite.png)
+Add your new custom block to the Stage script before the end of the script.
+
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
 Wenn die Flagge angeklickt wird
@@ -45,6 +55,6 @@ stoppe [alles v]
 
 \--- task \---
 
-Spiele dein Spiel zweimal, um zu prüfen, ob deine Punktzahl als `Höchstpunktestand`{:class="block3variables"} richtig gespeichert wird.
+Play your game twice to check whether your score gets correctly saved as the `high score`{:class="block3variables"}.
 
 \--- /task \---
