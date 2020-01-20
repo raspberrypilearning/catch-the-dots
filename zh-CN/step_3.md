@@ -2,13 +2,17 @@
 
 现在你会加入一些玩家需要接到的点.
 
-\--- task \--- 创建一个新的精灵叫做'red'. 这个精灵应该是一个小红点.
+\--- task \---
+
+Create a new sprite called 'red'. This sprite should be a small red dot.
 
 ![Red dot sprite](images/dots-red.png)
 
 \--- /task \---
 
-\--- task \--- 加入这个脚本到 'red' 精灵, 每隔几秒创建一个新的克隆精灵:
+\--- task \---
+
+Add this script to your 'red' sprite to create a new clone of the sprite every few seconds:
 
 ![Red dot sprite](images/red-sprite.png)
 
@@ -24,13 +28,15 @@
 
 \--- /task \---
 
-如果你现在点击绿色旗帜, 看上去好像什么也没有发生. 这是因为所有的克隆精灵都被隐藏了, 并且他们出现在了相同的地方.
+If you click the green flag now, it looks like nothing is happening. This is because all of the cloned sprites are hidden, and they appear in the same place.
 
-你要加入代码使得每个新的克隆精灵出现在舞台的四个角之一的位置.
+You are going to add code to make each new clone appear in one of the four corners of the Stage.
 
 ![screenshot](images/dots-start.png)
 
-\--- task \--- 创建一个新的列表叫做 `start positions`{:class="block3variables"}, 点击列表的 `(+)` 图标添加值 `-180`{:class="block3variables"} 和 `180`{:class="block3variables"}.
+\--- task \---
+
+Create a new list called `start positions`{:class="block3variables"}, click the list's `(+)` icon to add the values `-180`{:class="block3variables"} and `180`{:class="block3variables"}.
 
 ![Red dot sprite](images/red-sprite.png)
 
@@ -38,13 +44,17 @@
 
 [[[generic-scratch3-make-list]]]
 
-你可以通过反选这个框隐藏列表:
+Then you can hide the list by unselecting this box:
 
-![Hide the list](images/hide-list.png) \--- /task \---
+![Hide the list](images/hide-list.png)
 
-注意对于舞台的每一个角坐标是`180` 和 `-180`. 这意味着你可以使用列表来随机选取舞台的一角.
+\--- /task \---
 
-\--- task \--- 在'dot'精灵增加代码使每个精灵克隆出现在随机的一角并且想控制器精灵缓慢移动.
+Notice that the coordinate for each corner of the Stage is a combination of `180` and `-180`. This means you can use the list to pick a corner of the Stage at random.
+
+\--- task \---
+
+Add this code to the 'dot' sprite to make each new sprite clone appear in a random corner and then slowly move towards the controller sprite.
 
 ![Red dot sprite](images/red-sprite.png)
 
@@ -58,17 +68,29 @@
     end
 ```
 
-\--- /task \--- 这个新的代码选择或者是 `-180` 或者是 `180` 来设置x和y的位置, 意味着每个'dot'精灵克隆从舞台一角启动.
+\--- /task \---
 
-\--- task \--- 测试你的项目. 你可以看到红色小点出现在舞台一角并且向控制器缓慢移动.
+This new code chooses either `-180` or `180` for the x and y positions, meaning that each 'dot' sprite clone starts in a corner of the Stage.
 
-![screenshot](images/dots-red-test.png) \--- /task \---
+\--- task \---
 
-\--- task \--- 创建两个新的变量: `lives`{:class="block3variables"} 和 `score`{:class="block3variables"}.
+Test your project. You should see red dots appear in the corners of the Stage and move slowly towards the controller.
 
-![Red dot sprite](images/red-sprite.png) \--- /task \---
+![screenshot](images/dots-red-test.png)
 
-\--- task \--- 加入代码到舞台中,在游戏开始设置 `lives`{:class="block3variables"} 变量为 `3` 并设置 `score`{:class="block3variables"} 变量为 `0`. ![Stage sprite](images/stage-sprite.png)
+\--- /task \---
+
+\--- task \---
+
+Create two new variables called `lives`{:class="block3variables"} and `score`{:class="block3variables"}.
+
+![Red dot sprite](images/red-sprite.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your Stage to set the `lives`{:class="block3variables"} variable to `3` and the `score`{:class="block3variables"} to `0` at the start of the game. ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -78,7 +100,9 @@ set [score v] to (0)
 
 \--- /task \---
 
-\--- task \--- 添加代码到舞台脚本末尾, 当玩家失去最后一条生命时使游戏结束:
+\--- task \---
+
+Add this code to the end of the Stage's script to make the game end when the player loses the last of the lives:
 
 ![Stage sprite](images/stage-sprite.png)
 
@@ -89,13 +113,15 @@ set [score v] to (0)
 
 \--- /task \---
 
-玩家会赢得接住小点的得分, 错过小点会失去生命值. 小点只能由控制器的匹配的颜色来捕捉.
+The player should win points for catching dots, and should lose lives for failing to catch dots. A dot can only be caught by matching the colour of the controller to the colour of the dot.
 
-\--- task \--- 回到'red'点精灵脚本,在精灵末尾加入一些`当启动克隆`{:class="block3control"}脚本时的代码块.
+\--- task \---
 
-首先, 使小点克隆 `移动5步`{:class="block3motion"}以便重叠控制器.
+Go back to the 'red' dot sprite's Scripts area to add some code blocks to the end of the sprite's `when I start as a clone`{:class="block3control"} script.
 
-然后添加代码,如果克隆小点的颜色匹配控制器的颜色,加 `1` 到 `score`变量{:class="block3variables"}, 如果没有匹配,则从`lives`{:class="block3variables"} 变量减去 `1`.
+First, make the dot clone `move 5 steps`{:class="block3motion"} so that it overlaps the controller.
+
+Then add code to either add `1` to `score`{:class="block3variables"} if the colour of the dot clone matches the colour of the controller when they touch, or to take `1` away from `lives`{:class="block3variables"} if their colours don't match.
 
 [[[generic-scratch3-sound-from-library]]]
 
@@ -117,7 +143,7 @@ set [score v] to (0)
 
 \--- task \---
 
-测试你的游戏确保达到下面的效果:
+Test your game to make sure that:
 
 1. 如果没有接到正确颜色的小点, 失去一条生命
 2. 如果接到正确的小点, 加一分
