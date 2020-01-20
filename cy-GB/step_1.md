@@ -8,7 +8,9 @@ Dyma'r fersiwn ** Scratch 3 ** y prosiect. Mae yna hefyd fersiwn [ Scratch 2 y p
 
 Yn y prosiect yma, fe wnei di ddysgu sut i greu gêm lle mae rhaid i'r chwareuwr ddod o hyd i ddotiau lliw sy'n cydweddu gyda'r lliw cywir ar yr olwyn reoli.
 
-\--- no-print \--- Defnyddia'r saethau ar y bysellfwrdd i droi yr olwyn reoli a dal y dotiau sy'n hedfan wrth iddynt gyrraedd y canol. Os wyt ti'n colli tri dot, mae'r gêm drosodd.
+\--- no-print \---
+
+Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -17,7 +19,11 @@ Yn y prosiect yma, fe wnei di ddysgu sut i greu gêm lle mae rhaid i'r chwareuwr
 
 \--- /no-print \---
 
-\--- print-only \--- ![Dots screenshot](images/dots-final.png) \--- /print-only \---
+\--- print-only \---
+
+![Dots screenshot](images/dots-final.png)
+
+\--- /print-only \---
 
 ## \---collapse\---
 
@@ -42,14 +48,22 @@ Yn y prosiect yma, fe wnei di ddysgu sut i greu gêm lle mae rhaid i'r chwareuwr
 
 ### Lawrlwythiadau
 
-+ [Prosiect all-lein Scratch 2](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"} \--- /collapse \---
++ [Offline Scratch 2 project](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
+
+\--- /collapse \---
 
 ## \---collapse\---
 
 ## title: Gwybodaeth ychwanegol i addysgwyr
 
-\--- no-print \---Os oes angen i chi argraffu y prosiect, defnyddiwch [fersiwn i'w argraffu](https://projects.raspberrypi.org/en/projects/catch-the-dots/print). \--- /no-print \---
+\--- no-print \---
 
-Gallwch chi ddod o hyd i'r ateb ar gyfer y prosiect hwn [yma ](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print).
 
-Gallwch chi ddod o hyd i'r ateb ar gyfer y prosiect hwn [yma](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse \---
+\--- /no-print \---
+
+You can find [the completed project here](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+
+You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
+
+\--- /collapse \---
