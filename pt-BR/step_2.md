@@ -2,23 +2,27 @@
 
 Comece a criar um controlador que o jogador vai usar para apanhar os pontos.
 
-Abra o projeto Scratch inicial 'Apanha os pontos'.
+\--- task \---
 
-**Online:** Abra o projeto inicial em [ rpf.io/dots-on ](http://rpf.io/dots-on){: target="_ blank"}.
+Open the 'Catch the dots' Scratch starter project.
 
-Se você tiver uma conta do Scratch, pode fazer uma cópia clicando em ** Remix **.
+**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
 
-**Offline:** descarregue o projeto inicial de [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), e depois abre-o no editor Scratch offline.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Se você precisar baixar e instalar o editor do Scratch offline, você pode encontrá-lo em [rpf.io/scratchoff](http://rpf.io/scratchoff).
+**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
 \--- /task \---
 
-Você deve ver uma imagem do controlador:
+You should see a controller sprite:
 
 ![screenshot](images/dots-controller.png)
 
-\--- task \--- Adicione um código ao 'controlador' para o fazer girar para a direita se o jogador pressionar a tecla 'seta para a direita':
+\--- task \---
+
+Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
 
 ![Controller sprite](images/controller-sprite.png)
 
@@ -33,17 +37,29 @@ Você deve ver uma imagem do controlador:
 
 \--- /task \---
 
-\--- task \--- Testa o teu código. O 'controlador' deve girar para a direita quando pressionar a tecla 'seta para a direita'. \--- /task \---
+\--- task \---
 
-\--- task \--- Adicione um código ao 'controlador' para o fazer girar para a direita se o jogador pressionar a tecla 'seta para a direita'.
+Test your code. The controller should spin to the right when you press the right arrow key.
+
+\--- /task \---
+
+\--- task \---
+
+Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
 
 ![Controller sprite](images/controller-sprite.png)
 
-\--- hints \--- \--- hint \---
+\--- hints \---
 
-Encontre o código que verifica se a 'seta para a direita' ė pressionada e faz o sprite girar para a direita. Pode adicionar uma cópia deste código, e mudar a cópia de maneira a que verifique se a tecla 'seta para a esquerda' está premida e fazer o sprite girar para a esquerda?
+\--- hint \---
 
-\--- /hint \--- \--- hint \--- Here are the blocks you need:
+Find the code that checks whether the right arrow key is pressed and makes the sprite turn right. Can you add a copy of this code, and change the copy so it checks whether the left arrow key is pressed and makes the sprite turn left?
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
 
 ```blocks3
 <key (space v) pressed?>
@@ -55,7 +71,11 @@ if <> then
 end
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your code should look like:
 
 ```blocks3
     when flag clicked
@@ -70,4 +90,8 @@ end
     end
 ```
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
+\--- /hint \---
+
+\--- /hints \---
+
+\--- /task \---
