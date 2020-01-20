@@ -1,18 +1,32 @@
 ## Več pik
 
-\--- task \--- Dvakrat podvoji figuro pike 'rdeča' in novi figuri poimenuj 'rumena' in 'modra'.
+\--- task \---
 
-![posnetek zaslona](images/dots-more-dots.png) \--- /task \---
+Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
 
-\--- task \--- Spremeni videz novih figur, da bosta prave barve: 'rumena' naj bo rumena, 'modra' naj bo modra. \--- /task \---
+![screenshot](images/dots-more-dots.png)
 
-\--- task \--- Spremeni kodo obeh figur na način. da bo igralec moral ujeti dvojnika pike s pravilno barvo krmila, da bi dobil točke.
+\--- /task \---
 
-![posnetek zaslona](images/dots-all-test.png)
+\--- task \---
 
-\--- hints \--- \--- hint \--- To je koda, ki jo moraš poiskati in prilagoditi figurama:
+Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue.
 
-![posnetek zaslona](images/dots-more-dots.png)
+\--- /task \---
+
+\--- task \---
+
+Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
+
+![screenshot](images/dots-all-test.png)
+
+\--- hints \---
+
+\--- hint \---
+
+This is the code you need to find and alter for both new sprites:
+
+![screenshot](images/dots-more-dots.png)
 
 ```blocks3
       če <se dotika barve [#FF0000]?>
@@ -22,7 +36,11 @@
     konec
 ```
 
-\--- /hint \--- \--- hint \--- Tako moraš srpemeniti kodo za rumeno figuro:
+\--- /hint \---
+
+\--- hint \---
+
+This is how you need to change the code for the yellow sprite:
 
 ```blocks3
       če <se dotika barve [#FFFF00]? :: +> potem
@@ -31,7 +49,7 @@
   konec
 ```
 
-Tako moraš spremeniti kodo za modro figuro:
+This is how you need to change the code for the blue sprite:
 
 ```blocks3
     če <se dotika barve [#0000FF]? :: +> potem
@@ -40,13 +58,19 @@ Tako moraš spremeniti kodo za modro figuro:
   konec
 ```
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
+\--- /hint \---
 
-Če sedaj igraš svojo igro, boš videl, da da se pike včasih ustvarijo ena vrh druge.
+\--- /hints \---
 
-\--- task \--- Spremeni kodo za figuro pike 'rumena', da bo počakala štiri sekunde, po kliku na zastavico, preden se bo pojavila.
+\--- /task \---
 
-![Rumena pika](images/yellow-sprite.png)
+If you play the game now, you can see that the dots sometimes get created one top of each other.
+
+\--- task \---
+
+Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
+
+![Yellow dot](images/yellow-sprite.png)
 
 ```blocks3
     ko kliknemo na zastavico
@@ -54,8 +78,8 @@ Tako moraš spremeniti kodo za modro figuro:
 +   počakaj (4) sekund
 ```
 
-![Modra pika](images/blue-sprite.png)
+![Blue dot](images/blue-sprite.png)
 
-Nato spremeni kodo za figuro 'modra' pika, da bo počakala 6 sekund po kliku na zastavico, da se bo pojavila.
+Then change the code for the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
 
 \--- /task \---
