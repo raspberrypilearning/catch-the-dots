@@ -1,18 +1,32 @@
 ## Więcej kropek
 
-\--- task \--- Dwukrotnie powiel swój „czerwony” duszek i nazwij dwa nowe duszki „żółtym” i „niebieskim”.
+\--- task \---
 
-![zrzut ekranu](images/dots-more-dots.png) \--- /task \---
+Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
 
-\--- task \--- Zmień kostium każdego nowego duszka, tak aby był prawidłowego koloru: „żółty” duszek powinien być żółty, a „niebieski” duszek powinien być niebieski. \--- /task \---
+![screenshot](images/dots-more-dots.png)
 
-\--- task \--- Zmień kod każdego ikonki, aby gracz musiał dopasować kropkę do odpowiedniego koloru kontrolera, aby zdobyć punkty.
+\--- /task \---
 
-![zrzut ekranu](images/dots-all-test.png)
+\--- task \---
 
-\--- hints \--- \--- hint \--- Jest to kod, który musisz znaleźć i zmienić dla obu nowych ikonek:
+Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue.
 
-![zrzut ekranu](images/dots-more-dots.png)
+\--- /task \---
+
+\--- task \---
+
+Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
+
+![screenshot](images/dots-all-test.png)
+
+\--- hints \---
+
+\--- hint \---
+
+This is the code you need to find and alter for both new sprites:
+
+![screenshot](images/dots-more-dots.png)
 
 ```blocks3
     jeśli <touching color [#FF0000]?> to
@@ -22,7 +36,11 @@
     koniec
 ```
 
-\--- /hint \--- \--- hint \--- W ten sposób należy zmienić kod żółtego ikonki:
+\--- /hint \---
+
+\--- hint \---
+
+This is how you need to change the code for the yellow sprite:
 
 ```blocks3
     jeśli <dotyka koloru [# FFFF00]? :: +> a następnie
@@ -31,7 +49,7 @@
     koniec
 ```
 
-W ten sposób musisz zmienić kod niebieskiego duszka:
+This is how you need to change the code for the blue sprite:
 
 ```blocks3
     jeśli <dotyka koloru [# 0000FF]? :: +> a następnie
@@ -40,13 +58,19 @@ W ten sposób musisz zmienić kod niebieskiego duszka:
     koniec
 ```
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
+\--- /hint \---
 
-Jeśli grasz teraz w tę grę, możesz zobaczyć, że czasami kropki są tworzone jedna na drugiej.
+\--- /hints \---
 
-\--- task \--- Zmień kod duszka „żółtej” kropki, tak aby poczekał cztery sekundy po kliknięciu flagi przed pojawieniem się.
+\--- /task \---
 
-![Żółta kropka](images/yellow-sprite.png)
+If you play the game now, you can see that the dots sometimes get created one top of each other.
+
+\--- task \---
+
+Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
+
+![Yellow dot](images/yellow-sprite.png)
 
 ```blocks3
     po kliknięciu flagi
@@ -54,8 +78,8 @@ Jeśli grasz teraz w tę grę, możesz zobaczyć, że czasami kropki są tworzon
 + poczekaj (4) sekundy
 ```
 
-![Niebieska kropka](images/blue-sprite.png)
+![Blue dot](images/blue-sprite.png)
 
-Następnie zmień kod duszka „niebieskiej” kropki, tak aby poczekał 6 sekund po kliknięciu flagi przed pojawieniem się.
+Then change the code for the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
 
 \--- /task \---
