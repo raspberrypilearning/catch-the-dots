@@ -8,7 +8,9 @@ To jest wersja projektu korzystająca z **Scratch 3**. Istnieje również [wersj
 
 W tym projekcie nauczysz się jak stworzyć grę, w której gracz musi dopasować kolorowe kropki do właściwych części pokrętła kontrolera.
 
-\--- no-print \--- Użyj strzałek na klawiaturze do obracania pokrętłem i łapania lecących kropek, jak tylko zbliżą się do środka. Jeżeli nie trafisz w trzy kropki, gra się skończy.
+\--- no-print \---
+
+Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -17,7 +19,11 @@ W tym projekcie nauczysz się jak stworzyć grę, w której gracz musi dopasowa�
 
 \--- /no-print \---
 
-\--- print-only \--- ![Dots screenshot](images/dots-final.png) \--- /print-only \---
+\--- print-only \---
+
+![Dots screenshot](images/dots-final.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -42,14 +48,22 @@ W tym projekcie nauczysz się jak stworzyć grę, w której gracz musi dopasowa�
 
 ### Pliki do pobrania
 
-+ [Wersja Scratch 3 projektu do pobrania](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"} \--- /collapse \---
++ [Offline Scratch 2 project](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: Dodatkowe informacje dla nauczycieli
 
-\--- no-print \--- Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.raspberrypi.org/en/projects/catch-the-dots/print). \--- /no-print \---
+\--- no-print \---
 
-Możesz znaleźć [kompletną wersję projektu tutaj](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print).
 
-Tutaj znajdziesz [zakończony projekt](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- / collapse \---
+\--- /no-print \---
+
+You can find [the completed project here](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+
+You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
+
+\--- /collapse \---
