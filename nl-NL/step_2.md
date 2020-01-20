@@ -2,23 +2,27 @@
 
 Begin met het maken van een controller die de speler gebruikt om stippen te verzamelen.
 
-Open het 'Vang de stippen' Scratch starter project.
+\--- task \---
 
-**Online**: open het online starter project op [rpf.io/dots-on](http://rpf.io/dots-on){:target="_ blank"}.
+Open the 'Catch the dots' Scratch starter project.
 
-Als je een Scratch-account hebt, kun je een kopie maken door op **Remix** te klikken.
+**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
 
-**Offline:** download het starter project op [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go){:target="_ blank"} en open het vervolgens met behulp van de Scratch offline editor.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Als je de Scratch offline editor wilt downloaden en installeren dan kan je die vinden op [rpf.io/scratchoff](http://rpf.io/scratchoff).
+**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
 \--- /task \---
 
-Je zou een controllersprite moeten zien:
+You should see a controller sprite:
 
 ![screenshot](images/dots-controller.png)
 
-\--- task \--- Voeg wat code toe aan de controllersprite om de sprite naar rechts te draaien als de speler de rechter pijljestoets indrukt:
+\--- task \---
+
+Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
 
 ![Controller sprite](images/controller-sprite.png)
 
@@ -33,17 +37,29 @@ end
 
 \--- /task \---
 
-\--- task \--- Test je code. De controllersprite zou naar rechts moeten draaien wanneer je op de rechter pijltjestoets drukt. \--- /task \---
+\--- task \---
 
-\--- task \--- Voeg code toe aan de controllersprite om de sprite naar links te draaien als de speler de linker pijljestoets indrukt.
+Test your code. The controller should spin to the right when you press the right arrow key.
+
+\--- /task \---
+
+\--- task \---
+
+Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
 
 ![Controller sprite](images/controller-sprite.png)
 
-\--- hints \--- \--- hint \---
+\--- hints \---
 
-Vind de code die controleert of de rechter pijltjestoets is ingedrukt en de sprite naar rechts doet draaien. Kun je een kopie van deze code toevoegen en de kopie aanpassen zodat deze de controleert of de linker pijltjestoets is ingedrukt en de sprite naar links doet draaien?
+\--- hint \---
 
-\--- /hint \--- \--- hint \--- Hier zijn de blokken die je nodig hebt:
+Find the code that checks whether the right arrow key is pressed and makes the sprite turn right. Can you add a copy of this code, and change the copy so it checks whether the left arrow key is pressed and makes the sprite turn left?
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
 
 ```blocks3
 <toets (spatiebalk v) ingedrukt?>
@@ -55,7 +71,11 @@ als <> dan
 end
 ```
 
-\--- / hint \--- \--- hint \--- Hier is hoe je blok eruit zou moeten zien:
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your code should look like:
 
 ```blocks3
     wanneer groene vlag wordt aangeklikt
@@ -70,4 +90,8 @@ herhaal
 end
 ```
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
+\--- /hint \---
+
+\--- /hints \---
+
+\--- /task \---
