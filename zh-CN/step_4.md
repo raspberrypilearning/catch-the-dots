@@ -1,16 +1,30 @@
 ## 更多小点
 
-\--- task \--- 复制'red'小点精灵两次, 起名为'yellow'和'blue'.
+\--- task \---
 
-![screenshot](images/dots-more-dots.png) \--- /task \---
+Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
 
-\--- task \--- 修改每个新精灵的造型, 以便可以匹配正确的颜色:'yellow'精灵应该是黄色, 'blue'精灵应该是蓝色. \--- /task \---
+![screenshot](images/dots-more-dots.png)
 
-\--- task \--- 修改每个精灵的代码, 以便玩家匹配正确的颜色获取得分.
+\--- /task \---
+
+\--- task \---
+
+Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue.
+
+\--- /task \---
+
+\--- task \---
+
+Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
 
 ![screenshot](images/dots-all-test.png)
 
-\--- hints \--- \--- hint \--- 这是你需要在每个新精灵中找到和修改的代码:
+\--- hints \---
+
+\--- hint \---
+
+This is the code you need to find and alter for both new sprites:
 
 ![screenshot](images/dots-more-dots.png)
 
@@ -22,7 +36,11 @@
     end
 ```
 
-\--- /hint \--- \--- hint \--- 这是你需要为黄色小点精灵修改的代码:
+\--- /hint \---
+
+\--- hint \---
+
+This is how you need to change the code for the yellow sprite:
 
 ```blocks3
     if <touching color [#FFFF00]? :: +> then
@@ -31,7 +49,7 @@
     end
 ```
 
-这是你需要为蓝色精灵修改的代码:
+This is how you need to change the code for the blue sprite:
 
 ```blocks3
     if <touching color [#0000FF]? :: +> then
@@ -40,11 +58,17 @@
     end
 ```
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
+\--- /hint \---
 
-如果你现在玩游戏, 你可以看到小点有时会创建在其他小点身上, 同时创建多个小点.
+\--- /hints \---
 
-\--- task \--- 修改'yellow'小点精灵的代码以便在点击绿色旗帜后等待四秒再出现.
+\--- /task \---
+
+If you play the game now, you can see that the dots sometimes get created one top of each other.
+
+\--- task \---
+
+Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
 
 ![Yellow dot](images/yellow-sprite.png)
 
@@ -56,6 +80,6 @@
 
 ![Blue dot](images/blue-sprite.png)
 
-然后修改'blue'小点精灵的代码以便在点击绿色旗帜后等待6秒才出现.
+Then change the code for the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
 
 \--- /task \---
