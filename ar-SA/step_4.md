@@ -1,18 +1,32 @@
-## جمع النقاط
+## المزيد من النقاط
 
-\--- task \--- قم بمضاعفة كائن النقطة 'أحمر' مرتين، و أطلق على الكائنات الجديدة المسميات 'أصفر' و 'أزرق'.
+\--- task \---
 
-![لقطة الشاشة](images/dots-more-dots.png) \--- /task \---
+Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
 
-\--- task \--- غير مظهر الكائنات الجديدة بحيث يتناسب لون كلاً منهما مع اسمه: الكائن 'أصفر' لونه أصفر، و الكائن 'أزرق' لونه أزرق. \--- /task \---
+![screenshot](images/dots-more-dots.png)
 
-\--- task \--- غيّر التعليمات البرمجية لكل كائن بحيث يصبح على اللاعب أن يطابق نسخ كائنات النقاط مع اللون المناسب على عجلة التحكم ليكسب نقاط.
+\--- /task \---
 
-![لقطة الشاشة](images/dots-all-test.png)
+\--- task \---
 
-\--- hints \--- \--- hint \--- هذه هي التعليمات البرمجية التي ستحتاج إلى تعديلها للكائنين الجديدين 'أصفر' و 'أزرق':
+Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue.
 
-![لقطة الشاشة](images/dots-more-dots.png)
+\--- /task \---
+
+\--- task \---
+
+Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
+
+![screenshot](images/dots-all-test.png)
+
+\--- hints \---
+
+\--- hint \---
+
+This is the code you need to find and alter for both new sprites:
+
+![screenshot](images/dots-more-dots.png)
 
 ```blocks3
     إذا <ملامس للون [#FF0000] ؟> 
@@ -22,7 +36,11 @@ end
     النهاية
 ```
 
-\--- /hint \--- \--- hint \--- فيما يلي ما ستحتاجه لتغيير التعليمات البرمجية الخاصة بالكائن أصفر:
+\--- /hint \---
+
+\--- hint \---
+
+This is how you need to change the code for the yellow sprite:
 
 ```blocks3
     إذا <ملامس للون [#FFFF00] ؟> 
@@ -31,7 +49,7 @@ end
 end >
 ```
 
-فيما يلي ما ستحتاجه لتغيير التعليمات البرمجية الخاصة بالكائن أزرق:
+This is how you need to change the code for the blue sprite:
 
 ```blocks3
     إذا <ملامس للون [#0000FF] ؟ :: +> 
@@ -40,13 +58,19 @@ end >
 end >
 ```
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
+\--- /hint \---
 
-إذا قمت بتشغيل اللعبة الآن، ستشاهد أن النقاط الملونة يتم انشائها بعض الأحيان فوق بعضها البعض.
+\--- /hints \---
 
-\--- task \--- عدّل على التعليمات البرمجية الخاصة بكائن النقطة 'أصفر' بحيث ينتظر ٤ ثوان بعد النقر على العلم الأخضر قبل أن يظهر على منصة العمل.
+\--- /task \---
 
-![النقطة الصفراء](images/yellow-sprite.png)
+If you play the game now, you can see that the dots sometimes get created one top of each other.
+
+\--- task \---
+
+Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
+
+![Yellow dot](images/yellow-sprite.png)
 
 ```blocks3
     عند نقر ⚑
@@ -54,8 +78,8 @@ end >
 انتظر (4) ثانية
 ```
 
-![النقطة الزرقاء](images/blue-sprite.png)
+![Blue dot](images/blue-sprite.png)
 
-بعد ذلك عدّل على التعليمات البرمجية الخاصة بكائن النقطة 'أزرق' بحيث ينتظر ٦ ثوان بعد النقر على العلم الأخضر قبل أن يظهر على منصة العمل.
+Then change the code for the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
 
 \--- /task \---
