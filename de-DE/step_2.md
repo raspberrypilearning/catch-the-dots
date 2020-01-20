@@ -2,25 +2,29 @@
 
 Erstelle zunächst einen Controller, den der Spieler zum Sammeln von Punkten verwenden soll.
 
-\--- task \--- Öffne das Scratch-Basisprojekt 'Fang die Punkte'.
+\--- task \---
 
-**Online:** öffne das Basisprojekt auf [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
+Open the 'Catch the dots' Scratch starter project.
 
-Wenn du bereits einen Scratch-Account besitzt, kannst du dir durch klicken auf **Remix** eine Kopie anlegen.
+**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
 
-**Offline:** Lade das Basisprojekt von [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go) herunter und öffne es dann mit dem Scratch Offline-Editor.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Wenn du den Scratch-Offline-Editor herunterladen und installieren möchtest, findest du diesen unter [rpf.io/scratchoff](http://rpf.io/scratchoff).
+**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
 \--- /task \---
 
-Du solltest einen Controller (Steuerungs-Figur) sehen:
+You should see a controller sprite:
 
-![Bildschirmfoto](images/dots-controller.png)
+![screenshot](images/dots-controller.png)
 
-\--- task \--- Füge Code zur Controller-Figur hinzu, damit sie sich rechts herum dreht, wenn die "Pfeil nach rechts" Taste gedrückt wird:
+\--- task \---
 
-![Controller-Figur](images/controller-sprite.png)
+Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
+
+![Controller sprite](images/controller-sprite.png)
 
 ```blocks3
     wenn grüne Fahne angeklickt
@@ -33,17 +37,29 @@ Du solltest einen Controller (Steuerungs-Figur) sehen:
 
 \--- /task \---
 
-\--- task \--- Teste deinen Code. Der Controller sollte sich nach rechts drehen, wenn du die Taste "Pfeil nach rechts" drückst. \--- /task \---
+\--- task \---
 
-\--- task \--- Füge Code zur Controller-Figur hinzu, damit sie sich links herum dreht, wenn die "Pfeil nach links" Taste gedrückt wird.
+Test your code. The controller should spin to the right when you press the right arrow key.
 
-![Controller-Figur](images/controller-sprite.png)
+\--- /task \---
 
-\--- hints \--- \--- hint \---
+\--- task \---
 
-Suche den Code, der prüft, ob die Taste "Pfeil nach rechts" gedrückt ist und der dafür sorgt, dass die Figur sich nach rechts dreht. Kannst du eine Kopie dieses Codes machen und ihn so abändern, dass er prüft, ob die Taste "Pfeil nach links" gedrückt wurde und der die Figur dann nach links drehen lässt?
+Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
 
-\--- /hint \--- \--- hint \--- Hier sind die Code Blöcke die du brauchst:
+![Controller sprite](images/controller-sprite.png)
+
+\--- hints \---
+
+\--- hint \---
+
+Find the code that checks whether the right arrow key is pressed and makes the sprite turn right. Can you add a copy of this code, and change the copy so it checks whether the left arrow key is pressed and makes the sprite turn left?
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
 
 ```blocks3
 <Taste ( Leertaste v) gedrückt?>
@@ -55,7 +71,11 @@ wenn <> dann
 Ende
 ```
 
-\--- /hint \--- \--- hint \--- So sollte dein Code aussehen:
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your code should look like:
 
 ```blocks3
     wenn grüne Fahne angeklickt
@@ -70,4 +90,8 @@ Ende
     Ende
 ```
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
+\--- /hint \---
+
+\--- /hints \---
+
+\--- /task \---
