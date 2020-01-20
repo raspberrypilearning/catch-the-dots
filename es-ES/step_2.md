@@ -1,8 +1,10 @@
 ## Crear un controlador
 
-Comience creando un controlador que el jugador utilizará para recoger puntos.
+Comienza creando un controlador que el jugador utilizará para atrapar los puntos.
 
-\--- tarea \--- Abra el proyecto de arranque de Scratch 'Catch the dots'.
+\--- task \---
+
+Open the 'Catch the dots' Scratch starter project.
 
 **Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
 
@@ -10,64 +12,86 @@ If you have a Scratch account you can make a copy by clicking **Remix**.
 
 **Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
 
-Si necesita descargar e instalar el editor de Scratch offline, puede encontrarlo en [ rpf.io/scratchoff ](http://rpf.io/scratchoff).
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
 \--- /task \---
 
 You should see a controller sprite:
 
-![captura de pantalla](images/dots-controller.png)
+![screenshot](images/dots-controller.png)
 
-\--- task \--- Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
+\--- task \---
+
+Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
 
 ![Controller sprite](images/controller-sprite.png)
 
 ```blocks3
-    cuando la bandera hace clic en
-    para siempre
-        si <key (right arrow v) pressed?> luego
-            gira a la derecha (3) grados
+    al hacer clic en la bandera verde
+    por siempre
+        si <key (right arrow v) pressed?> entonces
+            girar a la derecha (3) grados
         final
     final
 ```
 
 \--- /task \---
 
-\--- task \--- Prueba tu código. The controller should spin to the right when you press the right arrow key. \--- /task \---
+\--- task \---
 
-\--- task \--- Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
+Test your code. The controller should spin to the right when you press the right arrow key.
+
+\--- /task \---
+
+\--- task \---
+
+Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
 
 ![Controller sprite](images/controller-sprite.png)
 
-\--- hints \--- \--- hint \---
+\--- hints \---
+
+\--- hint \---
 
 Find the code that checks whether the right arrow key is pressed and makes the sprite turn right. Can you add a copy of this code, and change the copy so it checks whether the left arrow key is pressed and makes the sprite turn left?
 
-\--- /hint \--- \--- hint \--- Here are the blocks you need:
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
 
 ```blocks3
 <key (space v) pressed?>
 
-gire a la izquierda (15) grados
+girar a la izquierda (15) grados
 
-si <> luego
+si <> entonces
 
 final
 ```
 
-\--- /hint \--- \--- hint \--- Aquí está el código que necesitarás:
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your code should look like:
 
 ```blocks3
-    cuando la bandera hace clic en
-    para siempre
-        si <key (right arrow v) pressed?> luego
-            gira a la derecha (3) grados
-        termina
+    al hacer clic en la bandera verde
+    por siempre
+        si <key (right arrow v) pressed?> entonces
+            girar a la derecha (3) grados
+        fin
 
-+ si <key (left arrow v) pressed?> luego
-            gira a la izquierda (3) grados
-        final
-    final
++ si <key (left arrow v) pressed?> entonces
+            girar a la izquierda (3) grados
+        fin
+    fin
 ```
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
+\--- /hint \---
+
+\--- /hints \---
+
+\--- /task \---
