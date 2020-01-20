@@ -8,7 +8,9 @@ Aceasta este versiunea **Scratch 3** a proiectului. Există, de asemenea, o vers
 
 În acest proiect veți învăța cum să creați un joc în care jucătorul trebuie să se potrivească cu puncte colorate cu culoarea corectă a roții de control.
 
-\--- no-print \--- Utilizați tastele săgeți de pe tastatură pentru a roti roata controlerului și pentru a prinde punctele de zbor în timp ce ajung în centru. Dacă pierzi trei puncte, jocul sa terminat.
+\--- no-print \---
+
+Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -17,7 +19,11 @@ Aceasta este versiunea **Scratch 3** a proiectului. Există, de asemenea, o vers
 
 \--- /no-print \---
 
-\--- numai printare \--- ![Dots screenshot](images/dots-final.png) \--- / numai prin print
+\--- print-only \---
+
+![Dots screenshot](images/dots-final.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -42,14 +48,22 @@ Aceasta este versiunea **Scratch 3** a proiectului. Există, de asemenea, o vers
 
 ### Descărcări
 
-+ [Offline Scratch 2 proiect](http://rpf.io/p/en/catch-the-dots-go){: target = "_ blank") \--- / colaps \---
++ [Offline Scratch 2 project](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
 ## titlu: note suplimentare pentru educatori
 
-\--- fără imprimare \--- Dacă aveți nevoie pentru a imprima acest proiect, vă rugăm să folosiți [versiune pentru tipărire](https://projects.raspberrypi.org/en/projects/catch-the-dots/print). \--- /no-print \---
+\--- no-print \---
 
-Puteți găsi [proiectul finalizat aici](http://rpf.io/p/en/catch-the-dots-get){: target = "_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print).
 
-You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse \---
+\--- /no-print \---
+
+You can find [the completed project here](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+
+You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
+
+\--- /collapse \---
