@@ -2,25 +2,29 @@
 
 Ξεκίνα δημιουργώντας ένα χειριστήριο που θα χρησιμοποιεί ο παίκτης για να συλλέγει τελείες.
 
-\--- task \--- Άνοιξε το αρχικό έργο Scratch 'Πιάσε τις τελείες'.
+\--- task \---
 
-**Online:** άνοιξε το αρχικό έργο στο [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
+Open the 'Catch the dots' Scratch starter project.
 
-Αν έχεις λογαριασμό Scratch μπορείς να δημιουργήσεις ένα αντίγραφο κάνοντας κλικ στο **Ανάμειξη**.
+**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
 
-**Offline:**Κατέβασε το αρχικό έργο από [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go) και κατόπιν άνοιξέ το στον offline επεξεργαστή Scratch.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Αν χρειαστεί να κατεβάσεις και να εγκαταστήσεις τον offline επεξεργαστή Scratch μπορείς να τον βρεις στη διεύθυνση [rpf.io/scratchoff](http://rpf.io/scratchoff).
+**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
 \--- /task \---
 
-Θα πρέπει να δεις ένα αντικείμενο για το χειριστήριο:
+You should see a controller sprite:
 
-![στιγμιότυπο οθόνης](images/dots-controller.png)
+![screenshot](images/dots-controller.png)
 
-\--- task \--- Πρόσθεσε κώδικα στο αντικείμενο χειριστήριο για να περιστρέφεται δεξιά όταν ο παίκτης πατά το δεξί βελάκι:
+\--- task \---
 
-![Αντικείμενο χειριστήριο](images/controller-sprite.png)
+Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
+
+![Controller sprite](images/controller-sprite.png)
 
 ```blocks3
     Όταν στην πράσινη σημαία γίνει κλικ
@@ -33,17 +37,29 @@ end
 
 \--- /task \---
 
-\--- task \--- Δοκίμασε τον κώδικα. Το χειριστήριο θα πρέπει να περιστρέφεται δεξιά όταν πατάς το δεξί βελάκι. \--- /task \---
+\--- task \---
 
-\--- task \--- Πρόσθεσε κώδικα στο αντικείμενο χειριστήριο για να περιστρέφεται αριστερά όταν ο παίκτης πατά το αριστερό βελάκι.
+Test your code. The controller should spin to the right when you press the right arrow key.
 
-![Αντικείμενο χειριστήριο](images/controller-sprite.png)
+\--- /task \---
 
-\--- hints \--- \--- hint \---
+\--- task \---
 
-Βρες τον κώδικα που ελέγχει αν πατήθηκε το δεξί βελάκι και κάνει το χειριστήριο να περιστρέφεται δεξιά. Μπορείς να κάνεις ένα αντίγραφο αυτού του κώδικα και να τον αλλάξεις ώστε να ελέγχει αν πατήθηκε το αριστερό βελάκι και να κάνει το χειριστήριο να περιστρέφεται αριστερά;
+Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
 
-\--- /hint \--- \--- hint \--- Εδώ είναι τα μπλοκ που θα χρειαστείς:
+![Controller sprite](images/controller-sprite.png)
+
+\--- hints \---
+
+\--- hint \---
+
+Find the code that checks whether the right arrow key is pressed and makes the sprite turn right. Can you add a copy of this code, and change the copy so it checks whether the left arrow key is pressed and makes the sprite turn left?
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
 
 ```blocks3
 <key (space v) pressed?>
@@ -55,7 +71,11 @@ end
 τέλος
 ```
 
-\--- /hint \--- \--- hint \--- Έτσι πρέπει να είναι ο κώδικάς σου:
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your code should look like:
 
 ```blocks3
     Όταν στην πράσινη σημαία γίνει κλικ
@@ -70,4 +90,8 @@ end
 end
 ```
 
-\--- /hint \--- \--- /hint \--- \--- / task \---
+\--- /hint \---
+
+\--- /hints \---
+
+\--- /task \---
