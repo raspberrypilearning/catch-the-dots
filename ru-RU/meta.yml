@@ -8,7 +8,7 @@ version: 4.0.0
 last_tested: 2018-10-16
 steps:
   - 
-    title: Introduction
+    title: Введение
   - 
     title: Create a controller
   - 
@@ -22,6 +22,6 @@ steps:
   - 
     title: High score
   - 
-    title: 'Challenge: improve your game!'
+    title: 'Задание: улучшение своей игры!'
   - 
-    title: What next?
+    title: Что дальше?
