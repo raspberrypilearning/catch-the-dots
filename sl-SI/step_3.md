@@ -2,15 +2,19 @@
 
 Sedaj boš dodal nekaj pik, ki mora igralec zbirati.
 
-\--- task \--- Ustvari novo figuro, imenovano 'rdeča'. Ta figura bi morala biti mala rdeča pika.
+\--- task \---
 
-![Figura rdeče pike](images/dots-red.png)
+Create a new sprite called 'red'. This sprite should be a small red dot.
+
+![Red dot sprite](images/dots-red.png)
 
 \--- /task \---
 
-\--- task \--- Figuri 'rdeča' dodaj sledeče ukaze, da bi vsakih nekaj sekund ustvaril dvojnika figure:
+\--- task \---
 
-![Figura rdeče pike](images/red-sprite.png)
+Add this script to your 'red' sprite to create a new clone of the sprite every few seconds:
+
+![Red dot sprite](images/red-sprite.png)
 
 ```blocks3
     ko kliknemo na zastavico
@@ -24,29 +28,35 @@ Sedaj boš dodal nekaj pik, ki mora igralec zbirati.
 
 \--- /task \---
 
-Če sedaj klikneš na zeleno zastavico, se zdi, kot da se ni zgodilo ničesar. Razlog je v temu, da so vsi dvojniki figure skriti in da se vsi nahajajo na istem mestu.
+If you click the green flag now, it looks like nothing is happening. This is because all of the cloned sprites are hidden, and they appear in the same place.
 
-Sedaj boš dodal kodo, ki bo poskrbela, da se bo vsak nov dvojnik pojavil v enem od štirih kotov odra.
+You are going to add code to make each new clone appear in one of the four corners of the Stage.
 
-![posnetek zaslona](images/dots-start.png)
+![screenshot](images/dots-start.png)
 
-\--- task \--- Dodaj nov seznam in ga poimenuj `začetne pozicije`{:class="block3variables"}. Klikni na `(+)` ikono seznama, da dodaš vrednosti`-180`{:class="block3variables"} in `180`{:class="block3variables"}.
+\--- task \---
 
-![Figura rdeče pike](images/red-sprite.png)
+Create a new list called `start positions`{:class="block3variables"}, click the list's `(+)` icon to add the values `-180`{:class="block3variables"} and `180`{:class="block3variables"}.
 
-![Seznam števil 180 in -180](images/dots-list.png)
+![Red dot sprite](images/red-sprite.png)
+
+![List of 180 and -180](images/dots-list.png)
 
 [[[generic-scratch3-make-list]]]
 
-Nato lahko skriješ seznam, tako da odznačiš ta kvadratek:
+Then you can hide the list by unselecting this box:
 
-![Skrij seznam](images/hide-list.png) \--- /task \---
+![Hide the list](images/hide-list.png)
 
-Opazil boš, da sta koordinati za vsak kot odra kombinaciji števil `180` in `-180`. To pomeni, da lahko uporabiš seznam, za naključno izbiranje kota odra.
+\--- /task \---
 
-\--- task \--- Dodaj to kodo v figuro 'pika', da se vsak dovjnik figure pojavi v naključno izbranem kotu in se nato počasi ponika proti figuri krmila.
+Notice that the coordinate for each corner of the Stage is a combination of `180` and `-180`. This means you can use the list to pick a corner of the Stage at random.
 
-![Figura rdeče pike](images/red-sprite.png)
+\--- task \---
+
+Add this code to the 'dot' sprite to make each new sprite clone appear in a random corner and then slowly move towards the controller sprite.
+
+![Red dot sprite](images/red-sprite.png)
 
 ```blocks3
     ko začnem kot dvojnik
@@ -58,17 +68,29 @@ Opazil boš, da sta koordinati za vsak kot odra kombinaciji števil `180` in `-1
   konec
 ```
 
-\--- /task \--- Ta nova koda izbere ali `-180` ali `180` za naslednji x in y poziciji, kar pomeni, da vsak dvojnik 'pike' začne svojo pot v enem od kotov odra.
+\--- /task \---
 
-\--- task \--- Preizkusi svoj projekt. Moral bi videti rdeče pike, ki se pojavljajo v kotih odra in se počasi pomikajo proti krmilu.
+This new code chooses either `-180` or `180` for the x and y positions, meaning that each 'dot' sprite clone starts in a corner of the Stage.
 
-![posnetek zaslona](images/dots-red-test.png) \--- /task \---
+\--- task \---
 
-\--- task \--- Ustvari dve novi spremenljivki imenovani `življenja`{:class="block3variables"} in `točke`{:class="block3variables"}.
+Test your project. You should see red dots appear in the corners of the Stage and move slowly towards the controller.
 
-![Red dot sprite](images/red-sprite.png) \--- /task \---
+![screenshot](images/dots-red-test.png)
 
-\--- task \--- Odru dodaj kodo, ki ob pričetku igre nastavi spremenljivko `življenja`{:class="block3variables"} na `3` in `točke`{:class="block3variables"} na `0`. ![Figura odra](images/stage-sprite.png)
+\--- /task \---
+
+\--- task \---
+
+Create two new variables called `lives`{:class="block3variables"} and `score`{:class="block3variables"}.
+
+![Red dot sprite](images/red-sprite.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your Stage to set the `lives`{:class="block3variables"} variable to `3` and the `score`{:class="block3variables"} to `0` at the start of the game. ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
 ko kliknemo na zastavico
@@ -78,9 +100,11 @@ nastavi [točke v] na (0)
 
 \--- /task \---
 
-\--- task \--- Na konec programa odra dodaj še to kodo, ki bo končala igro, kadar igralec izgubi še zadnje življenje:
+\--- task \---
 
-![Figura odra](images/stage-sprite.png)
+Add this code to the end of the Stage's script to make the game end when the player loses the last of the lives:
+
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
     počakaj dokler ni <(življenja :: spremenljivke) < [1]>
@@ -89,17 +113,19 @@ nastavi [točke v] na (0)
 
 \--- /task \---
 
-Igralec bi moral dobivati točke, kadra ulovi pike in izgubljati življenja, kadar ne uspe uloviti pik. Piko lahko ujame le z tisim delom krmila, ki je barvno usklajen s piko.
+The player should win points for catching dots, and should lose lives for failing to catch dots. A dot can only be caught by matching the colour of the controller to the colour of the dot.
 
-\--- task \--- Vrni se na ukaze v figuri 'rdeča' in dodaj nekaj blokov kode za ukazi, ki sledijo bloku `ko začnem kot dvojnik`{:class="block3control"}.
+\--- task \---
 
-Najprej poskrbi, da se dvojnik pike `premakne 5 korakov`{:class="block3motion"}, zato da prekrije krmilo.
+Go back to the 'red' dot sprite's Scripts area to add some code blocks to the end of the sprite's `when I start as a clone`{:class="block3control"} script.
 
-Potem dodaj kodo, ki bodisi doda `1` spremenljivki `točke`{:class="block3variables"}, če se barva pike ujema z barvo krmila, ko se dotakneta, bodisi odvzame `1` spremenljivki `življenja`{:class="block3variables"}, kadar se barvi ne ujemata.
+First, make the dot clone `move 5 steps`{:class="block3motion"} so that it overlaps the controller.
+
+Then add code to either add `1` to `score`{:class="block3variables"} if the colour of the dot clone matches the colour of the controller when they touch, or to take `1` away from `lives`{:class="block3variables"} if their colours don't match.
 
 [[[generic-scratch3-sound-from-library]]]
 
-![Figura rdeče pike](images/red-sprite.png)
+![Red dot sprite](images/red-sprite.png)
 
 ```blocks3
     pojdi (5) korakov
@@ -117,7 +143,7 @@ Potem dodaj kodo, ki bodisi doda `1` spremenljivki `točke`{:class="block3variab
 
 \--- task \---
 
-Preizkusi svojo igor in se prepričaj, da:
+Test your game to make sure that:
 
 1. izgubiš življenje, če se barvi pike in krmila ne ujemata;
 2. dobiš piko, če se barvi ujemata.
