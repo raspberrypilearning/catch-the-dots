@@ -2,13 +2,19 @@
 
 Fe wnawn ni wneud y gêm i fynd yn anoddach yr hirach mae’r chwareuwr yn ei chwarae. Rwyt ti am wneud hyn gan wneud i'r dotiau ymddangos yn gynt ac yn gynt dros amser.
 
-\--- task \--- Bydd angen creu `newidyn`{:class="block3variables"} newydd o’r enw 'oedi'.
+\--- task \---
 
-![Corlun llwyfan](images/stage-sprite.png) \--- /task \---
+Create a new `variable`{:class="block3variables"} called 'delay'.
 
-\--- task \--- Ar dy lwyfan, bydd angen creu sgript newydd sydd yn gosod y newidyn `oedi`{:class="block3variables"} i `8`, ac yna yn lleihau yr amser `oedi`{:class="block3variables"} yn araf.
+![Stage sprite](images/stage-sprite.png)
 
-![Corlun llwyfan](images/stage-sprite.png)
+\--- /task \---
+
+\--- task \---
+
+Go to the Stage's Scripts area and create a new script that sets the `delay`{:class="block3variables"} variable to `8` and then slowly reduces the value of `delay`{:class="block3variables"} while the game runs.
+
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
     pan fo'r flag werdd yn cael ei glicio
@@ -21,24 +27,30 @@ end
 
 \--- /task \---
 
-Sylwa fod y côd yma yn debyg iawn i gôd y fyddet wedi ei ddefnyddio i greu amserydd!
+Notice that this code is very similar to the code you would use to create a countdown timer!
 
-Fe alli di ddefnyddio’r newidyn `oedi`{:class="block3variables"} ar gyfer sgriptiau’r dotiau 'coch', 'melyn' a 'glas'.
+Next, use the `delay`{:class="block3variables"} variable in the code scripts of the 'red', 'yellow', and 'blue' sprites.
 
-\--- task \--- Bydd angen cael gwared o’r côd sydd yn aros nifer o eiliadau rhwng creu cloniau. Ail-osoda'r bloc rwyt ti wedi cael gwared ohono gyda’r newidyn `oedi`{:class="block3variables"}:
+\--- task \---
 
-![sgrinlun](images/all-dots.png)
+Remove the code block that makes the game wait a random number of seconds between making the dot sprite clones. Replace the block you've removed with your new `delay`{:class="block3variables"} variable:
+
+![screenshot](images/all-dots.png)
 
 ```blocks3
 <br />aros (dewis ar hap (5) i (10)) eiliad
 aros (oedi :: variables) eiliad
 ```
 
-Gwna hyn ar gyfer y tri corlun dot.
+Do this for all three dot sprites.
 
 \--- /task \---
 
-\--- task \--- Profa dy gêm i weld os yw'r dotiau yn ymddangos yn gynt wrth i'r gêm barhau.
+\--- task \---
+
+Test the game, and check whether the dots begin to appear more quickly as the game goes on.
 
 + Ydy hyn yn gweithio ar gyfer y tri lliw?
-+ Wyt ti’n gallu gweld gwerth y newidyn `oedi`{:class="block3variables"} yn lleihau? \--- /task \---
++ Can you see that the value of the `delay`{:class="block3variables"} variable decreases?
+
+\--- /task \---
