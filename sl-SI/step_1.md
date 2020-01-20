@@ -8,7 +8,9 @@ To je ** Scratch 3 ** različica projekta. Obstaja tudi [Scratch 2](https://proj
 
 V tem projektu se boš naučil ustvariti igro, v kateri mora igralec ujeti obarvane pike s pomočjo enako obarvanega dela krmila.
 
-\--- no-print \--- Za vrtenje krmila uporabi smerne tipke in ujemi pike, ko dosežejo središče. Če zgrešiš tri pike, se igra konča.
+\--- no-print \---
+
+Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -17,7 +19,11 @@ V tem projektu se boš naučil ustvariti igro, v kateri mora igralec ujeti obarv
 
 \--- /no-print \---
 
-\--- print-only \--- ![Dots screenshot](images/dots-final.png) \--- /print-only \---
+\--- print-only \---
+
+![Dots screenshot](images/dots-final.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -42,14 +48,22 @@ V tem projektu se boš naučil ustvariti igro, v kateri mora igralec ujeti obarv
 
 ### Prenosi
 
-+ [Namizni Scratch 2 projekt](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"} \--- /collapse \---
++ [Offline Scratch 2 project](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: Dodatne informacije za izobraževalce
 
-\--- Za tiskanje tega projekta, prosimo uporabite [tiskalniku prijazno različico](https://projects.raspberrypi.org/en/projects/catch-the-dots/print). \--- /no-print \---
+\--- no-print \---
 
-Zaključen projekt lahko najdete [tukaj](http://rpf.io/p/en/catch-the-dots-get)"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print).
 
-Zaključen projekt lahko najdete [tukaj](https://scratch.mit.edu/projects/252923761/#editor)"}{:target="_blank"} \--- /collapse \---
+\--- /no-print \---
+
+You can find [the completed project here](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+
+You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
+
+\--- /collapse \---
