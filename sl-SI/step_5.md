@@ -2,13 +2,19 @@
 
 Sedaj boš poskrbel, da bo igra postala težje, tem dlje jo igralec igra. To boš dosegel s tem, da se bodo pike pojavljale vedno hitreje.
 
-\--- task \--- Ustvari novo `spremenljivko`{:class="block3variables"} imenovano 'zamik'.
+\--- task \---
 
-![Figura odra](images/stage-sprite.png) \--- /task \---
+Create a new `variable`{:class="block3variables"} called 'delay'.
 
-\--- task \--- Pojdi v program odra in ustvari novo zaporedje ukazov, ki nastavi spremenljivko `zamik`{:class="block3variables"} na `8` in nato počasi zmanjšuje vrednost spremenljivke `zamik`{:class="block3variables"}, medtem ko igra poteka.
+![Stage sprite](images/stage-sprite.png)
 
-![Figura odra](images/stage-sprite.png)
+\--- /task \---
+
+\--- task \---
+
+Go to the Stage's Scripts area and create a new script that sets the `delay`{:class="block3variables"} variable to `8` and then slowly reduces the value of `delay`{:class="block3variables"} while the game runs.
+
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
     ko kliknemo na zastavico
@@ -21,24 +27,30 @@ Sedaj boš poskrbel, da bo igra postala težje, tem dlje jo igralec igra. To bo�
 
 \--- /task \---
 
-Morda si opazil, da je koda zelo podobna kodi, ki si jo uporabil za odštevanje časa!
+Notice that this code is very similar to the code you would use to create a countdown timer!
 
-V naslednjem koraku uporabi spremenljivko `zamik`{:class="block3variables"} v kodi figur 'rdeča', 'rumena', in 'modra'. 
+Next, use the `delay`{:class="block3variables"} variable in the code scripts of the 'red', 'yellow', and 'blue' sprites.
 
-\--- task \--- Izbriši kodo, ki skrbi za to, da igra čaka naključno število sekund med ustvarjanjem dvojnikov figur pik. - počakaj (naključno število med (5) in (10)) sekund počakaj (zamik :: spremenljivke) sekund
+\--- task \---
 
-![posnetek zaslona](images/all-dots.png)
+Remove the code block that makes the game wait a random number of seconds between making the dot sprite clones. Replace the block you've removed with your new `delay`{:class="block3variables"} variable:
+
+![screenshot](images/all-dots.png)
 
 ```blocks3
 <br />- počakaj (naključno število med (5) in (10)) sekund
   počakaj (zamik :: spremenljivke) sekund
 ```
 
-To naredi za vse tri figure.
+Do this for all three dot sprites.
 
 \--- /task \---
 
-\--- task \--- Preizkusi igro in preveri ali se pike začnejo premikati hitreje, dlje časa kot igra poteka.
+\--- task \---
+
+Test the game, and check whether the dots begin to appear more quickly as the game goes on.
 
 + Ali to deluje za vse tri barve pik?
-+ Ali vidiš, kako se vrednost spremenljivke `zamik`{:class="block3variables"} manjša? \--- /task \---
++ Can you see that the value of the `delay`{:class="block3variables"} variable decreases?
+
+\--- /task \---
