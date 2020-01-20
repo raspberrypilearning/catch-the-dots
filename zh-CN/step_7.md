@@ -2,19 +2,27 @@
 
 你要保存游戏的最高成绩, 以便玩家可以看到他们玩的有多好.
 
-\--- task \--- 创建一个变量起名为 `high score`{:class="block3variables"}.
+\--- task \---
+
+Create a new variable called `high score`{:class="block3variables"}.
 
 ![Stage sprite](images/stage-sprite.png)
 
 \--- /task \---
 
-\--- task \--- 选择舞台. 点击 'My blocks' 并创建一个新的积木块称为 `check high score`{:class="block3myblocks"}.
+\--- task \---
 
-![Stage sprite](images/stage-sprite.png) ![screenshot](images/dots-custom-1.png)
+Select the Stage. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
+
+![Stage sprite](images/stage-sprite.png)
+
+![screenshot](images/dots-custom-1.png)
 
 \--- /task \---
 
-\--- task \--- 在定制的代码块中加入代码以便可以检查当前的 `score`{:class="block3variables"} 变量值是否比`high score`{:class="block3variables"} 变量值更大, 然后把`score`{:class="block3variables"}变量座位新的值存在 `high score`{:class="block3variables"}变量中.
+\--- task \---
+
+Add code to your custom block so that the block checks if the current value of `score`{:class="block3variables"} in larger than the value of the `high score`{:class="block3variables"} variable, and then stores the value of `score`{:class="block3variables"} as the new value of `high score`{:class="block3variables"}.
 
 ![Stage sprite](images/stage-sprite.png)
 
@@ -27,7 +35,9 @@
 
 \--- /task \---
 
-\--- task \--- 将你的定制代码块添加到舞台精灵脚本的结束代码之前.
+\--- task \---
+
+Add your new custom block to the Stage script before the end of the script.
 
 ![Stage sprite](images/stage-sprite.png)
 
@@ -45,6 +55,6 @@ stop [all v]
 
 \--- task \---
 
-玩你的游戏两次检查是否成绩正确保存在了 `high score`{:class="block3variables"}变量中.
+Play your game twice to check whether your score gets correctly saved as the `high score`{:class="block3variables"}.
 
 \--- /task \---
