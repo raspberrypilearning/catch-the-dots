@@ -1,22 +1,27 @@
-## Increase the difficulty
+## 難易度を上げる
 
-Now you're going to make the game more difficult the longer the player plays it. You will do this by making the dots appear faster and faster over time.
+次に、プレイヤーがプレイする時間が長いほど、ゲームをより難しくします。 これを行うには、カラーボールが次第に速く表示されるようにします。
 
-\--- task \--- Create a new `variable`{:class="block3variables"} called 'delay'.
+\--- task \---
 
-![Stage sprite](images/stage-sprite.png) \--- /task \---
+Create a new `variable`{:class="block3variables"} called 'delay'.
 
-\--- task \--- Go to the Stage's Scripts area and create a new script that sets the `delay`{:class="block3variables"} variable to `8` and then slowly reduces the value of `delay`{:class="block3variables"} while the game runs.
+![Stage sprite](images/stage-sprite.png)
+
+\--- /task \---
+
+\--- task \---
+
+Go to the Stage's Scripts area and create a new script that sets the `delay`{:class="block3variables"} variable to `8` and then slowly reduces the value of `delay`{:class="block3variables"} while the game runs.
 
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    when flag clicked
-    set [delay v] to (8)
-    repeat until < (delay) = (2)>
-        wait (10) seconds
-        change [delay v] by (-0.5)
-    end
+    緑の旗が押されたとき
+変数「おくれ」を8にする
+おくれ=2になるまで繰り返す
+10秒待つ
+おくれを-0.5ずつ変える
 ```
 
 \--- /task \---
@@ -25,20 +30,26 @@ Notice that this code is very similar to the code you would use to create a coun
 
 Next, use the `delay`{:class="block3variables"} variable in the code scripts of the 'red', 'yellow', and 'blue' sprites.
 
-\--- task \--- Remove the code block that makes the game wait a random number of seconds between making the dot sprite clones. Replace the block you've removed with your new `delay`{:class="block3variables"} variable:
+\--- task \---
 
-![スクリーンショット](images/all-dots.png)
+Remove the code block that makes the game wait a random number of seconds between making the dot sprite clones. Replace the block you've removed with your new `delay`{:class="block3variables"} variable:
+
+![screenshot](images/all-dots.png)
 
 ```blocks3
-<br />-   wait (pick random (5) to (10)) secs
-    wait (delay :: variables) secs
+<br />5から10までの乱数秒待つ
+変数「おくれ」秒待つ
 ```
 
 Do this for all three dot sprites.
 
 \--- /task \---
 
-\--- task \--- Test the game, and check whether the dots begin to appear more quickly as the game goes on.
+\--- task \---
 
-+ Does this work for all three coloured dots?
-+ Can you see that the value of the `delay`{:class="block3variables"} variable decreases? \--- /task \---
+Test the game, and check whether the dots begin to appear more quickly as the game goes on.
+
++ これは、3つのカラーボールすべてで機能しますか？
++ Can you see that the value of the `delay`{:class="block3variables"} variable decreases?
+
+\--- /task \---
