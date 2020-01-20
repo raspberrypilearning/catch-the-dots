@@ -2,21 +2,29 @@
 
 Je gaat de hoogste score van het spel opslaan, zodat spelers kunnen zien hoe goed ze het doen.
 
-\--- task \--- Maak een nieuwe variabele met de naam `topscore`{:class="block3variables"}.
+\--- task \---
 
-![Speelveld sprite](images/stage-sprite.png)
+Create a new variable called `high score`{:class="block3variables"}.
 
-\--- /task \---
-
-\--- task \--- Selecteer het Speelveld. Klik op 'Mijn blokken' en maak een nieuw aangepast blok met de naam `controleer topscore `{:class="block3myblocks"}.
-
-![Speelveld sprite](images/stage-sprite.png) ![screenshot](images/dots-custom-1.png)
+![Stage sprite](images/stage-sprite.png)
 
 \--- /task \---
 
-\--- task \--- Voeg code toe aan je aangepaste blok, zodat het blok controleert of de huidige waarde van `score`{:class="block3variables"} groter is dan de waarde van de `topscore`{:class="block3variables"} variabele, en dan de waarde van `score`{:class="block3variables"} opslaat als de nieuwe waarde van `topscore `{:class="block3variables"}.
+\--- task \---
 
-![Speelveld sprite](images/stage-sprite.png)
+Select the Stage. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
+
+![Stage sprite](images/stage-sprite.png)
+
+![screenshot](images/dots-custom-1.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your custom block so that the block checks if the current value of `score`{:class="block3variables"} in larger than the value of the `high score`{:class="block3variables"} variable, and then stores the value of `score`{:class="block3variables"} as the new value of `high score`{:class="block3variables"}.
+
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
     definieer controleer topscore
@@ -27,9 +35,11 @@ end
 
 \--- /task \---
 
-\--- task \--- Voeg je nieuwe aangepaste blok toe aan het speelveld-script vóór het einde van het script.
+\--- task \---
 
-![Speelveld sprite](images/stage-sprite.png)
+Add your new custom block to the Stage script before the end of the script.
+
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
@@ -45,6 +55,6 @@ stop [alle v]
 
 \--- task \---
 
-Speel je game twee keer om te controleren of je score correct wordt opgeslagen als `topscore`{:class="block3variables"}.
+Play your game twice to check whether your score gets correctly saved as the `high score`{:class="block3variables"}.
 
 \--- /task \---
