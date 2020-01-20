@@ -2,19 +2,27 @@
 
 Πρόκειται να αποθηκεύεις το υψηλότερο σκορ έτσι ώστε οι παίκτες να μπορούν να δουν πόσο καλά τα καταφέρνουν.
 
-\--- task \--- Δημιούργησε μία νέα μεταβλητή με όνομα `υψηλό σκορ`{:class="block3variables"}.
+\--- task \---
+
+Create a new variable called `high score`{:class="block3variables"}.
 
 ![Stage sprite](images/stage-sprite.png)
 
 \--- /task \---
 
-\--- task \--- Επέλεξε το Σκηνικό. Κάνε κλικ στο 'Οι εντολές μου' και δημιούργησε ένα νέο μπλοκ με όνομα `έλεγξε υψηλό σκορ`{:class="block3myblocks"}.
+\--- task \---
 
-![Stage sprite](images/stage-sprite.png) ![screenshot](images/dots-custom-1.png)
+Select the Stage. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
+
+![Stage sprite](images/stage-sprite.png)
+
+![screenshot](images/dots-custom-1.png)
 
 \--- /task \---
 
-\--- task \--- Πρόσθεσε κώδικα στο δικό σου μπλοκ ώστε να ελέγχει αν η τρέχουσα τιμή της μεταβλητής `σκορ`{:class="block3variables"} είναι μεγαλύτερη από την τιμή της μεταβλητής `υψηλό σκορ`{:class="block3variables"} και στη συνέχεια να αποθηκεύει την τιμή του `σκορ`{:class="block3variables"} ως τη νέα τιμή του `υψηλό σκορ`{:class="block3variables"}.
+\--- task \---
+
+Add code to your custom block so that the block checks if the current value of `score`{:class="block3variables"} in larger than the value of the `high score`{:class="block3variables"} variable, and then stores the value of `score`{:class="block3variables"} as the new value of `high score`{:class="block3variables"}.
 
 ![Stage sprite](images/stage-sprite.png)
 
@@ -27,7 +35,9 @@ end
 
 \--- /task \---
 
-\--- task \--- Πρόσθεσε το νέο σου μπλοκ στον κώδικα του Σκηνικού πριν το τέλος του.
+\--- task \---
+
+Add your new custom block to the Stage script before the end of the script.
 
 ![Stage sprite](images/stage-sprite.png)
 
@@ -43,8 +53,8 @@ end
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
-Παίξε το παιχνίδι σου δύο φορές για να ελέγξεις ότι το σκορ αποθηκεύεται σωστά ως `υψηλό σκορ`{:class="block3variables"}.
+Play your game twice to check whether your score gets correctly saved as the `high score`{:class="block3variables"}.
 
 \--- /task \---
