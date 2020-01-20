@@ -2,13 +2,19 @@
 
 Teraz zrobisz grę tym trudniejszą, im dłużej gracz w nią gra. Osiągniesz to sprawiając, że kropki pojawią się coraz szybciej z upływem czasu.
 
-\--- task \--- Utwórz nową `zmienną`{:class="block3variables"} nazwaną 'opóźnienie'.
+\--- task \---
 
-![Duszek sceny](images/stage-sprite.png) \--- /task \---
+Create a new `variable`{:class="block3variables"} called 'delay'.
 
-\--- task \--- Przejdź do obszaru skryptu sceny i utwórz nowy skrypt, który ustawia zmienną `opóźnienie`{:class="block3variables"} na `8` a następnie powoli zmniejsza wartość zmiennej `opóźninie`{:class="block3variables"} podczas gry.
+![Stage sprite](images/stage-sprite.png)
 
-![Duszek sceny](images/stage-sprite.png)
+\--- /task \---
+
+\--- task \---
+
+Go to the Stage's Scripts area and create a new script that sets the `delay`{:class="block3variables"} variable to `8` and then slowly reduces the value of `delay`{:class="block3variables"} while the game runs.
+
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
     po kliknięciu flagi
@@ -21,24 +27,30 @@ Teraz zrobisz grę tym trudniejszą, im dłużej gracz w nią gra. Osiągniesz t
 
 \--- /task \---
 
-Zauważ, że ten kod jest bardzo podobny do kodu, którego użyłbyś do utworzenia minutnika!
+Notice that this code is very similar to the code you would use to create a countdown timer!
 
-Następnie użyj zmiennej `opóźnienie`{: class = "block3variables"} w skryptach kodu „czerwonych”, „żółtych” i „niebieskich” ikonek.
+Next, use the `delay`{:class="block3variables"} variable in the code scripts of the 'red', 'yellow', and 'blue' sprites.
 
-\--- task \--- Usuń blok kodu, który sprawia, że gra czeka losową liczbę sekund między utworzeniem klonów kropek. Zastąp usunięty blok nową zmienną `opóźnienie`{:class="block3variables"}:
+\--- task \---
 
-![zrzut ekranu](images/all-dots.png)
+Remove the code block that makes the game wait a random number of seconds between making the dot sprite clones. Replace the block you've removed with your new `delay`{:class="block3variables"} variable:
+
+![screenshot](images/all-dots.png)
 
 ```blocks3
 <br />- czekaj (wybierz losowe (5) do (10)) sek
     czekanie (opóźnienie :: zmienne) sek
 ```
 
-Zrób to dla wszystkich trzech duszków kropek.
+Do this for all three dot sprites.
 
 \--- /task \---
 
-\--- task \--- Przetestuj grę i sprawdź, czy kropki zaczynają pojawiać się szybciej, gdy gra toczy się dłużej.
+\--- task \---
+
+Test the game, and check whether the dots begin to appear more quickly as the game goes on.
 
 + Czy to działa dla wszystkich trzech kolorów kropek?
-+ Czy widzisz, że wartość zmiennej `opóźnienie`{:class="block3variables"} zmniejsza się? \--- /task \---
++ Can you see that the value of the `delay`{:class="block3variables"} variable decreases?
+
+\--- /task \---
