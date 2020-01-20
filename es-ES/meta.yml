@@ -3,8 +3,8 @@ hero_image: images/banner.png
 listed: true
 copyedit: false
 title: Atrapa los Puntos
-description: Aprende a crear un juego de unir puntos.
-version: 3
+description: Haz un juego de atrapar puntos
+version: 4.0.0
 last_tested: 2018-10-16
 steps:
   - 
@@ -12,16 +12,16 @@ steps:
   - 
     title: Crear un controlador
   - 
-    title: 'Desafío: Girar hacia la izquierda'
+    title: Ganar puntos o perder vidas
   - 
-    title: Recoger puntos
+    title: Más puntos
   - 
-    title: 'Desafío: Más puntos'
+    title: Aumentar la dificultad
   - 
-    title: 'Aumentar la dificultad'
+    title: 'Desafío: Puntos que se mueven más rápido'
   - 
-    title: 'Reto: Crear más bloques'
+    title: Puntuación más alta
   - 
-    title: 'Desafío: mejora tu juego!'
+    title: 'Desafío: ¡Mejora tu juego!'
   - 
     title: '¿Qué sigue?'
