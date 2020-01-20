@@ -1,18 +1,32 @@
-## Plus de points
+## Rassemblement de points
 
-\--- task \--- Dupliquez deux fois votre sprite 'point rouge' et nommez les deux nouveaux sprites 'jaune' et 'bleu'.
+\--- task \---
 
-![capture d'écran](images/dots-more-dots.png) \--- /tâche \---
+Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
 
-\--- tâche \--- Modifiez le costume de chaque nouveau sprite afin qu'il corresponde bien à la couleur: le sprite 'jaune' doit être jaune et le sprite 'bleu' doit être bleu. \--- /tâche \---
+![screenshot](images/dots-more-dots.png)
 
-\--- task \--- Modifiez le code de chaque image-objet de sorte que le joueur doit faire correspondre le clone de points à la couleur correcte sur le contrôleur pour marquer des points.
+\--- /task \---
 
-![capture d'écran](images/dots-all-test.png)
+\--- task \---
 
-\--- astuces \--- \--- astuce \--- Il s'agit du code que vous devez rechercher et modifier pour les deux nouveaux sprites:
+Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue.
 
-![capture d'écran](images/dots-more-dots.png)
+\--- /task \---
+
+\--- task \---
+
+Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
+
+![screenshot](images/dots-all-test.png)
+
+\--- hints \---
+
+\--- hint \---
+
+This is the code you need to find and alter for both new sprites:
+
+![screenshot](images/dots-more-dots.png)
 
 ```blocks3
     si <touching color [#FF0000]?> alors
@@ -22,7 +36,11 @@
     fin
 ```
 
-\--- / hint \--- \--- hint \--- Voici comment modifier le code du sprite jaune:
+\--- /hint \---
+
+\--- hint \---
+
+This is how you need to change the code for the yellow sprite:
 
 ```blocks3
     si <touche la couleur [# FFFF00]? :: +> puis
@@ -31,7 +49,7 @@
     fin
 ```
 
-Voici comment modifier le code du sprite bleu:
+This is how you need to change the code for the blue sprite:
 
 ```blocks3
     si <touche la couleur [# 0000FF]? :: +> puis
@@ -40,13 +58,19 @@ Voici comment modifier le code du sprite bleu:
     fin
 ```
 
-\--- / astuce \--- \--- / astuces \--- \--- / tâche \---
+\--- /hint \---
 
-Si vous jouez au jeu maintenant, vous pouvez voir que les points sont parfois superposés.
+\--- /hints \---
 
-\--- task \--- Modifiez le code de l'image-objet à points «jaune» afin qu'elle attende quatre secondes après le clic sur l'indicateur avant d'apparaître.
+\--- /task \---
 
-![Point jaune](images/yellow-sprite.png)
+If you play the game now, you can see that the dots sometimes get created one top of each other.
+
+\--- task \---
+
+Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
+
+![Yellow dot](images/yellow-sprite.png)
 
 ```blocks3
     lorsque le drapeau est cliqué
@@ -54,8 +78,8 @@ Si vous jouez au jeu maintenant, vous pouvez voir que les points sont parfois su
 + attendre (4) secondes
 ```
 
-![Point bleu](images/blue-sprite.png)
+![Blue dot](images/blue-sprite.png)
 
-Ensuite, changez le code de l’image-objet «bleue» afin qu’elle attende 6 secondes après le clic sur le drapeau avant de paraître.
+Then change the code for the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
 
-\--- /tâche \---
+\--- /task \---
