@@ -2,15 +2,19 @@
 
 Fe wnawn ni ychwanegu dotiau i’r chwareuwr eu casglu gyda’r rheolwr.
 
-\--- task \--- Bydd angen creu corlun newydd o’r enw ‘coch’. Fe ddylai’r ciplun yma fod yn ddot bach coch.
+\--- task \---
 
-![Corlun dot coch](images/dots-red.png)
+Create a new sprite called 'red'. This sprite should be a small red dot.
+
+![Red dot sprite](images/dots-red.png)
 
 \--- /task \---
 
-\--- task \--- Ychwanega’r sgript yma i dy giplun dot ‘coch’, i greu clôn bob ychydig o eiliadau:
+\--- task \---
 
-![Corlun dot coch](images/red-sprite.png)
+Add this script to your 'red' sprite to create a new clone of the sprite every few seconds:
+
+![Red dot sprite](images/red-sprite.png)
 
 ```blocks3
     pan fo'r flag werdd yn cael ei glicio
@@ -24,29 +28,35 @@ end
 
 \--- /task \---
 
-Os wyt ti'n clicio'r faner werdd nawr, mae'n edrych fel nad oes dim byd yn digwydd. Mae hyn gan fod yr holl gloniau wedi eu cuddio, ac yn ymddangos yn yr un man.
+If you click the green flag now, it looks like nothing is happening. This is because all of the cloned sprites are hidden, and they appear in the same place.
 
-Rwyt ti mynd i ychwanegu côd i wneud i bob clôn ymddangos ymhob un cornel o'r Llwyfan.
+You are going to add code to make each new clone appear in one of the four corners of the Stage.
 
-![sgrinlun](images/dots-start.png)
+![screenshot](images/dots-start.png)
 
-I wneud hyn, bydd angen yn gyntaf creu rhestr o’r enw `safle cychwyn`{:class="block3variables"} a chlicio'r eicon `(+)` yn y rhestr i ychwanegu `-180`{:class="block3variables"} a `180`{:class="block3variables"}.
+\--- task \---
 
-![Corlun dot coch](images/red-sprite.png)
+Create a new list called `start positions`{:class="block3variables"}, click the list's `(+)` icon to add the values `-180`{:class="block3variables"} and `180`{:class="block3variables"}.
 
-![Rhestr 180 a -180](images/dots-list.png)
+![Red dot sprite](images/red-sprite.png)
+
+![List of 180 and -180](images/dots-list.png)
 
 [[[generic-scratch3-make-list]]]
 
-Fe alli di guddio'r rhestr trwy ddad-glicio'r bocs yma:
+Then you can hide the list by unselecting this box:
 
-![Cuddio'r rhestr](images/hide-list.png) \--- /task \---
+![Hide the list](images/hide-list.png)
 
-Sylwa fod y cyfesur ar gyfer pob cornel o'r llwyfan yn gyfuniad o `180` a `-180`. Mae hyn yn golygu dy fod yn gallu dewis y rhestr i ddewis cornel o'r Llwyfan ar hap.
+\--- /task \---
 
-\--- task \--- Ychwanega’r côd yma i’r ciplun ‘dot’, fel bod pob clôn newydd yn symud i gornel ar hap ac yna’n symud yn araf tuag at y rheolwr.
+Notice that the coordinate for each corner of the Stage is a combination of `180` and `-180`. This means you can use the list to pick a corner of the Stage at random.
 
-![Corlun dot coch](images/red-sprite.png)
+\--- task \---
+
+Add this code to the 'dot' sprite to make each new sprite clone appear in a random corner and then slowly move towards the controller sprite.
+
+![Red dot sprite](images/red-sprite.png)
 
 ```blocks3
     pan rwy'n dechrau fel clôn
@@ -58,17 +68,29 @@ ailadrodd hyd at <cyffwrdd (controller v) ?>
 end
 ```
 
-Mae’r côd uchod unai yn dewis `-180` neu `180` ar gyfer safle yr x a y, sy’n golygu bod pob clôn yn cychwyn yn un cornel o’r llwyfan.
+\--- /task \---
 
-\--- task \--- Profa dy brosiect. Fe ddyle ti weld llawer o ddotiau coch yn ymddangos ymhob cornel o’r sgrin, ac yn symud yn araf tuag at y rheolwr.
+This new code chooses either `-180` or `180` for the x and y positions, meaning that each 'dot' sprite clone starts in a corner of the Stage.
 
-![sgrinlun](images/dots-red-test.png) \--- /task \---
+\--- task \---
 
-Bydd angen creu 2 newidyn newydd o’r enw `bywydau`{:class="block3variables"} a `sgôr`{:class="block3variables"}.
+Test your project. You should see red dots appear in the corners of the Stage and move slowly towards the controller.
 
-![Corlun dot coch](images/red-sprite.png) \--- /task \---
+![screenshot](images/dots-red-test.png)
 
-Ychwanega côd i dy lwyfan i osod y newidyn `bywydau`{:class="block3variables"} i `3` a’r `sgôr`{:class="block3variables"} i `0` ar ddechrau’r gêm. ![Corlun llwyfan](images/stage-sprite.png)
+\--- /task \---
+
+\--- task \---
+
+Create two new variables called `lives`{:class="block3variables"} and `score`{:class="block3variables"}.
+
+![Red dot sprite](images/red-sprite.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your Stage to set the `lives`{:class="block3variables"} variable to `3` and the `score`{:class="block3variables"} to `0` at the start of the game. ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
@@ -78,9 +100,11 @@ gosod [sgôr v] i (0)
 
 \--- /task \---
 
-Ychwanega'r côd yma i ddiwedd sgript y Llwyfan i wneud i'r gêm orffen pan mae'r chwareuwr yn colli'r bywydau olaf:
+\--- task \---
 
-![Corlun llwyfan](images/stage-sprite.png)
+Add this code to the end of the Stage's script to make the game end when the player loses the last of the lives:
+
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
     aros hyd at <(bywydau :: variables) < [1]>
@@ -89,17 +113,19 @@ aros [all v]
 
 \--- /task \---
 
-Fe ddylai'r chwareuwr ennill pwyntiau ar gyfer dal dotiau, a cholli bywydau am fethu â dal dotiau. Yr unig ffordd i ddal dot yw ei fod yn gweddu'r un lliw â'r rheolwr.
+The player should win points for catching dots, and should lose lives for failing to catch dots. A dot can only be caught by matching the colour of the controller to the colour of the dot.
 
-Cer yn ôl i Sgriptiau'r corlun dot 'coch' i ychwanegu blociau côd i ddiwedd y sgript `pan dechreuaf fel clôn`{:class="block3control"}.
+\--- task \---
 
-Yn gyntaf, gwna i'r clôn `symud 5 cam`{:class="block3motion"} fel ei fod yn gorgyffwrdd y rheolwr.
+Go back to the 'red' dot sprite's Scripts area to add some code blocks to the end of the sprite's `when I start as a clone`{:class="block3control"} script.
 
-Yna ychwanega gôd i unai ychwanegu `1` i'r `sgôr`{:class="block3variables"} os yw lliw y dot yr un peth â lliw y rheolwr pan maent yn cyffwrdd, neu cymryd `1` i ffwrdd o'r `bywydau`{:class="block3variables"} os nad yw'r lliwiau yr un peth.
+First, make the dot clone `move 5 steps`{:class="block3motion"} so that it overlaps the controller.
+
+Then add code to either add `1` to `score`{:class="block3variables"} if the colour of the dot clone matches the colour of the controller when they touch, or to take `1` away from `lives`{:class="block3variables"} if their colours don't match.
 
 [[[generic-scratch3-sound-from-library]]]
 
-![Corlun dot coch](images/red-sprite.png)
+![Red dot sprite](images/red-sprite.png)
 
 ```blocks3
     symud (5) cam
@@ -117,7 +143,7 @@ dileu y clôn hwn
 
 \--- task \---
 
-Profwch eich gêm i wneud yn siŵr bod:
+Test your game to make sure that:
 
 1. Chi’n colli bywyd os nad ydych yn paru â dot gyda’r lliw cywir
 2. Chi’n sgorio pwynt os ydych yn paru â dot yn gywir
