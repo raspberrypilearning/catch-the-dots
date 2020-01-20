@@ -1,44 +1,56 @@
-## Desafío: Más puntos
+## Aumenta la dificultad
 
-Ahora vas a hacer el juego más difícil cuanto más tiempo lo juegue el jugador. Hará esto haciendo que los puntos aparezcan más y más rápido con el tiempo.
+Ahora vas a hacer el juego más difícil cuanto más tiempo lo juegue el jugador. Harás esto haciendo que los puntos aparezcan más y más rápido con el tiempo.
 
-\--- tarea \--- Crea una nueva `variable`{: class = "block3variables"} llamada 'retraso'.
+\--- task \---
 
-![Sprite de escenario](images/stage-sprite.png) \--- /task \---
+Create a new `variable`{:class="block3variables"} called 'delay'.
 
-\--- task \--- Vaya al área de Scripts del escenario y cree un nuevo script que establezca la variable `delay`{: class = "block3variables"} en `8` y luego reduzca lentamente el valor de `delay`{: class = "block3variables"} mientras se ejecuta el juego.
+![Stage sprite](images/stage-sprite.png)
 
-![Sprite de escenario](images/stage-sprite.png)
+\--- /task \---
+
+\--- task \---
+
+Go to the Stage's Scripts area and create a new script that sets the `delay`{:class="block3variables"} variable to `8` and then slowly reduces the value of `delay`{:class="block3variables"} while the game runs.
+
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    cuando se hace clic en el indicador
-    establezca [retraso v] a (8)
-    repita hasta < (retraso) = (2)>
-        espere (10) segundos
-        cambie [retraso v] por (-0.5)
-    fin
+    al hacer clic en bandera verde
+  dar a [retraso v] el valor (8)
+  repetir hasta que < (retraso) = (2)>
+    esperar (10) segundos
+    sumar a [retraso v] (-0.5)
+  end
 ```
 
 \--- /task \---
 
-¡Observe que este código es muy similar al código que usaría para crear un temporizador de cuenta regresiva!
+Notice that this code is very similar to the code you would use to create a countdown timer!
 
-A continuación, utilice la variable `delay`{: class = "block3variables"} en los scripts de código de los sprites 'rojo', 'amarillo' y 'azul'.
+Next, use the `delay`{:class="block3variables"} variable in the code scripts of the 'red', 'yellow', and 'blue' sprites.
 
-\--- tarea \--- Elimina el bloque de código que hace que el juego espere un número aleatorio de segundos entre los clones de sprite de puntos. Vuelva a colocar el bloque que ha sacado con su nuevo `retardo`{: class = "block3variables"} variables:
+\--- task \---
+
+Remove the code block that makes the game wait a random number of seconds between making the dot sprite clones. Replace the block you've removed with your new `delay`{:class="block3variables"} variable:
 
 ![screenshot](images/all-dots.png)
 
 ```blocks3
-<br />- esperar (elegir aleatoriamente (5) a (10)) segundos
+<br />-  esperar (número aleatorio entre (5) y (10)) segundos
     esperar (retraso :: variables) segundos
 ```
 
-Haga esto para los tres sprites de puntos.
+Do this for all three dot sprites.
 
 \--- /task \---
 
-\--- tarea \--- Prueba el juego y comprueba si los puntos comienzan a aparecer más rápidamente a medida que avanza el juego.
+\--- task \---
 
-+ ¿Esto funciona para los tres puntos de colores?
-+ ¿Puedes ver que el valor del `retardo`{: class = "block3variables"} disminuye? \--- /task \---
+Test the game, and check whether the dots begin to appear more quickly as the game goes on.
+
++ ¿Funciona para los tres puntos de colores?
++ Can you see that the value of the `delay`{:class="block3variables"} variable decreases?
+
+\--- /task \---
