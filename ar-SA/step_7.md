@@ -2,21 +2,29 @@
 
 ستقوم بحفظ أعلى درجة تم تحقيقها، بحيث يمكن للاعب معرفة مدى تقدمه.
 
-\--- task \--- قم بإنشاء متغير جديد يسمى `أعلى درجة`{:class="block3variables"}.
+\--- task \---
 
-![كائن منصة العمل](images/stage-sprite.png)
+Create a new variable called `high score`{:class="block3variables"}.
 
-\---/task--
-
-\--- task \--- اختر منصة العمل. انقر على 'لبناتي' و أنشئ لبنة جديدة تسمى `التحقق من أعلى درجة`{:class="block3myblocks"}.
-
-![كائن منصة العمل](images/stage-sprite.png) ![لقطة الشاشة](images/dots-custom-1.png)
+![Stage sprite](images/stage-sprite.png)
 
 \--- /task \---
 
-\--- task \--- أضف تعليمات برمجية إلى اللبنة الجديدة التي أنشئتها بحيث تقوم بالتحقق ما إذا كانت القيمة الحالية للمتغير`الدرجة`{:class="block3variables"} أكبر من قيمة المتغير `أعلى درجة`{:class="block3variables"}, ثم بعد ذلك تقوم بحفظ قيمة `الدرجة`{:class="block3variables"} كالقيمة الجديدة للمتغير `أعلى درجة`{:class="block3variables"}.
+\--- task \---
 
-![كائن منصة العمل](images/stage-sprite.png)
+Select the Stage. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
+
+![Stage sprite](images/stage-sprite.png)
+
+![screenshot](images/dots-custom-1.png)
+
+\---/task\---
+
+\--- task \---
+
+Add code to your custom block so that the block checks if the current value of `score`{:class="block3variables"} in larger than the value of the `high score`{:class="block3variables"} variable, and then stores the value of `score`{:class="block3variables"} as the new value of `high score`{:class="block3variables"}.
+
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
     عرِّف التحقق من أعلى درجة
@@ -25,11 +33,13 @@
 end
 ```
 
-\---/task\---
+\--- /task \---
 
-\--- task \--- أضف اللبنة الجديدة للمقاطع البرمجية على منصة العمل قبل نهاية النص البرمجي.
+\--- task \---
 
-![كائن منصة العمل](images/stage-sprite.png)
+Add your new custom block to the Stage script before the end of the script.
+
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
 عند نقر ⚑
@@ -42,6 +52,6 @@ end
 
 \--- task \---
 
-قم بتجربة اللعبة أكثر من مرة و تحقق مما إذا كانت الدرجة تحفظ بشكل صحيح في المتغير `أعلى درجة`{:class="block3variables"}.
+Play your game twice to check whether your score gets correctly saved as the `high score`{:class="block3variables"}.
 
 \--- /task \---
