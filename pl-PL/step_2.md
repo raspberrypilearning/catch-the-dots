@@ -2,25 +2,29 @@
 
 Zacznij od stworzenia pokrętła-kontrolera, którego gracz będzie używał do zbierania kropek.
 
-\---task\--- Otwórz projekt początkowy 'Łapanie kropek'.
+\--- task \---
 
-**Online:** otwórz nowy projekt Scratcha na stronie [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
+Open the 'Catch the dots' Scratch starter project.
 
-Jeśli posiadasz konto Scratch, możesz wykonać kopię klikając **Remix**.
+**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
 
-**Offline:** pobierz projekt początkowy z [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), i otwórz w programie Scratch Desktop.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Jeśli musisz pobrać i zainstalować edytor Scratcha, znajdziesz go na stronie [rpf.io/scratchoff](http://rpf.io/scratchoff).
+**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
 \--- /task \---
 
-Powinieneś widzieć duszka kontrolera:
+You should see a controller sprite:
 
-![zrzut ekranu](images/dots-controller.png)
+![screenshot](images/dots-controller.png)
 
-\---task\--- Dodaj fragment kodu do duszka pokrętła aby duszek obracał się w prawo, jeśli gracz naciśnie strzałkę w prawo:
+\--- task \---
 
-![Duszek pokrętła](images/controller-sprite.png)
+Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
+
+![Controller sprite](images/controller-sprite.png)
 
 ```blocks3
     kiedy kliknięto flagę
@@ -33,17 +37,29 @@ Powinieneś widzieć duszka kontrolera:
 
 \--- /task \---
 
-\---task\--- Wypróbuj swój kod. Pokrętło powinno się obracać w prawo, kiedy naciśniesz strzałkę w prawo. \--- /task \---
+\--- task \---
 
-\--- task \--- Dodaj kod do duszka pokrętła aby obracał się w lewo jeżeli gracz naciśnie strzałkę w lewo.
+Test your code. The controller should spin to the right when you press the right arrow key.
 
-![Duszek pokrętła](images/controller-sprite.png)
+\--- /task \---
 
-\--- hints \--- \--- hint \---
+\--- task \---
 
-Poniżej znajdziesz kod, który sprawdza czy strzałka w prawo jest wciśnięta i wtedy obraca duszka w prawo. Czy możesz dodać kopię tego kodu i zmienić go tak, aby sprawdzał kiedy wciśnięto strzałkę w lewo i obracał wtedy duszka w lewo?
+Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
 
-\--- /hint \--- \--- hint \--- Poniżej masz bloczki, które będziesz potrzebować:
+![Controller sprite](images/controller-sprite.png)
+
+\--- hints \---
+
+\--- hint \---
+
+Find the code that checks whether the right arrow key is pressed and makes the sprite turn right. Can you add a copy of this code, and change the copy so it checks whether the left arrow key is pressed and makes the sprite turn left?
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
 
 ```blocks3
 <key (space v) pressed?>
@@ -55,7 +71,11 @@ jeżeli <> to
 koniec
 ```
 
-\--- /hint \--- \--- hint \--- Tak powinien wyglądać twój kod:
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your code should look like:
 
 ```blocks3
     kiedy kliknięto zieloną flagę
@@ -69,4 +89,8 @@ zawsze
 koniec
 ```
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
+\--- /hint \---
+
+\--- /hints \---
+
+\--- /task \---
