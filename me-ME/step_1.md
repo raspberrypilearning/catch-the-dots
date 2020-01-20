@@ -8,7 +8,9 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 In this project you'll learn how to create a game in which the player has to match up coloured dots with the correct colour of the controller wheel.
 
-\--- no-print \--- Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
+\--- no-print \---
+
+Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -17,7 +19,11 @@ In this project you'll learn how to create a game in which the player has to mat
 
 \--- /no-print \---
 
-\--- print-only \--- ![Dots screenshot](images/dots-final.png) \--- /print-only \---
+\--- print-only \---
+
+![Dots screenshot](images/dots-final.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -42,14 +48,22 @@ In this project you'll learn how to create a game in which the player has to mat
 
 ### Downloads
 
-+ [Offline Scratch 2 project](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"} \--- /collapse \---
++ [Offline Scratch 2 project](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: Additional notes for educators
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print). \--- /no-print \---
+\--- no-print \---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print).
+
+\--- /no-print \---
 
 You can find [the completed project here](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
 
-You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse \---
+You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
+
+\--- /collapse \---
