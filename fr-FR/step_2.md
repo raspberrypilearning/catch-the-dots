@@ -1,8 +1,10 @@
-## Créer un contrôleur
+## Création d'un contrôleur
 
 Commencez par créer un contrôleur que le joueur utilisera pour collecter des points.
 
-\--- task \--- Ouvrez le projet de démarrage Scratch 'Catch the dots'.
+\--- task \---
+
+Open the 'Catch the dots' Scratch starter project.
 
 **Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
 
@@ -18,7 +20,9 @@ You should see a controller sprite:
 
 ![screenshot](images/dots-controller.png)
 
-\--- task \--- Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
+\--- task \---
+
+Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
 
 ![Controller sprite](images/controller-sprite.png)
 
@@ -33,17 +37,29 @@ You should see a controller sprite:
 
 \--- /task \---
 
-\--- task \--- Test your code. The controller should spin to the right when you press the right arrow key. \--- /task \---
+\--- task \---
 
-\--- task \--- Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
+Test your code. The controller should spin to the right when you press the right arrow key.
+
+\--- /task \---
+
+\--- task \---
+
+Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
 
 ![Controller sprite](images/controller-sprite.png)
 
-\--- hints \--- \--- hint \---
+\--- hints \---
+
+\--- hint \---
 
 Find the code that checks whether the right arrow key is pressed and makes the sprite turn right. Can you add a copy of this code, and change the copy so it checks whether the left arrow key is pressed and makes the sprite turn left?
 
-\--- /hint \--- \--- hint \--- Here are the blocks you need:
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
 
 ```blocks3
 <key (space v) pressed?>
@@ -55,7 +71,11 @@ si <> puis
 fin
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your code should look like:
 
 ```blocks3
     lorsque l' indicateur cliqué
@@ -70,4 +90,8 @@ fin
     extrémité
 ```
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
+\--- /hint \---
+
+\--- /hints \---
+
+\--- /task \---
