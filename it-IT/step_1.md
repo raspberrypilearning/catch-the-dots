@@ -8,16 +8,22 @@ Questa è la versione **Scratch 3** del progetto. C'è anche una versione [Scrat
 
 In questo progetto imparerai come creare un gioco in cui il giocatore deve abbinare punti colorati con il colore corretto della rotellina del controller.
 
-\--- no-print \--- Usa i tasti freccia sulla tastiera per ruotare la rotella del controller e prendere i punti volanti mentre raggiungono il centro. Se ti mancano tre punti, il gioco è finito.
+\--- no-print \---
+
+Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/dots-final.png">
 </div>
 
-\--- / no-print \---
+\--- /no-print \---
 
-\--- solo stampa \--- ![Dots screenshot](images/dots-final.png) \--- / solo stampa \---
+\--- print-only \---
+
+![Dots screenshot](images/dots-final.png)
+
+\--- /print-only \---
 
 ## \--- chiudi \---
 
@@ -26,7 +32,7 @@ In questo progetto imparerai come creare un gioco in cui il giocatore deve abbin
 + Come scegliere oggetti casuali da una lista
 + Come utilizzare le variabili per tenere traccia della velocità, delle vite e del punteggio del giocatore
 
-\--- / chiudi \---
+\--- /collapse \---
 
 ## \--- chiudi \---
 
@@ -42,14 +48,22 @@ In questo progetto imparerai come creare un gioco in cui il giocatore deve abbin
 
 ### download
 
-+ [Progetto offline Scratch 2](http://rpf.io/p/en/catch-the-dots-go){: target = "_ blank"} \--- / collapse \---
++ [Offline Scratch 2 project](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
+
+\--- /collapse \---
 
 ## \--- chiudi \---
 
 ## titolo: note aggiuntive per educatori
 
-\--- no-print \--- Se è necessario stampare questo progetto, utilizzare la [versione stampabile della stampante](https://projects.raspberrypi.org/en/projects/catch-the-dots/print). \--- / no-print \---
+\--- no-print \---
 
-Puoi trovare [il progetto completato qui](http://rpf.io/p/en/catch-the-dots-get){: target = "_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print).
 
-You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} \--- /collapse \---
+\--- /no-print \---
+
+You can find [the completed project here](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+
+You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
+
+\--- /collapse \---
