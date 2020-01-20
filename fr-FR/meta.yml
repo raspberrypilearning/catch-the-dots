@@ -1,14 +1,14 @@
 ---
-hero_image: images / banner.png
+hero_image: images/banner.png
 listed: true
 copyedit: false
 title: Attrapes les points
 description: Apprends à programmer un jeu où il faut attraper des points.
 version: 3
-last_tested: 2017-01-01
+last_tested: 16.10.2018
 steps:
   - 
-    title: introduction
+    title: Introduction
   - 
     title: Création d'un contrôleur
   - 
@@ -20,8 +20,8 @@ steps:
   - 
     title: 'Augmentation de la difficulté'
   - 
-    title: 'Défi : Points plus rapides'
-  - 
-    title: 'Meilleur score'
+    title: 'Défi : Créer d''autres blocs'
   - 
     title: 'Défi : Améliorez votre jeu!'
+  - 
+    title: Que faire ensuite?
