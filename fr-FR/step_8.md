@@ -1,4 +1,4 @@
-## Défi: améliorer votre jeu
+## Défi : Améliorez votre jeu
 
 Pouvez-vous penser à des façons d'améliorer votre jeu? Par exemple, vous pouvez créer des points spéciaux qui:
 
