@@ -1,16 +1,30 @@
 ## Sakupljanje tačaka
 
-\--- task \--- Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
+\--- task \---
 
-![screenshot](images/dots-more-dots.png) \--- /task \---
+Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
 
-\--- task \--- Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue. \--- /task \---
+![screenshot](images/dots-more-dots.png)
 
-\--- task \--- Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
+\--- /task \---
+
+\--- task \---
+
+Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue.
+
+\--- /task \---
+
+\--- task \---
+
+Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
 
 ![screenshot](images/dots-all-test.png)
 
-\--- hints \--- \--- hint \--- This is the code you need to find and alter for both new sprites:
+\--- hints \---
+
+\--- hint \---
+
+This is the code you need to find and alter for both new sprites:
 
 ![screenshot](images/dots-more-dots.png)
 
@@ -22,7 +36,11 @@
     end
 ```
 
-\--- /hint \--- \--- hint \--- This is how you need to change the code for the yellow sprite:
+\--- /hint \---
+
+\--- hint \---
+
+This is how you need to change the code for the yellow sprite:
 
 ```blocks3
     if <touching color [#FFFF00]? :: +> then
@@ -40,11 +58,17 @@ This is how you need to change the code for the blue sprite:
     end
 ```
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
+\--- /hint \---
+
+\--- /hints \---
+
+\--- /task \---
 
 If you play the game now, you can see that the dots sometimes get created one top of each other.
 
-\--- task \--- Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
+\--- task \---
+
+Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
 
 ![Yellow dot](images/yellow-sprite.png)
 
