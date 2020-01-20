@@ -2,23 +2,23 @@
 hero_image: images/banner.png
 listed: true
 copyedit: false
-title: صياد النقاط
-description: تعلم كيف تصنع لعبة لاصطياد النقاط.
+title: جمع النقاط
+description: تعلم كيف تصنع لعبة لجمع النقاط
 version: 4.0.0
 last_tested: 2018-10-16
 steps:
   - 
     title: مقدمة
   - 
-    title: إنشاء قرص دوَّار
+    title: إنشاء عجلة تحكم دوَّارة
   - 
-    title: 'التحدي: الدوران إلى اليسار'
+    title: احصل على نقاط أو اخسر حياة
   - 
-    title: جمع النقاط
+    title: نقاط أكثر
   - 
-    title: 'التحدي: المزيد من النقاط '
+    title: زيادة الصعوبة
   - 
-    title: 'زيادة مستوى الصعوبة'
+    title: 'التحدي: النقاط تتحرك أسرع'
   - 
     title: أعلى نتيجة
   - 
