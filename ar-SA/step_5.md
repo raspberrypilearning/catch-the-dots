@@ -1,14 +1,20 @@
-## التحدي: المزيد من النقاط 
+## زيادة مستوى الصعوبة
 
 الآن ستقوم برفع مستوى صعوبة اللعبة كلما نجح اللاعب في اللعب لوقت أطول. ستقوم بعمل ذلك عن طريق جعل النقاط تظهر بشكل أسرع و أسرع مع مرور الوقت.
 
-\--- task \--- قم بإنشاء`متغير`{:class="block3variables"} باسم 'تأخير'.
+\--- task \---
 
-![كائن منصة العمل](images/stage-sprite.png) \--- /task \---
+Create a new `variable`{:class="block3variables"} called 'delay'.
 
-\--- task \--- اذهب إلى منطقة المقاطع البرمجية على منصة العمل و أضف تعليمات برمجية جديدة تقوم بإعطاء المتغير `تأخير`{:class="block3variables"} القيمة `8` ثم بعد ذلك تقوم بخفض القيمة للمتغير `تأخير`{:class="block3variables"} خلال وقت استمرار اللعبة.
+![Stage sprite](images/stage-sprite.png)
 
-![كائن منصة العمل](images/stage-sprite.png)
+\--- /task \---
+
+\--- task \---
+
+Go to the Stage's Scripts area and create a new script that sets the `delay`{:class="block3variables"} variable to `8` and then slowly reduces the value of `delay`{:class="block3variables"} while the game runs.
+
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
     عند نقر ⚑
@@ -21,24 +27,30 @@ end
 
 \--- /task \---
 
-لاحظ أن هذه التعليمات البرمجية تشبه بشكل كبير التعليمات البرمجية التي ستسخدمها في حال إنشائك لمؤقت عد تنازلي!
+Notice that this code is very similar to the code you would use to create a countdown timer!
 
-بعد ذلك, استخدم المتغير `تأخير`{:class="block3variables"} في التعليمات البرمجية الخاصة بالكائنات 'أحمر', 'أصفر', و 'أزرق'.
+Next, use the `delay`{:class="block3variables"} variable in the code scripts of the 'red', 'yellow', and 'blue' sprites.
 
-\--- task \--- قم بإزالة التعليمة البرمجية التي تجعل اللعبة تنتظر عددًا عشوائيًا من الثواني بين أوقات إنشاء نسخ من كائنات النقاط. استبدل التعليمة البرمجية التي حذفتها بالمتغير `تأخير`{:class="block3variables"} الجديد:
+\--- task \---
 
-![لقطة الشاشة](images/all-dots.png)
+Remove the code block that makes the game wait a random number of seconds between making the dot sprite clones. Replace the block you've removed with your new `delay`{:class="block3variables"} variable:
+
+![screenshot](images/all-dots.png)
 
 ```blocks3
 <br />انتظر (عدد عشوائي بين (5) و (10)) ثانية
 انتظر (تأخير :: variables) ثانية
 ```
 
-كرر السابق لجميع كائنات النقاط أحمر،أصفر و أزرق.
+Do this for all three dot sprites.
 
 \--- /task \---
 
-\--- task \--- اختبر اللعبة ، وتحقق مما إذا كانت النقاط تبدأ في الظهور بسرعة أكبر مع استمرار اللعبة.
+\--- task \---
+
+Test the game, and check whether the dots begin to appear more quickly as the game goes on.
 
 + هل هذا الشيء متحقق مع جميع النقاط الثلاثة الملونة؟
-+ هل يمكنك أن ترى أن قيمة المتغير `تأخير`{:class="block3variables"} تتناقص؟ \--- /task \---
++ Can you see that the value of the `delay`{:class="block3variables"} variable decreases?
+
+\--- /task \---
