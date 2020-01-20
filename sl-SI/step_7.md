@@ -2,21 +2,29 @@
 
 Shranil boš najboljši rezultat, tako da bodo igralci vedeli, kako jim gre.
 
-\--- task \--- Ustvari novo spremenljivko imenovano `najboljši rezultat`{:class="block3variables"}.
+\--- task \---
 
-![Figura odra](images/stage-sprite.png)
+Create a new variable called `high score`{:class="block3variables"}.
 
-\--- /task \---
-
-\--- task \--- Izberi oder. Klikni na 'Moji bloki' in ustvari nov blok imenovan `preveri najboljši rezultat` {:class="block3myblocks"}.
-
-![Figura odra](images/stage-sprite.png) ![posnetek zaslona](images/dots-custom-1.png)
+![Stage sprite](images/stage-sprite.png)
 
 \--- /task \---
 
-\--- task \--- Tvojemu bloku dodaj kodo, ki preveri ali je trenutna vrednost spremenljivke `točke`{:class="block3variables"} večja od vrednosti `najboljši rezultat`{:class="block3variables"}in v tem primeru uporabi `točke`{:class="block3variables"}, kot novo vrednost spremenljivke `najboljši rezultat`{:class="block3variables"}.
+\--- task \---
 
-![Figura odra](images/stage-sprite.png)
+Select the Stage. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
+
+![Stage sprite](images/stage-sprite.png)
+
+![screenshot](images/dots-custom-1.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your custom block so that the block checks if the current value of `score`{:class="block3variables"} in larger than the value of the `high score`{:class="block3variables"} variable, and then stores the value of `score`{:class="block3variables"} as the new value of `high score`{:class="block3variables"}.
+
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
     definiraj preveri najboljši rezultat
@@ -27,9 +35,11 @@ Shranil boš najboljši rezultat, tako da bodo igralci vedeli, kako jim gre.
 
 \--- /task \---
 
-\--- task \--- Dodaj tvoj novi blok v kodo odra, pred konec programa.
+\--- task \---
 
-![Figura odra](images/stage-sprite.png)
+Add your new custom block to the Stage script before the end of the script.
+
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
 ko kliknemo na zastavico
@@ -45,6 +55,6 @@ ustvai [vse v]
 
 \--- task \---
 
-Dvakrat odigraj svojo igro, da vidiš ali se točke pravilno shranijo kot `najboljši rezultat` {:class="block3variables"}.
+Play your game twice to check whether your score gets correctly saved as the `high score`{:class="block3variables"}.
 
 \--- /task \---
