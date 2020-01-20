@@ -2,11 +2,17 @@
 
 Τώρα πρόκειται να κάνεις το παιχνίδι δυσκολότερο για τον παίκτη, όσο αυτός δε χάνει και συνεχίζει να παίζει. Αυτό θα γίνει κάνοντας τις τελείες να εμφανίζονται όλο και πιο γρήγορα όσο περνάει ο χρόνος.
 
-\--- task \--- Δημιούργησε μία νέα `μεταβλητή`{:class="block3variables"} με όνομα 'καθυστέρηση'.
+\--- task \---
 
-![Stage sprite](images/stage-sprite.png) \--- /task \---
+Create a new `variable`{:class="block3variables"} called 'delay'.
 
-\--- task \--- Πήγαινε στον κώδικα του Σκηνικού και γράψε κώδικα που ορίζει την `καθυστέρηση`{:class="block3variables"} σε `8` και έπειτα μειώνει την τιμή της `καθυστέρησης`{:class="block3variables"} όσο διαρκεί το παιχνίδι.
+![Stage sprite](images/stage-sprite.png)
+
+\--- /task \---
+
+\--- task \---
+
+Go to the Stage's Scripts area and create a new script that sets the `delay`{:class="block3variables"} variable to `8` and then slowly reduces the value of `delay`{:class="block3variables"} while the game runs.
 
 ![Stage sprite](images/stage-sprite.png)
 
@@ -21,11 +27,13 @@ end
 
 \--- /task \---
 
-Παρατήρησε ότι αυτός ο κώδικας είναι σχεδόν όμοιος με τον κώδικα που θα χρησιμοποιήσεις για να δημιουργήσεις ένα χρονόμετρο αντίστροφης μέτρησης!
+Notice that this code is very similar to the code you would use to create a countdown timer!
 
-Στη συνέχεια, χρησιμοποίησε τη μεταβλητή `καθυστέρηση`{:class="block3variables"} στον κώδικα των αντικειμένων 'κόκκινο', 'κίτρινο' και 'μπλε'.
+Next, use the `delay`{:class="block3variables"} variable in the code scripts of the 'red', 'yellow', and 'blue' sprites.
 
-\--- task \--- Αφαίρεσε τα μπλοκ κώδικα που κάνουν το παιχνίδι να περιμένει ένα τυχαίο αριθμό δευτερολέπτων κατά τη δημιουργία των κλώνων των τελειών. Αντικατέστησε τα μπλοκ που αφαίρεσες με τη νέα μεταβλητή `καθυστέρηση`{:class="block3variables"}:
+\--- task \---
+
+Remove the code block that makes the game wait a random number of seconds between making the dot sprite clones. Replace the block you've removed with your new `delay`{:class="block3variables"} variable:
 
 ![screenshot](images/all-dots.png)
 
@@ -34,11 +42,15 @@ end
     περίμενε (καθυστέρηση :: variables) δευτερόλεπτα
 ```
 
-Κάνε το ίδιο και για τα τρία αντικείμενα τελείας.
+Do this for all three dot sprites.
 
 \--- /task \---
 
-\--- task \--- Δοκίμασε τις αλλαγές και έλεγξε αν οι τελείες εμφανίζονται όλο και πιο γρήγορα καθώς εξελίσσεται το παιχνίδι.
+\--- task \---
+
+Test the game, and check whether the dots begin to appear more quickly as the game goes on.
 
 + Λειτουργεί και για τις τρεις χρωματιστές τελείες;
-+ Μπορείς να δεις ότι η τιμή της μεταβλητής `καθυστέρηση`{:class="block3variables"} μειώνεται; \--- /task \---
++ Can you see that the value of the `delay`{:class="block3variables"} variable decreases?
+
+\--- /task \---
