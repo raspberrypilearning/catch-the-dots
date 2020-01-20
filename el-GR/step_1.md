@@ -8,7 +8,9 @@
 
 Σε αυτό το έργο θα μάθεις πώς να δημιουργήσεις ένα παιχνίδι στο οποίο ο παίκτης πρέπει να ταιριάξει χρωματιστές τελείες με το αντίστοιχο χρώμα του χειριστηρίου.
 
-\--- no-print \--- Χρησιμοποίησε τα βελάκια του πληκτρολογίου για να περιστρέψεις το χειριστήριο και να πιάσεις τις ιπτάμενες τελείες καθώς πλησιάζουν το κέντρο. Αν αστοχήσεις τρεις τελείες, το παιχνίδι τελειώνει.
+\--- no-print \---
+
+Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -17,7 +19,11 @@
 
 \--- /no-print \---
 
-\--- print-only \--- ![Dots screenshot](images/dots-final.png) \--- /print-only \---
+\--- print-only \---
+
+![Dots screenshot](images/dots-final.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -42,14 +48,22 @@
 
 ### Λήψεις
 
-+ [Offline Scratch 2 έργο](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"} \--- /collapse \---
++ [Offline Scratch 2 project](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: Πρόσθετες σημειώσεις για εκπαιδευτικούς
 
-\--- no-print \--- Αν χρειαστεί να εκτυπώσεις αυτό το έργο, χρησιμοποίησε την [εκτυπώσιμη έκδοση](https://projects.raspberrypi.org/en/projects/catch-the-dots/print). \--- /no-print \---
+\--- no-print \---
 
-Μπορείς να βρεις [το ολοκληρωμένο έργο εδώ](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print).
 
-Μπορείς να βρεις [το ολοκληρωμένο έργο εδώ](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank \---
+\--- /no-print \---
+
+You can find [the completed project here](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+
+You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
+
+\--- /collapse \---
