@@ -1,18 +1,32 @@
 ## Noch mehr Punkte
 
-\--- task \--- Dupliziere deine 'rote' Figur zweimal und benenne die beiden neuen Figuren 'gelb' und 'blau'.
+\--- task \---
 
-![Screenshot](images/dots-more-dots.png) \--- /task \---
+Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
 
-\--- task \--- Ändere das Kostüm jeder neuen Figur so, dass es die richtige Farbe hat: Die "gelb"-Figur sollte gelb sein und die "blau"-Figur sollte blau sein. \--- /task \---
+![screenshot](images/dots-more-dots.png)
 
-\--- task \--- Ändere den Code jeder Figur so, dass der Spieler den Controller so drehen muss, dass er den Punkt mit der entsprechenden Farbe fangen kann, um Punkte zu erzielen.
+\--- /task \---
 
-![Screenshot](images/dots-all-test.png)
+\--- task \---
 
-\--- hints \--- \--- hint \--- Dies ist der Code, den du für beide neuen Figuren finden und ändern musst:
+Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue.
 
-![Screenshot](images/dots-more-dots.png)
+\--- /task \---
+
+\--- task \---
+
+Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
+
+![screenshot](images/dots-all-test.png)
+
+\--- hints \---
+
+\--- hint \---
+
+This is the code you need to find and alter for both new sprites:
+
+![screenshot](images/dots-more-dots.png)
 
 ```blocks3
     falls <wird Farbe [#FF0000] berührt?> , dann
@@ -22,7 +36,11 @@
     Ende
 ```
 
-\--- /hint \--- \--- hint \--- So musst du den Code für das gelbe Sprite ändern:
+\--- /hint \---
+
+\--- hint \---
+
+This is how you need to change the code for the yellow sprite:
 
 ```blocks3
     falls <wird Farbe [#FFFF00] berührt?>, dann     ändere [Punkte v] um (1)
@@ -30,7 +48,7 @@
 Ende
 ```
 
-So musst du den Code für die blaue Figur ändern:
+This is how you need to change the code for the blue sprite:
 
 ```blocks3
     falls <wird Farbe [#0000FF] berührt?>, dann     ändere [Punkte v] um (1)
@@ -38,13 +56,19 @@ So musst du den Code für die blaue Figur ändern:
 Ende
 ```
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
+\--- /hint \---
 
-Wenn du das Spiel jetzt spielst, kannst du sehen, dass die Punkt-Figuren manchmal übereinander erstellt werden.
+\--- /hints \---
 
-\--- task \--- Ändere den Code für die 'gelbe' Punkt-Figur so, dass sie nach dem Klicken auf die Flagge vier Sekunden wartet, bevor sie erscheint.
+\--- /task \---
 
-![Punkt-Figur gelb](images/yellow-sprite.png)
+If you play the game now, you can see that the dots sometimes get created one top of each other.
+
+\--- task \---
+
+Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
+
+![Yellow dot](images/yellow-sprite.png)
 
 ```blocks3
     Wenn die Flagge angeklickt wird
@@ -52,8 +76,8 @@ Wenn du das Spiel jetzt spielst, kannst du sehen, dass die Punkt-Figuren manchma
 +  warte (4) Sekunden
 ```
 
-![Punkt-Figur blau](images/blue-sprite.png)
+![Blue dot](images/blue-sprite.png)
 
-Ändere dann den Code für die "blaue" Punkt-Figur so, dass sie nach dem Klicken auf die Flagge 6 Sekunden wartet, bevor sie erscheint.
+Then change the code for the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
 
 \--- /task \---
