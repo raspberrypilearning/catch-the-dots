@@ -1,6 +1,6 @@
-## Mejor puntaje
+## High score
 
-Vas a guardar la puntuación más alta del juego, para que los jugadores puedan ver qué tan bien juegan.
+You're going to save the game's high score, so that players can see how well they are doing.
 
 \--- task \---
 
@@ -27,10 +27,10 @@ Add code to your custom block so that the block checks if the current value of `
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    definir comparar puntaje
-  si < (puntos:: variables) > (mejor puntaje) > entonces 
-    dar a [mejor puntaje v] el valor (puntos :: variables)
-  fin
+    define check high score
+    if <(score :: variables) > (high score)> then
+        set [high score v] to (score :: variables)
+    end
 ```
 
 \--- /task \---
@@ -42,13 +42,13 @@ Add your new custom block to the Stage script before the end of the script.
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-al presionar bandera verde
-dar a [vidas v] el valor (3)
-dar a [puntos v] el valor (0)
-esperar hasta <(vidas) < (1)>
+when flag clicked
+set [lives v] to (3)
+set [score v] to (0)
+wait until <(lives) < (1)>
 
-+ comparar puntaje :: custom
-detener [todos v]
++ check high score :: custom
+stop [all v]
 ```
 
 \--- /task \---
