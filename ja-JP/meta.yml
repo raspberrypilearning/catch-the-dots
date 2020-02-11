@@ -2,26 +2,26 @@
 hero_image: images/banner.png
 listed: true
 copyedit: false
-title: カラーボールをキャッチする
-description: カラーボールをキャッチするゲームを作ります
+title: Catch the dots
+description: Make a dot-catching game
 version: 4.0.0
 last_tested: 2018-10-16
 steps:
   - 
-    title: 前書き
+    title: Introduction
   - 
-    title: コントローラーホイールを作ります
+    title: Create a controller
   - 
-    title: ポイントを獲得するか、命を失います。
+    title: Gain points or lose lives
   - 
-    title: より多くのカラーボール
+    title: More dots
   - 
-    title: 難易度を上げます
+    title: Increase the difficulty
   - 
-    title: '課題：より速いカラーボール'
+    title: 'Challenge: faster dots'
   - 
-    title: ハイスコア
+    title: High score
   - 
-    title: 'チャレンジ：ゲームをより良くする!'
+    title: 'Challenge: improve your game!'
   - 
-    title: 次は何をしますか？
+    title: What next?
