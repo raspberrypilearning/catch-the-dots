@@ -1,6 +1,6 @@
-## ハイスコア
+## High score
 
-ゲームのハイスコアを保存して、プレイヤーがどれだけうまくやっているかを確認できるようにします。
+You're going to save the game's high score, so that players can see how well they are doing.
 
 \--- task \---
 
@@ -18,7 +18,7 @@ Select the Stage. Click on 'My blocks' and create a new custom block called `che
 
 ![screenshot](images/dots-custom-1.png)
 
-\--- /タスク \---
+\--- /task \---
 
 \--- task \---
 
@@ -27,9 +27,10 @@ Add code to your custom block so that the block checks if the current value of `
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    定義「ハイスコアをチェック」
-もしスコア＞ハイスコアなら
-スコアをハイスコアにする
+    define check high score
+    if <(score :: variables) > (high score)> then
+        set [high score v] to (score :: variables)
+    end
 ```
 
 \--- /task \---
@@ -41,13 +42,13 @@ Add your new custom block to the Stage script before the end of the script.
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-緑の旗が押されたとき
-「せいぞん」を3にする
-「スコア」を0にする
-「せいぞん」<1まで待つ
+when flag clicked
+set [lives v] to (3)
+set [score v] to (0)
+wait until <(lives) < (1)>
 
-ハイスコアをチェック
-すべてを止める
++ check high score :: custom
+stop [all v]
 ```
 
 \--- /task \---
