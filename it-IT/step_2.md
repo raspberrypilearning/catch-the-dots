@@ -1,6 +1,6 @@
-## Crea un controller
+## Create a controller
 
-Inizia creando un controller che il giocatore utilizzerà per raccogliere punti.
+Start by creating a controller that the player will use to collect dots.
 
 \--- task \---
 
@@ -27,12 +27,12 @@ Add some code to the controller sprite to make the sprite turn right if the play
 ![Controller sprite](images/controller-sprite.png)
 
 ```blocks3
-    quando la bandiera ha cliccato
-    per sempre
-        se <key (right arrow v) pressed?> poi
-            giri a destra (3) gradi
-        fine
-    fine
+    when flag clicked
+    forever
+        if <key (right arrow v) pressed?> then
+            turn right (3) degrees
+        end
+    end
 ```
 
 \--- /task \---
@@ -64,11 +64,11 @@ Here are the blocks you need:
 ```blocks3
 <key (space v) pressed?>
 
-gira a sinistra (15) gradi
+turn left(15) degrees
 
-se <> poi
+if <> then
 
-fine
+end
 ```
 
 \--- /hint \---
@@ -78,16 +78,16 @@ fine
 Here is what your code should look like:
 
 ```blocks3
-    quando la bandiera ha cliccato
-    per sempre
-        se <key (right arrow v) pressed?> poi
-            gira a destra (3) gradi
-        fine
+    when flag clicked
+    forever
+        if <key (right arrow v) pressed?> then
+            turn right (3) degrees
+        end
 
-+ se <key (left arrow v) pressed?> poi
-            gira a sinistra (3) gradi
-        fine
-    fine
++       if <key (left arrow v) pressed?> then
+            turn left(3) degrees
+        end
+    end
 ```
 
 \--- /hint \---
