@@ -1,6 +1,6 @@
-## Guadagna punti o perdi vite
+## Gain points or lose lives
 
-Ora aggiungerai alcuni punti che il giocatore deve raccogliere.
+Now you're going to add some dots that the player needs to collect.
 
 \--- task \---
 
@@ -17,13 +17,13 @@ Add this script to your 'red' sprite to create a new clone of the sprite every f
 ![Red dot sprite](images/red-sprite.png)
 
 ```blocks3
-    quando il flag ha fatto clic
-    nascondi
-    aspetta (2) secondi
-    per sempre
-        crea clone di (io stesso v)
-        aspetti (scegli casuale (5) a (10)) secondi
-    fine
+    when flag clicked
+    hide
+    wait (2) seconds
+    forever
+        create clone of (myself v)
+        wait (pick random (5) to (10)) secs
+    end
 ```
 
 \--- /task \---
@@ -59,13 +59,13 @@ Add this code to the 'dot' sprite to make each new sprite clone appear in a rand
 ![Red dot sprite](images/red-sprite.png)
 
 ```blocks3
-    quando inizio come clone
-    vai a x: (elemento (scegli casuale (1) a (2)) di [posizioni iniziali v]) y: (elemento (scegli casuale (1) a (2)) di [posizioni iniziali v])
-    punto verso (controller v)
-    mostra
-    ripeti fino a <touching (controller v)?>
-        sposta (1) passi
-    fine
+    when I start as a clone
+    go to x: (item (pick random (1) to (2)) of [start positions v]) y: (item (pick random (1) to (2)) of [start positions v])
+    point towards (controller v)
+    show
+    repeat until <touching (controller v)?>
+        move (1) steps
+    end
 ```
 
 \--- /task \---
@@ -93,8 +93,8 @@ Create two new variables called `lives`{:class="block3variables"} and `score`{:c
 Add code to your Stage to set the `lives`{:class="block3variables"} variable to `3` and the `score`{:class="block3variables"} to `0` at the start of the game. ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-quando il flag ha fatto clic su
-set [lives v] su (3)
+when flag clicked
+set [lives v] to (3)
 set [score v] to (0)
 ```
 
@@ -107,7 +107,7 @@ Add this code to the end of the Stage's script to make the game end when the pla
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    attendere fino a <(lives :: variables) < [1]>
+    wait until <(lives :: variables) < [1]>
     stop [all v]
 ```
 
@@ -128,15 +128,15 @@ Then add code to either add `1` to `score`{:class="block3variables"} if the colo
 ![Red dot sprite](images/red-sprite.png)
 
 ```blocks3
-    move (5) passi
-    se <touching color [#FF0000]?> poi
-        cambia [punteggio v] per (1)
-        suono riproduzione (pop v) fino a quando
-    altro
-        cambia [v v v] di (-1)
-        suono riproduzione (Laser1 v) finché non viene eseguito
-    fine
-    cancella questo clone
+    move (5) steps
+    if <touching color [#FF0000]?> then
+        change [score v] by (1)
+        play sound (pop v) until done
+    else
+        change [lives v] by (-1)
+        play sound (Laser1 v) until done
+    end
+    delete this clone
 ```
 
 \--- /task \---
