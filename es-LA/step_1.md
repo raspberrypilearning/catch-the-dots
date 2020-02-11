@@ -1,10 +1,10 @@
-\--- no imprimir \---
+\--- no-print \---
 
-Esta es la versión de **Scratch 3** del proyecto. También hay una [versión del proyecto en Scratch 2](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
 
-\--- /no imprimir \---
+\--- /no-print \---
 
-## Introducción
+## Introduction
 
 In this project you'll learn how to create a game in which the player has to match up coloured dots with the correct colour of the controller wheel.
 
@@ -27,7 +27,7 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 ## \--- collapse \---
 
-## título: Lo que aprenderá
+## title: What you will learn
 
 + How to choose random items from a list
 + How to use variables to track speed, lives, and the player's score
@@ -36,17 +36,17 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 ## \--- collapse \---
 
-## título: Lo que necesitará
+## title: What you will need
 
 ### Hardware
 
-+ Una computadora capáz de hacer funcionar el Scratch 3
++ A computer capable of running Scratch 3
 
 ### Software
 
-+ Scratch 3 (ya sea [online](http://rpf.io/scratchon){:target="_blank"} u [offline](http://rpf.io/scratchoff) {:target="_blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### Descargas
+### Downloads
 
 + [Offline Scratch 2 project](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
 
@@ -54,7 +54,7 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 ## \--- collapse \---
 
-## título: Notas adicionales para educadores
+## title: Additional notes for educators
 
 \--- no-print \---
 
