@@ -1,6 +1,6 @@
-## පොයිට් ඈඩ් කර ගෑනීම හො අවස්තාවන් නෑති කර ගෑනීම
+## Gain points or lose lives
 
-දැන් ඔබ කරීමට යන්නේ ක්‍රීඩකයාට එකතු කිරීම සදහා තිත් කිහිපයක් එකතු කිරීමටයි
+Now you're going to add some dots that the player needs to collect.
 
 \--- task \---
 
@@ -145,7 +145,7 @@ Then add code to either add `1` to `score`{:class="block3variables"} if the colo
 
 Test your game to make sure that:
 
-1. ඔබ නිවැරදි වර්ණය සමඟ තිතක් (dot) නොගැලපේ නම් ඔබට ජීවිතයක් අහිමි වේ
-2. ඔබ තිතක් නිවැරදිව ගලපන්නේ නම් ඔබ ලකුණු ලබා ගනී
+1. You lose a life if you don’t match a dot with the correct colour
+2. You score a point if you match a dot correctly
 
 \--- /task \---
