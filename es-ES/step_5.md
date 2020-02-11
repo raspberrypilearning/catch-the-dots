@@ -1,6 +1,6 @@
-## Aumenta la dificultad
+## Increase the difficulty
 
-Ahora vas a hacer el juego más difícil cuanto más tiempo lo juegue el jugador. Harás esto haciendo que los puntos aparezcan más y más rápido con el tiempo.
+Now you're going to make the game more difficult the longer the player plays it. You will do this by making the dots appear faster and faster over time.
 
 \--- task \---
 
@@ -17,12 +17,12 @@ Go to the Stage's Scripts area and create a new script that sets the `delay`{:cl
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    al hacer clic en bandera verde
-  dar a [retraso v] el valor (8)
-  repetir hasta que < (retraso) = (2)>
-    esperar (10) segundos
-    sumar a [retraso v] (-0.5)
-  end
+    when flag clicked
+    set [delay v] to (8)
+    repeat until < (delay) = (2)>
+        wait (10) seconds
+        change [delay v] by (-0.5)
+    end
 ```
 
 \--- /task \---
@@ -38,8 +38,8 @@ Remove the code block that makes the game wait a random number of seconds betwee
 ![screenshot](images/all-dots.png)
 
 ```blocks3
-<br />-  esperar (número aleatorio entre (5) y (10)) segundos
-    esperar (retraso :: variables) segundos
+<br />-   wait (pick random (5) to (10)) secs
+    wait (delay :: variables) secs
 ```
 
 Do this for all three dot sprites.
@@ -50,7 +50,7 @@ Do this for all three dot sprites.
 
 Test the game, and check whether the dots begin to appear more quickly as the game goes on.
 
-+ ¿Funciona para los tres puntos de colores?
++ Does this work for all three coloured dots?
 + Can you see that the value of the `delay`{:class="block3variables"} variable decreases?
 
 \--- /task \---
