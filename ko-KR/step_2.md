@@ -1,6 +1,6 @@
-## 조종기를 만들어 보세요
+## Create a controller
 
-플레이어가 점을 잡을 때 이용할 조종기를 만들는 것부터 시작해 봅시다.
+Start by creating a controller that the player will use to collect dots.
 
 \--- task \---
 
@@ -27,12 +27,12 @@ Add some code to the controller sprite to make the sprite turn right if the play
 ![Controller sprite](images/controller-sprite.png)
 
 ```blocks3
-    ⚑ 클릭했을 때
-무한 반복하기 
-  만약 <key (right arrow v) pressed?> \(이\)라면 
-    ↻ 방향으로 (3) 도 회전하기
-  end
-end
+    when flag clicked
+    forever
+        if <key (right arrow v) pressed?> then
+            turn right (3) degrees
+        end
+    end
 ```
 
 \--- /task \---
@@ -62,10 +62,12 @@ Find the code that checks whether the right arrow key is pressed and makes the s
 Here are the blocks you need:
 
 ```blocks3
-<(space v) 키를 눌렸는가?>
+<key (space v) pressed?>
 
-↺ 방향으로 (15) 도 회전하기
-만약 <> \(이\)라면
+turn left(15) degrees
+
+if <> then
+
 end
 ```
 
@@ -76,15 +78,16 @@ end
 Here is what your code should look like:
 
 ```blocks3
-    ⚑ 클릭했을 때
-무한 반복하기 
-  만약 <(right arrow v) 키를 눌렸는가?> \(이\)라면 
-    ↻ 방향으로 (3) 도 회전하기
-  end
-  + 만약 <(left arrow v) 키를 눌렸는가?> \(이\)라면 
-  +   ↺ 방향으로 (3) 도 회전하기
-  + end
-end
+    when flag clicked
+    forever
+        if <key (right arrow v) pressed?> then
+            turn right (3) degrees
+        end
+
++       if <key (left arrow v) pressed?> then
+            turn left(3) degrees
+        end
+    end
 ```
 
 \--- /hint \---
