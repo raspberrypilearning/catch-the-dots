@@ -1,12 +1,12 @@
 \--- no-print \---
 
-මෙය **Scratch 3** අනුවාදයේ ව්‍යාපෘතියක් වේ . මෙම ව්‍යාපෘතියේ [Scratch 2 අනුවාදයක් ද ඇත](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
 
 \--- /no-print \---
 
-## හැදින්වීම
+## Introduction
 
-පාලක රෝදයේ (controller wheel) නිවැරදි වර්ණය සමඟ ක්‍රීඩකයාට වර්ණ තිත් ගැලපෙන ක්‍රීඩාවක් නිර්මාණය කරන්නේ කෙසේදැයි මෙම ව්‍යාපෘතියේදී ඔබ ඉගෙන ගනු ඇත
+In this project you'll learn how to create a game in which the player has to match up coloured dots with the correct colour of the controller wheel.
 
 \--- no-print \---
 
@@ -27,26 +27,26 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 ## \--- collapse \---
 
-## මාතෘකාව: ඔබ ඉගෙන ගන්නා දේ
+## title: What you will learn
 
-+ ලැයිස්තුවකින් අහඹු අයිතම තෝරා ගන්නේ කෙසේද
-+ වේගය, ජීවිත සහ ක්‍රීඩකයාගේ ලකුණු නිරීක්ෂණය කිරීමට විචල්‍යයන් භාවිතා කරන්නේ කෙසේද
++ How to choose random items from a list
++ How to use variables to track speed, lives, and the player's score
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## මාතෘකාව: ඔබට අවශ්‍ය දේ
+## title: What you will need
 
-### දෘඩාංග(Hardware)
+### Hardware
 
-+ Scratch 3 ධාවනය(run) කළ හැකි පරිගණකයක්
++ A computer capable of running Scratch 3
 
-### මෘදුකාංග(Software)
+### Software
 
-+ Scratch 3 ([අන්තර්ජාල ගතව(online)](http://rpf.io/scratchon){:target="_blank"} හෝ [අන්තර්ජාලයට නොබැඳිව(offline)](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### බාගන්න(Downloads)
+### Downloads
 
 + [Offline Scratch 2 project](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
 
@@ -54,7 +54,7 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 ## \--- collapse \---
 
-## මාතෘකාව: අධ්‍යාපකයන්(educators) සඳහා අමතර තොරතුරු
+## title: Additional notes for educators
 
 \--- no-print \---
 
