@@ -1,4 +1,4 @@
-## 더 많은 점 만들기
+## More dots
 
 \--- task \---
 
@@ -29,11 +29,11 @@ This is the code you need to find and alter for both new sprites:
 ![screenshot](images/dots-more-dots.png)
 
 ```blocks3
-    만약 <touching color [#FF0000]?> \(이\) 라면 
-  [score v] 을\(를\) (1) 만큼 바꾸기
-  (pop v) 재생하기
-  . . .
-    끝
+    if <touching color [#FF0000]?> then
+        change [score v] by (1)
+        play sound (pop v)
+        ...
+    end
 ```
 
 \--- /hint \---
@@ -43,19 +43,19 @@ This is the code you need to find and alter for both new sprites:
 This is how you need to change the code for the yellow sprite:
 
 ```blocks3
-    만약 <[#FFFF00] 색에 닿았는가?  :: +> \(이\)라면 
-  [score v] 을\(를\) (1) 만큼 바꾸기
-  (pop v) 재생하기
-end
+    if <touching color [#FFFF00]? :: +> then
+        change [score v] by (1)
+        play sound (pop v)
+    end
 ```
 
 This is how you need to change the code for the blue sprite:
 
 ```blocks3
-    만약 <[#0000FF] 색에 닿았는가? :: +> \(이\)라면 
-  [score v] 을\(를\) (1) 만큼 바꾸기
-  (pop v) 재생하기
-end
+    if <touching color [#0000FF]? :: +> then
+        change [score v] by (1)
+        play sound (pop v)
+    end
 ```
 
 \--- /hint \---
@@ -73,9 +73,9 @@ Change the code for the 'yellow' dot sprite so that it waits four seconds after 
 ![Yellow dot](images/yellow-sprite.png)
 
 ```blocks3
-    ⚑ 클릭했을 때
-숨기기
-+ (4) 초 기다리기
+    when flag clicked
+    hide
++   wait (4) seconds
 ```
 
 ![Blue dot](images/blue-sprite.png)
