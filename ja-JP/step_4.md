@@ -1,4 +1,4 @@
-## もっとカラーボール
+## More dots
 
 \--- task \---
 
@@ -29,10 +29,11 @@ This is the code you need to find and alter for both new sprites:
 ![screenshot](images/dots-more-dots.png)
 
 ```blocks3
-    もし　なら
-スコアを1ずつ変える
-ポップの音を鳴らす
-    終わり
+    if <touching color [#FF0000]?> then
+        change [score v] by (1)
+        play sound (pop v)
+        ...
+    end
 ```
 
 \--- /hint \---
@@ -42,17 +43,19 @@ This is the code you need to find and alter for both new sprites:
 This is how you need to change the code for the yellow sprite:
 
 ```blocks3
-    もし黄色に触れたなら もし黄色に触れたなら
-スコアを1ずつ変える
-ポップの音を鳴らす
+    if <touching color [#FFFF00]? :: +> then
+        change [score v] by (1)
+        play sound (pop v)
+    end
 ```
 
 This is how you need to change the code for the blue sprite:
 
 ```blocks3
-    もし青色に触れたなら もし青色に触れたなら
-スコアを1ずつ変える
-ポップの音を鳴らす
+    if <touching color [#0000FF]? :: +> then
+        change [score v] by (1)
+        play sound (pop v)
+    end
 ```
 
 \--- /hint \---
@@ -70,9 +73,9 @@ Change the code for the 'yellow' dot sprite so that it waits four seconds after 
 ![Yellow dot](images/yellow-sprite.png)
 
 ```blocks3
-    緑の旗が押されたとき
-隠す
-4秒待つ
+    when flag clicked
+    hide
++   wait (4) seconds
 ```
 
 ![Blue dot](images/blue-sprite.png)
