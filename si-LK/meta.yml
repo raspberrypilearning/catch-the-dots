@@ -1,27 +1,27 @@
 ---
-hero_image: images / banner.png
+hero_image: images/banner.png
 listed: true
 copyedit: false
-title: ඩොට්(dots) ඈල්ලීම
-description: ඩොට් ඈල්ලීමේ සෙල්ලමක් නිර්මානය කිරිම
+title: Catch the dots
+description: Make a dot-catching game
 version: 4.0.0
 last_tested: 2018-10-16
 steps:
   - 
-    title: හැදින්වීම
+    title: Introduction
   - 
-    title: පාලකයක් සෑකසීම
+    title: Create a controller
   - 
-    title: පොයිට් ඈඩ් කර ගෑනීම හො අවස්තාවන් නෑති කර ගෑනීම
+    title: Gain points or lose lives
   - 
-    title: තවත් ඩොට්
+    title: More dots
   - 
-    title: අපහසු බව වෑඩි කර ගන්න
+    title: Increase the difficulty
   - 
-    title: 'අබියොගය : වේගවත් ඩොට්'
+    title: 'Challenge: faster dots'
   - 
-    title: වෑඩිම ලකුනු
+    title: High score
   - 
-    title: 'අබියොගය : ඔබේ ක්‍රීඩාව වෑඩි දියුනු කර ගන්න'
+    title: 'Challenge: improve your game!'
   - 
-    title: ඊලඟට කුමක්ද?
+    title: What next?
