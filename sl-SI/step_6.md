@@ -1,5 +1,5 @@
-## Izziv: hitrejše pike
+## Challenge: faster dots
 
-Ali lahko izbojšaš svojo igro tako, da dodaš spremenljivko `hitrost`{:class="block3variables"} in jo uporabiš, da pike sčasoma spremenijo svojo hitrost? Dvojniki naj začenjo s premikanjem po en korak, nato pa naj se premikajo vedno hitreje.
+Can you improve your game by adding a `speed`{:class="block3variables"} variable and using this new variable to make the dot change their speed over time? The clones should start by moving one step at a time, and then steadily get faster and faster.
 
-Koda za to je zelo podobna kodi, ki si jo uporabil za spremenljivko `zamik`{:class="block3variables"}.
+The code you need for this is very similar to the code in which you've used the `delay`{:class="block3variables"} variable.
