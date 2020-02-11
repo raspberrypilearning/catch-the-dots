@@ -1,6 +1,6 @@
-## Υψηλό Σκορ
+## High score
 
-Πρόκειται να αποθηκεύεις το υψηλότερο σκορ έτσι ώστε οι παίκτες να μπορούν να δουν πόσο καλά τα καταφέρνουν.
+You're going to save the game's high score, so that players can see how well they are doing.
 
 \--- task \---
 
@@ -27,10 +27,10 @@ Add code to your custom block so that the block checks if the current value of `
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    ορισμός check high score
-εάν <(score :: variables) > (high score)> τότε 
-  όρισε [high score v] σε (score :: variables)
-end
+    define check high score
+    if <(score :: variables) > (high score)> then
+        set [high score v] to (score :: variables)
+    end
 ```
 
 \--- /task \---
@@ -42,13 +42,13 @@ Add your new custom block to the Stage script before the end of the script.
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-Όταν στην πράσινη σημαία γίνει κλικ
-όρισε [lives v] σε (3)
-όρισε [score v] σε (0)
-περίμενε ώσπου <(lives) < (1)> < (1)>
+when flag clicked
+set [lives v] to (3)
+set [score v] to (0)
+wait until <(lives) < (1)>
 
 + check high score :: custom
-σταμάτησε [all v]
+stop [all v]
 ```
 
 \--- /task \---
