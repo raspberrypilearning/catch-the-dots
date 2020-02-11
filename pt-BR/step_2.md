@@ -1,6 +1,6 @@
-## Criar um controlador
+## Create a controller
 
-Comece a criar um controlador que o jogador vai usar para apanhar os pontos.
+Start by creating a controller that the player will use to collect dots.
 
 \--- task \---
 
@@ -27,12 +27,12 @@ Add some code to the controller sprite to make the sprite turn right if the play
 ![Controller sprite](images/controller-sprite.png)
 
 ```blocks3
-    quando clicar em ⚑
-  sempre 
-    se <key (right arrow v) pressed?> então 
-      gire ↻ (3) graus
+    when flag clicked
+    forever
+        if <key (right arrow v) pressed?> then
+            turn right (3) degrees
+        end
     end
-  end
 ```
 
 \--- /task \---
