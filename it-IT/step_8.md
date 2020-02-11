@@ -1,9 +1,9 @@
-## Sfida: migliora il tuo gioco
+## Challenge: improve your game
 
-Riesci a pensare a modi per migliorare il tuo gioco? Ad esempio, potresti creare punti speciali che:
+Can you think of ways to improve your game? For example, you could create special dots that:
 
-+ Raddoppia il tuo punteggio
-+ Rallenta i punti
-+ Nascondi tutti gli altri punti sullo schermo
++ Double your score
++ Slow down the dots
++ Hide all the other dots on the screen
 
-Puoi aggiungere un menu con i pulsanti al tuo gioco? Puoi aggiungere uno schermo con le istruzioni o uno schermo separato per mostrare il punteggio più alto.
+Can you add a menu with buttons to your game? You could add an screen with instructions or a separate screen for showing the high score.
