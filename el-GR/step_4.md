@@ -1,4 +1,4 @@
-## Περισσότερες τελείες
+## More dots
 
 \--- task \---
 
@@ -29,11 +29,11 @@ This is the code you need to find and alter for both new sprites:
 ![screenshot](images/dots-more-dots.png)
 
 ```blocks3
-    εάν <touching color [#FF0000]?> τότε 
-  άλλαξε [score v] κατά (1)
-  παίξε τον ήχο (pop v)
-  ...
-    τέλος
+    if <touching color [#FF0000]?> then
+        change [score v] by (1)
+        play sound (pop v)
+        ...
+    end
 ```
 
 \--- /hint \---
@@ -43,18 +43,18 @@ This is the code you need to find and alter for both new sprites:
 This is how you need to change the code for the yellow sprite:
 
 ```blocks3
-    εάν <touching color [#FFFF00]? :: +> τότε
-        άλλαξε [score v] κατά (1)
-παίξε τον ήχο (pop v)
-end
+    if <touching color [#FFFF00]? :: +> then
+        change [score v] by (1)
+        play sound (pop v)
+    end
 ```
 
 This is how you need to change the code for the blue sprite:
 
 ```blocks3
-    εάν <touching color [#0000FF]? :: +> τότε
-        άλλαξε [score v] κατά (1)
-        παίξε ήχο (pop v)
+    if <touching color [#0000FF]? :: +> then
+        change [score v] by (1)
+        play sound (pop v)
     end
 ```
 
@@ -73,9 +73,9 @@ Change the code for the 'yellow' dot sprite so that it waits four seconds after 
 ![Yellow dot](images/yellow-sprite.png)
 
 ```blocks3
-    όταν γίνει κλικ στη σημαία
-    εξαφανίσου
-+   περίμενε (4) δευτερόλεπτα
+    when flag clicked
+    hide
++   wait (4) seconds
 ```
 
 ![Blue dot](images/blue-sprite.png)
