@@ -1,6 +1,6 @@
-## ポイントを獲得するか、命を失います。
+## Gain points or lose lives
 
-プレーヤーが集める必要があるいくつかのカラーボールを追加します。
+Now you're going to add some dots that the player needs to collect.
 
 \--- task \---
 
@@ -17,12 +17,13 @@ Add this script to your 'red' sprite to create a new clone of the sprite every f
 ![Red dot sprite](images/red-sprite.png)
 
 ```blocks3
-    緑の旗が押されたとき
-隠す
-2秒待つ
-ずっと
-自分自身のクローンを作る
-5から10までの乱数秒待つ
+    when flag clicked
+    hide
+    wait (2) seconds
+    forever
+        create clone of (myself v)
+        wait (pick random (5) to (10)) secs
+    end
 ```
 
 \--- /task \---
@@ -58,12 +59,13 @@ Add this code to the 'dot' sprite to make each new sprite clone appear in a rand
 ![Red dot sprite](images/red-sprite.png)
 
 ```blocks3
-    クローンされたとき
-x座標をスタート位置の1から2までの乱数番目、y座標をスタート位置の1から2までの乱数番目にする
-コントローラーへ向ける
-表示する
-コントローラーに触れたまで繰り返す
-1歩動かす
+    when I start as a clone
+    go to x: (item (pick random (1) to (2)) of [start positions v]) y: (item (pick random (1) to (2)) of [start positions v])
+    point towards (controller v)
+    show
+    repeat until <touching (controller v)?>
+        move (1) steps
+    end
 ```
 
 \--- /task \---
@@ -91,9 +93,9 @@ Create two new variables called `lives`{:class="block3variables"} and `score`{:c
 Add code to your Stage to set the `lives`{:class="block3variables"} variable to `3` and the `score`{:class="block3variables"} to `0` at the start of the game. ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-緑の旗が押されたとき
-せいぞんを3にする
-スコアを0にする
+when flag clicked
+set [lives v] to (3)
+set [score v] to (0)
 ```
 
 \--- /task \---
@@ -105,8 +107,8 @@ Add this code to the end of the Stage's script to make the game end when the pla
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    せいぞん<1まで待つ
-すべてを止める
+    wait until <(lives :: variables) < [1]>
+    stop [all v]
 ```
 
 \--- /task \---
@@ -126,14 +128,15 @@ Then add code to either add `1` to `score`{:class="block3variables"} if the colo
 ![Red dot sprite](images/red-sprite.png)
 
 ```blocks3
-    5歩動かす
-もし　なら
-スコアを1ずつ変える
-終わるまでポップの音を鳴らす
-でなければ
-せいぞんを-1ずつ変える
-終わるまで敗者の音を鳴らす
-このクローンを削除する
+    move (5) steps
+    if <touching color [#FF0000]?> then
+        change [score v] by (1)
+        play sound (pop v) until done
+    else
+        change [lives v] by (-1)
+        play sound (Laser1 v) until done
+    end
+    delete this clone
 ```
 
 \--- /task \---
@@ -142,7 +145,7 @@ Then add code to either add `1` to `score`{:class="block3variables"} if the colo
 
 Test your game to make sure that:
 
-1. カラーボールと正しい色を一致させないと、せいぞんを失います
-2. カラーボールを正しく一致させるとポイントを獲得します
+1. You lose a life if you don’t match a dot with the correct colour
+2. You score a point if you match a dot correctly
 
 \--- /task \---
