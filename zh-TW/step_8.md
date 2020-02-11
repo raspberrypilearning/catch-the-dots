@@ -1,9 +1,9 @@
-## Challenge: improve your game
+## 挑戰：遊戲改良
 
-Can you think of ways to improve your game? For example, you could create special dots that:
+你還想得到讓遊戲變得更棒的方法嗎？ 比方說，你可以創建一些特殊的點點：
 
-+ Double your score
-+ Slow down the dots
-+ Hide all the other dots on the screen
++ 可以讓分數加倍的點點
++ 移動緩慢的點點
++ 把畫面上所有點點消滅的點點
 
-Can you add a menu with buttons to your game? You could add an screen with instructions or a separate screen for showing the high score.
+又或者，你能設計一個帶有按鈕的遊戲主選單嗎？ 或者，你能設計一個遊戲玩法的說明畫面，也可以用個畫面單獨顯示最高分紀錄。
