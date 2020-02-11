@@ -4,7 +4,7 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## Вступ
+## Introduction
 
 In this project you'll learn how to create a game in which the player has to match up coloured dots with the correct colour of the controller wheel.
 
@@ -38,11 +38,11 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 ## title: What you will need
 
-### Обладнання
+### Hardware
 
-+ Комп'ютер, що підтримує Scratch 3
++ A computer capable of running Scratch 3
 
-### Програмне забезпечення
+### Software
 
 + Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
