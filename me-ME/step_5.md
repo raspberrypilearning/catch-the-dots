@@ -1,4 +1,4 @@
-## Izazov: Više tačaka
+## Increase the difficulty
 
 Now you're going to make the game more difficult the longer the player plays it. You will do this by making the dots appear faster and faster over time.
 
