@@ -1,6 +1,6 @@
 ## Increase the difficulty
 
-Agora vais tornar o jogo mais difícil à medida que o jogador o for jogando. Vai fazendo com que os pontos apareçam mais rápido à medida que o tempo passa.
+Now you're going to make the game more difficult the longer the player plays it. You will do this by making the dots appear faster and faster over time.
 
 \--- task \---
 
@@ -50,7 +50,7 @@ Do this for all three dot sprites.
 
 Test the game, and check whether the dots begin to appear more quickly as the game goes on.
 
-+ Isto funciona com todos os três pontos coloridos?
++ Does this work for all three coloured dots?
 + Can you see that the value of the `delay`{:class="block3variables"} variable decreases?
 
 \--- /task \---
