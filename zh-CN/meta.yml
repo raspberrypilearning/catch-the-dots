@@ -12,16 +12,16 @@ steps:
   - 
     title: 创建一个控制器
   - 
-    title: 挑战：向左旋转
+    title: 获得积分或失去生命
   - 
-    title: 收集小点
+    title: 更多小点
   - 
-    title: 挑战：更多小点
+    title: 增加难度
   - 
-    title: '增加难度'
+    title: '挑战：更快的点'
   - 
-    title: 挑战：移动更快的小点
+    title: 高分
   - 
-    title: '高分'
+    title: '挑战: 改进你的游戏!'
   - 
-    title: 挑战：完善你的游戏！
+    title: 接下来呢？
