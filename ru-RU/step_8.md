@@ -1,4 +1,4 @@
-## Задание: улучшение своей игры
+## Challenge: improve your game
 
 Can you think of ways to improve your game? For example, you could create special dots that:
 
