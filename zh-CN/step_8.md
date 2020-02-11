@@ -1,9 +1,9 @@
-## 挑战: 改进你的游戏
+## Challenge: improve your game
 
-你可以想到改进游戏的方法吗? 例如, 你可以创建一个特殊的小点:
+Can you think of ways to improve your game? For example, you could create special dots that:
 
-+ 双倍得分
-+ 减慢小点运行速度
-+ 隐藏在屏幕中的其他小点
++ Double your score
++ Slow down the dots
++ Hide all the other dots on the screen
 
-你可以增加一个游戏菜单吗? 你可以增加一个界面指明或独立现实最高成绩.
+Can you add a menu with buttons to your game? You could add an screen with instructions or a separate screen for showing the high score.
