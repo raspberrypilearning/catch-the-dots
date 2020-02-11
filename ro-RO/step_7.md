@@ -1,6 +1,6 @@
-## Cel mai mare scor
+## High score
 
-Veți salva scorul mare al jocului, astfel încât jucătorii să poată vedea cât de bine se fac.
+You're going to save the game's high score, so that players can see how well they are doing.
 
 \--- task \---
 
@@ -27,10 +27,10 @@ Add code to your custom block so that the block checks if the current value of `
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    definesc scorul mare de verificare
-    dacă <(scor :: variabile) > (scor mare)> apoi
-        set [scor mare v] la (scor :: variabile)
-    sfârșit
+    define check high score
+    if <(score :: variables) > (high score)> then
+        set [high score v] to (score :: variables)
+    end
 ```
 
 \--- /task \---
@@ -42,13 +42,13 @@ Add your new custom block to the Stage script before the end of the script.
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-când pavilion apasat
-set [trăiește v] până la (3)
-set [scor v] până la (0)
-așteptați până <(vieți) < (1)>
+when flag clicked
+set [lives v] to (3)
+set [score v] to (0)
+wait until <(lives) < (1)>
 
-+ verifica scor :: personalizat
-oprire [totul v]
++ check high score :: custom
+stop [all v]
 ```
 
 \--- /task \---
