@@ -1,12 +1,12 @@
 \--- no-print \---
 
-Αυτή είναι η έκδοση **Scratch 3** του έργου. Υπάρχει επίσης η [έκδοση Scratch 2 του έργου](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
 
 \--- /no-print \---
 
-## Εισαγωγή
+## Introduction
 
-Σε αυτό το έργο θα μάθεις πώς να δημιουργήσεις ένα παιχνίδι στο οποίο ο παίκτης πρέπει να ταιριάξει χρωματιστές τελείες με το αντίστοιχο χρώμα του χειριστηρίου.
+In this project you'll learn how to create a game in which the player has to match up coloured dots with the correct colour of the controller wheel.
 
 \--- no-print \---
 
@@ -27,26 +27,26 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 ## \--- collapse \---
 
-## title: Τι θα μάθεις
+## title: What you will learn
 
-+ Πώς να επιλέγεις τυχαία αντικείμενα από μία λίστα
-+ Πώς να χρησιμοποιείς μεταβλητές για να καταγράφεις την ταχύτητα, τις ζωές και τη βαθμολογία του παίκτη
++ How to choose random items from a list
++ How to use variables to track speed, lives, and the player's score
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Τι θα χρειαστείς
+## title: What you will need
 
-### Υλικό
+### Hardware
 
-+ Ένας υπολογιστής ικανός να τρέχει το Scratch 3
++ A computer capable of running Scratch 3
 
-### Λογισμικό
+### Software
 
-+ Scratch 3 (είτε [online](http://rpf.io/scratchon){:target="_blank"} είτε [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### Λήψεις
+### Downloads
 
 + [Offline Scratch 2 project](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
 
@@ -54,7 +54,7 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 ## \--- collapse \---
 
-## title: Πρόσθετες σημειώσεις για εκπαιδευτικούς
+## title: Additional notes for educators
 
 \--- no-print \---
 
