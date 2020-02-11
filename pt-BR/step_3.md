@@ -1,6 +1,6 @@
 ## Gain points or lose lives
 
-Agora voce está preste a adicionar alguns pontos que o jogador precisa de apanhar.
+Now you're going to add some dots that the player needs to collect.
 
 \--- task \---
 
@@ -145,7 +145,7 @@ Then add code to either add `1` to `score`{:class="block3variables"} if the colo
 
 Test your game to make sure that:
 
-1. Perdes uma vida se não acertares um 'ponto' com a cor correcta
-2. Marque um ponto se definir a cor correta
+1. You lose a life if you don’t match a dot with the correct colour
+2. You score a point if you match a dot correctly
 
 \--- /task \---
