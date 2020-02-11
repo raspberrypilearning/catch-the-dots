@@ -2,26 +2,26 @@
 hero_image: images/banner.png
 listed: true
 copyedit: false
-title: Ujemi pike
-description: Ustvari igro za lovjenje pik
+title: Catch the dots
+description: Make a dot-catching game
 version: 4.0.0
 last_tested: 2018-10-16
 steps:
   - 
-    title: Uvod
+    title: Introduction
   - 
-    title: Ustvari krmilnik
+    title: Create a controller
   - 
-    title: Pridobi točke ali izgubi življenje
+    title: Gain points or lose lives
   - 
-    title: Več pik
+    title: More dots
   - 
-    title: Povečaj težavnost
+    title: Increase the difficulty
   - 
-    title: 'Izziv: hitrejše pike'
+    title: 'Challenge: faster dots'
   - 
-    title: Najboljši rezultat
+    title: High score
   - 
-    title: 'Izziv: izboljšaj igro!'
+    title: 'Challenge: improve your game!'
   - 
-    title: Kaj sledi?
+    title: What next?
