@@ -1,6 +1,6 @@
-## Najboljši rezultat
+## High score
 
-Shranil boš najboljši rezultat, tako da bodo igralci vedeli, kako jim gre.
+You're going to save the game's high score, so that players can see how well they are doing.
 
 \--- task \---
 
@@ -27,10 +27,10 @@ Add code to your custom block so that the block checks if the current value of `
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    definiraj preveri najboljši rezultat
-    if <(točke :: spremenljivke) > (najboljši rezultat)> potem
-        nastavi [najboljši rezultat v] na (točke :: spremenljivke)
-    konec
+    define check high score
+    if <(score :: variables) > (high score)> then
+        set [high score v] to (score :: variables)
+    end
 ```
 
 \--- /task \---
@@ -42,13 +42,13 @@ Add your new custom block to the Stage script before the end of the script.
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-ko kliknemo na zastavico
-nastavi [življenja v] na (3)
-nastavi [točke v] na (0)
-počakaj dokler ni <(življenja) < (1)>
+when flag clicked
+set [lives v] to (3)
+set [score v] to (0)
+wait until <(lives) < (1)>
 
-+ preveri najboljši rezultat :: custom
-ustvai [vse v]
++ check high score :: custom
+stop [all v]
 ```
 
 \--- /task \---
