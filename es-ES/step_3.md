@@ -1,6 +1,6 @@
-## Gana puntos o pierde vidas
+## Gain points or lose lives
 
-Ahora vas a agregar algunos puntos que el jugador necesita recoger.
+Now you're going to add some dots that the player needs to collect.
 
 \--- task \---
 
@@ -17,13 +17,13 @@ Add this script to your 'red' sprite to create a new clone of the sprite every f
 ![Red dot sprite](images/red-sprite.png)
 
 ```blocks3
-    al presionar bandera verde
-esconder
-esperar (2) segundos
-por siempre 
-  crear clon de (myself v)
-  esperar (número aleatorio entre (5) y (10)) segundos
-end
+    when flag clicked
+    hide
+    wait (2) seconds
+    forever
+        create clone of (myself v)
+        wait (pick random (5) to (10)) secs
+    end
 ```
 
 \--- /task \---
@@ -59,13 +59,13 @@ Add this code to the 'dot' sprite to make each new sprite clone appear in a rand
 ![Red dot sprite](images/red-sprite.png)
 
 ```blocks3
-    al comenzar como clon
-  ir a x: (elemento (número aleatorio entre (1) y (2)) de [start positions v]) y: (elemento (número aleatorio entre (1) y (2)) de [start positions v])
-  apuntar hacia (controlador v)
-  mostrar
-  repetir hasta que <touching (controller v)?> 
-    mover (1) pasos
-  end
+    when I start as a clone
+    go to x: (item (pick random (1) to (2)) of [start positions v]) y: (item (pick random (1) to (2)) of [start positions v])
+    point towards (controller v)
+    show
+    repeat until <touching (controller v)?>
+        move (1) steps
+    end
 ```
 
 \--- /task \---
@@ -94,8 +94,8 @@ Add code to your Stage to set the `lives`{:class="block3variables"} variable to 
 
 ```blocks3
 when flag clicked
-set [vidas v] to (3)
-set [puntos v] to (0)
+set [lives v] to (3)
+set [score v] to (0)
 ```
 
 \--- /task \---
@@ -107,8 +107,8 @@ Add this code to the end of the Stage's script to make the game end when the pla
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    wait until <(vidas :: variables) < [1]>
-    detener [todos v]
+    wait until <(lives :: variables) < [1]>
+    stop [all v]
 ```
 
 \--- /task \---
@@ -128,15 +128,15 @@ Then add code to either add `1` to `score`{:class="block3variables"} if the colo
 ![Red dot sprite](images/red-sprite.png)
 
 ```blocks3
-    mover (5) pasos
-si <touching color [#FF0000]?> entonces 
-  sumar a [puntos v] (1)
-  tocar sonido (pop v) hasta que termine
-si no 
-  sumar a [vidas v] (-1)
-  tocar sonido (Laser1 v) hasta que termine
-fin
-eliminar este clon
+    move (5) steps
+    if <touching color [#FF0000]?> then
+        change [score v] by (1)
+        play sound (pop v) until done
+    else
+        change [lives v] by (-1)
+        play sound (Laser1 v) until done
+    end
+    delete this clone
 ```
 
 \--- /task \---
@@ -145,7 +145,7 @@ eliminar este clon
 
 Test your game to make sure that:
 
-1. Pierdes una vida si no haces coincidir un punto con el color correcto
-2. Aumentas tus puntos en 1 si lo haces coincidir
+1. You lose a life if you don’t match a dot with the correct colour
+2. You score a point if you match a dot correctly
 
 \--- /task \---
