@@ -10,7 +10,7 @@
 
 \--- no-print \---
 
-Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
+استخدم مفاتيح الأسهم على لوحة المفاتيح لتدوير عجلة التحكم و لإمساك النقاط الملونة الطائرة باتحاه عجلة التحكم. اذا اخطأت في توصيل ثلاث نقاط طائرة إلى اللون المقابل الصحيح، ستنتهي اللعبة.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,7 +21,7 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 \--- print-only \---
 
-![Dots screenshot](images/dots-final.png)
+![لقطة الشاشة للنقاط](images/dots-final.png)
 
 \--- /print-only \---
 
@@ -48,9 +48,9 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 ### للتحميل
 
-+ [Offline Scratch 2 project](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
++ [للبدء بالمشروع دون الاتصال بالانترنت](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
 
-\--- /collapse \---
+\--- collapse \---
 
 ## \--- collapse \---
 
@@ -58,12 +58,12 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print).
+إذا كنت بحاجة إلى طباعة هذا المشروع، فيُرجى استخدام نسخة [سهلة الطباعة.](https://projects.raspberrypi.org/en/projects/catch-the-dots/print).
 
 \--- /no-print \---
 
-You can find [the completed project here](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+يمكنك [الحصول على المشروع كاملاً من هنا](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
 
-You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
+يمكنك الحصول على [المشروع كاملاً من هنا](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
 
 \--- /collapse \---
