@@ -1,12 +1,12 @@
 \--- no-print \---
 
-Aceasta este versiunea **Scratch 3** a proiectului. Există, de asemenea, o versiune de [Scratch 2 a proiectului](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
 
 \--- /no-print \---
 
-## Introducere
+## Introduction
 
-În acest proiect veți învăța cum să creați un joc în care jucătorul trebuie să se potrivească cu puncte colorate cu culoarea corectă a roții de control.
+In this project you'll learn how to create a game in which the player has to match up coloured dots with the correct colour of the controller wheel.
 
 \--- no-print \---
 
@@ -27,26 +27,26 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 ## \--- collapse \---
 
-## titlu: Ce veți învăța
+## title: What you will learn
 
-+ Cum se aleg elemente aleatorii dintr-o listă
-+ Cum se utilizează variabilele pentru a urmări viteza, viața și scorul jucătorului
++ How to choose random items from a list
++ How to use variables to track speed, lives, and the player's score
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## titlu: Ce veți avea nevoie
+## title: What you will need
 
-### Dispozitive
+### Hardware
 
-+ Un computer capabil de a rula Scratch 3
++ A computer capable of running Scratch 3
 
-### Programe
+### Software
 
 + Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### Descărcări
+### Downloads
 
 + [Offline Scratch 2 project](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
 
@@ -54,7 +54,7 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 ## \--- collapse \---
 
-## titlu: note suplimentare pentru educatori
+## title: Additional notes for educators
 
 \--- no-print \---
 
