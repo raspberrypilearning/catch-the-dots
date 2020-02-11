@@ -1,12 +1,12 @@
 \--- no-print \---
 
-이 프로젝트의 **스크래치3**버전입니다. [프로젝트의 스크래치2 버전](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2)도 있습니다.
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
 
 \--- /no-print \---
 
-## 들어가며
+## Introduction
 
-이번 프로젝트에서는 게임을 만드는 법을 배울 것입니다. 이 게임에서 플레이어는 점의 색깔과 조종기의 색깔을 알맞게 짝지어야합니다.
+In this project you'll learn how to create a game in which the player has to match up coloured dots with the correct colour of the controller wheel.
 
 \--- no-print \---
 
@@ -27,26 +27,26 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 ## \--- collapse \---
 
-## title: 다음과 같은 내용을 배우게 됩니다
+## title: What you will learn
 
-+ 목록에서 아이템을 랜덤으로 고르는 방법
-+ 속도, 생명, 그리고 플레이어의 점수를 나타내기 위한 변수 사용법
++ How to choose random items from a list
++ How to use variables to track speed, lives, and the player's score
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: 준비물
+## title: What you will need
 
-### 하드웨어
+### Hardware
 
-+ 스크래치 3을 실행할 수 있는 컴퓨터
++ A computer capable of running Scratch 3
 
-### 소프트웨어
+### Software
 
-+ 스크래치 3 ( [온라인](http://rpf.io/scratchon){:target="_ blank"} 또는 [offline](http://rpf.io/scratchoff){:target="_ blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### 다운로드 목록
+### Downloads
 
 + [Offline Scratch 2 project](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
 
@@ -54,7 +54,7 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 ## \--- collapse \---
 
-## title: 교육자를 위한 참고사항
+## title: Additional notes for educators
 
 \--- no-print \---
 
