@@ -1,30 +1,30 @@
 ## 创建一个控制器
 
-从创建一个控制器开始, 玩家用来收集彩色小点
+首先创建一个控制器，玩家将使用该控制器来收集点。
 
 \--- task \---
 
 Open the 'Catch the dots' Scratch starter project.
 
-**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
+**在线：** 在 [rpf.io/dots-on](http://rpf.io/dots-on){:target =“_ blank”}打开初始项目。
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+如果您有一个Scratch帐户，您可以通过点击**Remix**复制。
 
-**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
+**离线：** 从 [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go) 下载初始项目，然后使用Scratch离线编辑器打开它。
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+如果您需要下载并安装Scratch离线编辑器，可以在[ rpf.io/scratchoff ](http://rpf.io/scratchoff)中获取。
 
 \--- /task \---
 
-You should see a controller sprite:
+你会看到一个控制器精灵:
 
-![screenshot](images/dots-controller.png)
+![截屏](images/dots-controller.png)
 
 \--- task \---
 
 Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
 
-![Controller sprite](images/controller-sprite.png)
+![控制器精灵](images/controller-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -39,7 +39,7 @@ Add some code to the controller sprite to make the sprite turn right if the play
 
 \--- task \---
 
-Test your code. The controller should spin to the right when you press the right arrow key.
+测试你的代码。 当您按向右箭头键时，控制器应向右旋转。
 
 \--- /task \---
 
@@ -47,19 +47,19 @@ Test your code. The controller should spin to the right when you press the right
 
 Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
 
-![Controller sprite](images/controller-sprite.png)
+![控制器精灵](images/controller-sprite.png)
 
 \--- hints \---
 
 \--- hint \---
 
-Find the code that checks whether the right arrow key is pressed and makes the sprite turn right. Can you add a copy of this code, and change the copy so it checks whether the left arrow key is pressed and makes the sprite turn left?
+查看代码, 检查是否有当键盘右键按下使精灵向右转动. 你能加入这段代码的拷贝, 并且修改这个拷贝检查是否键盘左键按下时精灵向左旋转?
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+以下是你需要的代码：
 
 ```blocks3
 <key (space v) pressed?>
@@ -75,7 +75,7 @@ end
 
 \--- hint \---
 
-Here is what your code should look like:
+您的代码看起来应该是这样的：
 
 ```blocks3
     when flag clicked
