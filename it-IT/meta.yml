@@ -1,27 +1,27 @@
 ---
-hero_image: images / banner.png
+hero_image: images/banner.png
 listed: true
 copyedit: false
-title: Acchiappa Puntini
-description: Impara a creare un gioco acchiappa-puntini.
-version: 3
-last_tested: 2017-01-01
+title: Catch the dots
+description: Make a dot-catching game
+version: 4.0.0
+last_tested: 2018-10-16
 steps:
   - 
-    title: Introduzione
+    title: Introduction
   - 
-    title: Creare un controller
+    title: Create a controller
   - 
-    title: 'Sfida: Ruotare a sinistra'
+    title: Gain points or lose lives
   - 
-    title: Raccogli puntini
+    title: More dots
   - 
-    title: 'Sfida: Altri puntini'
+    title: Increase the difficulty
   - 
-    title: 'Aumenta la difficoltà'
+    title: 'Challenge: faster dots'
   - 
-    title: 'Sfida: Puntini che si muovono più velocemente'
+    title: High score
   - 
-    title: 'Punteggio alto'
+    title: 'Challenge: improve your game!'
   - 
-    title: 'Sfida: Migliora il tuo gioco!'
+    title: What next?
