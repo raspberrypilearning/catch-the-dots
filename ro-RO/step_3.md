@@ -1,6 +1,6 @@
-## Obțineți puncte sau pierdeți vieți
+## Gain points or lose lives
 
-Acum veți adăuga câteva puncte pe care trebuie să le colecteze jucătorul.
+Now you're going to add some dots that the player needs to collect.
 
 \--- task \---
 
@@ -17,13 +17,13 @@ Add this script to your 'red' sprite to create a new clone of the sprite every f
 ![Red dot sprite](images/red-sprite.png)
 
 ```blocks3
-    când pavilionul a făcut clic
-    ascunde
-    așteptați (2) secunde
-    pentru totdeauna
-        creați clona de (eu v)
-        așteptați (alegeți aleatoriu (5) la (10)) secunde
-    sfârșit
+    when flag clicked
+    hide
+    wait (2) seconds
+    forever
+        create clone of (myself v)
+        wait (pick random (5) to (10)) secs
+    end
 ```
 
 \--- /task \---
@@ -59,13 +59,13 @@ Add this code to the 'dot' sprite to make each new sprite clone appear in a rand
 ![Red dot sprite](images/red-sprite.png)
 
 ```blocks3
-    atunci când pornesc ca o clonă
-    mergeți la x: (element (alegeți aleatoriu (1) până la (2)) din [pozițiile de început v]) y: v])
-    punct către (controler v)
-    arată
-    repetări până la <touching (controller v)?>
-        deplasare (1) pași
-    capăt
+    when I start as a clone
+    go to x: (item (pick random (1) to (2)) of [start positions v]) y: (item (pick random (1) to (2)) of [start positions v])
+    point towards (controller v)
+    show
+    repeat until <touching (controller v)?>
+        move (1) steps
+    end
 ```
 
 \--- /task \---
@@ -93,9 +93,9 @@ Create two new variables called `lives`{:class="block3variables"} and `score`{:c
 Add code to your Stage to set the `lives`{:class="block3variables"} variable to `3` and the `score`{:class="block3variables"} to `0` at the start of the game. ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-când pavilionul a dat clic pe
-set [trăiește v] la (3)
-set [scor v] la (0)
+when flag clicked
+set [lives v] to (3)
+set [score v] to (0)
 ```
 
 \--- /task \---
@@ -107,8 +107,8 @@ Add this code to the end of the Stage's script to make the game end when the pla
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    așteptați până la <(vieți :: variabile) < [1]>
-    stop [toate v]
+    wait until <(lives :: variables) < [1]>
+    stop [all v]
 ```
 
 \--- /task \---
@@ -128,15 +128,15 @@ Then add code to either add `1` to `score`{:class="block3variables"} if the colo
 ![Red dot sprite](images/red-sprite.png)
 
 ```blocks3
-    mutare (5) Etapele
-    dacă <touching color [#FF0000]?> apoi
-        schimbare [scor v] de (1)
-        sunet redare (pop v) până la făcut
-    altceva
-        schimbare [trăiește v] de (-1)
-        sunet redare (Laser1 v) până la făcut
-    sfârșitul
-    ștergeți această clonă
+    move (5) steps
+    if <touching color [#FF0000]?> then
+        change [score v] by (1)
+        play sound (pop v) until done
+    else
+        change [lives v] by (-1)
+        play sound (Laser1 v) until done
+    end
+    delete this clone
 ```
 
 \--- /task \---
