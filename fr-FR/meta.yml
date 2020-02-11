@@ -4,24 +4,24 @@ listed: true
 copyedit: false
 title: Attrapes les points
 description: Apprends à programmer un jeu où il faut attraper des points.
-version: 3
-last_tested: 16.10.2018
+version: 4.0.0
+last_tested: 2018-10-16
 steps:
   - 
     title: Introduction
   - 
     title: Création d'un contrôleur
   - 
-    title: 'Défi : Tourner à gauche'
+    title: Gagner des points ou perdre des vies
   - 
-    title: Rassemblement de points
+    title: Plus de points
   - 
-    title: 'Défi : Plus de points'
+    title: Augmenter la difficulté
   - 
-    title: 'Augmentation de la difficulté'
+    title: 'Défi: points plus rapides'
   - 
-    title: 'Défi : Créer d''autres blocs'
+    title: Meilleur score
   - 
-    title: 'Défi : Améliorez votre jeu!'
+    title: 'Défi : Améliore ton jeu !'
   - 
-    title: Que faire ensuite?
+    title: Et ensuite ?
