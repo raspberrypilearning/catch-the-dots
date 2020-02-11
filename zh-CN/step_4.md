@@ -4,7 +4,7 @@
 
 Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
 
-![screenshot](images/dots-more-dots.png)
+![截图](images/dots-more-dots.png)
 
 \--- /task \---
 
@@ -18,7 +18,7 @@ Change the costume of each new sprite so it is the correct colour: the 'yellow' 
 
 Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
 
-![screenshot](images/dots-all-test.png)
+![截屏](images/dots-all-test.png)
 
 \--- hints \---
 
@@ -26,7 +26,7 @@ Change the code of each sprite so that the player has to match dot clone to the 
 
 This is the code you need to find and alter for both new sprites:
 
-![screenshot](images/dots-more-dots.png)
+![截屏](images/dots-more-dots.png)
 
 ```blocks3
     if <touching color [#FF0000]?> then
@@ -49,7 +49,7 @@ This is how you need to change the code for the yellow sprite:
     end
 ```
 
-This is how you need to change the code for the blue sprite:
+这是你需要为蓝色精灵修改的代码:
 
 ```blocks3
     if <touching color [#0000FF]? :: +> then
@@ -64,13 +64,13 @@ This is how you need to change the code for the blue sprite:
 
 \--- /task \---
 
-If you play the game now, you can see that the dots sometimes get created one top of each other.
+如果你现在玩游戏, 你可以看到小点有时会创建在其他小点身上, 同时创建多个小点.
 
 \--- task \---
 
 Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
 
-![Yellow dot](images/yellow-sprite.png)
+![黄点](images/yellow-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -78,8 +78,8 @@ Change the code for the 'yellow' dot sprite so that it waits four seconds after 
 +   wait (4) seconds
 ```
 
-![Blue dot](images/blue-sprite.png)
+![蓝点](images/blue-sprite.png)
 
-Then change the code for the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
+然后修改'blue'小点精灵的代码以便在点击绿色旗帜后等待6秒才出现.
 
 \--- /task \---
