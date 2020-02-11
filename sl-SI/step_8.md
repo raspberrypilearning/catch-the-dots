@@ -1,9 +1,9 @@
-## Izziv: izboljšaj igro
+## Challenge: improve your game
 
-Se spomniš kakšnih idej, ki bi tvojo igro izboljšale? Lahko bi na primer ustvaril posebne pike, ki bi:
+Can you think of ways to improve your game? For example, you could create special dots that:
 
-+ Podvojile število točk
-+ Upočasnile vse pike
-+ Skrile vse druge pike na zaslonu
++ Double your score
++ Slow down the dots
++ Hide all the other dots on the screen
 
-Ali lahko svoji igri dodaš meni z gumbi? Lahko bi dodal zaslon z navodili ali ločen zaslon, ki bi prikazoval najboljši rezultat.
+Can you add a menu with buttons to your game? You could add an screen with instructions or a separate screen for showing the high score.
