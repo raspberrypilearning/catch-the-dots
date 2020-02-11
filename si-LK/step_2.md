@@ -1,6 +1,6 @@
-## පාලකයක් සෑකසීම
+## Create a controller
 
-තිත් එකතු කිරීමට ක්‍රීඩකයා භාවිතා කරන පාලකයක් නිර්මාණය කිරීමෙන් ආරම්භ කරන්න
+Start by creating a controller that the player will use to collect dots.
 
 \--- task \---
 
