@@ -1,9 +1,9 @@
-## Défi : Améliorez votre jeu
+## Défi : Améliore ton jeu
 
-Pouvez-vous penser à des façons d'améliorer votre jeu? Par exemple, vous pouvez créer des points spéciaux qui:
+Peux-tu penser à des façons d'améliorer ton jeu ? Par exemple, tu peux créer des points spéciaux qui :
 
-+ Double ton score
-+ Ralentissez les points
-+ Cacher tous les autres points à l'écran
++ Doublent ton score
++ Ralentissent les points
++ Cachent tous les autres points sur l'écran
 
-Pouvez-vous ajouter un menu avec des boutons à votre jeu? Vous pouvez ajouter un écran avec des instructions ou un écran séparé pour afficher le meilleur score.
+Peux-tu ajouter un menu avec des boutons à ton jeu ? Tu peux ajouter un écran avec des instructions ou un écran séparé pour afficher le meilleur score.
