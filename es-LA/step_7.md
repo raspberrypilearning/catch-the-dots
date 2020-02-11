@@ -18,7 +18,7 @@ Select the Stage. Click on 'My blocks' and create a new custom block called `che
 
 ![screenshot](images/dots-custom-1.png)
 
-\--- función \---
+\--- /task \---
 
 \--- task \---
 
