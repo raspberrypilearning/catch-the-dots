@@ -1,151 +1,151 @@
-## Gain points or lose lives
+## 得分或失血
 
-Now you're going to add some dots that the player needs to collect.
+現在你將加入玩家要收集的小點點。
 
 \--- task \---
 
-Create a new sprite called 'red'. This sprite should be a small red dot.
+創建一個名為「紅點」的角色。 角色的造型就是一個紅色的小點點。
 
-![Red dot sprite](images/dots-red.png)
+![紅點角色](images/dots-red.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add this script to your 'red' sprite to create a new clone of the sprite every few seconds:
+在紅點上寫個程式，讓它每隔幾秒就建立分身：
 
-![Red dot sprite](images/red-sprite.png)
+![紅點角色](images/red-sprite.png)
 
 ```blocks3
-    when flag clicked
-    hide
-    wait (2) seconds
-    forever
-        create clone of (myself v)
-        wait (pick random (5) to (10)) secs
+    當 @greenflag 被點擊
+    隱藏
+    等待 (2) 秒
+    重複無限次
+        建立 (自己 v) 的分身
+        等待 (隨機取數 (5) 到 (10)) 秒
     end
 ```
 
 \--- /task \---
 
-If you click the green flag now, it looks like nothing is happening. This is because all of the cloned sprites are hidden, and they appear in the same place.
+如果你現在點擊綠旗，會發現沒有任何反應。 這是因為角色和分身在同一個位置顯示，所以你看不出來有分身。
 
-You are going to add code to make each new clone appear in one of the four corners of the Stage.
+所以接著我們要添加程式，讓每個新的分身產生時，分佈在場景四個角落中的其中一個。
 
-![screenshot](images/dots-start.png)
+![截圖](images/dots-start.png)
 
 \--- task \---
 
-Create a new list called `start positions`{:class="block3variables"}, click the list's `(+)` icon to add the values `-180`{:class="block3variables"} and `180`{:class="block3variables"}.
+建立一個新的清單，名稱為`初始位置`{:class="block3variables"}，點擊舞台上清單視窗的加號 `(+)` 圖示，添加 `-180`{:class="block3variables"} 和 `180`{:class="block3variables"} 兩個項目。
 
-![Red dot sprite](images/red-sprite.png)
+![紅點角色](images/red-sprite.png)
 
-![List of 180 and -180](images/dots-list.png)
+![帶 180 和 -180 的清單](images/dots-list.png)
 
 [[[generic-scratch3-make-list]]]
 
-Then you can hide the list by unselecting this box:
+接著，你可以取消勾選這個清單，讓它隱藏起來，不要顯示在舞台：
 
-![Hide the list](images/hide-list.png)
+![隱藏清單](images/hide-list.png)
 
 \--- /task \---
 
-Notice that the coordinate for each corner of the Stage is a combination of `180` and `-180`. This means you can use the list to pick a corner of the Stage at random.
+注意遊戲場景的角落座標是由 `180` 和 `-180` 兩個數值的組合（儘管舞台最寬是 480 而不是 360 點）。 這樣一來，你所定位的位置就可以隨機使用清單的兩個項目。
 
 \--- task \---
 
-Add this code to the 'dot' sprite to make each new sprite clone appear in a random corner and then slowly move towards the controller sprite.
+把這個程式添加到紅點上，讓新的分身隨機的出現在某一角，然後朝著控制器慢慢移動。
 
-![Red dot sprite](images/red-sprite.png)
+![紅點角色](images/red-sprite.png)
 
 ```blocks3
-    when I start as a clone
-    go to x: (item (pick random (1) to (2)) of [start positions v]) y: (item (pick random (1) to (2)) of [start positions v])
-    point towards (controller v)
-    show
-    repeat until <touching (controller v)?>
-        move (1) steps
+    當分身產生
+    定位到 x:((初始位置 v)的第(隨機取數 (1) 到 (2))項) y:((初始位置 v)的第(隨機取數 (1) 到 (2))項)
+    面朝 (控制器v) 向
+    顯示
+    重複直到 <碰到 (控制器 v)？>
+        移動 (1) 點
     end
 ```
 
 \--- /task \---
 
-This new code chooses either `-180` or `180` for the x and y positions, meaning that each 'dot' sprite clone starts in a corner of the Stage.
+這個程式會選擇用 `-180` 或 `180` 來作為 x 和 y 的座標值，這樣一來，紅點分身的初始位置就會是場景的某個角落。
 
 \--- task \---
 
-Test your project. You should see red dots appear in the corners of the Stage and move slowly towards the controller.
+測試你的專案。 你應該會看到紅點在場景某一角開始向控制器前進。
 
-![screenshot](images/dots-red-test.png)
+![截圖](images/dots-red-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-Create two new variables called `lives`{:class="block3variables"} and `score`{:class="block3variables"}.
+建立兩個變數，分別叫`血量`{:class="block3variables"} and `分數`{:class="block3variables"}。
 
-![Red dot sprite](images/red-sprite.png)
+![紅點角色](images/red-sprite.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your Stage to set the `lives`{:class="block3variables"} variable to `3` and the `score`{:class="block3variables"} to `0` at the start of the game. ![Stage sprite](images/stage-sprite.png)
+在舞台撰寫程式，設定`血量`{:class="block3variables"}在遊戲一開始為 `3`，再設定`分數`{:class="block3variables"}一開始為 `0`。 ![舞台角色](images/stage-sprite.png)
 
 ```blocks3
-when flag clicked
-set [lives v] to (3)
-set [score v] to (0)
+當 @greenflag 被點擊
+變數 [血量 v] 設為 (3)
+變數 [分數 v] 設為 (3)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add this code to the end of the Stage's script to make the game end when the player loses the last of the lives:
+添加程式到舞台，在玩家失血過多時結束遊戲。
 
-![Stage sprite](images/stage-sprite.png)
+![舞台角色](images/stage-sprite.png)
 
 ```blocks3
-    wait until <(lives :: variables) < [1]>
-    stop [all v]
+    等待直到 <(血量 :: variables ) < (1)>
+    停止 [全部 v]
 ```
 
 \--- /task \---
 
-The player should win points for catching dots, and should lose lives for failing to catch dots. A dot can only be caught by matching the colour of the controller to the colour of the dot.
+玩家應該要在抓到點點時得分，沒抓到的話就會被點點撞到而失血。 而只有在控制器上的色塊碰到相同顏色的點點時，才算抓到點點。
 
 \--- task \---
 
-Go back to the 'red' dot sprite's Scripts area to add some code blocks to the end of the sprite's `when I start as a clone`{:class="block3control"} script.
+切換到紅點的程式頁籤，在`當分身產生`{:class="block3control"}的程式後面再添加一些程式。
 
-First, make the dot clone `move 5 steps`{:class="block3motion"} so that it overlaps the controller.
+首先，要讓點點碰到控制器後再`移動 5 點`{:class="block3motion"}，這樣子點點才能與控制器上的色塊重疊。
 
-Then add code to either add `1` to `score`{:class="block3variables"} if the colour of the dot clone matches the colour of the controller when they touch, or to take `1` away from `lives`{:class="block3variables"} if their colours don't match.
+接著，如果點點分身與控制器色塊的顏色一樣，就加 `1` 分的`分數`{:class="block3variables"}；如果顏色不一樣，就減 `1` 滴的`血量`{:class="block3variables"}。
 
 [[[generic-scratch3-sound-from-library]]]
 
-![Red dot sprite](images/red-sprite.png)
+![紅點角色](images/red-sprite.png)
 
 ```blocks3
-    move (5) steps
-    if <touching color [#FF0000]?> then
-        change [score v] by (1)
-        play sound (pop v) until done
-    else
-        change [lives v] by (-1)
-        play sound (Laser1 v) until done
+    移動 (5) 點
+    如果 <碰到顏色 (#ff0000)？> 那麼
+        變數 [分數 v] 改變 (1)
+        播放音效 (pop v) 直到結束
+    否則
+        變數 [血量 v] 改變 (-1)
+        播放音效 (Laser1 v) 直到結束
     end
-    delete this clone
+    分身刪除
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game to make sure that:
+測試你的遊戲，檢查：
 
-1. You lose a life if you don’t match a dot with the correct colour
-2. You score a point if you match a dot correctly
+1. 沒抓到點點時（也就是顏色不一樣）會不會失血。
+2. 當抓到點點時（也就是顏色一樣時）會不會得分。
 
 \--- /task \---
