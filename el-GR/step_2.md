@@ -1,6 +1,6 @@
-## Δημιούργησε ένα χειριστήριο
+## Create a controller
 
-Ξεκίνα δημιουργώντας ένα χειριστήριο που θα χρησιμοποιεί ο παίκτης για να συλλέγει τελείες.
+Start by creating a controller that the player will use to collect dots.
 
 \--- task \---
 
@@ -27,12 +27,12 @@ Add some code to the controller sprite to make the sprite turn right if the play
 ![Controller sprite](images/controller-sprite.png)
 
 ```blocks3
-    Όταν στην πράσινη σημαία γίνει κλικ
-για πάντα 
-  εάν <key (right arrow v) pressed?> τότε 
-    στρίψε δεξιόστροφα (3) μοίρες
-  end
-end
+    when flag clicked
+    forever
+        if <key (right arrow v) pressed?> then
+            turn right (3) degrees
+        end
+    end
 ```
 
 \--- /task \---
@@ -64,11 +64,11 @@ Here are the blocks you need:
 ```blocks3
 <key (space v) pressed?>
 
-στρίψε αριστερόστροφα (15) μοίρες
+turn left(15) degrees
 
-εάν <> τότε
+if <> then
 
-τέλος
+end
 ```
 
 \--- /hint \---
@@ -78,16 +78,16 @@ Here are the blocks you need:
 Here is what your code should look like:
 
 ```blocks3
-    Όταν στην πράσινη σημαία γίνει κλικ
-για πάντα 
-  εάν <key (right arrow v) pressed?> τότε 
-    στρίψε δεξιόστροφα (3) μοίρες
-  end
+    when flag clicked
+    forever
+        if <key (right arrow v) pressed?> then
+            turn right (3) degrees
+        end
 
-+      εάν <key (left arrow v) pressed?> τότε 
-  στρίψε αριστερόστροφα (3) μοίρες
-end
-end
++       if <key (left arrow v) pressed?> then
+            turn left(3) degrees
+        end
+    end
 ```
 
 \--- /hint \---
