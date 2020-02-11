@@ -1,6 +1,6 @@
 ## 增加难度
 
-现在你要使这个游戏在玩家长时间玩后有更高的难度. 你可以使小点每次出现越来越快.
+现在，随着玩家玩的时间越长，您将使游戏变得更加困难。 你可以使小点每次出现越来越快.
 
 \--- task \---
 
@@ -27,15 +27,15 @@ Go to the Stage's Scripts area and create a new script that sets the `delay`{:cl
 
 \--- /task \---
 
-Notice that this code is very similar to the code you would use to create a countdown timer!
+请注意，此代码与创建倒数计时器所使用的代码非常相似！
 
-Next, use the `delay`{:class="block3variables"} variable in the code scripts of the 'red', 'yellow', and 'blue' sprites.
+接下来, 在红色,黄色,蓝色精灵代码中使用 `delay`{:class="block3variables"} 变量.
 
 \--- task \---
 
-Remove the code block that makes the game wait a random number of seconds between making the dot sprite clones. Replace the block you've removed with your new `delay`{:class="block3variables"} variable:
+Remove the code block that makes the game wait a random number of seconds between making the dot sprite clones. 用新的带有 `delay`{:class="block3variables"} 变量的代码块替换刚删除的代码部分:
 
-![screenshot](images/all-dots.png)
+![截屏](images/all-dots.png)
 
 ```blocks3
 <br />-   wait (pick random (5) to (10)) secs
@@ -50,7 +50,7 @@ Do this for all three dot sprites.
 
 Test the game, and check whether the dots begin to appear more quickly as the game goes on.
 
-+ 对三种颜色的小点工作都正常吗?
++ Does this work for all three coloured dots?
 + Can you see that the value of the `delay`{:class="block3variables"} variable decreases?
 
 \--- /task \---
