@@ -2,26 +2,26 @@
 hero_image: images/banner.png
 listed: true
 copyedit: false
-title: Catch the dots
-description: Make a dot-catching game
+title: 抓住點點
+description: 做個將不同顏色的點點與控制輪的顏色進行匹配的遊戲。
 version: 4.0.0
 last_tested: 2018-10-16
 steps:
   - 
-    title: Introduction
+    title: 介紹
   - 
-    title: Create a controller
+    title: 做個控制器
   - 
-    title: Gain points or lose lives
+    title: 得分或失血
   - 
-    title: More dots
+    title: 更多點點
   - 
-    title: Increase the difficulty
+    title: 增加難度
   - 
-    title: 'Challenge: faster dots'
+    title: '挑戰：點點衝啊'
   - 
-    title: High score
+    title: 最高分紀錄
   - 
-    title: 'Challenge: improve your game!'
+    title: '挑戰：遊戲改良！'
   - 
-    title: What next?
+    title: 然後呢？
