@@ -1,6 +1,6 @@
-## Κέρδισε πόντους ή χάσε ζωές
+## Gain points or lose lives
 
-Τώρα θα προσθέσεις μερικές τελείες τις οποίες πρέπει να συλλέγει ο παίκτης.
+Now you're going to add some dots that the player needs to collect.
 
 \--- task \---
 
@@ -17,13 +17,13 @@ Add this script to your 'red' sprite to create a new clone of the sprite every f
 ![Red dot sprite](images/red-sprite.png)
 
 ```blocks3
-    Όταν στην πράσινη σημαία γίνει κλικ
-εξαφανίσου
-περίμενε (2) δευτερόλεπτα
-για πάντα 
-  δημιούργησε κλώνο του (myself v)
-  περίμενε (επίλεξε τυχαίο (5) εώς (10)) δευτερόλεπτα
-end
+    when flag clicked
+    hide
+    wait (2) seconds
+    forever
+        create clone of (myself v)
+        wait (pick random (5) to (10)) secs
+    end
 ```
 
 \--- /task \---
@@ -59,13 +59,13 @@ Add this code to the 'dot' sprite to make each new sprite clone appear in a rand
 ![Red dot sprite](images/red-sprite.png)
 
 ```blocks3
-    όταν ξεκινήσω ως κλώνος
-πήγαινε σε θέση x: (στοιχείο (επίλεξε τυχαίο (1) εώς (2)) λίστας [start positions v]) y: (στοιχείο (επίλεξε τυχαίο (1) εώς (2)) λίστας [start positions v])
-δείξε προς (controller v)
-εμφανίσου
-επανάλαβε ώσπου <touching (controller v)?> 
-  κινήσου (1) βήματα
-end
+    when I start as a clone
+    go to x: (item (pick random (1) to (2)) of [start positions v]) y: (item (pick random (1) to (2)) of [start positions v])
+    point towards (controller v)
+    show
+    repeat until <touching (controller v)?>
+        move (1) steps
+    end
 ```
 
 \--- /task \---
@@ -93,9 +93,9 @@ Create two new variables called `lives`{:class="block3variables"} and `score`{:c
 Add code to your Stage to set the `lives`{:class="block3variables"} variable to `3` and the `score`{:class="block3variables"} to `0` at the start of the game. ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-Όταν στην πράσινη σημαία γίνει κλικ
-όρισε [lives v] σε (3)
-όρισε [score v] σε (0)
+when flag clicked
+set [lives v] to (3)
+set [score v] to (0)
 ```
 
 \--- /task \---
@@ -107,8 +107,8 @@ Add this code to the end of the Stage's script to make the game end when the pla
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    περίμενε ώσπου <(lives :: variables) < [1]>
-σταμάτησε [all v]
+    wait until <(lives :: variables) < [1]>
+    stop [all v]
 ```
 
 \--- /task \---
@@ -128,15 +128,15 @@ Then add code to either add `1` to `score`{:class="block3variables"} if the colo
 ![Red dot sprite](images/red-sprite.png)
 
 ```blocks3
-    κινήσου (5) βήματα
-εάν <touching color [#FF0000]?> τότε 
-  άλλαξε [score v] κατά (1)
-  παίξε ήχο (pop v) μέχρι τέλους
-αλλιώς 
-  άλλαξε [lives v] κατά (-1)
-  παίξε ήχο (Laser1 v) μέχρι τέλους
-end
-διάγραψε αυτόν τον κλώνο
+    move (5) steps
+    if <touching color [#FF0000]?> then
+        change [score v] by (1)
+        play sound (pop v) until done
+    else
+        change [lives v] by (-1)
+        play sound (Laser1 v) until done
+    end
+    delete this clone
 ```
 
 \--- /task \---
@@ -145,7 +145,7 @@ end
 
 Test your game to make sure that:
 
-1. Χάνεις μια ζωή όταν δεν ταιριάζεις μια τελεία με το σωστό χρώμα
-2. Κερδίζεις ένα πόντο όταν ταιριάξεις μια τελεία σωστά
+1. You lose a life if you don’t match a dot with the correct colour
+2. You score a point if you match a dot correctly
 
 \--- /task \---
