@@ -1,4 +1,4 @@
-## Sakupljanje tačaka
+## More dots
 
 \--- task \---
 
