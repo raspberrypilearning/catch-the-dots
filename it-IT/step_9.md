@@ -1,6 +1,6 @@
-## Cosa succederà?
+## What next?
 
-Try the [Clone wars](https://projects.raspberrypi.org/en/projects/clone-wars?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project to make a game in which you have to save the Earth from space monsters. In quel progetto, sarai in grado di usare ciò che hai imparato sulla clonazione degli sprite e l'aggiunta di un punteggio!
+Try the [Clone wars](https://projects.raspberrypi.org/en/projects/clone-wars?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project to make a game in which you have to save the Earth from space monsters. In that project, you will be able to use what you have learned about cloning sprites and adding a score!
 
 \--- no-print \---
 
