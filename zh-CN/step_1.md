@@ -1,16 +1,16 @@
 \--- no-print \---
 
-这是项目的**Scratch 3** 版本。 该项目还有一个[ Scratch 2版本](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2) 。
+这是**Scratch 3** 版本。 该项目还有一个[ Scratch 2版本](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2) 。
 
 \--- /no-print \---
 
 ## 介绍
 
-在这个项目中, 你会学习如何创建一个游戏, 玩家使用控制轮捕捉相应颜色的彩色的小点
+在这个项目中，您将学习如何创建游戏，其中玩家必须将彩色点与控制轮的正确颜色进行匹配。
 
 \--- no-print \---
 
-Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
+Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. 如果错过三个点，则游戏结束。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,13 +21,13 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 \--- print-only \---
 
-![Dots screenshot](images/dots-final.png)
+![点截图](images/dots-final.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: 你将学到什么
+## 标题：您将学到什么
 
 + 如何从列表中选择随机项
 + 如何使用变量跟踪速度, 生命值和玩家分数
@@ -44,7 +44,7 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 ### 软件
 
-+ Scratch 3 ([在线版本](http://rpf.io/scratchon){:target="_blank"}或[离线版本](http://rpf.io/scratchoff){:target="_blank"}）
++ Scratch 3 ([在线版本](http://rpf.io/scratchon){:target="_blank"} 或 [离线版本](http://rpf.io/scratchoff){:target="_blank"}）
 
 ### 下载
 
@@ -54,16 +54,16 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 ## \--- collapse \---
 
-## 标题: 教师附加说明
+## 标题: 给教师的附加说明
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print).
+如果您需要打印本项目文件，请使用[合适的打印版本](https://projects.raspberrypi.org/en/projects/catch-the-dots/print)
 
 \--- /no-print \---
 
-You can find [the completed project here](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+你可以在这里找到 [完成的项目](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}。
 
-You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
+你可以在这里找到[完整的项目](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
 
 \--- /collapse \---
