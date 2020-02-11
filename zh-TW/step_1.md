@@ -1,16 +1,16 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
+這個專案是 **Scratch 3** 版本。 另外還有 [Scratch 2](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2) 版本。
 
 \--- /no-print \---
 
-## Introduction
+## 介紹
 
-In this project you'll learn how to create a game in which the player has to match up coloured dots with the correct colour of the controller wheel.
+在這個專案中，你將學習創建一個遊戲，玩家必須將不同顏色的點點與控制輪的顏色進行匹配。
 
 \--- no-print \---
 
-Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
+使用鍵盤的方向鍵旋轉控制輪，並在飛入的點點到達前用一樣的顏色接住它們， 如果失誤三次，遊戲就結束。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,49 +21,49 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 \--- print-only \---
 
-![Dots screenshot](images/dots-final.png)
+![抓住點點的遊戲截圖](images/dots-final.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: 你會學到
 
-+ How to choose random items from a list
-+ How to use variables to track speed, lives, and the player's score
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will need
-
-### Hardware
-
-+ A computer capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
-
-### Downloads
-
-+ [Offline Scratch 2 project](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
++ 如何從清單中選擇隨機項目
++ 如何使用變數來記錄速度、生命和玩家得分
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: 你會用到
+
+### 硬體
+
++ 可運行 Scratch 3 的電腦
+
+### 軟體
+
++ Scratch 3（[線上版](http://rpf.io/scratchon){:target="_blank"} 或 [離線版](http://rpf.io/scratchoff){:target="_blank"}）
+
+### 下載
+
++ 材料包可[由此下載](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: 給教師的其它資訊
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print).
+如果你需要列印這個專案，可以先切換成[列印友好模式](https://projects.raspberrypi.org/en/projects/catch-the-dots/print)。
 
 \--- /no-print \---
 
-You can find [the completed project here](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+你可以在這裡找到[已經完成的專案](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}。
 
-You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
+你可以在這裡找到[已經完成的專案](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}。
 
 \--- /collapse \---
