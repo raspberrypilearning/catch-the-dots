@@ -6,11 +6,11 @@ Ceci est la version **Scratch 3** du projet. Il existe également une version [S
 
 ## Introduction
 
-Dans ce projet, vous apprendrez à créer un jeu dans lequel le joueur doit faire correspondre des points de couleur avec la couleur correcte de la molette du contrôleur.
+Dans ce projet, tu apprendras à créer un jeu dans lequel le joueur doit faire correspondre des points de couleur avec la couleur exacte de la molette du contrôleur.
 
 \--- no-print \---
 
-Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
+Utilise les touches fléchées de ton clavier pour faire pivoter la roue du contrôleur et attraper les points volants lorsqu'ils atteignent le centre. Si tu rates trois points, le jeu est terminé.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,7 +21,7 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 \--- print-only \---
 
-![Dots screenshot](images/dots-final.png)
+![Capture d'écran des points](images/dots-final.png)
 
 \--- /print-only \---
 
@@ -36,7 +36,7 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 ## \--- collapse \---
 
-## title: Ce qu'il te faut
+## title: Ce que tu auras besoin
 
 ### Matériel informatique
 
@@ -48,7 +48,7 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 ### Téléchargements
 
-+ [Offline Scratch 2 project](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
++ [Projet Scratch 2 hors ligne](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
 
 \--- /collapse \---
 
@@ -58,12 +58,12 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print).
+Si vous avez besoin d'imprimer ce projet, merci d'utiliser la [Version imprimable](https://projects.raspberrypi.org/en/projects/catch-the-dots/print).
 
 \--- /no-print \---
 
-You can find [the completed project here](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+Vous pouvez trouver le [projet terminé ici](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
 
-You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
+Vous pouvez trouver le [projet terminé ici](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
 
 \--- /collapse \---
