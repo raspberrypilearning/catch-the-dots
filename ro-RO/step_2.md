@@ -1,6 +1,6 @@
-## Creați un controler
+## Create a controller
 
-Începeți prin crearea unui controler pe care playerul îl va folosi pentru a colecta puncte.
+Start by creating a controller that the player will use to collect dots.
 
 \--- task \---
 
@@ -64,11 +64,11 @@ Here are the blocks you need:
 ```blocks3
 <key (space v) pressed?>
 
-viraj la stânga (15) grade
+turn left(15) degrees
 
-dacă <> apoi
+if <> then
 
-sfârșit
+end
 ```
 
 \--- /hint \---
@@ -78,16 +78,16 @@ sfârșit
 Here is what your code should look like:
 
 ```blocks3
-    când steagul a dat clic
-    pentru totdeauna
-        dacă <key (right arrow v) pressed?> apoi
-            virați dreapta (3) grade
-        sfârșitul
+    when flag clicked
+    forever
+        if <key (right arrow v) pressed?> then
+            turn right (3) degrees
+        end
 
-+ dacă <key (left arrow v) pressed?> apoi
-            virați la stânga (3) grade
-        sfârșitul
-    sfârșitul
++       if <key (left arrow v) pressed?> then
+            turn left(3) degrees
+        end
+    end
 ```
 
 \--- /hint \---
