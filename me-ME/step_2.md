@@ -1,4 +1,4 @@
-## Izrada kontrolera
+## Create a controller
 
 Start by creating a controller that the player will use to collect dots.
 
