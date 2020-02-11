@@ -1,6 +1,6 @@
-## 점수를 얻거나 생명을 잃거나
+## Gain points or lose lives
 
-이제 여러분은 플레이어가 모아야 하는 여러 개의 도트를 추가할 것입니다.
+Now you're going to add some dots that the player needs to collect.
 
 \--- task \---
 
@@ -17,13 +17,13 @@ Add this script to your 'red' sprite to create a new clone of the sprite every f
 ![Red dot sprite](images/red-sprite.png)
 
 ```blocks3
-    ⚑ 클릭했을 때
-숨기기
-(2) 초 기다리기
-무한 반복하기 
-  (myself v) 복제하기
-  ((5) 부터 (10) 사이의 난수) 초 기다리기
-end
+    when flag clicked
+    hide
+    wait (2) seconds
+    forever
+        create clone of (myself v)
+        wait (pick random (5) to (10)) secs
+    end
 ```
 
 \--- /task \---
