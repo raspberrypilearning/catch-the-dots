@@ -1,37 +1,37 @@
-## More dots
+## 更多點點
 
 \--- task \---
 
-Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
+複製你的「紅點」角色兩次，並將兩個新的角色分別命名為「黃點」和「藍點」。
 
-![screenshot](images/dots-more-dots.png)
+![截圖](images/dots-more-dots.png)
 
 \--- /task \---
 
 \--- task \---
 
-Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue.
+修改每個角色的造型，黃點的造型應該是黃色的，而藍點角色則是藍色造型。
 
 \--- /task \---
 
 \--- task \---
 
-Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
+修改每個角色的程式，點點的顏色應該要與碰到的控制器色塊一樣才能得分。
 
-![screenshot](images/dots-all-test.png)
+![截圖](images/dots-all-test.png)
 
 \--- hints \---
 
 \--- hint \---
 
-This is the code you need to find and alter for both new sprites:
+下面是你要找到並替換的兩個角色的程式：
 
-![screenshot](images/dots-more-dots.png)
+![截圖](images/dots-more-dots.png)
 
 ```blocks3
-    if <touching color [#FF0000]?> then
-        change [score v] by (1)
-        play sound (pop v)
+    如果 <碰到顏色 (#ff0000)？> 那麼
+        變數 [分數 v] 改變 (1)
+        播放音效 (sound v) 直到結束
         ...
     end
 ```
@@ -40,21 +40,21 @@ This is the code you need to find and alter for both new sprites:
 
 \--- hint \---
 
-This is how you need to change the code for the yellow sprite:
+這是黃點角色程式要修改的程式：
 
 ```blocks3
-    if <touching color [#FFFF00]? :: +> then
-        change [score v] by (1)
-        play sound (pop v)
+    如果 <碰到顏色 (#ffff00)？ > 那麼
+        變數 [分數 v] 改變 (1)
+        播放音效 (pop v) 直到結束
     end
 ```
 
-This is how you need to change the code for the blue sprite:
+這是藍點角色的程式修改後的樣子：
 
 ```blocks3
-    if <touching color [#0000FF]? :: +> then
-        change [score v] by (1)
-        play sound (pop v)
+    如果 <碰到顏色 (#0000ff)？ > 那麼
+        變數 [分數 v] 改變 (1)
+        播放音效 (pop v) 直到結束
     end
 ```
 
@@ -64,22 +64,22 @@ This is how you need to change the code for the blue sprite:
 
 \--- /task \---
 
-If you play the game now, you can see that the dots sometimes get created one top of each other.
+如果你現在試玩遊戲，應該會發現，有時不同色的點點會同時出現在一樣的角落。
 
 \--- task \---
 
-Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
+修改黃點，讓它在綠旗點擊時等待 4 秒再出現。
 
-![Yellow dot](images/yellow-sprite.png)
+![黃點](images/yellow-sprite.png)
 
 ```blocks3
-    when flag clicked
-    hide
-+   wait (4) seconds
+    當 @greenflag 被點擊
+    隱藏
++   等待 (4) 秒
 ```
 
-![Blue dot](images/blue-sprite.png)
+![藍點](images/blue-sprite.png)
 
-Then change the code for the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
+接著再修改藍點，讓它在遊戲開始後等待 6 秒再開始運行。
 
 \--- /task \---
