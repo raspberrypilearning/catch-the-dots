@@ -27,12 +27,12 @@ Add some code to the controller sprite to make the sprite turn right if the play
 ![Controller sprite](images/controller-sprite.png)
 
 ```blocks3
-    коли натиснуто ⚑
-завжди 
-  якщо <key (right arrow v) pressed?> то 
-    змінити x на (-3)
-  end
-end
+    when flag clicked
+    forever
+        if <key (right arrow v) pressed?> then
+            turn right (3) degrees
+        end
+    end
 ```
 
 \--- /task \---
