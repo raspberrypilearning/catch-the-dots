@@ -1,6 +1,6 @@
-## Ustvari krmilnik
+## Create a controller
 
-Začni z ustvarjanjem krmila, ki ga bo igralev uporabljal za zbiranje pik.
+Start by creating a controller that the player will use to collect dots.
 
 \--- task \---
 
@@ -27,12 +27,12 @@ Add some code to the controller sprite to make the sprite turn right if the play
 ![Controller sprite](images/controller-sprite.png)
 
 ```blocks3
-    ko kliknemo na zastavico
-  ponavljaj
-    če <je pritisnjena tipka [puščica v desno v]?> potem
-      obrni se za (3) stopinj desno
-    konec
-  konec
+    when flag clicked
+    forever
+        if <key (right arrow v) pressed?> then
+            turn right (3) degrees
+        end
+    end
 ```
 
 \--- /task \---
@@ -62,11 +62,11 @@ Find the code that checks whether the right arrow key is pressed and makes the s
 Here are the blocks you need:
 
 ```blocks3
-<je pritisnjena tipka (puščica levo)?>
+<key (space v) pressed?>
 
-obrni se za (15) stopinj levo
+turn left(15) degrees
 
-če <> potem
+if <> then
 
 end
 ```
@@ -78,16 +78,16 @@ end
 Here is what your code should look like:
 
 ```blocks3
-    ko kliknemo na zastavico
-  ponavljaj
-    če <je pritisnjena tipka [puščica v desno v]?> potem
-    obrni se za (3) stopinj v desno
-  konec
+    when flag clicked
+    forever
+        if <key (right arrow v) pressed?> then
+            turn right (3) degrees
+        end
 
-+  če <je pritisnjena tipka [puščica v levov]?> potem
-    obrni se za (3) stopinj v levo
-  konec
-konec
++       if <key (left arrow v) pressed?> then
+            turn left(3) degrees
+        end
+    end
 ```
 
 \--- /hint \---
