@@ -2,13 +2,13 @@
 hero_image: images/banner.png
 listed: true
 copyedit: false
-title: Спіймай крапки
-description: При реалізації цього проекту, ви навчитеся створювати гру, в якій потрібно буде ловити кольорові кульки стороною контролера-колеса такого ж кольору.
-version: 3
+title: Catch the dots
+description: Make a dot-catching game
+version: 4.0.0
 last_tested: 2018-10-16
 steps:
   - 
-    title: З днем народження
+    title: Introduction
   - 
     title: Create a controller
   - 
@@ -20,8 +20,8 @@ steps:
   - 
     title: 'Challenge: faster dots'
   - 
-    title: Рекорд
+    title: High score
   - 
-    title: 'Завдання: вдоскональте свою гру!'
+    title: 'Challenge: improve your game!'
   - 
-    title: Що далі?
+    title: What next?
