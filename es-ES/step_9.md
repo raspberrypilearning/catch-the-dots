@@ -1,10 +1,10 @@
-## Desafío: más colores
+## What next?
 
-Pruebe el proyecto [Guerra de clones](https://projects.raspberrypi.org/en/projects/clone-wars?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) para hacer un juego en el cual tienes que salvar la Tierra de los monstruos del espacio. En ese proyecto, ¡podrás usar lo que has aprendido sobre clonar sprites y agregar una puntuación!
+Try the [Clone wars](https://projects.raspberrypi.org/en/projects/clone-wars?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project to make a game in which you have to save the Earth from space monsters. In that project, you will be able to use what you have learned about cloning sprites and adding a score!
 
 \--- no-print \---
 
-Haz clic en la bandera verde en el siguiente juego de ejemplo para comenzar, y luego presiona las teclas de dirección <kbd>izquierda</kbd> y <kbd>derecha</kbd> para mover la nave espacial y la barra de <kbd>espacio</kbd> para disparar.
+Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -13,7 +13,7 @@ Haz clic en la bandera verde en el siguiente juego de ejemplo para comenzar, y l
 
 \--- /no-print \---
 
-Anota tantos puntos como puedas sin darle a los hipopótamos voladores del espacio. Si te golpea un hipopótamo o una naranja de las que tiran los murciélagos, pierdes una vida.
+Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
 
 \--- print-only \---
 
