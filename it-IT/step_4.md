@@ -1,4 +1,4 @@
-## Più punti
+## More dots
 
 \--- task \---
 
@@ -29,11 +29,11 @@ This is the code you need to find and alter for both new sprites:
 ![screenshot](images/dots-more-dots.png)
 
 ```blocks3
-    se <touching color [#FF0000]?> allora
-        cambia [punteggio v] per (1)
-        suono riprodotto (pop v)
-...
-    fine
+    if <touching color [#FF0000]?> then
+        change [score v] by (1)
+        play sound (pop v)
+        ...
+    end
 ```
 
 \--- /hint \---
@@ -43,19 +43,19 @@ This is the code you need to find and alter for both new sprites:
 This is how you need to change the code for the yellow sprite:
 
 ```blocks3
-    se <tocca il colore [# FFFF00]? :: +> quindi
-        modifica [punteggio v] per (1)
-        suono riproduzione (pop v)
-    fine
+    if <touching color [#FFFF00]? :: +> then
+        change [score v] by (1)
+        play sound (pop v)
+    end
 ```
 
 This is how you need to change the code for the blue sprite:
 
 ```blocks3
-    se <tocca il colore [# 0000FF]? :: +> quindi
-        modifica [punteggio v] per (1)
-        suono riproduzione (pop v)
-    fine
+    if <touching color [#0000FF]? :: +> then
+        change [score v] by (1)
+        play sound (pop v)
+    end
 ```
 
 \--- /hint \---
@@ -73,9 +73,9 @@ Change the code for the 'yellow' dot sprite so that it waits four seconds after 
 ![Yellow dot](images/yellow-sprite.png)
 
 ```blocks3
-    quando il flag ha cliccato
-    nascondi
-+ aspetta (4) secondi
+    when flag clicked
+    hide
++   wait (4) seconds
 ```
 
 ![Blue dot](images/blue-sprite.png)
