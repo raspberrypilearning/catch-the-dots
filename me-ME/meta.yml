@@ -2,26 +2,26 @@
 hero_image: images/banner.png
 listed: true
 copyedit: false
-title: Uhvati tačke
-description: Nauči kako da napraviš igru hvatanja tačaka.
-version: 3
+title: Catch the dots
+description: Make a dot-catching game
+version: 4.0.0
 last_tested: 2018-10-16
 steps:
   - 
-    title: Uvod
+    title: Introduction
   - 
-    title: Izrada kontrolera
+    title: Create a controller
   - 
-    title: 'Izazov: Okretanje ulijevo'
+    title: Gain points or lose lives
   - 
-    title: Sakupljanje tačaka
+    title: More dots
   - 
-    title: 'Izazov: Više tačaka'
+    title: Increase the difficulty
   - 
-    title: 'Povećavanje težine igre'
+    title: 'Challenge: faster dots'
   - 
-    title: Najbolji rezultat
+    title: High score
   - 
-    title: 'Izazov: poboljšaj svoju igru!'
+    title: 'Challenge: improve your game!'
   - 
-    title: 'Izazov: promijeni kostim bubnja'
+    title: What next?
