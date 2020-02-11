@@ -1,4 +1,4 @@
-## Mai multe puncte
+## More dots
 
 \--- task \---
 
@@ -29,11 +29,11 @@ This is the code you need to find and alter for both new sprites:
 ![screenshot](images/dots-more-dots.png)
 
 ```blocks3
-    dacă <touching color [#FF0000]?> atunci
-        schimbă [scorul v] de (1)
-        joacă sunetul (pop v)
-...
-    Sfârșit
+    if <touching color [#FF0000]?> then
+        change [score v] by (1)
+        play sound (pop v)
+        ...
+    end
 ```
 
 \--- /hint \---
@@ -43,19 +43,19 @@ This is the code you need to find and alter for both new sprites:
 This is how you need to change the code for the yellow sprite:
 
 ```blocks3
-    dacă <atinge culoarea [# FFFF00]? :: +> apoi
-        schimbare [scor v] prin (1)
-        sunet de redare (pop v)
-    sfarsit
+    if <touching color [#FFFF00]? :: +> then
+        change [score v] by (1)
+        play sound (pop v)
+    end
 ```
 
 This is how you need to change the code for the blue sprite:
 
 ```blocks3
-    dacă <atinge culoarea [# 0000FF]? :: +> apoi
-        schimbare [scor v] prin (1)
-        sunet de redare (pop v)
-    sfarsit
+    if <touching color [#0000FF]? :: +> then
+        change [score v] by (1)
+        play sound (pop v)
+    end
 ```
 
 \--- /hint \---
@@ -73,9 +73,9 @@ Change the code for the 'yellow' dot sprite so that it waits four seconds after 
 ![Yellow dot](images/yellow-sprite.png)
 
 ```blocks3
-    atunci când pavilionul a făcut clic pe
-    ascundeți
-+ așteptați (4) secunde
+    when flag clicked
+    hide
++   wait (4) seconds
 ```
 
 ![Blue dot](images/blue-sprite.png)
