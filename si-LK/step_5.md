@@ -1,6 +1,6 @@
-## අපහසු බව වෑඩි කර ගන්න
+## Increase the difficulty
 
-දැන් ඔබ ක්‍රීඩාව වඩාත් අපහසු කිරීමට යන්නේ ක්‍රීඩකයා එය ක්‍රීඩා කරන කාලය වෑඩි කරන විටය කාලයත් සමඟ තිත් වේගයෙන් දිස්වීමෙන් ඔබ මෙය කරනු ඇත.
+Now you're going to make the game more difficult the longer the player plays it. You will do this by making the dots appear faster and faster over time.
 
 \--- task \---
 
