@@ -1,6 +1,6 @@
-## Pridobi točke ali izgubi življenje
+## Gain points or lose lives
 
-Sedaj boš dodal nekaj pik, ki mora igralec zbirati.
+Now you're going to add some dots that the player needs to collect.
 
 \--- task \---
 
@@ -17,13 +17,13 @@ Add this script to your 'red' sprite to create a new clone of the sprite every f
 ![Red dot sprite](images/red-sprite.png)
 
 ```blocks3
-    ko kliknemo na zastavico
-  skrij
-  počakaj (2) sekund
-  ponavljaj
-    usvari dvojnika (sebe v)
-    počakaj (naključno število med (1) in (10)) sekund
-  konec
+    when flag clicked
+    hide
+    wait (2) seconds
+    forever
+        create clone of (myself v)
+        wait (pick random (5) to (10)) secs
+    end
 ```
 
 \--- /task \---
@@ -59,13 +59,13 @@ Add this code to the 'dot' sprite to make each new sprite clone appear in a rand
 ![Red dot sprite](images/red-sprite.png)
 
 ```blocks3
-    ko začnem kot dvojnik
-  pojdi na x: (element (naključno število med (1) in (2) v [začetne pozicije v]) y: (element (naključno število med (1) in (2)) v [začetne pozicije v])
-  obrni se proti (krmilo v)
-  pokaži
-  ponavljaj do <se dotika (krmilo)?>
-    pojdi (1) korakov
-  konec
+    when I start as a clone
+    go to x: (item (pick random (1) to (2)) of [start positions v]) y: (item (pick random (1) to (2)) of [start positions v])
+    point towards (controller v)
+    show
+    repeat until <touching (controller v)?>
+        move (1) steps
+    end
 ```
 
 \--- /task \---
@@ -93,9 +93,9 @@ Create two new variables called `lives`{:class="block3variables"} and `score`{:c
 Add code to your Stage to set the `lives`{:class="block3variables"} variable to `3` and the `score`{:class="block3variables"} to `0` at the start of the game. ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-ko kliknemo na zastavico
-nastavi [življenja v] na (3)
-nastavi [točke v] na (0)
+when flag clicked
+set [lives v] to (3)
+set [score v] to (0)
 ```
 
 \--- /task \---
@@ -107,8 +107,8 @@ Add this code to the end of the Stage's script to make the game end when the pla
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    počakaj dokler ni <(življenja :: spremenljivke) < [1]>
-    ustavi [vse v]
+    wait until <(lives :: variables) < [1]>
+    stop [all v]
 ```
 
 \--- /task \---
@@ -128,15 +128,15 @@ Then add code to either add `1` to `score`{:class="block3variables"} if the colo
 ![Red dot sprite](images/red-sprite.png)
 
 ```blocks3
-    pojdi (5) korakov
-  če <se dotika barve [#FF0000]?> potem
-    spremeni [točke v] za (1)
-    predvajaj zvok (pop) do konca
-  sicer
-    spremeni [življenja v] za (-1)
-    predvajaj zvok (Laser1 v) do konca
-  konec
-  zbriši tega dvojnika
+    move (5) steps
+    if <touching color [#FF0000]?> then
+        change [score v] by (1)
+        play sound (pop v) until done
+    else
+        change [lives v] by (-1)
+        play sound (Laser1 v) until done
+    end
+    delete this clone
 ```
 
 \--- /task \---
@@ -145,7 +145,7 @@ Then add code to either add `1` to `score`{:class="block3variables"} if the colo
 
 Test your game to make sure that:
 
-1. izgubiš življenje, če se barvi pike in krmila ne ujemata;
-2. dobiš piko, če se barvi ujemata.
+1. You lose a life if you don’t match a dot with the correct colour
+2. You score a point if you match a dot correctly
 
 \--- /task \---
