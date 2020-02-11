@@ -2,26 +2,26 @@
 hero_image: images/banner.png
 listed: true
 copyedit: false
-title: Capturando Bolinhas
-description: Neste projeto vocês vão criar um jogo, no qual o jogador terá que capturar as bolinhas das diferentes cores com as partes certas de um controle redondo e colorido.
-version: 3
+title: Catch the dots
+description: Make a dot-catching game
+version: 4.0.0
 last_tested: 2018-10-16
 steps:
   - 
-    title: Introdução
+    title: Introduction
   - 
-    title: Criar um controlador
+    title: Create a controller
   - 
-    title: Ganhar pontos ou perder vidas
+    title: Gain points or lose lives
   - 
-    title: Mais pontos
+    title: More dots
   - 
-    title: Aumentar a dificuldade
+    title: Increase the difficulty
   - 
-    title: 'Desafio: pontos mais rápidos'
+    title: 'Challenge: faster dots'
   - 
-    title: Recorde
+    title: High score
   - 
-    title: 'Desafio: melhore seu jogo!'
+    title: 'Challenge: improve your game!'
   - 
-    title: E agora?
+    title: What next?
