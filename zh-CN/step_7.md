@@ -1,6 +1,6 @@
-## 最高分
+## High score
 
-你要保存游戏的最高成绩, 以便玩家可以看到他们玩的有多好.
+You're going to save the game's high score, so that players can see how well they are doing.
 
 \--- task \---
 
