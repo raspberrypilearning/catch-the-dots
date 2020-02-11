@@ -1,6 +1,6 @@
-## Punteggio alto
+## High score
 
-Stai per salvare il punteggio più alto del gioco, in modo che i giocatori possano vedere quanto stanno facendo bene.
+You're going to save the game's high score, so that players can see how well they are doing.
 
 \--- task \---
 
@@ -18,7 +18,7 @@ Select the Stage. Click on 'My blocks' and create a new custom block called `che
 
 ![screenshot](images/dots-custom-1.png)
 
-\--- /compito \---
+\--- /task \---
 
 \--- task \---
 
@@ -27,10 +27,10 @@ Add code to your custom block so that the block checks if the current value of `
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    define check punteggio alto
-    se <(punteggio :: variabili) > (punteggio alto)> poi
-        set [punteggio alto v] a (punteggio :: variabili)
-    fine
+    define check high score
+    if <(score :: variables) > (high score)> then
+        set [high score v] to (score :: variables)
+    end
 ```
 
 \--- /task \---
@@ -42,12 +42,12 @@ Add your new custom block to the Stage script before the end of the script.
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-quando il flag ha fatto clic su
-set [lives v] su (3)
-set [punteggio v] su (0)
-aspetta fino a <(lives) < (1)>
+when flag clicked
+set [lives v] to (3)
+set [score v] to (0)
+wait until <(lives) < (1)>
 
-+ controlla high score :: custom
++ check high score :: custom
 stop [all v]
 ```
 
