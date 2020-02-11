@@ -1,9 +1,9 @@
-## Desafio: melhore seu jogo
+## Challenge: improve your game
 
-Você consegue pensar em alguma maneira de melhorar seu jogo? Por exemplo, você poderia criar bolinhas especiais que:
+Can you think of ways to improve your game? For example, you could create special dots that:
 
-+ Dobram sua pontuação
-+ Desacelerem as outras bolinhas
-+ Removem todas as outras bolinhas da tela
++ Double your score
++ Slow down the dots
++ Hide all the other dots on the screen
 
-Podes adicionar um menu com botões ao teu jogo? Você poderia adicionar instruções na tela, ou em telas separadas para exibir o recorde.
+Can you add a menu with buttons to your game? You could add an screen with instructions or a separate screen for showing the high score.
