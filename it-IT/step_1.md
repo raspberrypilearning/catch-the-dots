@@ -1,12 +1,12 @@
 \--- no-print \---
 
-Questa è la versione **Scratch 3** del progetto. C'è anche una versione [Scratch 2 del progetto](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
 
-\--- / no-print \---
+\--- /no-print \---
 
-## introduzione
+## Introduction
 
-In questo progetto imparerai come creare un gioco in cui il giocatore deve abbinare punti colorati con il colore corretto della rotellina del controller.
+In this project you'll learn how to create a game in which the player has to match up coloured dots with the correct colour of the controller wheel.
 
 \--- no-print \---
 
@@ -25,36 +25,36 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 \--- /print-only \---
 
-## \--- chiudi \---
+## \--- collapse \---
 
-## titolo: cosa imparerai
+## title: What you will learn
 
-+ Come scegliere oggetti casuali da una lista
-+ Come utilizzare le variabili per tenere traccia della velocità, delle vite e del punteggio del giocatore
++ How to choose random items from a list
++ How to use variables to track speed, lives, and the player's score
 
 \--- /collapse \---
 
-## \--- chiudi \---
+## \--- collapse \---
 
-## titolo: Di cosa avrai bisogno
+## title: What you will need
 
 ### Hardware
 
-+ Un computer in grado di eseguire Scratch 3
++ A computer capable of running Scratch 3
 
 ### Software
 
-+ Scratch 3 (o [online](http://rpf.io/scratchon){: target = "_ blank"} o [offline](http://rpf.io/scratchoff){: target = "_ blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### download
+### Downloads
 
 + [Offline Scratch 2 project](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
 
 \--- /collapse \---
 
-## \--- chiudi \---
+## \--- collapse \---
 
-## titolo: note aggiuntive per educatori
+## title: Additional notes for educators
 
 \--- no-print \---
 
