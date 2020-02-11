@@ -2,26 +2,26 @@
 hero_image: images/banner.png
 listed: true
 copyedit: false
-title: डॉट्स पकड़ें
-description: डॉट-कैचिंग गेम बनाना सीखें
+title: Catch the dots
+description: Make a dot-catching game
 version: 4.0.0
 last_tested: 2018-10-16
 steps:
   - 
-    title: भूमिका
+    title: Introduction
   - 
-    title: नियंत्रक बनाना
+    title: Create a controller
   - 
-    title: 'चुनौती: बाईं तरफ घुमाना'
+    title: Gain points or lose lives
   - 
-    title: डॉट्स एकत्र करना
+    title: More dots
   - 
-    title: 'चुनौती: और बिंदु'
+    title: Increase the difficulty
   - 
-    title: 'कठिनाई बढ़ाना'
+    title: 'Challenge: faster dots'
   - 
-    title: 'चुनौती: तेज़ गति करने वाले बिंदु'
+    title: High score
   - 
-    title: 'उच्च स्कोर'
+    title: 'Challenge: improve your game!'
   - 
-    title: 'चुनौती: अपने गेम में सुधार करें!'
+    title: What next?
