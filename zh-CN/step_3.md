@@ -1,12 +1,12 @@
-## 得分还是玩家失去生命值
+## 获得积分或失去生命
 
-现在你会加入一些玩家需要接到的点.
+现在，您将添加玩家需要收集的一些点。
 
 \--- task \---
 
-Create a new sprite called 'red'. This sprite should be a small red dot.
+Create a new sprite called 'red'. 这个精灵应该是一个小红点.
 
-![Red dot sprite](images/dots-red.png)
+![红点精灵](images/dots-red.png)
 
 \--- /task \---
 
@@ -14,7 +14,7 @@ Create a new sprite called 'red'. This sprite should be a small red dot.
 
 Add this script to your 'red' sprite to create a new clone of the sprite every few seconds:
 
-![Red dot sprite](images/red-sprite.png)
+![红点精灵](images/red-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -28,35 +28,35 @@ Add this script to your 'red' sprite to create a new clone of the sprite every f
 
 \--- /task \---
 
-If you click the green flag now, it looks like nothing is happening. This is because all of the cloned sprites are hidden, and they appear in the same place.
+如果您现在单击绿色标志，则似乎没有任何反应。 这是因为所有的克隆精灵都被隐藏了, 并且他们出现在了相同的地方.
 
-You are going to add code to make each new clone appear in one of the four corners of the Stage.
+您将添加代码，让每个新克隆都出现在这个阶段的四个角之一的位置。
 
-![screenshot](images/dots-start.png)
+![截屏](images/dots-start.png)
 
 \--- task \---
 
 Create a new list called `start positions`{:class="block3variables"}, click the list's `(+)` icon to add the values `-180`{:class="block3variables"} and `180`{:class="block3variables"}.
 
-![Red dot sprite](images/red-sprite.png)
+![红点精灵](images/red-sprite.png)
 
-![List of 180 and -180](images/dots-list.png)
+![180和-180的列表](images/dots-list.png)
 
 [[[generic-scratch3-make-list]]]
 
-Then you can hide the list by unselecting this box:
+然后，您可以通过取消选中此框来隐藏列表：
 
-![Hide the list](images/hide-list.png)
+![隐藏列表](images/hide-list.png)
 
 \--- /task \---
 
-Notice that the coordinate for each corner of the Stage is a combination of `180` and `-180`. This means you can use the list to pick a corner of the Stage at random.
+注意对于舞台的每一个角坐标是`180` 和 `-180`. 这意味着你可以使用列表来随机选取舞台的一角.
 
 \--- task \---
 
 Add this code to the 'dot' sprite to make each new sprite clone appear in a random corner and then slowly move towards the controller sprite.
 
-![Red dot sprite](images/red-sprite.png)
+![红点精灵](images/red-sprite.png)
 
 ```blocks3
     when I start as a clone
@@ -74,9 +74,9 @@ This new code chooses either `-180` or `180` for the x and y positions, meaning 
 
 \--- task \---
 
-Test your project. You should see red dots appear in the corners of the Stage and move slowly towards the controller.
+Test your project. 你可以看到红色小点出现在舞台一角并且向控制器缓慢移动.
 
-![screenshot](images/dots-red-test.png)
+![截屏](images/dots-red-test.png)
 
 \--- /task \---
 
@@ -84,7 +84,7 @@ Test your project. You should see red dots appear in the corners of the Stage an
 
 Create two new variables called `lives`{:class="block3variables"} and `score`{:class="block3variables"}.
 
-![Red dot sprite](images/red-sprite.png)
+![红点精灵](images/red-sprite.png)
 
 \--- /task \---
 
@@ -113,7 +113,7 @@ Add this code to the end of the Stage's script to make the game end when the pla
 
 \--- /task \---
 
-The player should win points for catching dots, and should lose lives for failing to catch dots. A dot can only be caught by matching the colour of the controller to the colour of the dot.
+玩家应因捕捉点而赢得积分，并因未能捕捉点而失去生命。 只能通过将控制器的颜色与点的颜色进行匹配来捕获点。
 
 \--- task \---
 
@@ -121,11 +121,11 @@ Go back to the 'red' dot sprite's Scripts area to add some code blocks to the en
 
 First, make the dot clone `move 5 steps`{:class="block3motion"} so that it overlaps the controller.
 
-Then add code to either add `1` to `score`{:class="block3variables"} if the colour of the dot clone matches the colour of the controller when they touch, or to take `1` away from `lives`{:class="block3variables"} if their colours don't match.
+然后添加代码,如果克隆小点的颜色匹配控制器的颜色,加 `1` 到 `score`变量{:class="block3variables"}, 如果没有匹配,则从`lives`{:class="block3variables"} 变量减去 `1`.
 
 [[[generic-scratch3-sound-from-library]]]
 
-![Red dot sprite](images/red-sprite.png)
+![红点精灵](images/red-sprite.png)
 
 ```blocks3
     move (5) steps
@@ -143,7 +143,7 @@ Then add code to either add `1` to `score`{:class="block3variables"} if the colo
 
 \--- task \---
 
-Test your game to make sure that:
+测试你的游戏确保达到下面的效果:
 
 1. 如果没有接到正确颜色的小点, 失去一条生命
 2. 如果接到正确的小点, 加一分
