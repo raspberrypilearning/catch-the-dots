@@ -1,35 +1,35 @@
-## High score
+## 最高分紀錄
 
-You're going to save the game's high score, so that players can see how well they are doing.
+你將記錄遊戲的最高分，讓玩家看看自己的表現能不能超越。
 
 \--- task \---
 
-Create a new variable called `high score`{:class="block3variables"}.
+建立一個名為`最高分`{:class="block3variables"}的新變數。
 
-![Stage sprite](images/stage-sprite.png)
+![舞台角色](images/stage-sprite.png)
 
 \--- /task \---
 
 \--- task \---
 
-Select the Stage. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
+選擇舞台。 點擊工具箱中的「函式積木」，然後建立一個新的積木，名為`檢查最高分`{:class="block3myblocks"}。
 
-![Stage sprite](images/stage-sprite.png)
+![舞台角色](images/stage-sprite.png)
 
-![screenshot](images/dots-custom-1.png)
+![截圖](images/dots-custom-1.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your custom block so that the block checks if the current value of `score`{:class="block3variables"} in larger than the value of the `high score`{:class="block3variables"} variable, and then stores the value of `score`{:class="block3variables"} as the new value of `high score`{:class="block3variables"}.
+在「定義檢查最高分」的積木下面撰寫程式，如果`分數`{:class="block3variables"}變數裡的值比`最高分`{:class="block3variables"}的值還大，那麼就把`分數`{:class="block3variables"}的值儲存到`最高分`{:class="block3variables"}變數裡。
 
-![Stage sprite](images/stage-sprite.png)
+![舞台角色](images/stage-sprite.png)
 
 ```blocks3
-    define check high score
-    if <(score :: variables) > (high score)> then
-        set [high score v] to (score :: variables)
+    定義 檢查最高分
+    如果 <(分數) > (最高分)> 那麼
+        變數 [最高分 v] 設為 (分數)
     end
 ```
 
@@ -37,24 +37,24 @@ Add code to your custom block so that the block checks if the current value of `
 
 \--- task \---
 
-Add your new custom block to the Stage script before the end of the script.
+把這個你定義好的新積木放到遊戲停止前，在遊戲結束前檢查最高分。
 
-![Stage sprite](images/stage-sprite.png)
+![舞台角色](images/stage-sprite.png)
 
 ```blocks3
-when flag clicked
-set [lives v] to (3)
-set [score v] to (0)
-wait until <(lives) < (1)>
+當 @greenflag 被點擊
+變數 [血量 v] 設為 (3)
+變數 [分數 v] 設為 (0)
+等待直到 <(血量) < (50)>
 
-+ check high score :: custom
-stop [all v]
++ 檢查最高分 :: custom
+停止 [全部 v]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Play your game twice to check whether your score gets correctly saved as the `high score`{:class="block3variables"}.
+玩遊戲兩次，看看你的遊戲得分是不是會正確被記錄在`最高分`{:class="block3variables"}裡。
 
 \--- /task \---
