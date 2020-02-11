@@ -1,6 +1,6 @@
-## コントローラーホイールを作ります
+## Create a controller
 
-プレイヤーがカラーボールを集めるために使用するコントローラを作成することから始めます。
+Start by creating a controller that the player will use to collect dots.
 
 \--- task \---
 
@@ -27,10 +27,12 @@ Add some code to the controller sprite to make the sprite turn right if the play
 ![Controller sprite](images/controller-sprite.png)
 
 ```blocks3
-    緑の旗が押されたとき
-ずっと
-もし　なら
-右回りに3度回す
+    when flag clicked
+    forever
+        if <key (right arrow v) pressed?> then
+            turn right (3) degrees
+        end
+    end
 ```
 
 \--- /task \---
@@ -60,9 +62,13 @@ Find the code that checks whether the right arrow key is pressed and makes the s
 Here are the blocks you need:
 
 ```blocks3
-スペースキーが押された
-左に15度回す
-もし　なら
+<key (space v) pressed?>
+
+turn left(15) degrees
+
+if <> then
+
+end
 ```
 
 \--- /hint \---
@@ -72,13 +78,16 @@ Here are the blocks you need:
 Here is what your code should look like:
 
 ```blocks3
-    緑の旗が押されたとき
-ずっと
-もし　なら
-右に3度回す
+    when flag clicked
+    forever
+        if <key (right arrow v) pressed?> then
+            turn right (3) degrees
+        end
 
-もし　なら
-左に3度回す
++       if <key (left arrow v) pressed?> then
+            turn left(3) degrees
+        end
+    end
 ```
 
 \--- /hint \---
