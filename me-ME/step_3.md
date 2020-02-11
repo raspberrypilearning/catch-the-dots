@@ -1,4 +1,4 @@
-## Izazov: Okretanje ulijevo
+## Gain points or lose lives
 
 Now you're going to add some dots that the player needs to collect.
 
