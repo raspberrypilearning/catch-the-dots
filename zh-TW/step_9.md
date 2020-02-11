@@ -1,10 +1,10 @@
-## What next?
+## 然後呢？
 
-Try the [Clone wars](https://projects.raspberrypi.org/en/projects/clone-wars?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project to make a game in which you have to save the Earth from space monsters. In that project, you will be able to use what you have learned about cloning sprites and adding a score!
+試試下一個專案，[分身大戰](https://projects.raspberrypi.org/en/projects/clone-wars?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)，你要製作一個遊戲，玩家必須駕駛飛船打敗會自行分裂、自我繁殖的太空怪物，拯救地球。 在專案中會用到你學過的的技巧，像是角色分身和添加得分！
 
 \--- no-print \---
 
-Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
+點擊綠旗開始，用鍵盤上的<kbd>向左鍵</kbd>、<kbd>向右鍵</kbd>移動太空船，用<kbd>空白鍵</kbd>射擊。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -13,7 +13,7 @@ Click the green flag in the example game below to start, and then press the <kbd
 
 \--- /no-print \---
 
-Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
+告你架駛的飛船射擊到太空河馬可以得分， 如果被河馬撞到或被蝙蝠丟出的橘子打到，飛船就會爆炸。
 
 \--- print-only \---
 
