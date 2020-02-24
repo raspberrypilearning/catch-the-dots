@@ -1,0 +1,18 @@
+---
+hero_image: images/banner.png
+listed: true
+copyedit: false
+title: ドットをキャッチする
+description: ドットをキャッチするゲームを作ります
+version: 4.0.0
+last_tested: 2018-10-16
+steps:
+  - title: はじめに
+  - title: コントローラーを作成する
+  - title: ポイントを獲得するか、ライフを失います
+  - title: より多くのドット
+  - title: 難易度を上げる
+  - title: 'チャレンジ: より速いドット'
+  - title: ハイスコア
+  - title: 'チャレンジ: ゲームをより良くする!'
+  - title: 次は何をしますか？
