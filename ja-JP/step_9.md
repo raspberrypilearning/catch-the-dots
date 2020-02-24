@@ -1,10 +1,10 @@
-## What next?
+## 次は何をしますか？
 
-Try the [Clone wars](https://projects.raspberrypi.org/en/projects/clone-wars?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project to make a game in which you have to save the Earth from space monsters. In that project, you will be able to use what you have learned about cloning sprites and adding a score!
+[クローン戦争](https://projects.raspberrypi.org/en/projects/clone-wars?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)プロジェクトを試して、宇宙の怪物から地球を救わなければならないゲームを作りましょう。 そのプロジェクトでは、スプライトのクローン作成とスコアの追加について学んだことを使用できます！
 
 \--- no-print \---
 
-Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
+下のサンプルゲームの緑色の旗を押して開始し、<kbd>左</kbd>と<kbd>右</kbd>の矢印キーを押して宇宙船を移動し、<kbd>スペースキー</kbd>を押して射撃します。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -13,10 +13,10 @@ Click the green flag in the example game below to start, and then press the <kbd
 
 \--- /no-print \---
 
-Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
+空飛ぶカバを撃ち、できるだけ多くのポイントを獲得してください。 カバやコウモリが落としたオレンジに当たった場合、命を失います。
 
 \--- print-only \---
 
-![desc](images/clone-showcase.png)
+![説明](images/clone-showcase.png)
 
 \--- /print-only \---
