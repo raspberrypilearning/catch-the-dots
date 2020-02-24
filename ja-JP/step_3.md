@@ -1,151 +1,151 @@
-## Gain points or lose lives
+## ポイントを獲得するか、ライフを失います
 
-Now you're going to add some dots that the player needs to collect.
+次に、プレーヤーが集める必要があるいくつかのドットを追加します。
 
 \--- task \---
 
-Create a new sprite called 'red'. This sprite should be a small red dot.
+「赤」という新しいスプライトを作成します。 このスプライトは小さな赤いドットである必要があります。
 
-![Red dot sprite](images/dots-red.png)
+![赤いドットのスプライト](images/dots-red.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add this script to your 'red' sprite to create a new clone of the sprite every few seconds:
+このスクリプトを「赤」スプライトに追加して、数秒ごとにスプライトの新しいクローンを作成します。
 
-![Red dot sprite](images/red-sprite.png)
+![赤いドットのスプライト](images/red-sprite.png)
 
 ```blocks3
-    when flag clicked
-    hide
-    wait (2) seconds
-    forever
-        create clone of (myself v)
-        wait (pick random (5) to (10)) secs
+    旗が押されたとき
+    隠す
+    (2) 秒待つ
+    ずっと 
+        (自分自身 v) のクローンを作る
+        ((5) から (10) までの乱数) 秒待つ
     end
 ```
 
 \--- /task \---
 
-If you click the green flag now, it looks like nothing is happening. This is because all of the cloned sprites are hidden, and they appear in the same place.
+ここで緑色の旗を押しても、何も起きていないように見えます。 これは、クローンされたスプライトがすべて非表示になり、同じ場所に表示されるためです。
 
-You are going to add code to make each new clone appear in one of the four corners of the Stage.
+新しいクローンをステージの四隅のいずれかに表示するためのコードを追加します。
 
-![screenshot](images/dots-start.png)
+![スクリーンショット](images/dots-start.png)
 
 \--- task \---
 
-Create a new list called `start positions`{:class="block3variables"}, click the list's `(+)` icon to add the values `-180`{:class="block3variables"} and `180`{:class="block3variables"}.
+`開始位置` {:class="block3variables"}と呼ばれる新しいリストを作成します、リストの`(+) `アイコンをクリックし値`-180`{:class="block3variables"}および`180` {:class="block3variables"}を追加します。
 
-![Red dot sprite](images/red-sprite.png)
+![赤いドットのスプライト](images/red-sprite.png)
 
-![List of 180 and -180](images/dots-list.png)
+![180および-180のリスト](images/dots-list.png)
 
 [[[generic-scratch3-make-list]]]
 
-Then you can hide the list by unselecting this box:
+次に、このボックスを選択解除してリストを非表示にできます。
 
-![Hide the list](images/hide-list.png)
+![リストを隠す](images/hide-list.png)
 
 \--- /task \---
 
-Notice that the coordinate for each corner of the Stage is a combination of `180` and `-180`. This means you can use the list to pick a corner of the Stage at random.
+ステージの四隅の座標は、`180` と`-180` の組み合わせであることに注意してください。 つまり、リストを使用して、ステージの四隅をランダムに選択できます。
 
 \--- task \---
 
-Add this code to the 'dot' sprite to make each new sprite clone appear in a random corner and then slowly move towards the controller sprite.
+このコードをドットのスプライトに追加して、新しいスプライトクローンをランダムに四隅に表示し、コントローラースプライトに向かってゆっくりと移動するようにします。
 
-![Red dot sprite](images/red-sprite.png)
+![赤いドットのスプライト](images/red-sprite.png)
 
 ```blocks3
-    when I start as a clone
-    go to x: (item (pick random (1) to (2)) of [start positions v]) y: (item (pick random (1) to (2)) of [start positions v])
-    point towards (controller v)
-    show
-    repeat until <touching (controller v)?>
-        move (1) steps
+    クローンされたとき
+    x座標を ([開始位置 v] の ((1) から (2) までの乱数) 番目) 、y座標を ([開始位置 v] の ((1) から (2) までの乱数) 番目) にする
+    (コントローラー v) へ向ける
+    表示する
+    <touching (controller v)?> まで繰り返す 
+        (1) 歩動かす
     end
 ```
 
 \--- /task \---
 
-This new code chooses either `-180` or `180` for the x and y positions, meaning that each 'dot' sprite clone starts in a corner of the Stage.
+この新しいコードは、 xおよびyの位置として`-180` または`180` のいずれかを選択します、つまり、各「ドット」スプライトクローンはステージの隅から始まります。
 
 \--- task \---
 
-Test your project. You should see red dots appear in the corners of the Stage and move slowly towards the controller.
+プロジェクトをテストします。 ステージの隅に赤い点が表示され、コントローラーに向かってゆっくりと移動するはずです。
 
-![screenshot](images/dots-red-test.png)
+![スクリーンショット](images/dots-red-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-Create two new variables called `lives`{:class="block3variables"} and `score`{:class="block3variables"}.
+`ライフ` {：class = "block3variables"}および`スコア` {:class="block3variables"}いう2つの新しい変数を作成します。
 
-![Red dot sprite](images/red-sprite.png)
+![赤いドットのスプライト](images/red-sprite.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your Stage to set the `lives`{:class="block3variables"} variable to `3` and the `score`{:class="block3variables"} to `0` at the start of the game. ![Stage sprite](images/stage-sprite.png)
+ステージにコードを追加して、`ライフ` {:class="block3variables"}変数を`3 `設定します、さらにゲームの開始時に`スコア` {:class="block3variables"}を`0`設定します。 ![ステージのスプライト](images/stage-sprite.png)
 
 ```blocks3
-when flag clicked
-set [lives v] to (3)
-set [score v] to (0)
+旗が押されたとき
+[ライフ v] を (3) にする
+[スコア v] を (0) にする
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add this code to the end of the Stage's script to make the game end when the player loses the last of the lives:
+このコードをステージのスクリプトの最後に追加して、プレーヤーが最後のライフを失ったときにゲームを終了させます:
 
-![Stage sprite](images/stage-sprite.png)
+![ステージのスプライト](images/stage-sprite.png)
 
 ```blocks3
-    wait until <(lives :: variables) < [1]>
-    stop [all v]
+    < (ライフ :: 変数) < [1]> まで待つ
+[すべてを止める v]
 ```
 
 \--- /task \---
 
-The player should win points for catching dots, and should lose lives for failing to catch dots. A dot can only be caught by matching the colour of the controller to the colour of the dot.
+プレーヤーはドット捕まえるとポイントを獲得し、ドットを捕まえられなかったらライフを失います。 ドットは、コントローラーの色とドットの色が一致したときのみ捕まえられます。
 
 \--- task \---
 
-Go back to the 'red' dot sprite's Scripts area to add some code blocks to the end of the sprite's `when I start as a clone`{:class="block3control"} script.
+「赤」ドットスプライトのスクリプト領域に戻り、`クローンスクリプトとして開始するとき` {:class="block3control"}のスクリプトの最後にいくつかのコードブロックを追加します。
 
-First, make the dot clone `move 5 steps`{:class="block3motion"} so that it overlaps the controller.
+まず、ボールのドットクローンを`5歩動かし`{:class="block3motion"}、コントローラーと重なるようにします。
 
-Then add code to either add `1` to `score`{:class="block3variables"} if the colour of the dot clone matches the colour of the controller when they touch, or to take `1` away from `lives`{:class="block3variables"} if their colours don't match.
+次に、ドットクローンとコントローラーが触れたとき、それぞれの色が一致したならば、`スコア` {:class="block3variables"}に`1`を加える、または、それぞれの色が一致しなければ`ライフ` {:class="block3variables"}から`1`を減らすようにします。
 
 [[[generic-scratch3-sound-from-library]]]
 
-![Red dot sprite](images/red-sprite.png)
+![赤いドットのスプライト](images/red-sprite.png)
 
 ```blocks3
-    move (5) steps
-    if <touching color [#FF0000]?> then
-        change [score v] by (1)
-        play sound (pop v) until done
-    else
-        change [lives v] by (-1)
-        play sound (Laser1 v) until done
+    (5) 歩動かす
+    もし <touching color [#FF0000]?> なら 
+        [スコア v] を (1) ずつ変える
+        終わるまで (pop v) の音を鳴らす
+    でなければ 
+        [ライフ v] を (-1) ずつ変える
+        終わるまで (Laser1 v) の音を鳴らす
     end
-    delete this clone
+このクローンを削除する
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game to make sure that:
+ゲームをテストして、次のことを確認します。
 
-1. You lose a life if you don’t match a dot with the correct colour
-2. You score a point if you match a dot correctly
+1. ドットと正しい色を一致させないと、ライフを失います
+2. ドットを正しく一致させるとポイントを獲得します
 
 \--- /task \---
