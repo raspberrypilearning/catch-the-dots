@@ -1,56 +1,56 @@
-## Increase the difficulty
+## 難易度を上げる
 
-Now you're going to make the game more difficult the longer the player plays it. You will do this by making the dots appear faster and faster over time.
+次に、プレイヤーがプレイする時間が長いほど、ゲームをより難しくします。 これを行うには、ドットが次第に速く表示されるようにします。
 
 \--- task \---
 
-Create a new `variable`{:class="block3variables"} called 'delay'.
+新しい「遅れ」`変数` {:class="block3variables"}を作成します。
 
-![Stage sprite](images/stage-sprite.png)
+![ステージのスプライト](images/stage-sprite.png)
 
 \--- /task \---
 
 \--- task \---
 
-Go to the Stage's Scripts area and create a new script that sets the `delay`{:class="block3variables"} variable to `8` and then slowly reduces the value of `delay`{:class="block3variables"} while the game runs.
+ステージのスクリプト領域に移動し、新しいスクリプトを作成します。`遅れ` {:class = "block3variables"}変数を`8` に設定し、ゲームの実行中に`遅れ`{:class="block3variables"}の値をゆっくりと減らします。
 
-![Stage sprite](images/stage-sprite.png)
+![ステージのスプライト](images/stage-sprite.png)
 
 ```blocks3
-    when flag clicked
-    set [delay v] to (8)
-    repeat until < (delay) = (2)>
-        wait (10) seconds
-        change [delay v] by (-0.5)
-    end
+    旗が押されたとき
+    「遅れ v」を(8) にする
+    < (遅れ) = (2)> まで繰り返す 
+    (10) 秒待つ
+    [遅れ v] を (-0.5) ずつ変える
+end
 ```
 
 \--- /task \---
 
-Notice that this code is very similar to the code you would use to create a countdown timer!
+このコードは、カウントダウンタイマーの作成に使用するコードと非常に似ていることに注意してください。
 
-Next, use the `delay`{:class="block3variables"} variable in the code scripts of the 'red', 'yellow', and 'blue' sprites.
+次に、「赤」、「黄」、および「青」のスプライトのコードスクリプト内で`遅れ`{:class="block3varibles"}変数を使用します。
 
 \--- task \---
 
-Remove the code block that makes the game wait a random number of seconds between making the dot sprite clones. Replace the block you've removed with your new `delay`{:class="block3variables"} variable:
+ドットスプライトのクローンを作成する間にゲームをランダムな秒数だけ待機させるコードブロックを削除します。 そして削除したブロックを新しい`遅れ`{:class="block3variables"}変数に置き換えます。
 
-![screenshot](images/all-dots.png)
+![スクリーンショット](images/all-dots.png)
 
 ```blocks3
-<br />-   wait (pick random (5) to (10)) secs
-    wait (delay :: variables) secs
+<br />-  ((5) から (10) までの乱数) 秒待つ
+    (遅れ :: 変数) 秒待つ
 ```
 
-Do this for all three dot sprites.
+これを3つのドットスプライトすべてに対して行います。
 
 \--- /task \---
 
 \--- task \---
 
-Test the game, and check whether the dots begin to appear more quickly as the game goes on.
+ゲームをテストし、ゲームが進むにつれてドットがより早く現れ始めるかどうかを確認します。
 
-+ Does this work for all three coloured dots?
-+ Can you see that the value of the `delay`{:class="block3variables"} variable decreases?
++ これは、3つの色付きドットすべてで機能しますか？
++ `遅れ` {:class="block3variables"}変数の値が減少するのがわかりますか？
 
 \--- /task \---
