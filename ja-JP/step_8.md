@@ -1,9 +1,9 @@
-## Challenge: improve your game
+## チャレンジ: ゲームをより良くする
 
-Can you think of ways to improve your game? For example, you could create special dots that:
+ゲームを改善する方法を考えられますか？ たとえば、次のような特別なドットを作成できます。
 
-+ Double your score
-+ Slow down the dots
-+ Hide all the other dots on the screen
++ スコアを2倍にする
++ ドットを遅くする
++ 画面上の他のすべてのドットを非表示にします
 
-Can you add a menu with buttons to your game? You could add an screen with instructions or a separate screen for showing the high score.
+ボタン付きのメニューをゲームに追加できますか？ 画面に説明を追加したり、ハイスコアを表示する別の画面を追加したりできます。
