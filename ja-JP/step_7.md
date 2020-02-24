@@ -1,60 +1,61 @@
-## High score
+## ハイスコア
 
-You're going to save the game's high score, so that players can see how well they are doing.
+ゲームのハイスコアを保存して、プレイヤーがどれだけうまくやっているかを確認できるようにします。
 
 \--- task \---
 
-Create a new variable called `high score`{:class="block3variables"}.
+`ハイスコア`{:class="block3variables"}という新しい変数を作成します。
 
-![Stage sprite](images/stage-sprite.png)
+![ステージのスプライト](images/stage-sprite.png)
 
 \--- /task \---
 
 \--- task \---
 
-Select the Stage. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
+ステージを選択します。 「マイブロック」を押して、`ハイスコアをチェック`{:class="block3myblocks"}という新しいカスタムブロックを作成します。
 
-![Stage sprite](images/stage-sprite.png)
+![ステージのスプライト](images/stage-sprite.png)
 
-![screenshot](images/dots-custom-1.png)
+![スクリーンショット](images/dots-custom-1.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your custom block so that the block checks if the current value of `score`{:class="block3variables"} in larger than the value of the `high score`{:class="block3variables"} variable, and then stores the value of `score`{:class="block3variables"} as the new value of `high score`{:class="block3variables"}.
+カスタムブロックにコードを追加して、ブロックが`スコア` {:class="block3variables"}の値が、`ハイスコア` {:class="block3variables"}変数の値よりも大きいかチェックし、その時は`スコア`{:class="block3variables"}の値を `ハイスコア` {:class="block3variables"}の新しい値として保存します。
 
-![Stage sprite](images/stage-sprite.png)
+![ステージのスプライト](images/stage-sprite.png)
 
 ```blocks3
-    define check high score
-    if <(score :: variables) > (high score)> then
-        set [high score v] to (score :: variables)
-    end
+    スコアをハイスコアにする
+定義 ハイスコアをチェック
+もし <(スコア :: 変数) > (ハイスコア)> なら 
+    [ハイスコア v] を (スコア :: 変数) にする
+end
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add your new custom block to the Stage script before the end of the script.
+スクリプトの最後の前に、ステージスクリプトに新しいカスタムブロックを追加します。
 
-![Stage sprite](images/stage-sprite.png)
+![ステージのスプライト](images/stage-sprite.png)
 
 ```blocks3
-when flag clicked
-set [lives v] to (3)
-set [score v] to (0)
-wait until <(lives) < (1)>
+旗が押されたとき
+[ライフ v] を (3) にする
+[スコア v] を (0) にする
+< (ライフ) < (1)> まで待つ
 
-+ check high score :: custom
-stop [all v]
++ ハイスコアをチェック :: custom
+ストップ [全て v]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Play your game twice to check whether your score gets correctly saved as the `high score`{:class="block3variables"}.
+ゲームを2回プレイして、スコアが`ハイスコア`{:class="block3variables"}として正しく保存されるかどうかを確認します。
 
 \--- /task \---
