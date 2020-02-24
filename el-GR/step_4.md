@@ -43,7 +43,7 @@ This is the code you need to find and alter for both new sprites:
 This is how you need to change the code for the yellow sprite:
 
 ```blocks3
-    if <touching color [#FFFF00]? :: +> then
+    εάν <touching color [#FFFF00]? :: +> then
         change [score v] by (1)
         play sound (pop v)
     end
