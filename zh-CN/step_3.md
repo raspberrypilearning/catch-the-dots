@@ -119,7 +119,7 @@ Add this code to the end of the Stage's script to make the game end when the pla
 
 Go back to the 'red' dot sprite's Scripts area to add some code blocks to the end of the sprite's `when I start as a clone`{:class="block3control"} script.
 
-First, make the dot clone `move 5 steps`{:class="block3motion"} so that it overlaps the controller.
+首先, 使小点克隆 `移动5步`{:class="block3motion"}以便重叠控制器.
 
 然后添加代码,如果克隆小点的颜色匹配控制器的颜色,加 `1` 到 `score`变量{:class="block3variables"}, 如果没有匹配,则从`lives`{:class="block3variables"} 变量减去 `1`.
 
