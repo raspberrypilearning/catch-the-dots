@@ -1,38 +1,38 @@
-## More dots
+## より多くのドット
 
 \--- task \---
 
-Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
+「赤」のドットスプライトを2回複製し、2つの新しいスプライトに「黄」と「青」という名前を付けます。
 
-![screenshot](images/dots-more-dots.png)
+![スクリーンショット](images/dots-more-dots.png)
 
 \--- /task \---
 
 \--- task \---
 
-Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue.
+それぞれの新しいスプライトのコスチュームを正しい色になるように変更します。「黄」のスプライトは黄色に、「青」のスプライトは青色になります。
 
 \--- /task \---
 
 \--- task \---
 
-Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
+各スプライトのコードを変更して、プレーヤーがドットクローンをコントローラー上の正しい色に合わせてポイントを獲得するようにします。
 
-![screenshot](images/dots-all-test.png)
+![スクリーンショット](images/dots-all-test.png)
 
 \--- hints \---
 
 \--- hint \---
 
-This is the code you need to find and alter for both new sprites:
+これは、両方の新しいスプライトで、見つけて変更する必要があるコードです。
 
-![screenshot](images/dots-more-dots.png)
+![スクリーンショット](images/dots-more-dots.png)
 
 ```blocks3
-    if <touching color [#FF0000]?> then
-        change [score v] by (1)
-        play sound (pop v)
-        ...
+    もし <touching color [#FF0000]?> なら 
+    [スコア v] を (1) ずつ変える
+    (pop v) の音を鳴らす
+  . . .
     end
 ```
 
@@ -40,22 +40,22 @@ This is the code you need to find and alter for both new sprites:
 
 \--- hint \---
 
-This is how you need to change the code for the yellow sprite:
+これは、黄色のスプライトのコードを変更する方法です。
 
 ```blocks3
-    if <touching color [#FFFF00]? :: +> then
-        change [score v] by (1)
-        play sound (pop v)
-    end
+    もし < [#FFFF00]色に触れたなら? :: +> のとき
+    [スコア v] を (1) ずつ変える
+    (pop v) の音を鳴らす
+end
 ```
 
-This is how you need to change the code for the blue sprite:
+これが、青色のスプライトのコードを変更する方法です。
 
 ```blocks3
-    if <touching color [#0000FF]? :: +> then
-        change [score v] by (1)
-        play sound (pop v)
-    end
+    もし < [#0000FF]色に触れたなら? :: +> のとき
+    [スコア v] を (1) ずつ変える
+    (pop v) の音を鳴らす
+end
 ```
 
 \--- /hint \---
@@ -64,22 +64,22 @@ This is how you need to change the code for the blue sprite:
 
 \--- /task \---
 
-If you play the game now, you can see that the dots sometimes get created one top of each other.
+ここでゲームをプレイすると、ドットが時々上下に作成されることがわかります。
 
 \--- task \---
 
-Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
+「黄」のドットスプライトのコードを変更して、フラグが押されてから4秒待ってから表示されるようにします。
 
-![Yellow dot](images/yellow-sprite.png)
+![黄色のドット](images/yellow-sprite.png)
 
 ```blocks3
-    when flag clicked
-    hide
-+   wait (4) seconds
+    旗が押されたとき
+    隠す
++   (4) 秒待つ
 ```
 
-![Blue dot](images/blue-sprite.png)
+![青色のドット](images/blue-sprite.png)
 
-Then change the code for the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
+次に、「青」ドットスプライトのコードを変更して、フラグが押されてから6秒待ってから表示されるようにします。
 
 \--- /task \---
