@@ -42,7 +42,7 @@ Remove the code block that makes the game wait a random number of seconds betwee
     wait (delay :: variables) secs
 ```
 
-Do this for all three dot sprites.
+对三个精灵都执行相同的操作.
 
 \--- /task \---
 
@@ -50,7 +50,7 @@ Do this for all three dot sprites.
 
 Test the game, and check whether the dots begin to appear more quickly as the game goes on.
 
-+ Does this work for all three coloured dots?
-+ Can you see that the value of the `delay`{:class="block3variables"} variable decreases?
++ 对三种颜色的小点工作都正常吗?
++ 你能看到 `delay`{:class="block3variables"} 变量值在减少吗?
 
 \--- /task \---
