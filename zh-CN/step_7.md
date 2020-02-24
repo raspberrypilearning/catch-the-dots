@@ -1,6 +1,6 @@
-## High score
+## 高分
 
-You're going to save the game's high score, so that players can see how well they are doing.
+你要保存游戏的最高成绩, 以便玩家可以看到他们玩的有多好.
 
 \--- task \---
 
@@ -12,11 +12,11 @@ Create a new variable called `high score`{:class="block3variables"}.
 
 \--- task \---
 
-Select the Stage. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
+Select the Stage. 点击 'My blocks' 并创建一个新的自定义代码块并命名为 `check high score`{:class="block3myblocks"}.
 
 ![Stage sprite](images/stage-sprite.png)
 
-![screenshot](images/dots-custom-1.png)
+![截屏](images/dots-custom-1.png)
 
 \--- /task \---
 
@@ -55,6 +55,6 @@ stop [all v]
 
 \--- task \---
 
-Play your game twice to check whether your score gets correctly saved as the `high score`{:class="block3variables"}.
+运行两次你的游戏检查是否成绩正确保存在了 `high score`{:class="block3variables"}变量中.
 
 \--- /task \---
