@@ -13,7 +13,7 @@
 استخدم مفاتيح الأسهم على لوحة المفاتيح لتدوير عجلة التحكم و لإمساك النقاط الملونة الطائرة باتحاه عجلة التحكم. اذا اخطأت في توصيل ثلاث نقاط طائرة إلى اللون المقابل الصحيح، ستنتهي اللعبة.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/374210998/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/374212555/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/dots-final.png">
 </div>
 
