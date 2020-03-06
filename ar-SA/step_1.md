@@ -52,7 +52,7 @@ title: ما ستحتاج إليه
 
 + [للبدء بالمشروع دون الاتصال بالانترنت](http://rpf.io/p/ar-SA/catch-the-dots-go){:target="_blank"}
 
---- collapse ---
+--- /collapse ---
 
 --- collapse ---
 ---
