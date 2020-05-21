@@ -10,7 +10,7 @@ Neste projecto vais aprender a criar um jogo em que o jogador tem que acertar po
 
 \--- no-print \---
 
-Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
+Usa as setas do teclado para girar a roda controladora e pega os pontos voadores á medida que chegarem ao centro. Se perderes três pontos, o jogo acaba.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,7 +21,7 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 \--- print-only \---
 
-![Dots screenshot](images/dots-final.png)
+![Captura de ecrã dos pontos](images/dots-final.png)
 
 \--- /print-only \---
 
@@ -58,12 +58,12 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print).
+Se necessitar imprimir este projeto, por favor utilize a [versão para impressão](https://projects.raspberrypi.org/en/projects/catch-the-dots/print).
 
 \--- /no-print \---
 
-You can find [the completed project here](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+Pode encontrar o [projeto concluído aqui](http://rpf.io/p/en/catch-the-dots-get){:target="_ blank"}.
 
-You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
+Podes encontrar o [projeto concluído aqui](https://scratch.mit.edu/projects/252923761/#editor){: target = "_ blank"}
 
 \--- /collapse \---
