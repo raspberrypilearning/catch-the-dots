@@ -1,20 +1,20 @@
-## Gain points or lose lives
+## Gana puntos o pierde vidas
 
-Now you're going to add some dots that the player needs to collect.
+Ahora vas a agregar algunos puntos que el jugador necesita recoger.
 
 \--- task \---
 
-Create a new sprite called 'red'. This sprite should be a small red dot.
+Crea un nuevo objeto llamado 'rojo'. Este objeto debe ser un pequeño punto rojo.
 
-![Red dot sprite](images/dots-red.png)
+![Objeto punto rojo](images/dots-red.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add this script to your 'red' sprite to create a new clone of the sprite every few seconds:
+Agrega este código a tu objeto 'rojo' para crear un nuevo clon del objeto cada algunos segundos:
 
-![Red dot sprite](images/red-sprite.png)
+![Objeto punto rojo](images/red-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -28,35 +28,35 @@ Add this script to your 'red' sprite to create a new clone of the sprite every f
 
 \--- /task \---
 
-If you click the green flag now, it looks like nothing is happening. This is because all of the cloned sprites are hidden, and they appear in the same place.
+Si ahora haces clic en la bandera verde, parece que nada está sucediendo. Esto se debe a que todos los objetos clonados están ocultos y aparecen en el mismo lugar.
 
-You are going to add code to make each new clone appear in one of the four corners of the Stage.
+Vas a agregar código para hacer que cada nuevo clon aparezca en una de las cuatro esquinas del escenario.
 
-![screenshot](images/dots-start.png)
+![captura de pantalla](images/dots-start.png)
 
 \--- task \---
 
-Create a new list called `start positions`{:class="block3variables"}, click the list's `(+)` icon to add the values `-180`{:class="block3variables"} and `180`{:class="block3variables"}.
+Crea una nueva lista llamada `posiciones de inicio`{:class="block3variables"}, haz clic en el icono `(+)` de la lista para añadir los valores `-180`{:class="block3variables"} y `180`{:class="block3variables"}.
 
-![Red dot sprite](images/red-sprite.png)
+![Objeto punto rojo](images/red-sprite.png)
 
-![List of 180 and -180](images/dots-list.png)
+![Lista de 180 y -180](images/dots-list.png)
 
 [[[generic-scratch3-make-list]]]
 
-Then you can hide the list by unselecting this box:
+Luego puedes ocultar la lista desmarcando este cuadro:
 
-![Hide the list](images/hide-list.png)
+![Oculta la lista](images/hide-list.png)
 
 \--- /task \---
 
-Notice that the coordinate for each corner of the Stage is a combination of `180` and `-180`. This means you can use the list to pick a corner of the Stage at random.
+Observa que la coordenada para cada esquina del escenario es una combinación de `180` y `-180`. Esto significa que puedes usar la lista para elegir una esquina del escenario al azar.
 
 \--- task \---
 
-Add this code to the 'dot' sprite to make each new sprite clone appear in a random corner and then slowly move towards the controller sprite.
+Agrega este código al objeto 'punto' para hacer que cada nuevo clon aparezca en una esquina aleatoria y luego se mueva lentamente hacia el objeto controlador.
 
-![Red dot sprite](images/red-sprite.png)
+![Objeto punto rojo](images/red-sprite.png)
 
 ```blocks3
     when I start as a clone
@@ -70,13 +70,13 @@ Add this code to the 'dot' sprite to make each new sprite clone appear in a rand
 
 \--- /task \---
 
-This new code chooses either `-180` or `180` for the x and y positions, meaning that each 'dot' sprite clone starts in a corner of the Stage.
+Este nuevo código elige `-180` o `180` para las posiciones x e y, significa que cada clon del objeto 'punto' comienza en una esquina del escenario.
 
 \--- task \---
 
-Test your project. You should see red dots appear in the corners of the Stage and move slowly towards the controller.
+Prueba tu proyecto. Deberías ver puntos rojos que aparecen en las esquinas del escenario y se mueven lentamente hacia el controlador.
 
-![screenshot](images/dots-red-test.png)
+![captura de pantalla](images/dots-red-test.png)
 
 \--- /task \---
 
