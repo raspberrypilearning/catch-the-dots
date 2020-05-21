@@ -30,11 +30,11 @@ Voici le code que tu dois rechercher et modifier pour les deux nouveaux sprites:
 ![capture d'écran](images/dots-more-dots.png)
 
 ```blocks3
-    si <touching color [#FF0000]?> alors
-        ajouter (1) à [score v]
-        jouer le son (pop v)
-...
-    fin
+    if <touching color [#FF0000]?> then
+		change [score v] by (1)
+		play sound (pop v)
+        ...
+	end
 ```
 
 --- /hint ---
@@ -44,19 +44,19 @@ Voici le code que tu dois rechercher et modifier pour les deux nouveaux sprites:
 Voici comment tu dois changer le code pour le sprite jaune:
 
 ```blocks3
-    si <couleur [#FFFF00] touchée ? :: +> alors
-        ajouter (1) à [score v]
-        jouer le son (pop v)
-    fin
+    if <touching color [#FFFF00]? :: +> then
+        change [score v] by (1)
+        play sound (pop v)
+	end
 ```
 
 Voici comment tu dois changer le code pour le sprite bleu:
 
 ```blocks3
-    si <couleur [#0000FF] touchée ? :: +> alors
-        ajouter (1) à [score v]
-        jouer le son (pop v)
-    fin
+    if <touching color [#0000FF]? :: +> then
+        change [score v] by (1)
+        play sound (pop v)
+	end
 ```
 
 --- /hint ---
@@ -75,8 +75,8 @@ Change le code du sprite «jaune» pour qu'il attende quatre secondes après que
 
 ```blocks3
     when flag clicked
-    cacher
-+ attendre (4) secondes
+	hide
++	wait (4) seconds
 ```
 
 ![Point bleu](images/blue-sprite.png)

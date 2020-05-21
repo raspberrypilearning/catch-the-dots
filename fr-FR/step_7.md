@@ -42,7 +42,7 @@ Ajoute ton nouveau bloc personnalisé au script de la scène avant la fin du scr
 ![Sprite Scène](images/stage-sprite.png)
 
 ```blocks3
-when flag clciked
+when flag clicked
 mettre (3) à [vies v]
 mettre (0) à [score v]
 attendre jusqu'à ce que <(vies) < (1)>

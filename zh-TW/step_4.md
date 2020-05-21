@@ -30,11 +30,11 @@
 ![截圖](images/dots-more-dots.png)
 
 ```blocks3
-    如果 <碰到顏色 (#ff0000)？:: +> 那麼
-        變數 [分數 v] 改變 (1)
-        播放音效 (sound v) 直到結束
+    if <touching color [#FF0000]?> then
+		change [分數 v] by (1)
+		play sound (pop v)
         ...
-    end
+	end
 ```
 
 --- /hint ---
@@ -44,19 +44,19 @@
 這是黃點角色程式要修改的程式：
 
 ```blocks3
-    如果 <碰到顏色 (#ffff00)？:: +> 那麼
-        變數 [分數 v] 改變 (1)
-        播放音效 (pop v) 直到結束
-    end
+    if <touching color [#FFFF00]? :: +> then
+        change [分數 v] by (1)
+        play sound (pop v)
+	end
 ```
 
 這是藍點角色的程式修改後的樣子：
 
 ```blocks3
-    如果 <碰到顏色 (#0000ff)？ > 那麼
-        變數 [分數 v] 改變 (1)
-        播放音效 (pop v) 直到結束
-    end
+    if <touching color [#0000FF]? :: +> then
+        change [分數 v] by (1)
+        play sound (pop v)
+	end
 ```
 
 --- /hint ---
@@ -74,9 +74,9 @@
 ![黃點](images/yellow-sprite.png)
 
 ```blocks3
-    當 @greenflag 被點擊
-    隱藏
-+   等待 (4) 秒
+    when flag clicked
+	hide
++	wait (4) seconds
 ```
 
 ![藍點](images/blue-sprite.png)
