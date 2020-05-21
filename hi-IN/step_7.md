@@ -1,30 +1,30 @@
-## High score
+## उच्च स्कोर
 
-You're going to save the game's high score, so that players can see how well they are doing.
+आप खेल के उच्च स्कोर को सेव करने जा रहे हैं ताकि खिलाड़ी देख सकें कि वे कितना अच्छा कर रहे हैं।
 
 \--- task \---
 
-Create a new variable called `high score`{:class="block3variables"}.
+एक नया वेरिएबल बनाएं `high score` {:class="block3variables"}.
 
-![Stage sprite](images/stage-sprite.png)
+![स्टेज स्प्राइट](images/stage-sprite.png)
 
 \--- /task \---
 
 \--- task \---
 
-Select the Stage. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
+स्टेज का चयन करें। 'My blocks' पर क्लिक करें और एक नया कस्टम ब्लॉक `check high score` {:class="block3myblocks"} बनाएं I
 
-![Stage sprite](images/stage-sprite.png)
+![स्टेज स्प्राइट](images/stage-sprite.png)
 
-![screenshot](images/dots-custom-1.png)
+![स्क्रीनशॉट](images/dots-custom-1.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your custom block so that the block checks if the current value of `score`{:class="block3variables"} in larger than the value of the `high score`{:class="block3variables"} variable, and then stores the value of `score`{:class="block3variables"} as the new value of `high score`{:class="block3variables"}.
+अपने कस्टम ब्लॉक में कोड जोड़ें ताकि ब्लॉक जाँच कर सके कि ` score` {:class="block3variables"} का वर्तमान मान ` high score` {:class="block3variables"} वेरिएबल के मान से अधिक है या नहीं और फिर ` score` {:class="block3variables"} के मान को ` high score` {:class="block3variables"} के नए मूल्य के रूप में सेव करें I
 
-![Stage sprite](images/stage-sprite.png)
+![स्टेज स्प्राइट](images/stage-sprite.png)
 
 ```blocks3
     define check high score
@@ -37,9 +37,9 @@ Add code to your custom block so that the block checks if the current value of `
 
 \--- task \---
 
-Add your new custom block to the Stage script before the end of the script.
+स्क्रिप्ट को अंत करने से पहले स्टेज स्क्रिप्ट में अपना नया कस्टम ब्लॉक जोड़ें।
 
-![Stage sprite](images/stage-sprite.png)
+![स्टेज स्प्राइट](images/stage-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -55,6 +55,6 @@ stop [all v]
 
 \--- task \---
 
-Play your game twice to check whether your score gets correctly saved as the `high score`{:class="block3variables"}.
+अपना गेम दो बार खेलें ये देखने के लिए की आपका स्कोर ठीक तरीके से ` high score ` {:class="block3variables"} में सेव हो रहा है या नहीं।
 
 \--- /task \---
