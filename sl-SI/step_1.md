@@ -26,8 +26,9 @@ Za vrtenje krmila uporabi smerne tipke in ujemi pike, ko dosežejo središče. �
 --- /print-only ---
 
 --- collapse ---
-
-## title: Kaj se boš naučil?
+---
+title: Kaj se boš naučil?
+---
 
 + Kako izbrati naključne elemente iz seznama
 + Kako uporabljati spremenljivke za nadzor hitrosti, življenj in igralčevih točk
