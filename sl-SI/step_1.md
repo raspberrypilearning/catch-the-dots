@@ -65,8 +65,8 @@ Za tiskanje tega projekta, prosimo uporabite [tiskalniku prijazno različico](ht
 
 --- /no-print ---
 
-Zaključen projekt lahko najdete [tukaj](http://rpf.io/p/sl-SI/catch-the-dots-get)}.
+Zaključen projekt lahko najdete [tukaj](http://rpf.io/p/sl-SI/catch-the-dots-get).
 
-Zaključen projekt lahko najdete [tukaj](https://scratch.mit.edu/projects/252923761/#editor)}
+Zaključen projekt lahko najdete [tukaj](https://scratch.mit.edu/projects/252923761/#editor).
 
 --- /collapse ---

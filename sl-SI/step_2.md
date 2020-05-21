@@ -27,12 +27,12 @@ Figuri krmila dodaj kodo, ki povzroči, da se krmilo obrača v desno, ko igralec
 ![Figura krmila](images/controller-sprite.png)
 
 ```blocks3
-    ko kliknemo na zastavico
-  ponavljaj
-    če <je pritisnjena tipka [puščica v desno v]?> potem
-      obrni se za (3) stopinj desno
-    konec
-  konec
+  when flag clicked
+	forever
+		if <key (right arrow v) pressed?> then
+			turn right (3) degrees
+		end
+	end
 ```
 
 --- /task ---
@@ -63,11 +63,11 @@ Najdi kodo, ki preverja ali je pritisnjena desna smerna tipka in ki povzroči, d
 To so potrebni bloki:
 
 ```blocks3
-<je pritisnjena tipka (puščica levo)?>
+<<key (space v) pressed?>
 
-obrni se za (15) stopinj levo
+turn left(15) degrees
 
-če <> potem
+if <> then
 
 end
 ```
@@ -79,16 +79,15 @@ end
 Tvoja koda naj bi izgledala tako:
 
 ```blocks3
-    ko kliknemo na zastavico
-  ponavljaj
-    če <je pritisnjena tipka [puščica v desno v]?> potem
-    obrni se za (3) stopinj v desno
-  konec
-
-+  če <je pritisnjena tipka [puščica v levov]?> potem
-    obrni se za (3) stopinj v levo
-  konec
-konec
+    when flag clicked
+	  forever
+		  if <key (right arrow v) pressed?> then
+			  turn right (3) degrees
+		  end
++ 		if <key (left arrow v) pressed?> then
+			  turn left(3) degrees
+		end
+	end
 ```
 
 --- /hint ---

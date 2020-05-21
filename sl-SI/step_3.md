@@ -17,13 +17,13 @@ Figuri 'rdeča' dodaj sledeče ukaze, da bi vsakih nekaj sekund ustvaril dvojnik
 ![Figura rdeče pike](images/red-sprite.png)
 
 ```blocks3
-    ko kliknemo na zastavico
-  skrij
-  počakaj (2) sekund
-  ponavljaj
-    usvari dvojnika (sebe v)
-    počakaj (naključno število med (1) in (10)) sekund
-  konec
+  when flag clicked
+	hide
+	wait (2) seconds
+	forever
+		create clone of (myself v)
+		wait (pick random (5) to (10)) secs
+	end
 ```
 
 --- /task ---
@@ -59,13 +59,13 @@ Dodaj to kodo v figuro 'pika', da se vsak dovjnik figure pojavi v naključno izb
 ![Figura rdeče pike](images/red-sprite.png)
 
 ```blocks3
-    ko začnem kot dvojnik
-  pojdi na x: (element (naključno število med (1) in (2) v [začetne pozicije v]) y: (element (naključno število med (1) in (2)) v [začetne pozicije v])
-  obrni se proti (krmilo v)
-  pokaži
-  ponavljaj do <se dotika (krmilo)?>
-    pojdi (1) korakov
-  konec
+  when I start as a clone
+	go to x: (item (pick random (1) to (2)) of [začetne pozicije v]) y: (item (pick random (1) to (2)) of [začetne pozicije v])
+	point towards (krmilo v)
+	show
+	repeat until <touching (krmilo v)?>
+		move (1) steps
+	end
 ```
 
 --- /task ---
@@ -95,9 +95,9 @@ Odru dodaj kodo, ki ob pričetku igre nastavi spremenljivko `življenja`{:class=
 ![Figura odra](images/stage-sprite.png)
 
 ```blocks3
-ko kliknemo na zastavico
-nastavi [življenja v] na (3)
-nastavi [točke v] na (0)
+when flag clicked
+set [življenja v] to (3)
+set [točke v] to (0)
 ```
 
 --- /task ---
@@ -109,8 +109,8 @@ Na konec programa odra dodaj še to kodo, ki bo končala igro, kadar igralec izg
 ![Figura odra](images/stage-sprite.png)
 
 ```blocks3
-    počakaj dokler ni <(življenja :: variables) < [1]>
-    ustavi [vse v]
+    wait until <(življenja :: variables) < [1]>
+	  stop [all v]
 ```
 
 --- /task ---
@@ -130,15 +130,15 @@ Potem dodaj kodo, ki bodisi doda `1` spremenljivki `točke`{:class="block3variab
 ![Figura rdeče pike](images/red-sprite.png)
 
 ```blocks3
-    pojdi (5) korakov
-  če <se dotika barve [#FF0000]?> potem
-    spremeni [točke v] za (1)
-    predvajaj zvok (pop) do konca
-  sicer
-    spremeni [življenja v] za (-1)
-    predvajaj zvok (Laser1 v) do konca
-  konec
-  zbriši tega dvojnika
+  move (5) steps
+	if <touching color [#FF0000]?> then
+		change [točke v] by (1)
+		play sound (pop v) until done
+	else
+		change [življenja v] by (-1)
+		play sound (Laser1 v) until done
+	end
+	delete this clone
 ```
 
 --- /task ---

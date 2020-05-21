@@ -30,11 +30,11 @@ To je koda, ki jo moraš poiskati in prilagoditi figurama:
 ![posnetek zaslona](images/dots-more-dots.png)
 
 ```blocks3
-      če <se dotika barve [#FF0000]?>
-    spremeni [točke v] za (1)
-    predvajaj zvok (pop) do konca
+  if <touching color [#FF0000]?> then
+		change [točke v] by (1)
+		play sound (pop v)
     ...
-    konec
+	end
 ```
 
 --- /hint ---
@@ -44,19 +44,19 @@ To je koda, ki jo moraš poiskati in prilagoditi figurama:
 Kodo za rumeno figuro moraš spremeniti na takšen način:
 
 ```blocks3
-      če <se dotika barve [#FFFF00]? :: +> potem
-    spremeni [točke v] za (1)
-    predvajaj zvok (pop v)
-  konec
+  if <touching color [#FFFF00]? :: +> then
+    change [točke v] by (1)
+    play sound (pop v)
+	end
 ```
 
 Tako moraš spremeniti kodo za modro figuro:
 
 ```blocks3
-    če <se dotika barve [#0000FF]? :: +> potem
-    spremeni [točke v] za (1)
-    predvajaj zvok (pop v)
-  konec
+  if <touching color [#0000FF]? :: +> then
+    change [točke v] by (1)
+    play sound (pop v)
+	end
 ```
 
 --- /hint ---
@@ -74,9 +74,9 @@ Spremeni kodo za figuro pike 'rumena', da bo počakala štiri sekunde, po kliku 
 ![Rumena pika](images/yellow-sprite.png)
 
 ```blocks3
-    ko kliknemo na zastavico
-  skrij
-+   počakaj (4) sekund
+    when flag clicked
+	  hide
++	  wait (4) seconds
 ```
 
 ![Modra pika](images/blue-sprite.png)

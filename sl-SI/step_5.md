@@ -17,12 +17,12 @@ Pojdi v program odra in ustvari novo zaporedje ukazov, ki nastavi spremenljivko 
 ![Figura odra](images/stage-sprite.png)
 
 ```blocks3
-    ko kliknemo na zastavico
-  nastavi [zamik v] na (8)
-  ponavljaj dokler  < (zamik) = (2)>
-      počakaj (10) sekund
-      spremeni [zamik v] za (-0.5)
-  konec
+  when flag clicked
+	set [zamik v] to (8)
+	repeat until < (zamik) = (2)>
+		wait (10) seconds
+		change [zamik v] by (-0.5)
+	end
 ```
 
 --- /task ---
@@ -38,8 +38,8 @@ Izbriši kodo, ki skrbi za to, da igra čaka naključno število sekund med ustv
 ![posnetek zaslona](images/all-dots.png)
 
 ```blocks3
-- počakaj (naključno število med (5) in (10)) sekund
-  počakaj (zamik :: variables) sekund
+- 	wait (pick random (5) to (10)) secs
+	  wait (zamik :: variables) secs
 ```
 
 To naredi za vse tri figure.

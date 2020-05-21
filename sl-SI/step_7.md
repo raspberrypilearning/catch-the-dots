@@ -27,10 +27,10 @@ Tvojemu bloku dodaj kodo, ki preveri ali je trenutna vrednost spremenljivke `to�
 ![Figura odra](images/stage-sprite.png)
 
 ```blocks3
-    definiraj preveri najboljši rezultat
-    if <(točke :: variables) > (najboljši rezultat)> potem
-        nastavi [najboljši rezultat v] na (točke :: variables)
-    konec
+    define preveri najboljši rezultat
+	if <(točke :: variables) > (najboljši rezultat)> then
+		set [najboljši rezultat v] to (točke :: variables)
+	end
 ```
 
 --- /task ---
@@ -42,12 +42,12 @@ Dodaj svoj novi blok v kodo odra v zaključek programa, pred koncem.
 ![Figura odra](images/stage-sprite.png)
 
 ```blocks3
-ko kliknemo na zastavico
-nastavi [življenja v] na (3)
-nastavi [točke v] na (0)
-počakaj dokler ni <(življenja) < (1)>
+when flag clicked
+set [življenja v] to (3)
+set [točke v] to (0)
+wait until <(življenja) < (1)>
 + preveri najboljši rezultat :: custom
-ustavi [vse v]
+stop [all v]
 ```
 
 --- /task ---
