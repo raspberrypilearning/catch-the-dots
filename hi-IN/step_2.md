@@ -1,30 +1,30 @@
-## Create a controller
+## कंट्रोलर बनाना
 
-Start by creating a controller that the player will use to collect dots.
+एक कंट्रोलर बनाकर शुरू करें जो खिलाड़ी डॉट्स को इकट्ठा करने के लिए उपयोग करेगा।
 
 \--- task \---
 
-Open the 'Catch the dots' Scratch starter project.
+'Catch the dots' Scratch स्टार्टर प्रोजेक्ट खोलें।
 
-**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
+**ऑनलाइन:** [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"} पर स्टार्टर प्रोजेक्ट खोलें I
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+यदि आपके पास एक Scratch अकाउंट है, तो आप ** Remix ** पर क्लिक करके कापी बना सकते हैं।
 
-**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
+** ऑफ़लाइन: ** स्टार्टर प्रोजेक्ट को [ rpf.io/p/en/catch-the-dots-go ](http://rpf.io/p/en/catch-the-dots-go) से डाउनलोड करें और फिर इसे Scratch ऑफ़लाइन एडीटर में खोलें।
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+यदि आपको स्क्रैच ऑफ़लाइन एडीटर को डाउनलोड और इंस्टॉल करने की आवश्यकता है तो आप उसे [rpf.io/scratchoff](http://rpf.io/scratchoff) {:target="_blank"} पर पा सकते हैं।
 
 \--- /task \---
 
-You should see a controller sprite:
+आपको एक कंट्रोलर स्प्राइट दिखना चाहिए:
 
-![screenshot](images/dots-controller.png)
+![स्क्रीनशॉट](images/dots-controller.png)
 
 \--- task \---
 
-Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
+यदि खिलाड़ी दाहिना एरो बटन दबाता है तो स्प्राइट को दाहिने तरफ मोड़ने के लिए कंट्रोलर स्प्राइट में कुछ कोड जोड़ें:
 
-![Controller sprite](images/controller-sprite.png)
+![कंट्रोलर स्प्राइट](images/controller-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -39,27 +39,27 @@ Add some code to the controller sprite to make the sprite turn right if the play
 
 \--- task \---
 
-Test your code. The controller should spin to the right when you press the right arrow key.
+अपने कोड का परीक्षण करें। जब आप दाईं एरो को दबाते हैं कंट्रोलर को दाईं ओर स्पिन करना चाहिए ।
 
 \--- /task \---
 
 \--- task \---
 
-Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
+यदि खिलाड़ी बाएं एरो बटन दबाता है तो स्प्राइट को बाएं तरफ मोड़ने के लिए कंट्रोलर स्प्राइट में कुछ कोड जोड़ें:
 
-![Controller sprite](images/controller-sprite.png)
+![कंट्रोलर स्प्राइट](images/controller-sprite.png)
 
 \--- hints \---
 
 \--- hint \---
 
-Find the code that checks whether the right arrow key is pressed and makes the sprite turn right. Can you add a copy of this code, and change the copy so it checks whether the left arrow key is pressed and makes the sprite turn left?
+उस कोड को ढूंढें जो यह जांचता है कि क्या दाहिना एरो बटन दबाया गया है और स्प्राइट को दाहिने तरफ मोड़े। क्या आप इस कोड की एक कापी जोड़ सकते हैं और कापी को बदल सकते हैं ताकि यह जांच सके कि क्या बायाँ एरो बटन दबाने पर स्प्राइट बाएं ओर मुड़ता है या नहीं?
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+यहाँ पर ब्लॉक्स हैं जिनकी आपको आवश्यकता होगी:
 
 ```blocks3
 <key (space v) pressed?>
@@ -75,7 +75,7 @@ end
 
 \--- hint \---
 
-Here is what your code should look like:
+आपका कोड कुछ इस तरह दिखेगा:
 
 ```blocks3
     when flag clicked
