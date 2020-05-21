@@ -1,5 +1,5 @@
-## Challenge: faster dots
+## चुनौती: तीव्र डॉट्स
 
-Can you improve your game by adding a `speed`{:class="block3variables"} variable and using this new variable to make the dot change their speed over time? The clones should start by moving one step at a time, and then steadily get faster and faster.
+क्या आप ` speed` {"class="block3variables"} वेरिएबल जोड़कर अपना गेम सुधार कर सकते हैं और इस नए वेरिएबल को उपयोग करके समय के साथ डॉट की गति में बदलाव कर सकते हैं? क्लोन को एक बार में एक कदम आगे बढ़ना शुरू करना चाहिए, और फिर व्यवस्थित रुप से तेज और तेज होना चाहिए।
 
-The code you need for this is very similar to the code in which you've used the `delay`{:class="block3variables"} variable.
+इसके लिए आपको जिस कोड की आवश्यकता है वह उस कोड के समान है जिसे ` delay` {"class=" block3variables"} वेरिएबल में उपयोग किया गया है।
