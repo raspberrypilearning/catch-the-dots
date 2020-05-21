@@ -2,31 +2,31 @@
 
 \--- task \---
 
-Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
+Duplica o teu actor ponto 'vermelho' duas vezes, e nomeia os dois novos actores de 'amarelo' e 'azul'.
 
-![screenshot](images/dots-more-dots.png)
-
-\--- /task \---
-
-\--- task \---
-
-Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue.
+![captura de ecrã](images/dots-more-dots.png)
 
 \--- /task \---
 
 \--- task \---
 
-Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
+Muda o traje de cada actor para a cor correta: o actor 'amarelo' deve ser amarelo, e o 'azul' azul.
 
-![screenshot](images/dots-all-test.png)
+\--- /task \---
+
+\--- task \---
+
+Muda a cor de cada actor de maneira a que o jogador tenha que acertar o 'ponto' clone com a cor correta no controlador para marcar pontos.
+
+![captura de ecrã](images/dots-all-test.png)
 
 \--- hints \---
 
 \--- hint \---
 
-This is the code you need to find and alter for both new sprites:
+Este é o código que precisas de encontrar e alterar para ambos os actores:
 
-![screenshot](images/dots-more-dots.png)
+![captura de ecrã](images/dots-more-dots.png)
 
 ```blocks3
     se <estás a tocar na cor [#FF0000]> , então 
@@ -40,7 +40,7 @@ This is the code you need to find and alter for both new sprites:
 
 \--- hint \---
 
-This is how you need to change the code for the yellow sprite:
+Aqui está como precisas de mudar o código para o actor amarelo:
 
 ```blocks3
     if <touching color [#FFFF00]? se <estás a tocar na cor [#FFFF00]:: +>, então 
@@ -49,7 +49,7 @@ This is how you need to change the code for the yellow sprite:
 end
 ```
 
-This is how you need to change the code for the blue sprite:
+Assim é como precisas de mudar o código para o actor azul:
 
 ```blocks3
     se <estás a tocar na cor [#0000FF]? :: +>, então 
@@ -64,13 +64,13 @@ end
 
 \--- /task \---
 
-If you play the game now, you can see that the dots sometimes get created one top of each other.
+Se jogares o jogo agora, podes ver que ás vezes os pontos são criados um em cima do outro.
 
 \--- task \---
 
-Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
+Muda o código do actor 'amarelo' para que espere quatro segundos depois de a bandeira ser clicada antes de aparecer.
 
-![Yellow dot](images/yellow-sprite.png)
+![Ponto amarelo](images/yellow-sprite.png)
 
 ```blocks3
     Quando alguém clicar na bandeira verde
@@ -78,8 +78,8 @@ Change the code for the 'yellow' dot sprite so that it waits four seconds after 
 +    espera (4) s
 ```
 
-![Blue dot](images/blue-sprite.png)
+![Ponto azul](images/blue-sprite.png)
 
-Then change the code for the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
+Depois muda o código do actor 'azul' para que espere 6 segundos, depois de a bandeira ser clicada, antes de aparecer.
 
 \--- /task \---
