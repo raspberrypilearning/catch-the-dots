@@ -1,6 +1,6 @@
-## Create a controller
+## Crear un controlador
 
-Start by creating a controller that the player will use to collect dots.
+Comienza creando un controlador que el jugador utilizará para atrapar los puntos.
 
 \--- task \---
 
