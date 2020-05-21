@@ -1,61 +1,61 @@
-## More dots
+## 더 많은 점 만들기
 
 \--- task \---
 
-Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
+빨간 점 스프라이트를 두 번 복제하고 이름을 '노랑'과 '파랑'으로 설정하세요.
 
-![screenshot](images/dots-more-dots.png)
+![스크린샷](images/dots-more-dots.png)
 
 \--- /task \---
 
 \--- task \---
 
-Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue.
+각 스프라이트의 색을 알맞게 설정하세요. 예를 들면 노랑 스프라이트는 노란색이어야 하고, 파랑 스프라이트는 파란색이어야 합니다.
 
 \--- /task \---
 
 \--- task \---
 
-Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
+각 스프라이트의 코드를 바꿔서 플레이어가 점수를 얻기 위해서 컨트롤러의 색과 점 복제본의 색을 맞추게 하세요.
 
-![screenshot](images/dots-all-test.png)
+![스크린샷](images/dots-all-test.png)
 
 \--- hints \---
 
 \--- hint \---
 
-This is the code you need to find and alter for both new sprites:
+이것은 새로운 스프라이트에 들어가야 할 코드입니다.
 
-![screenshot](images/dots-more-dots.png)
+![스크린샷](images/dots-more-dots.png)
 
 ```blocks3
-    if <touching color [#FF0000]?> then
-        change [score v] by (1)
-        play sound (pop v)
-        ...
-    end
+    만약 <touching color [#FF0000]?> \(이\) 라면 
+  [score v] 을\(를\) (1) 만큼 바꾸기
+  (pop v) 재생하기
+  . . .
+    끝
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-This is how you need to change the code for the yellow sprite:
+이것은 당신이 노랑 스프라이트에 넣어야 할 코드입니다:
 
 ```blocks3
-    if <touching color [#FFFF00]? :: +> then
-        change [score v] by (1)
-        play sound (pop v)
-    end
+    <[#FFFF00] 색에 닿았는가?  :: +> \(이\)라면 
+  [score v] 을\(를\) (1) 만큼 바꾸기
+  (pop v) 재생하기
+end
 ```
 
-This is how you need to change the code for the blue sprite:
+이것은 당신이 파랑 스프라이트에 넣어야 할 코드입니다:
 
 ```blocks3
-    if <touching color [#0000FF]? :: +> then
-        change [score v] by (1)
-        play sound (pop v)
-    end
+    <[#0000FF] 색에 닿았는가? :: +> \(이\)라면 
+  [score v] 을\(를\) (1) 만큼 바꾸기
+  (pop v) 재생하기
+end
 ```
 
 \--- /hint \---
@@ -64,22 +64,22 @@ This is how you need to change the code for the blue sprite:
 
 \--- /task \---
 
-If you play the game now, you can see that the dots sometimes get created one top of each other.
+만약 당신이 지금 게임을 플레이하면 가끔 점들이 서로의 위에 생성되는 것을 볼 수 있습니다.
 
 \--- task \---
 
-Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
+'노랑' 점 스프라이트의 코드를 바꿔서 깃발이 클릭되고 4초 후에 나타나게 하세요.
 
-![Yellow dot](images/yellow-sprite.png)
+![노랑 점](images/yellow-sprite.png)
 
 ```blocks3
-    when flag clicked
-    hide
-+   wait (4) seconds
+    ⚑ 클릭했을 때
+숨기기
++ (4) 초 기다리기
 ```
 
-![Blue dot](images/blue-sprite.png)
+![파랑 점](images/blue-sprite.png)
 
-Then change the code for the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
+그 다음, '파랑' 점 스프라이트의 코드를 바꿔서 깃발이 클릭되고 6초 후에 나타나게 하세요.
 
 \--- /task \---
