@@ -1,56 +1,56 @@
-## Increase the difficulty
+## 난이도 올리기
 
-Now you're going to make the game more difficult the longer the player plays it. You will do this by making the dots appear faster and faster over time.
+이제 당신은 게임이 진행될수록 게임이 더 어려워지게 만들겁니다. 점들이 점점 더 빠르게 나타나게 하면 게임이 어려워질 것입니다.
 
 \--- task \---
 
-Create a new `variable`{:class="block3variables"} called 'delay'.
+새 `변수`{:class="block3variables"}를 만들고 '지연 시간'이라는 이름을 붙이세요
 
-![Stage sprite](images/stage-sprite.png)
+![무대 스프라이트](images/stage-sprite.png)
 
 \--- /task \---
 
 \--- task \---
 
-Go to the Stage's Scripts area and create a new script that sets the `delay`{:class="block3variables"} variable to `8` and then slowly reduces the value of `delay`{:class="block3variables"} while the game runs.
+스테이지의 스크립트 부분으로 가서 새 스크립트를 생성하고 변수 `지연 시간`{:class="block3variables"}을 `8`로 설정하고 게임이 진행될수록 `지연 시간`{:class="block3variables"}의 값이 줄어들게 하세요.
 
-![Stage sprite](images/stage-sprite.png)
+![무대 스프라이트](images/stage-sprite.png)
 
 ```blocks3
-    when flag clicked
-    set [delay v] to (8)
-    repeat until < (delay) = (2)>
-        wait (10) seconds
-        change [delay v] by (-0.5)
-    end
+    ⚑ 클릭했을 때
+[delay v] 을\(를\) (8) 로 정하기
+<(delay) = (2)> 까지 반복하기 
+  (10) 초 기다리기
+  [delay v] 을\(를\) (-0.5) 만큼 바꾸기
+end
 ```
 
 \--- /task \---
 
-Notice that this code is very similar to the code you would use to create a countdown timer!
+이 코드는 타이머를 만들 때의 코드와 아주 비슷하다는 점을 알아두세요!
 
-Next, use the `delay`{:class="block3variables"} variable in the code scripts of the 'red', 'yellow', and 'blue' sprites.
+다음으로 빨강, 노랑, 파랑 스프라이트의 코드 스크립트에서 변수 `지연 시간`{:class="block3variables"}을 사용하세요.
 
 \--- task \---
 
-Remove the code block that makes the game wait a random number of seconds between making the dot sprite clones. Replace the block you've removed with your new `delay`{:class="block3variables"} variable:
+임의의 시간 간격을 가지고 점 스프라이트가 복제되도록 만드는 코드 블럭을 삭제하세요. 당신이 지운 블럭을 변수 `지연 시간`{:class="block3variables"} 으로 바꾸세요.
 
-![screenshot](images/all-dots.png)
+![스크린샷](images/all-dots.png)
 
 ```blocks3
-<br />-   wait (pick random (5) to (10)) secs
-    wait (delay :: variables) secs
+<br />((5) 부터 (10) 사이의 난수) 초 기다리기
+(delay :: variables) 초 기다리기
 ```
 
-Do this for all three dot sprites.
+세 점 스프라이트에 이 작업을 하세요.
 
 \--- /task \---
 
 \--- task \---
 
-Test the game, and check whether the dots begin to appear more quickly as the game goes on.
+게임을 테스트하고, 게임이 진행될 수록 점들이 더 빨리 등장하는지 확인하세요.
 
-+ Does this work for all three coloured dots?
-+ Can you see that the value of the `delay`{:class="block3variables"} variable decreases?
++ 세가지 색의 점들 모두에서 제대로 작동하나요?
++ 변수 `지연 시간`{:class="block3variables"} 값이 줄어드는게 보이나요?
 
 \--- /task \---
