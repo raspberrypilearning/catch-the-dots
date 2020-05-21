@@ -1,4 +1,4 @@
-## Criar um controlador
+## Create a controller
 
 Comece a criar um controlador que o jogador vai usar para apanhar os pontos.
 
