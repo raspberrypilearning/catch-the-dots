@@ -1,32 +1,32 @@
-## More dots
+## ज़्यादा डॉट्स
 
 \--- task \---
 
-Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
+अपने 'red' डॉट को दो बार डुप्लिकेट करें, और दो नए स्प्राइट्स को 'yellow' और 'blue' नाम दें।
 
-![screenshot](images/dots-more-dots.png)
+![स्क्रीनशॉट](images/dots-more-dots.png)
 
 \--- /task \---
 
 \--- task \---
 
-Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue.
+प्रत्येक नए स्प्राइट की पोशाक को बदलें ताकि यह सही रंग हो: 'पीला' स्प्राइट पीला होना चाहिए, और 'ब्लू' स्प्राइट नीला होना चाहिए।
 
 \--- /task \---
 
 \--- task \---
 
-Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
+प्रत्येक स्प्राइट के कोड को बदलें ताकि खिलाड़ी को अंक स्कोर करने के लिए कंट्रोलर पर सही रंग से डॉट क्लोन मिलाना पड़े।
 
-![screenshot](images/dots-all-test.png)
+![स्क्रीनशॉट](images/dots-all-test.png)
 
 \--- hints \---
 
 \--- hint \---
 
-This is the code you need to find and alter for both new sprites:
+यह वह कोड है जिसे आपको नए स्प्राइट्स खोजने और बदलने के लिए की आवश्यकता पड़ेगी:
 
-![screenshot](images/dots-more-dots.png)
+![स्क्रीनशॉट](images/dots-more-dots.png)
 
 ```blocks3
     if <touching color [#FF0000]?> then
@@ -40,7 +40,7 @@ This is the code you need to find and alter for both new sprites:
 
 \--- hint \---
 
-This is how you need to change the code for the yellow sprite:
+इस तरह से आपको पीले स्प्राइट के लिए कोड बदलने की आवश्यकता पड़ेगी:
 
 ```blocks3
     if <touching color [#FFFF00]? :: +> then
@@ -49,7 +49,7 @@ This is how you need to change the code for the yellow sprite:
     end
 ```
 
-This is how you need to change the code for the blue sprite:
+यह आपको नीले स्प्राइट के लिए कोड बदलने की आवश्यकता पड़ेगी:
 
 ```blocks3
     if <touching color [#0000FF]? :: +> then
@@ -64,13 +64,13 @@ This is how you need to change the code for the blue sprite:
 
 \--- /task \---
 
-If you play the game now, you can see that the dots sometimes get created one top of each other.
+यदि आप अभी गेम खेलते हैं तो आप देख सकते हैं कि डॉट्स कभी-कभी एक-दूसरे के शीर्ष पर बने होंगे।
 
 \--- task \---
 
-Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
+'yellow ’डॉट स्प्राइट के लिए कोड बदलें ताकि झंडे पर क्लिक करने के बाद वह चार सेकण्ड्स प्रतीक्षा करे और फिर दिखाई दे I
 
-![Yellow dot](images/yellow-sprite.png)
+![येलो डॉट](images/yellow-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -78,8 +78,8 @@ Change the code for the 'yellow' dot sprite so that it waits four seconds after 
 +   wait (4) seconds
 ```
 
-![Blue dot](images/blue-sprite.png)
+![ब्लू डॉट](images/blue-sprite.png)
 
-Then change the code for the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
+'blue ’डॉट स्प्राइट के लिए कोड बदलें ताकि झंडे पर क्लिक करने के बाद वह 6 सेकण्ड्स प्रतीक्षा करे और फिर दिखाई दे।
 
 \--- /task \---
