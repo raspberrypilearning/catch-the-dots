@@ -63,7 +63,7 @@ Najdi kodo, ki preverja ali je pritisnjena desna smerna tipka in ki povzroči, d
 To so potrebni bloki:
 
 ```blocks3
-<<key (space v) pressed?>
+<key (space v) pressed?>
 
 turn left(15) degrees
 
