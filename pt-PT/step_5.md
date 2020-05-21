@@ -4,17 +4,17 @@ Agora vais tornar o jogo mais difícil à medida que o jogador o for jogando. Fa
 
 \--- task \---
 
-Create a new `variable`{:class="block3variables"} called 'delay'.
+Cria uma nova `variável`{:class="block3variables"} chamada 'atraso'.
 
-![Stage sprite](images/stage-sprite.png)
+![Actor palco](images/stage-sprite.png)
 
 \--- /task \---
 
 \--- task \---
 
-Go to the Stage's Scripts area and create a new script that sets the `delay`{:class="block3variables"} variable to `8` and then slowly reduces the value of `delay`{:class="block3variables"} while the game runs.
+Vai para a área dos Guiões do Palco e cria um novo guião que altera a variável `atraso`{:class="block3variables"} para `8` e depois lentamente reduz o valor de `atraso`{:class="block3variables"} enquanto o jogo corre.
 
-![Stage sprite](images/stage-sprite.png)
+![Actor palco](images/stage-sprite.png)
 
 ```blocks3
     Quando alguém clicar na bandeira verde
@@ -27,30 +27,30 @@ end
 
 \--- /task \---
 
-Notice that this code is very similar to the code you would use to create a countdown timer!
+Nota que este código é muito parecido com o código que usarias para fazer um temporizador de contagem regressiva!
 
-Next, use the `delay`{:class="block3variables"} variable in the code scripts of the 'red', 'yellow', and 'blue' sprites.
+Em seguida, usa a variável `atraso`{:class="block3variables"} nos guiões de código dos actores 'vermelho', 'amarelo' e 'azul'.
 
 \--- task \---
 
-Remove the code block that makes the game wait a random number of seconds between making the dot sprite clones. Replace the block you've removed with your new `delay`{:class="block3variables"} variable:
+Remove o Código que faz o jogo esperar um valor de segundos ao acaso entre criar os clones dos actores ponto. Repõe o bloco que removeste com a tua nova variável `atraso`{:class="block3variables"}:
 
-![screenshot](images/all-dots.png)
+![captura de ecrã](images/all-dots.png)
 
 ```blocks3
 <br />-   espera (um valor ao acaso entre (5) e (10)) s
 espera (delay :: variables) s
 ```
 
-Do this for all three dot sprites.
+Faz isto para os três actores ponto.
 
 \--- /task \---
 
 \--- task \---
 
-Test the game, and check whether the dots begin to appear more quickly as the game goes on.
+Testa o jogo, e verifica se os pontos começam a aparecer mais rapidamente à medida que o jogo avança.
 
 + Isto funciona com todos os três pontos coloridos?
-+ Can you see that the value of the `delay`{:class="block3variables"} variable decreases?
++ Podes verificar que o valor da variável `atraso`{:class="block3variables"} diminui?
 
 \--- /task \---
