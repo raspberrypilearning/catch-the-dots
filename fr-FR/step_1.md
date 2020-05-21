@@ -1,46 +1,72 @@
+--- no-print ---
+
+Ceci est la version **Scratch 3** du projet. Il existe également une version [Scratch 2 du projet](https://projects.raspberrypi.org/fr-FR/projects/catch-the-dots-scratch2).
+
+--- /no-print ---
+
 ## Introduction
 
-Dans ce projet, vous apprendrez à faire un jeu, dans lequel le joueur doit rassembler des points colorés avec la partie correspondante du contrôleur.
+Dans ce projet, tu apprendras à créer un jeu dans lequel le joueur doit faire correspondre des points de couleur avec la couleur exacte de la molette du contrôleur.
+
+--- no-print ---
+
+Utilise les touches fléchées de ton clavier pour faire pivoter la roue du contrôleur et attraper les points volants lorsqu'ils atteignent le centre. Si tu rates trois points, le jeu est terminé.
 
 <div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/44942820/?autostart=false" frameborder="0"></iframe>
- <img src="images/dots-final.png">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/397735112/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <img src="images/dots-final.png">
 </div>
 
+--- /no-print ---
+
+--- print-only ---
+
+![Capture d'écran des points](images/dots-final.png)
+
+--- /print-only ---
 
 --- collapse ---
 ---
-title: Notes du volontaire
+title: Ce que tu vas apprendre
 ---
 
++ Comment choisir des objets au hasard dans une liste
++ Comment utiliser des variables pour suivre la vitesse, les vies et le score du joueur
 
-## Introduction:
-Dans ce projet, les enfants apprendront à faire un jeu, dans lequel le joueur doit avaler des points colorés avec la partie correspondante du contrôleur.
+--- /collapse ---
 
-## Ressources
-Pour ce projet, Scratch 2 devrait être utilisé. Scratch 2 peut ou être utilisée en ligne à [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) ou peut être téléchargé de [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) et utilisé hors connexion.
+--- collapse ---
+---
+title: Ce que tu auras besoin
+---
 
-Vous pouvez trouver une version complétée de ce projet <a href="http://scratch.mit.edu/projects/44942820/#editor">online</a>, Ou il peut être téléchargé en cliquant sur le lien ' Télécharger les Matériels du Projet' pour ce projet, qui contient :
+### Matériel informatique
 
-+ CatchTheDots.sb2
++ Un ordinateur capable d'exécuter Scratch 3
 
-Il y a aussi une version de ce projet avec les ressources externes préchargées. Ceci est disponible en ligne à [jumpto.cc/dots-resources](http://jumpto.cc/dots-resources), Ou il peut être téléchargé en cliquant sur le lien ' Télécharger les Matériels du Projet' pour ce projet, qui contient :
+### Logiciel
 
-+ CatchTheDotsResources.sb2
++ Scratch 3 ([en ligne](http://rpf.io/scratchon){:target="_blank"} ou [hors ligne](http://rpf.io/scratchoff){:target="_blank"})
 
-Ce lien inclut aussi un dossier de ' les Ressources de Projet ' qui contient des images que les enfants devront compléter. Assurez-vous que chaque enfant a l'accès à une copie de ces ressources.
+### Téléchargements
 
-Ressources de projet :
-+ controller.png;
++ [Projet Scratch 2 hors ligne](http://rpf.io/p/fr-FR/catch-the-dots-go){:target="_blank"}
 
-## Objectifs d'apprentissage
-+ Ce projet consolide l'apprentissage de compétences de programmation précédentes apprises.
+--- /collapse ---
 
-## Défis
-+ "Tourner à gauche" - Création de code pour déplacer le contrôleur;
-+ "Plus de points" - Création des points colorés qui doivent correspondre à la partie correcte du contrôleur;
-+ "Points qui ce déplace rapidement" - L'utilisation d'une variable pour augmenter la vitesse des points partout dans le jeu;
-+ "Améliorez votre jeu!" - L'addition des nouveaux points qui manipulent des variables `score`{:class="blockdata"}, `différer`{:class="blockdata"} et `vitesse`{:class="blockdata"};
-+ "Le menu de Jeu" - Création d'un menu, avec des contextes d'étape divers et des boutons pour se déplacer entre eux.
+--- collapse ---
+---
+title: Informations supplémentaires pour les éducateurs
+---
+
+--- no-print ---
+
+Si vous avez besoin d'imprimer ce projet, merci d'utiliser la [Version imprimable](https://projects.raspberrypi.org/fr-FR/projects/catch-the-dots/print).
+
+--- /no-print ---
+
+Vous pouvez trouver le [projet terminé ici](http://rpf.io/p/fr-FR/catch-the-dots-get){:target="_blank"}.
+
+Vous pouvez trouver le [projet terminé ici](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
 
 --- /collapse ---
