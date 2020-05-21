@@ -6,23 +6,23 @@ Comece a criar um controlador que o jogador vai usar para apanhar os pontos.
 
 Open the 'Catch the dots' Scratch starter project.
 
-**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
+**Online:** Abra o projeto inicial em [ rpf.io/dots-on ](http://rpf.io/dots-on){: target="_ blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Se você tiver uma conta Scratch, você pode fazer uma cópia clicando em **Remix**.
 
-**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
+**Offline:** baixe o projeto inicial de [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), e depois abra-o no editor Scratch offline.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+Se você precisar baixar e instalar o editor offline do Scratch, você pode encontrá-lo em [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
 \--- /task \---
 
-You should see a controller sprite:
+Você deve ver uma imagem do ator do controlador:
 
 ![screenshot](images/dots-controller.png)
 
 \--- task \---
 
-Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
+Adicione código ao ator do controlador para fazê-lo girar para a direita se o jogador pressionar a tecla de seta para a direita:
 
 ![Controller sprite](images/controller-sprite.png)
 
