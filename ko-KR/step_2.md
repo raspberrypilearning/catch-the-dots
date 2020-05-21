@@ -1,73 +1,71 @@
-## Create a controller
+## 조종기를 만들어 보세요
 
-Start by creating a controller that the player will use to collect dots.
+플레이어가 점을 잡을 때 이용할 조종기를 만들는 것부터 시작해 봅시다.
 
 \--- task \---
 
-Open the 'Catch the dots' Scratch starter project.
+'점을 잡아라' 파이썬(스크래치) 스타터 프로젝트를 엽니다.
 
-**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
+**온라인: ** [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}에서 스타터 프로젝트를 열 수 있습니다.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Scratch 계정이 있다면, **Remix**를 클릭하여 복사본을 만들 수 있습니다.
 
-**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
+**인터넷이 없는경우:** [ rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go)에서 스타터 프로젝트를 다운로드하고, Scratch 오프라인 에디터로 프로젝트를 열어주세요
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+만약 Scratch 오프라인 에디터가 없는경우 [rpf.io/scratchoff](http://rpf.io/scratchoff)를 통해서 다운받을 수 있습니다.
 
 \--- /task \---
 
-You should see a controller sprite:
+스프라이트 컨트롤러(조종기)가 보일 것입니다 :
 
-![screenshot](images/dots-controller.png)
+![스크린샷](images/dots-controller.png)
 
 \--- task \---
 
-Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
+스프라이트 컨트롤러(조종기)에 코드를 추가하여 오른쪽 방향키를 누르면 스프라이트가 오른쪽으로 회전하도록 만들어 보세요 :
 
-![Controller sprite](images/controller-sprite.png)
+![컨트롤러 스프라이트](images/controller-sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        if <key (right arrow v) pressed?> then
-            turn right (3) degrees
-        end
-    end
+    when 클릭하면
+무한 반복하기 
+  if <key (right arrow v) pressed?> 이면 
+    시계 방향으로 (3)도 회전하기
+  end
+end
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. The controller should spin to the right when you press the right arrow key.
+코드를 테스트 해보세요. 오른쪽 방향키를 누르면 조종기는 시계방향으로 돌아야 합니다.
 
 \--- /task \---
 
 \--- task \---
 
-Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
+코드를 추가해서 스프라이트 조종기를 왼쪽 방향키를 눌렀을 때 조정기가 왼쪽으로 돌아갈 수 있도록 만들어 보세요.
 
-![Controller sprite](images/controller-sprite.png)
+![컨트롤러 스프라이트](images/controller-sprite.png)
 
 \--- hints \---
 
 \--- hint \---
 
-Find the code that checks whether the right arrow key is pressed and makes the sprite turn right. Can you add a copy of this code, and change the copy so it checks whether the left arrow key is pressed and makes the sprite turn left?
+오른쪽 화살표를 누르면 스프라이트가 오른쪽으로 회전하도록 하는 코드를 찾아 보세요. 왼쪽 화살표 키를 누르면 스프라이트가 오른쪽으로 이동하는 코드를 응용할 수 있습니까?
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+필요한 코드 블록은 다음과 같습니다.
 
 ```blocks3
-<key (space v) pressed?>
+<(space v) 키를 눌렸는가?>
 
-turn left(15) degrees
-
-if <> then
-
+시계 반대 방향으로 (15) 도 회전하기
+만약 <> \(이\)라면
 end
 ```
 
@@ -75,19 +73,18 @@ end
 
 \--- hint \---
 
-Here is what your code should look like:
+코드는 다음과 같이 설계되어야 합니다:
 
 ```blocks3
-    when flag clicked
-    forever
-        if <key (right arrow v) pressed?> then
-            turn right (3) degrees
-        end
-
-+       if <key (left arrow v) pressed?> then
-            turn left(3) degrees
-        end
-    end
+    ⚑ 클릭했을 때
+무한 반복하기 
+  만약 <(right arrow v) 키를 눌렸는가?> \(이\)라면 
+    ↻ 방향으로 (3) 도 회전하기
+  end
+  + 만약 <(left arrow v) 키를 눌렸는가?> \(이\)라면 
+  +   ↺ 방향으로 (3) 도 회전하기
+  + end
+end
 ```
 
 \--- /hint \---
