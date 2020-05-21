@@ -1,5 +1,5 @@
-## Challenge: faster dots
+## 도전 과제: 더 빠른 점
 
-Can you improve your game by adding a `speed`{:class="block3variables"} variable and using this new variable to make the dot change their speed over time? The clones should start by moving one step at a time, and then steadily get faster and faster.
+변수 `속도`{:class="block3variables"} 를 추가하고 이 변수를 사용해서 점의 속도가 점점 빨라지게 만들어서 게임을 개선시킬 수 있나요? 처음에는 복제된 점이 한 주기마다 한 번 움직이며 시작하고 나중에는 점점 빨라져야합니다.
 
-The code you need for this is very similar to the code in which you've used the `delay`{:class="block3variables"} variable.
+이 작업을 위해 필요한 코드는 `지연 시간`:class={"block3variables"}변수를 사용할 때의 코드와 아주 비슷합니다.
