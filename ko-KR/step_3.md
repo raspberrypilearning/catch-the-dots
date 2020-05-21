@@ -1,62 +1,62 @@
-## Gain points or lose lives
+## 점수를 얻거나 생명을 잃거나
 
-Now you're going to add some dots that the player needs to collect.
+이제 여러분은 플레이어가 모아야 하는 여러 개의 점들을 추가할 것입니다.
 
 \--- task \---
 
-Create a new sprite called 'red'. This sprite should be a small red dot.
+'빨간색'의 새로운 스프라이트를 만들어 주세요. 이 스프라이트는 조그마한 빨간색 점이 될 것입니다.
 
-![Red dot sprite](images/dots-red.png)
+![빨강 점 스프라이트](images/dots-red.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add this script to your 'red' sprite to create a new clone of the sprite every few seconds:
+매 초마다 '빨강'변수의 복제품을 만들기 위해서 '빨강'변수에 밑의 스크립트를 추가해 주세요.
 
-![Red dot sprite](images/red-sprite.png)
+![빨강 점 스프라이트](images/red-sprite.png)
 
 ```blocks3
-    when flag clicked
-    hide
-    wait (2) seconds
-    forever
-        create clone of (myself v)
-        wait (pick random (5) to (10)) secs
-    end
+    ⚑ 클릭했을 때
+숨기기
+(2) 초 기다리기
+무한 반복하기 
+  (myself v) 복제하기
+  ((5) 부터 (10) 사이의 임의의 수) 초 기다리기
+end
 ```
 
 \--- /task \---
 
-If you click the green flag now, it looks like nothing is happening. This is because all of the cloned sprites are hidden, and they appear in the same place.
+이제 초록색 깃발을 클릭하면, 아무것도 일어나지 않습니다. 왜냐하면 복제된 스프라이트는 매번 같은 곳에서 나타나기 때문에 숨겨져 있는 것처럼 보이기 때문입니다.
 
-You are going to add code to make each new clone appear in one of the four corners of the Stage.
+이제 이 클론들이 같은 장소가 아닌 무대 4군데에 위치한 코너에 나타나도록 코드를 재구성합시다.
 
-![screenshot](images/dots-start.png)
+![스크린샷](images/dots-start.png)
 
 \--- task \---
 
-Create a new list called `start positions`{:class="block3variables"}, click the list's `(+)` icon to add the values `-180`{:class="block3variables"} and `180`{:class="block3variables"}.
+`시작 위치`{:class="block3variables"} 리스트를 만듭니다. 리스트의 `(+)` 아이콘을 클릭하고 변수 값을 `-180`{:class="block3variables"} 과 `180`{:class="block3variables"} 으로 추가합니다.
 
-![Red dot sprite](images/red-sprite.png)
+![빨강 점 스프라이트](images/red-sprite.png)
 
-![List of 180 and -180](images/dots-list.png)
+![180 과 -180의 목록](images/dots-list.png)
 
 [[[generic-scratch3-make-list]]]
 
-Then you can hide the list by unselecting this box:
+그 다음에 이 박스를 선택하지 않는 것으로 리스트를 숨길 수 있습니다:
 
-![Hide the list](images/hide-list.png)
+![목록 숨기기](images/hide-list.png)
 
 \--- /task \---
 
-Notice that the coordinate for each corner of the Stage is a combination of `180` and `-180`. This means you can use the list to pick a corner of the Stage at random.
+무대 내 좌표는 `180` 부터 `-180` 까지 할당됨을 기억하십시오. 이 의미는 여러분들은 목록을 이용해서 모서리를 무작위로 선택할 수 있다는 것입니다.
 
 \--- task \---
 
-Add this code to the 'dot' sprite to make each new sprite clone appear in a random corner and then slowly move towards the controller sprite.
+이 코드를 '점' 스프라이트에 추가하여 각각의 새로운 스프라이트 복제본이 무작위의 모서리에 나타나도록 한 다음 컨트롤러 스프라이트쪽으로 천천히 이동하십시오.
 
-![Red dot sprite](images/red-sprite.png)
+![빨강 점 스프라이트](images/red-sprite.png)
 
 ```blocks3
     when I start as a clone
@@ -70,27 +70,27 @@ Add this code to the 'dot' sprite to make each new sprite clone appear in a rand
 
 \--- /task \---
 
-This new code chooses either `-180` or `180` for the x and y positions, meaning that each 'dot' sprite clone starts in a corner of the Stage.
+이 새로운 코드는 ` -180` 또는 ` 180 ` x 및 y 위치의 경우, 각 '점'스프라이트 클론이 스테이지의 모서리에서 시작됨을 의미합니다.
 
 \--- task \---
 
-Test your project. You should see red dots appear in the corners of the Stage and move slowly towards the controller.
+프로젝트를 테스트하십시오. 스테이지 모서리에 빨간색 점이 나타나고 컨트롤러쪽으로 천천히 움직입니다.
 
-![screenshot](images/dots-red-test.png)
+![스크린샷](images/dots-red-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-Create two new variables called `lives`{:class="block3variables"} and `score`{:class="block3variables"}.
+`생명`{: class = "block3variables"} 과 `점수`{: class = "block3variables"}라는 두 개의 새 변수를 만듭니다.
 
-![Red dot sprite](images/red-sprite.png)
+![빨강 점 스프라이트](images/red-sprite.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your Stage to set the `lives`{:class="block3variables"} variable to `3` and the `score`{:class="block3variables"} to `0` at the start of the game. ![Stage sprite](images/stage-sprite.png)
+Add code to your Stage to set the `lives`{:class="block3variables"} variable to `3` and the `score`{:class="block3variables"} to `0` at the start of the game. ![무대 스프라이트](images/stage-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -102,9 +102,9 @@ set [score v] to (0)
 
 \--- task \---
 
-Add this code to the end of the Stage's script to make the game end when the player loses the last of the lives:
+플레이어가 마지막 생명을 잃을 때 게임을 끝내려면 스테이지의 스크립트 끝에 이 코드를 추가하십시오.
 
-![Stage sprite](images/stage-sprite.png)
+![무대 스프라이트](images/stage-sprite.png)
 
 ```blocks3
     wait until <(lives :: variables) < [1]>
@@ -113,19 +113,19 @@ Add this code to the end of the Stage's script to make the game end when the pla
 
 \--- /task \---
 
-The player should win points for catching dots, and should lose lives for failing to catch dots. A dot can only be caught by matching the colour of the controller to the colour of the dot.
+플레이어는 점을 잡아 포인트를 획득하며, 점을 잡지 못하면 생명을 잃습니다. 점은 컨트롤러의 색을 점의 색과 일치 시켜야만 잡을 수 있습니다.
 
 \--- task \---
 
-Go back to the 'red' dot sprite's Scripts area to add some code blocks to the end of the sprite's `when I start as a clone`{:class="block3control"} script.
+'빨간색'도트 스프라이트의 스크립트 영역으로 돌아가서 복제본으로 시작할 때 스프라이트 `의 끝에 코드 블록을 추가하십시오. ` {: class = "block3control"} 스크립트.
 
-First, make the dot clone `move 5 steps`{:class="block3motion"} so that it overlaps the controller.
+먼저, 컨트롤러와 겹치도록 복제된 점을 ` 5 단계로 이동 `{: class = "block3motion"}
 
-Then add code to either add `1` to `score`{:class="block3variables"} if the colour of the dot clone matches the colour of the controller when they touch, or to take `1` away from `lives`{:class="block3variables"} if their colours don't match.
+컨트롤러와 색깔이 일치하면 `1`을 `점수`{:class="block3variables"}에 더하고, 컨트롤러와 색깔이 다르면 `1`을 `생명`{:class="block3variables"}에서 빼는 코드를 추가하십시오.
 
 [[[generic-scratch3-sound-from-library]]]
 
-![Red dot sprite](images/red-sprite.png)
+![빨강 점 스프라이트](images/red-sprite.png)
 
 ```blocks3
     move (5) steps
@@ -143,9 +143,9 @@ Then add code to either add `1` to `score`{:class="block3variables"} if the colo
 
 \--- task \---
 
-Test your game to make sure that:
+게임을 테스트하여 다음을 확인하십시오.
 
-1. You lose a life if you don’t match a dot with the correct colour
-2. You score a point if you match a dot correctly
+1. 점의 색상과 컨트롤러의 색상이 일치하지 않으면 생명을 잃게됩니다.
+2. 점의 색상과 일치하면 점수를 얻습니다.
 
 \--- /task \---
