@@ -1,20 +1,20 @@
-## Increase the difficulty
+## कठिनाई बढाइये
 
-Now you're going to make the game more difficult the longer the player plays it. You will do this by making the dots appear faster and faster over time.
+अब आप खेल को और अधिक कठिन बनाने जा रहे हैं उस खिलाड़ी के लिए जो इसे अधिक समय तक खेलता है I आप ऐसा करेंगे कि डॉट्स समय के साथ और तेज गति से चलते दिखाई देंगे।
 
 \--- task \---
 
-Create a new `variable`{:class="block3variables"} called 'delay'.
+एक नया ` वेरिएबल ` {"class=" block3variables "} बनाएं जिसे 'delay' कहा जाता है।
 
-![Stage sprite](images/stage-sprite.png)
+![स्टेज स्प्राइट](images/stage-sprite.png)
 
 \--- /task \---
 
 \--- task \---
 
-Go to the Stage's Scripts area and create a new script that sets the `delay`{:class="block3variables"} variable to `8` and then slowly reduces the value of `delay`{:class="block3variables"} while the game runs.
+स्टेज के स्क्रिप्ट्स के क्षेत्र में जाएं और एक नई स्क्रिप्ट बनाएं जो ` delay ` {class = "block3variables"} वेरिएबल सेट करता है `8` से और फिर धीरे-धीरे ` delay`{:class="block3variables"} के मूल्य को कम करता है जब तक गेम चलता है।
 
-![Stage sprite](images/stage-sprite.png)
+![स्टेज स्प्राइट](images/stage-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -27,30 +27,30 @@ Go to the Stage's Scripts area and create a new script that sets the `delay`{:cl
 
 \--- /task \---
 
-Notice that this code is very similar to the code you would use to create a countdown timer!
+ध्यान दें कि यह कोड उस कोड के समान है जो आप एक काउंटडाउन टाइमर बनाने के लिए उपयोग करेंगे!
 
-Next, use the `delay`{:class="block3variables"} variable in the code scripts of the 'red', 'yellow', and 'blue' sprites.
+अगला, ` delay` {"class =" block3variables"} वेरिएबल का उपयोग 'red', 'yellow' और 'blue' स्प्राइट के कोड स्क्रिप्ट में करें।
 
 \--- task \---
 
-Remove the code block that makes the game wait a random number of seconds between making the dot sprite clones. Replace the block you've removed with your new `delay`{:class="block3variables"} variable:
+उस कोड ब्लॉक को निकालें जो गेम को डॉट स्प्राइट क्लोन बनाने के बीच कुछ सेकंड की एक अनियमित संख्या की प्रतीक्षा करता है। आपके द्वारा हटाए गए ब्लॉक को अपने नए ` delay` {:class = "block3variables"} वेरिएबल से बदलें:
 
-![screenshot](images/all-dots.png)
+![स्क्रीनशॉट](images/all-dots.png)
 
 ```blocks3
 <br />-   wait (pick random (5) to (10)) secs
     wait (delay :: variables) secs
 ```
 
-Do this for all three dot sprites.
+ऐसा तीनों डॉट स्प्राइट के लिए करें।
 
 \--- /task \---
 
 \--- task \---
 
-Test the game, and check whether the dots begin to appear more quickly as the game goes on.
+खेल का परीक्षण करें और जाँच करें कि क्या खेल शुरू होते ही समय के साथ डॉट्स अधिक तेज़ी से दिखाई देने लगते हैं।
 
-+ Does this work for all three coloured dots?
-+ Can you see that the value of the `delay`{:class="block3variables"} variable decreases?
++ क्या यह तीनों रंगीन डॉट्स के लिए काम करता है?
++ क्या आप देख सकते हैं कि ` delay` {"class =" block3variables "} वेरिएबल का मूल्य घटता है?
 
 \--- /task \---
