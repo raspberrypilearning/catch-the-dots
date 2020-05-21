@@ -2,10 +2,10 @@ start positions
 
 lives
 
-score
+puntos
 
-delay
+retraso
 
-check high score
+comprobar puntuación alta
 
-high score
+mejor resultado
