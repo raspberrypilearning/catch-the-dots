@@ -17,13 +17,13 @@ Agrega este código a tu objeto 'rojo' para crear un nuevo clon del objeto cada 
 ![Objeto punto rojo](images/red-sprite.png)
 
 ```blocks3
-    when flag clicked
-    hide
-    wait (2) seconds
-    forever
-        create clone of (myself v)
-        wait (pick random (5) to (10)) secs
-    end
+    al hacer clic en la bandera
+    ocultar
+    esperar (2) segundos
+    para siempre
+        crear clon de (myself v)
+        esperar (número al azar (5) a (10)) segundos
+    final
 ```
 
 \--- /task \---
@@ -59,13 +59,13 @@ Agrega este código al objeto 'punto' para hacer que cada nuevo clon aparezca en
 ![Objeto punto rojo](images/red-sprite.png)
 
 ```blocks3
-    when I start as a clone
-    go to x: (item (pick random (1) to (2)) of [start positions v]) y: (item (pick random (1) to (2)) of [start positions v])
-    point towards (controller v)
-    show
-    repeat until <touching (controller v)?>
-        move (1) steps
-    end
+    al comenzar como clon
+  ir a x: (elemento (número aleatorio entre (1) y (2)) de [start positions v]) y: (elemento (número aleatorio entre (1) y (2)) de [start positions v])
+  apuntar hacia (controlador v)
+  mostrar
+  repetir hasta que <touching (controller v)?> 
+    mover (1) pasos
+  end
 ```
 
 \--- /task \---
@@ -82,70 +82,70 @@ Prueba tu proyecto. Deberías ver puntos rojos que aparecen en las esquinas del 
 
 \--- task \---
 
-Create two new variables called `lives`{:class="block3variables"} and `score`{:class="block3variables"}.
+Crea dos nuevas variables llamadas `vidas`{:class="block3variables"} y `puntuación`{:class="block3variables"}.
 
-![Red dot sprite](images/red-sprite.png)
+![Objeto punto rojo](images/red-sprite.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your Stage to set the `lives`{:class="block3variables"} variable to `3` and the `score`{:class="block3variables"} to `0` at the start of the game. ![Stage sprite](images/stage-sprite.png)
+Añade código a tu etapa para establecer la variable `vidas`{:class="block3variables"} a `3` y la `puntuación`{:class="block3variables"} a `0` al comienzo del juego. ![Objeto escenario](images/stage-sprite.png)
 
 ```blocks3
-when flag clicked
-set [lives v] to (3)
-set [score v] to (0)
+al hacer clic en la bandera
+dar a [vidas v] el valor (3)
+dar a [puntos v] el valor (0)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add this code to the end of the Stage's script to make the game end when the player loses the last of the lives:
+Agrega este código al final de la secuencia de comandos del escenario para que el juego termine cuando el jugador pierde la última vida:
 
-![Stage sprite](images/stage-sprite.png)
+![Objeto escenario](images/stage-sprite.png)
 
 ```blocks3
-    wait until <(lives :: variables) < [1]>
-    stop [all v]
+    esperar hasta que <(vidas :: variables) < [1]>
+    detener [todos v]
 ```
 
 \--- /task \---
 
-The player should win points for catching dots, and should lose lives for failing to catch dots. A dot can only be caught by matching the colour of the controller to the colour of the dot.
+El jugador debe ganar puntos por atrapar puntos, y perder vidas por no haber conseguido puntos. Un punto solo puede capturarse haciendo coincidir el color del controlador con el color del punto.
 
 \--- task \---
 
-Go back to the 'red' dot sprite's Scripts area to add some code blocks to the end of the sprite's `when I start as a clone`{:class="block3control"} script.
+Vuelve a la zona de código del objeto 'rojo' para agregar algunos bloques al final del conjunto de bloques que comienza con: `cuando comienzo como un clon`{:class = "block3control"}.
 
-First, make the dot clone `move 5 steps`{:class="block3motion"} so that it overlaps the controller.
+Primero, haz que el clon rojo se `mueva 5 pasos`{:class = "block3motion"} para que se superponga al controlador.
 
-Then add code to either add `1` to `score`{:class="block3variables"} if the colour of the dot clone matches the colour of the controller when they touch, or to take `1` away from `lives`{:class="block3variables"} if their colours don't match.
+Luego agrega el código para sumar `1` a `puntos`{: clase = "block3variables"} si el color del clon coincide con el color del controlador cuando se tocan, o para restar `1` a `vidas`{:class = "block3variables"} si sus colores no coinciden.
 
 [[[generic-scratch3-sound-from-library]]]
 
-![Red dot sprite](images/red-sprite.png)
+![Objeto punto rojo](images/red-sprite.png)
 
 ```blocks3
-    move (5) steps
-    if <touching color [#FF0000]?> then
-        change [score v] by (1)
-        play sound (pop v) until done
-    else
-        change [lives v] by (-1)
-        play sound (Laser1 v) until done
-    end
-    delete this clone
+    mover (5) pasos
+si <touching color [#FF0000]?> entonces 
+  sumar a [puntos v] (1)
+  tocar sonido (pop v) hasta que termine
+si no 
+  sumar a [vidas v] (-1)
+  tocar sonido (Laser1 v) hasta que termine
+fin
+eliminar este clon
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game to make sure that:
+Prueba tu juego para asegurarte de que:
 
-1. You lose a life if you don’t match a dot with the correct colour
-2. You score a point if you match a dot correctly
+1. Pierdes una vida si no haces coincidir un punto con el color correcto
+2. Aumentas tus puntos en 1 si lo haces coincidir
 
 \--- /task \---
