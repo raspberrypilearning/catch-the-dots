@@ -1,53 +1,53 @@
-## High score
+## 최고 점수
 
-You're going to save the game's high score, so that players can see how well they are doing.
+당신은 게임의 최고 점수을 저장하여, 다른 플레이어에게 당신이 얼마나 잘 했는지 볼 수 있게 할 것입니다.
 
 \--- task \---
 
-Create a new variable called `high score`{:class="block3variables"}.
+먼저, `점수`{:class="block3variables"}라는 이름의 새 변수를 추가 해 보세요.
 
-![Stage sprite](images/stage-sprite.png)
+![무대 스프라이트](images/stage-sprite.png)
 
 \--- /task \---
 
 \--- task \---
 
-Select the Stage. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
+스테이지 설정. '나만의 블록'을 클릭해서 `최고 점수 확인`{:class="block3myblocks"}라는 새로운 커스텀 블록을 만드세요.
 
-![Stage sprite](images/stage-sprite.png)
+![무대 스프라이트](images/stage-sprite.png)
 
-![screenshot](images/dots-custom-1.png)
+![스크린샷](images/dots-custom-1.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your custom block so that the block checks if the current value of `score`{:class="block3variables"} in larger than the value of the `high score`{:class="block3variables"} variable, and then stores the value of `score`{:class="block3variables"} as the new value of `high score`{:class="block3variables"}.
+당신의 커스텀 블럭에 코드를 입력해서 현재 `점수`{:class="block3variables"}가 `최고 점수`{:class="block3variables"}보다 높은지 블럭이 확인해서 `최고 점수`{:class="block3variables"}를 현재의 `점수`{:class="block3variables"}로 바꾸게 하세요.
 
-![Stage sprite](images/stage-sprite.png)
+![무대 스프라이트](images/stage-sprite.png)
 
 ```blocks3
-    define check high score
-    if <(score :: variables) > (high score)> then
-        set [high score v] to (score :: variables)
-    end
+    최고 점수 정의하기
+   만약 <(점수)>(최고 점수)> 이라면
+      [최고 점수] 를 (점수) 로 바꾸기
+   끝
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add your new custom block to the Stage script before the end of the script.
+스크립트 마지막의 스테이지 스크립트에 새로운 커스텀 블럭을 추가하세요.
 
-![Stage sprite](images/stage-sprite.png)
+![무대 스프라이트](images/stage-sprite.png)
 
 ```blocks3
-when flag clicked
-set [lives v] to (3)
-set [score v] to (0)
-wait until <(lives) < (1)>
+⚑ 클릭했을 때
+[lives v] 을\(를\) (3) 로 정하기
+[score v] 을\(를\) (0) 로 정하기
+<(lives) < (1)> 까지 기다리기
 
-+ check high score :: custom
++ 최고 점수를 확인하려면 
 stop [all v]
 ```
 
@@ -55,6 +55,6 @@ stop [all v]
 
 \--- task \---
 
-Play your game twice to check whether your score gets correctly saved as the `high score`{:class="block3variables"}.
+게임을 두 번 플레이 해서 당신의 점수가 `최고 점수`{:class="block3variables"}로 정확히 기록되는지 확인하세요.
 
 \--- /task \---
