@@ -44,7 +44,7 @@ Voici le code que tu dois rechercher et modifier pour les deux nouveaux sprites:
 Voici comment tu dois changer le code pour le sprite jaune:
 
 ```blocks3
-    si <couleur [# FFFF00] touchée ? :: +> alors
+    si <couleur [#FFFF00] touchée ? :: +> alors
         ajouter (1) à [score v]
         jouer le son (pop v)
     fin
@@ -53,7 +53,7 @@ Voici comment tu dois changer le code pour le sprite jaune:
 Voici comment tu dois changer le code pour le sprite bleu:
 
 ```blocks3
-    si <couleur [# 0000FF] touchée ? :: +> alors
+    si <couleur [#0000FF] touchée ? :: +> alors
         ajouter (1) à [score v]
         jouer le son (pop v)
     fin
@@ -74,7 +74,7 @@ Change le code du sprite «jaune» pour qu'il attende quatre secondes après que
 ![Point jaune](images/yellow-sprite.png)
 
 ```blocks3
-    quand le drapeau vert est cliqué
+    when flag clicked
     cacher
 + attendre (4) secondes
 ```

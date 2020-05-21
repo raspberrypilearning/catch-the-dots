@@ -42,11 +42,11 @@ Ajoute ton nouveau bloc personnalisé au script de la scène avant la fin du scr
 ![Sprite Scène](images/stage-sprite.png)
 
 ```blocks3
-quand le drapeau vert est cliqué 
+when flag clciked
 mettre (3) à [vies v]
 mettre (0) à [score v]
 attendre jusqu'à ce que <(vies) < (1)>
-+ vérifier meilleur score :: personnalisée
++ vérifier meilleur score :: custom
 stop [tout v]
 ```
 

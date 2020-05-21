@@ -6,7 +6,7 @@ Commence par créer un contrôleur que le joueur utilisera pour collecter des po
 
 Ouvre le projet Scratch de démarrage «Attrape les points».
 
-**En ligne:** ouvre le projet de démarrage à [scratch.mit.edu/projects/397735767(https://scratch.mit.edu/projects/397735767){:target="_blank"}.
+**En ligne:** ouvre le projet de démarrage à [scratch.mit.edu/projects/397735767](https://scratch.mit.edu/projects/397735767){:target="_blank"}.
 
 Si tu as un compte Scratch, tu peux en créer une copie en cliquant sur **Remix**.
 
@@ -27,12 +27,12 @@ Ajoute du code au sprite du contrôleur pour le faire tourner à droite si le jo
 ![Sprite du contrôleur](images/controller-sprite.png)
 
 ```blocks3
-    quand le drapeau est cliqué
-    répéter indéfiniment
-        si <key (right arrow v) pressed?> alors
-            tourner à droite de (3) degrés
-        fin
-    fin
+    when flag clicked
+	forever
+		if <key (right arrow v) pressed?> then
+			turn right (3) degrees
+		end
+	end
 ```
 
 --- /task ---
@@ -65,11 +65,11 @@ Voici les blocs dont tu as besoin:
 ```blocks3
 <key (space v) pressed?>
 
-tourner à gauche de (15) degrés
+turn left(15) degrees
 
-si <> alors
+if <> then
 
-fin
+end
 ```
 
 --- /hint ---
@@ -79,16 +79,15 @@ fin
 Voici à quoi ton code devrait ressembler:
 
 ```blocks3
-    quand le drapeau vert est cliqué
-    répéter indéfiniment
-        si <key (right arrow v) pressed?> alors
-            tourner à droite de (3) degrés
-        fin
-
-+ si <key (left arrow v) pressed?> alors
-            tourner à gauche de (3) degrés
-        fin
-    fin
+    when flag clicked
+	forever
+		if <key (right arrow v) pressed?> then
+			turn right (3) degrees
+		end
++ 		if <key (left arrow v) pressed?> then
+			turn left(3) degrees
+		end
+	end
 ```
 
 --- /hint ---

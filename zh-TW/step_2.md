@@ -65,9 +65,10 @@
 ```blocks3
 < (向左 v)鍵被按下？>
 
-左轉 @turnright (3) 度
+turn left(15) degrees
 
-如果 <> 那麼
+if <> then
+
 end
 ```
 
@@ -78,16 +79,15 @@ end
 你的程式看起來應該像這樣：
 
 ```blocks3
-    當 @greenflag 被點擊
-    重複無限次
-        如果 < (向右 v)鍵被按下？> 那麼
-            右轉 @turnright (3) 度
-        end
-
-+       如果 < (向左 v)鍵被按下？> 那麼
-            左轉 @turnright (3) 度
-       end 
-    end
+    when flag clicked
+	forever
+		if <key (向右 v) pressed?> then
+			turn right (3) degrees
+		end
++ 		if <key (向左 v) pressed?> then
+			turn left(3) degrees
+		end
+	end
 ```
 
 --- /hint ---

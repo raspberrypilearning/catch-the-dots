@@ -17,12 +17,12 @@ Va dans la zone des scripts de scène et crée un nouveau script qui définit la
 ![Sprite Scène](images/stage-sprite.png)
 
 ```blocks3
-    quand le drapeau vert est cliqué
-    mettre [délai v] sur (8)
-    répéter jusqu'à ce que < (délai) = (2)>
-        attendre (10) secondes
-        ajouter (-0.5) à [délai v]
-    fin
+    when flag clicked
+	set [délai v] to (8)
+	repeat until < (délai) = (2)>
+		wait (10) seconds
+		change [délai v] by (-0.5)
+	end
 ```
 
 --- /task ---
@@ -38,7 +38,7 @@ Supprime le bloc de code qui fait attendre le jeu un nombre aléatoire de second
 ![capture d'écran](images/all-dots.png)
 
 ```blocks3
-<br />- attendre (nombre aléatoire entre (5) et (10)) secondes
+-   attendre (nombre aléatoire entre (5) et (10)) secondes
     attendre (délai :: variables) secondes
 ```
 

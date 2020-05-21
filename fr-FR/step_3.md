@@ -17,7 +17,7 @@ Ajoute ce script à ton sprite «rouge» pour créer un nouveau clone du sprite 
 ![Sprite point rouge](images/red-sprite.png)
 
 ```blocks3
-    quand le drapeau est cliqué
+    when flag clicked
     cacher
     attendre (2) secondes
     répéter indéfiniment
@@ -63,9 +63,9 @@ Ajoute ce code au sprite « point » pour faire apparaître chaque nouveau clone
     aller à x: (élément (nombre aléatoire entre (1) et (2)) de [positions de départ v]) y: (élément (nombre aléatoire entre (1) et (2)) de [positions de départ v])
     s'orienter vers (contrôleur v)
     montrer
-    répétez jusqu'à ce que <touching (contrôleur v)?>
-        avancer de (1) pas
-    fin
+    repeat until <touching (contrôleur v)?>
+		move (1) steps
+	end
 ```
 
 --- /task ---
@@ -95,9 +95,9 @@ Ajoute du code à ta scène pour définir la variable `vies`{:class="block3varia
 ![Sprite Scène](images/stage-sprite.png)
 
 ```blocks3
-quand le drapeau vert est cliqué
-mettre [vies v] sur (3)
-mettre [score v] sur (0)
+when flag clicked
+set [vies v] to (3)
+set [score v] to (0)
 ```
 
 --- /task ---
@@ -130,15 +130,15 @@ Ajoute ensuite du code pour ajouter `1` à `score`{:class="block3variables"} si 
 ![Sprite point rouge](images/red-sprite.png)
 
 ```blocks3
-    avancer de (5) pas
-    si <touching color [#FF0000]?> alors
-        ajouter (1) à [score v]
-        jouez le son (pop v) jusqu'au bout
-    sinon
-        ajouter (-1) à [vies v]
-        jouez le son (Laser1 v) jusqu'au bout
-    fin
-    supprimer ce clone
+    move (5) steps
+	if <touching color [#FF0000]?> then
+		change [score v] by (1)
+		play sound (pop v) until done
+	else
+		change [vies v] by (-1)
+		play sound (Laser1 v) until done
+	end
+	delete this clone
 ```
 
 --- /task ---
