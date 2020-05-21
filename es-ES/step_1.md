@@ -1,16 +1,16 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
+Esta es una versión del proyecto en **Scratch 3**. También hay una [versión del proyecto en Scratch 2](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Introducción
 
-In this project you'll learn how to create a game in which the player has to match up coloured dots with the correct colour of the controller wheel.
+En este proyecto, aprenderás cómo crear un juego en el que el jugador tenga que hacer coincidir puntos de colores con el color correcto de la rueda del controlador.
 
 \--- no-print \---
 
-Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
+Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. Si fallas en atrapar tres puntos, el juego termina.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
