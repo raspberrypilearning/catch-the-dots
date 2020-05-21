@@ -1,65 +1,98 @@
 ## Création d'un contrôleur
 
-Commençons par créer un contrôleur qui sera utilisé pour rassembler des points.
+Commence par créer un contrôleur que le joueur utilisera pour collecter des points.
 
-+ Commencez un nouveau projet Scratch et supprimez le lutin de chat afin que votre projet soit vide. Vous pouvez trouver l'éditeur de Scratch en ligne à <a href="http://jumpto.cc/scratch-new">jumpto.cc/scratch-new</a>.
+--- task ---
 
-+ Pour ce projet, vous devriez avoir un dossier 'Ressources du projet', contenant l'image du contrôleur que vous pouvez utiliser. Assurez-vous de pouvoir trouver ce dossier et demandez à votre leader de club si vous ne le trouvez pas.
+Ouvre le projet Scratch de démarrage «Attrape les points».
 
-	![screenshot](images/dots-resources.png)
+**En ligne:** ouvre le projet de démarrage à [scratch.mit.edu/projects/397735767(https://scratch.mit.edu/projects/397735767){:target="_blank"}.
 
-+ À partir du dossier des Ressources du projet, importez 'controller.png ' comme nouveau lutin. Si vous n'avez pas cette image, vous pouvez le dessiner vous-même! Vous devriez aussi mettre l'arrière-plan noir. Voici le résultat que vous devriez obtenir :
+Si tu as un compte Scratch, tu peux en créer une copie en cliquant sur **Remix**.
 
-	![screenshot](images/dots-controller.png)
+**Hors ligne:** télécharge le projet de démarrage à partir de [rpf.io/p/fr-FR/catch-the-dots-go](http://rpf.io/p/fr-FR/catch-the-dots-go), puis ouvre-le à l'aide de l'éditeur Scratch hors-ligne.
 
-+ Vous pouvez déplacer votre contrôleur facilement, en le tournant à gauche ou à droite lorsque vous appuyez sur les flèches:
+Si tu veux télécharger et installer l’éditeur Scratch hors-ligne, tu peux le trouver ici: [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
-	```blocks
-		quand le drapeau vert pressé
-		répéter indéfiniment
-			si <touche [flèche droite v] pressée?> alors
-				tourner gauche de (2) degrés
-			fin
-		fin
-	```
-+ Testez votre contrôleur - il devrait tourner à gauche et à droite.
+--- /task ---
 
-+ Même si ce code est fonctionnel, il serait plus intérressant de débuter le jeu à une grande vitesse et de la diminuer au fur et à mesure que le jeu avance. Pour ce faire, supprimez le code que vous avez créé pour votre contrôleur et créez une nouvelle variable appelée `vitesse contrôleur`{:class="blockdata"}.
+Tu devrais voir un sprite contrôleur:
 
-+ Ajoutez ce code à votre contrôleur :
+![capture d'écran](images/dots-controller.png)
 
-	```blocks
-		quand le drapeau vert pressé
-		ajouter [vitesse de contrôleur v] à [0]
-		répéter indéfiniment
-			tourner droite de (Vitesse de contrôleur) degrés
-		end
-	```
+--- task ---
 
-+ Pour le moment, ce code ne déplacera pas le contrôleur puisque la vitesse a été mise à 0! Créez un script séparé dans votre contrôleur, qui augmentera la vitesse lorsque la flèche sera appuyée.
+Ajoute du code au sprite du contrôleur pour le faire tourner à droite si le joueur appuie sur la touche fléchée droite:
 
-	```blocks
-		quand le drapeau vert pressé
-		répéter indéfiniment
-			si <touche [Flèche droite v] pressée?> alors
-				ajouter à [Vitesse de contrôleur v] (0.2)
-				sinon
-			end
-		end
-	```
+![Sprite du contrôleur](images/controller-sprite.png)
 
-+ Avez-vous remarqué qu'il y a un écart dans le code ci-dessus ? Si la touche de direction n'est pas appuyée, vous devrez ajouter un code particulier pour ralentir le contrôleur. Cependant, vous devez seulement ralentir le contrôleur jusqu'à ce que la vitesse arrive à 0, autrement il commencera à tourner par en arrière.
+```blocks3
+    quand le drapeau est cliqué
+    répéter indéfiniment
+        si <key (right arrow v) pressed?> alors
+            tourner à droite de (3) degrés
+        fin
+    fin
+```
 
-	Voici le code que vous devriez ajouter :
+--- /task ---
 
-	```blocks
-	si <(Vitesse de contrôleur) > [0.1]> alors
-		ajouter à [Vitesse de contrôleur v] (0.2)
-	end
-	```
+--- task ---
 
-	Voici comment votre code de contrôleur devrait être :
+Teste ton code. Le contrôleur devrait tourner vers la droite lorsque tu appuies sur la touche fléchée droite.
 
-	![screenshot](images/dots-right.png)
+--- /task ---
 
-+ Testez votre projet à nouveau. Si vous maintenez la touche de direction droite, votre contrôleur devrait accélérer. Si vous lâchez la touche, votre contrôleur devrait ralentir progressivement.
+--- task ---
+
+Ajoute du code au sprite du contrôleur pour le faire tourner à gauche si le joueur appuie sur la touche fléchée gauche.
+
+![Sprite du contrôleur](images/controller-sprite.png)
+
+--- hints ---
+
+
+--- hint ---
+
+Trouve le code qui vérifie si la touche fléchée droite est appuyée et fait tourner le sprite à droite. Peux-tu ajouter une copie de ce code, et changer la copie pour qu'il vérifie si la touche fléchée gauche est appuyée et fait tourner le sprite à gauche?
+
+--- /hint ---
+
+--- hint ---
+
+Voici les blocs dont tu as besoin:
+
+```blocks3
+<key (space v) pressed?>
+
+tourner à gauche de (15) degrés
+
+si <> alors
+
+fin
+```
+
+--- /hint ---
+
+--- hint ---
+
+Voici à quoi ton code devrait ressembler:
+
+```blocks3
+    quand le drapeau vert est cliqué
+    répéter indéfiniment
+        si <key (right arrow v) pressed?> alors
+            tourner à droite de (3) degrés
+        fin
+
++ si <key (left arrow v) pressed?> alors
+            tourner à gauche de (3) degrés
+        fin
+    fin
+```
+
+--- /hint ---
+
+--- /hints ---
+
+--- /task ---
