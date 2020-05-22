@@ -1,45 +1,72 @@
+--- no-print ---
+
+Esta es una versión del proyecto en **Scratch 3**. También hay una [versión del proyecto en Scratch 2](https://projects.raspberrypi.org/es-ES/projects/catch-the-dots-scratch2).
+
+--- /no-print ---
+
 ## Introducción
 
-En este proyecto vas a aprender a crear un juego en el que tendrás que hacer coincidir puntos de colores con la parte correcta del controlador.
+En este proyecto, aprenderás cómo crear un juego en el que el jugador tenga que hacer coincidir puntos de colores con el color correcto de la rueda del controlador.
+
+--- no-print ---
+
+Usa las flechas en tu teclado para girar la rueda del controlador y atrapar los puntos voladores antes de que lleguen al centro. Si fallas en atrapar tres puntos, el juego termina.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/44942820/?autostart=false" frameborder="0"></iframe>
-  <img src="dots-final.png">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/398084696/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <img src="images/dots-final.png">
 </div>
+
+--- /no-print ---
+
+--- print-only ---
+
+![Captura de pantalla de puntos](images/dots-final.png)
+
+--- /print-only ---
 
 --- collapse ---
 ---
-title: Notas Para los Líderes del Club
+title: Lo que aprenderás
 ---
 
++ Cómo elegir elementos aleatorios de una lista
++ Cómo usar variables para llevar cuenta de la velocidad, las vidas y la puntuación del jugador
 
-## Introducción:
-En este proyecto la clase aprenderá a hacer un juego en el que el jugador tiene que hacer coincidir puntos de colores con la parte correspondiente del controlador.
+--- /collapse ---
 
-## Recursos
-Para este proyecto se debería de usar Scratch 2. Scratch 2 puede usarse en línea en [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) o se puede descargar desde [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) y usarse sin estar conectado.
+--- collapse ---
+---
+title: Lo que necesitarás
+---
 
-La versión completa de este proyecto se puede encontrar <a href="http://scratch.mit.edu/projects/44942820/#editor">online</a>, o se puede descargar haciendo clic en el enlace 'Descargar materiales del proyecto', que contiene:
+### Equipo
 
-+ CatchTheDots.sb2
++ Un ordenador capaz de ejecutar Scratch 3
 
-También existe una versión de este proyecto con los recursos externos ya cargados. La misma está disponible en línea en [jumpto.cc/dots-resources](http://jumpto.cc/dots-resources), o en los materiales descargables del proyecto, que contienen:
+### Software
 
-+ CatchTheDotsResources.sb2 
++ Scratch 3 (ya sea [en línea](http://rpf.io/scratchon){:target="_blank"} o [sin conexión](http://rpf.io/scratchoff){:target="_blank"})
 
-Este enlace también incluye una carpeta de 'Recursos del Proyecto', que contiene imágenes que la clase necesitará para completar este proyecto. Toda la clase debería tener acceso a una copia de estos recursos.
+### Descargas
 
-Recursos del proyecto:
-+ controller.svg;
++ [Proyecto Scratch 2 sin conexión](http://rpf.io/p/es-ES/catch-the-dots-go){:target="_blank"}
 
-## Objetivos de aprendizaje
-+ Este proyecto consolida el aprendizaje de habilidades de programación adquiridas con antelación.
+--- /collapse ---
 
-## Desafíos
-+ "Girar hacia la izquierda" - crear código para mover el controlador;
-+ "Más puntos" - crear más puntos de colores que tienen que coincidir con la parte correcta del controlador';
-+ "Puntos que se mueven más rápido" - usar una variable para aumentar la velocidad de los puntos a medida que avanza el juego;
-+ "¡Mejora tu juego!" - añadir nuevos puntos que modifiquen las variables `puntuación`{:class="blockdata"}, `intervalo`{:class="blockdata"} y `velocidad`{:class="blockdata"};
-+ "Menú del juego" - crear un menú con varios fondos de escenario y botones entre los que moverse.
+--- collapse ---
+---
+title: Información adicional para educadores
+---
+
+--- no-print ---
+
+Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/es-ES/projects/catch-the-dots/print).
+
+--- /no-print ---
+
+Puedes [encontrar el proyecto completo aquí](http://rpf.io/p/es-ES/catch-the-dots-get){:target="_blank"}.
+
+Puedes [encontrar el proyecto completo aquí](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}.
 
 --- /collapse ---

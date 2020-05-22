@@ -1,0 +1,12 @@
+posiciónes de inicio
+
+vidas
+
+puntos
+
+retraso
+
+comparar puntaje
+
+mejor puntaje
+

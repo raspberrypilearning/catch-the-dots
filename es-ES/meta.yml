@@ -1,29 +1,18 @@
 ---
 hero_image: images/banner.png
-theme: turquoise
-duration: 2
 listed: true
-ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Atrapa los Puntos
-description: Aprende a crear un juego de unir puntos.
-original_url: https://codeclubprojects.org/en-GB/scratch/catch-the-dots
-interests: games
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
-version: 3
-last_tested: 2017-01-01
-steps: 
-- title: Introducción
-- title: Crear un controlador
-- title: 'Desafío: Girar hacia la izquierda'
-- title: Recoger puntos
-- title: 'Desafío: Más puntos'
-- title: Aumentar la dificultad
-- title: 'Desafío: Puntos que se mueven más rápido'
-- title: Puntuación más alta
-- title: 'Desafío: ¡Mejora tu juego!'
-- title: 'Desafío: Menú del juego'
+description: Haz un juego de atrapar puntos
+version: 4.0.0
+last_tested: 2018-10-16
+steps:
+  - title: Introducción
+  - title: Crear un controlador
+  - title: Gana puntos o pierde vidas
+  - title: Más puntos
+  - title: Aumenta la dificultad
+  - title: 'Desafío: puntos más rápidos'
+  - title: Puntuación más alta
+  - title: 'Desafío: ¡mejora tu juego!'
+  - title: '¿Qué sigue?'

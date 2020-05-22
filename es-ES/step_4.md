@@ -1,71 +1,86 @@
-## Recoger puntos
+## Más puntos
 
-Vamos a añadir algunos puntos que el jugador tendrá que recoger con el controlador.
+--- task ---
 
-+ Crea un nuevo objeto llamado 'rojo'. Este objeto debería ser un pequeño punto rojo.
+Duplica el objeto 'rojo' dos veces y nombra a los dos nuevos objetos 'amarillo' y 'azul'.
 
-	![screenshot](images/dots-red.png)
+![captura de pantalla](images/dots-more-dots.png)
 
-+ Añade estas instrucciones al objeto punto 'rojo', para que se cree un nuevo clon del punto cada determinados segundos:
+--- /task ---
 
-	```blocks
-		al presionar bandera verde
-		esperar (2) segundos
-		por siempre
-   			crear clon de [mí mismo v]
-   			esperar (número al azar entre (5) y (10)) segundos
-		fin
-	```
+--- task ---
 
-+ Cuando se crea un clon, queremos que aparezca en una de las 4 esquinas del escenario.
+Cambia el disfraz de cada nuevo sprite para que tenga el color correcto: el sprite 'amarillo' debe ser amarillo, y el sprite 'azul' debe ser azul.
 
-	![screenshot](images/dots-start.png)
+--- /task ---
 
-	Para hacer esto, primero tendrás que crear una nueva lista llamada `posiciones de inicio`{:class="blockdata"} y hacer clic en `(+)` para añadir los valores `-180` y `180`.
+--- task ---
 
-	![screenshot](images/dots-list.png)
+Cambia el código de cada sprite para que el jugador tenga que hacer coincidir el clon de puntos con el color correcto en el controlador para obtener puntos.
 
-+ Puedes usar estos dos elementos de la lista para escoger una esquina del escenario al azar. Añade este código al objeto 'punto', para que todos los nuevos clones vayan a una esquina al azar y a continuación se muevan lentamente hacia el controlador.
+![captura de pantalla](images/dots-all-test.png)
 
-	```blocks
-		al comenzar como clon
-		ir a x:(elemento (al azar v) de [posiciones de inicio v]) y:(elemento (al azar v) de [posiciones de inicio v])
-		apuntar hacia [controller v]
-		mostrar
-		repetir hasta que <¿tocando [controller v]?>
-   			mover (1) pasos
-		fin
-	```
+--- hints ---
 
-	Este código escoge `-180` o bien `180` para las posiciones x _e_ y, lo que significa que todos los clones empezarán en una de las esquinas del escenario.
 
-+ Prueba tu proyecto. Deberías de ver cómo aparecen un montón de puntos rojos en cada una de las esquinas del escenario y se mueven lentamente hacia el controlador.
+--- hint ---
 
-	![screenshot](images/dots-red-test.png)
+Este es el código que necesitas encontrar y modificar para los nuevos objetos:
 
-+ Crea 2 nuevas variables con los nombres `vidas`{:class="blockdata"} y `puntuación`{:class="blockdata"}.
+![captura de pantalla](images/dots-more-dots.png)
 
-+ Añade código al escenario para fijar las `vidas`{:class="blockdata"} a 3 y la `puntuación`{:class="blockdata"} a 0 cuando empieza el juego.
+```blocks3
+    if <touching color [#FF0000]?> then
+		change [puntos v] by (1)
+		play sound (pop v)
+        ...
+	end
+```
 
-+ Tendrás que añadir instrucciones al final del código del punto rojo `al comenzar como clon`{:class="blockcontrol"}, para que o se sume 1 a la `puntuación`{:class="blockdata"} del jugador si los colores coinciden, o se reste 1 de las `vidas`{:class="blockdata"} del jugador si los colores no coinciden.
+--- /hint ---
 
-	```blocks
-		mover (5) pasos
-		si <¿tocando el color [#FF0000]?> entonces
-   			cambiar [puntuación v] por (1)
-   			tocar sonido [pop v]
-		si no
-   			cambiar [vidas v] por (-1)
-   			tocar sonido [laser1 v]
-		fin
-		borrar este clon
-	```
+--- hint ---
 
-+ Añade este código al final de las instrucciones del escenario, para que el juego termine cuando el jugador pierda todas las vidas:
+Así es como necesitas cambiar el código para el objeto amarillo:
 
-	```blocks
-		esperar hasta que <(vidas) < [1]>
-		detener [todos v]
-	```
+```blocks3
+    if <touching color [#FFFF00]? :: +> then
+        change [puntos v] by (1)
+        play sound (pop v)
+	end
+```
 
-+ Prueba tu juego para asegurarte de que el código funciona correctamente.
+Así es como necesitas cambiar el código para el objeto azul:
+
+```blocks3
+    if <touching color [#0000FF]? :: +> then
+        change [puntos v] by (1)
+        play sound (pop v)
+	end
+```
+
+--- /hint ---
+
+--- /hints ---
+
+--- /task ---
+
+Si juegas ahora, puedes ver que los puntos a veces se crean uno encima del otro.
+
+--- task ---
+
+Cambia el código para el objeto 'amarillo' para que espere cuatro segundos después de hacer clic en la bandera antes de aparecer.
+
+![Punto amarillo](images/yellow-sprite.png)
+
+```blocks3
+    when flag clicked
+	hide
++	wait (4) seconds
+```
+
+![Punto azul](images/blue-sprite.png)
+
+Luego, cambia el código para el objeto 'azul' para que espere 6 segundos después de hacer clic en la bandera antes de aparecer.
+
+--- /task ---
