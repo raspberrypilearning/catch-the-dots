@@ -82,7 +82,7 @@ Prueba tu proyecto. Deberías ver puntos rojos que aparecen en las esquinas del 
 
 \--- task \---
 
-Crea dos nuevas variables llamadas `vidas`{:class="block3variables"} y `puntuación`{:class="block3variables"}.
+Crea dos nuevas variables llamadas `vidas`{:class="block3variables"} y `puntos`{:class="block3variables"}.
 
 ![Objeto punto rojo](images/red-sprite.png)
 
@@ -90,7 +90,7 @@ Crea dos nuevas variables llamadas `vidas`{:class="block3variables"} y `puntuaci
 
 \--- task \---
 
-Añade código a tu etapa para establecer la variable `vidas`{:class="block3variables"} a `3` y la `puntuación`{:class="block3variables"} a `0` al comienzo del juego. ![Objeto escenario](images/stage-sprite.png)
+Agrega código a tu escenario para dar a `vidas`{: clase = "block3variables"} el valor `3` y dar a `puntos`{: clase = "block3variables"} el valor `0` al inicio del juego. ![Objeto escenario](images/stage-sprite.png)
 
 ```blocks3
 al hacer clic en la bandera
