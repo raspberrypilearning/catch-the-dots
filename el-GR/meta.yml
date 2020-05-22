@@ -2,21 +2,21 @@
 hero_image: images/banner.png
 listed: true
 copyedit: false
-title: Catch the dots
-description: Make a dot-catching game
+title: Πιάσε τις τελείες
+description: Φτιάξε ένα παιχνίδι ταιριάσματος χρωμάτων
 version: 4.0.0
 last_tested: 2018-10-16
 steps:
   - 
-    title: Introduction
+    title: Εισαγωγή
   - 
-    title: Create a controller
+    title: Δημιούργησε ένα χειριστήριο
   - 
-    title: Gain points or lose lives
+    title: Κέρδισε πόντους ή χάσε ζωές
   - 
-    title: More dots
+    title: Περισσότερες τελείες
   - 
-    title: Increase the difficulty
+    title: Αύξησε τη δυσκολία
   - 
     title: 'Challenge: faster dots'
   - 
