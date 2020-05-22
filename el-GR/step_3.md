@@ -54,9 +54,9 @@
 
 \--- task \---
 
-Add this code to the 'dot' sprite to make each new sprite clone appear in a random corner and then slowly move towards the controller sprite.
+Πρόσθεσε αυτόν τον κώδικα στο 'κόκκινο' αντικείμενο για να εμφανίζεις κάθε νέο κλώνο του αντικειμένου σε μια τυχαία γωνία που στη συνέχεια θα κινείται αργά προς το χειριστήριο.
 
-![Red dot sprite](images/red-sprite.png)
+![Χαρακτήρας κόκκινης τελείας](images/red-sprite.png)
 
 ```blocks3
     when I start as a clone
@@ -70,7 +70,7 @@ Add this code to the 'dot' sprite to make each new sprite clone appear in a rand
 
 \--- /task \---
 
-This new code chooses either `-180` or `180` for the x and y positions, meaning that each 'dot' sprite clone starts in a corner of the Stage.
+Αυτός ο νέος κώδικας επιλέγει `-180` ή `180` για τις συντεταγμένες x και y, που σημαίνει ότι κάθε κλώνος της 'τελείας' ξεκινά από μία γωνία του Σκηνικού.
 
 \--- task \---
 
