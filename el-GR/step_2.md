@@ -64,30 +64,30 @@ end
 ```blocks3
 <key (space v) pressed?>
 
-turn left(15) degrees
+στρίψε αριστερά (3) μοίρες
 
-if <> then
+εάν <> τότε
 
-end
+τέλος
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is what your code should look like:
+Έτσι πρέπει να φαίνεται ο νέος σου κώδικας:
 
 ```blocks3
-    when flag clicked
-    forever
-        if <key (right arrow v) pressed?> then
-            turn right (3) degrees
-        end
+    όταν γίνει κλικ στη σημαία
+    για πάντα
+        εάν <key (right arrow v) pressed?> τότε
+            στρίψε δεξιά (3) μοίρες
+        τέλος
 
-+       if <key (left arrow v) pressed?> then
-            turn left(3) degrees
-        end
-    end
++      εάν <key (left arrow v) pressed?> τότε
+            στρίψε αριστερά (3) μοίρες
+        τέλος
+    τέλος
 ```
 
 \--- /hint \---
