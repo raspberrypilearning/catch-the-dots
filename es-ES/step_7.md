@@ -39,7 +39,7 @@ Agrega código a tu bloque personalizado para que el bloque verifique si el valo
 
 Agrega tu nuevo bloque personalizado a la secuencia de comandos del escenario antes del final de la secuencia de comandos.
 
-![Stage sprite](images/stage-sprite.png)
+![Objeto escenario](images/stage-sprite.png)
 
 ```blocks3
 al hacer clic en la bandera
