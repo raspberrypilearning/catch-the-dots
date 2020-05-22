@@ -36,7 +36,7 @@
 
 \--- task \---
 
-Create a new list called `start positions`{:class="block3variables"}, click the list's `(+)` icon to add the values `-180`{:class="block3variables"} and `180`{:class="block3variables"}.
+Δημιούργησε μία νέα λίστα με όνομα `θέσεις εκκίνησης`{:class="block3variables"}, πάτησε το εικονίδιο `(+)` της λίστας για να προσθέσεις τις τιμές `-180`{:class="block3variables"} και `180`{:class="block3variables"}.
 
 ![Red dot sprite](images/red-sprite.png)
 
