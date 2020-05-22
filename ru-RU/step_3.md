@@ -1,6 +1,6 @@
-## Gain points or lose lives
+## Набирай очки или теряй жизни
 
-Now you're going to add some dots that the player needs to collect.
+Теперь ты добавишь точки, которые игрок должен будет собирать.
 
 \--- task \---
 
