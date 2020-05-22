@@ -6,6 +6,6 @@ puntos
 
 retraso
 
-comprobar puntuación alta
+comparar puntaje
 
-mejor resultado
+mejor puntaje
