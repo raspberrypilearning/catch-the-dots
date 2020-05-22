@@ -1,14 +1,14 @@
---- sin impresión ---
+--- no-print ---
 
 Esta es una versión del proyecto en **Scratch 3**. También hay una [versión del proyecto en Scratch 2](https://projects.raspberrypi.org/es-ES/projects/catch-the-dots-scratch2).
 
---- / sin impresión ---
+--- /no-print ---
 
 ## Introducción
 
 En este proyecto, aprenderás cómo crear un juego en el que el jugador tenga que hacer coincidir puntos de colores con el color correcto de la rueda del controlador.
 
---- sin impresión ---
+--- no-print ---
 
 Usa las flechas en tu teclado para girar la rueda del controlador y atrapar los puntos voladores antes de que lleguen al centro. Si fallas en atrapar tres puntos, el juego termina.
 
@@ -27,7 +27,7 @@ Usa las flechas en tu teclado para girar la rueda del controlador y atrapar los 
 
 --- collapse ---
 ---
-title: Lo que aprenderás.
+title: Lo que aprenderás
 ---
 
 + Cómo elegir elementos aleatorios de una lista
@@ -37,7 +37,7 @@ title: Lo que aprenderás.
 
 --- collapse ---
 ---
-title: Lo que necesitarás.
+title: Lo que necesitarás
 ---
 
 ### Equipo
