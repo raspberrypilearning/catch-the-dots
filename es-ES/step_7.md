@@ -55,6 +55,6 @@ detener [todos v]
 
 \--- task \---
 
-Juega tu juego dos veces para comprobar si tu puntuación se guarda correctamente como el r `puntaje mayo`{:class = "block3variables"}.
+Juega tu juego dos veces para comprobar si tu puntuación se guarda correctamente como el `mejor puntaje`{:class="block3variables"}.
 
 \--- /task \---
