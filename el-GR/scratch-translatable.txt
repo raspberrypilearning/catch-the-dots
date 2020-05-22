@@ -1,11 +1,11 @@
-start positions
+θέση Εκκίνησης
 
-lives
+ζωές
 
-score
+βαθμολογία
 
-delay
+καθυστέρηση
 
-check high score
+έλεγξε την υψηλή βαθμολογία
 
-high score
+υψηλή βαθμολογία
