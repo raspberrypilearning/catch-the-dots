@@ -22,72 +22,70 @@
 
 \--- task \---
 
-Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
+Добавь код в спрайт контроллера, чтобы заставить спрайт повернуть направо, если игрок нажимает клавишу со стрелкой вправо:
 
-![Controller sprite](images/controller-sprite.png)
+![Спрайт контроллера](images/controller-sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        if <key (right arrow v) pressed?> then
-            turn right (3) degrees
-        end
-    end
+    когда щёлкнут по зелёному флагу
+ повторять всегда 
+   если <key (right arrow v) pressed?> , то 
+     повернуть вправо на (3) градусов
+   конец
+ конец
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. The controller should spin to the right when you press the right arrow key.
+Проверь свой код. Контроллер должен вращаться вправо при нажатии клавиши со стрелкой вправо.
 
 \--- /task \---
 
 \--- task \---
 
-Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
+Добавь код в спрайт контроллера, чтобы заставить спрайт повернуть налево, если игрок нажимает клавишу со стрелкой влево.
 
-![Controller sprite](images/controller-sprite.png)
+![Спрайт контроллера](images/controller-sprite.png)
 
 \--- hints \---
 
 \--- hint \---
 
-Find the code that checks whether the right arrow key is pressed and makes the sprite turn right. Can you add a copy of this code, and change the copy so it checks whether the left arrow key is pressed and makes the sprite turn left?
+Найди код, который проверяет, нажата ли клавиша со стрелкой вправо и заставляет спрайт поворачиваться направо. Можешь ли ты добавить копию этого кода и изменить ее так, чтобы она проверяла, нажата ли клавиша со стрелкой влево, и поворачивала бы спрайт влево?
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+Вот блоки, которые тебе понадобятся:
 
 ```blocks3
 <key (space v) pressed?>
 
-turn left(15) degrees
+повернуть влево на (15) градусов
 
-if <> then
-
-end
+если <> , то
+конец
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is what your code should look like:
+Вот как должен выглядеть твой код:
 
 ```blocks3
-    when flag clicked
-    forever
-        if <key (right arrow v) pressed?> then
-            turn right (3) degrees
-        end
-
-+       if <key (left arrow v) pressed?> then
-            turn left(3) degrees
-        end
-    end
+    когда щёлкнут по зелёному флагу
+повторять всегда 
+  если <key (right arrow v) pressed?> , то 
+    повернуть вправо на (3) градусов
+ конец
+  + если <key (left arrow v) pressed?> , то 
+      повернуть влево на (3) градусов
+    конец
+конец
 ```
 
 \--- /hint \---
