@@ -1,60 +1,60 @@
-## High score
+## Puntuación más alta
 
-You're going to save the game's high score, so that players can see how well they are doing.
+Vas a guardar la puntuación más alta del juego, para que los jugadores puedan ver qué tan bien juegan.
 
 \--- task \---
 
-Create a new variable called `high score`{:class="block3variables"}.
+Crea una nueva variable llamada `mejor puntaje`{:class = "block3variables"}.
 
-![Stage sprite](images/stage-sprite.png)
+![Objeto escenario](images/stage-sprite.png)
 
 \--- /task \---
 
 \--- task \---
 
-Select the Stage. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
+Selecciona el escenario. Haz clic en 'Mis bloques' y crea un nuevo bloque personalizado llamado `comparar puntaje`{:class = "block3myblocks"}.
 
-![Stage sprite](images/stage-sprite.png)
+![Objeto escenario](images/stage-sprite.png)
 
-![screenshot](images/dots-custom-1.png)
+![captura de pantalla](images/dots-custom-1.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your custom block so that the block checks if the current value of `score`{:class="block3variables"} in larger than the value of the `high score`{:class="block3variables"} variable, and then stores the value of `score`{:class="block3variables"} as the new value of `high score`{:class="block3variables"}.
+Agrega código a tu bloque personalizado para que el bloque verifique si el valor actual de `puntos`{:clase = "block3variables"} es mayor que el valor de `mejor puntaje`{: clase = variable "block3variables"}, y luego almacena el valor de `puntos`{:class = "block3variables"} como el nuevo valor de `mejor puntaje`{:class = "block3variables"}.
 
-![Stage sprite](images/stage-sprite.png)
+![Objeto escenario](images/stage-sprite.png)
 
 ```blocks3
-    define check high score
-    if <(score :: variables) > (high score)> then
-        set [high score v] to (score :: variables)
-    end
+    definir comprobar puntuación alta
+    si <(puntuación :: variables) > (puntuación alta)> luego
+        fijar [puntuación alta v] a (puntuación :: variables)
+    final
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add your new custom block to the Stage script before the end of the script.
+Agrega tu nuevo bloque personalizado a la secuencia de comandos del escenario antes del final de la secuencia de comandos.
 
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-when flag clicked
-set [lives v] to (3)
-set [score v] to (0)
-wait until <(lives) < (1)>
+al hacer clic en la bandera
+fijar [vidas v] a (3)
+fijar [puntuación v] a (0)
+esperar hasta <(vidas) < (1)>
 
-+ check high score :: custom
-stop [all v]
++ comprobar puntuación alta :: personalizar
+detener [todos v]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Play your game twice to check whether your score gets correctly saved as the `high score`{:class="block3variables"}.
+Juega tu juego dos veces para comprobar si tu puntuación se guarda correctamente como el r `puntaje mayo`{:class = "block3variables"}.
 
 \--- /task \---
