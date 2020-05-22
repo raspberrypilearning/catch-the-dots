@@ -1,16 +1,16 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
+Αυτή είναι η έκδοση **Scratch 3** του έργου. Υπάρχει επίσης η [έκδοση Scratch 2 του έργου](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Εισαγωγή
 
-In this project you'll learn how to create a game in which the player has to match up coloured dots with the correct colour of the controller wheel.
+Σε αυτό το έργο θα μάθεις πώς να δημιουργήσεις ένα παιχνίδι στο οποίο ο παίκτης πρέπει να ταιριάξει χρωματιστές τελείες με το αντίστοιχο χρώμα του χειριστηρίου.
 
 \--- no-print \---
 
-Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
+Χρησιμοποίησε τα βελάκια του πληκτρολογίου για να περιστρέψεις το χειριστήριο και να πιάσεις τις ιπτάμενες τελείες καθώς πλησιάζουν το κέντρο. If you miss three dots, the game is over.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
