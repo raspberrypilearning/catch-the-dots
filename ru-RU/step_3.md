@@ -70,27 +70,27 @@
 
 \--- /task \---
 
-This new code chooses either `-180` or `180` for the x and y positions, meaning that each 'dot' sprite clone starts in a corner of the Stage.
+Новый код выбирает или `-180` или `180` для x и y, благодаря чему каждый клон спрайта «точка» появляется в каком-нибудь из углов Сцены.
 
 \--- task \---
 
-Test your project. You should see red dots appear in the corners of the Stage and move slowly towards the controller.
+Протестируй свой проект. В каждом углу Сцены должны появляться красные точки и медленно приближаться к контроллеру.
 
-![screenshot](images/dots-red-test.png)
+![снимок экрана](images/dots-red-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-Create two new variables called `lives`{:class="block3variables"} and `score`{:class="block3variables"}.
+Создай две новые переменные с именами `жизни`{:class="block3variables"} и `счёт`{:class="block3variables"}.
 
-![Red dot sprite](images/red-sprite.png)
+![Спрайт красной точки](images/red-sprite.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your Stage to set the `lives`{:class="block3variables"} variable to `3` and the `score`{:class="block3variables"} to `0` at the start of the game. ![Stage sprite](images/stage-sprite.png)
+Добавь код к Сцене, чтобы задать переменной `жизни`{:class="block3variables"} значение `3` и переменной `счёт`{:class="block3variables"} значение `0` в самом начале игры. ![Спрайт Сцена](images/stage-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -102,9 +102,9 @@ set [score v] to (0)
 
 \--- task \---
 
-Add this code to the end of the Stage's script to make the game end when the player loses the last of the lives:
+Добавь этот код в конец скрипта Сцены, чтобы игра заканчивалась, когда игрок теряет последнюю жизнь:
 
-![Stage sprite](images/stage-sprite.png)
+![Спрайт Сцена](images/stage-sprite.png)
 
 ```blocks3
     wait until <(lives :: variables) < [1]>
