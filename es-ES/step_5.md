@@ -1,20 +1,20 @@
-## Increase the difficulty
+## Aumenta la dificultad
 
-Now you're going to make the game more difficult the longer the player plays it. You will do this by making the dots appear faster and faster over time.
+Ahora vas a hacer el juego más difícil cuanto más tiempo juegue el jugador. Harás esto haciendo que los puntos aparezcan más y más rápido con el tiempo.
 
 \--- task \---
 
-Create a new `variable`{:class="block3variables"} called 'delay'.
+Crea una nueva `variable`{:class = "block3variables"} llamada 'retraso'.
 
-![Stage sprite](images/stage-sprite.png)
+![Objeto escenario](images/stage-sprite.png)
 
 \--- /task \---
 
 \--- task \---
 
-Go to the Stage's Scripts area and create a new script that sets the `delay`{:class="block3variables"} variable to `8` and then slowly reduces the value of `delay`{:class="block3variables"} while the game runs.
+Ve al área de código del escenario y crea un nuevo script que de a la variable `retraso`{: class = "block3variables"} el valor `8` y luego reduzca lentamente el valor de `retraso`{:class = "block3variables"} mientras se ejecuta el juego.
 
-![Stage sprite](images/stage-sprite.png)
+![Objeto escenario](images/stage-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -27,9 +27,9 @@ Go to the Stage's Scripts area and create a new script that sets the `delay`{:cl
 
 \--- /task \---
 
-Notice that this code is very similar to the code you would use to create a countdown timer!
+¡Observa que este código es muy similar al código que usarías para crear un temporizador de cuenta regresiva!
 
-Next, use the `delay`{:class="block3variables"} variable in the code scripts of the 'red', 'yellow', and 'blue' sprites.
+A continuación, utiliza la variable `retraso`{:class = "block3variables"} en el código de los objetos 'rojo', 'amarillo' y 'azul'.
 
 \--- task \---
 
