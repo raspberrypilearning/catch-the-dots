@@ -17,12 +17,12 @@ Ve al área de código del escenario y crea un nuevo script que de a la variable
 ![Objeto escenario](images/stage-sprite.png)
 
 ```blocks3
-    when flag clicked
-    set [delay v] to (8)
-    repeat until < (delay) = (2)>
-        wait (10) seconds
-        change [delay v] by (-0.5)
-    end
+    al hacer clic en la bandera
+    establecer [retraso v] a (8)
+    repetir hasta < (retraso) = (2)>
+        esperar (10) segundos
+        cambiar [retraso v] por (-0.5)
+    fin
 ```
 
 \--- /task \---
@@ -33,24 +33,24 @@ A continuación, utiliza la variable `retraso`{:class = "block3variables"} en el
 
 \--- task \---
 
-Remove the code block that makes the game wait a random number of seconds between making the dot sprite clones. Replace the block you've removed with your new `delay`{:class="block3variables"} variable:
+Elimina el bloque de código que hace que el juego espere un número aleatorio de segundos entre los clones de los puntos. Vuelve a colocar el bloque que has quitado con tu nueva variable 0>retraso</code>{:class= "block3variables"} variable:
 
-![screenshot](images/all-dots.png)
+![captura de pantalla](images/all-dots.png)
 
 ```blocks3
-<br />-   wait (pick random (5) to (10)) secs
-    wait (delay :: variables) secs
+<br />-  esperar (número aleatorio entre (5) y (10)) segundos
+    esperar (retraso :: variables) segundos
 ```
 
-Do this for all three dot sprites.
+Haz esto para los tres objetos puntos.
 
 \--- /task \---
 
 \--- task \---
 
-Test the game, and check whether the dots begin to appear more quickly as the game goes on.
+Prueba el juego y verifica que los puntos comiencen a aparecer más rápidamente a medida que avanza el juego.
 
-+ Does this work for all three coloured dots?
-+ Can you see that the value of the `delay`{:class="block3variables"} variable decreases?
++ ¿Funciona para los tres puntos de colores?
++ ¿Puedes ver que el valor del `retraso`{:class= "block3variables"} disminuye?
 
 \--- /task \---
