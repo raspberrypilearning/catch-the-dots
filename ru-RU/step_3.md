@@ -4,17 +4,17 @@
 
 \--- task \---
 
-Create a new sprite called 'red'. This sprite should be a small red dot.
+Создай новый спрайт с именем 'красный'. Этот спрайт должен быть маленькой красной точкой.
 
-![Red dot sprite](images/dots-red.png)
+![Спрайт красной точки](images/dots-red.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add this script to your 'red' sprite to create a new clone of the sprite every few seconds:
+Добавь этот скрипт к спрайту "красный", чтобы каждые несколько секунд создавать новый клон спрайта:
 
-![Red dot sprite](images/red-sprite.png)
+![Спрайт красной точки](images/red-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -28,35 +28,35 @@ Add this script to your 'red' sprite to create a new clone of the sprite every f
 
 \--- /task \---
 
-If you click the green flag now, it looks like nothing is happening. This is because all of the cloned sprites are hidden, and they appear in the same place.
+Если нажмёшь на зелёный флажок сейчас, ничего не произойдет. Это потому, что все клонированные спрайты скрыты, и они появляются в одном и том же месте.
 
-You are going to add code to make each new clone appear in one of the four corners of the Stage.
+Ты добавишь код, который заставит каждый новый клон появляться в одном из четырех углов Сцены.
 
-![screenshot](images/dots-start.png)
+![снимок экрана](images/dots-start.png)
 
 \--- task \---
 
-Create a new list called `start positions`{:class="block3variables"}, click the list's `(+)` icon to add the values `-180`{:class="block3variables"} and `180`{:class="block3variables"}.
+Создай новый список с именем `начальные позиции`{:class="block3variables"}, нажми на значок `(+)` рядом со списком, чтобы добавить значения `-180`{:class="block3variables"} и `180`{:class="block3variables"}.
 
-![Red dot sprite](images/red-sprite.png)
+![Спрайт красной точки](images/red-sprite.png)
 
-![List of 180 and -180](images/dots-list.png)
+![Список из 180 и -180](images/dots-list.png)
 
 [[[generic-scratch3-make-list]]]
 
-Then you can hide the list by unselecting this box:
+Потом ты можешь скрыть список, убрав плюс:
 
-![Hide the list](images/hide-list.png)
+![Скрыть список](images/hide-list.png)
 
 \--- /task \---
 
-Notice that the coordinate for each corner of the Stage is a combination of `180` and `-180`. This means you can use the list to pick a corner of the Stage at random.
+Обрати внимание, что координаты для каждого угла Сцены - это разные комбинации `180` и `-180`. Это означает, что ты можешь использовать список, чтобы выбирать угол Сцены случайным образом.
 
 \--- task \---
 
-Add this code to the 'dot' sprite to make each new sprite clone appear in a random corner and then slowly move towards the controller sprite.
+Добавь этот код к спрайту «точка», чтобы каждый новый клон спрайта появлялся в случайном углу, а затем медленно приближался к спрайту контроллера.
 
-![Red dot sprite](images/red-sprite.png)
+![Спрайт красной точки](images/red-sprite.png)
 
 ```blocks3
     when I start as a clone
