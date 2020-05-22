@@ -1,6 +1,7 @@
 --- challenge ---
-## Desafío: Menú del juego 
-¿Puedes añadir un menú (con botones) a tu juego? Podrías añadir una pantalla de instrucciones, o una pantalla aparte para mostrar la puntuación más alta. Si necesitas ayuda con esto, el proyecto 'Juego de cálculo mental' puede ser útil.
 
+## Challenge: Game menu
+
+Can you add a menu (with buttons) to your game? You could add an instructions screen, or a separate screen for showing the high score. If you need help with this, the 'Brain Game' project will help you.
 
 --- /challenge ---
