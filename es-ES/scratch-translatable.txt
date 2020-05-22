@@ -1,6 +1,6 @@
-start positions
+posición de inicio
 
-lives
+vidas
 
 puntos
 
