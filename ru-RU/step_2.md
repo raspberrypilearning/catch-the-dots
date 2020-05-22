@@ -1,10 +1,10 @@
-## Create a controller
+## Создай контроллер
 
-Start by creating a controller that the player will use to collect dots.
+Начни с создания контроллера, который игрок будет использовать, чтобы ловить точки.
 
 \--- task \---
 
-Open the 'Catch the dots' Scratch starter project.
+Открой стартовый проект Scratch "Поймай точки".
 
 **Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
 
