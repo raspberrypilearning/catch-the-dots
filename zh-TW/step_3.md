@@ -82,7 +82,7 @@
 
 \--- task \---
 
-建立兩個變數，分別叫`血量`{:class="block3variables"} and `分數`{:class="block3variables"}。
+建立兩個變數，分別叫`血量`{:class="block3variables"} 和 `分數`{:class="block3variables"}。
 
 ![紅點角色](images/red-sprite.png)
 
