@@ -74,7 +74,7 @@
 
 \--- task \---
 
-Test your project. You should see red dots appear in the corners of the Stage and move slowly towards the controller.
+Перевір свій проєкт. Ти маєш побачити, як червоні точки з’являються в кутах Сцени і повільно рухаються до контроллера.
 
 ![screenshot](images/dots-red-test.png)
 
@@ -82,7 +82,7 @@ Test your project. You should see red dots appear in the corners of the Stage an
 
 \--- task \---
 
-Create two new variables called `lives`{:class="block3variables"} and `score`{:class="block3variables"}.
+Створи дві нові змінні з іменами `життя`{:class="block3variables"} та `рахунок`{:class="block3variables"}.
 
 ![Red dot sprite](images/red-sprite.png)
 
@@ -90,7 +90,7 @@ Create two new variables called `lives`{:class="block3variables"} and `score`{:c
 
 \--- task \---
 
-Add code to your Stage to set the `lives`{:class="block3variables"} variable to `3` and the `score`{:class="block3variables"} to `0` at the start of the game. ![Stage sprite](images/stage-sprite.png)
+Додай код до Сцени, щоб встановити на початку гри змінну `життя`{:class="block3variables"} рівною `3`, а `рахунок`{:class="block3variables"} рівним `0`. ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -102,7 +102,7 @@ set [score v] to (0)
 
 \--- task \---
 
-Add this code to the end of the Stage's script to make the game end when the player loses the last of the lives:
+Додай цей код в кінці скрипта Сцени, щоб гра закінчувалася, як тільки гравець втрачає останнє своє життя:
 
 ![Stage sprite](images/stage-sprite.png)
 
@@ -113,13 +113,13 @@ Add this code to the end of the Stage's script to make the game end when the pla
 
 \--- /task \---
 
-The player should win points for catching dots, and should lose lives for failing to catch dots. A dot can only be caught by matching the colour of the controller to the colour of the dot.
+Гравець має заробляти очки, ловлячи точки, і витрачати життя, коли йому це не вдається. Точка може бути спіймана лише тоді, коли колір контроллера відповідає кольору точки.
 
 \--- task \---
 
-Go back to the 'red' dot sprite's Scripts area to add some code blocks to the end of the sprite's `when I start as a clone`{:class="block3control"} script.
+Повернися до області скриптів спрайта точки, щоб додати блоки коду в кінці скрипта `коли я починаю як клон`{:class="block3control"}.
 
-First, make the dot clone `move 5 steps`{:class="block3motion"} so that it overlaps the controller.
+Спочатку зроби, щоб клон точки `перемістився на 5 кроків`{:class="block3motion"} і таким чином перетнувся з контроллером.
 
 Then add code to either add `1` to `score`{:class="block3variables"} if the colour of the dot clone matches the colour of the controller when they touch, or to take `1` away from `lives`{:class="block3variables"} if their colours don't match.
 
