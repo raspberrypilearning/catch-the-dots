@@ -1,10 +1,10 @@
-## Increase the difficulty
+## Підвищи складність
 
-Now you're going to make the game more difficult the longer the player plays it. You will do this by making the dots appear faster and faster over time.
+Тепер ти зробиш, щоб гра з часом ускладнювалася. Ти досягнеш цього, зробивши появу точок в процесі все частіше.
 
 \--- task \---
 
-Create a new `variable`{:class="block3variables"} called 'delay'.
+Створи нову `змінну`{:class="block3variables"} з назвою "затримка".
 
 ![Stage sprite](images/stage-sprite.png)
 
