@@ -6,15 +6,15 @@
 
 Створи нову `змінну`{:class="block3variables"} з назвою "затримка".
 
-![Stage sprite](images/stage-sprite.png)
+![Спрайт Сцени](images/stage-sprite.png)
 
 \--- /task \---
 
 \--- task \---
 
-Go to the Stage's Scripts area and create a new script that sets the `delay`{:class="block3variables"} variable to `8` and then slowly reduces the value of `delay`{:class="block3variables"} while the game runs.
+Перейди в розділ коду Сцени і створи новий скрипт, який встановлює значення змінної `затримка`{:class="block3variables"} рівним `8`, а далі потроху зменшує його в процесі гри.
 
-![Stage sprite](images/stage-sprite.png)
+![Спрайт Сцени](images/stage-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -27,30 +27,30 @@ Go to the Stage's Scripts area and create a new script that sets the `delay`{:cl
 
 \--- /task \---
 
-Notice that this code is very similar to the code you would use to create a countdown timer!
+Зверни увагу, що цей код дуже схожий на той, що ти створював для таймера зворотнього відліку!
 
-Next, use the `delay`{:class="block3variables"} variable in the code scripts of the 'red', 'yellow', and 'blue' sprites.
+Далі використай змінну `затримка`{:class="block3variables"} в коді для спрайтів "червона точка", "жовта точка" і "синя точка".
 
 \--- task \---
 
-Remove the code block that makes the game wait a random number of seconds between making the dot sprite clones. Replace the block you've removed with your new `delay`{:class="block3variables"} variable:
+Видали блок коду, який змушує гру чекати випадкову кількість секунд між створеннями клонів спрайтів точок. Заміни блок, який ти видалив (-ла), новою змінною `затримка`{:class="block3variables"}:
 
-![screenshot](images/all-dots.png)
+![знімок екрана](images/all-dots.png)
 
 ```blocks3
 <br />-   wait (pick random (5) to (10)) secs
     wait (delay :: variables) secs
 ```
 
-Do this for all three dot sprites.
+Зроби це для усіх трьох спрайтів точок.
 
 \--- /task \---
 
 \--- task \---
 
-Test the game, and check whether the dots begin to appear more quickly as the game goes on.
+Протестуй гру і перевір, чи точки починають з’являтися швидше в процесі.
 
-+ Does this work for all three coloured dots?
-+ Can you see that the value of the `delay`{:class="block3variables"} variable decreases?
++ Чи справджується це для всіх трьох кольорових точок?
++ Чи бачиш ти, як значення змінної `затримка`{:class="block3variables"} зменшується?
 
 \--- /task \---
