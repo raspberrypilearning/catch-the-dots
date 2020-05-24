@@ -4,7 +4,7 @@
 
 Продублюй двічі спрайт "червона точка" та назви два нових спрайти "жовта точка" і "синя точка".
 
-![screenshot](images/dots-more-dots.png)
+![знімок екрана](images/dots-more-dots.png)
 
 \--- /task \---
 
@@ -18,7 +18,7 @@
 
 Зміни код кожного зі спрайтів, щоб для заробляння очок гравець мав попадати клоном точки в правильний колір на контроллері.
 
-![screenshot](images/dots-all-test.png)
+![знімок екрана](images/dots-all-test.png)
 
 \--- hints \---
 
@@ -26,7 +26,7 @@
 
 Ось код, який тобі треба буде знайти і змінити в обох нових спрайтах:
 
-![screenshot](images/dots-more-dots.png)
+![знімок екрана](images/dots-more-dots.png)
 
 ```blocks3
     if <touching color [#FF0000]?> then
@@ -40,7 +40,7 @@
 
 \--- hint \---
 
-This is how you need to change the code for the yellow sprite:
+Ось як тобі треба змінити код для жовтого спрайта:
 
 ```blocks3
     if <touching color [#FFFF00]? :: +> then
@@ -49,7 +49,7 @@ This is how you need to change the code for the yellow sprite:
     end
 ```
 
-This is how you need to change the code for the blue sprite:
+Ось як тобі треба змінити код для синього спрайта:
 
 ```blocks3
     if <touching color [#0000FF]? :: +> then
@@ -64,13 +64,13 @@ This is how you need to change the code for the blue sprite:
 
 \--- /task \---
 
-If you play the game now, you can see that the dots sometimes get created one top of each other.
+Якщо ти зараз зіграєш у гру, ти побачиш, що часом точки створюються одна на одній.
 
 \--- task \---
 
-Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
+Зміни код спрайта "жовта точка", щоб проходило чотири секунди між натисканням прапора та її появою.
 
-![Yellow dot](images/yellow-sprite.png)
+![Жовта точка](images/yellow-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -78,8 +78,8 @@ Change the code for the 'yellow' dot sprite so that it waits four seconds after 
 +   wait (4) seconds
 ```
 
-![Blue dot](images/blue-sprite.png)
+![Синя точка](images/blue-sprite.png)
 
-Then change the code for the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
+Далі зміни код спрайта "синя точка", щоб проходило шість секунд між натисканням прапора та її появою.
 
 \--- /task \---
