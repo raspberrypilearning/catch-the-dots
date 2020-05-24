@@ -54,7 +54,7 @@
 
 \--- task \---
 
-Add this code to the 'dot' sprite to make each new sprite clone appear in a random corner and then slowly move towards the controller sprite.
+Додай цей код до спрайта точки, щоб кожен її клон з’являвся у випадковому куті, а далі повільно рухався до спрайта контроллера.
 
 ![Red dot sprite](images/red-sprite.png)
 
@@ -70,7 +70,7 @@ Add this code to the 'dot' sprite to make each new sprite clone appear in a rand
 
 \--- /task \---
 
-This new code chooses either `-180` or `180` for the x and y positions, meaning that each 'dot' sprite clone starts in a corner of the Stage.
+Цей новий код вибирає `-180` або `180` для координат x та y, тобто кожен клон точки буде розпочинати із кута Сцени.
 
 \--- task \---
 
