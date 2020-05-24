@@ -6,7 +6,7 @@
 
 Створи новий спрайт із назвою "червона точка". Цей спрайт повинен бути маленькою червоною точкою.
 
-![Red dot sprite](images/dots-red.png)
+![Спрайт червоної точки](images/dots-red.png)
 
 \--- /task \---
 
@@ -14,7 +14,7 @@
 
 Додай наступний скрипт до спрайта "червона точка", щоб створювати новий його клон кожні декілька секунд:
 
-![Red dot sprite](images/red-sprite.png)
+![Спрайт червоної точки](images/red-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -32,21 +32,21 @@
 
 Ти додаси код, щоб кожен клон з’являвся в одному із чотирьох кутів Сцени.
 
-![screenshot](images/dots-start.png)
+![знімок екрана](images/dots-start.png)
 
 \--- task \---
 
 Створи нови список із назвою `початкові позиції`{:class="block3variables"}, клацни на іконку `(+)` і додай значення `-180`{:class="block3variables"} та `180`{:class="block3variables"}.
 
-![Red dot sprite](images/red-sprite.png)
+![Спрайт червоної точки](images/red-sprite.png)
 
-![List of 180 and -180](images/dots-list.png)
+![Список з 180 та -180](images/dots-list.png)
 
 [[[generic-scratch3-make-list]]]
 
 Далі ти можеш приховати список, знявши виділення з цього пункту:
 
-![Hide the list](images/hide-list.png)
+![Сховати список](images/hide-list.png)
 
 \--- /task \---
 
@@ -56,7 +56,7 @@
 
 Додай цей код до спрайта точки, щоб кожен її клон з’являвся у випадковому куті, а далі повільно рухався до спрайта контроллера.
 
-![Red dot sprite](images/red-sprite.png)
+![Спрайт червоної точки](images/red-sprite.png)
 
 ```blocks3
     when I start as a clone
@@ -76,7 +76,7 @@
 
 Перевір свій проєкт. Ти маєш побачити, як червоні точки з’являються в кутах Сцени і повільно рухаються до контроллера.
 
-![screenshot](images/dots-red-test.png)
+![знімок екрана](images/dots-red-test.png)
 
 \--- /task \---
 
@@ -84,13 +84,13 @@
 
 Створи дві нові змінні з іменами `життя`{:class="block3variables"} та `рахунок`{:class="block3variables"}.
 
-![Red dot sprite](images/red-sprite.png)
+![Спрайт червоної точки](images/red-sprite.png)
 
 \--- /task \---
 
 \--- task \---
 
-Додай код до Сцени, щоб встановити на початку гри змінну `життя`{:class="block3variables"} рівною `3`, а `рахунок`{:class="block3variables"} рівним `0`. ![Stage sprite](images/stage-sprite.png)
+Додай код до Сцени, щоб встановити на початку гри змінну `життя`{:class="block3variables"} рівною `3`, а `рахунок`{:class="block3variables"} рівним `0`. ![Спрайт сцени](images/stage-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -104,7 +104,7 @@ set [score v] to (0)
 
 Додай цей код в кінці скрипта Сцени, щоб гра закінчувалася, як тільки гравець втрачає останнє своє життя:
 
-![Stage sprite](images/stage-sprite.png)
+![Спрайт сцени](images/stage-sprite.png)
 
 ```blocks3
     wait until <(lives :: variables) < [1]>
@@ -121,11 +121,11 @@ set [score v] to (0)
 
 Спочатку зроби, щоб клон точки `перемістився на 5 кроків`{:class="block3motion"} і таким чином перетнувся з контроллером.
 
-Then add code to either add `1` to `score`{:class="block3variables"} if the colour of the dot clone matches the colour of the controller when they touch, or to take `1` away from `lives`{:class="block3variables"} if their colours don't match.
+Далі додай код, щоб або додавати `1` до `рахунку`{:class="block3variables"}, якщо колір клона точки дорівнює кольору на контроллері, якого вона торкається, або забирати `1` `життя`{:class="block3variables"}, якщо кольори різні.
 
 [[[generic-scratch3-sound-from-library]]]
 
-![Red dot sprite](images/red-sprite.png)
+![Спрайт червоної точки](images/red-sprite.png)
 
 ```blocks3
     move (5) steps
@@ -143,9 +143,9 @@ Then add code to either add `1` to `score`{:class="block3variables"} if the colo
 
 \--- task \---
 
-Test your game to make sure that:
+Протестуй свою гру, щоб переконатися, що:
 
-1. You lose a life if you don’t match a dot with the correct colour
-2. You score a point if you match a dot correctly
+1. Ти витрачаєш життя, якщо точка попадає в неправильний колір
+2. Ти заробляєш очко, якщо точка попадає правильно
 
 \--- /task \---
