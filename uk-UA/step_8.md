@@ -1,9 +1,9 @@
-## Challenge: improve your game
+## Завдання: вдоскональ свою гру
 
-Can you think of ways to improve your game? For example, you could create special dots that:
+В тебе є ідеї, як покращити гру? Наприклад, ти можеш створити спеціальні точки, які:
 
-+ Double your score
-+ Slow down the dots
-+ Hide all the other dots on the screen
++ Подвоюють рахунок
++ Сповільнюють точки
++ Ховають всі інші точки на екрані
 
-Can you add a menu with buttons to your game? You could add an screen with instructions or a separate screen for showing the high score.
+Чи можеш ти додати до гри меню з кнопками? Ти міг би додати екран з інструкціями або окремий екран для відображення рекорду.
