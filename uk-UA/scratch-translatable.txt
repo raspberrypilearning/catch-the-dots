@@ -6,6 +6,6 @@
 
 затримка
 
-check high score
+перевірка рекорду
 
-high score
+рекорд
