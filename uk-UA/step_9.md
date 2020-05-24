@@ -1,10 +1,10 @@
-## What next?
+## Що далі?
 
-Try the [Clone wars](https://projects.raspberrypi.org/en/projects/clone-wars?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project to make a game in which you have to save the Earth from space monsters. In that project, you will be able to use what you have learned about cloning sprites and adding a score!
+Спробуй проєкт [Війни клонів](https://projects.raspberrypi.org/en/projects/clone-wars?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), щоб зробити гру, в якій тобі треба буде рятувати Землю від космічних монстрів. В ньому ти зможеш використати те, що ти дізнався (-лася) про клонування спрайтів та ведення рахунку!
 
 \--- no-print \---
 
-Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
+Для запуску клацни на зелений прапор у грі нижче, а далі натискай клавіші зі стрілками <kbd>вліво</kbd> та <kbd>вправо</kbd> для переміщення космічного корабля, а також клавішу <kbd>пропуск</kbd> для пострілів.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -13,10 +13,10 @@ Click the green flag in the example game below to start, and then press the <kbd
 
 \--- /no-print \---
 
-Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
+Набери якомога більше очок, збиваючи літаючих космічних бегемотів. Якщо в тебе потрапить бегемот або апельсин, що скидається летючими мишами, ти витратиш життя.
 
 \--- print-only \---
 
-![desc](images/clone-showcase.png)
+![опис](images/clone-showcase.png)
 
 \--- /print-only \---
