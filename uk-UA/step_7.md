@@ -14,9 +14,9 @@
 
 Вибери Сцену. Клацни "Мої блоки" і створи новий власний блок з іменем `перевірка рекорду`{:class="block3myblocks"}.
 
-![Stage sprite](images/stage-sprite.png)
+![спрайт Сцени](images/stage-sprite.png)
 
-![screenshot](images/dots-custom-1.png)
+![знімок екрана](images/dots-custom-1.png)
 
 \--- /task \---
 
@@ -24,7 +24,7 @@
 
 Додай до свого блоку код, щоб він перевіряв, чи поточне значення `рахунку`{:class="block3variables"} більше за значення змінної `рекорд`{:class="block3variables"}, і якщо так, то зберігав `рахунок`{:class="block3variables"} як нове значення `рекорду`{:class="block3variables"}.
 
-![Stage sprite](images/stage-sprite.png)
+![спрайт Сцени](images/stage-sprite.png)
 
 ```blocks3
     define check high score
@@ -39,7 +39,7 @@
 
 Додай новий власний блок до скрипта Сцени перед його кінцем.
 
-![Stage sprite](images/stage-sprite.png)
+![спрайт Сцени](images/stage-sprite.png)
 
 ```blocks3
 when flag clicked
