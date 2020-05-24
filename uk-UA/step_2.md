@@ -18,13 +18,13 @@
 
 Ти маєш побачити спрайт контроллера:
 
-![screenshot](images/dots-controller.png)
+![знімок екрана](images/dots-controller.png)
 
 \--- task \---
 
 Додай код до спрайта контроллера, щоб він повертався вправо кожного разу, коли гравець натискає клавішу зі стрілкою вправо:
 
-![Controller sprite](images/controller-sprite.png)
+![Спрайт контроллера](images/controller-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -47,19 +47,19 @@
 
 Додай код до контроллера, щоб обертати спрайт вліво, коли гравець натискає на клавішу зі стрілкою вліво.
 
-![Controller sprite](images/controller-sprite.png)
+![Спрайт контроллера](images/controller-sprite.png)
 
 \--- hints \---
 
 \--- hint \---
 
-Знайди код, який перевіряє, що натискається клавіша стрілки вправо, і повертає спрайт вправо. Can you add a copy of this code, and change the copy so it checks whether the left arrow key is pressed and makes the sprite turn left?
+Знайди код, який перевіряє, що натискається клавіша стрілки вправо, і повертає спрайт вправо. Чи можеш ти додати копію цього коду, змінивши його так, щоб відбувалася перевірка клавіші вліво і поворот вліво?
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+Ось блоки, які тобі знадобляться:
 
 ```blocks3
 <key (space v) pressed?>
@@ -75,7 +75,7 @@ end
 
 \--- hint \---
 
-Here is what your code should look like:
+Ось як має виглядати твій код:
 
 ```blocks3
     when flag clicked
