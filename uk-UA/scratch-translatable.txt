@@ -1,10 +1,10 @@
-start positions
+початкові позиції
 
-lives
+життя
 
-score
+рахунок
 
-delay
+затримка
 
 check high score
 
