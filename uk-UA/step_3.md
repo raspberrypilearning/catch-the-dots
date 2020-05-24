@@ -1,10 +1,10 @@
-## Gain points or lose lives
+## Отримуй очки або витрачай житті
 
-Now you're going to add some dots that the player needs to collect.
+Тепер ти додаси точки, які необхідно ловити гравцеві.
 
 \--- task \---
 
-Create a new sprite called 'red'. This sprite should be a small red dot.
+Створи новий спрайт із назвою "червона точка". Цей спрайт повинен бути маленькою червоною точкою.
 
 ![Red dot sprite](images/dots-red.png)
 
@@ -12,7 +12,7 @@ Create a new sprite called 'red'. This sprite should be a small red dot.
 
 \--- task \---
 
-Add this script to your 'red' sprite to create a new clone of the sprite every few seconds:
+Додай наступний скрипт до спрайта "червона точка", щоб створювати новий його клон кожні декілька секунд:
 
 ![Red dot sprite](images/red-sprite.png)
 
@@ -28,15 +28,15 @@ Add this script to your 'red' sprite to create a new clone of the sprite every f
 
 \--- /task \---
 
-If you click the green flag now, it looks like nothing is happening. This is because all of the cloned sprites are hidden, and they appear in the same place.
+Якщо ти зараз клацнеш на зелений прапор, то буде здаватися, що нічого не відбувається. Це через те, що всій клони заховані, і до того ж вони з’являються в одному й тому ж місці.
 
-You are going to add code to make each new clone appear in one of the four corners of the Stage.
+Ти додаси код, щоб кожен клон з’являвся в одному із чотирьох кутів Сцени.
 
 ![screenshot](images/dots-start.png)
 
 \--- task \---
 
-Create a new list called `start positions`{:class="block3variables"}, click the list's `(+)` icon to add the values `-180`{:class="block3variables"} and `180`{:class="block3variables"}.
+Створи нови список із назвою `початкові позиції`{:class="block3variables"}, клацни на іконку `(+)` і додай значення `-180`{:class="block3variables"} та `180`{:class="block3variables"}.
 
 ![Red dot sprite](images/red-sprite.png)
 
@@ -44,13 +44,13 @@ Create a new list called `start positions`{:class="block3variables"}, click the 
 
 [[[generic-scratch3-make-list]]]
 
-Then you can hide the list by unselecting this box:
+Далі ти можеш приховати список, знявши виділення з цього пункту:
 
 ![Hide the list](images/hide-list.png)
 
 \--- /task \---
 
-Notice that the coordinate for each corner of the Stage is a combination of `180` and `-180`. This means you can use the list to pick a corner of the Stage at random.
+Зверни увагу, що координати кутів Сцени — це комбінація `180` та `-180`. Це означає, що ти можеш використовувати цей список, щоб вибирати випадковий кут.
 
 \--- task \---
 
