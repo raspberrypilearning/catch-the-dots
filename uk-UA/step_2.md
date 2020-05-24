@@ -4,25 +4,25 @@
 
 \--- task \---
 
-Open the 'Catch the dots' Scratch starter project.
+Відкрий початковий проєкт "Лови точки" у Скретч.
 
-**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
+**Онлайн:** відкрий стартовий проєкт на [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Якщо у тебе є обліковий запис Скретч, то ти можеш зробити копію проєкту, натиснувши **Ремікс**.
 
-**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
+**Офлайн:** завантаж стартовий проект з [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), а потім відкрий його за допомогою офлайн-редактора Scratch.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+Якщо тобі треба завантажити та встановити офлайн-редактор Скретч, то ти можеш його знайти на [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
 \--- /task \---
 
-You should see a controller sprite:
+Ти маєш побачити спрайт контроллера:
 
 ![screenshot](images/dots-controller.png)
 
 \--- task \---
 
-Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
+Додай код до спрайта контроллера, щоб він повертався вправо кожного разу, коли гравець натискає клавішу зі стрілкою вправо:
 
 ![Controller sprite](images/controller-sprite.png)
 
@@ -39,13 +39,13 @@ Add some code to the controller sprite to make the sprite turn right if the play
 
 \--- task \---
 
-Test your code. The controller should spin to the right when you press the right arrow key.
+Протестуй свій код. Контроллер має обератися вправо, коли ти натискаєш на клавішу зі стрілкою вправо.
 
 \--- /task \---
 
 \--- task \---
 
-Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
+Додай код до контроллера, щоб обертати спрайт вліво, коли гравець натискає на клавішу зі стрілкою вліво.
 
 ![Controller sprite](images/controller-sprite.png)
 
@@ -53,7 +53,7 @@ Add code to the controller sprite to make the sprite turn left if the player pre
 
 \--- hint \---
 
-Find the code that checks whether the right arrow key is pressed and makes the sprite turn right. Can you add a copy of this code, and change the copy so it checks whether the left arrow key is pressed and makes the sprite turn left?
+Знайди код, який перевіряє, що натискається клавіша стрілки вправо, і повертає спрайт вправо. Can you add a copy of this code, and change the copy so it checks whether the left arrow key is pressed and makes the sprite turn left?
 
 \--- /hint \---
 
