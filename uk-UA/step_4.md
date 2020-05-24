@@ -1,8 +1,8 @@
-## More dots
+## Більше точок
 
 \--- task \---
 
-Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
+Продублюй двічі спрайт "червона точка" та назви два нових спрайти "жовта точка" і "синя точка".
 
 ![screenshot](images/dots-more-dots.png)
 
@@ -10,13 +10,13 @@ Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and
 
 \--- task \---
 
-Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue.
+Зміни образ кожного з нових спрайтів, щоб вони були правильного кольору: "жовта точка" має бути жовтою, а "синя точка" — синьою.
 
 \--- /task \---
 
 \--- task \---
 
-Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
+Зміни код кожного зі спрайтів, щоб для заробляння очок гравець мав попадати клоном точки в правильний колір на контроллері.
 
 ![screenshot](images/dots-all-test.png)
 
@@ -24,7 +24,7 @@ Change the code of each sprite so that the player has to match dot clone to the 
 
 \--- hint \---
 
-This is the code you need to find and alter for both new sprites:
+Ось код, який тобі треба буде знайти і змінити в обох нових спрайтах:
 
 ![screenshot](images/dots-more-dots.png)
 
