@@ -2,26 +2,26 @@
 hero_image: images/banner.png
 listed: true
 copyedit: false
-title: Catch the dots
-description: Make a dot-catching game
+title: Лови точки
+description: Створи гру про ловлю точок
 version: 4.0.0
 last_tested: 2018-10-16
 steps:
   - 
-    title: Introduction
+    title: Вступ
   - 
-    title: Create a controller
+    title: Створи контроллер
   - 
-    title: Gain points or lose lives
+    title: Отримуй очки або втрачай життя
   - 
-    title: More dots
+    title: Більше точок
   - 
-    title: Increase the difficulty
+    title: Підвищи складність
   - 
-    title: 'Challenge: faster dots'
+    title: 'Завдання: швидші точки'
   - 
-    title: High score
+    title: Рекорд
   - 
-    title: 'Challenge: improve your game!'
+    title: 'Завдання: вдоскональ свою гру!'
   - 
-    title: What next?
+    title: Що далі?
