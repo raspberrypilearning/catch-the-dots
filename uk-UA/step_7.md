@@ -1,18 +1,18 @@
-## High score
+## Рекорд
 
-You're going to save the game's high score, so that players can see how well they are doing.
+Ти будеш зберігати рекорд гри, щоб гравці могли бачити свої успіхи.
 
 \--- task \---
 
-Create a new variable called `high score`{:class="block3variables"}.
+Створи нову змінну з іменем `рекорд`{:class="block3variables"}.
 
-![Stage sprite](images/stage-sprite.png)
+![спрайт Сцени](images/stage-sprite.png)
 
 \--- /task \---
 
 \--- task \---
 
-Select the Stage. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
+Вибери Сцену. Клацни "Мої блоки" і створи новий власний блок з іменем `перевірка рекорду`{:class="block3myblocks"}.
 
 ![Stage sprite](images/stage-sprite.png)
 
@@ -22,7 +22,7 @@ Select the Stage. Click on 'My blocks' and create a new custom block called `che
 
 \--- task \---
 
-Add code to your custom block so that the block checks if the current value of `score`{:class="block3variables"} in larger than the value of the `high score`{:class="block3variables"} variable, and then stores the value of `score`{:class="block3variables"} as the new value of `high score`{:class="block3variables"}.
+Додай до свого блоку код, щоб він перевіряв, чи поточне значення `рахунку`{:class="block3variables"} більше за значення змінної `рекорд`{:class="block3variables"}, і якщо так, то зберігав `рахунок`{:class="block3variables"} як нове значення `рекорду`{:class="block3variables"}.
 
 ![Stage sprite](images/stage-sprite.png)
 
@@ -37,7 +37,7 @@ Add code to your custom block so that the block checks if the current value of `
 
 \--- task \---
 
-Add your new custom block to the Stage script before the end of the script.
+Додай новий власний блок до скрипта Сцени перед його кінцем.
 
 ![Stage sprite](images/stage-sprite.png)
 
@@ -55,6 +55,6 @@ stop [all v]
 
 \--- task \---
 
-Play your game twice to check whether your score gets correctly saved as the `high score`{:class="block3variables"}.
+Зіграй в свою гру двічі, щоб перевірити, чи твій рахунок коректно зберігається як `рекорд`{:class="block3variables"}.
 
 \--- /task \---
