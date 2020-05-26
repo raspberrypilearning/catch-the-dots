@@ -12,7 +12,7 @@
 
 --- task ---
 
-स्टेज का चयन करें। 'My blocks' पर क्लिक करें और एक नया कस्टम ब्लॉक `check high score` {:class="block3myblocks"} बनाएं I
+स्टेज का चयन करें। 'My blocks' पर क्लिक करें और एक नया कस्टम ब्लॉक `check high score`{:class="block3myblocks"} बनाएं I
 
 ![स्टेज स्प्राइट](images/stage-sprite.png)
 
@@ -46,7 +46,6 @@ when flag clicked
 set [lives v] to (3)
 set [score v] to (0)
 wait until <(lives) < (1)>
-
 + check high score :: custom
 stop [all v]
 ```
