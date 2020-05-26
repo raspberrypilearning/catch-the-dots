@@ -1,10 +1,10 @@
-## Increase the difficulty
+## Αύξησε τη δυσκολία
 
-Now you're going to make the game more difficult the longer the player plays it. You will do this by making the dots appear faster and faster over time.
+Τώρα πρόκειται να κάνεις το παιχνίδι δυσκολότερο για τον παίκτη, όσο αυτός δε χάνει και συνεχίζει να παίζει. Αυτό θα γίνει κάνοντας τις τελείες να εμφανίζονται όλο και πιο γρήγορα όσο περνάει ο χρόνος.
 
 \--- task \---
 
-Create a new `variable`{:class="block3variables"} called 'delay'.
+Δημιούργησε μία νέα `μεταβλητή`{:class="block3variables"} με όνομα 'καθυστέρηση'.
 
 ![Stage sprite](images/stage-sprite.png)
 
