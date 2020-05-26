@@ -1,10 +1,10 @@
-## What next?
+## Τι υπάρχει στη συνέχεια;
 
-Try the [Clone wars](https://projects.raspberrypi.org/en/projects/clone-wars?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project to make a game in which you have to save the Earth from space monsters. In that project, you will be able to use what you have learned about cloning sprites and adding a score!
+Δοκίμασε το έργο [Ο πόλεμος των κλώνων](https://projects.raspberrypi.org/en/projects/clone-wars?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) προκειμένου να φτιάξεις ένα παιχνίδι στο οποίο θα πρέπει να σώσεις τη Γη από διαστημικά τέρατα. Σε αυτό το έργο, θα μπορέσεις να χρησιμοποιήσεις ότι έχεις μάθει σχετικά με την δημιουργία κλώνων των αντικειμένων και με την προσθήκη ενός σκορ!
 
 \--- no-print \---
 
-Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
+Κάνε κλικ στην πράσινη σημαία στο παρακάτω παράδειγμα για να ξεκινήσεις και κατόπιν πάτα τα πλήκτρα <kbd>αριστερό</kbd> και <kbd>δεξί</kbd> βέλος για να μετακινήσεις το διαστημόπλοιο και το πλήκτρο <kbd>κενό</kbd> για να πυροβολήσεις.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -13,10 +13,10 @@ Click the green flag in the example game below to start, and then press the <kbd
 
 \--- /no-print \---
 
-Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
+Πέτυχε όσους περισσότερους πόντους μπορείς πυροβολώντας ιπτάμενους διαστημικούς ιπποπόταμους. Αν χτυπηθείς από ιπποπόταμο ή από ένα πορτοκάλι που ρίχνουν οι νυχτερίδες, θα χάσεις μια ζωή.
 
 \--- print-only \---
 
-![desc](images/clone-showcase.png)
+![περιγραφή](images/clone-showcase.png)
 
 \--- /print-only \---
