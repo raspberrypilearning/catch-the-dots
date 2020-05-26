@@ -17,13 +17,13 @@
 ![Спрайт красной точки](images/red-sprite.png)
 
 ```blocks3
-    when flag clicked
-    hide
-    wait (2) seconds
-    forever
-        create clone of (myself v)
-        wait (pick random (5) to (10)) secs
-    end
+    когда щёлкнут по зелёному флагу
+ спрятаться
+ ждать (2) секунд
+ повторять всегда 
+   создать клон (самого себя v)
+   ждать (выдать случайное от (5) до (10)) секунд
+конец
 ```
 
 \--- /task \---
@@ -113,13 +113,13 @@ set [score v] to (0)
 
 \--- /task \---
 
-The player should win points for catching dots, and should lose lives for failing to catch dots. A dot can only be caught by matching the colour of the controller to the colour of the dot.
+Игрок должен выигрывать очки за то, что ловит точки, и терять жизни, когда не может их поймать. Точку можно поймать только подставляя контроллер стороной с нужным цветом так, чтобы он совпадал с цветом точки.
 
 \--- task \---
 
-Go back to the 'red' dot sprite's Scripts area to add some code blocks to the end of the sprite's `when I start as a clone`{:class="block3control"} script.
+Вернись к скрипту спрайта красной точки, чтобы добавить несколько блоков кода в конец скрипта`когда я начинаю как клон`{:class="block3control"}.
 
-First, make the dot clone `move 5 steps`{:class="block3motion"} so that it overlaps the controller.
+Сначала заставь клон точки `перейти на 5 шагов`{:class="block3motion"} так, чтобы он перекрывал контроллер.
 
 Then add code to either add `1` to `score`{:class="block3variables"} if the colour of the dot clone matches the colour of the controller when they touch, or to take `1` away from `lives`{:class="block3variables"} if their colours don't match.
 
