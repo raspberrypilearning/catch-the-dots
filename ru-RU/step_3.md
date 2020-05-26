@@ -121,11 +121,11 @@ set [score v] to (0)
 
 Сначала заставь клон точки `перейти на 5 шагов`{:class="block3motion"} так, чтобы он перекрывал контроллер.
 
-Then add code to either add `1` to `score`{:class="block3variables"} if the colour of the dot clone matches the colour of the controller when they touch, or to take `1` away from `lives`{:class="block3variables"} if their colours don't match.
+Затем добавь код, который прибавляет либо `1` к `счёту`{:class="block3variables"}, если цвет клона точки совпадает с цветом контроллера при касании, либо отнимает `1` от количества `жизней`{:class="block3variables"}, если цвета не совпадают.
 
 [[[generic-scratch3-sound-from-library]]]
 
-![Red dot sprite](images/red-sprite.png)
+![Спрайт красной точки](images/red-sprite.png)
 
 ```blocks3
     move (5) steps
@@ -143,9 +143,9 @@ Then add code to either add `1` to `score`{:class="block3variables"} if the colo
 
 \--- task \---
 
-Test your game to make sure that:
+Проверь свою игру, чтобы убедиться, что:
 
-1. You lose a life if you don’t match a dot with the correct colour
-2. You score a point if you match a dot correctly
+1. Игра отнимает одну жизнь, если цвет точки и контроллера не совпадает
+2. Добавляется очко, если цвета совпадают
 
 \--- /task \---
