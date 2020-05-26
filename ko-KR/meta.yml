@@ -1,0 +1,18 @@
+---
+hero_image: images/banner.png
+listed: true
+copyedit: false
+title: Catch the dots
+description: 점(도트)을 잡는 게임을 만들어 봅시다
+version: 4.0.0
+last_tested: 2018-10-16
+steps:
+  - title: 소개
+  - title: 조종기를 만들어 보세요
+  - title: 점수를 얻거나 생명을 잃거나
+  - title: 더 많은 점을 생성하세요
+  - title: 난이도를 올려보세요
+  - title: '도전과제 : 점들의 속도를 더 빠르게 하기'
+  - title: 최고점수
+  - title: '도전과제 : 더 멋진 게임만들기!'
+  - title: 더 나아가기

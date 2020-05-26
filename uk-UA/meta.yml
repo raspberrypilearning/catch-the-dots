@@ -1,20 +1,18 @@
 ---
 hero_image: images/banner.png
-theme: turquoise
-duration: 2
 listed: true
-ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Спіймай крапки
-description: При реалізації цього проекту, ви навчитеся створювати гру, в якій потрібно буде ловити кольорові кульки стороною контролера-колеса такого ж кольору.
-original_url: https://codeclubprojects.org/en-GB/scratch/catch-the-dots
-interests: games
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
-version: 3
-last_tested: 2017-01-01
-steps: 
-- title: Спіймай крапки
+title: Лови точки
+description: Створи гру про ловлю точок
+version: 4.0.0
+last_tested: 2018-10-16
+steps:
+  - title: Вступ
+  - title: Створи контроллер
+  - title: Отримуй очки або витрачай житті
+  - title: Більше точок
+  - title: Підвищи складність
+  - title: 'Завдання: швидші точки'
+  - title: Рекорд
+  - title: 'Завдання: вдоскональ свою гру!'
+  - title: Що далі?
