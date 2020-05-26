@@ -27,10 +27,10 @@
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    define check high score
-    if <(score :: variables) > (high score)> then
-        set [high score v] to (score :: variables)
-    end
+    ορισμός check high score
+εάν <(score :: variables) > (high score)> τότε 
+  όρισε [high score v] σε (score :: variables)
+end
 ```
 
 \--- /task \---
@@ -55,6 +55,6 @@ stop [all v]
 
 \--- task \---
 
-Play your game twice to check whether your score gets correctly saved as the `high score`{:class="block3variables"}.
+Παίξε το παιχνίδι σου δύο φορές για να ελέγξεις ότι το σκορ αποθηκεύεται σωστά ως `υψηλό σκορ`{:class="block3variables"}.
 
 \--- /task \---
