@@ -1,9 +1,9 @@
-## Challenge: improve your game
+## Πρόκληση: βελτίωσε το παιχνίδι σου
 
-Can you think of ways to improve your game? For example, you could create special dots that:
+Μπορείς να σκεφτείς τρόπους για να βελτιώσεις το παιχνίδι σου; Για παράδειγμα, θα μπορούσες να δημιουργήσεις ειδικές τελείες που:
 
-+ Double your score
-+ Slow down the dots
-+ Hide all the other dots on the screen
++ Διπλασιάζουν το σκορ
++ Επιβραδύνουν τις άλλες τελείες
++ Εξαφανίζουν όλες τις άλλες τελείες από την οθόνη
 
-Can you add a menu with buttons to your game? You could add an screen with instructions or a separate screen for showing the high score.
+Μπορείς να προσθέσεις ένα μενού με κουμπιά στο παιχνίδι σου; Θα μπορούσες να προσθέσεις μια οθόνη με οδηγίες ή μια ξεχωριστή οθόνη για την εμφάνιση του υψηλότερου σκορ.
