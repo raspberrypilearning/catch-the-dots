@@ -1,10 +1,10 @@
-## High score
+## Υψηλό Σκορ
 
-You're going to save the game's high score, so that players can see how well they are doing.
+Πρόκειται να αποθηκεύεις το υψηλότερο σκορ έτσι ώστε οι παίκτες να μπορούν να δουν πόσο καλά τα καταφέρνουν.
 
 \--- task \---
 
-Create a new variable called `high score`{:class="block3variables"}.
+Δημιούργησε μία νέα μεταβλητή με όνομα `σκορ`{:class="block3variables"}.
 
 ![Stage sprite](images/stage-sprite.png)
 
@@ -12,7 +12,7 @@ Create a new variable called `high score`{:class="block3variables"}.
 
 \--- task \---
 
-Select the Stage. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
+Επίλεξε το Σκηνικό. Κάνε κλικ στο 'Οι εντολές μου' και δημιούργησε ένα νέο μπλοκ με όνομα `έλεγξε υψηλό σκορ`{:class="block3myblocks"}.
 
 ![Stage sprite](images/stage-sprite.png)
 
@@ -22,7 +22,7 @@ Select the Stage. Click on 'My blocks' and create a new custom block called `che
 
 \--- task \---
 
-Add code to your custom block so that the block checks if the current value of `score`{:class="block3variables"} in larger than the value of the `high score`{:class="block3variables"} variable, and then stores the value of `score`{:class="block3variables"} as the new value of `high score`{:class="block3variables"}.
+Πρόσθεσε κώδικα στο δικό σου μπλοκ ώστε να ελέγχει αν η τρέχουσα τιμή της μεταβλητής `σκορ`{:class="block3variables"} είναι μεγαλύτερη από την τιμή της μεταβλητής `υψηλό σκορ`{:class="block3variables"} και στη συνέχεια να αποθηκεύει την τιμή του `σκορ`{:class="block3variables"} ως τη νέα τιμή του `υψηλό σκορ`{:class="block3variables"}.
 
 ![Stage sprite](images/stage-sprite.png)
 
@@ -37,7 +37,7 @@ Add code to your custom block so that the block checks if the current value of `
 
 \--- task \---
 
-Add your new custom block to the Stage script before the end of the script.
+Πρόσθεσε το νέο σου μπλοκ στον κώδικα του Σκηνικού πριν το τέλος του.
 
 ![Stage sprite](images/stage-sprite.png)
 
