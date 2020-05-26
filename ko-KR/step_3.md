@@ -90,7 +90,7 @@ end
 
 \--- task \---
 
-Add code to your Stage to set the `lives`{:class="block3variables"} variable to `3` and the `score`{:class="block3variables"} to `0` at the start of the game. ![무대 스프라이트](images/stage-sprite.png)
+스테이지에 코드를 추가하여 게임이 시작할 때의 변수를 설정되도록 하세요`생명`{:class="block3variables"} `3`으로 그리고 `점수`{:class="block3variables"} `0`으로 ![무대 스프라이트](images/stage-sprite.png)
 
 ```blocks3
 when flag clicked
