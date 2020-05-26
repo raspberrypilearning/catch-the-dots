@@ -59,13 +59,13 @@
 ![Спрайт красной точки](images/red-sprite.png)
 
 ```blocks3
-    when I start as a clone
-    go to x: (item (pick random (1) to (2)) of [start positions v]) y: (item (pick random (1) to (2)) of [start positions v])
-    point towards (controller v)
-    show
-    repeat until <touching (controller v)?>
-        move (1) steps
-    end
+    когда я начинаю как клон
+ перейти в x: (элемент (выдать случайное от (1) до (2)) в [начальные позиции v]) y: (элемент (выдать случайное от (1) до (2)) в [начальные позиции v])
+ повернуться к (контроллер v)
+ показаться
+ повторять пока не <touching (controller v)?> 
+   идти (1) шагов
+ конец
 ```
 
 \--- /task \---
@@ -93,9 +93,9 @@
 Добавь код к Сцене, чтобы задать переменной `жизни`{:class="block3variables"} значение `3` и переменной `счёт`{:class="block3variables"} значение `0` в самом начале игры. ![Спрайт Сцена](images/stage-sprite.png)
 
 ```blocks3
-when flag clicked
-set [lives v] to (3)
-set [score v] to (0)
+когда щёлкнут по зелёному флагу
+задать [жизни v] значение (3)
+задать [счёт v] значение (0)
 ```
 
 \--- /task \---
@@ -107,8 +107,8 @@ set [score v] to (0)
 ![Спрайт Сцена](images/stage-sprite.png)
 
 ```blocks3
-    wait until <(lives :: variables) < [1]>
-    stop [all v]
+    ждать до <(жизни) < [1] >
+стоп [все v]
 ```
 
 \--- /task \---
@@ -128,15 +128,15 @@ set [score v] to (0)
 ![Спрайт красной точки](images/red-sprite.png)
 
 ```blocks3
-    move (5) steps
-    if <touching color [#FF0000]?> then
-        change [score v] by (1)
-        play sound (pop v) until done
-    else
-        change [lives v] by (-1)
-        play sound (Laser1 v) until done
-    end
-    delete this clone
+    идти (5) шагов
+если <touching color [#FF0000]?>, то 
+  изменить [счёт v] на (1)
+  играть звук (хлопок v) до конца
+иначе 
+  изменить [жизни v] на (-1)
+  играть звук (Лазер1 v) до конца
+конец
+удалить клон
 ```
 
 \--- /task \---
