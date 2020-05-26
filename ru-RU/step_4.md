@@ -1,46 +1,46 @@
-## More dots
+## Больше точек
 
 \--- task \---
 
-Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
+Продублируй «красный» спрайт дважды и назови два новых спрайта «желтый» и «синий».
 
-![screenshot](images/dots-more-dots.png)
+![снимок экрана](images/dots-more-dots.png)
 
 \--- /task \---
 
 \--- task \---
 
-Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue.
+Измени костюм каждого нового спрайта так, чтобы он был правильного цвета: «жёлтый» спрайт должен быть жёлтым, а «синий» спрайт должен быть синим.
 
 \--- /task \---
 
 \--- task \---
 
-Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
+Измени код каждого спрайта, чтобы игрок должен был подставлять часть контроллера нужного цвета под нужные клоны точек, чтобы набирать очки.
 
-![screenshot](images/dots-all-test.png)
+![снимок экрана](images/dots-all-test.png)
 
 \--- hints \---
 
 \--- hint \---
 
-This is the code you need to find and alter for both new sprites:
+Вот код, который нужно найти и изменить для обоих новых спрайтов:
 
-![screenshot](images/dots-more-dots.png)
+![снимок экрана](images/dots-more-dots.png)
 
 ```blocks3
     if <touching color [#FF0000]?> then
         change [score v] by (1)
         play sound (pop v)
         ...
-    end
+    конец
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-This is how you need to change the code for the yellow sprite:
+Вот как нужно изменить код для жёлтого спрайта:
 
 ```blocks3
     if <touching color [#FFFF00]? :: +> then
@@ -49,7 +49,7 @@ This is how you need to change the code for the yellow sprite:
     end
 ```
 
-This is how you need to change the code for the blue sprite:
+Вот как нужно изменить код для синего спрайта:
 
 ```blocks3
     if <touching color [#0000FF]? :: +> then
@@ -64,13 +64,13 @@ This is how you need to change the code for the blue sprite:
 
 \--- /task \---
 
-If you play the game now, you can see that the dots sometimes get created one top of each other.
+Если ты сыграешь сейчас, то увидишь, что точки иногда создаются одна на одной.
 
 \--- task \---
 
-Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
+Измени код спрайта для «жёлтой» точки, чтобы он ждал четыре секунды после нажатия на флаг, перед тем, как появиться.
 
-![Yellow dot](images/yellow-sprite.png)
+![Жёлтая точка](images/yellow-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -78,8 +78,8 @@ Change the code for the 'yellow' dot sprite so that it waits four seconds after 
 +   wait (4) seconds
 ```
 
-![Blue dot](images/blue-sprite.png)
+![Синяя точка](images/blue-sprite.png)
 
-Then change the code for the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
+Измени код спрайта для «синей» точки, чтобы он ждал шесть секунд после нажатия на флаг, перед тем, как появиться.
 
 \--- /task \---
