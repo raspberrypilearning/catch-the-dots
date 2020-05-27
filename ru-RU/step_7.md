@@ -55,6 +55,6 @@ stop [all v]
 
 \--- task \---
 
-Play your game twice to check whether your score gets correctly saved as the `high score`{:class="block3variables"}.
+Сыграй в игру дважды, чтобы проверить, правильно ли сохраняется счёт, как `рекорд`{:class="block3variables"}.
 
 \--- /task \---
