@@ -1,30 +1,30 @@
-## High score
+## Рекорд
 
-You're going to save the game's high score, so that players can see how well they are doing.
+Теперь мы сохраним рекорд игры, чтобы игроки могли оценить свои успехи.
 
 \--- task \---
 
-Create a new variable called `high score`{:class="block3variables"}.
+Создай новую переменную с именем `рекорд`{:class="block3variables"}.
 
-![Stage sprite](images/stage-sprite.png)
+![Спрайт Сцены](images/stage-sprite.png)
 
 \--- /task \---
 
 \--- task \---
 
-Select the Stage. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
+Выбери Сцену. Перейди в «Другие блоки» и создай новый пользовательский блок с именем `проверь рекорд`{:class="block3myblocks"}.
 
-![Stage sprite](images/stage-sprite.png)
+![Спрайт Сцены](images/stage-sprite.png)
 
-![screenshot](images/dots-custom-1.png)
+![снимок экрана](images/dots-custom-1.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your custom block so that the block checks if the current value of `score`{:class="block3variables"} in larger than the value of the `high score`{:class="block3variables"} variable, and then stores the value of `score`{:class="block3variables"} as the new value of `high score`{:class="block3variables"}.
+Добавь код в свой пользовательский блок так, чтобы блок проверял, является ли текущее значение `счёта`{:class="block3variables"} больше значения переменной `рекорд`{:class="block3variables"}, а затем сохраняет значение `счёта`{:class="block3variables"} в переменной `рекорд`{:class="block3variables"}.
 
-![Stage sprite](images/stage-sprite.png)
+![Спрайт Сцены](images/stage-sprite.png)
 
 ```blocks3
     define check high score
@@ -37,9 +37,9 @@ Add code to your custom block so that the block checks if the current value of `
 
 \--- task \---
 
-Add your new custom block to the Stage script before the end of the script.
+Добавь свой новый пользовательский блок в конец скрипта Сцены.
 
-![Stage sprite](images/stage-sprite.png)
+![Спрайт Сцены](images/stage-sprite.png)
 
 ```blocks3
 when flag clicked
