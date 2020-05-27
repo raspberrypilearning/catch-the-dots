@@ -1,20 +1,20 @@
 ## Усложни игру
 
-Now you're going to make the game more difficult the longer the player plays it. You will do this by making the dots appear faster and faster over time.
+Теперь, чем дольше игрок играет в игру, тем сложнее она будет становиться. Мы сделаем это, если точки будут появляться всё быстрее и быстрее с течением времени.
 
 \--- task \---
 
-Create a new `variable`{:class="block3variables"} called 'delay'.
+Создай новую `переменную`{:class="block3variables"} с именем "задержка".
 
-![Stage sprite](images/stage-sprite.png)
+![Спрайт сцены](images/stage-sprite.png)
 
 \--- /task \---
 
 \--- task \---
 
-Go to the Stage's Scripts area and create a new script that sets the `delay`{:class="block3variables"} variable to `8` and then slowly reduces the value of `delay`{:class="block3variables"} while the game runs.
+Перейди в область скриптов Сцены и создай новый скрипт, который устанавливает переменной `задержка`{:class="block3variables"} значение `8`, а затем медленно уменьшает `задержку`{:class="block3variables"} с течением игры.
 
-![Stage sprite](images/stage-sprite.png)
+![Спрайт сцены](images/stage-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -27,30 +27,30 @@ Go to the Stage's Scripts area and create a new script that sets the `delay`{:cl
 
 \--- /task \---
 
-Notice that this code is very similar to the code you would use to create a countdown timer!
+Обрати внимание, что этот код очень похож на тот, который мы использовали для создания таймера обратного отсчета!
 
-Next, use the `delay`{:class="block3variables"} variable in the code scripts of the 'red', 'yellow', and 'blue' sprites.
+Далее используй переменную `задержка`{:class="block3variables"} в скриптах кода спрайтов 'красный', 'желтый' и 'синий'.
 
 \--- task \---
 
-Remove the code block that makes the game wait a random number of seconds between making the dot sprite clones. Replace the block you've removed with your new `delay`{:class="block3variables"} variable:
+Удали блок кода, который заставляет игру ждать произвольное количество секунд между созданием спрайтов-клонов для точек. Замени блок, который ты удалил, новой переменной `задержка`{:class="block3variables"}:
 
-![screenshot](images/all-dots.png)
+![снимок экрана](images/all-dots.png)
 
 ```blocks3
 <br />-   wait (pick random (5) to (10)) secs
     wait (delay :: variables) secs
 ```
 
-Do this for all three dot sprites.
+Сделай так для всех трех спрайтов точек.
 
 \--- /task \---
 
 \--- task \---
 
-Test the game, and check whether the dots begin to appear more quickly as the game goes on.
+Проверь игру и убедись, что точки появляются быстрее по ходу игры.
 
-+ Does this work for all three coloured dots?
-+ Can you see that the value of the `delay`{:class="block3variables"} variable decreases?
++ Это работает для точек всех цветов?
++ Ты заметил, что значение переменной `задержка`{:class="block3variables"} уменьшается?
 
 \--- /task \---
