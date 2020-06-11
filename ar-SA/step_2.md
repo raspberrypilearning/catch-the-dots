@@ -6,7 +6,7 @@
 
 افتح مشروع السكراتش Scratch الابتدائي 'اجمع النقاط'.
 
-**بالاتصال بالانترنت**: افتح المشروع المبدئي من هنا [scratch.mit.edu/projects/374212555](https://scratch.mit.edu/projects/374212555){:target="_blank"}.
+**بالاتصال بالانترنت**: افتح المشروع المبدئي من هنا [scratch.mit.edu/projects/374212555](https://scratch.mit.edu/projects/404021133){:target="_blank"}.
 
 اذا كنت تملك حساب على منصة السكراتش (Scratch) فيمكنك عمل نسخة بالضغط على **Remix**.
 
