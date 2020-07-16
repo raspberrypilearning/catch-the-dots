@@ -13,13 +13,13 @@ Nu ga je een aantal stippen toevoegen die de speler moet verzamelen.
 ![Rode stip sprite](images/red-sprite.png)
 
 ```blocks3
-    wanneer groene vlag wordt aangeklikt
-verdwijn
-wacht (2) sec.
-herhaal 
-maak kloon van (mijzelf v)
-wacht (willekeurig getal tussen (5) en (10)) sec.
-end
+    when flag clicked
+	  hide
+	  wait (2) seconds
+	  forever
+		  create clone of (myself v)
+		  wait (pick random (5) to (10)) secs
+	  end
 ```
 
 --- /task ---
@@ -30,7 +30,7 @@ Jij gaat code toevoegen om iedere nieuwe kloon in een van de vier hoeken van het
 
 ![screenshot](images/dots-start.png)
 
---- task --- Maak een nieuwe lijst met de naam `startposities`{:class="block3variables"}, klik op het pictogram `(+)` van de lijst om de waarden `-180`{:class="block3variables"} en `180` {:class="block3variables"} toe te voegen.
+--- task --- Maak een nieuwe lijst met de naam `startposities`{:class="block3variables"}, klik op het pictogram `(+)` van de lijst om de waarden `-180`{:class="block3variables"} en `180`{:class="block3variables"} toe te voegen.
 
 ![Rode stip sprite](images/red-sprite.png)
 
@@ -91,7 +91,7 @@ stop [alle v]
 
 De speler moet punten winnen voor het vangen van stippen en moet levens verliezen als hij de stippen niet kan vangen. Een stip kan alleen worden gevangen door de kleur van de controller aan te passen aan de kleur van de stip.
 
---- task --- Ga terug naar het scriptgedeelte van de 'rode' stip sprite om een aantal codeblokken toe te voegen aan het einde van de van het blok `wanneer ik als kloon start`:class="block3control"} script.
+--- task --- Ga terug naar het scriptgedeelte van de 'rode' stip sprite om een aantal codeblokken toe te voegen aan het einde van de van het blok `wanneer ik als kloon start`{:class="block3control"} script.
 
 Laat de stip-kloon eerst `neem 5 stappen`{:class="block3motion"} verplaatsen, zodat deze overlapt met de controller.
 
