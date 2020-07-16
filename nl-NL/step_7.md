@@ -32,13 +32,13 @@ end
 ![Speelveld sprite](images/stage-sprite.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
-maak [levens v] (3)
-maak [score v] (0)
-wacht tot <(levens) < (1)>
 
-+ controleer topscore
-stop [alle v]
+when flag clicked
+set [levens v] to (3)
+set [score v] to (0)
+wait until <(lives) < (1)>
++ controleer topscore :: custom
+stop [all v]
 ```
 
 --- /task ---
