@@ -61,16 +61,15 @@ end
 --- /hint --- --- hint --- Hier is hoe je blok eruit zou moeten zien:
 
 ```blocks3
-    wanneer groene vlag wordt aangeklikt
-    herhaal 
-        als <key (right arrow v) pressed?> dan 
-            draai (3) graden naar rechts
-        end
-
-        + als <key (left arrow v) pressed?> dan 
-              draai (3) graden naar links
-        end
-    end
+    when flag clicked
+	  forever
+		  if <key (right arrow v) pressed?> then
+			  turn right (3) degrees
+		  end
++ 		if <key (left arrow v) pressed?> then
+			  turn left(3) degrees
+		  end
+	  end
 ```
 
 --- /hint --- --- /hints --- --- /task ---
