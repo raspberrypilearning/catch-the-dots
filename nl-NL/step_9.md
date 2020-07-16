@@ -25,7 +25,7 @@ Scoor zoveel mogelijk punten door op de vliegende ruimte-nijlpaarden te schieten
 
 Dit project werd vertaald door vrijwilligers:
 
-*Henny van Ham
+Henny van Ham
 
 Martijn Veld
 
