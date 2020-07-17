@@ -4,17 +4,17 @@ Nu ga je een aantal stippen toevoegen die de speler moet verzamelen.
 
 \--- task \---
 
-Create a new sprite called 'red'. This sprite should be a small red dot.
+Maak een nieuwe sprite met de naam 'rood'. Deze sprite zou een kleine rode stip moeten zijn.
 
-![Red dot sprite](images/dots-red.png)
+![Rode stip sprite](images/dots-red.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add this script to your 'red' sprite to create a new clone of the sprite every few seconds:
+Voeg deze code toe aan je 'rode' sprite om elke paar seconden een nieuwe kloon te maken:
 
-![Red dot sprite](images/red-sprite.png)
+![Rode stip sprite](images/red-sprite.png)
 
 ```blocks3
     wanneer groene vlag wordt aangeklikt
@@ -28,35 +28,35 @@ end
 
 \--- /task \---
 
-If you click the green flag now, it looks like nothing is happening. This is because all of the cloned sprites are hidden, and they appear in the same place.
+Als je nu op de groene vlag klikt lijkt het alsof er niets gebeurt. Dit komt omdat alle gekloonde sprites verborgen zijn, en ze verschijnen op dezelfde plek.
 
-You are going to add code to make each new clone appear in one of the four corners of the Stage.
+Jij gaat code toevoegen om iedere nieuwe kloon in een van de vier hoeken van het speelveld te laten verschijnen.
 
-![screenshot](images/dots-start.png)
+![schermafbeelding](images/dots-start.png)
 
 \--- task \---
 
-Create a new list called `start positions`{:class="block3variables"}, click the list's `(+)` icon to add the values `-180`{:class="block3variables"} and `180`{:class="block3variables"}.
+Maak een nieuwe lijst genaamd `startposities`{:class"block3variables"}, klik op het `(+)` icoontje in de lijst om de waarden `-180`{:class="block3variables"} en `180`{:class="block3variables"} toe te voegen.
 
-![Red dot sprite](images/red-sprite.png)
+![Rode stip sprite](images/red-sprite.png)
 
-![List of 180 and -180](images/dots-list.png)
+![Lijst met 180 en -180](images/dots-list.png)
 
 [[[generic-scratch3-make-list]]]
 
-Then you can hide the list by unselecting this box:
+Vervolgens kun je de lijst verbergen door dit selectievakje uit te schakelen:
 
-![Hide the list](images/hide-list.png)
+![Verberg de lijst](images/hide-list.png)
 
 \--- /task \---
 
-Notice that the coordinate for each corner of the Stage is a combination of `180` and `-180`. This means you can use the list to pick a corner of the Stage at random.
+Merk op dat de coördinaat voor elke hoek van het speelveld een combinatie is van `180` en `-180`. Dit betekent dat je de lijst kunt gebruiken om willekeurig een hoek van het speelveld te kiezen.
 
 \--- task \---
 
-Add this code to the 'dot' sprite to make each new sprite clone appear in a random corner and then slowly move towards the controller sprite.
+Voeg deze code toe aan de 'stippen' sprite om elke nieuwe sprite kloon in een willekeurige hoek te laten verschijnen en richting de controller te laten bewegen.
 
-![Red dot sprite](images/red-sprite.png)
+![Rode stip sprite](images/red-sprite.png)
 
 ```blocks3
     wanneer ik als kloon start
@@ -70,27 +70,27 @@ end
 
 \--- /task \---
 
-This new code chooses either `-180` or `180` for the x and y positions, meaning that each 'dot' sprite clone starts in a corner of the Stage.
+Deze nieuwe code kiest of `-180` of `180` voor de x en y posities, wat inhoudt dat elke 'stip' sprite kloon in een hoek van het speelveld begint.
 
 \--- task \---
 
-Test your project. You should see red dots appear in the corners of the Stage and move slowly towards the controller.
+Test je project. Je zou in elke hoek van het scherm rode stippen moeten zien verschijnen die langzaam naar de controller bewegen.
 
-![screenshot](images/dots-red-test.png)
+![schermafbeelding](images/dots-red-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-Create two new variables called `lives`{:class="block3variables"} and `score`{:class="block3variables"}.
+Maak twee nieuwe variabelen genaamd `levens`{:class="block3variables"} en `score`{:class="block3variables"}.
 
-![Red dot sprite](images/red-sprite.png)
+![Rode stip sprite](images/red-sprite.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your Stage to set the `lives`{:class="block3variables"} variable to `3` and the `score`{:class="block3variables"} to `0` at the start of the game. ![Stage sprite](images/stage-sprite.png)
+Voeg code aan het Speelveld toe om de `levens`{:class="block3variables"} variabele op `3` en de `score`{:class="block3variables"} op `0` te zetten aan het begin van het spel. ![Speelveld sprite](images/stage-sprite.png)
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
@@ -102,9 +102,9 @@ maak [score v] (0)
 
 \--- task \---
 
-Add this code to the end of the Stage's script to make the game end when the player loses the last of the lives:
+Voeg deze code toe aan het eind van het script van het Speelveld om het spel te beëindigen als de speler de laatste van zijn levens verliest:
 
-![Stage sprite](images/stage-sprite.png)
+![Speelveld sprite](images/stage-sprite.png)
 
 ```blocks3
     wacht tot <(levens) < [1]>
@@ -113,19 +113,19 @@ stop [alle v]
 
 \--- /task \---
 
-The player should win points for catching dots, and should lose lives for failing to catch dots. A dot can only be caught by matching the colour of the controller to the colour of the dot.
+De speler moet punten winnen voor het vangen van stippen en moet levens verliezen als hij de stippen niet kan vangen. Een stip kan alleen worden gevangen door de kleur van de controller aan te passen aan de kleur van de stip.
 
 \--- task \---
 
-Go back to the 'red' dot sprite's Scripts area to add some code blocks to the end of the sprite's `when I start as a clone`{:class="block3control"} script.
+Ga terug naar het script van de 'rode' stip om wat codeblokken toe te voegen aan het eind van het `wanneer ik als kloon start`{:class="block3control"} script.
 
-First, make the dot clone `move 5 steps`{:class="block3motion"} so that it overlaps the controller.
+Laat de stip kloon eerst `neem 5 stappen`{:class="block3motion"} verplaatsen, zodat deze overlapt met de controller.
 
-Then add code to either add `1` to `score`{:class="block3variables"} if the colour of the dot clone matches the colour of the controller when they touch, or to take `1` away from `lives`{:class="block3variables"} if their colours don't match.
+Voeg vervolgens code toe om `1` toe te voegen aan `score`{:class="block3variables"} als de kleur van de stip kloon overeenkomt met de kleur van de controller wanneer deze geraakt wordt, of haal `1` weg van `levens`{:class="block3variables"} als hun kleuren niet overeenkomen.
 
 [[[generic-scratch3-sound-from-library]]]
 
-![Red dot sprite](images/red-sprite.png)
+![Rode stip sprite](images/red-sprite.png)
 
 ```blocks3
     neem (5) stappen
@@ -143,7 +143,7 @@ verwijder deze kloon
 
 \--- task \---
 
-Test your game to make sure that:
+Test je spel om zeker te weten dat:
 
 1. Je een leven verliest als je een verkeerde kleur stip vangt
 2. Je een punt scoort als je de goede kleur stip vangt
