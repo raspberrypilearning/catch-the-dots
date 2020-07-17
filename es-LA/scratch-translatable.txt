@@ -1,11 +1,11 @@
-start positions
+posiciones de partida
 
-lives
+vidas
 
-score
+puntaje
 
-delay
+retrasar
 
 check high score
 
-high score
+mejor puntaje
