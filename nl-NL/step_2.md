@@ -3,7 +3,8 @@
 Begin met het maken van een controller die de speler gebruikt om stippen te verzamelen.
 
 --- task ---
-Open het 'Vang de stippen' Scratch starter project.
+
+Open het 'Vang de stippen' Scratch startproject.
 
 **Online**: open het online starter project op [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
 
@@ -15,12 +16,13 @@ Als je de Scratch offline editor wilt downloaden en installeren dan kan je die v
 
 --- /task ---
 
-Je zou een controllersprite moeten zien:
+Je zou een controller sprite moeten zien:
 
-![screenshot](images/dots-controller.png)
+![schermafbeelding](images/dots-controller.png)
 
---- task --- 
-Voeg wat code toe aan de controllersprite om de sprite naar rechts te draaien als de speler de rechter pijljestoets indrukt:
+--- task ---
+
+Voeg wat code toe aan de controller sprite om de sprite naar rechts te laten draaien als de speler op de rechter pijltjestoets klikt:
 
 ![Controller sprite](images/controller-sprite.png)
 
@@ -35,18 +37,30 @@ Voeg wat code toe aan de controllersprite om de sprite naar rechts te draaien al
 
 --- /task ---
 
---- task --- Test your code. De controllersprite zou naar rechts moeten draaien wanneer je op de rechter pijltjestoets drukt. --- /task ---
+--- task ---
 
---- task --- Voeg code toe aan de controllersprite om de sprite naar links te draaien als de speler de linker pijljestoets indrukt.
+Test je code. De controller sprite zou naar rechts moeten draaien wanneer je op de rechter pijltjestoets drukt.
+
+--- /task ---
+
+--- task ---
+
+Voeg code toe aan de controller sprite om de sprite naar links te laten draaien als de speler op de linker pijltjestoets klikt.
 
 ![Controller sprite](images/controller-sprite.png)
 
 --- hints ---
- --- hint ---
 
-Vind de code die controleert of de rechter pijltjestoets is ingedrukt en de sprite naar rechts doet draaien. Kun je een kopie van deze code toevoegen en de kopie aanpassen zodat deze de controleert of de linker pijltjestoets is ingedrukt en de sprite naar links doet draaien?
 
---- /hint --- --- hint --- Hier zijn de blokken die je nodig hebt:
+--- hint ---
+
+Zoek de code die controleert of de rechter pijltjestoets is ingedrukt en de sprite naar rechts doet draaien. Kun je een kopie van deze code toevoegen en de kopie aanpassen zodat deze controleert of de linker pijltjestoets is ingedrukt en de sprite naar links doet draaien?
+
+--- /hint ---
+
+--- hint ---
+
+Dit zijn de blokken die je nodig hebt:
 
 ```blocks3
 <key (space v) pressed?>
@@ -58,7 +72,11 @@ als <> dan
 end
 ```
 
---- /hint --- --- hint --- Hier is hoe je blok eruit zou moeten zien:
+--- /hint ---
+
+--- hint ---
+
+Zo zou je code eruit moeten zien:
 
 ```blocks3
     when flag clicked
@@ -72,4 +90,8 @@ end
 	  end
 ```
 
---- /hint --- --- /hints --- --- /task ---
+--- /hint ---
+
+--- /hints ---
+
+--- /task ---

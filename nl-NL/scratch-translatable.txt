@@ -1,0 +1,11 @@
+startposities
+
+levens
+
+score
+
+vertraging
+
+controleer topscore
+
+topscore

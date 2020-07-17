@@ -8,17 +8,21 @@ Dit is de **Scratch 3** versie van het project. Er is ook een [Scratch 2 versie 
 
 In dit project leer je hoe je een spel maakt waarbij je gekleurde stippen moet paren met de juiste kleur van het controllerwiel.
 
---- no-print --- 
-Gebruik de pijltjestoetsen op je toetsenbord om het controllerwiel te draaien en vang de vliegende stippen als ze het middelpunt bereiken. Zodra je drie stippen gemist hebt is het game over.
+--- no-print ---
+
+Gebruik de pijltjestoetsen op je toetsenbord om de controller te laten draaien en de stippen te vangen als ze het middelpunt bereiken. Zodra je drie stippen gemist hebt is het spel afgelopen.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/334758329/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/dots-final.png">
 </div>
+
 --- /no-print ---
 
---- print-only --- 
-![Dots screenshot](images/dots-final.png) 
+--- print-only ---
+
+![Stippen schermafbeelding](images/dots-final.png)
+
 --- /print-only ---
 
 --- collapse ---
@@ -46,17 +50,23 @@ title: Wat heb je nodig
 
 ### Downloads
 
-+ [Offline Scratch 2 project](http://rpf.io/p/nl-NL/catch-the-dots-go){:target="_blank"} --- /collapse ---
++ [Offline Scratch 2 project](http://rpf.io/p/nl-NL/catch-the-dots-go){:target="_blank"}
+
+--- /collapse ---
 
 --- collapse ---
 ---
 title: Aanvullende informatie voor docenten
 ---
 
---- no-print --- 
-Als je dit project wilt afdrukken, gebruik dan de [printvriendelijke versie](https://projects.raspberrypi.org/nl-NL/projects/catch-the-dots/print). 
+--- no-print ---
+
+Als je dit project wilt afdrukken, gebruik dan de [printervriendelijke versie](https://projects.raspberrypi.org/nl-NL/projects/catch-the-dots/print).
+
 --- /no-print ---
 
 Je kunt [de complete versie hier](http://rpf.io/p/nl-NL/catch-the-dots-get){:target="_blank"} terugvinden.
 
-Je kunt [de complete versie hier](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} terugvinden. --- /collapse ---
+Je kunt het [voltooide project hier vinden](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
+
+--- /collapse ---
