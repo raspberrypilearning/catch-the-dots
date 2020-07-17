@@ -36,7 +36,7 @@ Jij gaat code toevoegen om iedere nieuwe kloon in een van de vier hoeken van het
 
 --- task ---
 
-Maak een nieuwe lijst genaamd `startposities`{:class"block3variables"}, klik op het `(+)` icoontje in de lijst om de waarden `-180`{:class="block3variables"} en `180`{:class="block3variables"} toe te voegen.
+Maak een nieuwe lijst genaamd `startposities`{:class="block3variables"}, klik op het `(+)` icoontje in de lijst om de waarden `-180`{:class="block3variables"} en `180`{:class="block3variables"} toe te voegen.
 
 ![Rode stip sprite](images/red-sprite.png)
 

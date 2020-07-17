@@ -1,4 +1,4 @@
-## Wat nu?
+## Wat kun je verder nog doen?
 
 Probeer in het [Clone Wars](https://projects.raspberrypi.org/nl-NL/projects/clone-wars?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project om een spel te maken waarin je de aarde moet redden van ruimte-monsters. In dat project kun je gebruiken wat je hebt geleerd over het klonen van sprites en het toevoegen van een score!
 
