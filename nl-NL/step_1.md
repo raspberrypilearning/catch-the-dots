@@ -10,7 +10,7 @@ In dit project leer je hoe je een spel maakt waarbij je gekleurde stippen moet p
 
 \--- no-print \---
 
-Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
+Gebruik de pijltjestoetsen op je toetsenbord om de controller te laten draaien en de stippen te vangen als ze het middelpunt bereiken. Zodra je drie stippen gemist hebt is het spel afgelopen.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,7 +21,7 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 \--- print-only \---
 
-![Dots screenshot](images/dots-final.png)
+![Stippen schermafbeelding](images/dots-final.png)
 
 \--- /print-only \---
 
@@ -58,12 +58,12 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print).
+Als je dit project wilt afdrukken, gebruik dan de [printervriendelijke versie](https://projects.raspberrypi.org/en/projects/catch-the-dots/print).
 
 \--- /no-print \---
 
-You can find [the completed project here](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+Je kunt [de complete versie hier](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"} terugvinden.
 
-You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
+Je kunt het [voltooide project hier vinden](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
 
 \--- /collapse \---
