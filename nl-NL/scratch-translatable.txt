@@ -1,11 +1,11 @@
-start positions
+startposities
 
-lives
+levens
 
 score
 
-delay
+vertraging
 
-check high score
+controleer topscore
 
-high score
+topscore
