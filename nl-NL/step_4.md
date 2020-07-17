@@ -30,11 +30,10 @@ Dit is de code die je nodig hebt voor het vinden en veranderen voor beide nieuwe
 ![schermafbeelding](images/dots-more-dots.png)
 
 ```blocks3
-    als <touching color [#FF0000]?> dan 
-verander [score v] met (1)
-start geluid (pop v)
-...
-    end :: control
+    if <touching color [#FF0000]?> then
+		  change [score v] by (1)
+		  play sound (pop v)
+    end
 ```
 
 --- /hint ---
