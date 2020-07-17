@@ -36,11 +36,11 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 ## \--- collapse \---
 
-## title: What you will need
+## titolo: Di cosa avrai bisogno
 
 ### Hardware
 
-+ A computer capable of running Scratch 3
++ Un computer in grado di eseguire Scratch 3
 
 ### Software
 
