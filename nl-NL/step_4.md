@@ -2,31 +2,31 @@
 
 \--- task \---
 
-Duplicate your 'red' dot sprite twice, and name the two new sprites 'yellow' and 'blue'.
+Dupliceer tweemaal je 'rode' stip sprite en noem de twee nieuwe sprites 'geel' en 'blauw'.
 
-![screenshot](images/dots-more-dots.png)
-
-\--- /task \---
-
-\--- task \---
-
-Change the costume of each new sprite so it is the correct colour: the 'yellow' sprite should be yellow, and the 'blue' sprite should be blue.
+![schermafbeelding](images/dots-more-dots.png)
 
 \--- /task \---
 
 \--- task \---
 
-Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
+Verander het uiterlijk van elke nieuwe sprite zodat het de juiste kleur heeft: de 'gele' sprite moet geel zijn, de 'blauwe' sprite moet blauw zijn.
 
-![screenshot](images/dots-all-test.png)
+\--- /task \---
+
+\--- task \---
+
+Verander de code van elke sprite zodat de speler de stip kloon op de juiste kleur op de controller moet plaatsen om punten te scoren.
+
+![schermafbeelding](images/dots-all-test.png)
 
 \--- hints \---
 
 \--- hint \---
 
-This is the code you need to find and alter for both new sprites:
+Dit is de code die je nodig hebt voor het vinden en veranderen voor beide nieuwe sprites:
 
-![screenshot](images/dots-more-dots.png)
+![schermafbeelding](images/dots-more-dots.png)
 
 ```blocks3
     als <raak ik kleur [FF0000]? > dan 
@@ -40,7 +40,7 @@ start geluid (pop v)
 
 \--- hint \---
 
-This is how you need to change the code for the yellow sprite:
+Zo verander je de code voor de gele sprite:
 
 ```blocks3
     als <raak ik kleur [#FFFF00]? :: +> dan
@@ -49,7 +49,7 @@ start geluid (pop v)
 end
 ```
 
-This is how you need to change the code for the blue sprite:
+Dit is hoe je de code voor de blauwe sprite moet veranderen:
 
 ```blocks3
     als <raak ik kleur [#0000FF]? :: +> dan
@@ -64,13 +64,13 @@ end
 
 \--- /task \---
 
-If you play the game now, you can see that the dots sometimes get created one top of each other.
+Als je het spel nu speelt, kun je zien dat de puntjes soms boven op elkaar worden geplaatst.
 
 \--- task \---
 
-Change the code for the 'yellow' dot sprite so that it waits four seconds after the flag is clicked before appearing.
+Verander de code voor de 'gele' stip sprite zodat het vier seconden wacht met verschijnen als op de groene vlag is geklikt.
 
-![Yellow dot](images/yellow-sprite.png)
+![Gele stip](images/yellow-sprite.png)
 
 ```blocks3
     wanneer groene vlag wordt aangeklikt
@@ -78,8 +78,8 @@ verdwijn
 + wacht (4) sec.
 ```
 
-![Blue dot](images/blue-sprite.png)
+![Blauwe stip](images/blue-sprite.png)
 
-Then change the code for the 'blue' dot sprite so that it waits 6 seconds after the flag is clicked before appearing.
+Wijzig vervolgens de code voor de 'blauwe' stip sprite zodat deze 6 seconden wacht nadat op de groene vlag is geklikt voordat de sprite verschijnt.
 
 \--- /task \---
