@@ -1,6 +1,6 @@
-## Create a controller
+## Crear un mando
 
-Start by creating a controller that the player will use to collect dots.
+Comienza por crear el mando que el jugador utilizará para atrapar los puntos.
 
 \--- task \---
 
@@ -8,23 +8,23 @@ Open the 'Catch the dots' Scratch starter project.
 
 **Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Si tienes una cuenta en Scratch, puedes hacer una copia al hacer clic en **Remix**.
 
-**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
+**Sin conexión:** descarga el proyecto inicial desde [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go) y luego ábrelo con el editor de Scratch sin conexión.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+Si necesitas descargar e instalar el editor de Scratch offline, puedes encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
 \--- /task \---
 
-You should see a controller sprite:
+Deberías ver el objeto mando:
 
-![screenshot](images/dots-controller.png)
+![captura de pantalla](images/dots-controller.png)
 
 \--- task \---
 
-Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
+Agrega código al objeto mando para hacer que el objeto gire a la derecha si el jugador presiona la tecla de flecha derecha:
 
-![Controller sprite](images/controller-sprite.png)
+![Objeto mando](images/controller-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -39,27 +39,27 @@ Add some code to the controller sprite to make the sprite turn right if the play
 
 \--- task \---
 
-Test your code. The controller should spin to the right when you press the right arrow key.
+Prueba tu código. The controller should spin to the right when you press the right arrow key.
 
 \--- /task \---
 
 \--- task \---
 
-Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
+Añade código al objeto mando para hacer que el objeto gire a la izquierda si el jugador presiona la tecla de flecha izquierda.
 
-![Controller sprite](images/controller-sprite.png)
+![Objeto mando](images/controller-sprite.png)
 
 \--- hints \---
 
 \--- hint \---
 
-Find the code that checks whether the right arrow key is pressed and makes the sprite turn right. Can you add a copy of this code, and change the copy so it checks whether the left arrow key is pressed and makes the sprite turn left?
+Encuentra el código que verifica si la flecha hacia la derecha está presionada y hace que el objeto gire hacia la derecha. ¿Puedes agregar una copia de este código y cambiarla de manera que verifique si la flecha hacia la izquierda está presionada y haga que el objeto gire a la izquierda?
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+Aquí están los bloques que necesitas:
 
 ```blocks3
 <key (space v) pressed?>
@@ -75,7 +75,7 @@ end
 
 \--- hint \---
 
-Here is what your code should look like:
+Así es como se debe ver tu código:
 
 ```blocks3
     when flag clicked
