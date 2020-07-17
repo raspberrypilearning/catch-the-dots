@@ -27,12 +27,12 @@ Voeg wat code toe aan de controller sprite om de sprite naar rechts te laten dra
 ![Controller sprite](images/controller-sprite.png)
 
 ```blocks3
-    wanneer groene vlag wordt aangeklikt
-    herhaal 
-        als <key (right arrow v) pressed?> dan 
-            draai (3) graden naar rechts :: control
-        end :: control
-    end
+    when flag clicked
+	  forever
+		  if <key (right arrow v) pressed?> then
+			  turn right (3) degrees
+		  end
+	  end
 ```
 
 --- /task ---
