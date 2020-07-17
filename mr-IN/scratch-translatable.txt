@@ -1,0 +1,11 @@
+start positions
+
+lives
+
+score
+
+delay
+
+check high score
+
+high score
