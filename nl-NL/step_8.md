@@ -1,4 +1,4 @@
-## Uitdaging: verbeter je spel!
+## Uitdaging: verbeter je spel
 
 Kun je manieren bedenken om je spel te verbeteren? Je kunt bijvoorbeeld speciale stippen maken die:
 

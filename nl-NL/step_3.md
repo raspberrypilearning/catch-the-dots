@@ -2,13 +2,17 @@
 
 Nu ga je een aantal stippen toevoegen die de speler moet verzamelen.
 
---- task --- Maak een nieuwe sprite met de naam 'rood'. Deze sprite zou een kleine rode stip moeten zijn.
+--- task ---
+
+Maak een nieuwe sprite met de naam 'rood'. Deze sprite zou een kleine rode stip moeten zijn.
 
 ![Rode stip sprite](images/dots-red.png)
 
 --- /task ---
 
---- task --- Voeg dit script toe aan de 'rode' sprite, om elke paar seconden een nieuwe stipkloon te maken:
+--- task ---
+
+Voeg deze code toe aan je 'rode' sprite om elke paar seconden een nieuwe kloon te maken:
 
 ![Rode stip sprite](images/red-sprite.png)
 
@@ -28,9 +32,11 @@ Als je nu op de groene vlag klikt lijkt het alsof er niets gebeurt. Dit komt omd
 
 Jij gaat code toevoegen om iedere nieuwe kloon in een van de vier hoeken van het speelveld te laten verschijnen.
 
-![screenshot](images/dots-start.png)
+![schermafbeelding](images/dots-start.png)
 
---- task --- Maak een nieuwe lijst met de naam `startposities`{:class="block3variables"}, klik op het pictogram `(+)` van de lijst om de waarden `-180`{:class="block3variables"} en `180`{:class="block3variables"} toe te voegen.
+--- task ---
+
+Maak een nieuwe lijst genaamd `startposities`{:class"block3variables"}, klik op het `(+)` icoontje in de lijst om de waarden `-180`{:class="block3variables"} en `180`{:class="block3variables"} toe te voegen.
 
 ![Rode stip sprite](images/red-sprite.png)
 
@@ -40,11 +46,15 @@ Jij gaat code toevoegen om iedere nieuwe kloon in een van de vier hoeken van het
 
 Vervolgens kun je de lijst verbergen door dit selectievakje uit te schakelen:
 
-![Verberg de lijst](images/hide-list.png) --- /task ---
+![Verberg de lijst](images/hide-list.png)
+
+--- /task ---
 
 Merk op dat de coördinaat voor elke hoek van het speelveld een combinatie is van `180` en `-180`. Dit betekent dat je de lijst kunt gebruiken om willekeurig een hoek van het speelveld te kiezen.
 
---- task --- Voeg deze code toe aan de 'stip'-sprite om elke nieuwe sprite-kloon in een willekeurige hoek te laten verschijnen en deze langzaam naar de controller sprite te laten gaan.
+--- task ---
+
+Voeg deze code toe aan de 'stippen' sprite om elke nieuwe sprite kloon in een willekeurige hoek te laten verschijnen en richting de controller te laten bewegen.
 
 ![Rode stip sprite](images/red-sprite.png)
 
@@ -58,17 +68,29 @@ neem (1) stappen
 end
 ```
 
---- /task --- Deze nieuwe code kiest `-180` of `180` voor de x- en y-posities, wat betekent dat elke stip-kloon in een hoek van het werkgebied begint.
+--- /task ---
 
---- task --- Test je project. Je zou in elke hoek van het scherm rode stippen moeten zien verschijnen die langzaam naar de controller bewegen.
+Deze nieuwe code kiest of `-180` of `180` voor de x en y posities, wat inhoudt dat elke 'stip' sprite kloon in een hoek van het speelveld begint.
 
-![screenshot](images/dots-red-test.png) --- /task ---
+--- task ---
 
---- task --- Maak twee nieuwe variabelen met de naam `levens`{:class="block3variables"} en `score`{:class="block3variables"}.
+Test je project. Je zou in elke hoek van het scherm rode stippen moeten zien verschijnen die langzaam naar de controller bewegen.
 
-![Rode stip sprite](images/red-sprite.png) --- /task ---
+![schermafbeelding](images/dots-red-test.png)
 
---- task --- Voeg code toe aan het speelveld om aan het begin van het spel `levens`{:class="block3variables"} op `3` en `score`{:class="block3variables"} op `0` te zetten. ![Speelveld sprite](images/stage-sprite.png)
+--- /task ---
+
+--- task ---
+
+Maak twee nieuwe variabelen genaamd `levens`{:class="block3variables"} en `score`{:class="block3variables"}.
+
+![Rode stip sprite](images/red-sprite.png)
+
+--- /task ---
+
+--- task ---
+
+Voeg code aan het Speelveld toe om de `levens`{:class="block3variables"} variabele op `3` en de `score`{:class="block3variables"} op `0` te zetten aan het begin van het spel. ![Speelveld sprite](images/stage-sprite.png)
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
@@ -78,12 +100,14 @@ maak [score v] (0)
 
 --- /task ---
 
---- task --- Voeg deze code aan het einde van het script van het speelveld toe zodat het spel eindigt als de speler al zijn levens verloren heeft:
+--- task ---
+
+Voeg deze code toe aan het eind van het script van het Speelveld om het spel te beëindigen als de speler de laatste van zijn levens verliest:
 
 ![Speelveld sprite](images/stage-sprite.png)
 
 ```blocks3
-    wacht tot <(lives) < [1]>
+    wacht tot <(levens) < [1]>
 stop [alle v]
 ```
 
@@ -91,11 +115,13 @@ stop [alle v]
 
 De speler moet punten winnen voor het vangen van stippen en moet levens verliezen als hij de stippen niet kan vangen. Een stip kan alleen worden gevangen door de kleur van de controller aan te passen aan de kleur van de stip.
 
---- task --- Ga terug naar het scriptgedeelte van de 'rode' stip sprite om een aantal codeblokken toe te voegen aan het einde van de van het blok `wanneer ik als kloon start`{:class="block3control"} script.
+--- task ---
 
-Laat de stip-kloon eerst `neem 5 stappen`{:class="block3motion"} verplaatsen, zodat deze overlapt met de controller.
+Ga terug naar het script van de 'rode' stip om wat codeblokken toe te voegen aan het eind van het `wanneer ik als kloon start`{:class="block3control"} script.
 
-Voeg vervolgens code toe om `1` toe te voegen aan `score`{:class="block3variables"} als de kleur van de stip-kloon overeenkomt met de kleur van de controller wanneer deze geraakt wordt, of haal `1` weg van `levens`{:class="block3variables"} als hun kleuren niet overeenkomen.
+Laat de stip kloon eerst `neem 5 stappen`{:class="block3motion"} verplaatsen, zodat deze overlapt met de controller.
+
+Voeg vervolgens code toe om `1` toe te voegen aan `score`{:class="block3variables"} als de kleur van de stip kloon overeenkomt met de kleur van de controller wanneer deze geraakt wordt, of haal `1` weg van `levens`{:class="block3variables"} als hun kleuren niet overeenkomen.
 
 [[[generic-scratch3-sound-from-library]]]
 
