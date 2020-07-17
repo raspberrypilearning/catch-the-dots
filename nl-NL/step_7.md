@@ -4,7 +4,7 @@ Je gaat de hoogste score van het spel opslaan, zodat spelers kunnen zien hoe goe
 
 \--- task \---
 
-Maak een nieuwe variabele met de naam `score`{:class="block3variables"}.
+Maak een nieuwe variabele met de naam `topscore`{:class="block3variables"}.
 
 ![Speelveld sprite](images/stage-sprite.png)
 
