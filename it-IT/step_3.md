@@ -1,12 +1,12 @@
-## Gain points or lose lives
+## Guadagna punti o perdi vite
 
-Now you're going to add some dots that the player needs to collect.
+Ora aggiungerai alcuni puntini che il giocatore deve raccogliere.
 
 \--- task \---
 
-Create a new sprite called 'red'. This sprite should be a small red dot.
+Crea un nuovo sprite chiamato 'rosso'. Questo sprite dovrebbe essere un piccolo punto rosso.
 
-![Red dot sprite](images/dots-red.png)
+![Sprite puntino rosso](images/dots-red.png)
 
 \--- /task \---
 
