@@ -2,26 +2,26 @@
 hero_image: images/banner.png
 listed: true
 copyedit: false
-title: Catch the dots
-description: Make a dot-catching game
+title: Cattura i puntini
+description: Crea un gioco acchiappa puntini
 version: 4.0.0
 last_tested: 2018-10-16
 steps:
   - 
-    title: Introduction
+    title: Introduzione
   - 
-    title: Create a controller
+    title: Crea un controller
   - 
-    title: Gain points or lose lives
+    title: Guadagna punti o perdi vite
   - 
-    title: More dots
+    title: Più puntini
   - 
-    title: Increase the difficulty
+    title: Aumenta la difficoltà
   - 
-    title: 'Challenge: faster dots'
+    title: 'Sfida: puntini più veloci'
   - 
-    title: High score
+    title: Record
   - 
-    title: 'Challenge: improve your game!'
+    title: 'Sfida: migliora il tuo gioco!'
   - 
-    title: What next?
+    title: E adesso?
