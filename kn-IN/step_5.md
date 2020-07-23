@@ -38,7 +38,7 @@
 ![screenshot](images/all-dots.png)
 
 ```blocks3
-<br />-   wait (pick random (5) to (10)) secs
+-   wait (pick random (5) to (10)) secs
     wait (delay :: variables) secs
 ```
 
