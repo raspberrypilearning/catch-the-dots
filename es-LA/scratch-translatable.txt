@@ -6,6 +6,6 @@ puntaje
 
 retrasar
 
-check high score
+comparar puntaje
 
 mejor puntaje
