@@ -30,7 +30,7 @@ Usa las flechas en tu teclado para girar la rueda del mando y atrapar los puntos
 ## title: Lo que aprenderás
 
 + Cómo elegir elementos aleatorios de una lista
-+ How to use variables to track speed, lives, and the player's score
++ Cómo usar variables para llevar cuenta de la velocidad, las vidas y la puntuación del jugador
 
 \--- /collapse \---
 
@@ -40,11 +40,11 @@ Usa las flechas en tu teclado para girar la rueda del mando y atrapar los puntos
 
 ### Hardware
 
-+ A computer capable of running Scratch 3
++ Una computadora capaz de ejecutar Scratch 3
 
 ### Software
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (ya sea [en línea](http://rpf.io/scratchon){:target="_blank"} o [sin conexión](http://rpf.io/scratchoff) {:target="_blank"})
 
 ### Descargas
 
