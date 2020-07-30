@@ -1,10 +1,10 @@
 ## Gana puntos o pierde vidas
 
-Now you're going to add some dots that the player needs to collect.
+Ahora vas a añadir algunos puntos que el jugador deberá recolectar.
 
 \--- task \---
 
-Create a new sprite called 'red'. Este objeto debe ser un pequeño punto rojo.
+Crea un nuevo objeto llamado «rojo». Este objeto debe ser un pequeño punto rojo.
 
 ![Objeto punto rojo](images/dots-red.png)
 
@@ -28,7 +28,7 @@ Agrega este código a tu objeto «rojo» para crear un nuevo clon del objeto cad
 
 \--- /task \---
 
-If you click the green flag now, it looks like nothing is happening. Esto se debe a que todos los objetos clonados están ocultos y aparecen en el mismo lugar.
+Si haces clic en la bandera verde ahora mismo, parecerá que nada sucede. Esto se debe a que todos los objetos clonados están ocultos y aparecen en el mismo lugar.
 
 Vas a agregar código para hacer que cada vez que aparezca un nuevo clon sea en una de las cuatro esquinas del escenario.
 
@@ -70,7 +70,7 @@ Agrega este código al objeto «punto» para hacer que cada nuevo clon aparezca 
 
 \--- /task \---
 
-This new code chooses either `-180` or `180` for the x and y positions, meaning that each 'dot' sprite clone starts in a corner of the Stage.
+Este nuevo código elige `-180` o `180` para las posiciones x e y, lo que significa que cada clon del objeto «punto» comienza en una esquina del escenario.
 
 \--- task \---
 
@@ -90,7 +90,7 @@ Crea dos nuevas variables llamadas `vidas`{:class="block3variables"} y `puntaje`
 
 \--- task \---
 
-Add code to your Stage to set the `lives`{:class="block3variables"} variable to `3` and the `score`{:class="block3variables"} to `0` at the start of the game. ![Objeto escenario](images/stage-sprite.png)
+Agrega código a tu escenario para dar a la variable `vidas`{:class="block3variables"} el valor `3` y la variable `puntaje`{:class="block3variables"} el valor `0` al inicio del juego. ![Objeto escenario](images/stage-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -113,15 +113,15 @@ Agrega este código al final de la secuencia de comandos del escenario para que 
 
 \--- /task \---
 
-El jugador debe ganar puntos por atrapar puntos y debe perder vidas por no atrapar puntos. A dot can only be caught by matching the colour of the controller to the colour of the dot.
+El jugador debe ganar puntos por atrapar puntos y debe perder vidas por no atrapar puntos. Un punto solo puede capturarse al hacer coincidir el color del mando con el color del punto.
 
 \--- task \---
 
-Go back to the 'red' dot sprite's Scripts area to add some code blocks to the end of the sprite's `when I start as a clone`{:class="block3control"} script.
+Vuelve a la zona de código del objeto punto «rojo» para agregar algunos bloques de código al final de la secuencia de comandos: `cuando comienzo como un clon`{: class="block3control"}.
 
-First, make the dot clone `move 5 steps`{:class="block3motion"} so that it overlaps the controller.
+Primero, haz que el clon rojo se `mueva 5 pasos`{: class="block3motion"} para que coincida con el mando.
 
-Then add code to either add `1` to `score`{:class="block3variables"} if the colour of the dot clone matches the colour of the controller when they touch, or to take `1` away from `lives`{:class="block3variables"} if their colours don't match.
+Luego añade código para agregar `1` al `puntaje`{:clase="block3variables"} si el color del clon coincide con el color del mando cuando se tocan, o para restar `1` de `vidas`{:class="block3variables"} si sus colores no coinciden.
 
 [[[generic-scratch3-sound-from-library]]]
 
@@ -146,6 +146,6 @@ Then add code to either add `1` to `score`{:class="block3variables"} if the colo
 Prueba tu juego para asegurarte de que:
 
 1. Pierdes una vida si no haces coincidir un punto con el color correcto
-2. You score a point if you match a dot correctly
+2. Ganas un punto si logras hacer coincidir correctamente el punto
 
 \--- /task \---
