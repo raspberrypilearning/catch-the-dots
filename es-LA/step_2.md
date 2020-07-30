@@ -4,9 +4,9 @@ Comienza por crear el mando que el jugador utilizará para atrapar los puntos.
 
 \--- task \---
 
-Open the 'Catch the dots' Scratch starter project.
+Abre el proyecto inicial de Scratch 'Atrapa los puntos'.
 
-**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
+**En línea**: abre el proyecto inicial en [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
 
 Si tienes una cuenta en Scratch, puedes hacer una copia al hacer clic en **Remix**.
 
@@ -39,7 +39,7 @@ Agrega código al objeto mando para hacer que el objeto gire a la derecha si el 
 
 \--- task \---
 
-Prueba tu código. The controller should spin to the right when you press the right arrow key.
+Prueba tu código. El mando debería girar a la derecha cuando presionas la flecha hacia la derecha.
 
 \--- /task \---
 
