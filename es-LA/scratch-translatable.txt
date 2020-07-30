@@ -1,0 +1,11 @@
+posiciones de partida
+
+vidas
+
+puntaje
+
+retrasar
+
+comparar puntaje
+
+mejor puntaje
