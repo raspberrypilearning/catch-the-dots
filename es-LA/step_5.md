@@ -1,6 +1,6 @@
 ## Aumenta la dificultad
 
-Ahora vas a hacer el juego más difícil cuanto más tiempo juegue el jugador. You will do this by making the dots appear faster and faster over time.
+Ahora vas a hacer el juego más difícil cuanto más tiempo juegue el jugador. Lo lograrás haciendo que los puntos aparezcan más y más rápido con el tiempo.
 
 \--- task \---
 
