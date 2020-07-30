@@ -16,7 +16,7 @@ Cambia el disfraz de cada nuevo sprite para que tenga el color correcto: el obje
 
 \--- task \---
 
-Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
+Cambia el código de cada objeto para que el jugador obtenga puntos al hacer coincidir cada punto clonado con el color correcto en el mando.
 
 ![captura de pantalla](images/dots-all-test.png)
 
