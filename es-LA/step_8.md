@@ -1,4 +1,4 @@
-## Desafío: mejora tu juego
+## Desafío: ¡mejora tu juego!
 
 ¿Te imaginas como podrías mejorar tu juego? Por ejemplo, podrías crear puntos especiales que:
 
