@@ -1,10 +1,10 @@
-## High score
+## उच्च गुण
 
-You're going to save the game's high score, so that players can see how well they are doing.
+आपण गेमची उच्च धावसंख्या वाचवणार आहात जेणेकरुन खेळाडू ते किती चांगले काम करीत आहेत हे पाहू शकेल.
 
 \--- task \---
 
-Create a new variable called `high score`{:class="block3variables"}.
+`high score`{:class="block3variables"} नावाचे एक नवीन चल तयार करा.
 
 ![Stage sprite](images/stage-sprite.png)
 
@@ -12,7 +12,7 @@ Create a new variable called `high score`{:class="block3variables"}.
 
 \--- task \---
 
-Select the Stage. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
+स्टेज निवडा. 'My blocks' वर क्लिक करा आणि`check high score`{:class="block3myblocks"} नावाचा नवीन ब्लॉक तयार करा.
 
 ![Stage sprite](images/stage-sprite.png)
 
@@ -22,7 +22,7 @@ Select the Stage. Click on 'My blocks' and create a new custom block called `che
 
 \--- task \---
 
-Add code to your custom block so that the block checks if the current value of `score`{:class="block3variables"} in larger than the value of the `high score`{:class="block3variables"} variable, and then stores the value of `score`{:class="block3variables"} as the new value of `high score`{:class="block3variables"}.
+आताचा `score`{:class="block3variables"} चला जर `high score`{:class="block3variables"} चलापेक्षा जास्त असेल तर `score`{:class="block3variables"} चलाचे मूल्य `high score`{:class="block3variables"} चलामध्ये नक्कल करा.
 
 ![Stage sprite](images/stage-sprite.png)
 
@@ -37,7 +37,7 @@ Add code to your custom block so that the block checks if the current value of `
 
 \--- task \---
 
-Add your new custom block to the Stage script before the end of the script.
+स्क्रिप्टच्या समाप्तीपूर्वी आपला नवीन कस्टम ब्लॉक स्टेज स्क्रिप्टमध्ये जोडा.
 
 ![Stage sprite](images/stage-sprite.png)
 
@@ -55,6 +55,6 @@ stop [all v]
 
 \--- task \---
 
-Play your game twice to check whether your score gets correctly saved as the `high score`{:class="block3variables"}.
+आपले गुण `high score`{:class="block3variables"} मध्ये योग्यरित्या जतन झाला आहे की नाही हे तपासण्यासाठी गेम दोनदा खेळा.
 
 \--- /task \---
