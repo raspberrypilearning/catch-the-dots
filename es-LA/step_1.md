@@ -29,7 +29,7 @@ Usa las flechas en tu teclado para girar la rueda del mando y atrapar los puntos
 
 ## title: Lo que aprenderás
 
-+ Cómo elegir elementos aleatorios de una lista
++ How to choose random items from a list
 + Cómo usar variables para llevar cuenta de la velocidad, las vidas y la puntuación del jugador
 
 \--- /collapse \---
