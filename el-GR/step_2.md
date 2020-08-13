@@ -18,13 +18,13 @@
 
 Θα πρέπει να δεις ένα αντικείμενο για το χειριστήριο:
 
-![screenshot](images/dots-controller.png)
+![στιγμιότυπο οθόνης](images/dots-controller.png)
 
 \--- task \---
 
 Πρόσθεσε κώδικα στο αντικείμενο χειριστήριο για να περιστρέφεται δεξιά όταν ο παίκτης πατά το δεξί βελάκι:
 
-![Controller sprite](images/controller-sprite.png)
+![Αντικείμενο χειριστήριο](images/controller-sprite.png)
 
 ```blocks3
     Όταν στην πράσινη σημαία γίνει κλικ
@@ -47,7 +47,7 @@ end
 
 Πρόσθεσε κώδικα στο αντικείμενο χειριστήριο για να περιστρέφεται αριστερά όταν ο παίκτης πατά το αριστερό βελάκι.
 
-![Controller sprite](images/controller-sprite.png)
+![Αντικείμενο χειριστήριο](images/controller-sprite.png)
 
 \--- hints \---
 
