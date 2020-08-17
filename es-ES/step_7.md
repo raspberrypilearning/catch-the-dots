@@ -1,6 +1,6 @@
 ## Puntuación más alta
 
-Vas a guardar la puntuación más alta del juego, para que los jugadores puedan ver qué tan bien juegan.
+Vas a guardar la puntuación más alta del juego, para que los jugadores puedan ver qué lo bien que juegan.
 
 \--- task \---
 
