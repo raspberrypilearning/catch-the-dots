@@ -7,7 +7,7 @@
 Κάνε κλικ στην πράσινη σημαία στο παρακάτω παράδειγμα για να ξεκινήσεις και κατόπιν πάτα τα πλήκτρα <kbd>αριστερό</kbd> και <kbd>δεξί</kbd> βέλος για να μετακινήσεις το διαστημόπλοιο και το πλήκτρο <kbd>κενό</kbd> για να πυροβολήσεις.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/418352322/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/clone-showcase.png">
 </div>
 
