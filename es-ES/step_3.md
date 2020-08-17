@@ -12,7 +12,7 @@ Crea un nuevo objeto llamado 'rojo'. Este objeto debe ser un pequeño punto rojo
 
 \--- task \---
 
-Agrega este código a tu objeto 'rojo' para crear un nuevo clon del objeto cada algunos segundos:
+Agrega este código a tu objeto 'rojo' para crear un nuevo clon del objeto cada pocos segundos:
 
 ![Objeto punto rojo](images/red-sprite.png)
 
