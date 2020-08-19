@@ -1,0 +1,18 @@
+---
+hero_image: images/banner.png
+listed: true
+copyedit: false
+title: Поймай точки
+description: Создай игру по ловле точек
+version: 4.0.0
+last_tested: 2018-10-16
+steps:
+  - title: Введение
+  - title: Создай контроллер
+  - title: Набирай очки или теряй жизни
+  - title: Больше точек
+  - title: Усложни игру
+  - title: 'Задача: более быстрые точки'
+  - title: Рекорд
+  - title: 'Задача: улучшение своей игры!'
+  - title: Что дальше?
