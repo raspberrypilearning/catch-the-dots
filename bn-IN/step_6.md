@@ -1,5 +1,5 @@
-## Challenge: faster dots
+## Challenge: দ্রুততর বিন্দু
 
-Can you improve your game by adding a `speed`{:class="block3variables"} variable and using this new variable to make the dot change their speed over time? The clones should start by moving one step at a time, and then steadily get faster and faster.
+আপনি কি একটি `speed`{:class="block3variables"} ভেরিয়েবল যুক্ত করে এবং সময়ের সাথে বিন্দুটির গতি পরিবর্তন করার জন্য এই নতুন ভেরিয়েবলটি ব্যবহার করে আপনার গেমটি উন্নত করতে পারেন? ক্লোনগুলি একবারে এক ধাপ সরিয়ে শুরু করা উচিত এবং তারপরে অবিচ্ছিন্নভাবে দ্রুত এবং দ্রুততর হওয়া উচিত।.
 
-The code you need for this is very similar to the code in which you've used the `delay`{:class="block3variables"} variable.
+এর জন্য আপনার প্রয়োজনীয় কোডটি সেই কোডের সাথে সাদৃশ্যপূর্ণ যেখানে আপনি `delay`{:class="block3variables"} ভেরিয়েবল ব্যবহার করেছেন।.
