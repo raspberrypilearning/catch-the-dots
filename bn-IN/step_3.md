@@ -1,10 +1,10 @@
-## Gain points or lose lives
+## পয়েন্ট অর্জন করুন বা জীবন হারান
 
-Now you're going to add some dots that the player needs to collect.
+এখন আপনি কিছু বিন্দু যুক্ত করতে যাচ্ছেন যা প্লেয়ারকে সংগ্রহ করতে হবে।.
 
 \--- task \---
 
-Create a new sprite called 'red'. This sprite should be a small red dot.
+'red' নামে একটি নতুন স্প্রাইট তৈরি করুন।. এই sprite টি একটি ছোট লাল বিন্দু হওয়া উচিত।.
 
 ![Red dot sprite](images/dots-red.png)
 
@@ -12,7 +12,7 @@ Create a new sprite called 'red'. This sprite should be a small red dot.
 
 \--- task \---
 
-Add this script to your 'red' sprite to create a new clone of the sprite every few seconds:
+প্রতি কয়েক সেকেন্ডে sprite র একটি নতুন ক্লোন তৈরি করতে এই স্ক্রিপ্টটি আপনার 'red' স্প্রাইট এ যুক্ত করুন:
 
 ![Red dot sprite](images/red-sprite.png)
 
@@ -28,15 +28,15 @@ Add this script to your 'red' sprite to create a new clone of the sprite every f
 
 \--- /task \---
 
-If you click the green flag now, it looks like nothing is happening. This is because all of the cloned sprites are hidden, and they appear in the same place.
+আপনি যদি এখন সবুজ পতাকাটিতে ক্লিক করেন তবে দেখে মনেহবে কিছুই হচ্ছে না।. এটির কারণ হলো সমস্ত ক্লোন করা স্প্রাইটগুলি লুকানো রয়েছে এবং এগুলো একই স্থানে প্রদর্শিত হয়।.
 
-You are going to add code to make each new clone appear in one of the four corners of the Stage.
+আপনি প্রতিটি নতুন ক্লোন স্টেজের চারটি কোণে প্রদর্শিত করতে, code যুক্ত করতে যাচ্ছেন।.
 
 ![screenshot](images/dots-start.png)
 
 \--- task \---
 
-Create a new list called `start positions`{:class="block3variables"}, click the list's `(+)` icon to add the values `-180`{:class="block3variables"} and `180`{:class="block3variables"}.
+নামে একটি নতুন তালিকা তৈরি করুন `start positions`{:class="block3variables"},তালিকায় ক্লিক করুন `(+)` icon to add the values `-180`{:class="block3variables"} এবং `180`{:class="block3variables"}.
 
 ![Red dot sprite](images/red-sprite.png)
 
@@ -44,17 +44,17 @@ Create a new list called `start positions`{:class="block3variables"}, click the 
 
 [[[generic-scratch3-make-list]]]
 
-Then you can hide the list by unselecting this box:
+তারপরে আপনি এই box টি নির্বাচন না করে তালিকাটি আড়াল করতে পারেন:
 
 ![Hide the list](images/hide-list.png)
 
 \--- /task \---
 
-Notice that the coordinate for each corner of the Stage is a combination of `180` and `-180`. This means you can use the list to pick a corner of the Stage at random.
+লক্ষ্য করুন যে মঞ্চের প্রতিটি কোণার স্থানাঙ্কিটি ` 180 ` এবং ` -180 ` এর সংমিশ্রণ।. এর অর্থ আপনি এলোমেলোভাবে Stage এর যে কোনো কোনা বাছাই করতে তালিকাটি ব্যবহার করতে পারেন।.
 
 \--- task \---
 
-Add this code to the 'dot' sprite to make each new sprite clone appear in a random corner and then slowly move towards the controller sprite.
+প্রতিটি নতুন স্প্রাইট ক্লোনকে এলোমেলো ভাবে যে কোনো কোণে প্রদর্শিত করতে এবং তারপরে আস্তে আস্তে নিয়ামক স্প্রাইটের দিকে এগিয়ে যাওয়ার জন্য এই code টি 'dot' স্প্রাইটে যুক্ত করুন।.
 
 ![Red dot sprite](images/red-sprite.png)
 
@@ -70,11 +70,11 @@ Add this code to the 'dot' sprite to make each new sprite clone appear in a rand
 
 \--- /task \---
 
-This new code chooses either `-180` or `180` for the x and y positions, meaning that each 'dot' sprite clone starts in a corner of the Stage.
+এই নতুন কোডটি x এবং y পজিশনের জন্য `-180` বা `180` বাছাই করে, যার অর্থ প্রতিটি 'dot' স্প্রাইট ক্লোন স্টেজের এক কোণে শুরু হয়।.
 
 \--- task \---
 
-Test your project. You should see red dots appear in the corners of the Stage and move slowly towards the controller.
+আপনার প্রজেক্ট পরীক্ষা করুন. আপনার Stage টির কোণে লাল বিন্দুগুলি দেখতে পাওয়া উচিত এবং নিয়ামকের দিকে ধীরে ধীরে অগ্রসর হওয়া উচিত।.
 
 ![screenshot](images/dots-red-test.png)
 
@@ -82,7 +82,7 @@ Test your project. You should see red dots appear in the corners of the Stage an
 
 \--- task \---
 
-Create two new variables called `lives`{:class="block3variables"} and `score`{:class="block3variables"}.
+এই নামে দুটি নতুন ভেরিয়েবল তৈরি করুন `lives`{:class="block3variables"} এবং `score`{:class="block3variables"}.
 
 ![Red dot sprite](images/red-sprite.png)
 
@@ -90,7 +90,7 @@ Create two new variables called `lives`{:class="block3variables"} and `score`{:c
 
 \--- task \---
 
-Add code to your Stage to set the `lives`{:class="block3variables"} variable to `3` and the `score`{:class="block3variables"} to `0` at the start of the game. ![Stage sprite](images/stage-sprite.png)
+গেমের শুরুতে `lives`{:class="block3variables"} ভেরিয়েবলটি ` 3 ` তে এবং `score`{:class="block3variables"} থেকে ` 0 ` তে. সেট করতে আপনার Stage এ code যুক্ত করুন. ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -102,7 +102,7 @@ set [score v] to (0)
 
 \--- task \---
 
-Add this code to the end of the Stage's script to make the game end when the player loses the last of the lives:
+খেলোয়াড় শেষ জীবন টি হারিয়ে ফেললে গেমটি শেষ করতে Stage এর স্ক্রিপ্টের শেষে এই code টি যুক্ত করুন:
 
 ![Stage sprite](images/stage-sprite.png)
 
@@ -113,15 +113,15 @@ Add this code to the end of the Stage's script to make the game end when the pla
 
 \--- /task \---
 
-The player should win points for catching dots, and should lose lives for failing to catch dots. A dot can only be caught by matching the colour of the controller to the colour of the dot.
+খেলোয়াড়কে বিন্দু ধরার জন্য পয়েন্ট জিতবে এবং বিন্দু ধরতে ব্যর্থ হওয়ার জন্য প্রাণ হারানো উচিত।. একটি বিন্দু কেবলমাত্র নিয়ামকের রঙের সাথে বিন্দুর রঙের সাথে মিলিয়ে ধরা যায়।.
 
 \--- task \---
 
-Go back to the 'red' dot sprite's Scripts area to add some code blocks to the end of the sprite's `when I start as a clone`{:class="block3control"} script.
+স্প্রাইটের `when I start as a clone`{:class="block3control"} স্ক্রিপ্ট এর শেষের দিকে কিছু code ব্লক যুক্ত করতে 'red' ডট স্প্রাইটের স্ক্রিপ্টগুলি অঞ্চলে ফিরে যান.
 
-First, make the dot clone `move 5 steps`{:class="block3motion"} so that it overlaps the controller.
+প্রথমে, ডট ক্লোনটি তৈরি করুন `move 5 steps`{:class="block3motion"} যাতে এটি নিয়ামককে ওভারল্যাপ করে।.
 
-Then add code to either add `1` to `score`{:class="block3variables"} if the colour of the dot clone matches the colour of the controller when they touch, or to take `1` away from `lives`{:class="block3variables"} if their colours don't match.
+তারপর code যোগ করতে পারেন `1` কে `score`{:class="block3variables"} তে যোগ করতে,যদি ডট ক্লোন রঙ নিয়ামক যখন তারা স্পর্শ, অথবা নিতে রঙ মিলে যায়, অথবা `1` কে `lives`{:class="block3variables"} থেকে সরিয়ে নিতে পারেন যদি তাদের রঙ মেলে না।.
 
 [[[generic-scratch3-sound-from-library]]]
 
@@ -143,9 +143,9 @@ Then add code to either add `1` to `score`{:class="block3variables"} if the colo
 
 \--- task \---
 
-Test your game to make sure that:
+আপনার গেমটি পরীক্ষা করে দেখুন তা নিশ্চিত করুন:
 
-1. You lose a life if you don’t match a dot with the correct colour
-2. You score a point if you match a dot correctly
+1. আপনি যদি সঠিক রঙের সাথে কোনও বিন্দুর সাথে না মেলাতে না পারেন তবে আপনি একটি জীবন হারাবেন
+2. আপনি যদি একটি বিন্দুটি সঠিকভাবে মেলান তবে আপনি একটি পয়েন্ট স্কোর করবেন
 
 \--- /task \---
