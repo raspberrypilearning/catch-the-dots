@@ -2,26 +2,26 @@
 hero_image: images/banner.png
 listed: true
 copyedit: false
-title: Catch the dots
-description: Make a dot-catching game
+title: বিন্দুগুলি ধরুন
+description: একটি ডট-ক্যাচিং গেম তৈরি করুন
 version: 4.0.0
 last_tested: 2018-10-16
 steps:
   - 
-    title: Introduction
+    title: "\nভূমিকা"
   - 
-    title: Create a controller
+    title: একটি নিয়ামক তৈরি করুন
   - 
-    title: Gain points or lose lives
+    title: পয়েন্ট অর্জন করুন বা জীবন হারান
   - 
-    title: More dots
+    title: অতিরিক্ত বিন্দু
   - 
-    title: Increase the difficulty
+    title: আরো বেশি কঠিন করুন
   - 
-    title: 'Challenge: faster dots'
+    title: 'চ্যালেঞ্জ: দ্রুততর বিন্দু'
   - 
-    title: High score
+    title: উচ্চ স্কোর
   - 
-    title: 'Challenge: improve your game!'
+    title: 'Challenge: আপনার গেমটি উন্নত করুন!'
   - 
-    title: What next?
+    title: এরপর কি?
