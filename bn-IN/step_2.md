@@ -1,28 +1,28 @@
-## Create a controller
+## একটি নিয়ামক তৈরি করুন
 
-Start by creating a controller that the player will use to collect dots.
+কোনও নিয়ামক তৈরি করে শুরু করুন যা প্লেয়ার বিন্দু সংগ্রহ করতে ব্যবহার করবে।.
 
 \--- task \---
 
-Open the 'Catch the dots' Scratch starter project.
+'Catch the dots' স্ক্র্যাচ স্টার্টার প্রকল্পটি খুলুন।.
 
-**Online:** open the starter project at [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
+**Online:** স্টার্টার প্রকল্পটি এখানে খুলুন [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+আপনার যদি স্ক্র্যাচ অ্যাকাউন্ট থাকে তবে আপনি **Remix**. ক্লিক করে একটি অনুলিপি তৈরি করতে পারেন।.
 
-**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
+**Offline:** স্টার্টার প্রকল্পটি এটি থেকে ডাউনলোড করুন [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), এবং তারপরে এটি স্ক্র্যাচ অফলাইন এডিটর এ খুলুন।.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+আপনার যদি স্ক্র্যাচ অফলাইন এডিটরটি ডাউনলোড ও ইনস্টল করতে হয় তবে আপনি এটি [ rpf.io/scratchoff ](http://rpf.io/scratchoff) এ খুঁজে পেতে পারেন।.
 
 \--- /task \---
 
-You should see a controller sprite:
+আপনি একটি নিয়ামক sprite দেখতে পাওয়া উচিত:
 
 ![screenshot](images/dots-controller.png)
 
 \--- task \---
 
-Add some code to the controller sprite to make the sprite turn right if the player presses the right arrow key:
+প্লেয়ার ডান arrow কী টিপলে স্প্রাইটকে ডানদিকে ফেরাতে নিয়ন্ত্রণকারী স্প্রাইটে কিছু code যুক্ত করুন:
 
 ![Controller sprite](images/controller-sprite.png)
 
@@ -39,13 +39,13 @@ Add some code to the controller sprite to make the sprite turn right if the play
 
 \--- task \---
 
-Test your code. The controller should spin to the right when you press the right arrow key.
+আপনার code পরীক্ষা করুন।. আপনি যখন ডান arrow কী টিপবেন, তখন নিয়ামকটি ডানদিকে ঘুরবে.
 
 \--- /task \---
 
 \--- task \---
 
-Add code to the controller sprite to make the sprite turn left if the player presses the left arrow key.
+প্লেয়ার বাম arrow কী টিপলে স্প্রাইটকে বাম দিকে বাঁকানোর জন্য নিয়ামক স্প্রাইটে code যুক্ত করুন।.
 
 ![Controller sprite](images/controller-sprite.png)
 
@@ -53,13 +53,13 @@ Add code to the controller sprite to make the sprite turn left if the player pre
 
 \--- hint \---
 
-Find the code that checks whether the right arrow key is pressed and makes the sprite turn right. Can you add a copy of this code, and change the copy so it checks whether the left arrow key is pressed and makes the sprite turn left?
+ডান arrow কী টিপছে কিনা এবং স্প্রাইটকে ডানদিকে পরিণত করে কিনা তা যাচাই করে এমন code টি সন্ধান করুন. আপনি কি এই code টির একটি অনুলিপি যুক্ত এবং অনুলিপিটি পরিবর্তন করতে পারেন যাতে এটি বাম arrow কী টিপলে স্প্রাইটটি বামদিকে বাঁক দেয় কিনা তা পরীক্ষা করে?
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+আপনার যেগুলি ব্লকগুলি দরকার তা এখানে রয়েছে:
 
 ```blocks3
 <key (space v) pressed?>
@@ -75,7 +75,7 @@ end
 
 \--- hint \---
 
-Here is what your code should look like:
+এখানে আপনার code টি এইরকম দেখতে হওয়া উচিত:
 
 ```blocks3
     when flag clicked
