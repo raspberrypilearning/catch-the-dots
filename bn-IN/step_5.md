@@ -1,6 +1,6 @@
-## Increase the difficulty
+## আরো বেশি কঠিন করুন
 
-Now you're going to make the game more difficult the longer the player plays it. You will do this by making the dots appear faster and faster over time.
+এখন আপনি গেমটিকে আরও বেশি কঠিন করে তুলছেন খেলোয়াড় যত দীর্ঘ সময় এটি খেলবে।. সময়ের সাথে সাথে বিন্দুগুলিকে দ্রুত এবং দ্রুত প্রদর্শিত করে আপনি এটি করবেন।.
 
 \--- task \---
 
@@ -12,7 +12,7 @@ Create a new `variable`{:class="block3variables"} called 'delay'.
 
 \--- task \---
 
-Go to the Stage's Scripts area and create a new script that sets the `delay`{:class="block3variables"} variable to `8` and then slowly reduces the value of `delay`{:class="block3variables"} while the game runs.
+স্টেজের স্ক্রিপ্টস অঞ্চলে যান এবং একটি নতুন স্ক্রিপ্ট তৈরি করুন যা `delay`{:class="block3variables"} ভেরিয়েবল কে ` 8 ` এ সেট করে এবং তারপরে গেমটি চলাকালীন ধীরে ধীরে এর মান হ্রাস করে `delay`{:class="block3variables"}.
 
 ![Stage sprite](images/stage-sprite.png)
 
@@ -27,13 +27,13 @@ Go to the Stage's Scripts area and create a new script that sets the `delay`{:cl
 
 \--- /task \---
 
-Notice that this code is very similar to the code you would use to create a countdown timer!
+লক্ষ্য করুন যে এই code টি আপনি একটি কাউন্টডাউন টাইমার তৈরি করতে যে code টি ব্যবহার করেছিলেন তার সাথে খুব মিল!
 
-Next, use the `delay`{:class="block3variables"} variable in the code scripts of the 'red', 'yellow', and 'blue' sprites.
+এরপরে, 'red', 'yellow', এবং 'blue' স্প্রাইটের কোড স্ক্রিপ্টগুলিতে `delay`{:class="block3variables"} ভেরিয়েবলটি ব্যবহার করুন।.
 
 \--- task \---
 
-Remove the code block that makes the game wait a random number of seconds between making the dot sprite clones. Replace the block you've removed with your new `delay`{:class="block3variables"} variable:
+সেই code ব্লকটি সরিয়ে ফেলুন যেটি গেমটিকে ডট স্প্রাইট ক্লোন তৈরির মধ্যে কয়েক অনির্দিষ্ট সেকেন্ড অপেক্ষা করায়।. আপনি যে ব্লকটি মুছেছেন, সেটিকে আপনার নতুন `delay`{:class="block3variables"} ভেরিয়েবল দিয়ে প্রতিস্থাপন করুন:
 
 ![screenshot](images/all-dots.png)
 
@@ -42,15 +42,15 @@ Remove the code block that makes the game wait a random number of seconds betwee
     wait (delay :: variables) secs
 ```
 
-Do this for all three dot sprites.
+এটি সমস্ত তিনটি ডট স্প্রাইটের জন্য করুন।.
 
 \--- /task \---
 
 \--- task \---
 
-Test the game, and check whether the dots begin to appear more quickly as the game goes on.
+গেমটি পরীক্ষা করুন এবং খেলা চলার সাথে সাথে ডটগুলি আরও দ্রুত প্রদর্শিত হতে শুরু করে কিনা তা পরীক্ষা করুন।.
 
-+ Does this work for all three coloured dots?
-+ Can you see that the value of the `delay`{:class="block3variables"} variable decreases?
++ এটি কি সমস্ত তিনটি রঙিন ডট এর জন্য কাজ করে?
++ আপনি কি যে `delay`{:class="block3variables"} ভেরিয়েবলের মান হ্রাস দেখতে পাচ্ছেন?
 
 \--- /task \---
