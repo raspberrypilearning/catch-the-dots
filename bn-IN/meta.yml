@@ -1,0 +1,18 @@
+---
+hero_image: images/banner.png
+listed: true
+copyedit: false
+title: বিন্দুগুলি ধরুন
+description: একটি ডট-ক্যাচিং গেম তৈরি করুন
+version: 4.0.0
+last_tested: 2018-10-16
+steps:
+  - title: "\nভূমিকা"
+  - title: একটি নিয়ামক তৈরি করুন
+  - title: পয়েন্ট অর্জন করুন বা জীবন হারান
+  - title: আরও বিন্দু
+  - title: আরো বেশি কঠিন করুন
+  - title: 'Challenge: দ্রুততর বিন্দু'
+  - title: উচ্চ স্কোর
+  - title: 'Challenge: আপনার গেমটি উন্নত করুন!'
+  - title: এরপর কি?
