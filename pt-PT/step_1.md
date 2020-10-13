@@ -48,7 +48,7 @@ Usa as setas do teclado para girar a roda controladora e pega os pontos voadores
 
 ### Downloads
 
-+ [Offline Scratch 2 project](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
++ [Projeto Scratch 2 offline](http://rpf.io/p/en/catch-the-dots-go){: target="_blank"}
 
 \--- /collapse \---
 
