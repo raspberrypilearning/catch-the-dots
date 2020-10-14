@@ -64,6 +64,4 @@
 
 आपण येथे [पूर्ण केलेला प्राजेक्ट शोधू शकता](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
 
-आपण येथे [पूर्ण केलेला प्राजेक्ट शोधू शकता](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
-
 \--- /collapse \---
