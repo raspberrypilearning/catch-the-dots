@@ -66,6 +66,4 @@ If you need to print this project, please use the [printer-friendly version](htt
 
 You can find [the completed project here](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
 
-You can find the [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
-
 --- /collapse ---
