@@ -64,6 +64,4 @@
 
 आप [ पूर्ण प्रोजेक्ट यहां से प्राप्त कर सकते हैं ](http://rpf.io/p/en/catch-the-dots-get) {: target = "_ blank"}
 
-आप [ पूर्ण प्रोजेक्ट यहां से प्राप्त कर सकते हैं ](https://scratch.mit.edu/projects/252923761/#editor) {: target = "_ blank"}
-
 \--- /collapse \---
