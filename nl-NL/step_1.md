@@ -64,6 +64,4 @@ Als je dit project wilt afdrukken, gebruik dan de [printervriendelijke versie](h
 
 Je kunt [de complete versie hier](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"} terugvinden.
 
-Je kunt het [voltooide project hier vinden](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
-
 \--- /collapse \---
