@@ -64,6 +64,4 @@
 
 완성된 프로젝트는 [여기서](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"} 확인하실 수 있습니다.
 
-완료된 프로젝트는 [여기서](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} 확인하실 수 있습니다.
-
 \--- /collapse \---
