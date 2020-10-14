@@ -64,6 +64,4 @@
 
 Ви можете знайти [завершений проєкт тут](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
 
-Ви можете знайти [завершений проєкт тут](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
-
 \--- /collapse \---
