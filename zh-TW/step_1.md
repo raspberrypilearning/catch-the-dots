@@ -64,6 +64,4 @@
 
 你可以在這裡找到[已經完成的專案](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}。
 
-你可以在這裡找到[已經完成的專案](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}。
-
 \--- /collapse \---
