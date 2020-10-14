@@ -64,6 +64,4 @@
 
 [完成したプロジェクトはこちらに](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}あります 。
 
-[完成したプロジェクトはこちらに](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}あります 。
-
 \--- /collapse \---
