@@ -64,6 +64,4 @@ Se necessitar imprimir este projeto, por favor utilize a [versão para impressã
 
 Pode encontrar o [projeto concluído aqui](http://rpf.io/p/en/catch-the-dots-get){:target="_ blank"}.
 
-Podes encontrar o [projeto concluído aqui](https://scratch.mit.edu/projects/252923761/#editor){: target = "_ blank"}
-
 \--- /collapse \---
