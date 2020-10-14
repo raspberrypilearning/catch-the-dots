@@ -64,6 +64,4 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 你可以在这里找到 [完成的项目](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}。
 
-你可以在这里找到[完整的项目](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
-
 \--- /collapse \---
