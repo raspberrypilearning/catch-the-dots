@@ -1,6 +1,6 @@
 \--- no-print \---
 
-Esta é a versão **Scratch 3** do projeto. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
+Esta é a versão **Scratch 3** do projeto. Há também uma versão [Scratch 2 do projeto](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2).
 
 \--- /no-print \---
 
@@ -21,7 +21,7 @@ Use as teclas de seta no seu teclado para girar a roda do controlador e pegar os
 
 \--- print-only \---
 
-![Dots screenshot](images/dots-final.png)
+![Captura de tela de bolinhas](images/dots-final.png)
 
 \--- /print-only \---
 
