@@ -53,13 +53,13 @@ Adicione código ao ator Controle para faze-lo girar para a esquerda se o jogado
 
 \--- hint \---
 
-Find the code that checks whether the right arrow key is pressed and makes the sprite turn right. Can you add a copy of this code, and change the copy so it checks whether the left arrow key is pressed and makes the sprite turn left?
+Encontre o código que verifica se a tecla de seta para a direita está pressionada e faz o ator girar para a direita. Você pode adicionar uma cópia deste código e alterar a cópia para que ela verifique se a tecla de seta para a esquerda está pressionada e faz o ator girar para a esquerda?
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+Aqui estão os blocos que você precisa:
 
 ```blocks3
 <key (space v) pressed?>
@@ -75,7 +75,7 @@ end
 
 \--- hint \---
 
-Here is what your code should look like:
+É assim que seu código deve parecer:
 
 ```blocks3
     when flag clicked
