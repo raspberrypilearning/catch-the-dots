@@ -1,20 +1,20 @@
-## Gain points or lose lives
+## Ganhe pontos ou perca vidas
 
-Now you're going to add some dots that the player needs to collect.
+Agora você vai adicionar algumas bolinhas que o jogador precisa capturar.
 
 \--- task \---
 
-Create a new sprite called 'red'. This sprite should be a small red dot.
+Crie um novo ator chamado 'vermelho'. Esse ator deve ser um pequeno ponto vermelho.
 
-![Red dot sprite](images/dots-red.png)
+![Ator bolinha vermelha](images/dots-red.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add this script to your 'red' sprite to create a new clone of the sprite every few seconds:
+Adicione este script ao seu ator 'vermelho' para criar um novo clone do ator a cada poucos segundos:
 
-![Red dot sprite](images/red-sprite.png)
+![Ator bolinha vermelha](images/red-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -28,11 +28,11 @@ Add this script to your 'red' sprite to create a new clone of the sprite every f
 
 \--- /task \---
 
-If you click the green flag now, it looks like nothing is happening. This is because all of the cloned sprites are hidden, and they appear in the same place.
+Se você clicar na bandeira verde agora, parece que nada está acontecendo. Isto porque todos os atores clonados estão escondidos e aparecem no mesmo lugar.
 
-You are going to add code to make each new clone appear in one of the four corners of the Stage.
+Você vai adicionar código para fazer cada novo clone aparecer em um dos quatro cantos do Palco.
 
-![screenshot](images/dots-start.png)
+![captura de tela](images/dots-start.png)
 
 \--- task \---
 
