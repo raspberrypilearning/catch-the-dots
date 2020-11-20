@@ -27,30 +27,30 @@ Vá para a área de scripts do Palco e crie um novo script que defina a variáve
 
 \--- /task \---
 
-Notice that this code is very similar to the code you would use to create a countdown timer!
+Note que este código é muito parecido com o código que você usaria para fazer um temporizador de contagem regressiva!
 
-Next, use the `delay`{:class="block3variables"} variable in the code scripts of the 'red', 'yellow', and 'blue' sprites.
+Em seguida, use a variável `atraso`{:class="block3variables"} nos códigos dos atores das bolinhas 'vermelho', 'amarelo' e 'azul'.
 
 \--- task \---
 
-Remove the code block that makes the game wait a random number of seconds between making the dot sprite clones. Replace the block you've removed with your new `delay`{:class="block3variables"} variable:
+Remova o bloco de código que faz o jogo esperar um número aleatório de segundos entre a criação de clones das bolinhas. Substitua o bloco que você removeu com sua nova variável `atraso`{:class="block3variables"}:
 
-![screenshot](images/all-dots.png)
+![captura de tela](images/all-dots.png)
 
 ```blocks3
 <br />-   wait (pick random (5) to (10)) secs
     wait (delay :: variables) secs
 ```
 
-Do this for all three dot sprites.
+Faça isso para todos os três atores das bolinhas.
 
 \--- /task \---
 
 \--- task \---
 
-Test the game, and check whether the dots begin to appear more quickly as the game goes on.
+Teste o jogo e verifique se as bolinhas começam a aparecer mais rapidamente à medida que o jogo avança.
 
-+ Does this work for all three coloured dots?
-+ Can you see that the value of the `delay`{:class="block3variables"} variable decreases?
++ Isto funciona com todas as três bolinhas coloridas?
++ Você consegue ver que o valor da variável `atraso`{:class="block3variables"} diminui?
 
 \--- /task \---
