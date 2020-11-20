@@ -1,20 +1,20 @@
-## Increase the difficulty
+## Aumente a dificuldade
 
-Now you're going to make the game more difficult the longer the player plays it. You will do this by making the dots appear faster and faster over time.
+Agora você vai tornar o jogo mais difícil quanto mais tempo o jogador jogar. Você vai fazer isso fazendo com que as bolinhas apareçam mais rápido à medida que o tempo passa.
 
 \--- task \---
 
-Create a new `variable`{:class="block3variables"} called 'delay'.
+Crie uma nova `variável`{:class="block3variables"} chamada 'atraso'.
 
-![Stage sprite](images/stage-sprite.png)
+![Ator Palco](images/stage-sprite.png)
 
 \--- /task \---
 
 \--- task \---
 
-Go to the Stage's Scripts area and create a new script that sets the `delay`{:class="block3variables"} variable to `8` and then slowly reduces the value of `delay`{:class="block3variables"} while the game runs.
+Vá para a área de scripts do Palco e crie um novo script que defina a variável `atraso`{:class="block3variables"} para `8` e então reduza lentamente o valor de `atraso`{:class="block3variables"} enquanto o jogo é executado.
 
-![Stage sprite](images/stage-sprite.png)
+![Ator Palco](images/stage-sprite.png)
 
 ```blocks3
     when flag clicked
