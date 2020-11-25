@@ -1,0 +1,11 @@
+posições iniciais
+
+vidas
+
+pontuação
+
+atraso
+
+conferir melhor pontuação
+
+melhor pontuação
