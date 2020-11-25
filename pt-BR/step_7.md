@@ -1,18 +1,18 @@
 ## High score
 
-You're going to save the game's high score, so that players can see how well they are doing.
+Você vai salvar a melhor pontuação do jogo, para que os jogadores possam ver como estão se saindo.
 
 \--- task \---
 
-Create a new variable called `high score`{:class="block3variables"}.
+Crie uma nova variável chamada `melhor pontuação`{:class="block3variables"}.
 
-![Stage sprite](images/stage-sprite.png)
+![Ator Palco](images/stage-sprite.png)
 
 \--- /task \---
 
 \--- task \---
 
-Select the Stage. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
+Selecione o Palco. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
 
 ![Stage sprite](images/stage-sprite.png)
 
