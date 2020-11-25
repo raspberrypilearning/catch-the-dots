@@ -1,4 +1,4 @@
-## High score
+## Melhor pontuação
 
 Você vai salvar a melhor pontuação do jogo, para que os jogadores possam ver como estão se saindo.
 
@@ -12,19 +12,19 @@ Crie uma nova variável chamada `melhor pontuação`{:class="block3variables"}.
 
 \--- task \---
 
-Selecione o Palco. Click on 'My blocks' and create a new custom block called `check high score`{:class="block3myblocks"}.
+Selecione o Palco. Clique em 'Meus blocos', e crie um novo bloco personalizado chamado `conferir melhor pontuação`{:class="block3myblocks"}.
 
-![Stage sprite](images/stage-sprite.png)
+![Ator Palco](images/stage-sprite.png)
 
-![screenshot](images/dots-custom-1.png)
+![captura de tela](images/dots-custom-1.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your custom block so that the block checks if the current value of `score`{:class="block3variables"} in larger than the value of the `high score`{:class="block3variables"} variable, and then stores the value of `score`{:class="block3variables"} as the new value of `high score`{:class="block3variables"}.
+Adicione o código ao seu bloco personalizado para que o bloco verifique se o valor atual de `pontuação`{:class="block3variables"} é maior que o valor da variável `melhor pontuação`{:class="block3variables"}, e então armazena o valor de `pontuação`{:class="block3variables"} como o novo valor de `melhor pontuação`{:class="block3variables"}.
 
-![Stage sprite](images/stage-sprite.png)
+![Ator Palco](images/stage-sprite.png)
 
 ```blocks3
     define check high score
@@ -37,9 +37,9 @@ Add code to your custom block so that the block checks if the current value of `
 
 \--- task \---
 
-Add your new custom block to the Stage script before the end of the script.
+Adicione seu novo bloco personalizado ao script do Palco, antes do final do script.
 
-![Stage sprite](images/stage-sprite.png)
+![Ator Palco](images/stage-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -55,6 +55,6 @@ stop [all v]
 
 \--- task \---
 
-Play your game twice to check whether your score gets correctly saved as the `high score`{:class="block3variables"}.
+Jogue seu jogo duas vezes para verificar se a sua pontuação é guardada corretamente como a `melhor pontuação`{:class="block3variables"}.
 
 \--- /task \---
