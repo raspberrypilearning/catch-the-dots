@@ -46,11 +46,11 @@ title: आपको क्या आवश्यकता होगी
 
 ### सॉफ्टवेयर
 
-+ Scratch 3 (या तो [ऑनलाइन](http://rpf.io/scratchon){:target="_blank"} या [ऑफलाइन](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (या तो [ऑनलाइन](https://rpf.io/scratchon){:target="_blank"} या [ऑफलाइन](https://rpf.io/scratchoff){:target="_blank"})
 
 ### डाउनलोड
 
-+ [Offline Scratch 2 project](http://rpf.io/p/hi-IN/catch-the-dots-go){:target="_blank"}
++ [Offline Scratch 2 project](https://rpf.io/p/hi-IN/catch-the-dots-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -64,7 +64,7 @@ title: शिक्षकों के लिए अतिरिक्त टि
 
 --- /no-print ---
 
-आप [पूर्ण प्रोजेक्ट यहां से प्राप्त कर सकते हैं](http://rpf.io/p/hi-IN/catch-the-dots-get){:target="_blank"}
+आप [पूर्ण प्रोजेक्ट यहां से प्राप्त कर सकते हैं](https://rpf.io/p/hi-IN/catch-the-dots-get){:target="_blank"}
 
 आप [पूर्ण प्रोजेक्ट यहां से प्राप्त कर सकते हैं](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
 

@@ -46,11 +46,11 @@ title: 必要なもの
 
 ### ソフトウェア
 
-+ Scratch 3 ([オンライン](http://rpf.io/scratchon){:target="_blank"}または[オフライン](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([オンライン](https://rpf.io/scratchon){:target="_blank"}または[オフライン](https://rpf.io/scratchoff){:target="_blank"})
 
 ### ダウンロード
 
-+ [オフラインScratch 2プロジェクト](http://rpf.io/p/ja-JP/catch-the-dots-go){:target="_blank"}
++ [オフラインScratch 2プロジェクト](https://rpf.io/p/ja-JP/catch-the-dots-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -65,7 +65,7 @@ title: 教育者向けの追加情報
 
 --- /no-print ---
 
-[完成したプロジェクトはこちらに](http://rpf.io/p/ja-JP/catch-the-dots-get){:target="_blank"}あります 。
+[完成したプロジェクトはこちらに](https://rpf.io/p/ja-JP/catch-the-dots-get){:target="_blank"}あります 。
 
 [完成したプロジェクトはこちらに](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}あります 。
 

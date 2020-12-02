@@ -46,11 +46,11 @@ title: Kaj boš potreboval?
 
 ### Programsko opremo
 
-+ Scratch 3 (bodisi [na spletu](http://rpf.io/scratchon){:target="_blank"} ali [brez povezave](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (bodisi [na spletu](https://rpf.io/scratchon){:target="_blank"} ali [brez povezave](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Prenosi
 
-+ [Začetni projekt brez povezave](http://rpf.io/p/sl-SI/catch-the-dots-go){:target="_blank"}
++ [Začetni projekt brez povezave](https://rpf.io/p/sl-SI/catch-the-dots-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -65,7 +65,7 @@ Za tiskanje tega projekta, prosimo uporabite [tiskalniku prijazno različico](ht
 
 --- /no-print ---
 
-Zaključen projekt lahko najdete [tukaj](http://rpf.io/p/sl-SI/catch-the-dots-get).
+Zaključen projekt lahko najdete [tukaj](https://rpf.io/p/sl-SI/catch-the-dots-get).
 
 Zaključen projekt lahko najdete [tukaj](https://scratch.mit.edu/projects/252923761/#editor).
 
