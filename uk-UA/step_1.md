@@ -44,11 +44,11 @@
 
 ### Програмне забезпечення
 
-+ Скретч 3 (або [онлайн](http://rpf.io/scratchon){:target="_blank"}, або [офлайн](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Завантаження
 
-+ [Початковий офлайн-проєкт Скретч 3](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
++ [Offline Scratch 2 project](https://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
 
 \--- /collapse \---
 
@@ -62,6 +62,6 @@
 
 \--- /no-print \---
 
-Ви можете знайти [завершений проєкт тут](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+You can find [the completed project here](https://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
 
 \--- /collapse \---
