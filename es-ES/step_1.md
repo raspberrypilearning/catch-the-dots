@@ -44,11 +44,11 @@ Usa las flechas en tu teclado para girar la rueda del controlador y atrapar los 
 
 ### Software
 
-+ Scratch 3 (ya sea [en línea](http://rpf.io/scratchon){:target="_blank"} o [sin conexión](http://rpf.io/scratchoff) {:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Descargas
 
-+ [ Proyecto Scratch 2 sin conexión ](http://rpf.io/p/en/catch-the-dots-go) {:target = "_ blank"}
++ [Offline Scratch 2 project](https://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
 
 \--- /collapse \---
 
@@ -62,6 +62,6 @@ Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://pro
 
 \--- /no-print \---
 
-Puedes [encontrar el proyecto completo aquí](http://rpf.io/p/en/catch-the-dots-get){:target ="_blank"}.
+You can find [the completed project here](https://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
 
 \--- /collapse \---
