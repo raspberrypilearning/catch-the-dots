@@ -44,11 +44,11 @@ Utilise les touches fléchées de ton clavier pour faire pivoter la roue du cont
 
 ### Logiciel
 
-+ Scratch 3 ([en ligne](http://rpf.io/scratchon){:target="_blank"} ou [hors ligne](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Téléchargements
 
-+ [Projet Scratch 2 hors ligne](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
++ [Offline Scratch 2 project](https://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
 
 \--- /collapse \---
 
@@ -62,6 +62,6 @@ Si vous avez besoin d'imprimer ce projet, merci d'utiliser la [Version imprimabl
 
 \--- /no-print \---
 
-Vous pouvez trouver le [projet terminé ici](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+You can find [the completed project here](https://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
 
 \--- /collapse \---
