@@ -46,11 +46,11 @@ title: Ce que tu auras besoin
 
 ### Logiciel
 
-+ Scratch 3 ([en ligne](http://rpf.io/scratchon){:target="_blank"} ou [hors ligne](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([en ligne](https://rpf.io/scratchon){:target="_blank"} ou [hors ligne](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Téléchargements
 
-+ [Projet Scratch 2 hors ligne](http://rpf.io/p/fr-FR/catch-the-dots-go){:target="_blank"}
++ [Projet Scratch 2 hors ligne](https://rpf.io/p/fr-FR/catch-the-dots-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -65,7 +65,7 @@ Si vous avez besoin d'imprimer ce projet, merci d'utiliser la [Version imprimabl
 
 --- /no-print ---
 
-Vous pouvez trouver le [projet terminé ici](http://rpf.io/p/fr-FR/catch-the-dots-get){:target="_blank"}.
+Vous pouvez trouver le [projet terminé ici](https://rpf.io/p/fr-FR/catch-the-dots-get){:target="_blank"}.
 
 Vous pouvez trouver le [projet terminé ici](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
 

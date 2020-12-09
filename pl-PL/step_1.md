@@ -40,11 +40,11 @@ title: Czego będziesz potrzebować
 
 ### Oprogamowanie
 
-+ Scratch 3 ([online](http://rpf.io/scratchon){:target="_blank"} lub [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([online](https://rpf.io/scratchon){:target="_blank"} lub [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Pliki do pobrania
 
-+ [Wersja Scratch 3 projektu do pobrania](http://rpf.io/p/pl-PL/catch-the-dots-go){:target="_blank"} --- /collapse ---
++ [Wersja Scratch 3 projektu do pobrania](https://rpf.io/p/pl-PL/catch-the-dots-go){:target="_blank"} --- /collapse ---
 
 --- collapse ---
 ---
@@ -55,6 +55,6 @@ title: Dodatkowe informacje dla nauczycieli
 Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.raspberrypi.org/pl-PL/projects/catch-the-dots/print). 
 --- /no-print ---
 
-Możesz znaleźć [kompletną wersję projektu tutaj](http://rpf.io/p/pl-PL/catch-the-dots-get){:target="_blank"}.
+Możesz znaleźć [kompletną wersję projektu tutaj](https://rpf.io/p/pl-PL/catch-the-dots-get){:target="_blank"}.
 
 Tutaj znajdziesz [zakończony projekt](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} --- /collapse ---

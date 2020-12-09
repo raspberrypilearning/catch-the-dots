@@ -46,11 +46,11 @@ title: Що тобі знадобиться
 
 ### Програмне забезпечення
 
-+ Скретч 3 (або [онлайн](http://rpf.io/scratchon){:target="_blank"}, або [офлайн](http://rpf.io/scratchoff){:target="_blank"})
++ Скретч 3 (або [онлайн](https://rpf.io/scratchon){:target="_blank"}, або [офлайн](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Завантаження
 
-+ [Початковий офлайн-проєкт Скретч 3](http://rpf.io/p/uk-UA/catch-the-dots-go){:target="_blank"}
++ [Початковий офлайн-проєкт Скретч 3](https://rpf.io/p/uk-UA/catch-the-dots-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -65,7 +65,7 @@ title: Додаткові примітки для викладачів
 
 --- /no-print ---
 
-Ви можете знайти [завершений проєкт тут](http://rpf.io/p/uk-UA/catch-the-dots-get){:target="_blank"}.
+Ви можете знайти [завершений проєкт тут](https://rpf.io/p/uk-UA/catch-the-dots-get){:target="_blank"}.
 
 Ви можете знайти [завершений проєкт тут](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
 

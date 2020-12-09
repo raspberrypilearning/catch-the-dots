@@ -46,11 +46,11 @@ title: Wat heb je nodig
 
 ### Software
 
-+ Scratch 3 (of [online](http://rpf.io/scratchon){:target="_blank"} of [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (of [online](https://rpf.io/scratchon){:target="_blank"} of [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
-+ [Offline Scratch 2 project](http://rpf.io/p/nl-NL/catch-the-dots-go){:target="_blank"}
++ [Offline Scratch 2 project](https://rpf.io/p/nl-NL/catch-the-dots-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -65,7 +65,7 @@ Als je dit project wilt afdrukken, gebruik dan de [printervriendelijke versie](h
 
 --- /no-print ---
 
-Je kunt [de complete versie hier](http://rpf.io/p/nl-NL/catch-the-dots-get){:target="_blank"} terugvinden.
+Je kunt [de complete versie hier](https://rpf.io/p/nl-NL/catch-the-dots-get){:target="_blank"} terugvinden.
 
 Je kunt het [voltooide project hier vinden](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
 

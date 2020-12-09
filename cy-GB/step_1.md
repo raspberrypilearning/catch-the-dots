@@ -40,11 +40,11 @@ title: Beth fydd ei angen arno ti
 
 ### Meddalwedd
 
-+ Scratch 3 (unai [arlein](http://rpf.io/scratchon){:target="_blank"} neu [all-lein](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (unai [arlein](https://rpf.io/scratchon){:target="_blank"} neu [all-lein](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Lawrlwythiadau
 
-+ [Prosiect all-lein Scratch 2](http://rpf.io/p/cy-GB/catch-the-dots-go){:target="_blank"} --- /collapse ---
++ [Prosiect all-lein Scratch 2](https://rpf.io/p/cy-GB/catch-the-dots-go){:target="_blank"} --- /collapse ---
 
 --- collapse ---
 ---
@@ -53,6 +53,6 @@ title: Gwybodaeth ychwanegol i addysgwyr
 
 --- no-print ---Os oes angen i chi argraffu y prosiect, defnyddiwch [fersiwn i'w argraffu](https://projects.raspberrypi.org/cy-GB/projects/catch-the-dots/print). --- /no-print ---
 
-Gallwch chi ddod o hyd i'r ateb ar gyfer y prosiect hwn [yma](http://rpf.io/p/cy-GB/catch-the-dots-get){:target="_blank"}.
+Gallwch chi ddod o hyd i'r ateb ar gyfer y prosiect hwn [yma](https://rpf.io/p/cy-GB/catch-the-dots-get){:target="_blank"}.
 
 Gallwch chi ddod o hyd i'r ateb ar gyfer y prosiect hwn [yma](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"} --- /collapse ---

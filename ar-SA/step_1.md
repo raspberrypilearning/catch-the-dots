@@ -46,11 +46,11 @@ title: ما ستحتاج إليه
 
 ### البرمجيات
 
-+ برنامج Scratch 3 (سواء أكان [عبر الإنترنت](http://rpf.io/scratchon){:target="_blank"} أو [دون اتصال بالإنترنت](http://rpf.io/scratchoff){:target="_blank"})
++ برنامج Scratch 3 (سواء أكان [عبر الإنترنت](https://rpf.io/scratchon){:target="_blank"} أو [دون اتصال بالإنترنت](https://rpf.io/scratchoff){:target="_blank"})
 
 ### للتحميل
 
-+ [للبدء بالمشروع دون الاتصال بالانترنت](http://rpf.io/p/ar-SA/catch-the-dots-go){:target="_blank"}
++ [للبدء بالمشروع دون الاتصال بالانترنت](https://rpf.io/p/ar-SA/catch-the-dots-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -65,7 +65,7 @@ title: معلومات اضافية للمعلمين
 
 --- /no-print ---
 
-يمكنك [الحصول على المشروع كاملاً من هنا](http://rpf.io/p/ar-SA/catch-the-dots-get){:target="_blank"}.
+يمكنك [الحصول على المشروع كاملاً من هنا](https://rpf.io/p/ar-SA/catch-the-dots-get){:target="_blank"}.
 
 يمكنك الحصول على [المشروع كاملاً من هنا](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
 

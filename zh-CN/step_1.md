@@ -47,7 +47,7 @@ title: 俱乐部领导备注
 ## 学习目标
 + 本项目巩固了先前所学编程技术掌握的知识。
 
-本项目包括 [Raspberry Pi 数字制作课程](http://rpf.io/curriculum)以下几个部分的元素：
+本项目包括 [Raspberry Pi 数字制作课程](https://rpf.io/curriculum)以下几个部分的元素：
 
 + [结合编程结构解决问题。](https://www.raspberrypi.org/curriculum/programming/builder)
 
