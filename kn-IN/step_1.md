@@ -44,11 +44,11 @@
 
 ### ಸಾಫ್ಟ್ವೇರ್
 
-+ Scratch 3 (either[ಆನ್‌ಲೈನ್](http://rpf.io/scratchon){:target="_blank"} ಅಥವಾ [ಆಫ್‌ಲೈನ್](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### ಡೌನ್‌ಲೋಡ್‌ಗಳು
 
-+ [ಆಫ್‌ಲೈನ್ Scratch 2 ಯೋಜನೆ](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
++ [Offline Scratch 2 project](https://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
 
 \--- /collapse \---
 
@@ -62,6 +62,6 @@
 
 \--- /no-print \---
 
-ನೀವು ಕಾಣಬಹುದು [ಇಲ್ಲಿ ಪೂರ್ಣಗೊಂಡ ಯೋಜನೆ](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+You can find [the completed project here](https://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
 
 \--- /collapse \---
