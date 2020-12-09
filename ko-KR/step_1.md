@@ -44,11 +44,11 @@
 
 ### 소프트웨어
 
-+ 스크래치 3 ([온라인](http://rpf.io/scratchon){:target="_blank"} 또는 [오프라인](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### 다운로드 목록
 
-+ [오프라인 스크래치 2 프로젝트](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
++ [Offline Scratch 2 project](https://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
 
 \--- /collapse \---
 
@@ -62,6 +62,6 @@
 
 \--- /no-print \---
 
-완성된 프로젝트는 [여기서](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"} 확인하실 수 있습니다.
+You can find [the completed project here](https://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
 
 \--- /collapse \---
