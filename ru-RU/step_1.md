@@ -44,11 +44,11 @@
 
 ### Программное обеспечение
 
-+ Scratch 3 (либо [онлайн](http://rpf.io/scratchon){:target="_blank"}, либо [оффлайн(без подключения к Интернету)](http://rpf.io/scratchoff){:target="_blank"} версия)
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Загрузки
 
-+ [Оффлайн стартовый проект Scratch 2](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
++ [Offline Scratch 2 project](https://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
 
 \--- /collapse \---
 
@@ -62,6 +62,6 @@
 
 \--- /no-print \---
 
-Здесь вы можете найти [завершённый проект](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+You can find [the completed project here](https://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
 
 \--- /collapse \---
