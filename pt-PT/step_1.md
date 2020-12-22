@@ -44,11 +44,11 @@ Usa as setas do teclado para girar a roda controladora e pega os pontos voadores
 
 ### Software
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (ou [online](https://rpf.io/scratchon){: target = "_ blank"} ou [offline](https://rpf.io/scratchoff){: target = "_ blank"})
 
 ### Downloads
 
-+ [Offline Scratch 2 project](https://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
++ [Projeto Scratch 2 offline](https://rpf.io/p/en/catch-the-dots-go){: target="_blank"}
 
 \--- /collapse \---
 
@@ -62,6 +62,6 @@ Se necessitar imprimir este projeto, por favor utilize a [versão para impressã
 
 \--- /no-print \---
 
-You can find [the completed project here](https://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+Podes encontrar o [projeto concluído aqui](https://rpf.io/p/en/catch-the-dots-get){:target="_ blank"}.
 
 \--- /collapse \---
