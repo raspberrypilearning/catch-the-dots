@@ -64,7 +64,7 @@ Así es como debes cambiar el código para el objeto azul:
 
 \--- /task \---
 
-Si juegas ahora, puedes ver que los puntos a veces se crean uno encima del otro.
+If you play the game now, you can see that the dots sometimes get created on top of each other.
 
 \--- task \---
 
