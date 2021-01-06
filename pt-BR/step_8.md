@@ -6,4 +6,4 @@ Você consegue pensar em maneiras de melhorar seu jogo? Por exemplo, você poder
 + Diminuem a velocidade das bolinhas
 + Escondem todas as outras bolinhas da tela
 
-Você consegue adicionar um menu com botões ao seu jogo? Você poderia adicionar uma tela com instruções ou uma tela separada para exibir a melhor pontuação.
+Você consegue adicionar um menu com botões ao seu jogo? You could add a screen with instructions or a separate screen for showing the high score.
