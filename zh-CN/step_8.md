@@ -6,4 +6,4 @@
 + 减慢小点运行速度
 + 隐藏在屏幕中的其他小点
 
-您可以在游戏中添加一个带按钮的菜单吗？ 您可以添加一个带有说明的屏幕或一个单独的屏幕以显示高分。
+您可以在游戏中添加一个带按钮的菜单吗？ You could add a screen with instructions or a separate screen for showing the high score.
