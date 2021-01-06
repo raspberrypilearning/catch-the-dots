@@ -6,4 +6,4 @@ Kannst du dir Wege überlegen, wie du dein Spiel verbessern kannst? Du könntest
 + Die Punkte verlangsamen
 + Alle anderen Punkte auf dem Bildschirm ausblenden
 
-Kannst du deinem Spiel ein Menü mit Schaltflächen hinzufügen? Du könntest einen Bildschirm mit Anweisungen oder einen separaten Bildschirm zum Anzeigen der höchsten Punktzahl hinzufügen.
+Kannst du deinem Spiel ein Menü mit Schaltflächen hinzufügen? You could add a screen with instructions or a separate screen for showing the high score.
