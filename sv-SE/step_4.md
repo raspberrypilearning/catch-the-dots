@@ -64,7 +64,7 @@ This is how you need to change the code for the blue sprite:
 
 \--- /task \---
 
-If you play the game now, you can see that the dots sometimes get created one top of each other.
+If you play the game now, you can see that the dots sometimes get created on top of each other.
 
 \--- task \---
 
