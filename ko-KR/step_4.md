@@ -64,7 +64,7 @@ end
 
 \--- /task \---
 
-만약 당신이 지금 게임을 플레이하면 가끔 점들이 서로의 위에 생성되는 것을 볼 수 있습니다.
+If you play the game now, you can see that the dots sometimes get created on top of each other.
 
 \--- task \---
 
