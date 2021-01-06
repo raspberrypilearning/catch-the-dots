@@ -64,7 +64,7 @@ end
 
 \--- /task \---
 
-Se jogares o jogo agora, podes ver que ás vezes os pontos são criados um em cima do outro.
+If you play the game now, you can see that the dots sometimes get created on top of each other.
 
 \--- task \---
 
