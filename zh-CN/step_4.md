@@ -64,7 +64,7 @@ This is how you need to change the code for the yellow sprite:
 
 \--- /task \---
 
-如果你现在玩游戏, 你可以看到小点有时会创建在其他小点身上, 同时创建多个小点.
+If you play the game now, you can see that the dots sometimes get created on top of each other.
 
 \--- task \---
 
