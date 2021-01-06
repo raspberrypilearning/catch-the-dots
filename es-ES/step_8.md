@@ -6,4 +6,4 @@
 + Ralentizan los puntos
 + Ocultan todos los otros puntos en la pantalla
 
-¿Puedes agregar un menú con botones a tu juego? Puedes agregar una pantalla con instrucciones o una pantalla separada para mostrar la puntuación más alta.
+¿Puedes agregar un menú con botones a tu juego? You could add a screen with instructions or a separate screen for showing the high score.
