@@ -64,7 +64,7 @@ end >
 
 \--- /task \---
 
-إذا قمت بتشغيل اللعبة الآن، ستشاهد أن النقاط الملونة يتم انشائها بعض الأحيان فوق بعضها البعض.
+If you play the game now, you can see that the dots sometimes get created on top of each other.
 
 \--- task \---
 
