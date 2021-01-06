@@ -6,4 +6,4 @@
 + ドットを遅くする
 + 画面上の他のすべてのドットを非表示にします
 
-ボタン付きのメニューをゲームに追加できますか？ 画面に説明を追加したり、ハイスコアを表示する別の画面を追加したりできます。
+ボタン付きのメニューをゲームに追加できますか？ You could add a screen with instructions or a separate screen for showing the high score.
