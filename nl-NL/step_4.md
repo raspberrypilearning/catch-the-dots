@@ -64,7 +64,7 @@ end
 
 \--- /task \---
 
-Als je het spel nu speelt, kun je zien dat de puntjes soms boven op elkaar worden geplaatst.
+If you play the game now, you can see that the dots sometimes get created on top of each other.
 
 \--- task \---
 
