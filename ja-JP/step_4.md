@@ -64,7 +64,7 @@ end
 
 \--- /task \---
 
-ここでゲームをプレイすると、ドットが時々上下に作成されることがわかります。
+If you play the game now, you can see that the dots sometimes get created on top of each other.
 
 \--- task \---
 
