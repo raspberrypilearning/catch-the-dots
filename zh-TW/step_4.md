@@ -64,7 +64,7 @@
 
 \--- /task \---
 
-如果你現在試玩遊戲，應該會發現，有時不同色的點點會同時出現在一樣的角落。
+If you play the game now, you can see that the dots sometimes get created on top of each other.
 
 \--- task \---
 
