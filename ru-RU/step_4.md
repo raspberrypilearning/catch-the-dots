@@ -64,7 +64,7 @@
 
 \--- /task \---
 
-Если ты сыграешь сейчас, то увидишь, что точки иногда создаются одна на одной.
+If you play the game now, you can see that the dots sometimes get created on top of each other.
 
 \--- task \---
 
