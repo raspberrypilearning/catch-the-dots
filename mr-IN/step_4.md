@@ -64,7 +64,7 @@
 
 \--- /task \---
 
-आपण आता हा खेळ खेळल्यास आपण पाहू शकता की ठिपके कधीकधी एकमेकांच्या वरच्या बाजूस तयार होतात.
+If you play the game now, you can see that the dots sometimes get created on top of each other.
 
 \--- task \---
 
