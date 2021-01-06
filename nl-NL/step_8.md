@@ -6,4 +6,4 @@ Kun je manieren bedenken om je spel te verbeteren? Je kunt bijvoorbeeld speciale
 + De stippen vertragen
 + Alle andere stippen op het scherm verbergen
 
-Kun je een menu met knoppen aan je spel toevoegen? Je zou een scherm met instructies of een apart scherm om de topscores te tonen kunnen toevoegen.
+Kun je een menu met knoppen aan je spel toevoegen? You could add a screen with instructions or a separate screen for showing the high score.
