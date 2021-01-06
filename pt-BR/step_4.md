@@ -64,7 +64,7 @@ Este é o código que você precisa encontrar e alterar para os dois novos atore
 
 \--- /task \---
 
-Se você jogar o jogo agora, você pode ver que as bolinhas às vezes são criadas uma em cima da outra.
+If you play the game now, you can see that the dots sometimes get created on top of each other.
 
 \--- task \---
 
