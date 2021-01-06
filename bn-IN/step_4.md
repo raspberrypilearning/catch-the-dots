@@ -64,7 +64,7 @@
 
 \--- /task \---
 
-আপনি যদি এখন গেমটি খেলেন তবে দেখতে পাবেন যে বিন্দুগুলি কখনও কখনও একে অপরের উপরে তৈরি হয়.
+If you play the game now, you can see that the dots sometimes get created on top of each other.
 
 \--- task \---
 
