@@ -6,4 +6,4 @@
 + 移動緩慢的點點
 + 把畫面上所有點點消滅的點點
 
-又或者，你能設計一個帶有按鈕的遊戲主選單嗎？ 或者，你能設計一個遊戲玩法的說明畫面，也可以用個畫面單獨顯示最高分紀錄。
+又或者，你能設計一個帶有按鈕的遊戲主選單嗎？ You could add a screen with instructions or a separate screen for showing the high score.
