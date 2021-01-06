@@ -62,7 +62,7 @@ Ende
 
 \--- /task \---
 
-If you play the game now, you can see that the dots sometimes get created one top of each other.
+If you play the game now, you can see that the dots sometimes get created on top of each other.
 
 \--- task \---
 
