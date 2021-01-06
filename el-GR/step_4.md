@@ -64,7 +64,7 @@ end
 
 \--- /task \---
 
-Αν παίξεις τώρα το παιχνίδι, θα δεις ότι οι τελείες μερικές φορές δημιουργούνται η μία πάνω από την άλλη.
+If you play the game now, you can see that the dots sometimes get created on top of each other.
 
 \--- task \---
 
