@@ -64,7 +64,7 @@
 
 \--- /task \---
 
-यदि आप अभी गेम खेलते हैं तो आप देख सकते हैं कि डॉट्स कभी-कभी एक-दूसरे के शीर्ष पर बने होंगे।
+If you play the game now, you can see that the dots sometimes get created on top of each other.
 
 \--- task \---
 
