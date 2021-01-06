@@ -6,4 +6,4 @@
 + 점 이동 속도 감소
 + 점 숨기기
 
-버튼이 있는 메뉴도 만들 수 있나요? 게임 설명을 보여주는 스크린을 추가하거나 최고 점수를 보여주는 스크린으로 나눌 수 있어요.
+버튼이 있는 메뉴도 만들 수 있나요? You could add a screen with instructions or a separate screen for showing the high score.
