@@ -48,7 +48,7 @@
 
 ### للتحميل
 
-+ [Offline Scratch 2 project](https://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
++ [للبدء بالمشروع دون الاتصال بالانترنت](https://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
 
 \--- collapse \---
 
