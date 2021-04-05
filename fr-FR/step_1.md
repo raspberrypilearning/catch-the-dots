@@ -36,7 +36,7 @@ Utilise les touches fléchées de ton clavier pour faire pivoter la roue du cont
 
 ## \--- collapse \---
 
-## title: Ce que tu auras besoin
+## title: Ce dont tu auras besoin
 
 ### Matériel informatique
 
