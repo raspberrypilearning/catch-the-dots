@@ -9,3 +9,5 @@ retraso
 comparar puntaje
 
 mejor puntaje
+
+controller
