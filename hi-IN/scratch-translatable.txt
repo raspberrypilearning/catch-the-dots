@@ -9,3 +9,5 @@ delay
 check high score
 
 high score
+
+controller
