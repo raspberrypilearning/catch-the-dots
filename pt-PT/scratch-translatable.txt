@@ -9,3 +9,5 @@ atraso
 verificar a melhor pontuação
 
 melhor pontuação
+
+controller
