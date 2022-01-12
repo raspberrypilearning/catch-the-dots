@@ -7,7 +7,8 @@ ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Fang Prikkerne
-description: I dette projekt skal du lære, hvordan du laver et spil, hvor du skal matche farvede prikker med den tilsvarende farvede del af styreenheden.
+description: I dette projekt skal du lære, hvordan du laver et spil, hvor du skal
+  matche farvede prikker med den tilsvarende farvede del af styreenheden.
 original_url: https://codeclubprojects.org/en-GB/scratch/catch-the-dots
 interests: games
 technologies: scratch
@@ -16,5 +17,6 @@ hardware: ''
 software: scratch
 version: 3
 last_tested: 2017-01-01
-steps: 
+steps:
 - title: Fang Prikkerne
+  completion: engaged

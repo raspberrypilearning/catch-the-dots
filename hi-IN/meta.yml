@@ -7,12 +7,14 @@ description: डॉट पकड़ने का गेम बनाइये
 version: 4.0.0
 last_tested: 2018-10-16
 steps:
-  - title: परिचय
-  - title: कंट्रोलर बनाये
-  - title: अंक हासिल करें या जीवन खो दें
-  - title: अधिक डॉट्स
-  - title: कठिनाई बढ़ाओ
-  - title: 'चुनौती: तीव्र डॉट्स'
-  - title: उच्च स्कोर
-  - title: 'चुनौती: अपने खेल में सुधार!'
-  - title: आगे क्या?
+- title: परिचय
+  completion: engaged
+- title: कंट्रोलर बनाये
+- title: अंक हासिल करें या जीवन खो दें
+- title: अधिक डॉट्स
+- title: कठिनाई बढ़ाओ
+- title: 'चुनौती: तीव्र डॉट्स'
+- title: उच्च स्कोर
+  completion: internal
+- title: 'चुनौती: अपने खेल में सुधार!'
+- title: आगे क्या?

@@ -7,12 +7,14 @@ description: Apprends à programmer un jeu où il faut attraper des points.
 version: 4.0.0
 last_tested: 2018-10-16
 steps:
-  - title: Introduction
-  - title: Création d'un contrôleur
-  - title: Gagner des points ou perdre des vies
-  - title: Plus de points
-  - title: Augmenter la difficulté
-  - title: 'Défi: points plus rapides'
-  - title: Meilleur score
-  - title: 'Défi: améliore ton jeu!'
-  - title: Et ensuite?
+- title: Introduction
+  completion: engaged
+- title: Création d'un contrôleur
+- title: Gagner des points ou perdre des vies
+- title: Plus de points
+- title: Augmenter la difficulté
+- title: 'Défi: points plus rapides'
+- title: Meilleur score
+  completion: internal
+- title: 'Défi: améliore ton jeu!'
+- title: Et ensuite?

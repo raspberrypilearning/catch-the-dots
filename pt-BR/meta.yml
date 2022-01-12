@@ -3,16 +3,19 @@ hero_image: images/banner.png
 listed: true
 copyedit: false
 title: Capturando Bolinhas
-description: Criar um jogo, no qual o jogador terá que capturar as bolinhas de cores diferentes
+description: Criar um jogo, no qual o jogador terá que capturar as bolinhas de cores
+  diferentes
 version: 4.0.0
 last_tested: 2018-10-16
 steps:
-  - title: Introdução
-  - title: Crie o controle
-  - title: Ganhe pontos ou perca vidas
-  - title: Mais bolinhas
-  - title: Aumente a dificuldade
-  - title: 'Desafio: bolinhas mais rápidas'
-  - title: Melhor pontuação
-  - title: 'Desafio: melhore o seu jogo!'
-  - title: E agora?
+- title: Introdução
+  completion: engaged
+- title: Crie o controle
+- title: Ganhe pontos ou perca vidas
+- title: Mais bolinhas
+- title: Aumente a dificuldade
+- title: 'Desafio: bolinhas mais rápidas'
+- title: Melhor pontuação
+  completion: internal
+- title: 'Desafio: melhore o seu jogo!'
+- title: E agora?
