@@ -10,9 +10,9 @@ Abra o projeto Scratch inicial 'Capture Bolinhas'.
 
 Se você tiver uma conta Scratch, você pode fazer uma cópia clicando em **Remix**.
 
-**Offline:** baixe o projeto inicial de [rpf.io/p/pt-BR/catch-the-dots-go](http://rpf.io/p/pt-BR/catch-the-dots-go), e depois abra-o no editor Scratch offline.
+**Offline:** baixe o projeto inicial de [rpf.io/p/pt-BR/catch-the-dots-go](https://rpf.io/p/pt-BR/catch-the-dots-go), e depois abra-o no editor Scratch offline.
 
-Se você precisar baixar e instalar o editor offline do Scratch, você pode encontrá-lo em [rpf.io/scratchoff](http://rpf.io/scratchoff).
+Se você precisar baixar e instalar o editor offline do Scratch, você pode encontrá-lo em [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 --- /task ---
 

@@ -6,13 +6,13 @@ Begin met het maken van een controller die de speler gebruikt om stippen te verz
 
 Open het 'Vang de stippen' Scratch startproject.
 
-**Online**: open het online starter project op [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
+**Online**: open het online starter project op [rpf.io/dots-on](https://rpf.io/dots-on){:target="_blank"}.
 
 Als je een Scratch-account hebt, kun je een kopie maken door op **Remix** te klikken.
 
-**Offline:** download het starter project op [rpf.io/p/nl-NL/catch-the-dots-go](http://rpf.io/p/nl-NL/catch-the-dots-go){:target="_blank"} en open het vervolgens met behulp van de Scratch offline editor.
+**Offline:** download het starter project op [rpf.io/p/nl-NL/catch-the-dots-go](https://rpf.io/p/nl-NL/catch-the-dots-go){:target="_blank"} en open het vervolgens met behulp van de Scratch offline editor.
 
-Als je de Scratch offline editor wilt downloaden en installeren dan kan je die vinden op [rpf.io/scratchoff](http://rpf.io/scratchoff).
+Als je de Scratch offline editor wilt downloaden en installeren dan kan je die vinden op [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 --- /task ---
 
