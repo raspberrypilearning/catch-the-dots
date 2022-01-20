@@ -46,11 +46,11 @@ title: আপনার যা প্রয়োজন হবে
 
 ### Software
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} অথবা [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} অথবা [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
-+ [Offline Scratch 2 project](http://rpf.io/p/bn-IN/catch-the-dots-go){:target="_blank"}
++ [Offline Scratch 2 project](https://rpf.io/p/bn-IN/catch-the-dots-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -65,7 +65,7 @@ title: শিক্ষাবিদদের জন্য অতিরিক্�
 
 --- /no-print ---
 
-আপনি খুঁজে পেতে পারেন [the completed project here](http://rpf.io/p/bn-IN/catch-the-dots-get){:target="_blank"}.
+আপনি খুঁজে পেতে পারেন [the completed project here](https://rpf.io/p/bn-IN/catch-the-dots-get){:target="_blank"}.
 
 আপনি খুঁজে পেতে পারেন [completed project here](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
 

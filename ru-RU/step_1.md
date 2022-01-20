@@ -46,11 +46,11 @@ title: Что тебе понадобится
 
 ### Программное обеспечение
 
-+ Scratch 3 (либо [онлайн](http://rpf.io/scratchon){:target="_blank"}, либо [оффлайн(без подключения к Интернету)](http://rpf.io/scratchoff){:target="_blank"} версия)
++ Scratch 3 (либо [онлайн](https://rpf.io/scratchon){:target="_blank"}, либо [оффлайн(без подключения к Интернету)](https://rpf.io/scratchoff){:target="_blank"} версия)
 
 ### Загрузки
 
-+ [Оффлайн стартовый проект Scratch 2](http://rpf.io/p/ru-RU/catch-the-dots-go){:target="_blank"}
++ [Оффлайн стартовый проект Scratch 2](https://rpf.io/p/ru-RU/catch-the-dots-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -65,7 +65,7 @@ title: Дополнительные заметки для преподавате
 
 --- /no-print ---
 
-Здесь вы можете найти [завершённый проект](http://rpf.io/p/ru-RU/catch-the-dots-get){:target="_blank"}.
+Здесь вы можете найти [завершённый проект](https://rpf.io/p/ru-RU/catch-the-dots-get){:target="_blank"}.
 
 Здесь вы можете найти [завершённый проект](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}
 

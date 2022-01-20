@@ -7,12 +7,14 @@ description: Lerne, wie man ein Fang-die-Punkte-Spiel erstellt
 version: 4.0.0
 last_tested: 2018-10-16
 steps:
-  - title: Einleitung
-  - title: Erstelle einen Controller
-  - title: Punkte sammeln oder Leben verlieren
-  - title: Noch mehr Punkte
-  - title: Den Schwierigkeitsgrad steigern
-  - title: 'Herausforderung: Schnellere Punkte'
-  - title: Höchstpunktestand
-  - title: 'Herausforderung: Verbessere dein Spiel'
-  - title: Wie geht es weiter?
+- title: Einleitung
+  completion: engaged
+- title: Erstelle einen Controller
+- title: Punkte sammeln oder Leben verlieren
+- title: Noch mehr Punkte
+- title: Den Schwierigkeitsgrad steigern
+- title: 'Herausforderung: Schnellere Punkte'
+- title: Höchstpunktestand
+  completion: internal
+- title: 'Herausforderung: Verbessere dein Spiel'
+- title: Wie geht es weiter?

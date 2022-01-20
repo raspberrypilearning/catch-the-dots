@@ -8,9 +8,9 @@ Zacznij od stworzenia pokrętła-kontrolera, którego gracz będzie używał do 
 
 Jeśli posiadasz konto Scratch, możesz wykonać kopię klikając **Remix**.
 
-**Offline:** pobierz projekt początkowy z [rpf.io/p/pl-PL/catch-the-dots-go](http://rpf.io/p/pl-PL/catch-the-dots-go), i otwórz w programie Scratch Desktop.
+**Offline:** pobierz projekt początkowy z [rpf.io/p/pl-PL/catch-the-dots-go](https://rpf.io/p/pl-PL/catch-the-dots-go), i otwórz w programie Scratch Desktop.
 
-Jeśli musisz pobrać i zainstalować edytor Scratcha, znajdziesz go na stronie [rpf.io/scratchoff](http://rpf.io/scratchoff).
+Jeśli musisz pobrać i zainstalować edytor Scratcha, znajdziesz go na stronie [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 --- /task ---
 

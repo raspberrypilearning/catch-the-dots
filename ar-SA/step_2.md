@@ -10,9 +10,9 @@
 
 اذا كنت تملك حساب على منصة السكراتش (Scratch) فيمكنك عمل نسخة بالضغط على **Remix**.
 
-**بدون اتصال انترنت** حمّل المشروع المبدئي من [rpf.io/p/ar-SA/catch-the-dots-go](http://rpf.io/p/ar-SA/catch-the-dots-go){:target="_blank"} ثم اقتحه باستخدام محرر Scratch بدون اتصال انترنت.
+**بدون اتصال انترنت** حمّل المشروع المبدئي من [rpf.io/p/ar-SA/catch-the-dots-go](https://rpf.io/p/ar-SA/catch-the-dots-go){:target="_blank"} ثم اقتحه باستخدام محرر Scratch بدون اتصال انترنت.
 
-لتنزيل و تركيب محرر Scratch على جهازك الشخصي, يمكنك الحصول عليه من هنا [rpf.io/scratchoff](http://rpf.io/scratchoff).
+لتنزيل و تركيب محرر Scratch على جهازك الشخصي, يمكنك الحصول عليه من هنا [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 --- /task ---
 

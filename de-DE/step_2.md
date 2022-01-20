@@ -4,13 +4,13 @@ Erstelle zunächst einen Controller, den der Spieler zum Sammeln von Punkten ver
 
 --- task --- Öffne das Scratch-Basisprojekt 'Fang die Punkte'.
 
-**Online:** öffne das Basisprojekt auf [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
+**Online:** öffne das Basisprojekt auf [rpf.io/dots-on](https://rpf.io/dots-on){:target="_blank"}.
 
 Wenn du bereits einen Scratch-Account besitzt, kannst du dir durch klicken auf **Remix** eine Kopie anlegen.
 
-**Offline:** Lade das Basisprojekt von [rpf.io/p/de-DE/catch-the-dots-go](http://rpf.io/p/de-DE/catch-the-dots-go) herunter und öffne es dann mit dem Scratch Offline-Editor.
+**Offline:** Lade das Basisprojekt von [rpf.io/p/de-DE/catch-the-dots-go](https://rpf.io/p/de-DE/catch-the-dots-go) herunter und öffne es dann mit dem Scratch Offline-Editor.
 
-Wenn du den Scratch-Offline-Editor herunterladen und installieren möchtest, findest du diesen unter [rpf.io/scratchoff](http://rpf.io/scratchoff).
+Wenn du den Scratch-Offline-Editor herunterladen und installieren möchtest, findest du diesen unter [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 --- /task ---
 

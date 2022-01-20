@@ -4,13 +4,13 @@ Fe wnawn ni ddechrau trwy greu rheolwr, fydd yn cael ei ddefnyddio i gasglu’r 
 
 --- task --- Agora'r prosiect cychwynnol Scratch 'Dal dotiau'.
 
-**Arlein:** agora brosiect Scratch newydd yma [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
+**Arlein:** agora brosiect Scratch newydd yma [rpf.io/dots-on](https://rpf.io/dots-on){:target="_blank"}.
 
 Os oes ganddot ti gyfrif Scratch galli di wneud copi drwy glicio ar **Remix**.
 
-**All-lein:** lawrlwytha'r prosiect cychwynnol o [rpf.io/p/cy-GB/catch-the-dots-go](http://rpf.io/p/cy-GB/catch-the-dots-go) ac yna ei agor gan ddefnyddio'r golygydd all-lein.
+**All-lein:** lawrlwytha'r prosiect cychwynnol o [rpf.io/p/cy-GB/catch-the-dots-go](https://rpf.io/p/cy-GB/catch-the-dots-go) ac yna ei agor gan ddefnyddio'r golygydd all-lein.
 
-Os oes angen i ti lawrlwytho a gosod golygydd Scratch all-lein, mae modd dod o hyd iddo yma [rpf.io/scratchoff](http://rpf.io/scratchoff).
+Os oes angen i ti lawrlwytho a gosod golygydd Scratch all-lein, mae modd dod o hyd iddo yma [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 --- /task ---
 

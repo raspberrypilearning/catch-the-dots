@@ -6,13 +6,13 @@
 
 'ಚುಕ್ಕೆಗಳನ್ನು ಹಿಡಿಯಿರಿ' scratch ಸ್ಟಾರ್ಟರ್ ಪ್ರಾಜೆಕ್ಟ್ ತೆರೆಯಿರಿ.
 
-**ಆನ್‌ಲೈನ್:** ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು ತೆರೆಯಿರಿ [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
+**ಆನ್‌ಲೈನ್:** ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು ತೆರೆಯಿರಿ [rpf.io/dots-on](https://rpf.io/dots-on){:target="_blank"}.
 
 ನೀವು scratch ಖಾತೆಯನ್ನು ಹೊಂದಿದ್ದರೆ ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ನೀವು ನಕಲನ್ನು ಮಾಡಬಹುದು **ರಿಮಿಕ್ಸ್**.
 
-**ಆಫ್‌ಲೈನ್:** ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ [rpf.io/p/kn-IN/catch-the-dots-go](http://rpf.io/p/kn-IN/catch-the-dots-go) ನಿಂದ, ತದನಂತರ ಅದನ್ನು scratch ಆಫ್‌ಲೈನ್ ಎಡಿಟರ್ ತೆರೆಯಿರಿ.
+**ಆಫ್‌ಲೈನ್:** ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ [rpf.io/p/kn-IN/catch-the-dots-go](https://rpf.io/p/kn-IN/catch-the-dots-go) ನಿಂದ, ತದನಂತರ ಅದನ್ನು scratch ಆಫ್‌ಲೈನ್ ಎಡಿಟರ್ ತೆರೆಯಿರಿ.
 
-ನೀವು Scratch ಅಫ್ಲಿನ್ ಎಡಿಟರ್ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ ಸ್ಥಾಪಿಸಬೇಕಾದರೆ, ನೀವು ಅದನ್ನು [rpf.io/scratchoff](http://rpf.io/scratchoff) ನಲ್ಲಿ ಕಾಣಬಹುದು.
+ನೀವು Scratch ಅಫ್ಲಿನ್ ಎಡಿಟರ್ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ ಸ್ಥಾಪಿಸಬೇಕಾದರೆ, ನೀವು ಅದನ್ನು [rpf.io/scratchoff](https://rpf.io/scratchoff) ನಲ್ಲಿ ಕಾಣಬಹುದು.
 
 --- /task ---
 

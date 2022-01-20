@@ -3,16 +3,19 @@ hero_image: images/banner.png
 listed: true
 copyedit: false
 title: Łapanie kropek
-description: Naucz się, jak stworzyć grę, w której musisz dopasować kolorowe kulki do odpowiedniej części pokrętła.
+description: Naucz się, jak stworzyć grę, w której musisz dopasować kolorowe kulki
+  do odpowiedniej części pokrętła.
 version: 4.0.0
 last_tested: 2018-10-16
 steps:
-  - title: Wprowadzenie
-  - title: Stwórz kontroler
-  - title: Zdobądź punkty, albo strać życia
-  - title: Więcej kropek
-  - title: Zwiększenie trudności
-  - title: 'Wyzwanie: szybciej poruszające się kropki'
-  - title: Tabela wyników
-  - title: 'Wyzwanie: udoskonal swoją grę!'
-  - title: Co dalej?
+- title: Wprowadzenie
+  completion: engaged
+- title: Stwórz kontroler
+- title: Zdobądź punkty, albo strać życia
+- title: Więcej kropek
+- title: Zwiększenie trudności
+- title: 'Wyzwanie: szybciej poruszające się kropki'
+- title: Tabela wyników
+  completion: internal
+- title: 'Wyzwanie: udoskonal swoją grę!'
+- title: Co dalej?

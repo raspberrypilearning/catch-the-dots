@@ -10,9 +10,9 @@ Ouvre le projet Scratch de démarrage «Attrape les points».
 
 Si tu as un compte Scratch, tu peux en créer une copie en cliquant sur **Remix**.
 
-**Hors ligne:** télécharge le projet de démarrage à partir de [rpf.io/p/fr-FR/catch-the-dots-go](http://rpf.io/p/fr-FR/catch-the-dots-go), puis ouvre-le à l'aide de l'éditeur Scratch hors-ligne.
+**Hors ligne:** télécharge le projet de démarrage à partir de [rpf.io/p/fr-FR/catch-the-dots-go](https://rpf.io/p/fr-FR/catch-the-dots-go), puis ouvre-le à l'aide de l'éditeur Scratch hors-ligne.
 
-Si tu veux télécharger et installer l’éditeur Scratch hors-ligne, tu peux le trouver ici: [rpf.io/scratchoff](http://rpf.io/scratchoff).
+Si tu veux télécharger et installer l’éditeur Scratch hors-ligne, tu peux le trouver ici: [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 --- /task ---
 

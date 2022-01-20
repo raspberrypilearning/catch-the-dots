@@ -8,11 +8,13 @@ version: 4.0.0
 last_tested: 2018-10-16
 steps:
 - title: Introduction
+  completion: engaged
 - title: Create a controller
 - title: Gain points or lose lives
 - title: More dots
 - title: Increase the difficulty
 - title: 'Challenge: faster dots'
 - title: High score
+  completion: internal
 - title: 'Challenge: improve your game!'
 - title: What next?

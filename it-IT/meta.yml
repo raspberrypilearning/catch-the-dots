@@ -16,14 +16,16 @@ hardware: ''
 software: scratch
 version: 3
 last_tested: 2017-01-01
-steps: 
+steps:
 - title: Introduzione
+  completion: engaged
 - title: Creare un controller
 - title: 'Sfida: Ruotare a sinistra'
 - title: Raccogli puntini
 - title: 'Sfida: Altri puntini'
 - title: Aumenta la difficoltà
 - title: 'Sfida: Puntini che si muovono più velocemente'
+  completion: internal
 - title: Punteggio alto
 - title: 'Sfida: Migliora il tuo gioco!'
 - title: 'Sfida: Menu partita'

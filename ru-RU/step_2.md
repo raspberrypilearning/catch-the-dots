@@ -10,9 +10,9 @@
 
 Если у тебя есть учётная запись в Scratch, то ты можешь сделать копию, нажав **Ремикс**.
 
-**Оффлайн:** скачай стартовый проект с [rpf.io/p/ru-RU/catch-the-dots-go](http://rpf.io/p/ru-RU/catch-the-dots-go) и затем открой его с помощью оффлайн редактора Scratch.
+**Оффлайн:** скачай стартовый проект с [rpf.io/p/ru-RU/catch-the-dots-go](https://rpf.io/p/ru-RU/catch-the-dots-go) и затем открой его с помощью оффлайн редактора Scratch.
 
-Если тебе необходимо скачать и установить оффлайн редактор Scratch, то ты можешь найти его на [rpf.io/scratchoff](http://rpf.io/scratchoff).
+Если тебе необходимо скачать и установить оффлайн редактор Scratch, то ты можешь найти его на [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 --- /task ---
 

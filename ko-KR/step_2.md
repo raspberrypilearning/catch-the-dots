@@ -10,9 +10,9 @@
 
 Scratch 계정이 있다면, **Remix**를 클릭하여 복사본을 만들 수 있습니다.
 
-**인터넷이 없는경우:** [rpf.io/p/ko-KR/catch-the-dots-go](http://rpf.io/p/ko-KR/catch-the-dots-go)에서 스타터 프로젝트를 다운로드하고, Scratch 오프라인 에디터로 프로젝트를 열어주세요
+**인터넷이 없는경우:** [rpf.io/p/ko-KR/catch-the-dots-go](https://rpf.io/p/ko-KR/catch-the-dots-go)에서 스타터 프로젝트를 다운로드하고, Scratch 오프라인 에디터로 프로젝트를 열어주세요
 
-만약 Scratch 오프라인 에디터가 없는경우 [rpf.io/scratchoff](http://rpf.io/scratchoff)를 통해서 다운받을 수 있습니다.
+만약 Scratch 오프라인 에디터가 없는경우 [rpf.io/scratchoff](https://rpf.io/scratchoff)를 통해서 다운받을 수 있습니다.
 
 --- /task ---
 

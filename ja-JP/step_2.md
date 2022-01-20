@@ -10,9 +10,9 @@
 
 Scratchアカウントをお持ちの場合は**リミックス**をクリックしてコピーを作成できます。
 
-**Offline:** [rpf.io/p/ja-JP/catch-the-dots-go](http://rpf.io/p/ja-JP/catch-the-dots-go)からスタータープロジェクトをダウンロードして、オフラインエディターで開きます。
+**Offline:** [rpf.io/p/ja-JP/catch-the-dots-go](https://rpf.io/p/ja-JP/catch-the-dots-go)からスタータープロジェクトをダウンロードして、オフラインエディターで開きます。
 
-Scratchオフラインエディタをダウンロードしてインストールする必要がある場合は、[rpf.io/scratchoff](http://rpf.io/scratchoff)にあります。
+Scratchオフラインエディタをダウンロードしてインストールする必要がある場合は、[rpf.io/scratchoff](https://rpf.io/scratchoff)にあります。
 
 --- /task ---
 
