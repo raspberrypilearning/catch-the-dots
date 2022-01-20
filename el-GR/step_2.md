@@ -10,9 +10,9 @@
 
 Αν έχεις λογαριασμό Scratch μπορείς να κάνεις ένα αντίγραφο, κάνοντας κλικ στο κουμπί **Ανάμειξη**.
 
-**Offline:** κατέβασε το αρχικό έργο από το [rpf.io/p/el-GR/catch-the-dots-go](http://rpf.io/p/el-GR/catch-the-dots-go), και μετά άνοιξέ το στην offline εφαρμογή Scratch της συσκευής σου.
+**Offline:** κατέβασε το αρχικό έργο από το [rpf.io/p/el-GR/catch-the-dots-go](https://rpf.io/p/el-GR/catch-the-dots-go), και μετά άνοιξέ το στην offline εφαρμογή Scratch της συσκευής σου.
 
-Αν χρειαστεί να κατεβάσεις και να εγκαταστήσεις τον offline επεξεργαστή Scratch μπορείς να τον βρεις στη διεύθυνση [rpf.io/scratchoff](http://rpf.io/scratchoff).
+Αν χρειαστεί να κατεβάσεις και να εγκαταστήσεις τον offline επεξεργαστή Scratch μπορείς να τον βρεις στη διεύθυνση [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 --- /task ---
 

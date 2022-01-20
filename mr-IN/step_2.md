@@ -6,13 +6,13 @@
 
 'Catch the dots' Scratch स्टार्टर प्रकल्प उघडा.
 
-**ऑनलाइन:** स्टार्टर प्रकल्प [rpf.io/dots-on वर उघडा](http://rpf.io/dots-on){:target="_blank"}.
+**ऑनलाइन:** स्टार्टर प्रकल्प [rpf.io/dots-on वर उघडा](https://rpf.io/dots-on){:target="_blank"}.
 
 आपल्याकडे Scratch खाते असल्यास आपण **Remix** क्लिक करून एक नक्कल तयार करू शकता.
 
-**ऑफलाइनः** स्टार्टर प्रकल्प [rpf.io/p/mr-IN/catch-the-dots-go वरून डाउनलोड करा](http://rpf.io/p/mr-IN/catch-the-dots-go), आणि नंतर ते Scratch ऑफलाइन संपादकात उघडा.
+**ऑफलाइनः** स्टार्टर प्रकल्प [rpf.io/p/mr-IN/catch-the-dots-go वरून डाउनलोड करा](https://rpf.io/p/mr-IN/catch-the-dots-go), आणि नंतर ते Scratch ऑफलाइन संपादकात उघडा.
 
-आपल्याला Scratch ऑफलाइन संपादक डाउनलोड आणि स्थापित करणे आवश्यक असल्यास, आपण ते [rpf.io/scratchoff](http://rpf.io/scratchoff) येथे शोधू शकता.
+आपल्याला Scratch ऑफलाइन संपादक डाउनलोड आणि स्थापित करणे आवश्यक असल्यास, आपण ते [rpf.io/scratchoff](https://rpf.io/scratchoff) येथे शोधू शकता.
 
 --- /task ---
 

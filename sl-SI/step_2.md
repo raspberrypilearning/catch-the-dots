@@ -10,9 +10,9 @@ Odpri začetni Scratch projekt 'Ujemi pike'.
 
 Če imaš Scratch uporabniški račun, lahko ustvariš kopijo s klikom na **Predelaj**.
 
-**Brez povezave:** prenesi začetni projekt iz [rpf.io/p/sl-SI/catch-the-dots-go](http://rpf.io/p/sl-SI/catch-the-dots-go){:target="_blank"} in ga nato odpri s pomočjo namiznega urejevalnika.
+**Brez povezave:** prenesi začetni projekt iz [rpf.io/p/sl-SI/catch-the-dots-go](https://rpf.io/p/sl-SI/catch-the-dots-go){:target="_blank"} in ga nato odpri s pomočjo namiznega urejevalnika.
 
-Če želiš prenesti in namestiti Namizni Scratch, ga lahko najdeš na [rpf.io/scratchoff](http://rpf.io/scratchoff).
+Če želiš prenesti in namestiti Namizni Scratch, ga lahko najdeš na [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 --- /task ---
 

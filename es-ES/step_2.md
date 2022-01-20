@@ -10,9 +10,9 @@ Abre el proyecto inicial de Scratch 'Captura los puntos'.
 
 Si tienes una cuenta de Scratch puedes hacer una copia haciendo clic en **Remix**.
 
-**Sin conexión:** descarga el proyecto inicial desde [rpf.io/p/es-ES/catch-the-dots-go](http://rpf.io/p/es-ES/catch-the-dots-go) y luego ábrelo con el editor de Scratch sin conexión.
+**Sin conexión:** descarga el proyecto inicial desde [rpf.io/p/es-ES/catch-the-dots-go](https://rpf.io/p/es-ES/catch-the-dots-go) y luego ábrelo con el editor de Scratch sin conexión.
 
-Si necesitas descargar e instalar el editor de Scratch offline, puedes encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff).
+Si necesitas descargar e instalar el editor de Scratch offline, puedes encontrarlo en [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 --- /task ---
 

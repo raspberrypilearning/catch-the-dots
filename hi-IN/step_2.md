@@ -6,13 +6,13 @@
 
 'डॉट्स को पकड़ें' Scratch स्टार्टर प्रोजेक्ट खोलें।
 
-**ऑनलाइन:** [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"} पर स्टार्टर प्रोजेक्ट खोलें I
+**ऑनलाइन:** [rpf.io/dots-on](https://rpf.io/dots-on){:target="_blank"} पर स्टार्टर प्रोजेक्ट खोलें I
 
 यदि आपके पास एक Scratch अकाउंट है, तो आप **Remix** पर क्लिक करके कापी बना सकते हैं।
 
-**ऑफ़लाइन:** स्टार्टर प्रोजेक्ट को [rpf.io/p/hi-IN/catch-the-dots-go](http://rpf.io/p/hi-IN/catch-the-dots-go) से डाउनलोड करें और फिर इसे Scratch ऑफ़लाइन एडीटर में खोलें।
+**ऑफ़लाइन:** स्टार्टर प्रोजेक्ट को [rpf.io/p/hi-IN/catch-the-dots-go](https://rpf.io/p/hi-IN/catch-the-dots-go) से डाउनलोड करें और फिर इसे Scratch ऑफ़लाइन एडीटर में खोलें।
 
-यदि आपको स्क्रैच ऑफ़लाइन एडीटर को डाउनलोड और इंस्टॉल करने की आवश्यकता है तो आप उसे [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"} पर पा सकते हैं।
+यदि आपको स्क्रैच ऑफ़लाइन एडीटर को डाउनलोड और इंस्टॉल करने की आवश्यकता है तो आप उसे [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"} पर पा सकते हैं।
 
 --- /task ---
 
