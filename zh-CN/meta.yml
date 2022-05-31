@@ -14,14 +14,16 @@ technologies: scratch
 site_areas: codeclub, scratch
 steps:
 - title: 介绍
-  completion: engaged
 - title: 创建一个控制器
 - title: 挑战：向左旋转
+  completion:
+  - engaged
 - title: 收集小点
 - title: 挑战：更多小点
 - title: 增加难度
 - title: 挑战：移动更快的小点
-  completion: internal
+  completion:
+  - internal
 - title: 高分
 - title: 挑战：完善你的游戏！
 - title: 挑战：游戏菜单

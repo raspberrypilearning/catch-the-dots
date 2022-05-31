@@ -8,13 +8,15 @@ version: 4.0.0
 last_tested: 2018/10/16
 steps:
 - title: Inleiding
-  completion: engaged
 - title: Een controller maken
 - title: Verdien punten of verlies een leven
+  completion:
+  - engaged
 - title: Meer stippen
 - title: Verhoog de moeilijkheid
 - title: 'Uitdaging: sneller bewegende stippen'
 - title: Topscore
-  completion: internal
+  completion:
+  - internal
 - title: 'Uitdaging: verbeter je spel!'
 - title: Wat kun je verder nog doen?

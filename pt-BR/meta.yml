@@ -9,13 +9,15 @@ version: 4.0.0
 last_tested: 2018-10-16
 steps:
 - title: Introdução
-  completion: engaged
 - title: Crie o controle
 - title: Ganhe pontos ou perca vidas
+  completion:
+  - engaged
 - title: Mais bolinhas
 - title: Aumente a dificuldade
 - title: 'Desafio: bolinhas mais rápidas'
 - title: Melhor pontuação
-  completion: internal
+  completion:
+  - internal
 - title: 'Desafio: melhore o seu jogo!'
 - title: E agora?

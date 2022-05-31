@@ -8,13 +8,15 @@ version: 4.0.0
 last_tested: 2018-10-16
 steps:
 - title: Uvod
-  completion: engaged
 - title: Ustvari krmilnik
 - title: Pridobi točke ali izgubi življenje
+  completion:
+  - engaged
 - title: Več pik
 - title: Povečaj težavnost
 - title: 'Izziv: hitrejše pike'
 - title: Najboljši rezultat
-  completion: internal
+  completion:
+  - internal
 - title: 'Izziv: izboljšaj igro!'
 - title: Kaj sledi?

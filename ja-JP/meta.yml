@@ -8,13 +8,15 @@ version: 4.0.0
 last_tested: 2018-10-16
 steps:
 - title: はじめに
-  completion: engaged
 - title: コントローラーを作成する
 - title: ポイントを獲得するか、ライフを失います
+  completion:
+  - engaged
 - title: より多くのドット
 - title: 難易度を上げる
 - title: 'チャレンジ: より速いドット'
 - title: ハイスコア
-  completion: internal
+  completion:
+  - internal
 - title: 'チャレンジ: ゲームをより良くする!'
 - title: 次は何をしますか？

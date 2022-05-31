@@ -8,13 +8,15 @@ version: 4.0.0
 last_tested: 2018-10-16
 steps:
 - title: Εισαγωγή
-  completion: engaged
 - title: Δημιούργησε ένα χειριστήριο
 - title: Κέρδισε πόντους ή χάσε ζωές
+  completion:
+  - engaged
 - title: Περισσότερες τελείες
 - title: Αύξησε τη δυσκολία
 - title: 'Πρόκληση: πιο γρήγορες τελείες'
 - title: Υψηλό Σκορ
-  completion: internal
+  completion:
+  - internal
 - title: 'Πρόκληση: βελτίωσε το παιχνίδι σου!'
 - title: Και μετά;

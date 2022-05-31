@@ -18,14 +18,16 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Uvod
-  completion: engaged
 - title: Izrada kontrolera
 - title: 'Izazov: Okretanje ulijevo'
+  completion:
+  - engaged
 - title: Sakupljanje tačaka
 - title: 'Izazov: Više tačaka'
 - title: Povećavanje težine igre
 - title: 'Izazov: Tačke koje se brže kreću'
-  completion: internal
+  completion:
+  - internal
 - title: Najbolji rezultat
 - title: 'Izazov: Poboljšaj svoju igru!'
 - title: 'Izazov: Meni igre'

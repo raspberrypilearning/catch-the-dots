@@ -8,13 +8,15 @@ version: 4.0.0
 last_tested: 2018-10-16
 steps:
 - title: Cyflwyniad
-  completion: engaged
 - title: Creu rheolwr
 - title: Ennill pwyntiau neu cholli bywydau
+  completion:
+  - engaged
 - title: Mwy o ddotiau
 - title: Gwneud y gêm yn anoddach
 - title: 'Her: dotiau cynt'
 - title: Sgôr Uchel
-  completion: internal
+  completion:
+  - internal
 - title: 'Her: gwella dy gêm!'
 - title: Beth nesaf?
