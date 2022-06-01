@@ -8,13 +8,15 @@ version: 4.0.0
 last_tested: 2018-10-16
 steps:
 - title: Introducción
-  completion: engaged
 - title: Crear un controlador
 - title: Gana puntos o pierde vidas
+  completion:
+  - engaged
 - title: Más puntos
 - title: Aumenta la dificultad
 - title: 'Desafío: puntos más rápidos'
 - title: Puntuación más alta
-  completion: internal
+  completion:
+  - internal
 - title: 'Desafío: ¡mejora tu juego!'
 - title: "¿Qué sigue?"

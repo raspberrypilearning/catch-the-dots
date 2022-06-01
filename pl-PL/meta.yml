@@ -9,13 +9,15 @@ version: 4.0.0
 last_tested: 2018-10-16
 steps:
 - title: Wprowadzenie
-  completion: engaged
 - title: Stwórz kontroler
 - title: Zdobądź punkty, albo strać życia
+  completion:
+  - engaged
 - title: Więcej kropek
 - title: Zwiększenie trudności
 - title: 'Wyzwanie: szybciej poruszające się kropki'
 - title: Tabela wyników
-  completion: internal
+  completion:
+  - internal
 - title: 'Wyzwanie: udoskonal swoją grę!'
 - title: Co dalej?

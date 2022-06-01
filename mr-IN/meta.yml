@@ -8,13 +8,15 @@ version: 4.0.0
 last_tested: 2018-10-16
 steps:
 - title: परिचय
-  completion: engaged
 - title: एक नियंत्रक तयार करा
 - title: गुण मिळवा किंवा आपला जीव गमावा
+  completion:
+  - engaged
 - title: अधिक ठिपके
 - title: अडचण वाढवा
 - title: 'आव्हान: वेगवान ठिपके'
 - title: उच्च गुण
-  completion: internal
+  completion:
+  - internal
 - title: आव्हानः आपला खेळामध्ये सुधार करा!
 - title: पुढे काय?

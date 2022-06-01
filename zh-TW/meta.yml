@@ -8,13 +8,15 @@ version: 4.0.0
 last_tested: 2018-10-16
 steps:
 - title: 介紹
-  completion: engaged
 - title: 做個控制器
 - title: 得分或失血
+  completion:
+  - engaged
 - title: 更多點點
 - title: 增加難度
 - title: 挑戰：點點衝啊
 - title: 最高分紀錄
-  completion: internal
+  completion:
+  - internal
 - title: 挑戰：遊戲改良！
 - title: 然後呢？
