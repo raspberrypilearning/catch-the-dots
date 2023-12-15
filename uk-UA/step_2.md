@@ -6,13 +6,13 @@
 
 Відкрий початковий проєкт "Лови точки" у Скретч.
 
-**Онлайн:** відкрий стартовий проєкт на [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
+**Online:** open the starter project at [rpf.io/dots-on](https://rpf.io/dots-on){:target="_blank"}.
 
 Якщо у тебе є обліковий запис Скретч, то ти можеш зробити копію проєкту, натиснувши **Ремікс**.
 
-**Офлайн:** завантаж стартовий проект з [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), а потім відкрий його за допомогою офлайн-редактора Scratch.
+**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](https://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
 
-Якщо тобі треба завантажити та встановити офлайн-редактор Скретч, то ти можеш його знайти на [rpf.io/scratchoff](http://rpf.io/scratchoff).
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 \--- /task \---
 
