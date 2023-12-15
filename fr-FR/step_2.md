@@ -6,13 +6,13 @@ Commence par créer un contrôleur que le joueur utilisera pour collecter des po
 
 Ouvre le projet Scratch de démarrage « Attrape les points ».
 
-**En ligne:** ouvre le projet de démarrage à [rpf.io/dots-on](http://rpf.io/dots-on){:target="_ blank"}.
+**Online:** open the starter project at [rpf.io/dots-on](https://rpf.io/dots-on){:target="_blank"}.
 
 Si tu as un compte Scratch, tu peux en créer une copie en cliquant sur **Remix**.
 
-**Hors ligne:** télécharge le projet de démarrage à partir de [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), puis ouvre-le à l'aide de l'éditeur Scratch hors-ligne.
+**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](https://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
 
-Si tu veux télécharger et installer l’éditeur Scratch hors-ligne, tu peux le trouver ici : [rpf.io/scratchoff](http://rpf.io/scratchoff).
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 \--- /task \---
 
