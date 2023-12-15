@@ -1,13 +1,13 @@
-start positions
+position de départ
 
-lives
+vies
 
 score
 
-delay
+delai
 
-check high score
+vérifier le meilleur score
 
-high score
+meilleur score
 
-controller
+contrôleur
