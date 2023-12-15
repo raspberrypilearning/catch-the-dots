@@ -6,13 +6,13 @@ Começa por criar um controlador que o jogador vai usar para apanhar os pontos.
 
 Abre o projeto Scratch inicial 'Apanha os pontos'.
 
-**Online:** abre o projeto inicial Scratch em [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
+**Online:** open the starter project at [rpf.io/dots-on](https://rpf.io/dots-on){:target="_blank"}.
 
 Se tiveres uma 'conta Scratch' podes fazer uma cópia ao clicares **Remix**.
 
-**Offline:** descarrega o projeto inicial de [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), e depois abre-o no editor Scratch offline.
+**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](https://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
 
-Se precisares de descarregar e instalar o editor offline do Scratch, podes encontrá-lo em [rpf.io/scratchoff](http://rpf.io/scratchoff).
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 \--- /task \---
 
