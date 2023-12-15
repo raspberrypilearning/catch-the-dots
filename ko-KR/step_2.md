@@ -6,13 +6,13 @@
 
 '점을 잡아라' 파이썬(스크래치) 스타터 프로젝트를 엽니다.
 
-**온라인: ** [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}에서 스타터 프로젝트를 열 수 있습니다.
+**Online:** open the starter project at [rpf.io/dots-on](https://rpf.io/dots-on){:target="_blank"}.
 
 Scratch 계정이 있다면, **Remix**를 클릭하여 복사본을 만들 수 있습니다.
 
-**인터넷이 없는경우:** [ rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go)에서 스타터 프로젝트를 다운로드하고, Scratch 오프라인 에디터로 프로젝트를 열어주세요
+**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](https://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
 
-만약 Scratch 오프라인 에디터가 없는경우 [rpf.io/scratchoff](http://rpf.io/scratchoff)를 통해서 다운받을 수 있습니다.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 \--- /task \---
 
