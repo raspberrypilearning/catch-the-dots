@@ -13,6 +13,8 @@ steps:
     title: 做個控制器
   - 
     title: 得分或失血
+    completion:
+      - engaged
   - 
     title: 更多點點
   - 
@@ -21,6 +23,8 @@ steps:
     title: '挑戰：點點衝啊'
   - 
     title: 最高分紀錄
+    completion:
+      - internal
   - 
     title: '挑戰：遊戲改良！'
   - 
