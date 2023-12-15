@@ -6,13 +6,13 @@
 
 'Catch the dots' Scratch स्टार्टर प्रोजेक्ट खोलें।
 
-**ऑनलाइन:** [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"} पर स्टार्टर प्रोजेक्ट खोलें I
+**Online:** open the starter project at [rpf.io/dots-on](https://rpf.io/dots-on){:target="_blank"}.
 
 यदि आपके पास एक Scratch अकाउंट है, तो आप ** Remix ** पर क्लिक करके कापी बना सकते हैं।
 
-** ऑफ़लाइन: ** स्टार्टर प्रोजेक्ट को [ rpf.io/p/en/catch-the-dots-go ](http://rpf.io/p/en/catch-the-dots-go) से डाउनलोड करें और फिर इसे Scratch ऑफ़लाइन एडीटर में खोलें।
+**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](https://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
 
-यदि आपको स्क्रैच ऑफ़लाइन एडीटर को डाउनलोड और इंस्टॉल करने की आवश्यकता है तो आप उसे [rpf.io/scratchoff](http://rpf.io/scratchoff) {:target="_blank"} पर पा सकते हैं।
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 \--- /task \---
 
