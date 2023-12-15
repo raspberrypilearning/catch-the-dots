@@ -36,7 +36,7 @@
 
 \--- task \---
 
-एक नई सूची बनाएं जिसे ` आरंभ स्थान ` {"class =" block3variables "} कहा जाता है, सूची के ` (+) </ 0> आइकन पर क्लिक करें और  <code>-180`{:class="block3variables"} और `180`{:class="block3variables"} मान जोड़ें I 
+एक नई सूची बनाएं जिसे `start positions`{:class="block3variables"} कहा जाता है, सूची के `(+)` आइकन पर क्लिक करें और `-180`{:class="block3variables"} और `180`{:class="block3variables"} मान जोड़ें I
 
 ![लाल डॉट स्प्राइट](images/red-sprite.png)
 
@@ -82,7 +82,7 @@
 
 \--- task \---
 
-` lives ` {:class="block3variables"} और ` score` {:class="block3variables"} नामक दो नए वेरिएबल्स बनाएं ।
+`lives`{:class="block3variables"} और `score`{:class="block3variables"} नामक दो नए वेरिएबल्स बनाएं ।
 
 ![लाल डॉट स्प्राइट](images/red-sprite.png)
 
@@ -90,7 +90,7 @@
 
 \--- task \---
 
-खेल की शुरुआत में ` lives`{:class="block3variables"} वेरिएबल में ` 3 ` और ` score` {:class="block3variables"} में ` 0 ` सेट करने के लिए अपने स्टेज में कोड जोड़ें। ![स्टेज स्प्राइट](images/stage-sprite.png)
+खेल की शुरुआत में `lives`{:class="block3variables"} वेरिएबल में `3` और `score`{:class="block3variables"} में `0` सेट करने के लिए अपने स्टेज में कोड जोड़ें। ![स्टेज स्प्राइट](images/stage-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -119,9 +119,9 @@ set [score v] to (0)
 
 स्प्राइट के अंत में कुछ कोड ब्लॉक जोड़ने के लिए 'red' डॉट स्प्राइट के स्क्रिप्स क्षेत्र पर वापस जाएं, `when I start as a clone`{:class="block3control"} स्क्रिप्ट।
 
-सबसे पहले, डॉट क्लोन करें ` 5 कदम चलें ` {"class =" block3motion "} ताकि यह कंट्रोलर को ओवरलैप करे।
+सबसे पहले, डॉट क्लोन करें `move 5 steps`{:class="block3motion"} ताकि यह कंट्रोलर को ओवरलैप करे।
 
-फिर कोड जोड़ें या तो ` 1 ` को ` score ` {:class="block3variables"} में जोड़ें यदि डॉट क्लोन का रंग छूने पर कंट्रोलर के रंग से मेल खाता है, या `1` को `lives`{:class="block3variables"} से घटा दे अगर उनका कलर मेल नहीं होता है।
+फिर कोड जोड़ें या तो `1` को `score`{:class="block3variables"} में जोड़ें यदि डॉट क्लोन का रंग छूने पर कंट्रोलर के रंग से मेल खाता है, या `1` को `lives`{:class="block3variables"} से घटा दे अगर उनका कलर मेल नहीं होता है।
 
 [[[generic-scratch3-sound-from-library]]]
 
