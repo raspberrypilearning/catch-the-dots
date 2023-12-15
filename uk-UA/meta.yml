@@ -13,6 +13,8 @@ steps:
     title: Створи контроллер
   - 
     title: Отримуй очки або витрачай житті
+    completion:
+      - engaged
   - 
     title: Більше точок
   - 
@@ -21,6 +23,8 @@ steps:
     title: 'Завдання: швидші точки'
   - 
     title: Рекорд
+    completion:
+      - internal
   - 
     title: 'Завдання: вдоскональ свою гру!'
   - 
