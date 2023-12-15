@@ -13,6 +13,8 @@ steps:
     title: Erstelle einen Controller
   - 
     title: Punkte sammeln oder Leben verlieren
+    completion:
+      - engaged
   - 
     title: Noch mehr Punkte
   - 
@@ -21,6 +23,8 @@ steps:
     title: 'Herausforderung: Schnellere Punkte'
   - 
     title: Höchstpunktestand
+    completion:
+      - internal
   - 
     title: 'Herausforderung: Verbessere dein Spiel!'
   - 
