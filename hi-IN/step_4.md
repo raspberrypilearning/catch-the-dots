@@ -64,7 +64,7 @@
 
 \--- /task \---
 
-If you play the game now, you can see that the dots sometimes get created on top of each other.
+यदि आप अभी गेम खेलते हैं तो आप देख सकते हैं कि डॉट्स कभी-कभी एक-दूसरे के शीर्ष पर बने होंगे।
 
 \--- task \---
 
@@ -80,6 +80,6 @@ If you play the game now, you can see that the dots sometimes get created on top
 
 ![ब्लू डॉट](images/blue-sprite.png)
 
-'blue ’डॉट स्प्राइट के लिए कोड बदलें ताकि झंडे पर क्लिक करने के बाद वह 6 सेकण्ड्स प्रतीक्षा करे और फिर दिखाई दे।
+'blue’ डॉट स्प्राइट के लिए कोड बदलें ताकि झंडे पर क्लिक करने के बाद वह 6 सेकण्ड्स प्रतीक्षा करे और फिर दिखाई दे।
 
 \--- /task \---
