@@ -6,13 +6,13 @@
 
 Open the 'Catch the dots' Scratch starter project.
 
-**在线：** 在 [rpf.io/dots-on](http://rpf.io/dots-on){:target =“_ blank”}打开初始项目。
+**Online:** open the starter project at [rpf.io/dots-on](https://rpf.io/dots-on){:target="_blank"}.
 
 如果您有一个Scratch帐户，您可以通过点击**Remix**复制。
 
-**离线：** 从 [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go) 下载初始项目，然后使用Scratch离线编辑器打开它。
+**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](https://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
 
-如果您需要下载并安装Scratch离线编辑器，可以在[ rpf.io/scratchoff ](http://rpf.io/scratchoff)中获取。
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 \--- /task \---
 
