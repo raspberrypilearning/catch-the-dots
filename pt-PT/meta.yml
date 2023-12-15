@@ -13,6 +13,8 @@ steps:
     title: Criar um controlador
   - 
     title: Ganhar pontos ou perder vidas
+    completion:
+      - engaged
   - 
     title: Mais pontos
   - 
@@ -21,6 +23,8 @@ steps:
     title: 'Desafio: pontos mais rápidos'
   - 
     title: Melhor pontuação
+    completion:
+      - internal
   - 
     title: 'Desafio: Melhorar o teu jogo!'
   - 
