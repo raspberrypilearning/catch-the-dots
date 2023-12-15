@@ -13,6 +13,8 @@ steps:
     title: कंट्रोलर बनाये
   - 
     title: अंक हासिल करें या जीवन खो दें
+    completion:
+      - engaged
   - 
     title: अधिक डॉट्स
   - 
@@ -21,6 +23,8 @@ steps:
     title: 'चुनौती: तीव्र डॉट्स'
   - 
     title: उच्च स्कोर
+    completion:
+      - internal
   - 
     title: 'चुनौती: अपने खेल में सुधार!'
   - 
