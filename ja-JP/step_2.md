@@ -6,13 +6,13 @@
 
 「Catch the dots」Scratchスタータープロジェクトを開きます。
 
-**Online:** [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}にあるスタータープロジェクトを開きます。
+**Online:** open the starter project at [rpf.io/dots-on](https://rpf.io/dots-on){:target="_blank"}.
 
 Scratchアカウントをお持ちの場合は**リミックス**をクリックしてコピーを作成できます。
 
-**Offline:** [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go)からスタータープロジェクトをダウンロードして、オフラインエディターで開きます。
+**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](https://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
 
-Scratchオフラインエディタをダウンロードしてインストールする必要がある場合は、[rpf.io/scratchoff](http://rpf.io/scratchoff)にあります。
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 \--- /task \---
 
