@@ -6,13 +6,13 @@ Iniziamo con il creare un controller che può essere usato per raccogliere i pun
 
 Apri il progetto di partenza Scratch 'Cattura i puntini'.
 
-**Online:** apri il progetto iniziale su [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
+**Online:** open the starter project at [rpf.io/dots-on](https://rpf.io/dots-on){:target="_blank"}.
 
 Se hai un account su Scratch, puoi farne una copia cliccando su **Remix**.
 
-**Offline:** scarica il progetto iniziale da [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), e poi aprilo con l'editor offline.
+**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](https://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
 
-Se devi scaricare e installare l'editor offline di Scratch, puoi trovarlo all'indirizzo [rpf.io/scratchoff](http://rpf.io/scratchoff).
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 \--- /task \---
 
