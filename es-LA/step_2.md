@@ -6,13 +6,13 @@ Comienza por crear el mando que el jugador utilizará para atrapar los puntos.
 
 Abre el proyecto inicial de Scratch 'Atrapa los puntos'.
 
-**En línea**: abre el proyecto inicial en [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
+**Online:** open the starter project at [rpf.io/dots-on](https://rpf.io/dots-on){:target="_blank"}.
 
 Si tienes una cuenta en Scratch, puedes hacer una copia al hacer clic en **Remix**.
 
-**Sin conexión:** descarga el proyecto inicial desde [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go) y luego ábrelo con el editor de Scratch sin conexión.
+**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](https://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
 
-Si necesitas descargar e instalar el editor de Scratch offline, puedes encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff).
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 \--- /task \---
 
