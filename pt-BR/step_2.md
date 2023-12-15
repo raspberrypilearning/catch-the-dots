@@ -6,13 +6,13 @@ Comece a criar um controlador que o jogador vai usar para apanhar os pontos.
 
 Abra o projeto Scratch inicial 'Capture Bolinhas'.
 
-**Online:** Abra o projeto inicial em [ rpf.io/dots-on ](http://rpf.io/dots-on){: target="_ blank"}.
+**Online:** open the starter project at [rpf.io/dots-on](https://rpf.io/dots-on){:target="_blank"}.
 
 Se você tiver uma conta Scratch, você pode fazer uma cópia clicando em **Remix**.
 
-**Offline:** baixe o projeto inicial de [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), e depois abra-o no editor Scratch offline.
+**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](https://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
 
-Se você precisar baixar e instalar o editor offline do Scratch, você pode encontrá-lo em [rpf.io/scratchoff](http://rpf.io/scratchoff).
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 \--- /task \---
 
