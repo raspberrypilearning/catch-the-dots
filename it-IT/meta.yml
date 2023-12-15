@@ -13,6 +13,8 @@ steps:
     title: Crea un controller
   - 
     title: Guadagna punti o perdi vite
+    completion:
+      - engaged
   - 
     title: Più puntini
   - 
@@ -21,6 +23,8 @@ steps:
     title: 'Sfida: puntini più veloci'
   - 
     title: Record
+    completion:
+      - internal
   - 
     title: 'Sfida: migliora il tuo gioco!'
   - 
