@@ -13,6 +13,8 @@ steps:
     title: Create a controller
   - 
     title: Gain points or lose lives
+    completion:
+      - engaged
   - 
     title: More dots
   - 
@@ -21,6 +23,8 @@ steps:
     title: 'Challenge: faster dots'
   - 
     title: High score
+    completion:
+      - internal
   - 
     title: 'Challenge: improve your game!'
   - 
