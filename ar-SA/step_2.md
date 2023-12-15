@@ -6,13 +6,13 @@
 
 افتح مشروع السكراتش Scratch الابتدائي 'اجمع النقاط'.
 
-**بالاتصال بالانترنت**: افتح المشروع المبدئي من هنا [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
+**Online:** open the starter project at [rpf.io/dots-on](https://rpf.io/dots-on){:target="_blank"}.
 
 اذا كنت تملك حساب على منصة السكراتش (Scratch) فيمكنك عمل نسخة بالضغط على **Remix**.
 
-**بدون اتصال انترنت** حمّل المشروع المبدئي من [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"} ثم اقتحه باستخدام محرر Scratch بدون اتصال انترنت.
+**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](https://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
 
-لتنزيل و تركيب محرر Scratch على جهازك الشخصي, يمكنك الحصول عليه من هنا [rpf.io/scratchoff](http://rpf.io/scratchoff).
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 \--- /task \---
 
