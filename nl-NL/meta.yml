@@ -13,6 +13,8 @@ steps:
     title: Een controller maken
   - 
     title: Verdien punten of verlies een leven
+    completion:
+      - engaged
   - 
     title: Meer stippen
   - 
@@ -21,6 +23,8 @@ steps:
     title: 'Uitdaging: sneller bewegende stippen'
   - 
     title: Topscore
+    completion:
+      - internal
   - 
     title: 'Uitdaging: verbeter je spel!'
   - 
