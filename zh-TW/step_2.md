@@ -6,13 +6,13 @@
 
 開啟 Catch the dots 這個範例專案。
 
-**線上版：**你可以連結 [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"} 以新建專案。
+**Online:** open the starter project at [rpf.io/dots-on](https://rpf.io/dots-on){:target="_blank"}.
 
 如果你有 Scratch 帳戶，你就可以直接**改編**專案。
 
-**離線版：** 你可以點擊 [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"} 以下載專案。
+**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](https://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
 
-如果你需要 Scratch 離線版編輯器，可以連結到 [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}。
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 \--- /task \---
 
