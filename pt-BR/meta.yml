@@ -13,6 +13,8 @@ steps:
     title: Crie o controle
   - 
     title: Ganhe pontos ou perca vidas
+    completion:
+      - engaged
   - 
     title: Mais bolinhas
   - 
@@ -21,6 +23,8 @@ steps:
     title: 'Desafio: bolinhas mais rápidas'
   - 
     title: Melhor pontuação
+    completion:
+      - internal
   - 
     title: 'Desafio: melhore o seu jogo!'
   - 
