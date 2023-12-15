@@ -13,6 +13,8 @@ steps:
     title: Creu rheolwr
   - 
     title: Ennill pwyntiau neu cholli bywydau
+    completion:
+      - engaged
   - 
     title: Mwy o ddotiau
   - 
@@ -21,6 +23,8 @@ steps:
     title: 'Her: dotiau cynt'
   - 
     title: Sgôr Uchel
+    completion:
+      - internal
   - 
     title: 'Her: gwella dy gêm!'
   - 
