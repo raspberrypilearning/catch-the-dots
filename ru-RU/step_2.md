@@ -6,13 +6,13 @@
 
 Открой стартовый проект Scratch "Поймай точки".
 
-**Онлайн:** открой стартовый проект по адресу [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
+**Online:** open the starter project at [rpf.io/dots-on](https://rpf.io/dots-on){:target="_blank"}.
 
 Если у тебя есть учётная запись в Scratch, то ты можешь сделать копию, нажав **Ремикс**.
 
-**Оффлайн:** скачай стартовый проект с [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go) и затем открой его с помощью оффлайн редактора Scratch.
+**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](https://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
 
-Если тебе необходимо скачать и установить оффлайн редактор Scratch, то ты можешь найти его на [rpf.io/scratchoff](http://rpf.io/scratchoff).
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 \--- /task \---
 
