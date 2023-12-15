@@ -4,7 +4,7 @@
 
 \--- task \---
 
-एक नया वेरिएबल बनाएं `high score` {:class="block3variables"}.
+एक नया वेरिएबल बनाएं `high score`{:class="block3variables"}
 
 ![स्टेज स्प्राइट](images/stage-sprite.png)
 
@@ -12,7 +12,7 @@
 
 \--- task \---
 
-स्टेज का चयन करें। 'My blocks' पर क्लिक करें और एक नया कस्टम ब्लॉक `check high score` {:class="block3myblocks"} बनाएं I
+स्टेज का चयन करें। 'My blocks' पर क्लिक करें और एक नया कस्टम ब्लॉक `check high score`{:class="block3myblocks"} बनाएं I
 
 ![स्टेज स्प्राइट](images/stage-sprite.png)
 
@@ -55,6 +55,6 @@ stop [all v]
 
 \--- task \---
 
-अपना गेम दो बार खेलें ये देखने के लिए की आपका स्कोर ठीक तरीके से ` high score ` {:class="block3variables"} में सेव हो रहा है या नहीं।
+अपना गेम दो बार खेलें ये देखने के लिए की आपका स्कोर ठीक तरीके से `high score`{:class="block3variables"} में सेव हो रहा है या नहीं।
 
 \--- /task \---
