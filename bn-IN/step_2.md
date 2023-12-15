@@ -6,13 +6,13 @@
 
 'Catch the dots' স্ক্র্যাচ স্টার্টার প্রকল্পটি খুলুন।.
 
-**Online:** স্টার্টার প্রকল্পটি এখানে খুলুন [rpf.io/dots-on](http://rpf.io/dots-on){:target="_blank"}.
+**Online:** open the starter project at [rpf.io/dots-on](https://rpf.io/dots-on){:target="_blank"}.
 
 আপনার যদি স্ক্র্যাচ অ্যাকাউন্ট থাকে তবে আপনি **Remix**. ক্লিক করে একটি অনুলিপি তৈরি করতে পারেন।.
 
-**Offline:** স্টার্টার প্রকল্পটি এটি থেকে ডাউনলোড করুন [rpf.io/p/en/catch-the-dots-go](http://rpf.io/p/en/catch-the-dots-go), এবং তারপরে এটি স্ক্র্যাচ অফলাইন এডিটর এ খুলুন।.
+**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](https://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
 
-আপনার যদি স্ক্র্যাচ অফলাইন এডিটরটি ডাউনলোড ও ইনস্টল করতে হয় তবে আপনি এটি [ rpf.io/scratchoff ](http://rpf.io/scratchoff) এ খুঁজে পেতে পারেন।.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 \--- /task \---
 
