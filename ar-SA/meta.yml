@@ -13,6 +13,8 @@ steps:
     title: إنشاء عجلة تحكم دوَّارة
   - 
     title: احصل على نقاط أو اخسر حياة
+    completion:
+      - engaged
   - 
     title: نقاط أكثر
   - 
@@ -21,6 +23,8 @@ steps:
     title: 'التحدي: النقاط تتحرك أسرع'
   - 
     title: أعلى نتيجة
+    completion:
+      - internal
   - 
     title: 'التحدي: تحسين لعبتك!'
   - 
