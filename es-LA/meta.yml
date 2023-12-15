@@ -13,6 +13,8 @@ steps:
     title: "Crear un mando\n"
   - 
     title: Gana puntos o pierde vidas
+    completion:
+      - engaged
   - 
     title: Más puntos
   - 
@@ -21,6 +23,8 @@ steps:
     title: 'Desafío: puntos más rápidos'
   - 
     title: Mejor puntaje
+    completion:
+      - internal
   - 
     title: 'Desafío: ¡mejora tu juego!'
   - 
