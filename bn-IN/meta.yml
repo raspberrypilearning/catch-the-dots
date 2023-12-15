@@ -13,6 +13,8 @@ steps:
     title: একটি নিয়ামক তৈরি করুন
   - 
     title: পয়েন্ট অর্জন করুন বা জীবন হারান
+    completion:
+      - engaged
   - 
     title: অতিরিক্ত বিন্দু
   - 
@@ -21,6 +23,8 @@ steps:
     title: 'চ্যালেঞ্জ: দ্রুততর বিন্দু'
   - 
     title: উচ্চ স্কোর
+    completion:
+      - internal
   - 
     title: 'Challenge: আপনার গেমটি উন্নত করুন!'
   - 
