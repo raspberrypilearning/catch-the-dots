@@ -14,7 +14,7 @@ steps:
   - 
     title: Guadagna punti o perdi vite
     completion:
-      - engaged
+      - fatto
   - 
     title: Più puntini
   - 
@@ -22,9 +22,9 @@ steps:
   - 
     title: 'Sfida: puntini più veloci'
   - 
-    title: Record
+    title: Punteggio alto
     completion:
-      - internal
+      - interno
   - 
     title: 'Sfida: migliora il tuo gioco!'
   - 
