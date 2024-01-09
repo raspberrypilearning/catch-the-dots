@@ -1,4 +1,4 @@
-posizioni iniziali
+posizione iniziale
 
 vite
 
@@ -10,4 +10,4 @@ controlla il record
 
 record
 
-controller
+Controller
