@@ -6,7 +6,7 @@ Questa è la versione **Scratch 3** del progetto. C'è anche una versione [Scrat
 
 ## Introduzione
 
-Il link 'Materiali del Progetto' per questo progetto contiene le seguenti risorse:
+In questo progetto imparerai come creare un gioco in cui il giocatore deve abbinare punti colorati con il colore corretto della ruota del controller.
 
 \--- no-print \---
 
@@ -27,7 +27,7 @@ Utilizzare i tasti freccia sulla tastiera per ruotare la rotellina del controlle
 
 ## \--- collapse \---
 
-## title: Cosa imparerai
+## titolo: Cosa imparerai
 
 + Come scegliere elementi casuali da un elenco
 + Come utilizzare le variabili per tenere traccia della velocità, delle vite e del punteggio del giocatore
@@ -36,19 +36,19 @@ Utilizzare i tasti freccia sulla tastiera per ruotare la rotellina del controlle
 
 ## \--- collapse \---
 
-## titolo: Di cosa avrai bisogno
+## Risorse
 
 ### Hardware
 
-+ Un computer in grado di eseguire Scratch 3
++ controller.svg.
 
 ### Software
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
++ CatchTheDotsResources.sb2
 
-### Download
+### download
 
-+ [Offline Scratch 2 project](https://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
++ Questo progetto consolida l'apprendimento delle tecniche di programmazione imparate precedentemente.
 
 \--- /collapse \---
 
@@ -62,6 +62,6 @@ Se intendete stampare questo progetto, cliccate su [Versione stampabile](https:/
 
 \--- /no-print \---
 
-You can find [the completed project here](https://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
+Puoi trovare il [progetto completo qui](https://rpf.io/p/en/catch-the-dots-get){:target="_blank"}.
 
 \--- /collapse \---
