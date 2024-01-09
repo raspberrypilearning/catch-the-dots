@@ -12,9 +12,9 @@ Crea un nuovo sprite chiamato 'rosso'. Questo sprite dovrebbe essere un piccolo 
 
 \--- task \---
 
-Add this script to your 'red' sprite to create a new clone of the sprite every few seconds:
+Aggiungi questo script al tuo sprite 'rosso' per creare un nuovo clone dello sprite ogni tot secondi:
 
-![Red dot sprite](images/red-sprite.png)
+![Sprite puntino rosso](images/red-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -28,35 +28,35 @@ Add this script to your 'red' sprite to create a new clone of the sprite every f
 
 \--- /task \---
 
-If you click the green flag now, it looks like nothing is happening. This is because all of the cloned sprites are hidden, and they appear in the same place.
+Se fai clic sulla bandierina verde ora, sembra che non succeda nulla. Questo perché tutti gli sprite clonati sono nascosti, e appaiono nello stesso posto.
 
-You are going to add code to make each new clone appear in one of the four corners of the Stage.
+Si sta per aggiungere il codice per far apparire ogni nuovo clone in uno dei quattro angoli dello Stage.
 
 ![screenshot](images/dots-start.png)
 
 \--- task \---
 
-Create a new list called `start positions`{:class="block3variables"}, click the list's `(+)` icon to add the values `-180`{:class="block3variables"} and `180`{:class="block3variables"}.
+Crea una nuova lista chiamata `posizioni di inizio`{:class="block3variables"}, clicca sull'icona `(+)` della lista per aggiungere i valori `-180`{:class="block3variables"} e `180`{:class="block3variables"}.
 
-![Red dot sprite](images/red-sprite.png)
+![Sprite puntino rosso](images/red-sprite.png)
 
-![List of 180 and -180](images/dots-list.png)
+![Lista 180 e -180](images/dots-list.png)
 
 [[[generic-scratch3-make-list]]]
 
-Then you can hide the list by unselecting this box:
+Successivamente puoi nascondere la lista deselezionando questa casella:
 
-![Hide the list](images/hide-list.png)
+![Nascondi la lista](images/hide-list.png)
 
 \--- /task \---
 
-Notice that the coordinate for each corner of the Stage is a combination of `180` and `-180`. This means you can use the list to pick a corner of the Stage at random.
+Notare che la coordinata di ogni angolo dello Stage è una combinazione di `180` e `-180`. Ciò significa che è possibile utilizzare la lista per scegliere un angolo dello stadio a caso.
 
 \--- task \---
 
-Add this code to the 'dot' sprite to make each new sprite clone appear in a random corner and then slowly move towards the controller sprite.
+Aggiungi questo codice allo sprite 'punto' per far apparire ogni nuovo clone di sprite in un angolo casuale e poi lentamente muoversi verso lo sprite del controller.
 
-![Red dot sprite](images/red-sprite.png)
+![Sprite puntino rosso](images/red-sprite.png)
 
 ```blocks3
     when I start as a clone
@@ -70,11 +70,11 @@ Add this code to the 'dot' sprite to make each new sprite clone appear in a rand
 
 \--- /task \---
 
-This new code chooses either `-180` or `180` for the x and y positions, meaning that each 'dot' sprite clone starts in a corner of the Stage.
+Questo nuovo codice sceglie `-180` o `180` per le posizioni x e y, in modo che ogni clone dello sprite 'punto' parta da un angolo dello Stage.
 
 \--- task \---
 
-Test your project. You should see red dots appear in the corners of the Stage and move slowly towards the controller.
+Prova il tuo progetto. Dovresti vedere i puntini rossi apparire negli angoli dello Stage e muoversi lentamente verso il controller.
 
 ![screenshot](images/dots-red-test.png)
 
@@ -82,15 +82,15 @@ Test your project. You should see red dots appear in the corners of the Stage an
 
 \--- task \---
 
-Create two new variables called `lives`{:class="block3variables"} and `score`{:class="block3variables"}.
+Crea due nuove variabili chiamate `vite`{:class="block3variables"} e `punteggio`{:class="block3variables"}.
 
-![Red dot sprite](images/red-sprite.png)
+![Sprite puntino rosso](images/red-sprite.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your Stage to set the `lives`{:class="block3variables"} variable to `3` and the `score`{:class="block3variables"} to `0` at the start of the game. ![Stage sprite](images/stage-sprite.png)
+Aggiungi il codice allo Stage per impostare la variabile delle `vite`{:class="block3variables"} a ` 3 ` e il `punteggio`{:class="block3variables"} a `0` all'inizio del gioco. ![Sprite dello Stage](images/stage-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -102,9 +102,9 @@ set [score v] to (0)
 
 \--- task \---
 
-Add this code to the end of the Stage's script to make the game end when the player loses the last of the lives:
+Aggiungi questo codice alla fine dello script dello Stage per far terminare la partita quando il giocatore perde l'ultima vita:
 
-![Stage sprite](images/stage-sprite.png)
+![Sprite dello Stage](images/stage-sprite.png)
 
 ```blocks3
     wait until <(lives :: variables) < [1]>
@@ -113,19 +113,19 @@ Add this code to the end of the Stage's script to make the game end when the pla
 
 \--- /task \---
 
-The player should win points for catching dots, and should lose lives for failing to catch dots. A dot can only be caught by matching the colour of the controller to the colour of the dot.
+Il giocatore dovrebbe aumentare il punteggio quanto cattura i puntini e perde vite in caso contrario. Un punto può essere catturato solo se il colore del controller corrisponde al colore del puntino.
 
 \--- task \---
 
-Go back to the 'red' dot sprite's Scripts area to add some code blocks to the end of the sprite's `when I start as a clone`{:class="block3control"} script.
+Torna negli script dello sprite puntino 'rosso' per aggiungere alcuni blocchi di codice alla fine dei comandi collegati a `quando vengo clonato`{:class="block3control"}.
 
-First, make the dot clone `move 5 steps`{:class="block3motion"} so that it overlaps the controller.
+Innanzitutto, fai che il clone si `sposti 5 passi`{:class="block3motion"} in modo che si sovrapponga al controller.
 
-Then add code to either add `1` to `score`{:class="block3variables"} if the colour of the dot clone matches the colour of the controller when they touch, or to take `1` away from `lives`{:class="block3variables"} if their colours don't match.
+Quindi inserisci il codice per aggiungere `1` a `punteggio`{:class="block3variables"} se il colore del clone del punto corrisponde al colore del controller quando viene toccato, o togliere `1` a `vite`{:class="block3variables"} se i colori non coincidono.
 
 [[[generic-scratch3-sound-from-library]]]
 
-![Red dot sprite](images/red-sprite.png)
+![Sprite puntino rosso](images/red-sprite.png)
 
 ```blocks3
     move (5) steps
@@ -143,9 +143,9 @@ Then add code to either add `1` to `score`{:class="block3variables"} if the colo
 
 \--- task \---
 
-Test your game to make sure that:
+Metti alla prova il tuo gioco per assicurarti che:
 
-1. You lose a life if you don’t match a dot with the correct colour
-2. You score a point if you match a dot correctly
+1. Perdi una vita se non abbini un punto al colore giusto
+2. Ottieni un punto se abbini correttamente un puntino
 
 \--- /task \---
