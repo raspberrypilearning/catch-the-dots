@@ -6,23 +6,23 @@ Iniziamo con il creare un controller che può essere usato per raccogliere i pun
 
 Apri il progetto di partenza Scratch 'Cattura i puntini'.
 
-**Online:** open the starter project at [rpf.io/dots-on](https://rpf.io/dots-on){:target="_blank"}.
+**Online:** apri il progetto iniziale su [rpf.io/dots-on](https://rpf.io/dots-on){:target="_blank"}.
 
 Se hai un account su Scratch, puoi farne una copia cliccando su **Remix**.
 
-**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](https://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
+Apri il progetto Scratch online 'Acchiappa Puntini' a <a href="http://jumpto.cc/dots-go" target="_blank">jumpto.cc/dots-go</a> o scaricalo da <a href="http://jumpto.cc/dots-get" target="_blank">jumpto.cc/dots-get</a> e poi apri se stai usando l'editore offline.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff).
+Se devi scaricare e installare l'editor offline di Scratch, puoi trovarlo all'indirizzo [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 \--- /task \---
 
-Dovresti vedere lo sprite di un controller:
+Dovresti vedere uno sprite del controller:
 
 ![screenshot](images/dots-controller.png)
 
 \--- task \---
 
-Aggiungi del codice allo sprite del controller per farlo ruotare a destra se il giocatore preme il tasto freccia destra:
+Aggiungi del codice allo sprite del controller per far girare lo sprite a destra se il giocatore preme il tasto freccia destra:
 
 ![Sprite del controller](images/controller-sprite.png)
 
@@ -75,7 +75,7 @@ end
 
 \--- hint \---
 
-Ecco come dovrebbe apparire il codice:
+Ecco come dovrebbe apparire il risultato:
 
 ```blocks3
     when flag clicked
