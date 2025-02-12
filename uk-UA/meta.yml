@@ -28,4 +28,6 @@ steps:
   - 
     title: 'Завдання: вдоскональ свою гру!'
   - 
-    title: Що далі?
+    title: What can you do now?
+    completion:
+      - external
