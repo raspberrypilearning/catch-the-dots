@@ -28,4 +28,6 @@ steps:
   - 
     title: 'Challenge: improve your game!'
   - 
-    title: What next?
+    title: What can you do now?
+    completion:
+      - external
