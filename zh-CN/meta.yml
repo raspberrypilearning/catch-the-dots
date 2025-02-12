@@ -28,4 +28,6 @@ steps:
   - 
     title: '挑战: 改进你的游戏!'
   - 
-    title: 接下来呢？
+    title: What can you do now?
+    completion:
+      - external
