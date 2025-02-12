@@ -28,4 +28,6 @@ steps:
   - 
     title: 'Задача: улучшение своей игры!'
   - 
-    title: Что дальше?
+    title: What can you do now?
+    completion:
+      - external
