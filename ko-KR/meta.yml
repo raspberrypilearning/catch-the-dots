@@ -28,4 +28,6 @@ steps:
   - 
     title: '도전과제 : 더 멋진 게임만들기!'
   - 
-    title: 더 나아가기
+    title: What can you do now?
+    completion:
+      - external
