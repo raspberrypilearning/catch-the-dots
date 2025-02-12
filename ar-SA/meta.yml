@@ -28,4 +28,6 @@ steps:
   - 
     title: 'التحدي: تحسين لعبتك!'
   - 
-    title: ما التالي؟
+    title: What can you do now?
+    completion:
+      - external
