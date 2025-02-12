@@ -28,4 +28,6 @@ steps:
   - 
     title: 'Her: gwella dy gêm!'
   - 
-    title: Beth nesaf?
+    title: What can you do now?
+    completion:
+      - external
