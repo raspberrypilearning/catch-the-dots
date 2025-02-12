@@ -28,4 +28,6 @@ steps:
   - 
     title: 'ಸವಾಲು: ನಿಮ್ಮ ಆಟವನ್ನು ಸುಧಾರಿಸಿ!'
   - 
-    title: ಮುಂದೆ ಏನು?
+    title: What can you do now?
+    completion:
+      - external
