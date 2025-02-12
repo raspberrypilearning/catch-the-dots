@@ -28,4 +28,6 @@ steps:
   - 
     title: 'Herausforderung: Verbessere dein Spiel!'
   - 
-    title: Wie geht es weiter?
+    title: What can you do now?
+    completion:
+      - external
