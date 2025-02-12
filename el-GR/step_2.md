@@ -6,13 +6,13 @@
 
 Άνοιξε το αρχικό έργο Scratch 'Πιάσε τις τελείες'.
 
-**Online:** open the starter project at [rpf.io/dots-on](https://rpf.io/dots-on){:target="_blank"}.
+**Online:** άνοιξε το αρχικό έργο στο [rpf.io/dots-on](https://rpf.io/dots-on){:target="_blank"}.
 
 Αν έχεις λογαριασμό Scratch μπορείς να κάνεις ένα αντίγραφο, κάνοντας κλικ στο κουμπί **Ανάμειξη**.
 
-**Offline:** download the starter project from [rpf.io/p/en/catch-the-dots-go](https://rpf.io/p/en/catch-the-dots-go), and then open it in the Scratch offline editor.
+**Offline:** κατέβασε το αρχικό έργο από το [rpf.io/p/en/catch-the-dots-go](https://rpf.io/p/en/catch-the-dots-go), και μετά άνοιξέ το στην offline εφαρμογή Scratch της συσκευής σου.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff).
+Αν χρειαστεί να κατεβάσεις και να εγκαταστήσεις τον offline επεξεργαστή Scratch μπορείς να τον βρεις στη διεύθυνση [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 \--- /task \---
 
