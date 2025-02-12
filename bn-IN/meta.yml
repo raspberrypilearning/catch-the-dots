@@ -28,4 +28,6 @@ steps:
   - 
     title: 'Challenge: আপনার গেমটি উন্নত করুন!'
   - 
-    title: এরপর কি?
+    title: What can you do now?
+    completion:
+      - external
