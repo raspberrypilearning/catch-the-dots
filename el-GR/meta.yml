@@ -28,4 +28,6 @@ steps:
   - 
     title: 'Πρόκληση: βελτίωσε το παιχνίδι σου!'
   - 
-    title: Και μετά;
+    title: What can you do now?
+    completion:
+      - external
