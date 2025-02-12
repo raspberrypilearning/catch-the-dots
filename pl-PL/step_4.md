@@ -16,9 +16,9 @@ Change the costume of each new sprite so it is the correct colour: the 'yellow' 
 
 \--- task \---
 
-Change the code of each sprite so that the player has to match dot clone to the correct colour on the controller to score points.
+\--- task \--- Zmień kod każdego ikonki, aby gracz musiał dopasować kropkę do odpowiedniego koloru kontrolera, aby zdobyć punkty.
 
-![screenshot](images/dots-all-test.png)
+![zrzut ekranu](images/dots-all-test.png)
 
 \--- hints \---
 
