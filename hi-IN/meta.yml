@@ -28,4 +28,6 @@ steps:
   - 
     title: 'चुनौती: अपने खेल में सुधार!'
   - 
-    title: आगे क्या?
+    title: What can you do now?
+    completion:
+      - external
