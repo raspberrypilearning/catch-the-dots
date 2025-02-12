@@ -28,4 +28,6 @@ steps:
   - 
     title: 'आव्हानः आपला खेळामध्ये सुधार करा!'
   - 
-    title: पुढे काय?
+    title: What can you do now?
+    completion:
+      - external
