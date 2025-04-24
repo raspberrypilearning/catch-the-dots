@@ -36,19 +36,19 @@ Utilizzare i tasti freccia sulla tastiera per ruotare la rotellina del controlle
 
 ## \--- collapse \---
 
-## Risorse
+## titolo: Di cosa hai bisogno
 
 ### Hardware
 
-+ controller.svg.
++ Un computer in grado di eseguire Scratch 3
 
 ### Software
 
-+ CatchTheDotsResources.sb2
++ Scratch 3 (sia [online ](https://rpf.io/scratchon) sia [offline ](https://rpf.io/scratchoff){:target="_blank"})
 
-### download
+### Downloads
 
-+ Questo progetto consolida l'apprendimento delle tecniche di programmazione imparate precedentemente.
++ <[>Progetto iniziale offline](https://rpf.io/p/en/catch-the-dots-go){:target="_ blank"}
 
 \--- /collapse \---
 
