@@ -55,6 +55,6 @@ stop [all v]
 
 \--- task \---
 
-Gioca due volte al tuo gioco per verificare se il tuo punteggio viene salvato correttamente come il punteggio `record`{:class="block3variables"}.
+Gioca due volte al tuo gioco per verificare se il tuo punteggio viene salvato correttamente come il punteggio `punteggio record`{:class="block3variables"}.
 
 \--- /task \---
