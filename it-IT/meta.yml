@@ -14,7 +14,7 @@ steps:
   - 
     title: Guadagna punti o perdi vite
     completion:
-      - fatto
+      - engaged
   - 
     title: Più puntini
   - 
@@ -24,10 +24,10 @@ steps:
   - 
     title: Punteggio alto
     completion:
-      - interno
+      - internal
   - 
     title: 'Sfida: migliora il tuo gioco!'
   - 
     title: Cosa puoi fare adesso?
     completion:
-      - esterno
+      - external
