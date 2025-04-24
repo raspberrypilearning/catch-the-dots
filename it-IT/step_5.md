@@ -12,7 +12,7 @@ Crea una nuova `variabile`{:class="block3variables"} chiamata 'ritardo'.
 
 \--- task \---
 
-Vai nell'area degli script dello Stage e crea un nuovo script che imposti la variabile `ritardo`{:class="block3variables"} a `8` e poi riduca lentamente il valore di `delay`{:class="block3variables"} durante l'esecuzione del gioco.
+Vai nell'area degli script dello Stage e crea un nuovo script che imposti la variabile `ritardo`{:class="block3variables"} a `8` e poi riduca lentamente il valore di `ritardo`{:class="block3variables"} durante l'esecuzione del gioco.
 
 ![Sprite dello stage](images/stage-sprite.png)
 
