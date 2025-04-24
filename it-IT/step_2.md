@@ -10,7 +10,7 @@ Apri il progetto di partenza Scratch 'Cattura i puntini'.
 
 Se hai un account su Scratch, puoi farne una copia cliccando su **Remix**.
 
-Apri il progetto Scratch online 'Acchiappa Puntini' a <a href="http://jumpto.cc/dots-go" target="_blank">jumpto.cc/dots-go</a> o scaricalo da <a href="http://jumpto.cc/dots-get" target="_blank">jumpto.cc/dots-get</a> e poi apri se stai usando l'editore offline.
+**Offline:** scarica il progetto iniziale da [rpf.io/p/en/catch-the-dots-go](https://rpf.io/p/en/catch-the-dots-go), e poi aprilo con l'editor offline.
 
 Se devi scaricare e installare l'editor offline di Scratch, puoi trovarlo all'indirizzo [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
