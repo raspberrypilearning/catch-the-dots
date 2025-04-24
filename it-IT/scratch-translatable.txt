@@ -1,0 +1,13 @@
+posizione iniziale
+
+vite
+
+punteggio
+
+ritardo
+
+controlla il record
+
+record
+
+Controller
