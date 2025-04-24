@@ -1,57 +1,70 @@
+--- no-print ---
+
+Questa è la versione **Scratch 3** del progetto. C'è anche una versione [Scratch 2 del progetto](https://projects.raspberrypi.org/it-IT/projects/catch-the-dots-scratch2).
+
+--- /no-print ---
+
 ## Introduzione
 
-In questo progetto, i bambini impareranno a creare un gioco in cui il giocatore dovrà accoppiare i puntini colorati con le parti corrispondenti del controller.
+In questo progetto imparerai come creare un gioco in cui il giocatore deve abbinare punti colorati con il colore corretto della ruota del controller.
+
+--- no-print ---
+
+Utilizzare i tasti freccia sulla tastiera per ruotare la rotellina del controller e afferrare i punti in volo quando raggiungono il centro. Se perdi tre puntini, il gioco è finito.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/44942820/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1165746306/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/dots-final.png">
 </div>
 
+--- /no-print ---
+
+--- print-only ---
+
+![Screenshot puntini](images/dots-final.png)
+
+--- /print-only ---
 
 --- collapse ---
 ---
-title: Note per i Volontari
+title: Cosa imparerai
 ---
 
++ Come scegliere elementi casuali da un elenco
++ Come utilizzare le variabili per tenere traccia della velocità, delle vite e del punteggio del giocatore
 
-## Introduzione:
-In questo progetto, i bambini impareranno a creare un gioco in cui il giocatore dovrà accoppiare i puntini colorati con le parti corrispondenti del controller.
+--- /collapse ---
 
-## Risorse
-Per questo progetto, si può usare Scratch 2. Scratch 2 può essere usato online su [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) oppure può essere scaricato da [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) e usato in modalità offline.
+--- collapse ---
+---
+title: Di cosa hai bisogno
+---
 
-Il link 'Materiali del Progetto' per questo progetto contiene le seguenti risorse:
+### Hardware
 
-## Risorse Volontarie
++ Un computer in grado di eseguire Scratch 3
 
-Una versione completa di questo progetto può essere trovata <a href="http://scratch.mit.edu/projects/44942820/#editor">online</a>, o può essere scaricata cliccando il link 'Materiali del Progetto', che contiene:
+### Software
 
-+ CatchTheDots.sb2
++ Scratch 3 (sia [online](https://rpf.io/scratchon) sia [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-## Risorse Progetto
+### Downloads
 
-Per questo progetto, i soci del club possono utilizzare risorse esterne che non sono disponibili nella libreria Scratch:
++ <[>Progetto iniziale offline](https://rpf.io/p/it-IT/catch-the-dots-go){:target="_blank"}
 
-+ controller.svg.
+--- /collapse ---
 
-È bene assicurarsi che tutti i bambini abbiano accesso a una copia di queste risorse.
+--- collapse ---
+---
+title: Informazioni aggiuntive per gli educatori
+---
 
-Per i soci del club che non possono accedere a queste risorse del progetto, c'è un progetto Scratch con delle risorse esterne già caricate. Questo è disponibile online a [jumpto.cc/dots-resources](http://jumpto.cc/dots-resources), o nei materiali di progetto scaricabili, che contengono:
+--- no-print ---
 
-+ CatchTheDotsResources.sb2 
+Se intendete stampare questo progetto, cliccate su [Versione stampabile](https://projects.raspberrypi.org/it-IT/projects/catch-the-dots/print).
 
-## Obiettivi di apprendimento
-+ Questo progetto consolida l'apprendimento delle tecniche di programmazione imparate precedentemente.
+--- /no-print ---
 
-Questo progetto copre elementi contenuti nei seguenti filoni di [Raspberry Pi Digital Making Curriculum](https://rpf.io/curriculum):
-
-+ [Combinazione di costrutti di programmazione per la soluzione di problemi.](https://www.raspberrypi.org/curriculum/programming/builder)
-
-## Sfide
-+ "Ruotare a sinistra" - crea un codice per muovere il controller.
-+ "Altri puntini" - crea altri puntini colorati che devono essere accoppiati con la parte corretta del controller;  
-+ "Accelera movimento puntini" - usa una variabile per aumentare la velocità dei puntini durante la partita;
-+ "Migliora il tuo gioco!" + aggiunge nuovi puntini che manovrano le variabili di `punteggio`{:class="blockdata"}, `ritardo`{:class="blockdata"} e `velocità`{:class="blockdata"}; 
-+ "Menu partita" - crea un menu con vari scenari e tasti per muoverli tra di loro.
+Puoi trovare il [progetto completo qui](https://rpf.io/p/it-IT/catch-the-dots-get){:target="_blank"}.
 
 --- /collapse ---
