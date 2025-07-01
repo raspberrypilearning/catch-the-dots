@@ -19,6 +19,5 @@ steps:
     completion:
       - internal
   - title: 'Sfida: migliora il tuo gioco!'
-  - title: Cosa puoi fare adesso?
     completion:
       - external
