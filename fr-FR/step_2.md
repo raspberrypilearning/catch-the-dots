@@ -29,7 +29,7 @@ Ajoute du code au sprite du contrôleur pour le faire tourner à droite si le jo
 ```blocks3
     when flag clicked
 	forever
-		if <key (right arrow v) pressed?> then
+		if <key (flèche droite v) pressed?> then
 			turn right (3) degrees
 		end
 	end
@@ -63,7 +63,7 @@ Trouve le code qui vérifie si la touche fléchée droite est appuyée et fait t
 Voici les blocs dont tu as besoin:
 
 ```blocks3
-<key (space v) pressed?>
+<key (espace v) pressed?>
 
 turn left(15) degrees
 
@@ -81,10 +81,10 @@ Voici à quoi ton code devrait ressembler:
 ```blocks3
     when flag clicked
 	forever
-		if <key (right arrow v) pressed?> then
+		if <key (flèche droite v) pressed?> then
 			turn right (3) degrees
 		end
-+ 		if <key (left arrow v) pressed?> then
++ 		if <key (flèche gauche v) pressed?> then
 			turn left(3) degrees
 		end
 	end

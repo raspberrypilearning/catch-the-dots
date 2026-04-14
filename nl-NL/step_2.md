@@ -29,7 +29,7 @@ Voeg wat code toe aan de controller sprite om de sprite naar rechts te laten dra
 ```blocks3
     when flag clicked
 	  forever
-		  if <key (right arrow v) pressed?> then
+		  if <key (pijltje rechts v) pressed?> then
 			  turn right (3) degrees
 		  end
 	  end
@@ -63,11 +63,11 @@ Zoek de code die controleert of de rechter pijltjestoets is ingedrukt en de spri
 Dit zijn de blokken die je nodig hebt:
 
 ```blocks3
-<key (space v) pressed?>
+<key (spatiebalk v) pressed?>
 
-draai (15) graden naar links
+turn left(15) degrees
 
-als <> dan
+if <> then
 
 end
 ```
@@ -81,10 +81,10 @@ Zo zou je code eruit moeten zien:
 ```blocks3
     when flag clicked
 	  forever
-		  if <key (right arrow v) pressed?> then
+		  if <key (pijltje rechts v) pressed?> then
 			  turn right (3) degrees
 		  end
-+ 		if <key (left arrow v) pressed?> then
++ 		if <key (pijltje links v) pressed?> then
 			  turn left(3) degrees
 		  end
 	  end

@@ -27,10 +27,10 @@ Ajoute du code à ton bloc personnalisé pour que le bloc vérifie si la valeur 
 ![Sprite Scène](images/stage-sprite.png)
 
 ```blocks3
-    définir vérifier meilleur score
-    si <(score :: variables) > (meilleur score)> alors
-        mettre [meilleur score v] à (score :: variables)
-    fin
+    define vérifier meilleur score
+    if <(score :: variables) > (meilleur score)> then
+        set [meilleur score v] to (score :: variables)
+    end
 ```
 
 --- /task ---
@@ -43,9 +43,9 @@ Ajoute ton nouveau bloc personnalisé au script de la scène avant la fin du scr
 
 ```blocks3
 when flag clicked
-mettre (3) à [vies v]
-mettre (0) à [score v]
-attendre jusqu'à ce que <(vies) < (1)>
+set (3) to [vies v]
+set (0) to [score v]
+wait until <(vies) < (1)>
 + vérifier meilleur score :: custom
 stop [tout v]
 ```
