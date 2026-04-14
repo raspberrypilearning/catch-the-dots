@@ -27,10 +27,10 @@ Voeg code toe aan je aangepaste blok, zodat het blok controleert of de huidige w
 ![Speelveld sprite](images/stage-sprite.png)
 
 ```blocks3
-    definieer controleer topscore
-als <(score) > (topscore)> dan 
-maak [topscore v] (score)
-end
+	define controleer topscore
+	if <(score :: variables) > (topscore)> then
+		set [topscore v] to (score :: variables)
+	end
 ```
 
 --- /task ---
@@ -42,10 +42,10 @@ Voeg je nieuwe aangepaste blok toe aan het Speelveld script vóór het einde van
 ![Speelveld sprite](images/stage-sprite.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
-maak [levens v] (3)
-maak [score v] (0)
-wacht tot <(levens) < (1)>
+when flag clicked
+set [levens v] to (3)
+set [score v] to (0)
+wait until <(leves) < (1)>
 + controleer topscore :: custom
 stop [alle v]
 ```

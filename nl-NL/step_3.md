@@ -21,7 +21,7 @@ Voeg deze code toe aan je 'rode' sprite om elke paar seconden een nieuwe kloon t
 	  hide
 	  wait (2) seconds
 	  forever
-		  create clone of (myself v)
+		  create clone of (mijzelf v)
 		  wait (pick random (5) to (10)) secs
 	  end
 ```
@@ -59,13 +59,13 @@ Voeg deze code toe aan de 'stippen' sprite om elke nieuwe sprite kloon in een wi
 ![Rode stip sprite](images/red-sprite.png)
 
 ```blocks3
-    wanneer ik als kloon start
-ga naar x: (item (willekeurig getal tussen (1) en (2)) van [startposities v]) y: (item (willekeurig getal tussen (1) en (2)) van [startposities v])
-richt naar (controller v)
-verschijn
-herhaal tot <touching (controller v)?> 
-neem (1) stappen
-end
+	when I start as a clone
+	go to x: (item (pick random (1) to (2)) of [startposities v]) y: (item (pick random (1) to (2)) of [startposities v])
+	point towards (controller v)
+	show
+	repeat until <touching (controller v)?>
+		move (1) steps
+	end
 ```
 
 --- /task ---
@@ -93,9 +93,9 @@ Maak twee nieuwe variabelen genaamd `levens`{:class="block3variables"} en `score
 Voeg code aan het Speelveld toe om de `levens`{:class="block3variables"} variabele op `3` en de `score`{:class="block3variables"} op `0` te zetten aan het begin van het spel. ![Speelveld sprite](images/stage-sprite.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
-maak [levens v] (3)
-maak [score v] (0)
+when flag clicked
+set [levens v] to (3)
+set [score v] to (0)
 ```
 
 --- /task ---
@@ -107,8 +107,8 @@ Voeg deze code toe aan het eind van het script van het Speelveld om het spel te 
 ![Speelveld sprite](images/stage-sprite.png)
 
 ```blocks3
-    wacht tot <(levens) < [1]>
-stop [alle v]
+	wait until <(levens) < [1]>
+	stop [alle v]
 ```
 
 --- /task ---
@@ -128,15 +128,15 @@ Voeg vervolgens code toe om `1` toe te voegen aan `score`{:class="block3variable
 ![Rode stip sprite](images/red-sprite.png)
 
 ```blocks3
-    neem (5) stappen
-als <touching color [#FF0000]?> dan 
-verander [score v] met (1)
-start geluid (pop v) en wacht
-anders
-verander [levens v] met (-1)
-start geluid (Laser1 v) en wacht
-end
-verwijder deze kloon
+	move (5) steps
+	if <touching color [#FF0000]?> then
+		change [score v] by (1)
+		play sound (pop v) until done
+	else
+		change [levens v] by (-1)
+		play sound (Laser1 v) until done
+	end
+	delete this clone
 ```
 
 --- /task ---

@@ -43,19 +43,19 @@ Dit is de code die je nodig hebt voor het vinden en veranderen voor beide nieuwe
 Zo verander je de code voor de gele sprite:
 
 ```blocks3
-    als <raak ik kleur [#FFFF00]? :: +> dan
-verander [score v] met (1)
-start geluid (pop v)
-end
+	if <touching color [#FFFF00]? :: +> then
+        change [score v] by (1)
+        play sound (pop v)
+	end
 ```
 
 Dit is hoe je de code voor de blauwe sprite moet veranderen:
 
 ```blocks3
-    als <raak ik kleur [#0000FF]? :: +> dan
-verander [score v] met (1)
-start geluid (pop v)
-end
+	if <touching color [#0000FF]? :: +> then
+        change [score v] by (1)
+        play sound (pop v)
+	end
 ```
 
 --- /hint ---
@@ -73,9 +73,9 @@ Verander de code voor de 'gele' stip sprite zodat het vier seconden wacht met ve
 ![Gele stip](images/yellow-sprite.png)
 
 ```blocks3
-    wanneer groene vlag wordt aangeklikt
-verdwijn
-+ wacht (4) sec.
+	when flag clicked
+	hide
++	wait (4) seconds
 ```
 
 ![Blauwe stip](images/blue-sprite.png)

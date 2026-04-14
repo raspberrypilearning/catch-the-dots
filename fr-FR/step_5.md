@@ -38,8 +38,8 @@ Supprime le bloc de code qui fait attendre le jeu un nombre aléatoire de second
 ![capture d'écran](images/all-dots.png)
 
 ```blocks3
--   attendre (nombre aléatoire entre (5) et (10)) secondes
-    attendre (délai :: variables) secondes
+- 	wait (pick random (5) to (10)) secs
+	wait (délai :: variables) secs
 ```
 
 Fais cela pour les trois sprites point.

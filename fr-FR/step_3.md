@@ -17,13 +17,13 @@ Ajoute ce script à ton sprite «rouge» pour créer un nouveau clone du sprite 
 ![Sprite point rouge](images/red-sprite.png)
 
 ```blocks3
-    when flag clicked
-    cacher
-    attendre (2) secondes
-    répéter indéfiniment
-        créer un clone de (moi-même v)
-        attendre (nombre aléatoire entre (5) et (10)) secondes
-    fin
+	when flag clicked
+	hide
+	wait (2) seconds
+	forever
+		create clone of (moi-même v)
+		wait (pick random (5) to (10)) secs
+	end
 ```
 
 --- /task ---
@@ -59,10 +59,10 @@ Ajoute ce code au sprite « point » pour faire apparaître chaque nouveau clone
 ![Sprite point rouge](images/red-sprite.png)
 
 ```blocks3
-    quand je commence comme un clone
-    aller à x: (élément (nombre aléatoire entre (1) et (2)) de [positions de départ v]) y: (élément (nombre aléatoire entre (1) et (2)) de [positions de départ v])
-    s'orienter vers (contrôleur v)
-    montrer
+	when I start as a clone
+	go to x: (item (pick random (1) to (2)) of [positions de départ v]) y: (item (pick random (1) to (2)) of [positions de départ v])
+	point towards (contrôleur v)
+    show
     repeat until <touching (contrôleur v)?>
 		move (1) steps
 	end
@@ -109,7 +109,7 @@ Ajoute ce code à la fin du script de la scène pour que la partie se termine lo
 ![Sprite Scène](images/stage-sprite.png)
 
 ```blocks3
-    attendre jusqu'à ce que <(vies :: variables) < [1]>
+	wait until <(vies :: variables) < [1]>
     stop [tout v]
 ```
 

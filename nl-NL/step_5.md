@@ -17,12 +17,12 @@ Ga naar het scripts gebied van het Speelveld en maak een nieuw script aan dat de
 ![Speelveld sprite](images/stage-sprite.png)
 
 ```blocks3
-    wanneer groene vlag wordt aangeklikt
-maak [vertraging v] (8)
-herhaal tot < (vertraging) = (2)>
-wacht (10) sec.
-verander [vertraging v] met (-0.5)
-end
+	when flag clicked
+	set [vertraging v] to (8)
+	repeat until < (vertraging) = (2)>
+		wait (10) seconds
+		change [vertraging v] by (-0.5)
+	end
 ```
 
 --- /task ---
@@ -38,8 +38,8 @@ Verwijder het codeblok waardoor het spel een willekeurig aantal seconden wacht t
 ![schermafbeelding](images/all-dots.png)
 
 ```blocks3
--   wacht (willekeurig getal tussen (5) en (10)) sec.
-    wacht (vertraging) sec.
+- 	wait (pick random (5) to (10)) secs
+	wait (vertraging :: variables) secs
 ```
 
 Doe dit voor alle drie de stip sprites.
