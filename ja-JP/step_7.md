@@ -27,10 +27,10 @@
 ![ステージのスプライト](images/stage-sprite.png)
 
 ```blocks3
-ていぎ ハイスコアをチェック
-もし <(スコア :: variables) > (ハイスコア)> なら 
-  [ハイスコア v] を (スコア :: variables) にする
-end
+	define ハイスコアをチェック
+	if <(スコア :: variables) > (ハイスコア)> then 
+		set [ハイスコア v] をto (スコア :: variables)
+	end
 ```
 
 --- /task ---
@@ -42,12 +42,12 @@ end
 ![ステージのスプライト](images/stage-sprite.png)
 
 ```blocks3
-⚑ がおされたとき
-[ライフ v] を (3) にする
-[スコア v] を (0) にする
-< (ライフ) < (1)> まで待つ
+when flag clicked
+set [ライフ v] to (3)
+set [スコア v] to (0)
+wait until <(ライフ) < (1)>
 + ハイスコアをチェック :: custom
-ストップ [全て v]
+[すべてを止める v]
 ```
 
 --- /task ---

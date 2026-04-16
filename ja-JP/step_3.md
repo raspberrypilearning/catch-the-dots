@@ -17,13 +17,13 @@
 ![赤いドットのスプライト](images/red-sprite.png)
 
 ```blocks3
-    ⚑ がおされたとき
-    隠す
-    (2) 秒待つ
-    ずっと 
-        (自分自身 v) のクローンを作る
-        ((5) から (10) までの乱数) 秒待つ
-    end
+	when flag clicked
+	hide
+	wait (2) seconds
+	forever
+		create clone of (自分自身 v)
+		wait (pick random (5) to (10)) secs
+	end
 ```
 
 --- /task ---
@@ -59,13 +59,13 @@
 ![赤いドットのスプライト](images/red-sprite.png)
 
 ```blocks3
-    クローンされたとき
-    x座標を ([開始位置 v] の ((1) から (2) までの乱数) 番目) 、y座標を ([開始位置 v] の ((1) から (2) までの乱数) 番目) にする
-    (コントローラー v) へ向ける
-    表示する
-    <(コントローラー v) にふれた> までくりかえす 
-        (1) 歩動かす
-    end
+	when I start as a clone
+	go to x: (item (pick random (1) to (2)) of [開始位置 v]) y: (item (pick random (1) to (2)) of [開始位置 v])
+	point towards (コントローラー v)
+	show
+	repeat until <touching (コントローラー v)?>
+		move (1) steps
+	end
 ```
 
 --- /task ---
@@ -93,9 +93,9 @@
 ステージにコードを追加して、`ライフ`{:class="block3variables"}変数を`3`設定します、さらにゲームの開始時に`スコア`{:class="block3variables"}を`0`設定します。 ![ステージのスプライト](images/stage-sprite.png)
 
 ```blocks3
-⚑ がおされたとき
-[ライフ v] を (3) にする
-[スコア v] を (0) にする
+when flag clicked
+set [ライフ v] to (3)
+set [スコア v] to (0)
 ```
 
 --- /task ---
@@ -107,8 +107,8 @@
 ![ステージのスプライト](images/stage-sprite.png)
 
 ```blocks3
-    < (ライフ :: variables) < [1]> まで待つ
-    [すべてを止める v]
+	wait until <(ライフ :: variables) < [1]>
+	stop [すべてを止める v]
 ```
 
 --- /task ---
@@ -128,15 +128,15 @@
 ![赤いドットのスプライト](images/red-sprite.png)
 
 ```blocks3
-    (5) 歩動かす
-    もし <[#FF0000] いろにふれた> なら 
-        [スコア v] を (1) ずつ変える
-        終わるまで (pop v) の音を鳴らす
-    でなければ 
-        [ライフ v] を (-1) ずつ変える
-        終わるまで (Laser1 v) の音を鳴らす
-    end
-このクローンを削除する
+	move (5) steps
+	if <touching color [#FF0000]?> then
+		change [スコア v] by (1)
+		play sound (pop v) until done
+	else
+		change [ライフ v] by (-1)
+		play sound (Laser1 v) until done
+	end
+	delete this clone
 ```
 
 --- /task ---

@@ -30,11 +30,11 @@
 ![スクリーンショット](images/dots-more-dots.png)
 
 ```blocks3
-    もし <[#FF0000] いろにふれた> なら 
-    [スコア v] を (1) ずつ変える
-    (pop v) の音を鳴らす
-  . . .
-    end
+	if <touching color [#FF0000]?> then
+		change [スコア v] by (1)
+		play sound (pop v)
+        ...
+	end
 ```
 
 --- /hint ---
@@ -44,18 +44,19 @@
 これは、黄色のスプライトのコードを変更する方法です。
 
 ```blocks3
-    もし <[#FFFF00] いろにふれた> なら
-    [スコア v] を (1) ずつ変える
-    (pop v) の音を鳴らす
+	if <touching color [#FFFF00]? :: +> then
+        change [スコア v] by (1)
+        play sound (pop v)
+	end
 ```
 
 これが、青色のスプライトのコードを変更する方法です。
 
 ```blocks3
-    もし <[#0000FF] いろにふれた> なら
-    [スコア v] を (1) ずつ変える
-    (pop v) の音を鳴らす
-end
+	if <touching color [#0000FF]? :: +> then
+        change [スコア v] by (1)
+        play sound (pop v)
+	end
 ```
 
 --- /hint ---
@@ -73,9 +74,9 @@ end
 ![黄色のドット](images/yellow-sprite.png)
 
 ```blocks3
-    ⚑ がおされたとき
-    隠す
-+   (4) 秒待つ
+	when flag clicked
+	hide
++	wait (4) seconds
 ```
 
 ![青色のドット](images/blue-sprite.png)
