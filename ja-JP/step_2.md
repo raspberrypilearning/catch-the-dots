@@ -27,12 +27,12 @@ Scratchオフラインエディタをダウンロードしてインストール�
 ![コントローラーのスプライト](images/controller-sprite.png)
 
 ```blocks3
-    ⚑ がおされたとき
-    ずっと
-        もし <(みぎむきやじるし v) キーがおされた> なら
-            ↻ (3) どまわす
-    end
-end
+	when flag clicked
+	forever
+		if <key (みぎむきやじるし v) pressed?> then
+			turn right (3) degrees
+		end
+	end
 ```
 
 --- /task ---
@@ -63,11 +63,11 @@ end
 必要なブロックは次のとおりです。
 
 ```blocks3
-<(スペース v) キーがおされた>
+<key (スペース v) pressed?>
 
-↺ (15) どまわす
+turn left(15) degrees
 
-もし<> なら
+if <> then
 
 end
 ```
@@ -79,15 +79,15 @@ end
 コードは次のようになります。
 
 ```blocks3
-    ⚑ がおされたとき
-    ずっと
-        もし <(みぎむきやじるし v) キーがおされた> なら
-            ↻ (3) どまわす
-        end
-+       もし <(ひだりむきやじるし v) キーがおされた> なら
-            ↺ (3) どまわす
-        end
-    end
+	when flag clicked
+	forever
+		if <key (みぎむきやじるし v) pressed?> then
+			turn right (3) degrees
+		end
++ 		if <key (ひだりむきやじるし v) pressed?> then
+			turn left(3) degrees
+		end
+	end
 ```
 
 --- /hint ---

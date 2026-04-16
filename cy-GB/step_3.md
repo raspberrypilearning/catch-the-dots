@@ -2,24 +2,28 @@
 
 Fe wnawn ni ychwanegu dotiau i’r chwareuwr eu casglu gyda’r rheolwr.
 
---- task --- Bydd angen creu corlun newydd o’r enw ‘coch’. Fe ddylai’r ciplun yma fod yn ddot bach coch.
+--- task ---
+
+Bydd angen creu corlun newydd o’r enw ‘coch’. Fe ddylai’r ciplun yma fod yn ddot bach coch.
 
 ![Corlun dot coch](images/dots-red.png)
 
 --- /task ---
 
---- task --- Ychwanega’r sgript yma i dy giplun dot ‘coch’, i greu clôn bob ychydig o eiliadau:
+--- task ---
+
+Ychwanega’r sgript yma i dy giplun dot ‘coch’, i greu clôn bob ychydig o eiliadau:
 
 ![Corlun dot coch](images/red-sprite.png)
 
 ```blocks3
-    pan fo'r flag werdd yn cael ei glicio
-cuddio
-aros (2) eiliad
-am byth 
-  creu clôn o (fi fy hun v)
-  aros (dewis ar hap (5) i (10)) eiliad
-end
+	when flag clicked
+	hide
+	wait (2) seconds
+	forever
+		create clone of (fi fy hun v)
+		wait (pick random (5) to (10)) secs
+	end
 ```
 
 --- /task ---
@@ -31,6 +35,7 @@ Rwyt ti mynd i ychwanegu côd i wneud i bob clôn ymddangos ymhob un cornel o'r 
 ![sgrinlun](images/dots-start.png)
 
 --- task ---
+
 I wneud hyn, bydd angen yn gyntaf creu rhestr o’r enw `safle cychwyn`{:class="block3variables"} a chlicio'r eicon `(+)` yn y rhestr i ychwanegu `-180`{:class="block3variables"} a `180`{:class="block3variables"}.
 
 ![Corlun dot coch](images/red-sprite.png)
@@ -41,42 +46,56 @@ I wneud hyn, bydd angen yn gyntaf creu rhestr o’r enw `safle cychwyn`{:class="
 
 Fe alli di guddio'r rhestr trwy ddad-glicio'r bocs yma:
 
-![Cuddio'r rhestr](images/hide-list.png) --- /task ---
+![Cuddio'r rhestr](images/hide-list.png)
+
+--- /task ---
 
 Sylwa fod y cyfesur ar gyfer pob cornel o'r llwyfan yn gyfuniad o `180` a `-180`. Mae hyn yn golygu dy fod yn gallu dewis y rhestr i ddewis cornel o'r Llwyfan ar hap.
 
---- task --- Ychwanega’r côd yma i’r ciplun ‘dot’, fel bod pob clôn newydd yn symud i gornel ar hap ac yna’n symud yn araf tuag at y rheolwr.
+--- task ---
+
+Ychwanega’r côd yma i’r ciplun ‘dot’, fel bod pob clôn newydd yn symud i gornel ar hap ac yna’n symud yn araf tuag at y rheolwr.
 
 ![Corlun dot coch](images/red-sprite.png)
 
 ```blocks3
-    pan rwy'n dechrau fel clôn
-mynd i x: (eitem (dewis ar hap (1) i (2)) o [safle cychwyn v]) y: (eitem (dewis ar hap (1) i (2)) o [safle cychwyn v])
-pwyntio tuag at (rheolwr v)
-dangos
-ailadrodd hyd at <cyffwrdd (rheolwr v) ?> 
-  symud (1) cam
-end
+	when I start as a clone
+	go to x: (item (pick random (1) to (2)) of [safle cychwyn v]) y: (item (pick random (1) to (2)) of [safle cychwyn v])
+	point towards (rheolwr v)
+	show
+	repeat until <touching (rheolwr v)?>
+		move (1) steps
+	end
 ```
+
 --- /task ---
+
 Mae’r côd uchod unai yn dewis `-180` neu `180` ar gyfer safle yr x a y, sy’n golygu bod pob clôn yn cychwyn yn un cornel o’r llwyfan.
 
---- task --- Profa dy brosiect. Fe ddyle ti weld llawer o ddotiau coch yn ymddangos ymhob cornel o’r sgrin, ac yn symud yn araf tuag at y rheolwr.
+--- task ---
 
-![sgrinlun](images/dots-red-test.png) --- /task ---
+Profa dy brosiect. Fe ddyle ti weld llawer o ddotiau coch yn ymddangos ymhob cornel o’r sgrin, ac yn symud yn araf tuag at y rheolwr.
+
+![sgrinlun](images/dots-red-test.png)
+
+--- /task ---
 
 --- task ---
+
 Bydd angen creu 2 newidyn newydd o’r enw `bywydau`{:class="block3variables"} a `sgôr`{:class="block3variables"}.
 
-![Corlun dot coch](images/red-sprite.png) --- /task ---
+![Corlun dot coch](images/red-sprite.png)
+
+--- /task ---
 
 --- task ---
+
 Ychwanega côd i dy lwyfan i osod y newidyn `bywydau`{:class="block3variables"} i `3` a’r `sgôr`{:class="block3variables"} i `0` ar ddechrau’r gêm. ![Corlun llwyfan](images/stage-sprite.png)
 
 ```blocks3
-pan fo'r flag werdd yn cael ei glicio
-gosod [bywydau v] i (3)
-gosod [sgôr v] i (0)
+when flag clicked
+set [bywydau v] to (3)
+set [sgôr v] to (0)
 ```
 
 --- /task ---
@@ -87,8 +106,8 @@ Ychwanega'r côd yma i ddiwedd sgript y Llwyfan i wneud i'r gêm orffen pan mae'
 ![Corlun llwyfan](images/stage-sprite.png)
 
 ```blocks3
-    aros hyd at <(bywydau :: variables) < [1]>
-aros [y cyfan v]
+	wait until <(bywydau :: variables) < [1]>
+	stop [y cyfan v]
 ```
 
 --- /task ---
@@ -96,6 +115,7 @@ aros [y cyfan v]
 Fe ddylai'r chwareuwr ennill pwyntiau ar gyfer dal dotiau, a cholli bywydau am fethu â dal dotiau. Yr unig ffordd i ddal dot yw ei fod yn gweddu'r un lliw â'r rheolwr.
 
 --- task ---
+
 Cer yn ôl i Sgriptiau'r corlun dot 'coch' i ychwanegu blociau côd i ddiwedd y sgript `pan dechreuaf fel clôn`{:class="block3control"}.
 
 Yn gyntaf, gwna i'r clôn `symud 5 cam`{:class="block3motion"} fel ei fod yn gorgyffwrdd y rheolwr.
@@ -107,15 +127,15 @@ Yna ychwanega gôd i unai ychwanegu `1` i'r `sgôr`{:class="block3variables"} os
 ![Corlun dot coch](images/red-sprite.png)
 
 ```blocks3
-    symud (5) cam
-os <cyffwrdd lliw [#FF0000] ?> yna 
-  newid [sgôr v] gan (1)
-  chwarae sain (pop v) tan y diwedd
-fel arall 
-  newid [bywydau v] gan (-1)
-  chwarae sain (Laser1 v) tan y diwedd
-end
-dileu y clôn hwn
+	move (5) steps
+	if <touching color [#FF0000]?> then
+		change [sgôr v] by (1)
+		play sound (pop v) until done
+	else
+		change [bywydau v] by (-1)
+		play sound (Laser1 v) until done
+	end
+	delete this clone
 ```
 
 --- /task ---

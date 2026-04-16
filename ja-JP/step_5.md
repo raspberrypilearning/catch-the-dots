@@ -17,12 +17,12 @@
 ![ステージのスプライト](images/stage-sprite.png)
 
 ```blocks3
-    ⚑ がおされたとき
-    [遅れ v] を (8) にする
-    < (遅れ) = (2)> まで繰り返す 
-    (10) 秒待つ
-    [遅れ v] を (-0.5) ずつ変える
-end
+	when flag clicked
+	set [遅れ v] to (8)
+	repeat until < (遅れ) = (2)>
+		wait (10) seconds
+		change [遅れ v] by (-0.5)
+	end
 ```
 
 --- /task ---
@@ -38,8 +38,8 @@ end
 ![スクリーンショット](images/all-dots.png)
 
 ```blocks3
--   ((5) から (10) までのらんすう) びょうまつ
-    (遅れ :: variables) びょうまつ
+- 	wait (pick random (5) to (10)) secs
+	wait (遅れ :: variables) secs
 ```
 
 これを3つのドットスプライトすべてに対して行います。

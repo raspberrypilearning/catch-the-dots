@@ -2,7 +2,9 @@
 
 Fe wnawn ni ddechrau trwy greu rheolwr, fydd yn cael ei ddefnyddio i gasglu’r dotiau.
 
---- task --- Agora'r prosiect cychwynnol Scratch 'Dal dotiau'.
+--- task ---
+
+Agora'r prosiect cychwynnol Scratch 'Dal dotiau'.
 
 **Arlein:** agora brosiect Scratch newydd yma [rpf.io/dots-on](https://rpf.io/dots-on){:target="_blank"}.
 
@@ -19,55 +21,75 @@ Fe ddyle ti weld ciplun rheolwr:
 ![sgrinlun](images/dots-controller.png)
 
 --- task ---
+
 Ychwanega gôd i dy reolwr fel fod y corlun yn troi i’r dde pan fyddi di’n gwasgu y bysell saeth dde:
 
 ![Corlun rheolwr](images/controller-sprite.png)
 
 ```blocks3
-    pan fo'r flag werdd yn cael ei glicio
-am byth 
-  os <bysell (saeth de v) wedi ei phwyso?> yna 
-    troi (3) gradd i'r dde
-  end
-end
+	when flag clicked
+	forever
+		if <key (saeth de v) pressed?> then
+			turn right (3) degrees
+		end
+	end
 ```
 
 --- /task ---
 
---- task --- Profa dy gôd. Fe ddylai dy reolwr droi i’r dde pan wyt ti'n gwasgu'r bysell saeth dde. --- /task ---
+--- task ---
 
---- task --- Ychwanega gôd i dy reolwr fel fod y corlun yn troi i’r chwith pan fyddi di’n gwasgu y bysell saeth chwith.
+Profa dy gôd. Fe ddylai dy reolwr droi i’r dde pan wyt ti'n gwasgu'r bysell saeth dde.
+
+--- /task ---
+
+--- task ---
+
+Ychwanega gôd i dy reolwr fel fod y corlun yn troi i’r chwith pan fyddi di’n gwasgu y bysell saeth chwith.
 
 ![Corlun rheolwr](images/controller-sprite.png)
 
 --- hints ---
- --- hint ---
+--- hint ---
 
 Tyrd o hyd i'r côd sydd yn gwirio os yw'r botwm saeth dde wedi ei wasgu a gwneud i'r corlun droi i'r dde. Wyt ti'n gallu copio'r côd yma, a newid y copi fel ei fod yn gwirio os yw'r saeth chwith wedi ei wasgu i wneud i'r corlun droi i'r chwith?
 
---- /hint --- --- hint --- Dyma'r blociau rwyt ti eu hangen:
+--- /hint ---
+
+--- hint ---
+
+Dyma'r blociau rwyt ti eu hangen:
 
 ```blocks3
-<bysell (bwlch v) wedi ei phwyso?>
+<key (bwlch v) pressed?>
 
-troi (15) gradd i'r chwith
+turn left(15) degrees
 
-os <> yna
+if <> then
+
 end
 ```
 
---- /hint --- --- hint --- Dyma sut ddylai dy gôd edrych:
+--- /hint ---
+
+--- hint ---
+
+Dyma sut ddylai dy gôd edrych:
 
 ```blocks3
-    pan fo'r flag werdd yn cael ei glicio
-    am byth 
-        os <bysell (saeth de v) wedi ei phwyso?> yna 
-          troi (3) gradd i'r dde
-        end
-+       os <bysell (saeth chwith v) wedi ei phwyso?> yna 
-          troi (3) gradd i'r chwith
-        end
-    end
+	when flag clicked
+	forever
+		if <key (saeth de v) pressed?> then
+			turn right (3) degrees
+		end
++ 		if <key (saeth chwith v) pressed?> then
+			turn left(3) degrees
+		end
+	end
 ```
 
---- /hint --- --- /hints --- --- /task ---
+--- /hint ---
+
+--- /hints ---
+
+--- /task ---
