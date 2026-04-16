@@ -29,7 +29,7 @@ Scratchオフラインエディタをダウンロードしてインストール�
 ```blocks3
 	when flag clicked
 	forever
-		if <key <(みぎむきやじるし v) pressed?> then
+		if <key (みぎむきやじるし v) pressed?> then
 			turn right (3) degrees
 		end
 	end
@@ -81,10 +81,10 @@ end
 ```blocks3
 	when flag clicked
 	forever
-		if <key <(みぎむきやじるし v) pressed?> then
+		if <key (みぎむきやじるし v) pressed?> then
 			turn right (3) degrees
 		end
-+ 		if <key <(ひだりむきやじるし v) pressed?> then
++ 		if <key (ひだりむきやじるし v) pressed?> then
 			turn left(3) degrees
 		end
 	end

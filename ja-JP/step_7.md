@@ -29,7 +29,7 @@
 ```blocks3
 	define ハイスコアをチェック
 	if <(スコア :: variables) > (ハイスコア)> then 
-		set [ハイスコア v] をto (スコア :: variables)
+		set [ハイスコア v] to (スコア :: variables)
 	end
 ```
 
@@ -47,7 +47,7 @@ set [ライフ v] to (3)
 set [スコア v] to (0)
 wait until <(ライフ) < (1)>
 + ハイスコアをチェック :: custom
-[すべてを止める v]
+stop [すべてを止める v]
 ```
 
 --- /task ---

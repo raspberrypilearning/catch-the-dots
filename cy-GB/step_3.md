@@ -132,7 +132,7 @@ Yna ychwanega gôd i unai ychwanegu `1` i'r `sgôr`{:class="block3variables"} os
 		change [sgôr v] by (1)
 		play sound (pop v) until done
 	else
-		change [bywydau v] gan (-1)
+		change [bywydau v] by (-1)
 		play sound (Laser1 v) until done
 	end
 	delete this clone
