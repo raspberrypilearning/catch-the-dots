@@ -50,29 +50,6 @@ Add code to the controller sprite to make the sprite turn left if the player pre
 ![Controller sprite](images/controller-sprite.png)
 
 --- hints ---
-
---- hint ---
-
-Find the code that checks whether the right arrow key is pressed and makes the sprite turn right. Can you add a copy of this code, and change the copy so it checks whether the left arrow key is pressed and makes the sprite turn left?
-
---- /hint ---
-
---- hint ---
-
-Here are the blocks you need:
-
-```blocks3
-<key (space v) pressed?>
-
-turn left(15) degrees
-
-if <> then
-
-end
-```
-
---- /hint ---
-
 --- hint ---
 
 Here is what your code should look like:
@@ -90,7 +67,7 @@ Here is what your code should look like:
 ```
 
 --- /hint ---
-
 --- /hints ---
+
 
 --- /task ---

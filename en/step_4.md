@@ -21,23 +21,6 @@ Change the code of each sprite so that the player has to match dot clone to the 
 ![screenshot](images/dots-all-test.png)
 
 --- hints ---
-
---- hint ---
-
-This is the code you need to find and alter for both new sprites:
-
-![screenshot](images/dots-more-dots.png)
-
-```blocks3
-	if <touching color [#FF0000]?> then
-		change [score v] by (1)
-		play sound (pop v)
-        ...
-	end
-```
-
---- /hint ---
-
 --- hint ---
 
 This is how you need to change the code for the yellow sprite:
@@ -59,8 +42,8 @@ This is how you need to change the code for the blue sprite:
 ```
 
 --- /hint ---
-
 --- /hints ---
+
 
 --- /task ---
 
