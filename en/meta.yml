@@ -15,9 +15,11 @@ steps:
 - title: More dots
 - title: Increase the difficulty
 - title: 'Challenge: faster dots'
+  challenge: true
 - title: High score
   completion:
   - internal
 - title: 'Challenge: improve your game!'
+  challenge: true
   completion:
   - external
